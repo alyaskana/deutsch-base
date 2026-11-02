@@ -1,0 +1,408 @@
+{
+  "generated_for": "2026-11-02",
+  "rules": {
+    "window_days": 21,
+    "stuck": {
+      "min_errors_in_window": 2,
+      "correct_needed_after_flag": 3
+    },
+    "solid": {
+      "last_n_correct": 5,
+      "min_span_days": 7
+    }
+  },
+  "summary": {
+    "grammar": {
+      "stuck": 7,
+      "learning": 0,
+      "solid": 0,
+      "new": 36
+    },
+    "words": {
+      "stuck": 0,
+      "learning": 0,
+      "solid": 0,
+      "new": 2
+    }
+  },
+  "grammar": [
+    {
+      "id": "perfekt",
+      "title_ru": "Прошедшее время Perfekt",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "partizip2-prefixes",
+      "title_ru": "Partizip II с приставками",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "strong-verbs",
+      "title_ru": "Сильные и неправильные глаголы: три формы",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "stuck",
+      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 1
+      },
+      "last_date": null,
+      "last_result": "flagged"
+    },
+    {
+      "id": "praeteritum-war-hatte",
+      "title_ru": "Прошедшее war / hatte",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "modal-verbs",
+      "title_ru": "Модальные глаголы",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "modal-koennen",
+      "title_ru": "können — мочь, уметь",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "modal-wollen",
+      "title_ru": "wollen — хотеть",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "modal-muessen",
+      "title_ru": "müssen — быть должным",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "modal-sollen",
+      "title_ru": "sollen — следует",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "modal-duerfen",
+      "title_ru": "dürfen — разрешено",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "modal-moegen-moechten",
+      "title_ru": "mögen / möchten — нравиться / хотелось бы",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "separable-verbs",
+      "title_ru": "Отделяемые приставки",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "verb-government",
+      "title_ru": "Управление глаголов (Akk / Dat)",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "imperativ",
+      "title_ru": "Повелительное наклонение (du / ihr / Sie)",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "personal-pronouns",
+      "title_ru": "Личные местоимения: Nom / Akk / Dat",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "personal-pronouns-akk",
+      "title_ru": "Личные местоимения в Akkusativ",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "personal-pronouns-dat",
+      "title_ru": "Личные местоимения в Dativ",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "possessive-pronouns",
+      "title_ru": "Притяжательные в падежах",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "stuck",
+      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 1
+      },
+      "last_date": null,
+      "last_result": "flagged"
+    },
+    {
+      "id": "wehtun-dativ",
+      "title_ru": "Болит: wehtun + Dativ",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "case-choice",
+      "title_ru": "Выбор падежа в речи",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "stuck",
+      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 1
+      },
+      "last_date": null,
+      "last_result": "flagged"
+    },
+    {
+      "id": "noun-gender",
+      "title_ru": "Род существительных",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "stuck",
+      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 1
+      },
+      "last_date": null,
+      "last_result": "flagged"
+    },
+    {
+      "id": "articles-plural",
+      "title_ru": "Артикли и множественное число",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "kein-nicht",
+      "title_ru": "Отрицание kein / nicht",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "adjective-endings",
+      "title_ru": "Окончания прилагательных",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "adj-endings-ein",
+      "title_ru": "Окончания после ein-типа",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "adj-endings-der",
+      "title_ru": "Окончания после der-типа",
+      "level": "A1",
+      "covered_with_tutor": false,
+      "status": "new"
+    },
+    {
+      "id": "adj-endings-zero",
+      "title_ru": "Окончания без артикля",
+      "level": "A1",
+      "covered_with_tutor": false,
+      "status": "new"
+    },
+    {
+      "id": "komparativ-superlativ",
+      "title_ru": "Степени сравнения",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "welch-dies",
+      "title_ru": "Какой / этот: welch- / dies-",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "wohin-nach-in-auf-zu",
+      "title_ru": "Куда: nach / in / auf / zu",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "mit-dativ",
+      "title_ru": "mit + Dativ (транспорт)",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "wo-wohin",
+      "title_ru": "Предлоги места: где — Dativ, куда — Akkusativ",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "stuck",
+      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 1
+      },
+      "last_date": null,
+      "last_result": "flagged"
+    },
+    {
+      "id": "prepositions-by-case",
+      "title_ru": "Предлоги по падежам",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "stuck",
+      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 1
+      },
+      "last_date": null,
+      "last_result": "flagged"
+    },
+    {
+      "id": "liegen-legen",
+      "title_ru": "Где лежит / куда класть",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "time-prepositions",
+      "title_ru": "Предлоги времени",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "dates-ordinals",
+      "title_ru": "Даты и порядковые числительные",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "clock-time",
+      "title_ru": "Время на часах, Uhr и Stunde",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "word-order",
+      "title_ru": "Порядок слов",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "conj-aber-denn-und-oder",
+      "title_ru": "Союзы aber / denn / und / oder",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "conj-dann-darum",
+      "title_ru": "Наречия-связки dann / darum",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "indirect-questions",
+      "title_ru": "Косвенный вопрос",
+      "level": "A1",
+      "covered_with_tutor": false,
+      "status": "new"
+    },
+    {
+      "id": "w-questions",
+      "title_ru": "Вопросительные слова",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "stuck",
+      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 1
+      },
+      "last_date": null,
+      "last_result": "flagged"
+    },
+    {
+      "id": "email-format",
+      "title_ru": "Обращение и подпись в письме",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "new"
+    }
+  ],
+  "words": [
+    {
+      "id": "w-abholen",
+      "lemma": "abholen",
+      "ru": "забирать",
+      "status": "new"
+    },
+    {
+      "id": "w-spiegel",
+      "lemma": "der Spiegel",
+      "ru": "зеркало",
+      "status": "new"
+    }
+  ]
+}

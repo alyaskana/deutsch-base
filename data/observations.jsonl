@@ -1,1 +1,7 @@
-{"id":"o-2026-10-20-001","date":"2026-10-20","source":"tutor_review","target":{"type":"grammar","id":"wo-wohin"},"result":"flagged","note_ru":"Ревью A1: иногда путает wo/wohin"}
+{"id": "o-review-a1-001", "source": "tutor_review", "target": {"type": "grammar", "id": "possessive-pronouns"}, "result": "flagged", "note_ru": "Ревью A1 с репетитором, октябрь 2026: Притяжательные в падежах"}
+{"id": "o-review-a1-002", "source": "tutor_review", "target": {"type": "grammar", "id": "case-choice"}, "result": "flagged", "note_ru": "Ревью A1 с репетитором, октябрь 2026: Выбор падежа в речи (таблицы окончаний знает)"}
+{"id": "o-review-a1-003", "source": "tutor_review", "target": {"type": "grammar", "id": "noun-gender"}, "result": "flagged", "note_ru": "Ревью A1 с репетитором, октябрь 2026: Выбор рода существительного в речи"}
+{"id": "o-review-a1-004", "source": "tutor_review", "target": {"type": "grammar", "id": "strong-verbs"}, "result": "flagged", "note_ru": "Ревью A1 с репетитором, октябрь 2026: Сильные/неправильные глаголы выучены не до конца"}
+{"id": "o-review-a1-005", "source": "tutor_review", "target": {"type": "grammar", "id": "prepositions-by-case"}, "result": "flagged", "note_ru": "Ревью A1 с репетитором, октябрь 2026: Некоторые предлоги"}
+{"id": "o-review-a1-006", "source": "tutor_review", "target": {"type": "grammar", "id": "w-questions"}, "result": "flagged", "note_ru": "Ревью A1 с репетитором, октябрь 2026: W-вопросы не до автоматизма"}
+{"id": "o-review-a1-007", "source": "tutor_review", "target": {"type": "grammar", "id": "wo-wohin"}, "result": "flagged", "note_ru": "Ревью A1 с репетитором, октябрь 2026: Иногда путает wo / wohin"}

@@ -5,35 +5,135 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["id", "lemma", "pos", "ru"],
+    "required": [
+      "id",
+      "lemma",
+      "pos",
+      "ru"
+    ],
     "properties": {
-      "id": { "$ref": "common.schema.json#/$defs/id" },
-      "lemma": { "type": "string", "description": "Без артикля: Spiegel, abholen, auf jeden Fall" },
-      "pos": { "enum": ["noun", "verb", "adj", "adv", "prep", "conj", "pron", "num", "phrase", "particle"] },
-      "article": { "enum": ["der", "die", "das", null], "description": "Только для noun" },
-      "plural": { "type": ["string", "null"], "description": "Полная форма: Spiegel, Plätze; null — нет мн. ч." },
-      "plural_only": { "type": "boolean" },
-      "ru": { "type": "string" },
-      "en": { "type": "string" },
-      "governs": { "enum": ["Akk", "Dat", "Akk+Dat", "Gen", null], "description": "Управление глагола или предлога" },
-      "with_prep": { "type": "string", "description": "Связанный предлог: abholen von + Dat" },
+      "id": {
+        "$ref": "common.schema.json#/$defs/id"
+      },
+      "lemma": {
+        "type": "string",
+        "description": "Без артикля: Spiegel, abholen, auf jeden Fall"
+      },
+      "pos": {
+        "enum": [
+          "noun",
+          "verb",
+          "adj",
+          "adv",
+          "prep",
+          "conj",
+          "pron",
+          "num",
+          "phrase",
+          "particle"
+        ]
+      },
+      "article": {
+        "enum": [
+          "der",
+          "die",
+          "das",
+          null
+        ],
+        "description": "Только для noun"
+      },
+      "plural": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Полная форма: Spiegel, Plätze; null — нет мн. ч."
+      },
+      "plural_only": {
+        "type": "boolean"
+      },
+      "ru": {
+        "type": "string"
+      },
+      "en": {
+        "type": "string"
+      },
+      "governs": {
+        "enum": [
+          "Akk",
+          "Dat",
+          "Akk+Dat",
+          "Gen",
+          null
+        ],
+        "description": "Управление глагола или предлога"
+      },
+      "with_prep": {
+        "type": "string",
+        "description": "Связанный предлог: abholen von + Dat"
+      },
       "verb_forms": {
         "type": "object",
         "properties": {
-          "present_3sg": { "type": "string" },
-          "praeteritum": { "type": "string" },
-          "partizip2": { "type": "string" },
-          "aux": { "enum": ["haben", "sein"] },
-          "separable_prefix": { "type": ["string", "null"] },
-          "strong": { "type": "boolean" }
+          "present_3sg": {
+            "type": "string"
+          },
+          "praeteritum": {
+            "type": "string"
+          },
+          "partizip2": {
+            "type": "string"
+          },
+          "aux": {
+            "enum": [
+              "haben",
+              "sein"
+            ]
+          },
+          "separable_prefix": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "strong": {
+            "type": "boolean"
+          }
         },
         "additionalProperties": false
       },
-      "examples": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/example" } },
-      "tags": { "type": "array", "items": { "type": "string" }, "description": "Тематика: wohnen, arbeit, transport…" },
-      "grammar": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
-      "sources": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/sourceRef" } },
-      "added": { "$ref": "common.schema.json#/$defs/date" }
+      "examples": {
+        "type": "array",
+        "items": {
+          "$ref": "common.schema.json#/$defs/example"
+        }
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Тематика: wohnen, arbeit, transport…"
+      },
+      "grammar": {
+        "type": "array",
+        "items": {
+          "$ref": "common.schema.json#/$defs/id"
+        }
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "$ref": "common.schema.json#/$defs/sourceRef"
+        }
+      },
+      "added": {
+        "$ref": "common.schema.json#/$defs/date"
+      },
+      "source_text": {
+        "type": "string",
+        "description": "Как записано на доске, если отличается от нормы"
+      }
     },
     "additionalProperties": false
   }

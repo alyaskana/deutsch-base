@@ -3,26 +3,72 @@
   "$id": "observation.schema.json",
   "title": "Наблюдение (одна строка observations.jsonl)",
   "type": "object",
-  "required": ["id", "date", "source", "target", "result"],
+  "required": [
+    "id",
+    "source",
+    "target",
+    "result"
+  ],
   "properties": {
-    "id": { "$ref": "common.schema.json#/$defs/id" },
-    "date": { "$ref": "common.schema.json#/$defs/date" },
-    "source": { "type": "string", "pattern": "^(tutor_sticker|tutor_review|homework|lesson|chat|trainer:[a-z0-9-]+)$" },
+    "id": {
+      "$ref": "common.schema.json#/$defs/id"
+    },
+    "date": {
+      "$ref": "common.schema.json#/$defs/date",
+      "description": "Дата события; нет — дата неизвестна (считается старым)"
+    },
+    "source": {
+      "type": "string",
+      "pattern": "^(tutor_sticker|tutor_review|homework|lesson|chat|trainer:[a-z0-9-]+)$"
+    },
     "target": {
       "type": "object",
-      "required": ["type", "id"],
+      "required": [
+        "type",
+        "id"
+      ],
       "properties": {
-        "type": { "enum": ["grammar", "word"] },
-        "id": { "$ref": "common.schema.json#/$defs/id" }
+        "type": {
+          "enum": [
+            "grammar",
+            "word"
+          ]
+        },
+        "id": {
+          "$ref": "common.schema.json#/$defs/id"
+        }
       },
       "additionalProperties": false
     },
-    "result": { "enum": ["correct", "error", "struggle", "flagged"], "description": "flagged — репетитор отметила тему как слабую" },
-    "given": { "type": "string", "description": "Что ответила" },
-    "expected": { "type": "string", "description": "Как правильно" },
-    "note_ru": { "type": "string" },
-    "lesson": { "$ref": "common.schema.json#/$defs/date" },
-    "task": { "$ref": "common.schema.json#/$defs/id" }
+    "result": {
+      "enum": [
+        "correct",
+        "error",
+        "struggle",
+        "flagged"
+      ],
+      "description": "flagged — репетитор отметила тему как слабую"
+    },
+    "given": {
+      "type": "string",
+      "description": "Что ответила"
+    },
+    "expected": {
+      "type": "string",
+      "description": "Как правильно"
+    },
+    "note_ru": {
+      "type": "string"
+    },
+    "lesson": {
+      "$ref": "common.schema.json#/$defs/date"
+    },
+    "task": {
+      "$ref": "common.schema.json#/$defs/id"
+    },
+    "module": {
+      "$ref": "common.schema.json#/$defs/id"
+    }
   },
   "additionalProperties": false
 }

@@ -1,5 +1,645 @@
 [
   {
+    "id": "perfekt",
+    "title_de": "Perfekt",
+    "title_ru": "Прошедшее время Perfekt",
+    "level": "A1",
+    "category": "tenses",
+    "rule_ru": "haben/sein в 2-й позиции + Partizip II в конце. sein — с глаголами движения и смены состояния (gehen, fahren, kommen, bleiben).",
+    "examples": [
+      {
+        "de": "Ich habe gefrühstückt.",
+        "ru": "Я позавтракала."
+      },
+      {
+        "de": "Wir sind nach Hause gefahren.",
+        "ru": "Мы поехали домой."
+      }
+    ],
+    "related": [
+      "strong-verbs",
+      "partizip2-prefixes"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "perfekt"
+      },
+      {
+        "module": "mein-tag"
+      },
+      {
+        "module": "dein-tag"
+      },
+      {
+        "module": "arbeit-1"
+      }
+    ]
+  },
+  {
+    "id": "partizip2-prefixes",
+    "title_de": "Partizip II mit Präfixen",
+    "title_ru": "Partizip II с приставками",
+    "level": "A1",
+    "category": "tenses",
+    "rule_ru": "Отделяемая приставка: ge- внутрь (abholen → abgeholt). Неотделяемая (be-, ver-, er-…) и -ieren: без ge- (besuchen → besucht, telefonieren → telefoniert).",
+    "examples": [
+      {
+        "de": "Ich habe dich abgeholt.",
+        "ru": "Я тебя забрала."
+      }
+    ],
+    "parent": "perfekt",
+    "related": [
+      "separable-verbs"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "arbeit-1"
+      },
+      {
+        "module": "ha-pronomen"
+      }
+    ]
+  },
+  {
+    "id": "strong-verbs",
+    "title_de": "Starke und unregelmäßige Verben",
+    "title_ru": "Сильные и неправильные глаголы: три формы",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Инфинитив — Präteritum — Partizip II с изменением корня (fahren — fuhr — gefahren), часто с умлаутом в 2–3 л. ед. ч. (er fährt).",
+    "examples": [
+      {
+        "de": "sie fährt",
+        "ru": "она едет"
+      },
+      {
+        "de": "gelten — galt — hat gegolten",
+        "ru": "считаться"
+      }
+    ],
+    "related": [
+      "perfekt"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "perfekt"
+      },
+      {
+        "module": "test-a1"
+      }
+    ]
+  },
+  {
+    "id": "praeteritum-war-hatte",
+    "title_de": "Präteritum: war, hatte",
+    "title_ru": "Прошедшее war / hatte",
+    "level": "A1",
+    "category": "tenses",
+    "rule_ru": "sein и haben в прошедшем обычно в Präteritum: ich war, du warst, er war; ich hatte, du hattest.",
+    "examples": [
+      {
+        "de": "Gestern war ich müde.",
+        "ru": "Вчера я устала."
+      }
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "essen"
+      },
+      {
+        "module": "arbeit-1"
+      }
+    ]
+  },
+  {
+    "id": "modal-verbs",
+    "title_de": "Modalverben",
+    "title_ru": "Модальные глаголы",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Модальный глагол во 2-й позиции, смысловой инфинитив в конце. В ед. ч. меняется корень, 1 и 3 л. ед. ч. без окончания (ich kann, er kann).",
+    "examples": [
+      {
+        "de": "Ich kann Englisch sprechen.",
+        "ru": "Я умею говорить по-английски."
+      }
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "wohnen"
+      }
+    ]
+  },
+  {
+    "id": "modal-koennen",
+    "title_de": "können",
+    "title_ru": "können — мочь, уметь",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Возможность и умение: ich kann, du kannst.",
+    "parent": "modal-verbs",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "beruf"
+      }
+    ]
+  },
+  {
+    "id": "modal-wollen",
+    "title_de": "wollen",
+    "title_ru": "wollen — хотеть",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Твёрдое желание, намерение: ich will, du willst.",
+    "parent": "modal-verbs",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "unterwegs"
+      }
+    ]
+  },
+  {
+    "id": "modal-muessen",
+    "title_de": "müssen",
+    "title_ru": "müssen — быть должным",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Необходимость: ich muss, du musst. nicht müssen = не обязательно.",
+    "parent": "modal-verbs",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "einkaufen"
+      }
+    ]
+  },
+  {
+    "id": "modal-sollen",
+    "title_de": "sollen",
+    "title_ru": "sollen — следует",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Совет, поручение от другого: Was soll ich tun?",
+    "parent": "modal-verbs",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "gesundheit"
+      }
+    ]
+  },
+  {
+    "id": "modal-duerfen",
+    "title_de": "dürfen",
+    "title_ru": "dürfen — разрешено",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Разрешение; nicht dürfen = запрещено: Hier darf man nicht schwimmen.",
+    "parent": "modal-verbs",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "wohnen"
+      }
+    ]
+  },
+  {
+    "id": "modal-moegen-moechten",
+    "title_de": "mögen / möchten",
+    "title_ru": "mögen / möchten — нравиться / хотелось бы",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "mögen + существительное (ich mag Kaffee), möchten — вежливое желание (ich möchte mitbringen).",
+    "parent": "modal-verbs",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "wohnen"
+      }
+    ]
+  },
+  {
+    "id": "separable-verbs",
+    "title_de": "Trennbare Verben",
+    "title_ru": "Отделяемые приставки",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Ударная приставка (ab-, an-, auf-, aus-, mit-, um-, zurück-…) уходит в конец предложения в Präsens: Ich probiere das an.",
+    "examples": [
+      {
+        "de": "Ich tausche die Hose um.",
+        "ru": "Я обменяю штаны."
+      }
+    ],
+    "related": [
+      "partizip2-prefixes"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "woerter"
+      },
+      {
+        "module": "arbeit-1"
+      }
+    ]
+  },
+  {
+    "id": "verb-government",
+    "title_de": "Rektion der Verben",
+    "title_ru": "Управление глаголов (Akk / Dat)",
+    "level": "A1",
+    "category": "cases",
+    "rule_ru": "Каждый глагол требует свой падеж дополнения: большинство — Akk (kennen, bestellen, nutzen), некоторые — Dat (helfen, gefallen, wehtun).",
+    "examples": [
+      {
+        "de": "Ich kenne den Mann.",
+        "ru": "Я знаю этого мужчину."
+      }
+    ],
+    "related": [
+      "case-choice"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "woerter"
+      }
+    ]
+  },
+  {
+    "id": "imperativ",
+    "title_de": "Imperativ",
+    "title_ru": "Повелительное наклонение (du / ihr / Sie)",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "du: основа без -st (komm!, nimm!), ihr: форма ihr без местоимения (kommt!), Sie: Kommen Sie!",
+    "examples": [
+      {
+        "de": "Trink viel Wasser!",
+        "ru": "Пей много воды!"
+      }
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "gesundheit"
+      },
+      {
+        "module": "imperativ-katzen"
+      },
+      {
+        "module": "test-a1"
+      }
+    ]
+  },
+  {
+    "id": "personal-pronouns",
+    "title_de": "Personalpronomen",
+    "title_ru": "Личные местоимения: Nom / Akk / Dat",
+    "level": "A1",
+    "category": "pronouns",
+    "rule_ru": "ich–mich–mir, du–dich–dir, er–ihn–ihm, sie–sie–ihr, es–es–ihm, wir–uns–uns, ihr–euch–euch, sie/Sie–sie/Sie–ihnen/Ihnen.",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "dativ-pronomen"
+      },
+      {
+        "module": "ha-pronomen"
+      },
+      {
+        "module": "test"
+      },
+      {
+        "module": "test-a1"
+      }
+    ]
+  },
+  {
+    "id": "personal-pronouns-akk",
+    "title_de": "Personalpronomen im Akkusativ",
+    "title_ru": "Личные местоимения в Akkusativ",
+    "level": "A1",
+    "category": "pronouns",
+    "rule_ru": "Дополнение после глаголов с Akk: Ich rufe dich an.",
+    "parent": "personal-pronouns",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "arbeit-2"
+      }
+    ]
+  },
+  {
+    "id": "personal-pronouns-dat",
+    "title_de": "Personalpronomen im Dativ",
+    "title_ru": "Личные местоимения в Dativ",
+    "level": "A1",
+    "category": "pronouns",
+    "rule_ru": "После глаголов и предлогов с Dat: Der Kopf tut mir weh. Kommst du mit mir?",
+    "parent": "personal-pronouns",
+    "related": [
+      "wehtun-dativ"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "dativ-pronomen"
+      },
+      {
+        "module": "wohnen"
+      }
+    ]
+  },
+  {
+    "id": "possessive-pronouns",
+    "title_de": "Possessivartikel in den Kasus",
+    "title_ru": "Притяжательные в падежах",
+    "level": "A1",
+    "category": "pronouns",
+    "rule_ru": "mein/dein/sein/ihr/unser/euer/Ihr склоняются как ein: meinen Bruder (Akk), meiner Mutter (Dat).",
+    "examples": [
+      {
+        "de": "Ich helfe meiner Mutter.",
+        "ru": "Я помогаю маме."
+      }
+    ],
+    "related": [
+      "case-choice",
+      "adjective-endings"
+    ],
+    "covered_with_tutor": true
+  },
+  {
+    "id": "wehtun-dativ",
+    "title_de": "wehtun + Dativ, Schmerzen haben",
+    "title_ru": "Болит: wehtun + Dativ",
+    "level": "A1",
+    "category": "cases",
+    "rule_ru": "Кому болит — Dativ: Mir tut der Kopf weh. Или: Ich habe Kopfschmerzen.",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "gesundheit"
+      },
+      {
+        "module": "dativ-pronomen"
+      }
+    ]
+  },
+  {
+    "id": "case-choice",
+    "title_de": "Kasuswahl beim Sprechen",
+    "title_ru": "Выбор падежа в речи",
+    "level": "A1",
+    "category": "cases",
+    "rule_ru": "Падеж определяют глагол, предлог и роль слова: подлежащее — Nom, прямое дополнение — Akk, кому/где — Dat.",
+    "related": [
+      "verb-government",
+      "prepositions-by-case",
+      "noun-gender"
+    ],
+    "covered_with_tutor": true
+  },
+  {
+    "id": "noun-gender",
+    "title_de": "Genus der Nomen",
+    "title_ru": "Род существительных",
+    "level": "A1",
+    "category": "articles",
+    "rule_ru": "Род учится вместе со словом; помогают окончания: -ung, -heit, -keit, -e → die; -chen, -um → das; -er (лица), -ling → der.",
+    "related": [
+      "articles-plural"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "woerter"
+      }
+    ]
+  },
+  {
+    "id": "articles-plural",
+    "title_de": "Artikel und Plural",
+    "title_ru": "Артикли и множественное число",
+    "level": "A1",
+    "category": "articles",
+    "rule_ru": "Во мн. ч. артикль всегда die. Форма мн. ч. учится со словом: -e, -(e)n, -er, -s, без изменения, часто с умлаутом.",
+    "examples": [
+      {
+        "de": "der Platz – die Plätze",
+        "ru": "место – места"
+      }
+    ],
+    "related": [
+      "noun-gender"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "essen"
+      },
+      {
+        "module": "wohnen"
+      },
+      {
+        "module": "woerter"
+      }
+    ]
+  },
+  {
+    "id": "kein-nicht",
+    "title_de": "kein / nicht",
+    "title_ru": "Отрицание kein / nicht",
+    "level": "A1",
+    "category": "articles",
+    "rule_ru": "kein — вместо ein или без артикля перед существительным; nicht — всё остальное.",
+    "examples": [
+      {
+        "de": "Ich habe kein Auto.",
+        "ru": "У меня нет машины."
+      }
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "essen"
+      }
+    ]
+  },
+  {
+    "id": "adjective-endings",
+    "title_de": "Adjektivdeklination",
+    "title_ru": "Окончания прилагательных",
+    "level": "A1",
+    "category": "adjectives",
+    "rule_ru": "Окончание зависит от типа артикля (ein / der / без артикля), рода и падежа.",
+    "related": [
+      "case-choice"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "essen"
+      },
+      {
+        "module": "kleidung"
+      }
+    ]
+  },
+  {
+    "id": "adj-endings-ein",
+    "title_de": "Adjektiv nach ein / kein / mein",
+    "title_ru": "Окончания после ein-типа",
+    "level": "A1",
+    "category": "adjectives",
+    "rule_ru": "Сигнал рода стоит на артикле, иначе на прилагательном: ein großer Tisch, ein großes Bett, eine große Wand; в Dat и мн. ч. — -en.",
+    "examples": [
+      {
+        "de": "Ich trage einen blauen Pullover.",
+        "ru": "На мне синий свитер."
+      }
+    ],
+    "parent": "adjective-endings",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "essen"
+      },
+      {
+        "module": "kleidung"
+      }
+    ]
+  },
+  {
+    "id": "adj-endings-der",
+    "title_de": "Adjektiv nach der / dieser",
+    "title_ru": "Окончания после der-типа",
+    "level": "A1",
+    "category": "adjectives",
+    "rule_ru": "После определённого артикля: -e в Nom ед. ч. и Akk f/n, всё остальное -en.",
+    "parent": "adjective-endings",
+    "covered_with_tutor": false
+  },
+  {
+    "id": "adj-endings-zero",
+    "title_de": "Adjektiv ohne Artikel",
+    "title_ru": "Окончания без артикля",
+    "level": "A1",
+    "category": "adjectives",
+    "rule_ru": "Прилагательное берёт окончание артикля: kalter Kaffee, frische Milch, mit heißem Wasser.",
+    "parent": "adjective-endings",
+    "covered_with_tutor": false
+  },
+  {
+    "id": "komparativ-superlativ",
+    "title_de": "Komparativ und Superlativ",
+    "title_ru": "Степени сравнения",
+    "level": "A1",
+    "category": "adjectives",
+    "rule_ru": "-er для сравнения (+ als), am -sten для превосходной; односложные часто с умлаутом. gern — lieber — am liebsten. so … wie — так же, как.",
+    "examples": [
+      {
+        "de": "Berlin ist größer als Omsk.",
+        "ru": "Берлин больше Омска."
+      }
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "einkaufen"
+      },
+      {
+        "module": "wohnen"
+      },
+      {
+        "module": "warm-ups"
+      },
+      {
+        "module": "test-a1"
+      }
+    ]
+  },
+  {
+    "id": "welch-dies",
+    "title_de": "welch- / dies-",
+    "title_ru": "Какой / этот: welch- / dies-",
+    "level": "A1",
+    "category": "articles",
+    "rule_ru": "Склоняются как der: Welchen Rock nimmst du? Diesen.",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "einkaufen"
+      }
+    ]
+  },
+  {
+    "id": "wohin-nach-in-auf-zu",
+    "title_de": "Wohin? nach / in / auf / zu",
+    "title_ru": "Куда: nach / in / auf / zu",
+    "level": "A1",
+    "category": "prepositions",
+    "rule_ru": "nach — города, страны без артикля, nach Hause; in + Akk — страны с артиклем и закрытые места; zu + Dat — к людям, учреждениям; auf + Akk — открытые места, мероприятия.",
+    "examples": [
+      {
+        "de": "nach Griechenland",
+        "ru": "в Грецию"
+      },
+      {
+        "de": "in den Park",
+        "ru": "в парк"
+      }
+    ],
+    "related": [
+      "wo-wohin"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "unterwegs"
+      },
+      {
+        "module": "warm-ups"
+      }
+    ]
+  },
+  {
+    "id": "mit-dativ",
+    "title_de": "mit + Dativ",
+    "title_ru": "mit + Dativ (транспорт)",
+    "level": "A1",
+    "category": "prepositions",
+    "rule_ru": "mit всегда с Dat: mit dem Bus, mit der U-Bahn.",
+    "examples": [
+      {
+        "de": "mit der U-Bahn",
+        "ru": "на метро"
+      }
+    ],
+    "related": [
+      "prepositions-by-case"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "ha-verkehrsmittel"
+      },
+      {
+        "module": "test"
+      }
+    ]
+  },
+  {
     "id": "wo-wohin",
     "title_de": "Wechselpräpositionen: Wo? + Dativ / Wohin? + Akkusativ",
     "title_ru": "Предлоги места: где — Dativ, куда — Akkusativ",
@@ -7,11 +647,246 @@
     "category": "prepositions",
     "rule_ru": "in, an, auf, unter, über, vor, hinter, neben, zwischen: место (Wo?) → Dativ, движение (Wohin?) → Akkusativ.",
     "examples": [
-      { "de": "Das Buch liegt auf dem Tisch.", "ru": "Книга лежит на столе." },
-      { "de": "Ich lege das Buch auf den Tisch.", "ru": "Я кладу книгу на стол." }
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "ru": "Книга лежит на столе."
+      },
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "ru": "Я кладу книгу на стол."
+      }
     ],
-    "related": ["liegen-legen"],
+    "related": [
+      "liegen-legen",
+      "prepositions-by-case"
+    ],
     "covered_with_tutor": true,
-    "sources": [{ "module": "wohnen", "board_frame": "Wohnen ч. 3–4" }]
+    "sources": [
+      {
+        "module": "wohnen"
+      }
+    ]
+  },
+  {
+    "id": "prepositions-by-case",
+    "title_de": "Präpositionen nach Kasus",
+    "title_ru": "Предлоги по падежам",
+    "level": "A1",
+    "category": "prepositions",
+    "rule_ru": "Только Dat: aus, bei, mit, nach, seit, von, zu. Только Akk: durch, für, gegen, ohne, um. Оба: Wechselpräpositionen.",
+    "examples": [
+      {
+        "de": "von der Arbeit",
+        "ru": "с работы"
+      },
+      {
+        "de": "für die Firma",
+        "ru": "для фирмы"
+      }
+    ],
+    "related": [
+      "wo-wohin",
+      "mit-dativ"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "wohnen"
+      },
+      {
+        "module": "ha-pronomen"
+      }
+    ]
+  },
+  {
+    "id": "liegen-legen",
+    "title_de": "liegen/legen, stehen/stellen, hängen, sitzen/setzen",
+    "title_ru": "Где лежит / куда класть",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Состояние (liegen, stehen, hängen, sitzen) — сильные, + Dat; действие (legen, stellen, hängen, setzen) — слабые, + Akk.",
+    "parent": "wo-wohin",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "wohnen"
+      }
+    ]
+  },
+  {
+    "id": "time-prepositions",
+    "title_de": "Temporale Präpositionen",
+    "title_ru": "Предлоги времени",
+    "level": "A1",
+    "category": "prepositions",
+    "rule_ru": "um — часы; am — дни, части дня, даты; im — месяцы, сезоны; vor/nach/seit + Dat; bis — до; von … bis; zwischen.",
+    "examples": [
+      {
+        "de": "am Vormittag",
+        "ru": "до полудня"
+      },
+      {
+        "de": "vor einer Woche",
+        "ru": "неделю назад"
+      },
+      {
+        "de": "seit 3 Tagen",
+        "ru": "уже 3 дня"
+      }
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "arbeit-2"
+      },
+      {
+        "module": "woerter"
+      }
+    ]
+  },
+  {
+    "id": "dates-ordinals",
+    "title_de": "Datum und Ordinalzahlen",
+    "title_ru": "Даты и порядковые числительные",
+    "level": "A1",
+    "category": "numbers-time",
+    "rule_ru": "1–19: -te, с 20: -ste; дата с am + -ten: am elften Mai.",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "arbeit-1"
+      },
+      {
+        "module": "warm-ups"
+      }
+    ]
+  },
+  {
+    "id": "clock-time",
+    "title_de": "Uhrzeit, Uhr und Stunde",
+    "title_ru": "Время на часах, Uhr и Stunde",
+    "level": "A1",
+    "category": "numbers-time",
+    "rule_ru": "Uhr — время на часах (um 10 Uhr), Stunde — длительность (eine halbe Stunde). halb, Viertel vor/nach, anderthalb.",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "perfekt"
+      },
+      {
+        "module": "woerter"
+      }
+    ]
+  },
+  {
+    "id": "word-order",
+    "title_de": "Satzstellung",
+    "title_ru": "Порядок слов",
+    "level": "A1",
+    "category": "word-order",
+    "rule_ru": "Глагол на 2-м месте; если первым стоит обстоятельство — подлежащее после глагола. Время перед местом.",
+    "examples": [
+      {
+        "de": "Am Montag fahre ich nach Berlin.",
+        "ru": "В понедельник я еду в Берлин."
+      }
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "unterwegs"
+      },
+      {
+        "module": "dein-tag"
+      }
+    ]
+  },
+  {
+    "id": "conj-aber-denn-und-oder",
+    "title_de": "aber / denn / und / oder",
+    "title_ru": "Союзы aber / denn / und / oder",
+    "level": "A1",
+    "category": "conjunctions",
+    "rule_ru": "После них прямой порядок: подлежащее, затем глагол.",
+    "examples": [
+      {
+        "de": "Ich brauche einen Computer, denn ich arbeite mit dem Computer.",
+        "ru": "Мне нужен компьютер, потому что я работаю на нём."
+      }
+    ],
+    "parent": "word-order",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "konjunktionen"
+      },
+      {
+        "module": "gesundheit"
+      },
+      {
+        "module": "arbeit-1"
+      }
+    ]
+  },
+  {
+    "id": "conj-dann-darum",
+    "title_de": "dann / darum / deshalb",
+    "title_ru": "Наречия-связки dann / darum",
+    "level": "A1",
+    "category": "conjunctions",
+    "rule_ru": "Занимают 1-е место, глагол сразу после них: Dann gehe ich nach Hause.",
+    "parent": "word-order",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "konjunktionen"
+      },
+      {
+        "module": "woerter"
+      }
+    ]
+  },
+  {
+    "id": "indirect-questions",
+    "title_de": "Indirekte Fragen",
+    "title_ru": "Косвенный вопрос",
+    "level": "A1",
+    "category": "word-order",
+    "rule_ru": "После вводной фразы глагол уходит в конец: Ich möchte wissen, wann die Mittagspause ist.",
+    "parent": "word-order",
+    "covered_with_tutor": false,
+    "sources": [
+      {
+        "module": "woerter"
+      }
+    ]
+  },
+  {
+    "id": "w-questions",
+    "title_de": "W-Fragen",
+    "title_ru": "Вопросительные слова",
+    "level": "A1",
+    "category": "word-order",
+    "rule_ru": "W-слово на 1-м месте, глагол на 2-м: Wo wohnst du? Wen? — кого, Wem? — кому.",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "beruf"
+      }
+    ]
+  },
+  {
+    "id": "email-format",
+    "title_de": "Anrede und Gruß in E-Mails",
+    "title_ru": "Обращение и подпись в письме",
+    "level": "A1",
+    "category": "other",
+    "rule_ru": "Sehr geehrte Frau …, / Hallo …, — Mit freundlichen Grüßen / Viele Grüße.",
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "arbeit-2"
+      }
+    ]
   }
 ]

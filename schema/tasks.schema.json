@@ -5,21 +5,72 @@
   "type": "array",
   "items": {
     "type": "object",
-    "required": ["id", "module", "title", "status"],
+    "required": [
+      "id",
+      "module",
+      "title",
+      "status"
+    ],
     "properties": {
-      "id": { "$ref": "common.schema.json#/$defs/id" },
-      "module": { "$ref": "common.schema.json#/$defs/id" },
-      "title": { "type": "string" },
-      "kind": { "enum": ["writing", "gap-fill", "listening", "video", "matching", "speaking", "app", "other"] },
-      "homework": { "type": "boolean", "description": "Помечено H/A" },
-      "homework_uncertain": { "type": "boolean" },
-      "status": { "enum": ["todo", "done", "checked"] },
-      "grammar": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
-      "assigned": { "$ref": "common.schema.json#/$defs/date" },
-      "link": { "type": "string" },
-      "answer": { "type": "string" },
-      "correction": { "type": "string" },
-      "archive_tab": { "type": "string" }
+      "id": {
+        "$ref": "common.schema.json#/$defs/id"
+      },
+      "module": {
+        "$ref": "common.schema.json#/$defs/id"
+      },
+      "title": {
+        "type": "string"
+      },
+      "kind": {
+        "enum": [
+          "writing",
+          "gap-fill",
+          "listening",
+          "video",
+          "matching",
+          "speaking",
+          "app",
+          "other"
+        ]
+      },
+      "homework": {
+        "type": "boolean",
+        "description": "Помечено H/A"
+      },
+      "homework_uncertain": {
+        "type": "boolean"
+      },
+      "status": {
+        "enum": [
+          "todo",
+          "done",
+          "checked"
+        ]
+      },
+      "grammar": {
+        "type": "array",
+        "items": {
+          "$ref": "common.schema.json#/$defs/id"
+        }
+      },
+      "assigned": {
+        "$ref": "common.schema.json#/$defs/date"
+      },
+      "link": {
+        "type": "string"
+      },
+      "answer": {
+        "type": "string"
+      },
+      "correction": {
+        "type": "string"
+      },
+      "archive_tab": {
+        "type": "string"
+      },
+      "description_ru": {
+        "type": "string"
+      }
     },
     "additionalProperties": false
   }
