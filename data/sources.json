@@ -1,11 +1,31 @@
 {
   "boards": [
-    { "id": "a1", "level": "A1", "title": "Deutsch A1 — Alina", "url": "https://miro.com/app/board/uXjVEcPk0uo=/", "status": "archive" },
-    { "id": "a2", "level": "A2", "title": "A2", "url": "https://miro.com/app/board/uXjVEbOuTqE=/", "status": "current" }
+    {
+      "id": "a1",
+      "level": "A1",
+      "title": "Deutsch A1 — Alina",
+      "url": "https://miro.com/app/board/uXjVEcPk0uo=/",
+      "status": "archive"
+    },
+    {
+      "id": "a2",
+      "level": "A2",
+      "title": "A2",
+      "url": "https://miro.com/app/board/uXjVEbOuTqE=/",
+      "status": "current",
+      "access": "нет доступа через коннектор; материал приходит скриншотами"
+    }
   ],
   "archive_doc": "https://claude.ai/code/artifact/41c37460-0ae4-4d1d-8d30-d71410aee138",
   "trainers": {
-    "mein-deutsch": { "url": "https://claude.ai/code/artifact/6b3bd89a-ceee-40d9-9597-091c37fced50", "progress": "collection data/users/me, doc progress" },
-    "artikelregen": { "url": "https://claude.ai/code/artifact/fe5b27f8-d4f7-4a69-afd6-02e799668814", "stats": "collection data/users/me, doc stats" }
-  }
+    "mein-deutsch": {
+      "url": "https://claude.ai/code/artifact/6b3bd89a-ceee-40d9-9597-091c37fced50",
+      "progress": "collection data/users/me, doc progress"
+    },
+    "artikelregen": {
+      "url": "https://claude.ai/code/artifact/fe5b27f8-d4f7-4a69-afd6-02e799668814",
+      "stats": "collection data/users/me, doc stats"
+    }
+  },
+  "lesson_intake": "Алина присылает скриншоты доски в чат; Claude разбирает их по automation/screenshots.md"
 }

@@ -1,5 +1,10 @@
 {
-  "board_a2": { "last_sync": null, "seen_items": [] },
-  "mein_deutsch": { "last_sync": null, "synced_runs": {} },
-  "artikelregen": { "last_sync": null, "stats_snapshot": {} }
+  "mein_deutsch": {
+    "last_sync": null,
+    "synced_runs": {}
+  },
+  "artikelregen": {
+    "last_sync": null,
+    "stats_snapshot": {}
+  }
 }
