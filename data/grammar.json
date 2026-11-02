@@ -888,5 +888,48 @@
         "module": "arbeit-2"
       }
     ]
+  },
+  {
+    "id": "praesens",
+    "title_de": "Präsens: Konjugation",
+    "title_ru": "Спряжение в настоящем времени",
+    "level": "A1",
+    "category": "verbs",
+    "rule_ru": "Окончания -e, -st, -t, -en, -t, -en; у сильных глаголов смена гласной во 2–3 л. ед. ч. (fahren → du fährst, er fährt).",
+    "examples": [
+      {
+        "de": "Du fährst, er fährt.",
+        "ru": "Ты едешь, он едет."
+      }
+    ],
+    "related": [
+      "strong-verbs"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "wohnen"
+      },
+      {
+        "module": "arbeit-2"
+      }
+    ]
+  },
+  {
+    "id": "komposita",
+    "title_de": "Komposita",
+    "title_ru": "Сложные слова",
+    "level": "A1",
+    "category": "other",
+    "rule_ru": "Род сложного слова — по последней части: das Haus + die Tür → die Haustür.",
+    "related": [
+      "noun-gender"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "gesundheit"
+      }
+    ]
   }
 ]

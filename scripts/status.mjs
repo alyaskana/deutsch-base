@@ -29,9 +29,11 @@ export function computeStatus(obs, now = today, r = rules) {
   const inWindow = sorted.filter((o) => o.date && daysBetween(o.date, now) <= r.window_days);
   const recentNegatives = inWindow.filter(isNegative).length;
 
-  const lastFlagIdx = sorted.map((o) => o.result).lastIndexOf("flagged");
-  const correctAfterFlag = lastFlagIdx >= 0
-    ? sorted.slice(lastFlagIdx + 1).filter((o) => o.result === "correct").length
+  // Верные ответы засчитываются после отметки репетитора, только если у них есть дата позже отметки
+  // (наблюдения без даты относятся к старому материалу и не «снимают» отметку).
+  const lastFlag = [...sorted].reverse().find((o) => o.result === "flagged");
+  const correctAfterFlag = lastFlag
+    ? sorted.filter((o) => o.result === "correct" && o.date && (!lastFlag.date || o.date > lastFlag.date)).length
     : Infinity;
 
   const counts = {

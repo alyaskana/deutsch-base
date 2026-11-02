@@ -1,1 +1,3201 @@
-[]
+[
+  {
+    "id": "t-arbeit-1-ein-tag-im-buero",
+    "module": "arbeit-1",
+    "title": "Ein Tag im Büro — картинки с подписями",
+    "kind": "other",
+    "status": "done",
+    "archive_tab": "Arbeit Teil 1 · 1 из 2",
+    "description_ru": "Лексический блок, заполнять нечего."
+  },
+  {
+    "id": "t-arbeit-1-was-passt-zusammen",
+    "module": "arbeit-1",
+    "title": "Was passt zusammen? Ordnen Sie zu.",
+    "kind": "matching",
+    "status": "done",
+    "answer": "Telefongespräche führen; einen Termin vereinbaren; ein Dokument übersetzen; eine E-Mail beantworten; die Technik kontrollieren; mit Mitarbeitern sprechen; ein Protokoll schreiben; Gäste abholen",
+    "correction": "Красные знаки ударения над übersetzen (-setz-) и Technik (Tech-)",
+    "archive_tab": "Arbeit Teil 1 · 1 из 2"
+  },
+  {
+    "id": "t-arbeit-1-saetze-im-perfekt",
+    "module": "arbeit-1",
+    "title": "Was haben Sabine und Otto gemacht? Schreiben Sie die Sätze im Perfekt.",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "perfekt",
+      "partizip2-prefixes"
+    ],
+    "answer": "hat … übersetzt; hat … gescannt und sie ausgedruckt; hat … gelesen und beantwortet; hat E-mails weitergeleitet; hat … geführt; hat … vereinbartet; haben … gesprochen; hat … kontrolliert; hat … abgeholt; hat … geschrieben",
+    "correction": "Красный «+»; черта над «über» в «übersetzt»; «vereinbartet» не исправлено",
+    "archive_tab": "Arbeit Teil 1 · 1 из 2"
+  },
+  {
+    "id": "t-arbeit-1-partizipien-tabelle",
+    "module": "arbeit-1",
+    "title": "Ergänzen Sie aus die Partizipien der Verben (ge- / -ge- / ohne ge-)",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "partizip2-prefixes"
+    ],
+    "archive_tab": "Arbeit Teil 1 · 1 из 2",
+    "description_ru": "Колонки пустые."
+  },
+  {
+    "id": "t-arbeit-1-gespraechsfragen-buero",
+    "module": "arbeit-1",
+    "title": "Was hast du gestern im Büro gemacht? Was möchtest du gerne/nie machen?",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "perfekt",
+      "modal-moegen-moechten"
+    ],
+    "archive_tab": "Arbeit Teil 1 · 1 из 2",
+    "description_ru": "Устно, записей нет."
+  },
+  {
+    "id": "t-arbeit-1-hoeren-schiefgegangen",
+    "module": "arbeit-1",
+    "title": "Gestern ist alles schiefgegangen — Hören (2.24), a/b/c",
+    "kind": "listening",
+    "status": "checked",
+    "grammar": [
+      "perfekt"
+    ],
+    "answer": "1a, 2b, 3c, 4b, 5b",
+    "correction": "П. 2: верно c) Frau Hauptmann angerufen (красная галочка), у Алины b",
+    "archive_tab": "Arbeit Teil 1 · 1 из 2"
+  },
+  {
+    "id": "t-arbeit-1-arbeitsplatz-zu-hause",
+    "module": "arbeit-1",
+    "title": "Was brauchen Sie für ihren Arbeitsplatz zu Hause? Warum?",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Arbeit Teil 1 · 1 из 2",
+    "description_ru": "Устно; на фото перенесены предметы (часы, смартфон, стакан чая, розовая кружка, наушники), кем — неясно."
+  },
+  {
+    "id": "t-arbeit-1-dialog-partizip2",
+    "module": "arbeit-1",
+    "title": "b Ergänzen Sie die Verben im Partizip II (Dialog Sabine — Petra)",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "perfekt",
+      "partizip2-prefixes"
+    ],
+    "archive_tab": "Arbeit Teil 1 · 1 из 2",
+    "description_ru": "Пропуски 1–14 пустые."
+  },
+  {
+    "id": "t-arbeit-1-saetze-zeitform",
+    "module": "arbeit-1",
+    "title": "Formulieren Sie Sätze in der angegebenen Zeitform (denn; Perfekt/Präteritum)",
+    "kind": "writing",
+    "status": "done",
+    "grammar": [
+      "perfekt",
+      "praeteritum-war-hatte",
+      "conj-aber-denn-und-oder"
+    ],
+    "answer": "Der Direktor ist zu spät gekommen, denn er hat im Stau gestanden; Wir haben keinen Kaffee getrunken, denn die Kaffeemaschine war kaputt; Wir haben keine E-mails beantwortet, denn wir hatten keine Internetverbindung; Martin hat das Project nicht präsentiert, denn die Technik hat funktioniert nicht / (п. 4–6) Martin hat das Project nicht präsentiert, denn die Technik hat funktioniert nicht; Frau Müller hat keinen Termin mit Frau Kaufmann vereinbart, denn Frau Kaufmann war nicht im Büro; Otto hat die Dokumente nicht kopiert, denn er hatte kein Kopierpapier",
+    "archive_tab": "Arbeit Teil 1 · 1 из 2",
+    "description_ru": "П. 1–4 (продолжение — во вкладке «Arbeit Teil 1 · 2 из 2», та же задача). Правок не видно. / Продолжение задачи из «Arbeit Teil 1 · 1 из 2» (тот же id). Исправлений нет."
+  },
+  {
+    "id": "t-arbeit-1-taetigkeiten",
+    "module": "arbeit-1",
+    "title": "Tätigkeiten am Arbeitsplatz — разговор",
+    "kind": "speaking",
+    "status": "done",
+    "answer": "✓ Besprechungen führen, mit Kunden sprechen, Informationen geben, Dokumente lesen, Berichte schreiben; ✗ zu Kunden fahren, Kunden beraten; ? Vorlesungen besuchen",
+    "archive_tab": "Arbeit Teil 1 · 1 из 2",
+    "description_ru": "Отметки красной ручкой, чьи — неясно. Продолжение списка — в части 2."
+  },
+  {
+    "id": "t-arbeit-1-taetigkeiten-2",
+    "module": "arbeit-1",
+    "title": "Tätigkeiten: вопросы (Was musst du fast jeden Tag machen? …) + плашки, часть 2",
+    "kind": "speaking",
+    "status": "done",
+    "grammar": [
+      "modal-muessen",
+      "modal-moegen-moechten"
+    ],
+    "answer": "✓ Geräte reparieren, Daten analysieren, viel lernen, etwas kaufen/verkaufen; ✗ Vorträge halten, Patienten untersuchen, Gäste empfangen; без пометки — Experimente durchführen",
+    "archive_tab": "Arbeit Teil 1 · 2 из 2",
+    "description_ru": "Устно; красные ✓/✗ — кем поставлены и что значат, неясно."
+  },
+  {
+    "id": "t-arbeit-1-faehigkeiten",
+    "module": "arbeit-1",
+    "title": "Schreiben Sie ihre Fähigkeiten auf (Lebenslauf)",
+    "kind": "writing",
+    "status": "done",
+    "grammar": [
+      "modal-koennen"
+    ],
+    "answer": "lernen schnell; mit dem Computer arbeiten; Webseiten entwickeln; Code schreiben und testen; im Team arbeiten",
+    "archive_tab": "Arbeit Teil 1 · 2 из 2",
+    "description_ru": "Правок нет."
+  },
+  {
+    "id": "t-arbeit-1-hoeren-richtig-falsch",
+    "module": "arbeit-1",
+    "title": "Hören Sie den Dialog. Richtig oder falsch? (2/25)",
+    "kind": "listening",
+    "status": "checked",
+    "answer": "1 r, 2 f, 3 r, 4 r, 5 r, 6 f, 7 r, 8 f",
+    "correction": "Над «vor» в п. 4 красным «ago»; других исправлений нет",
+    "archive_tab": "Arbeit Teil 1 · 2 из 2"
+  },
+  {
+    "id": "t-arbeit-1-ergaenzen-nomen",
+    "module": "arbeit-1",
+    "title": "Ergänzen Sie die Nomen. Lesen Sie danach den Dialog laut.",
+    "kind": "gap-fill",
+    "status": "done",
+    "answer": "Probleme; Termin; Reparatur; Jahr; Reparatur; Woche; Dokumente; Gäste; Telefonnummer; Nummer; Fall",
+    "archive_tab": "Arbeit Teil 1 · 2 из 2",
+    "description_ru": "Исправлений нет; под диалогом красным «← Übungen»."
+  },
+  {
+    "id": "t-arbeit-1-ordnungszahlen-fragen",
+    "module": "arbeit-1",
+    "title": "Die Ordnungszahlen — Welcher Tag ist heute/war gestern? Wann ist Ihr Geburtstag?",
+    "kind": "speaking",
+    "status": "done",
+    "grammar": [
+      "dates-ordinals"
+    ],
+    "archive_tab": "Arbeit Teil 1 · 2 из 2",
+    "description_ru": "Устно; стикер «am 22sten Juli»; красные пометки на таблице: «до 20 -te / после 20 -ste», «am» + ten/sten."
+  },
+  {
+    "id": "t-arbeit-1-nationaler-feiertag",
+    "module": "arbeit-1",
+    "title": "Welcher Tag ist der nationale Feiertag? Antworten Sie wie im Beispiel.",
+    "kind": "writing",
+    "status": "todo",
+    "grammar": [
+      "dates-ordinals"
+    ],
+    "correction": "Красным: «am – „…ого“ Когда?», «der te/ste Monat», у п. 2 «der 14 te»",
+    "archive_tab": "Arbeit Teil 1 · 2 из 2",
+    "description_ru": "Письменно не заполнено (только подсказки)."
+  },
+  {
+    "id": "t-arbeit-1-kopierer-reparieren-wann",
+    "module": "arbeit-1",
+    "title": "c Wann können Sie den Kopierer reparieren? Wann haben Sie Zeit?",
+    "kind": "writing",
+    "status": "todo",
+    "grammar": [
+      "dates-ordinals",
+      "clock-time",
+      "time-prepositions"
+    ],
+    "correction": "Красным: «September» (строка 1), «Am zweiten … von … bis» (строка 3)",
+    "archive_tab": "Arbeit Teil 1 · 2 из 2",
+    "description_ru": "Ответы не записаны; возможно, это и есть «Übungen» по стрелке репетитора (H/A не помечено)."
+  },
+  {
+    "id": "t-arbeit-1-telefongespraeche-monteur",
+    "module": "arbeit-1",
+    "title": "Spielen Sie Telefongespräche und vereinbaren Sie einen Termin mit einem Monteur.",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "dates-ordinals",
+      "clock-time"
+    ],
+    "archive_tab": "Arbeit Teil 1 · 2 из 2",
+    "description_ru": "Устная ролевая игра по шаблону и карточкам (Internet, Waschmaschine, Geschirrspüler, Kühlschrank); письменных следов нет."
+  },
+  {
+    "id": "t-arbeit-2-pp-akk-1",
+    "module": "arbeit-2",
+    "title": "Ergänzen Sie die Personalpronomen in Akkusativ (с подсказкой в скобках)",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "personal-pronouns-akk"
+    ],
+    "answer": "Sie; dich; ihn; mich; sie; uns; euch; mich",
+    "archive_tab": "Arbeit Teil 2"
+  },
+  {
+    "id": "t-arbeit-2-pp-akk-2",
+    "module": "arbeit-2",
+    "title": "Personalpronomen im Akkusativ. Ergänzen Sie. (Baby, Wohnung, Auto, Mann)",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "personal-pronouns-akk"
+    ],
+    "answer": "es; sie; es; ihn",
+    "archive_tab": "Arbeit Teil 2"
+  },
+  {
+    "id": "t-arbeit-2-wordwall-pp-akk",
+    "module": "arbeit-2",
+    "title": "Wordwall: Personalpronomen im Akkusativ",
+    "kind": "app",
+    "status": "done",
+    "grammar": [
+      "personal-pronouns-akk"
+    ],
+    "link": "https://wordwall.net/ru/resource/12865107/german/personalpronomen-im-akkusativ",
+    "answer": "15/15, 2:44",
+    "archive_tab": "Arbeit Teil 2"
+  },
+  {
+    "id": "t-arbeit-2-pp-akk-12-saetze",
+    "module": "arbeit-2",
+    "title": "Ergänzen Sie die Personalpronomen in Akkusativ — 12 предложений",
+    "kind": "gap-fill",
+    "status": "checked",
+    "grammar": [
+      "personal-pronouns-akk"
+    ],
+    "answer": "ihn; sie; sie; uns; ihn; dich; euch; sie; ihn/ihn; ihn/ihn/sie; dich; sie",
+    "correction": "Красный «+», исправлений нет (в п. 8 «sie» вместо «Sie» для Nachbarschaft — без пометок)",
+    "archive_tab": "Arbeit Teil 2"
+  },
+  {
+    "id": "t-arbeit-2-hoeren-kurze-dialoge",
+    "module": "arbeit-2",
+    "title": "Hören Sie die kurzen Dialoge. Was ist richtig? (2.29)",
+    "kind": "listening",
+    "status": "done",
+    "grammar": [
+      "time-prepositions"
+    ],
+    "answer": "Freitag, Samstag und Sonntag; Morgen Vormittag; In 15 Minuten; Der Beamer; Heute Nachmittag",
+    "archive_tab": "Arbeit Teil 2",
+    "description_ru": "Пометок нет."
+  },
+  {
+    "id": "t-arbeit-2-text-puenktlichkeit",
+    "module": "arbeit-2",
+    "title": "Lesen Sie den Text (пунктуальность) + вопросы",
+    "kind": "other",
+    "status": "done",
+    "correction": "Маркером: gilt, unhöflich, Gründe; «Eine Verspätung» обведено; «verschieben → auf Akk»; стикер «der Unterricht»",
+    "archive_tab": "Arbeit Teil 2",
+    "description_ru": "Чтение/устно; письменных ответов нет."
+  },
+  {
+    "id": "t-arbeit-2-entschuldigungen-telefon",
+    "module": "arbeit-2",
+    "title": "Entschuldigungen am Telefon — опоздание на встречу",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Arbeit Teil 2",
+    "description_ru": "Устно; на доске ничего не записано."
+  },
+  {
+    "id": "t-arbeit-2-email-hauptmann-lesen",
+    "module": "arbeit-2",
+    "title": "Lesen Sie die E-Mail an Frau Hauptmann und unterstreichen Sie wichtige Redemittel",
+    "kind": "other",
+    "status": "done",
+    "grammar": [
+      "email-format"
+    ],
+    "archive_tab": "Arbeit Teil 2",
+    "description_ru": "Прочитано; подчёркиваний нет."
+  },
+  {
+    "id": "t-arbeit-2-email-max-muenzer",
+    "module": "arbeit-2",
+    "title": "Schreiben Sie eine E-Mail an Max Münzer. Verschieben Sie einen Termin.",
+    "kind": "writing",
+    "status": "done",
+    "grammar": [
+      "email-format",
+      "time-prepositions"
+    ],
+    "answer": "Liebe Frau Müller, Danke für Ihre E-mail. Ja, ich kann den Termin verschieben, kein Problem. Ich habe Zeit am 20. Mai von 10.00 Uhr bis 13.00 Uhr. Mit besten Grüßen Frau Hauptmann",
+    "archive_tab": "Arbeit Teil 2",
+    "description_ru": "Написан ответ от имени Frau Hauptmann на письмо из предыдущего задания, а не письмо Max Münzer по опорным пунктам. Пометок нет."
+  },
+  {
+    "id": "t-arbeit-2-nachrichten-telefone",
+    "module": "arbeit-2",
+    "title": "Nachrichten — короткие сообщения в трёх «телефонах»",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "modal-wollen",
+      "modal-koennen",
+      "adj-endings-ein"
+    ],
+    "answer": "Hallo! Ich will Sie vom Flughafen abholen. Um wie viel Uhr kommen Sie an?; Hallo! Unsere Internetver bindung funktioniert nicht. Konnen Sie bitte einen Techniker schiken?; Hallo! Du kannst eine weiße Bluse und einen schwarzen Rock anziehen.",
+    "correction": "Красный «+» под каждым; «Konnen» → «Können» (дописан умлаут); «schiken» не исправлено",
+    "archive_tab": "Arbeit Teil 2"
+  },
+  {
+    "id": "t-arbeit-2-statistik",
+    "module": "arbeit-2",
+    "title": "Sprechen Sie über die Statistik («Was wir im Job wichtig finden»)",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Arbeit Teil 2",
+    "description_ru": "Устно; на доске не записано."
+  },
+  {
+    "id": "t-arbeit-2-was-finden-sie-wichtig",
+    "module": "arbeit-2",
+    "title": "Was finden Sie wichtig? — свой рейтинг из 5 пунктов",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "dates-ordinals",
+      "word-order"
+    ],
+    "answer": "Auf dem ersten Platz ist die Zeit für die Familie; Geld ist auf dem zweiten Platz; Danach kommt positive Arbeitsatmosphäre; Auf Platz vier liegt interessante Aufgaben; Der letzte Platz ist für gute Kommunikation",
+    "correction": "Красная стрелка к обороту «Auf Platz … liegt …»; исправлений в тексте нет",
+    "archive_tab": "Arbeit Teil 2"
+  },
+  {
+    "id": "t-arbeit-2-visitenkarte",
+    "module": "arbeit-2",
+    "title": "Welche Informationen stehen auf der Visitenkarte von Maria?",
+    "kind": "matching",
+    "status": "todo",
+    "archive_tab": "Arbeit Teil 2",
+    "description_ru": "Поля 1–6 пустые."
+  },
+  {
+    "id": "t-arbeit-2-temporalangaben-tabelle",
+    "module": "arbeit-2",
+    "title": "Ergänzen Sie die Präpositionen in der Übersicht (Temporalangaben)",
+    "kind": "gap-fill",
+    "status": "checked",
+    "grammar": [
+      "time-prepositions"
+    ],
+    "answer": "am; im; zwischen; seit",
+    "correction": "Красным: «перед» у vor dem Essen; «в течение» под seit; «Dativ» у seit обведено. Исправлений нет",
+    "archive_tab": "Arbeit Teil 2"
+  },
+  {
+    "id": "t-beruf-ich-bin",
+    "module": "beruf",
+    "title": "1 — Ich bin...",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "w-questions",
+      "modal-koennen"
+    ],
+    "description_ru": "Рассказать о себе по вопросам: Wie heißt du? Woher kommst du? Wie alt bist du? Lernst/studierst du? Wo? Was machst du gerne? Welche Sprachen sprichst du? Was machst du beruflich? Устно, письменных ответов нет.",
+    "archive_tab": "Ich und mein Beruf"
+  },
+  {
+    "id": "t-beruf-fragen-automat",
+    "module": "beruf",
+    "title": "2 — Fragen (автомат с игрушками)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "w-questions"
+    ],
+    "description_ru": "Вопросы для разговора: Erzähl über deinen Alltag; Wer ist dein bester Freund?; Was kannst du gut kochen?; Treibst du Sport gern?; Hast du ein Lieblingsbuch?; Warum lernst du Deutsch?; Erzähl über deine Familie. Устно.",
+    "archive_tab": "Ich und mein Beruf"
+  },
+  {
+    "id": "t-beruf-fragewoerter-plakat",
+    "module": "beruf",
+    "title": "Fragewörter — плакат с вопросами",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "w-questions"
+    ],
+    "description_ru": "Схема 9 вопросительных слов с примерами; опора для устных ответов.",
+    "archive_tab": "Ich und mein Beruf"
+  },
+  {
+    "id": "t-beruf-was-gibt-es-hier",
+    "module": "beruf",
+    "title": "Was gibt es hier?",
+    "kind": "speaking",
+    "status": "todo",
+    "description_ru": "Назвать предметы на фото рабочего места (es gibt). Немецких подписей нет.",
+    "archive_tab": "Ich und mein Beruf"
+  },
+  {
+    "id": "t-dativ-pronomen-lb-3",
+    "module": "dativ-pronomen",
+    "title": "3 (учебник). Personalpronomen im Dativ. Ergänzen Sie.",
+    "status": "done",
+    "kind": "gap-fill",
+    "grammar": [
+      "personal-pronouns-dat"
+    ],
+    "answer": "ihnen, ihr, uns, ihr, ihnen, ihnen",
+    "archive_tab": "Dativ Personalpronomen"
+  },
+  {
+    "id": "t-dativ-pronomen-lb-5",
+    "module": "dativ-pronomen",
+    "title": "5 (учебник). Im Büro. Personalpronomen im Dativ.",
+    "status": "done",
+    "kind": "gap-fill",
+    "grammar": [
+      "personal-pronouns-dat"
+    ],
+    "answer": "ihm, Ihnen, Ihnen, mir, (пусто), uns, ihm",
+    "archive_tab": "Dativ Personalpronomen"
+  },
+  {
+    "id": "t-dativ-pronomen-ab-1",
+    "module": "dativ-pronomen",
+    "title": "1. Вставь правильное местоимение в Dativ",
+    "status": "done",
+    "kind": "gap-fill",
+    "grammar": [
+      "personal-pronouns-dat",
+      "wehtun-dativ"
+    ],
+    "answer": "mir, dir, ihr, ihm, uns, euch, sie, ihr, Mir; п. 10 пусто",
+    "archive_tab": "Dativ Personalpronomen"
+  },
+  {
+    "id": "t-dativ-pronomen-ab-2",
+    "module": "dativ-pronomen",
+    "title": "2. wehtun + Personalpronomen",
+    "status": "todo",
+    "kind": "writing",
+    "grammar": [
+      "wehtun-dativ",
+      "personal-pronouns-dat"
+    ],
+    "archive_tab": "Dativ Personalpronomen"
+  },
+  {
+    "id": "t-dativ-pronomen-ab-3",
+    "module": "dativ-pronomen",
+    "title": "3. Кто кому? (helfen)",
+    "status": "todo",
+    "kind": "gap-fill",
+    "grammar": [
+      "personal-pronouns-dat",
+      "verb-government"
+    ],
+    "archive_tab": "Dativ Personalpronomen"
+  },
+  {
+    "id": "t-dativ-pronomen-ab-4",
+    "module": "dativ-pronomen",
+    "title": "4. mir oder mich? dir oder dich?",
+    "status": "todo",
+    "kind": "gap-fill",
+    "grammar": [
+      "personal-pronouns",
+      "verb-government",
+      "case-choice"
+    ],
+    "archive_tab": "Dativ Personalpronomen"
+  },
+  {
+    "id": "t-dativ-pronomen-ab-5",
+    "module": "dativ-pronomen",
+    "title": "5. Вставь mir / dir / ihm / ihr / uns / euch / ihnen",
+    "status": "todo",
+    "kind": "gap-fill",
+    "grammar": [
+      "personal-pronouns-dat"
+    ],
+    "archive_tab": "Dativ Personalpronomen"
+  },
+  {
+    "id": "t-dativ-pronomen-ab-12",
+    "module": "dativ-pronomen",
+    "title": "12. Персональные местоимения — полный микс A1.2",
+    "status": "todo",
+    "kind": "gap-fill",
+    "grammar": [
+      "personal-pronouns",
+      "personal-pronouns-akk",
+      "personal-pronouns-dat",
+      "case-choice"
+    ],
+    "archive_tab": "Dativ Personalpronomen"
+  },
+  {
+    "id": "t-dein-tag-mein-tag-perfekt",
+    "module": "dein-tag",
+    "title": "Dein Tag — рассказ о своём дне в прошедшем времени",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "perfekt",
+      "word-order",
+      "clock-time"
+    ],
+    "description_ru": "Описать свой день по 8 картинкам по образцу «mein Tag», в Perfekt.",
+    "answer": "8 предложений: bin aufgestanden; habe Zähne geputzt, Gesicht gewaschen; Kaffee getrunken, Waffeln gegessen; hatte ein Meeting; habe von 11 bis 16 Uhr gearbeitet; Zum Abendessen habe ich … gekocht; Von 17 bis 18 Uhr bin ich ins Fitnessstudio gegangen und für 1 Uhr habe ich trainiert; Am Abend habe ich … einen Film gesehen.",
+    "correction": "Синяя волнистая линия под «1 Uhr» в «für 1 Uhr habe ich trainiert» (исправление не выписано); синее сердечко в конце.",
+    "archive_tab": "dein Tag"
+  },
+  {
+    "id": "t-einkaufen-hoeren-gespraech",
+    "module": "einkaufen",
+    "title": "1. Hören Sie das folgende Gespräch (2 20)",
+    "status": "done",
+    "kind": "listening",
+    "description_ru": "прослушать разговор Martina и Klaus и ответить на 5 вопросов",
+    "answer": "1 neue grüne Schuhe, einen neuen Anzug und ein neues Hemd; 2 Er braucht keine neue Kleidung; 3 zur Party gehen; 4 zu Hause bleiben und Fußball sehen; 5 für 3 Stunden zur Party gehen",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-verben",
+    "module": "einkaufen",
+    "title": "2. Ergänzen Sie die Verben in der richtigen Form",
+    "status": "checked",
+    "kind": "gap-fill",
+    "grammar": [
+      "modal-muessen",
+      "separable-verbs"
+    ],
+    "description_ru": "вставить глаголы в нужной форме в текст разговора",
+    "answer": "brauche, hast, tragen, ziehe…an, komme…mit, mag, spielt, müssen, ist, ist, sagen, bleiben, sehen, sprichst, spreche, bleiben",
+    "correction": "исправлений нет, красный «+»",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-dialog-anzug",
+    "module": "einkaufen",
+    "title": "3. Диалог в магазине: покупка костюма (2 21)",
+    "status": "done",
+    "kind": "listening",
+    "grammar": [
+      "welch-dies"
+    ],
+    "description_ru": "заполнить пропуски 1)–13) в диалоге на слух",
+    "answer": "in schwarz; 50; 399 Euro; normale; 150; 200; 199; gute; 199; 2 Wochen; Bar; teuer; meine",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-saetze-muessen",
+    "module": "einkaufen",
+    "title": "4. Schreiben Sie Sätze (müssen)",
+    "status": "checked",
+    "kind": "writing",
+    "grammar": [
+      "modal-muessen",
+      "word-order"
+    ],
+    "description_ru": "составить 7 предложений с müssen",
+    "answer": "Wir müssen auf die Party gehen; Wann musst du nach München fahren?; … Musst du noch einmal ins Büro fahren?",
+    "correction": "исправлений нет, красный «+»",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-fragen-muessen",
+    "module": "einkaufen",
+    "title": "5. Устные вопросы с müssen",
+    "status": "done",
+    "kind": "speaking",
+    "grammar": [
+      "modal-muessen"
+    ],
+    "description_ru": "Was müssen Sie im Haushalt machen? / im Büro tun? / Wie lange müssen Sie arbeiten? — устно, письменных следов нет",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-welch-dies",
+    "module": "einkaufen",
+    "title": "6. Учебник упр. 13 «Strukturen: welche und diese»",
+    "status": "done",
+    "kind": "gap-fill",
+    "grammar": [
+      "welch-dies"
+    ],
+    "description_ru": "a прочитать примеры; b дополнить таблицу окончаний; c вставить dies-/welch-",
+    "answer": "c: Welchen, diese, dieser, diese, diesen, dieses, diese, Welche; b: окончания Akkusativ в таблице не вписаны",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-dialog-boutique",
+    "module": "einkaufen",
+    "title": "7. Диалог в магазине одежды: Secondhandladen / Boutique",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "ролевой диалог покупатель–продавец по фразам-опорам (устно)",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-komparativ-1",
+    "module": "einkaufen",
+    "title": "8.1 Komparativ, учебник стр. 92, упр. 1: Ergänzen Sie den Komparativ",
+    "status": "checked",
+    "kind": "gap-fill",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "answer": "kleiner, langsamer, interresanter, schlechter, älter, gesunder, größer, höher, besser, mehr, lieber, teurer",
+    "correction": "gesunder → gesünder (две красные точки); interresanter не исправлено",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-komparativ-2",
+    "module": "einkaufen",
+    "title": "8.2 Komparativ, упр. 2: Deutschland und Europa",
+    "status": "checked",
+    "kind": "gap-fill",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "answer": "größer, kleiner, mehr, teurer, höher, mehr, bekannter",
+    "correction": "исправлений нет, красный «+»",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-als-wie-3",
+    "module": "einkaufen",
+    "title": "8.3 Komparativ, упр. 3: Als oder wie? Kombinieren Sie",
+    "status": "done",
+    "kind": "matching",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "answer": "соединено линиями (lieber/besser/öfter → als; genauso/so → wie); предложения не выписаны",
+    "description_ru": "соединить начало и конец предложения через als или wie",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-vergleich-4",
+    "module": "einkaufen",
+    "title": "8.4 Komparativ, упр. 4: Schreiben Sie Vergleichssätze mit wie und als",
+    "status": "checked",
+    "kind": "writing",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "answer": "genauso viel Kaffee wie…; mehr Kaffee als…; Lena schläft so lange wie Jonas; Mia schläft langer als…; In Frankfurt das Hochhaus ist größer als…; Der Messeturm ist so groß wie…",
+    "correction": "исправлений нет, красный «+» (langer и порядок слов в п. 7 оставлены)",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-besser-lieber-5",
+    "module": "einkaufen",
+    "title": "8.5 Komparativ, упр. 5: Besser oder lieber?",
+    "status": "todo",
+    "kind": "gap-fill",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-endungen-6",
+    "module": "einkaufen",
+    "title": "8.6 Komparativ, упр. 6: Ergänzen Sie die Adjektivendungen",
+    "status": "todo",
+    "kind": "gap-fill",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-komparativ-tabelle",
+    "module": "einkaufen",
+    "title": "9. Komparativ: b Ergänzen Sie die Tabelle, c Adjektiv im Komparativ",
+    "status": "checked",
+    "kind": "gap-fill",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "answer": "b: kleiner, schöner, größer (вписано красной ручкой); c: besser, größer, mehr, preiswerter, kleiner, lieber",
+    "correction": "красный «+» у c",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-fragen-komparativ",
+    "module": "einkaufen",
+    "title": "10. Устные вопросы с Komparativ",
+    "status": "done",
+    "kind": "speaking",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "description_ru": "Was machst du lieber am Wochenende? и др. — устно",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-wer-ist-besser",
+    "module": "einkaufen",
+    "title": "11. Wer ist besser?",
+    "status": "done",
+    "kind": "speaking",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "description_ru": "сравнить четырёх персонажей по шкалам klug/schön/gesund — устно",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-fragen",
+    "module": "einkaufen",
+    "title": "12. Formulieren Sie Fragen",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "составить вопросы со словами online / Filme / Supermarkt / Medikamente / Schuhe / wann",
+    "answer": "письменных вопросов нет",
+    "correction": "красные галочки у 5 слов (не у wann); над Supermarkt дописано «in den»",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-online-geschaeft",
+    "module": "einkaufen",
+    "title": "13. Was kaufen Sie in einem Geschäft, was online? Wo ist preiswerter?",
+    "status": "done",
+    "kind": "speaking",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "answer": "online: Eintrittskarten, Elektronik, Kleidung, Reisetickets, Möbel, Spielzeuge; im Geschäft: Bücher, Medikamente, Lebensmittel, Geschirr",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-statistik",
+    "module": "einkaufen",
+    "title": "14. Диаграмма «Das kaufen die Deutschen am liebsten online» (учебник упр. 16)",
+    "status": "todo",
+    "kind": "speaking",
+    "description_ru": "угадать порядок категорий 1–9 по процентам; строки не заполнены (обсуждение устно — следов нет)",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-einkaufen-nomen",
+    "module": "einkaufen",
+    "title": "15. Ergänzen Sie die Nomen",
+    "status": "done",
+    "kind": "gap-fill",
+    "description_ru": "вставить существительные в текст о покупках онлайн",
+    "answer": "Internet, Studie, Kleidung, Platz, Bücher, Platz, Kauf, Apotheke, Bereich",
+    "archive_tab": "Einkaufen"
+  },
+  {
+    "id": "t-essen-pyramide",
+    "module": "essen",
+    "title": "Пищевая пирамида (Lebensmittelpyramide)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "articles-plural"
+    ],
+    "archive_tab": "Essen",
+    "description_ru": "Картинка из учебника с подписями; устная работа, письменных записей нет."
+  },
+  {
+    "id": "t-essen-was-isst-du-gern",
+    "module": "essen",
+    "title": "Was isst du gern / am liebsten / oft / selten?",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Essen",
+    "description_ru": "Устные вопросы о вкусах в еде; письменных ответов нет."
+  },
+  {
+    "id": "t-essen-lebensmittel-heimatland",
+    "module": "essen",
+    "title": "Welche Lebensmittel isst man oft in Ihrem Heimatland?",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Essen",
+    "description_ru": "Устные вопросы о еде в родной стране и покупках; письменных ответов нет."
+  },
+  {
+    "id": "t-essen-artikel-sortieren",
+    "module": "essen",
+    "title": "Сортировка продуктов по артиклям der / die / das / pl",
+    "kind": "matching",
+    "status": "done",
+    "grammar": [
+      "articles-plural",
+      "noun-gender"
+    ],
+    "answer": "der: Keks, Käse, Reis, Kaffee, Pfannkuchen, Pilz, Fisch; die: Pizza, Zintrone, Gurke, Wurst, Butter, Möhre, Erdbeere, Mango, Zwiebel, Cola, Kiwi, Milch, Kartoffel; das: Brot, Croissant, Brötchen, Fleisch, Gericht, Eis, Ei; pl: Nudeln, Pommes, Backwaren",
+    "archive_tab": "Essen"
+  },
+  {
+    "id": "t-essen-negieren",
+    "module": "essen",
+    "title": "Negieren Sie die Sätze.",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "kein-nicht"
+    ],
+    "answer": "(красным, кратко) kein; kein; kein; nicht lecker; nicht gern; … nicht; nicht in…; keinen Kaffee",
+    "correction": "Ударение Káffee и приписка «das Café» (ударение на конце) — различие кофе/кафе.",
+    "archive_tab": "Essen",
+    "description_ru": "Полные предложения не записаны; кто вписал красные пометки — неясно. Для «Ich esse das Schnitzel» вписано «kein» (по правилу нужно nicht)."
+  },
+  {
+    "id": "t-essen-nicht-katzen",
+    "module": "essen",
+    "title": "Комикс «отрицание с nicht» — отрицайте только жёлтые слова",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "kein-nicht"
+    ],
+    "archive_tab": "Essen",
+    "description_ru": "7 предложений (Ich habe das verstanden. … Die Katzen gehen zusammen spazieren.); ничего не вписано."
+  },
+  {
+    "id": "t-essen-adj-tabelle",
+    "module": "essen",
+    "title": "Таблица окончаний прилагательных: Nominativ / Akkusativ",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "adj-endings-zero",
+      "adjective-endings"
+    ],
+    "answer": "Akk: französischen Käse, ungarische Salami, deutsches Brot, italienische Gerichte; Nom Pl «Endung: -e»; прочие строки Endung пустые",
+    "archive_tab": "Essen",
+    "description_ru": "Красные штрихи у «die Salami» — смысл неясен."
+  },
+  {
+    "id": "t-essen-was-essen-trinken-sie-gern",
+    "module": "essen",
+    "title": "c Was essen/trinken Sie gern? Bilden Sie acht Kombinationen.",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "adj-endings-zero"
+    ],
+    "archive_tab": "Essen",
+    "description_ru": "Образец: Ich esse gern französischen Käse. Письменных сочетаний нет (устно). Красные точки у französisch, spanisch, schottisch, indisch, japanisch, der Käse, die Wurst, der Whisky; красным «5-6»; дописано «die Kiwi»."
+  },
+  {
+    "id": "t-essen-im-restaurant",
+    "module": "essen",
+    "title": "Im Restaurant — ролевая игра с меню",
+    "kind": "speaking",
+    "status": "done",
+    "answer": "В меню отмечены: Tomatensuppe, Schnitzel mit Kartoffelsalat, Apfelkuchen",
+    "archive_tab": "Essen",
+    "description_ru": "Redemittel «Im Restaurant», заготовки фраз и Speisekarte; устная ролевая игра."
+  },
+  {
+    "id": "t-gesundheit-statistik",
+    "module": "gesundheit",
+    "title": "1. Freizeit und Gesundheit — статистика (фото с подписями)",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "введение лексики: что немцы делают в свободное время (устно)",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-was-passt",
+    "module": "gesundheit",
+    "title": "2. Was passt zusammen? Ordnen Sie zu.",
+    "status": "done",
+    "kind": "matching",
+    "description_ru": "соединить существительное с глаголом",
+    "answer": "Kaffee trinken, Sport treiben, Radio hören, nichts tun, Kuchen essen, über wichtige Dinge reden, im Internet surfen, in sozialen Netzwerken kommunizieren, Zeitschriften lesen, etwas mit Freunden unternehmen",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-freizeit",
+    "module": "gesundheit",
+    "title": "3. Was machen Sie in Ihrer Freizeit?",
+    "status": "done",
+    "kind": "matching",
+    "description_ru": "разложить плашки хобби по трём персонажам; разложено 7 из 15",
+    "answer": "Sofia: Bücher lesen, ausgehen; Buppi: ins Fitnessstudio gehen, mit Freunden feiern; Katharina: einkaufen/shoppen gehen, tanzen, Abendessen mit Freunden",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-hobby-fragen",
+    "module": "gesundheit",
+    "title": "4. Вопросы для разговора о хобби",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "устно, записей нет",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-berichte-a",
+    "module": "gesundheit",
+    "title": "5a. Berichte über die Freizeit: Anton/Julia/Eva zuordnen (2/32)",
+    "status": "done",
+    "kind": "listening",
+    "answer": "kochen e, Fitnessstudio a, Ski a, Theater j, Jazz a, Markt e, lange schlafen j, spazieren j+e, fernsehen e, Fußball a, Tests j",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-berichte-b",
+    "module": "gesundheit",
+    "title": "5b. Bericht von Anton: Fragen beantworten",
+    "status": "todo",
+    "kind": "listening",
+    "homework_uncertain": true,
+    "description_ru": "6 вопросов по рассказу Антона; к блоку 5b/5c ведёт красная стрелка без подписи",
+    "archive_tab": "Gesundheit · 1 из 2",
+    "homework": true
+  },
+  {
+    "id": "t-gesundheit-berichte-c",
+    "module": "gesundheit",
+    "title": "5c. Bericht von Julia: Lücken ergänzen",
+    "status": "todo",
+    "kind": "listening",
+    "homework_uncertain": true,
+    "description_ru": "8 пропусков на слух; к блоку 5b/5c ведёт красная стрелка без подписи",
+    "archive_tab": "Gesundheit · 1 из 2",
+    "homework": true
+  },
+  {
+    "id": "t-gesundheit-berichte-d",
+    "module": "gesundheit",
+    "title": "5d. Bericht von Eva: Verben in der richtigen Form",
+    "status": "todo",
+    "kind": "gap-fill",
+    "grammar": [
+      "separable-verbs",
+      "strong-verbs"
+    ],
+    "description_ru": "вставить 14 глаголов в Präsens",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-party",
+    "module": "gesundheit",
+    "title": "6. Auf der Party: fehlende Wörter ergänzen (2/33)",
+    "status": "todo",
+    "kind": "listening",
+    "homework_uncertain": true,
+    "description_ru": "вписать пропущенные слова 1–8 по диалогу Monika/Matthias; красная стрелка с кружком указывает на задание",
+    "archive_tab": "Gesundheit · 1 из 2",
+    "homework": true
+  },
+  {
+    "id": "t-gesundheit-taetigkeiten",
+    "module": "gesundheit",
+    "title": "7. Fragen Sie nach Tätigkeiten und Hobbys.",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "устно по опорным фразам",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-koerperteile",
+    "module": "gesundheit",
+    "title": "8. Körperteile — схема с фигурой",
+    "status": "done",
+    "kind": "matching",
+    "answer": "все подписи соединены с фигурой; от руки переводы: Hals — шея, Zehe — палец ноги, Bein — нога",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-probleme",
+    "module": "gesundheit",
+    "title": "9. Probleme mit der Gesundheit: Schreiben Sie jeweils drei Sätze",
+    "status": "todo",
+    "kind": "writing",
+    "homework_uncertain": true,
+    "grammar": [
+      "wehtun-dativ",
+      "possessive-pronouns",
+      "conj-dann-darum",
+      "modal-koennen"
+    ],
+    "description_ru": "по образцу: … hat Probleme mit seinem Arm. Der Arm tut weh, darum kann er nicht …; красная скобка у пп. 1–3, подчёркнуто «Kn» в Knie",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-kaetzchen",
+    "module": "gesundheit",
+    "title": "10. Was ist los mit einem Kätzchen? Stellen Sie ein paar Fragen.",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "задать вопросы о симптомах; артикли и переводы Husten/Schnupfen/Fieber вписаны красным",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-hast-du-manchmal",
+    "module": "gesundheit",
+    "title": "11. Мини-диалоги A/B «Hast du manchmal …?»",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "цепочка вопросов-ответов с nie/manchmal/oft (устно)",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-termin-1",
+    "module": "gesundheit",
+    "title": "12. Einen Termin beim Arzt vereinbaren (2/35), часть 1",
+    "status": "done",
+    "kind": "listening",
+    "answer": "1) hier 2) einmal 3) so lange 4) geburstdatum",
+    "description_ru": "телефонный диалог с пропусками; продолжение во вкладке Gesundheit · 2 из 2",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-dialoge",
+    "module": "gesundheit",
+    "title": "13. Spielen Sie Dialoge (Termin beim Arzt)",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "разыграть запись к зубному и к врачу для ребёнка (устно)",
+    "archive_tab": "Gesundheit · 1 из 2"
+  },
+  {
+    "id": "t-gesundheit-termin-2",
+    "module": "gesundheit",
+    "title": "Einen Termin beim Arzt vereinbaren, часть 2 (пропуски 4–7)",
+    "status": "done",
+    "kind": "listening",
+    "answer": "4) geburstdatum 5) 1986 6) private 7) Bringen",
+    "description_ru": "продолжение диалога из Gesundheit · 1 из 2",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-beim-arzt",
+    "module": "gesundheit",
+    "title": "Beim Arzt — Hören und lesen Sie das folgende Gespräch (2 36)",
+    "status": "done",
+    "kind": "listening",
+    "answer": "schnupfen, untersuchen, honig, Arbeit, Fitnessstudio, Rezept",
+    "correction": "пометки красным: «hoch» в рамке + «Ihre»; untersuchen → обследовать / besuchen → посетить; подчёркнуты Bleiben Sie, Schlafen Sie, Essen Sie",
+    "grammar": [
+      "imperativ"
+    ],
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-komposita",
+    "module": "gesundheit",
+    "title": "Komposita: Was passt zusammen? Ordnen Sie zu",
+    "status": "todo",
+    "kind": "matching",
+    "description_ru": "составить сложные слова (Arzt-/Kranken-/Geburts-… + Termin/Versicherung/Datum…); сделан только образец der Arzttermin",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-fragen-gesundheit",
+    "module": "gesundheit",
+    "title": "Вопросы-карточки о здоровье",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "устно, отметок нет",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-imperativ-13a",
+    "module": "gesundheit",
+    "title": "Imperativ 13a: Verben unterstreichen",
+    "status": "todo",
+    "kind": "other",
+    "grammar": [
+      "imperativ",
+      "word-order"
+    ],
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-imperativ-13b",
+    "module": "gesundheit",
+    "title": "Imperativ 13b: Ratschläge vom Arzt (Sie)",
+    "status": "todo",
+    "kind": "writing",
+    "grammar": [
+      "imperativ"
+    ],
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-imperativ-13d",
+    "module": "gesundheit",
+    "title": "Imperativ 13d: Ratschläge an Freunde (du / ihr)",
+    "status": "todo",
+    "kind": "writing",
+    "homework": true,
+    "grammar": [
+      "imperativ"
+    ],
+    "description_ru": "советы из 13b в формах du (строки 1–6) и ihr (7–12); «H/A schreiben»",
+    "correction": "образец преподавателя красным: 6. Arbeite nicht",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-imperativ-formen",
+    "module": "gesundheit",
+    "title": "Schreiben Sie Imperativformen mit Sie, du und ihr",
+    "status": "todo",
+    "kind": "writing",
+    "grammar": [
+      "imperativ",
+      "separable-verbs"
+    ],
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-dialog-sollen",
+    "module": "gesundheit",
+    "title": "Hören und lesen Sie den Dialog (ввод sollen)",
+    "status": "done",
+    "kind": "listening",
+    "grammar": [
+      "modal-sollen"
+    ],
+    "description_ru": "чтение/аудирование, отметок нет",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-tipps",
+    "module": "gesundheit",
+    "title": "Geben Sie Tipps für ein gesünderes Leben",
+    "status": "done",
+    "kind": "speaking",
+    "grammar": [
+      "imperativ"
+    ],
+    "description_ru": "устно, императив",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-sollen-16b",
+    "module": "gesundheit",
+    "title": "sollen 16b: Satzbau, sollen in der richtigen Form",
+    "status": "todo",
+    "kind": "gap-fill",
+    "grammar": [
+      "modal-sollen",
+      "word-order"
+    ],
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-sollen-16c",
+    "module": "gesundheit",
+    "title": "sollen 16c: Wünsche von Susanne",
+    "status": "todo",
+    "kind": "writing",
+    "grammar": [
+      "modal-sollen"
+    ],
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-susi",
+    "module": "gesundheit",
+    "title": "5. Susi ist krank. Müssen oder sollen?",
+    "status": "done",
+    "kind": "gap-fill",
+    "grammar": [
+      "modal-muessen",
+      "modal-sollen"
+    ],
+    "answer": "muss, musst, musst, soll, soll, sollst, soll",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-vorschlaege",
+    "module": "gesundheit",
+    "title": "6. Machen Sie Vorschläge mit sollen",
+    "status": "todo",
+    "kind": "writing",
+    "grammar": [
+      "modal-sollen"
+    ],
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-muessen-sollen",
+    "module": "gesundheit",
+    "title": "Müssen oder sollen? (зелёный лист)",
+    "status": "done",
+    "kind": "gap-fill",
+    "grammar": [
+      "modal-muessen",
+      "modal-sollen"
+    ],
+    "answer": "muss, Soll, muss, muss, muss, soll, soll, muss, muss, soll",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-frueher-heute",
+    "module": "gesundheit",
+    "title": "Früher und heute: Ihre Gewohnheiten",
+    "status": "todo",
+    "kind": "speaking",
+    "grammar": [
+      "perfekt"
+    ],
+    "description_ru": "вопросы и ответы о привычках раньше/сейчас; на доске перекрыто картинкой, статус неизвестен",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-freizeittrends-1",
+    "module": "gesundheit",
+    "title": "Gesunde Freizeittrends? 1) Lesen Sie den Text",
+    "status": "done",
+    "kind": "other",
+    "description_ru": "чтение; репетитор выделила vor allem, besonders, Freizeitsportler, «komma» над 11,5",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-freizeittrends-2",
+    "module": "gesundheit",
+    "title": "Gesunde Freizeittrends? 2) Ergänzen Sie die Tabelle",
+    "status": "done",
+    "kind": "matching",
+    "grammar": [
+      "perfekt"
+    ],
+    "answer": "Früher: spazieren gehen, ins Kino gehen, Rad fahren, im Garten arbeiten; Heute: Couch/fernsehen, chatten, Videos, Onlinespiele, Internet",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-freizeittrends-3",
+    "module": "gesundheit",
+    "title": "Gesunde Freizeittrends? 3) Berichten Sie über Freizeittrends in Ihrem Heimatland",
+    "status": "done",
+    "kind": "speaking",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "description_ru": "устно по клише; «Meiner Meinung nach» обведено красным",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-konnektoren",
+    "module": "gesundheit",
+    "title": "Konnektoren: Ergänzen Sie denn, oder, aber oder und",
+    "status": "todo",
+    "kind": "gap-fill",
+    "homework": true,
+    "grammar": [
+      "conj-aber-denn-und-oder"
+    ],
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-nach-infos-fragen",
+    "module": "gesundheit",
+    "title": "Nach Informationen fragen: Freizeit",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "вопросы и ответы по карточкам (Wochenende, Lieblingshobby, Sport…); все карточки перечёркнуты красным — отработаны",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-video-hobbies",
+    "module": "gesundheit",
+    "title": "Видео «Hobbies | Super Easy German (21)» + вопросы о хобби",
+    "status": "todo",
+    "kind": "video",
+    "homework": true,
+    "link": "https://www.youtube.com/watch?v=luM9zypWm9Y",
+    "description_ru": "посмотреть видео; карточки: Wie lange interessierst du dich für dein Hobby? и др.",
+    "archive_tab": "Gesundheit · 2 из 2"
+  },
+  {
+    "id": "t-gesundheit-klein-wortschatz",
+    "module": "gesundheit-klein",
+    "title": "1 — Wortschatz: Ordne die Wörter den Bildern zu",
+    "kind": "matching",
+    "status": "done",
+    "answer": "Все 8 подписей соотнесены с фото; под «ausschlafen» добавлено «gut schlafen».",
+    "correction": "Красная черта-скобка над «ein» в «Vitamine einnehmen» (выделена приставка); исправлений нет.",
+    "archive_tab": "Gesundheit (малый)"
+  },
+  {
+    "id": "t-gesundheit-klein-sprechen-ratschlag",
+    "module": "gesundheit-klein",
+    "title": "2 — Sprechen: Gib einen Ratschlag diesen Personen",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "modal-muessen",
+      "modal-sollen"
+    ],
+    "description_ru": "Дать совет Anna, Sarah, Ben, David по образцу «Du musst …». Письменных советов нет.",
+    "correction": "Красным у персонажей: Anna — Du, Sarah — Du, Ben — Sie, David — Sie (форма обращения).",
+    "archive_tab": "Gesundheit (малый)"
+  },
+  {
+    "id": "t-ha-pronomen-poss-2",
+    "module": "ha-pronomen",
+    "title": "2. Setzen Sie entsprechende Possessivpronomen ein.",
+    "status": "checked",
+    "kind": "gap-fill",
+    "homework": true,
+    "grammar": [
+      "possessive-pronouns"
+    ],
+    "answer": "mein/meine…, dein…, sein Lieder, ihr Geschwister, sein Ferien, euer Bank, euer Übungen, Ihr Schwester …",
+    "correction": "ihre Geschwister, seine Ferien (PL), Ihre Schwester, eure Übungen; не исправлены sein Lieder, euer Bank",
+    "archive_tab": "Hausaufgabe (местоимения)"
+  },
+  {
+    "id": "t-ha-pronomen-poss-mutter",
+    "module": "ha-pronomen",
+    "title": "1. Die Mutter wendet sich an ihre Töchter… (Possessivpronomen)",
+    "status": "checked",
+    "kind": "gap-fill",
+    "homework": true,
+    "grammar": [
+      "possessive-pronouns",
+      "case-choice"
+    ],
+    "answer": "mein/meine, deinen/deine, eure/eure, Ihr/Ihre, euren/euren, eure, Dein/dein, euer/euer/eure/eure",
+    "correction": "пометки nehmen +Akk, geht es +D; в п. 7 подчёркнуты Esst, Dein, dein как ошибка (исправление не вписано)",
+    "archive_tab": "Hausaufgabe (местоимения)"
+  },
+  {
+    "id": "t-ha-pronomen-poss-9",
+    "module": "ha-pronomen",
+    "title": "9. Setzen Sie entsprechende Possessivpronomen in richtiger Form ein.",
+    "status": "checked",
+    "kind": "gap-fill",
+    "homework": true,
+    "grammar": [
+      "possessive-pronouns",
+      "case-choice"
+    ],
+    "answer": "Mein, meines, meine, meine, Unser, dem, ihre, seines, ihre, (пусто), seine, eure, (пусто), unsere, (пусто), (пусто), deines",
+    "correction": "вписаны красным: ihren Mantel, ihres Freundes, unserer Universität, unseren Instituten; исправлено: seine → seiner Frau (Dat), unsere → unserem Sohn (Dat)",
+    "archive_tab": "Hausaufgabe (местоимения)"
+  },
+  {
+    "id": "t-ha-pronomen-poss-4",
+    "module": "ha-pronomen",
+    "title": "4. Setzen Sie passende Possessivpronomen ein.",
+    "status": "checked",
+    "kind": "gap-fill",
+    "homework": true,
+    "grammar": [
+      "possessive-pronouns"
+    ],
+    "answer": "mein, sein, deine, unsere, ihr, sein, ihre, euer, ihre, meine, sein, dein, sein, euer/eure, sein/seine/seine",
+    "correction": "«+», исправлений нет",
+    "archive_tab": "Hausaufgabe (местоимения)"
+  },
+  {
+    "id": "t-ha-pronomen-genially",
+    "module": "ha-pronomen",
+    "title": "Игра Genially «Die Einladung zum Abendessen» (Possessivartikel)",
+    "status": "todo",
+    "kind": "app",
+    "homework": true,
+    "grammar": [
+      "possessive-pronouns"
+    ],
+    "link": "https://view.genially.com/689107334e12f1a146f36bb0",
+    "description_ru": "стикер: «игра на эту тему, если поиграешь, я дам тебе предметик»; следов прохождения нет",
+    "archive_tab": "Hausaufgabe (местоимения)"
+  },
+  {
+    "id": "t-ha-pronomen-ue1-perfekt",
+    "module": "ha-pronomen",
+    "title": "Ü1. Was hast du heute gemacht? (Fragen im Perfekt, Antworten im Präsens)",
+    "status": "checked",
+    "kind": "writing",
+    "homework": true,
+    "grammar": [
+      "perfekt",
+      "partizip2-prefixes",
+      "separable-verbs"
+    ],
+    "answer": "Haben Sie die Dokumente schon ausgedruckt? – Nein, ich drucke sie morgen aus; … schon führt?; … ich spreche mit ih… erst um 15.00 Uhr; …",
+    "correction": "№3 führt → geführt; №5 местоимение после mit исправлено (вероятно ihnen)",
+    "archive_tab": "Hausaufgabe (местоимения)"
+  },
+  {
+    "id": "t-ha-pronomen-ue2-buero",
+    "module": "ha-pronomen",
+    "title": "Ü2. Tätigkeiten im Büro (a: zuordnen, b: Partizip II)",
+    "status": "checked",
+    "kind": "gap-fill",
+    "homework": true,
+    "grammar": [
+      "partizip2-prefixes",
+      "strong-verbs"
+    ],
+    "answer": "b: weitergeleitet, beantwortet, übersetzt, ausgedruckt, geschrieben, gelesen; vereinbart, verschiebt, abgesagt; angerufen, geschrieben, informiert",
+    "correction": "«+»; verschiebt подчёркнуто как ошибка (→ verschoben), стикер «verschieben o o»",
+    "archive_tab": "Hausaufgabe (местоимения)"
+  },
+  {
+    "id": "t-ha-pronomen-ue3-berufe",
+    "module": "ha-pronomen",
+    "title": "Ü3. Berufe: Wer macht was?",
+    "status": "done",
+    "kind": "gap-fill",
+    "homework": true,
+    "answer": "bedient, unterrichtet, untersucht, entwickelt, präsentiert, besucht, führt, analysiert",
+    "archive_tab": "Hausaufgabe (местоимения)"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-ue1-wer-faehrt",
+    "module": "ha-verkehrsmittel",
+    "title": "Ü1 Wer fährt mit welchem Verkehrsmittel?",
+    "kind": "writing",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "mit-dativ",
+      "strong-verbs"
+    ],
+    "answer": "Olaf fährt immer mit dem Auto; Du fähst manchmal mit der Tram; Mira fährt selten mit dem Taxi; Wir fliegen oft mit dem Flugzeug; Ich fahre manchmal mit dem Zug; Ihr fahrt oft mit dem Motorrad; Laura fährt immer mit der U-bahn",
+    "correction": "Красный «+», исправлений нет («fähst», «U-bahn» оставлены)",
+    "archive_tab": "Hausaufgabe Verkehrsmittel"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-ue2-beliebteste",
+    "module": "ha-verkehrsmittel",
+    "title": "Ü2 Das Auto ist das beliebteste Verkehrsmittel in Deutschland",
+    "kind": "writing",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "mit-dativ",
+      "word-order"
+    ],
+    "answer": "58 Prozent der Deutschen fahren zur Arbeit mit dem Auto; … nutzen öffentliche Verkehrsmittel; Viele Leute nehmen die Straßenbahn in Großstädten; 4.7 Millionen Menschen fahren täglich mit dem Zug; Das Flugzeug liegt auf Platz eins bei Urlaubsreisen; 72 Prozent der Deutschen haben ein Fahrrad; Viele Menschen finden das Fahrradfahren in Städten gefährlich; Der Bus ist auch beliebt",
+    "correction": "Красный «+», исправлений нет",
+    "archive_tab": "Hausaufgabe Verkehrsmittel"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-ue3-berichte-berlin",
+    "module": "ha-verkehrsmittel",
+    "title": "Ü3 Berichte aus Berlin",
+    "kind": "writing",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "word-order"
+    ],
+    "answer": "Die Züge sind um 20.00 Uhr leer; Studenten nutzen die öffentlichen Verkehrsmittel kostenlos; Die S-Bahn fährt überall in Berlin; Manche Wagen sind nicht sauber in der S-Bahn; Ich zahle 4,50 Euro für die Hin- und Rückfahrt; Fahrradfahren ist gut für die Fitness",
+    "correction": "Красный «+», исправлений нет",
+    "archive_tab": "Hausaufgabe Verkehrsmittel"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-ue4-unterwegs-dialog",
+    "module": "ha-verkehrsmittel",
+    "title": "Ü4 Unterwegs — Dialog",
+    "kind": "writing",
+    "homework": true,
+    "status": "done",
+    "grammar": [
+      "word-order",
+      "mit-dativ",
+      "modal-koennen"
+    ],
+    "answer": "Ich fahre mit dem Auto; Ich fahre mit dem Zug; Zugfahren ist teuer; Autofahren ist auch teuer. Wie lange stehst du jeden Tag im Stau; Ich stehe montags und freitags ca. 30 Minuten im Stau. Mittwochs fahre ich nur 20 Minuten ins Büro…; Aber ich kann 50 Minuten im Zug arbeiten. Warum fährst du nicht mit dem Zug?; Die Züge haben oft Verspätung. Ich liebe im Auto sitzen und Radio hören",
+    "archive_tab": "Hausaufgabe Verkehrsmittel",
+    "description_ru": "Пометки репетитора нет; «Ich liebe im Auto sitzen» вместо «Ich sitze lieber im Auto» — не исправлено."
+  },
+  {
+    "id": "t-ha-verkehrsmittel-ue5-plaene-wollen",
+    "module": "ha-verkehrsmittel",
+    "title": "Ü5 Pläne — Sätze mit wollen",
+    "kind": "writing",
+    "homework": true,
+    "status": "done",
+    "grammar": [
+      "modal-wollen",
+      "word-order"
+    ],
+    "answer": "Warum willst du im November nach Deutschland reisen?; Wann wollen Sie Urlaub machen?; Marta und Ivan wollen in Österreich Ski fahren; Ich will am Wochenende zu Hause bleiben; Meine Cousine will in England studieren; Was will Paul am Wochenende machen?; Ich will später als Lehrerin arbeiten; Erich und Erika wollen ein Haus kaufen; Hilde will keinen Kaffee mehr trinken; Otto will Karriere machen",
+    "archive_tab": "Hausaufgabe Verkehrsmittel",
+    "description_ru": "Пометок и исправлений нет."
+  },
+  {
+    "id": "t-ha-verkehrsmittel-1-definite-artikel-dativ",
+    "module": "ha-verkehrsmittel",
+    "title": "1 Wie fahren Sie zur Arbeit? — definite Artikel im Dativ",
+    "kind": "gap-fill",
+    "homework": true,
+    "status": "done",
+    "grammar": [
+      "mit-dativ"
+    ],
+    "answer": "mit dem Fahrrad / dem Zug / der Straßenbahn / der U-Bahn / den Rollschuhen / dem Taxi / dem Bus",
+    "archive_tab": "Hausaufgabe Verkehrsmittel",
+    "description_ru": "Отдельной пометки нет."
+  },
+  {
+    "id": "t-ha-verkehrsmittel-2-mit-wem-kino",
+    "module": "ha-verkehrsmittel",
+    "title": "2 Mit wem gehen Sie ins Kino? — indefinite Artikel im Dativ",
+    "kind": "gap-fill",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "mit-dativ",
+      "articles-plural"
+    ],
+    "answer": "mit dem Freund; mit den Freunden; mit den Mädchen; mit der Kollegin; mit dem Lehrer; mit dem Mann; mit den Gästen",
+    "correction": "Чёрный «+»; не исправлено, что вписаны определённые артикли вместо неопределённых",
+    "archive_tab": "Hausaufgabe Verkehrsmittel"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-3-mit-wem-urlaub",
+    "module": "ha-verkehrsmittel",
+    "title": "3 Mit wem möchten Sie in den Urlaub fahren? — einem/einer, -n",
+    "kind": "gap-fill",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "mit-dativ",
+      "articles-plural"
+    ],
+    "answer": "einem Baby / Babys; einem Mann / Männern; einem Freund / Freunden; einer Kollegin / Kolleginnen; einer Frau / Frauen; einer Oma / Omas; einem Opa / Opas",
+    "correction": "Чёрный «+», исправлений нет",
+    "archive_tab": "Hausaufgabe Verkehrsmittel"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-6-mit-deinem-auto",
+    "module": "ha-verkehrsmittel",
+    "title": "6 Fährst du mit deinem Auto?",
+    "kind": "writing",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "mit-dativ",
+      "possessive-pronouns",
+      "word-order"
+    ],
+    "answer": "Ich fliege mit dem Flugzeug; Sie steht oft im Stau mit Ihrem Taxi; Die Menschen in Köln stehen 63 Stunden im Jahr mit ihren Autos im Stau; Paul nimmt oft die Straßenbahn; Rund fünf Millionen Menschen fahren täglich mit dem Zug; Susi fahrt mit ihrem Motorrad gern; Man kann auch nach Schweden mit der Fähre fahren; Fahrt ihr mit euren Fahrrädern?; Ja, wir nehmen unsere Fahrräder; Am Wochenende fahren wir mit einem Boot",
+    "correction": "Чёрный «+», исправлений нет («Sie steht…» вместо вопроса, «Susi fahrt» оставлены)",
+    "archive_tab": "Hausaufgabe Verkehrsmittel"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-4-nomen-artikel-dativ",
+    "module": "ha-verkehrsmittel",
+    "title": "4 Ergänzen Sie die Nomen und Artikel im Dativ (mit, an, von, in, zu, bei)",
+    "kind": "gap-fill",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "prepositions-by-case",
+      "mit-dativ"
+    ],
+    "answer": "mit dem Hund; an einem Abend; von dem Wetter; in der Firma; zu den Freunden; bei einer Kollegin; mit den Hausaufgaben",
+    "correction": "Чёрный «+», исправлений нет",
+    "archive_tab": "Hausaufgabe Verkehrsmittel"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-antworte-schriftlich",
+    "module": "ha-verkehrsmittel",
+    "title": "antworte schriftlich — 3 письменных ответа",
+    "kind": "writing",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "conj-aber-denn-und-oder",
+      "mit-dativ"
+    ],
+    "answer": "In Deutschland fahren viele Leute mit dem Fahrrad, denn …; Ich fahre nicht sehr gern mit dem Bus, …; Ich möchte nach Australien fahren, denn möchte …",
+    "correction": "В ответе 3 вставлено «ich»: denn ich möchte …",
+    "archive_tab": "Hausaufgabe Verkehrsmittel",
+    "description_ru": "Полный текст ответов на снимке не виден."
+  },
+  {
+    "id": "t-ha-verkehrsmittel-antworte-muendlich",
+    "module": "ha-verkehrsmittel",
+    "title": "antworte mündlich — Wie war dein letzter Urlaub?",
+    "kind": "speaking",
+    "homework": true,
+    "status": "todo",
+    "grammar": [
+      "perfekt",
+      "praeteritum-war-hatte"
+    ],
+    "archive_tab": "Hausaufgabe Verkehrsmittel",
+    "description_ru": "Устно; следов выполнения нет."
+  },
+  {
+    "id": "t-hausarbeit-woerter-verbinden",
+    "module": "hausarbeit",
+    "title": "Verbinden Sie Wörter (существительное + глагол)",
+    "kind": "matching",
+    "status": "done",
+    "assigned": "2026-10-09",
+    "answer": "Blumen gießen, das Geschirr spülen, das Bad putzen, die Wohnung aufräumen, die Wäsche waschen, Staub wischen, Müll rausbringen, den Boden fegen",
+    "archive_tab": "Hausarbeit А1-А2",
+    "description_ru": "Правок нет."
+  },
+  {
+    "id": "t-hausarbeit-bilder-aktivitaeten",
+    "module": "hausarbeit",
+    "title": "Wir machen sauber! Verbinden Sie Bilder mit Aktivitäten",
+    "kind": "matching",
+    "status": "done",
+    "assigned": "2026-10-09",
+    "answer": "Все 10 плашек разложены под картинками",
+    "archive_tab": "Hausarbeit А1-А2",
+    "description_ru": "Правок нет; соответствие картинкам не проверено при расшифровке."
+  },
+  {
+    "id": "t-hausarbeit-hoeren-ich-muss",
+    "module": "hausarbeit",
+    "title": "Hören Sie und ergänzen («Ich muss...»)",
+    "kind": "listening",
+    "status": "todo",
+    "grammar": [
+      "modal-muessen"
+    ],
+    "assigned": "2026-10-09",
+    "archive_tab": "Hausarbeit А1-А2",
+    "description_ru": "Три карточки «Ich muss...»; аудио на доске нет; пусто."
+  },
+  {
+    "id": "t-hausarbeit-zimmer-sauber-machen",
+    "module": "hausarbeit",
+    "title": "Das Zimmer sauber machen: Wie kann man dieses Zimmer in Ordnung bringen?",
+    "kind": "speaking",
+    "status": "todo",
+    "assigned": "2026-10-09",
+    "archive_tab": "Hausarbeit А1-А2",
+    "description_ru": "По картинке; не сделано."
+  },
+  {
+    "id": "t-hausarbeit-fragen-beantworten",
+    "module": "hausarbeit",
+    "title": "Fragen beantworten (Wie oft machst du dein Zimmer sauber? …)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "modal-muessen",
+      "komparativ-superlativ"
+    ],
+    "assigned": "2026-10-09",
+    "archive_tab": "Hausarbeit А1-А2",
+    "description_ru": "Не сделано."
+  },
+  {
+    "id": "t-imperativ-katzen-uebungen-du",
+    "module": "imperativ-katzen",
+    "title": "Übungen 1: Imperativ du — поставь глаголы в императив",
+    "status": "checked",
+    "kind": "gap-fill",
+    "grammar": [
+      "imperativ"
+    ],
+    "answer": "Geh spazieren, hör, sing, gib, räum auf, lies, sprich, sei, hab, wasch, iss, fahr, trink",
+    "correction": "красная галочка, исправлений нет",
+    "archive_tab": "Imperativ с котятами"
+  },
+  {
+    "id": "t-imperativ-katzen-uebungen-ihr",
+    "module": "imperativ-katzen",
+    "title": "Übungen 2: Imperativ ihr — поставь глаголы в императив",
+    "status": "todo",
+    "kind": "gap-fill",
+    "grammar": [
+      "imperativ"
+    ],
+    "description_ru": "anrufen, waschen, ausdrucken, vereinbaren, aufstehen, laufen, fliegen, ausgehen, ankommen, einschlafen; ответов нет, но стоит красная галочка",
+    "archive_tab": "Imperativ с котятами"
+  },
+  {
+    "id": "t-imperativ-katzen-uebungen-sie",
+    "module": "imperativ-katzen",
+    "title": "Übungen 3: Imperativ Sie — поставь глаголы в императив",
+    "status": "checked",
+    "kind": "gap-fill",
+    "grammar": [
+      "imperativ",
+      "separable-verbs"
+    ],
+    "answer": "Bevorzugen Sie, schreiben Sie, wohnen Sie, nachten Sie über, prüfen Sie, suchen Sie unter, besprechen Sie, lesen Sie vor, bereiten Sie vor",
+    "correction": "красная галочка, исправлений нет (ошибки nachten Sie über / suchen Sie unter не отмечены)",
+    "archive_tab": "Imperativ с котятами"
+  },
+  {
+    "id": "t-imperativ-katzen-extra-du",
+    "module": "imperativ-katzen",
+    "title": "extra Übungen: Sätze in Imperativ mit du",
+    "status": "done",
+    "kind": "writing",
+    "grammar": [
+      "imperativ"
+    ],
+    "answer": "Öffne das Fenster. Lies das Buch. Schreib einen Brief. Geh nach Hause. Trink Wasser. Iss einen Apfel.",
+    "archive_tab": "Imperativ с котятами"
+  },
+  {
+    "id": "t-imperativ-katzen-extra-ihr",
+    "module": "imperativ-katzen",
+    "title": "extra Übungen: Sätze in Imperativ mit ihr",
+    "status": "checked",
+    "kind": "writing",
+    "grammar": [
+      "imperativ"
+    ],
+    "answer": "Spricht laut. Schlaft gut. Lernt Deutsch. Macht die Hausaufgaben. Spielt Fußball. Arbeitet schneller.",
+    "correction": "красная галочка, исправлений нет (Spricht не отмечено)",
+    "archive_tab": "Imperativ с котятами"
+  },
+  {
+    "id": "t-imperativ-katzen-extra-sie",
+    "module": "imperativ-katzen",
+    "title": "extra Übungen: Sätze in Imperativ mit Sie",
+    "status": "checked",
+    "kind": "writing",
+    "grammar": [
+      "imperativ"
+    ],
+    "answer": "Warten Sie mich auf. Sagen Sie die Wahrheit. Nehmen Sie den Stift. Geben Sie mir das Buch. Sehen Sie das Bild an. Helfen Sie mir.",
+    "correction": "красная галочка, исправлений нет (Warten Sie mich auf не отмечено)",
+    "archive_tab": "Imperativ с котятами"
+  },
+  {
+    "id": "t-imperativ-katzen-tipps-katzen",
+    "module": "imperativ-katzen",
+    "title": "Tipps für traurige Katzen",
+    "status": "done",
+    "kind": "writing",
+    "grammar": [
+      "imperativ"
+    ],
+    "answer": "Isst ein brötchen / Umarmt euch! / Macht eine Pause; Trag eine Apfelmütze / Iss das Obst / Sei gesund; Spiel mit dem Fisch / Nimm nicht ab / Sei nicht traurig",
+    "archive_tab": "Imperativ с котятами"
+  },
+  {
+    "id": "t-kleidung-zuordnen",
+    "module": "kleidung",
+    "title": "1. Ordnen Sie die Wörter den Bildern zu.",
+    "status": "done",
+    "kind": "matching",
+    "description_ru": "соотнести 18 слов одежды с картинками",
+    "answer": "все подписи стоят под картинками",
+    "grammar": [
+      "articles-plural"
+    ],
+    "archive_tab": "Kleidung"
+  },
+  {
+    "id": "t-kleidung-schrank-fragen",
+    "module": "kleidung",
+    "title": "2. Nehmen Sie Fragen auf dem Schrank und beantworten Sie",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "устные ответы на вопросы «из шкафа» (Was trägst du zur Arbeit? Lieblingsfarbe? …); письменных следов нет",
+    "archive_tab": "Kleidung"
+  },
+  {
+    "id": "t-kleidung-beschreiben",
+    "module": "kleidung",
+    "title": "4. Beschreiben Sie die Kleidung",
+    "status": "done",
+    "kind": "speaking",
+    "grammar": [
+      "adj-endings-ein"
+    ],
+    "description_ru": "описать одежду на трёх коллажах (устно)",
+    "answer": "записана одна фраза: Ich sehe eine weißblaue Tasche",
+    "archive_tab": "Kleidung"
+  },
+  {
+    "id": "t-kleidung-saetze",
+    "module": "kleidung",
+    "title": "5. Bilden Sie die Sätze",
+    "status": "checked",
+    "kind": "writing",
+    "grammar": [
+      "adj-endings-ein"
+    ],
+    "description_ru": "составить предложения: местоимение + anhaben/tragen/anziehen + прилагательное в Akk",
+    "answer": "Sie hat ein rotes Kleid an; Er trägt eine blause Hose; Ich ziehe einen grauen Pullover an; … №6 Ihr zieht ein brauner Gürtel an; №9 Er zieht ein warmer Schal an",
+    "correction": "№6 → einen braunen Gürtel; №9 → einen warmen Schal (опечатка «blause» в №2 не исправлена)",
+    "archive_tab": "Kleidung"
+  },
+  {
+    "id": "t-kleidung-endungen",
+    "module": "kleidung",
+    "title": "6. Ergänzen Sie passende Adjektivendungen",
+    "status": "checked",
+    "kind": "gap-fill",
+    "grammar": [
+      "adj-endings-ein"
+    ],
+    "description_ru": "вставить окончания прилагательных после ein-/kein-артиклей",
+    "answer": "blaues/braune, rote/weißes, schöne/elegantes, jungen/grauen, neue/bequemes, warmen/dicke, buntes/kleine, hellblaues/dunkelblaue, modische/teueres, schwarzen/braunes",
+    "correction": "окончания в №2 и №3 вписаны красным преподавателем; общий «+»",
+    "archive_tab": "Kleidung"
+  },
+  {
+    "id": "t-kleidung-outfit",
+    "module": "kleidung",
+    "title": "7. Sammeln Sie Ihr Outfit und beschreiben es",
+    "status": "done",
+    "kind": "speaking",
+    "description_ru": "собрать образ «zur Arbeit/Schule» и «zum Spaziergang» и описать",
+    "answer": "работа: коричневый свитшот с гусем, чёрные джинсы, наушники; прогулка: розовое платье в цветочек, зелёная сумка, коричневые туфли; описание не записано",
+    "archive_tab": "Kleidung"
+  },
+  {
+    "id": "t-konjunktionen-uebung-1",
+    "module": "konjunktionen",
+    "title": "Übung 1: союзы в предложениях",
+    "status": "done",
+    "kind": "other",
+    "grammar": [
+      "conj-aber-denn-und-oder",
+      "conj-dann-darum",
+      "word-order"
+    ],
+    "answer": "denn, darum, oder, aber, darum, (und), dann — в блоке «Antworten»",
+    "description_ru": "найти союз в каждом из 7 предложений",
+    "archive_tab": "Konjunktionen"
+  },
+  {
+    "id": "t-konjunktionen-uebung-2",
+    "module": "konjunktionen",
+    "title": "Übung 2: Sätze nach Muster (darum/denn/dann/oder/aber/und)",
+    "status": "done",
+    "kind": "writing",
+    "homework": true,
+    "grammar": [
+      "conj-aber-denn-und-oder",
+      "conj-dann-darum",
+      "word-order"
+    ],
+    "answer": "Du lernst Deutsch, denn du möchtest mit Freunden sprechen; Wir gehen in den Park, dann spielen Fußball; … Es ist kalt, darum tragen wir Jacken; Ich möchte reisen, aber habe kein Geld; … Wir fahren nach Berlin, dann besuchen Freunde",
+    "description_ru": "ответы только в блоке «Antworten», проверки на доске нет",
+    "archive_tab": "Konjunktionen"
+  },
+  {
+    "id": "t-konjunktionen-uebung-3",
+    "module": "konjunktionen",
+    "title": "Übung 3: союз на выбор из трёх",
+    "status": "done",
+    "kind": "gap-fill",
+    "grammar": [
+      "conj-aber-denn-und-oder",
+      "conj-dann-darum",
+      "word-order"
+    ],
+    "answer": "denn, und/dann (обведены оба), aber, oder, darum",
+    "archive_tab": "Konjunktionen"
+  },
+  {
+    "id": "t-konjunktionen-uebung-4",
+    "module": "konjunktionen",
+    "title": "Übung 4: Finden Sie Fehler",
+    "status": "done",
+    "kind": "other",
+    "grammar": [
+      "conj-aber-denn-und-oder",
+      "conj-dann-darum",
+      "word-order"
+    ],
+    "answer": "красным: denn→aber, aber→und, aber→dann, oder→und, aber→darum; в «Antworten»: aber, und/oder, dann, dann, darum",
+    "description_ru": "найти неверный союз; кто писал красным, неясно",
+    "archive_tab": "Konjunktionen"
+  },
+  {
+    "id": "t-konjunktionen-uebung-5",
+    "module": "konjunktionen",
+    "title": "Übung 5: перевод с русского",
+    "status": "done",
+    "kind": "writing",
+    "grammar": [
+      "conj-aber-denn-und-oder",
+      "conj-dann-darum",
+      "word-order"
+    ],
+    "answer": "Ich lerne, denn ich will Deutsch sprechen; Sie kauft Brot und Milch; Er ist hungrig, darum isst er eine Suppe; Wir gehen ins Cafe, dann spazieren (п. 3 не переведён)",
+    "archive_tab": "Konjunktionen"
+  },
+  {
+    "id": "t-mein-tag-perfekt-umformen",
+    "module": "mein-tag",
+    "title": "Mein Tag — рассказ о дне по картинкам, перевод в Perfekt",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "perfekt",
+      "clock-time"
+    ],
+    "description_ru": "9 предложений в Präsens о распорядке дня; добавить вариант в Perfekt.",
+    "answer": "Perfekt для 7 из 9: bin … gegangen (Uni, nach Hause, schlafen); habe … gelernt / gegessen / gemacht; «Ich habe um 21 Uhr gefaulenzt eine Serie geschaut» (без und). Для 1 (aufstehen) и 2 (Frühstück) нет.",
+    "correction": "Только красный «+» у последнего предложения; исправлений нет.",
+    "archive_tab": "mein Tag"
+  },
+  {
+    "id": "t-perfekt-perfekt-bilden",
+    "module": "perfekt",
+    "title": "1. Зелёный блок: образовать Perfekt",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "perfekt",
+      "strong-verbs"
+    ],
+    "answer": "machen — hat gemacht; trinken — hat getrunken; aufstehen — ist aufgestanden; spielen — hat gespielt; gehen — bin gegangen; schlafen — hat geschlafen; stehen — hat gestanden; fliegen — bin geflogen",
+    "correction": "Явных исправлений нет; подчёркнуто окончание «-en» в geschlafen.",
+    "archive_tab": "Perfekt · 1 из 3"
+  },
+  {
+    "id": "t-perfekt-habe-geschlafen",
+    "module": "perfekt",
+    "title": "2. Второй зелёный блок (запись от руки)",
+    "kind": "other",
+    "status": "done",
+    "answer": "«habe geschlafen» (черта с галочкой от habe к ge-), рядом «75 %» (?)",
+    "archive_tab": "Perfekt · 1 из 3"
+  },
+  {
+    "id": "t-perfekt-glas-schwache-verben",
+    "module": "perfekt",
+    "title": "3. Банка «Perfekt» (спрятанные слабые глаголы)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "perfekt"
+    ],
+    "description_ru": "Открыть карточку и назвать Perfekt: lernen, arbeiten, weinen, machen, lachen, spielen, übernachten, hören, kochen, schmecken, brauchen, kaufen, besuchen, wohnen. Открыта только «arbeiten».",
+    "archive_tab": "Perfekt · 1 из 3"
+  },
+  {
+    "id": "t-perfekt-katze-heute",
+    "module": "perfekt",
+    "title": "4. Was hat die Katze heute gemacht?",
+    "kind": "writing",
+    "status": "done",
+    "grammar": [
+      "perfekt"
+    ],
+    "answer": "hat videospiele gespielt / hat Musik gehört; hat gearbeitet / hat geweint; hat gekocht; hat sport gemacht; hat etwas gezeichnet; hat gebastelt",
+    "correction": "Исправлений нет (videospiele, sport с маленькой буквы — не исправлено).",
+    "archive_tab": "Perfekt · 1 из 3"
+  },
+  {
+    "id": "t-perfekt-glas-starke-verben",
+    "module": "perfekt",
+    "title": "1. Банка с предметами — «Perfekt»",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "perfekt",
+      "strong-verbs"
+    ],
+    "description_ru": "15 предметов с глаголами: geben, essen, nehmen, gehen, anrufen, sprechen, sehen, fahren, finden, anfangen, laufen, treffen, aufstehen, trinken, tragen. Письменных следов нет; банка пустая.",
+    "archive_tab": "Perfekt · 2 из 3"
+  },
+  {
+    "id": "t-perfekt-katze-uhrzeit",
+    "module": "perfekt",
+    "title": "2. Was hat die Katze heute gemacht? (фото с временем)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "perfekt",
+      "clock-time"
+    ],
+    "description_ru": "Рассказать в Perfekt по 6 фото с временем: 09:10, 11:45, 12:07, 16:48, 19:36, 22:22. Рядом стикер про nach / halb / vor. Письменных ответов нет.",
+    "archive_tab": "Perfekt · 2 из 3"
+  },
+  {
+    "id": "t-perfekt-spielen",
+    "module": "perfekt",
+    "title": "3. Spielen — настольная игра на Perfekt",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "perfekt",
+      "strong-verbs",
+      "separable-verbs"
+    ],
+    "description_ru": "21 карточка: русское предложение + глагол → сказать в Perfekt (anrufen, spazieren gehen, ausgehen, aufstehen, dauern, anfangen, nehmen, besuchen, sein, haben, schlafen, spielen, hören, gehen, machen, lesen, sprechen, schreiben, fahren, frühstücken, fliegen). Поле продолжается в части 3. Письменных ответов нет.",
+    "archive_tab": "Perfekt · 2 из 3"
+  },
+  {
+    "id": "t-perfekt-katzen-glas",
+    "module": "perfekt",
+    "title": "Игра «коты в банке» — глаголы под котами",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "perfekt",
+      "strong-verbs"
+    ],
+    "description_ru": "18 карточек: gehen, anfangen, trinken, anrufen, essen, nehmen, sprechen, aufstehen, laufen, gelten, sehen, lesen, schlafen, schiefgehen, fahren, tragen, verschieben, schreiben. Открыты 4 (sehen, schiefgehen, fahren, verschieben); письменных ответов нет.",
+    "archive_tab": "Perfekt · 3 из 3"
+  },
+  {
+    "id": "t-perfekt-mein-ergebnis",
+    "module": "perfekt",
+    "title": "Результаты тестов «Mein Ergebnis»",
+    "kind": "app",
+    "status": "done",
+    "grammar": [
+      "perfekt"
+    ],
+    "answer": "6/14, 10/14, 14/18, 18/18",
+    "description_ru": "Четыре карточки с результатами; какие тесты — на доске не указано.",
+    "archive_tab": "Perfekt · 3 из 3"
+  },
+  {
+    "id": "t-test-nenn-7-verkehrsmittel",
+    "module": "test",
+    "title": "Nenn 7 Verkehrsmittel",
+    "kind": "speaking",
+    "status": "done",
+    "answer": "Записано 3 слова (красным): die U-Bahn, das Flugzeug, das Schiff; остальное, видимо, устно",
+    "archive_tab": "Test",
+    "description_ru": "Кто писал три слова — не подписано (красная ручка обычно у репетитора)."
+  },
+  {
+    "id": "t-test-praesentiere-verkehrsmittel",
+    "module": "test",
+    "title": "Präsentiere ein Verkehrsmittel in deiner Stadt",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Test",
+    "description_ru": "Стикер перечёркнут красным — сделано устно или снято, не указано."
+  },
+  {
+    "id": "t-test-nenn-5-laender",
+    "module": "test",
+    "title": "Nenn 5 Länder",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Test",
+    "description_ru": "Устное; пометок нет."
+  },
+  {
+    "id": "t-test-dativ-mit",
+    "module": "test",
+    "title": "Dativ — mit … (der Lehrer, das Auto, die Eier, die Zwiebel, das Rindfleisch, meine Kinder)",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "mit-dativ"
+    ],
+    "archive_tab": "Test",
+    "description_ru": "Ответы не записаны (устное)."
+  },
+  {
+    "id": "t-test-orte-rad-1",
+    "module": "test",
+    "title": "Orte — колесо 1 (Spin): фразы про транспорт",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "mit-dativ"
+    ],
+    "archive_tab": "Test",
+    "description_ru": "Начала фраз по-русски (обрезаны виджетом): «Я нахожу езду…», «Я еду на маши…» и др."
+  },
+  {
+    "id": "t-test-orte-rad-2",
+    "module": "test",
+    "title": "Orte — колесо 2 (Spin): места и время с предлогом",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "wohin-nach-in-auf-zu",
+      "time-prepositions"
+    ],
+    "archive_tab": "Test",
+    "description_ru": "в Москву; в США; в Нидерланды; на работу; в аэропорт; на вокзал; в мае; весной; в июне; на остров; в Берлин. Колесо перечёркнуто красным."
+  },
+  {
+    "id": "t-test-daten-nennen",
+    "module": "test",
+    "title": "Arbeit: Wiederholung 1 — Daten nennen",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "dates-ordinals",
+      "clock-time",
+      "time-prepositions"
+    ],
+    "archive_tab": "Tests",
+    "description_ru": "06.09.2028 22:12; 02.11.2029 19:23; 01.06.2028 12:27; 26.12.2013 17:04; на протяжении 3 лет и 6 месяцев; между 8 и 10; перед отпуском и после работы. Ответов нет."
+  },
+  {
+    "id": "t-test-personalpronomen",
+    "module": "test",
+    "title": "Arbeit: Wiederholung 2 — Personalpronomen",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "personal-pronouns-akk"
+    ],
+    "archive_tab": "Tests",
+    "description_ru": "Wann rufst du ___ an? / Ich verbinde ___ mit Frau Müller. / Ich hole ___ vom Bahnhof ab. / Warum siehst du ___ nicht? — пусто."
+  },
+  {
+    "id": "t-test-uebersetzen",
+    "module": "test",
+    "title": "Arbeit: Wiederholung 3 — Übersetzen",
+    "kind": "writing",
+    "status": "todo",
+    "grammar": [
+      "perfekt",
+      "conj-aber-denn-und-oder",
+      "modal-wollen",
+      "modal-moegen-moechten"
+    ],
+    "correction": "Подсказки красным: «schief gehen» (к «пошло не так»), «Gespräche» (к «разговоры»)",
+    "archive_tab": "Tests",
+    "description_ru": "5 предложений (принтер не работает 3 часа; разговоры с шефом; зарплата/коллеги; карьерные возможности; перенести урок). Переводы не записаны."
+  },
+  {
+    "id": "t-test-termin-planen",
+    "module": "test",
+    "title": "Arbeit: Wiederholung 4 — Planen Sie einen Termin",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Tests",
+    "description_ru": "Ролевая игра: договориться о термине с монтёром / перенести термин к врачу. Устно, пометок нет."
+  },
+  {
+    "id": "t-unterwegs-welches-verb-passt",
+    "module": "unterwegs",
+    "title": "Welches Verb passt?",
+    "kind": "matching",
+    "status": "done",
+    "answer": "ein Fahrrad haben; Fahrradfahren gefährlich finden; den Zug nehmen; mit dem Bus fahren; mit dem Flugzeug fliegen; auf Platz eins liegen; öffentliche Verkehrsmittel nutzen; das beliebteste Verkehrsmittel sein; täglich im Stau stehen",
+    "archive_tab": "Unterwegs"
+  },
+  {
+    "id": "t-unterwegs-was-passt-zusammen",
+    "module": "unterwegs",
+    "title": "Was passt zusammen? Welche Verkehrsmittel sind öffentlich?",
+    "kind": "matching",
+    "status": "checked",
+    "grammar": [
+      "articles-plural"
+    ],
+    "answer": "Все плашки транспорта поставлены под нужные картинки; вопрос про общественный транспорт — устно, не записан",
+    "correction": "Красным дописаны формы мн. ч.: Fahrräder, Taxi-s, Straßenbahn-en, Züge, «e» у Boot/Schiff/Fähre; S-Bahn = Schnellbahn",
+    "archive_tab": "Unterwegs"
+  },
+  {
+    "id": "t-unterwegs-fragen-verkehr",
+    "module": "unterwegs",
+    "title": "Вопросы для разговора о транспорте",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "mit-dativ"
+    ],
+    "archive_tab": "Unterwegs",
+    "description_ru": "Mit welchen Verkehrsmitteln fährst du täglich…? Womit fährst du in den Urlaub? и др.; письменных ответов нет. Рядом стикеры man muss / man kann, zwischen."
+  },
+  {
+    "id": "t-unterwegs-lueckentext-bahnhof",
+    "module": "unterwegs",
+    "title": "Заполнить пропуски: вокзал, аэропорт, дорога (… kann man …)",
+    "kind": "gap-fill",
+    "status": "done",
+    "answer": "Bahnhof; Parkplatz; Flughafen; Check-in-Schalter; Tankstelle; Flugsteig; Gleis",
+    "archive_tab": "Unterwegs"
+  },
+  {
+    "id": "t-unterwegs-auto-zug-flugzeug",
+    "module": "unterwegs",
+    "title": "Welche Wörter passen zu Auto, Zug und/oder Flugzeug? Ordnen Sie zu.",
+    "kind": "matching",
+    "status": "todo",
+    "correction": "«die Tankstelle» обведена, рядом tanken; дужка над «ssch» в Verkehrsschild",
+    "archive_tab": "Unterwegs",
+    "description_ru": "Колонки пустые; 9 плашек другого (светлого) цвета — значение не подписано."
+  },
+  {
+    "id": "t-unterwegs-wetter",
+    "module": "unterwegs",
+    "title": "Wie findest du das Wetter?",
+    "kind": "speaking",
+    "status": "todo",
+    "correction": "«Es» в «Es ist wolkig» обведено; над «w» — «в» (произношение)",
+    "archive_tab": "Unterwegs",
+    "description_ru": "Карточка-шпаргалка «как описать погоду»; справочно/устно."
+  },
+  {
+    "id": "t-unterwegs-bilder-beschreiben",
+    "module": "unterwegs",
+    "title": "Beschreiben Sie die Bilder. Was ist die Jahreszeit? Wie ist das Wetter?",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Unterwegs",
+    "description_ru": "4 фото; устно, письменных следов нет."
+  },
+  {
+    "id": "t-unterwegs-fragen-urlaub",
+    "module": "unterwegs",
+    "title": "Вопросы про отпуск (Wann wollen Sie in den Urlaub fahren? …)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "modal-wollen"
+    ],
+    "archive_tab": "Unterwegs",
+    "description_ru": "Устные вопросы с wollen; письменных ответов нет."
+  },
+  {
+    "id": "t-unterwegs-wollen-sie-fahren",
+    "module": "unterwegs",
+    "title": "Wollen Sie _______ fahren? (картинки стран)",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "wohin-nach-in-auf-zu",
+      "modal-wollen"
+    ],
+    "answer": "nach Japan; nach Ägypten; nach Paris; in die Türkei; nach Russland",
+    "archive_tab": "Unterwegs"
+  },
+  {
+    "id": "t-unterwegs-wollen-dialog",
+    "module": "unterwegs",
+    "title": "4. wollen — вставить формы в диалог",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "modal-wollen"
+    ],
+    "archive_tab": "Unterwegs",
+    "description_ru": "Диалог Eltern / Annika und Juliane; пусто."
+  },
+  {
+    "id": "t-unterwegs-21-plaene",
+    "module": "unterwegs",
+    "title": "21 Pläne — Wohin wollen die Personen fahren oder fliegen?",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "modal-wollen",
+      "wohin-nach-in-auf-zu",
+      "word-order"
+    ],
+    "answer": "Ernst und Gabriele wollen im August auf die Insel Hiddensee fahren; Meine Eltern wollen im Herbst in die Schweiz fahren; Ich will im Juni nach Brasilien fliegen; Der Chef will am Freitag nach Paris fahren; Paul will im Januar auf die Kanarischen Inseln fliegen; Wir wollen im Mai in die Türkei fliegen; Die Kollegen wollen am Samstag nach Berlin fahren; Frau Meier will im März nach Japan fliegen",
+    "correction": "Исправлений нет; красный «+» у п. 3",
+    "archive_tab": "Unterwegs"
+  },
+  {
+    "id": "t-unterwegs-22-modalverben",
+    "module": "unterwegs",
+    "title": "22 Was wollt ihr im Winterurlaub machen? (Modalverben wiederholen)",
+    "kind": "gap-fill",
+    "status": "checked",
+    "grammar": [
+      "modal-verbs",
+      "modal-wollen",
+      "modal-koennen",
+      "modal-moegen-moechten"
+    ],
+    "answer": "mögen; Kannst / kann / will; Wollt / Möchten",
+    "correction": "Исправлений нет; красный «+» у п. 1",
+    "archive_tab": "Unterwegs"
+  },
+  {
+    "id": "t-unterwegs-17-reiseziele",
+    "module": "unterwegs",
+    "title": "17 Beliebte Reiseziele — Wer fährt wohin?",
+    "kind": "gap-fill",
+    "status": "checked",
+    "grammar": [
+      "wohin-nach-in-auf-zu"
+    ],
+    "answer": "nach Spanien; nach Italien; in die Niederlande; in die Türkei; in die Kanarischen Inseln; nach Zypern; nach England; in die USA; nach Kroatien; nach Deutschland; in die Schweiz",
+    "correction": "Предлоги не исправлены; Zypern подчёркнуто, красным «Кипр»; синий «+»",
+    "archive_tab": "Unterwegs"
+  },
+  {
+    "id": "t-warm-ups-welche-katze",
+    "module": "warm-ups",
+    "title": "Welche Katze bist du heute?",
+    "kind": "speaking",
+    "status": "todo",
+    "description_ru": "Устная разминка о настроении по фото котят (hungrig, traurig, lustig, dumm, schläfrig, glücklich). Пометок нет.",
+    "archive_tab": "Warm ups"
+  },
+  {
+    "id": "t-warm-ups-spin-orte-zeit",
+    "module": "warm-ups",
+    "title": "Колесо-рулетка: места и время",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "wohin-nach-in-auf-zu",
+      "time-prepositions"
+    ],
+    "description_ru": "Сказать по-немецки с нужным предлогом: на вокзал; в мае; весной; в июне; на остров; в Берлин; в Москву; в США; в Нидерланды; на работу; в аэропорт. Ответов и пометок нет.",
+    "archive_tab": "Warm ups"
+  },
+  {
+    "id": "t-warm-ups-europa-laender",
+    "module": "warm-ups",
+    "title": "Europa — список стран с картой",
+    "kind": "other",
+    "status": "todo",
+    "description_ru": "Страница словаря «#ЕВРОПА EUROPA», 50 стран. Ответов нет; на доске значки-котики у 19 стран (+ San Marino под вопросом) и «Riga!» красным у Латвии; значение значков не подписано.",
+    "archive_tab": "Warm ups"
+  },
+  {
+    "id": "t-warm-ups-asien-laender",
+    "module": "warm-ups",
+    "title": "Asien — список стран с картой",
+    "kind": "other",
+    "status": "todo",
+    "description_ru": "Страница словаря «#АЗИЯ ASIEN», 38 стран. Ответов нет; значки-котики у 6 стран.",
+    "archive_tab": "Warm ups"
+  },
+  {
+    "id": "t-warm-ups-daten-im-leben",
+    "module": "warm-ups",
+    "title": "Daten im Leben",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "dates-ordinals"
+    ],
+    "description_ru": "Ответить на 9 вопросов «Wann …?» с порядковыми числительными (Geburtstag, Weihnachten, Urlaub…). Устно, пометок нет.",
+    "archive_tab": "Warm ups"
+  },
+  {
+    "id": "t-warm-ups-describe-the-house",
+    "module": "warm-ups",
+    "title": "Describe the House",
+    "kind": "speaking",
+    "status": "todo",
+    "description_ru": "Описать комнаты домика и где стоят предметы (вопросы на английском). Устно, пометок нет.",
+    "archive_tab": "Warm ups"
+  },
+  {
+    "id": "t-warm-ups-superlativ-uebung-12",
+    "module": "warm-ups",
+    "title": "Übung 12. Bilde den Superlativ.",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "description_ru": "Образовать Superlativ: groß, schön, teuer, billig, gesund, laut, gefährlich, kalt, hoch, alt. Пусто.",
+    "archive_tab": "Warm ups"
+  },
+  {
+    "id": "t-warm-ups-superlativ-uebung-13",
+    "module": "warm-ups",
+    "title": "Übung 13. Ergänze.",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "description_ru": "Вставить Superlativ с артиклем в 8 предложений (teuer, hoch, kalt, spannend, billig, jung, gut, groß). Пусто.",
+    "archive_tab": "Warm ups"
+  },
+  {
+    "id": "t-warm-ups-wohnen-egor-sofja-katharina",
+    "module": "warm-ups",
+    "title": "Wohnen: Egor, Sofja, Katharina",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "wo-wohin",
+      "wohin-nach-in-auf-zu"
+    ],
+    "description_ru": "Рассказать по-немецки о трёх персонажах по русским стикерам (жильё). Немецких предложений нет; есть синие подсказки репетитора: ins, stören, Gegend; Dat, in den…, in die…, umziehen in die Stadt; am Stadtrand, über einen P…, Lärm.",
+    "archive_tab": "Warm ups"
+  },
+  {
+    "id": "t-wohnen-hoeren-lesen-zahlen",
+    "module": "wohnen",
+    "title": "Hören und lesen Sie (текст о жилье, пропуски-числа)",
+    "kind": "listening",
+    "status": "done",
+    "answer": "30%, 43%, 85%, 75%, 90% (по смыслу 90 Quadratmeter), 64, 5%, 12,43, 920",
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "Аудио CD 2/38; вписать числа в текст о жилье в D/A/CH. Правок нет."
+  },
+  {
+    "id": "t-wohnen-sprechen-wo-wohnen",
+    "module": "wohnen",
+    "title": "Карточки: Wo möchten Sie wohnen? / In welcher Stadt … mieten?",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "Устно; на доске ответов нет."
+  },
+  {
+    "id": "t-wohnen-fragen-zum-text",
+    "module": "wohnen",
+    "title": "Вопросы к тексту (Anteil an Wohneigentum и др.)",
+    "status": "todo",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "5 вопросов с Superlativ; письменных ответов нет (возможно, отвечали устно)."
+  },
+  {
+    "id": "t-wohnen-woerternetz",
+    "module": "wohnen",
+    "title": "Wörternetz «Wohnen»",
+    "kind": "other",
+    "status": "todo",
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "Найти незнакомые слова и разнести по узлам (Assoziationen, Miete, Eigentum, Haushalt, Haus/Wohnung); пусто."
+  },
+  {
+    "id": "t-wohnen-zahlen-im-text",
+    "module": "wohnen",
+    "title": "Was sagen die Zahlen im Text?",
+    "kind": "writing",
+    "status": "todo",
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "Объяснить числа из текста предложениями; строки 4–10 пустые."
+  },
+  {
+    "id": "t-wohnen-nomen-ergaenzen",
+    "module": "wohnen",
+    "title": "Ergänzen Sie die Nomen (Wohneigentum, Mieter …)",
+    "kind": "gap-fill",
+    "status": "done",
+    "answer": "Eigentümer, Mieter, Miete, Quadratmeter, Zimmer, Wohngemeinschaft, Single-Haushalte",
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "Правок нет; зелёной ручкой «то есть» у d. h. и подчёркнуто «mit»."
+  },
+  {
+    "id": "t-wohnen-praesentation-russland",
+    "module": "wohnen",
+    "title": "Eine kleine Präsentation: Wohnen in Russland",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "Рассказать о жилье в своей стране с Redemittel; записей нет."
+  },
+  {
+    "id": "t-wohnen-adjektive-komparation",
+    "module": "wohnen",
+    "title": "Lesen Sie die Sätze und unterstreichen Sie die Adjektive + таблица «Adjektive: Komparation»",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "answer": "Таблица: preiswerter, teurer, am preiswertsten, am teuersten, die preiswerteste, die teuerste, höher, am höhsten, die meisten. Подчёркнуто только «am höchsten».",
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "Частично: таблица заполнена, подчёркивание только в первом предложении. Проверки репетитора нет."
+  },
+  {
+    "id": "t-wohnen-superlativ-staedte",
+    "module": "wohnen",
+    "title": "Superlativ? (kalt, teuer, groß, laut, gefährlich, viel, schön)",
+    "kind": "gap-fill",
+    "homework": true,
+    "status": "todo",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "H/A зелёной ручкой в кружке. Superlativ в первом предложении, Komparativ с als во втором; пункты 1–7 пустые."
+  },
+  {
+    "id": "t-wohnen-superlativ-kotyata",
+    "module": "wohnen",
+    "title": "«Котята принесли упражнение на закрепление!» (Superlativ)",
+    "kind": "gap-fill",
+    "homework_uncertain": true,
+    "status": "todo",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "7 предложений: прилагательное в Superlativ; пусто. Прикреплено к блоку H/A «Superlativ?», но своей пометки нет."
+  },
+  {
+    "id": "t-wohnen-sprechen-superlativ",
+    "module": "wohnen",
+    "title": "Карточки-вопросы на Superlativ (Welcher Ort … am schönsten?)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "komparativ-superlativ"
+    ],
+    "archive_tab": "Wohnen · 1 из 5",
+    "description_ru": "Устно; ответов на доске нет."
+  },
+  {
+    "id": "t-wohnen-sprechen-zimmer",
+    "module": "wohnen",
+    "title": "Sprechen: Was haben Sie in Ihrem Zimmer? / Was möchten Sie noch kaufen?",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Wohnen · 2 из 5",
+    "description_ru": "Устно; записей нет."
+  },
+  {
+    "id": "t-wohnen-einladung-antwort",
+    "module": "wohnen",
+    "title": "Einladung zu meiner Party — ответ на приглашение Евы",
+    "kind": "writing",
+    "homework": true,
+    "homework_uncertain": true,
+    "status": "todo",
+    "archive_tab": "Wohnen · 2 из 5",
+    "description_ru": "Написать ответ: Uhrzeit, Verkehrsmittel, etwas mitbringen? (по 1–2 предложения). Лист пустой. Обведено оранжевым со стрелками; рядом за рамкой рукописный кружок «UIA» (вероятно H/A) — см. «Заметки на полях доски», область 31."
+  },
+  {
+    "id": "t-wohnen-eva-hoeren-zimmer",
+    "module": "wohnen",
+    "title": "Die Wohnung von Eva — Hören 1: In welchem Zimmer stehen die Möbel?",
+    "kind": "listening",
+    "status": "done",
+    "answer": "Couch, Esstisch — Wohnzimmer; Schuhschrank, Garderobe — Flur; Kleiderschrank, Bett — Schlafzimmer; Sessel, Schreibtisch — Arbeitszimmer; Kühlschrank — Küche",
+    "archive_tab": "Wohnen · 2 из 5",
+    "description_ru": "Аудио CD 2/39. Правок нет."
+  },
+  {
+    "id": "t-wohnen-eva-richtig-falsch",
+    "module": "wohnen",
+    "title": "Die Wohnung von Eva — Hören 2: richtig oder falsch",
+    "kind": "listening",
+    "status": "todo",
+    "archive_tab": "Wohnen · 2 из 5",
+    "description_ru": "10 утверждений; ничего не отмечено. Можно сделать по тексту диалога."
+  },
+  {
+    "id": "t-wohnen-eva-nomen",
+    "module": "wohnen",
+    "title": "Die Wohnung von Eva — Ergänzen Sie die Nomen (диалог Адама и Евы)",
+    "kind": "gap-fill",
+    "status": "done",
+    "answer": "Blumen, Flur, Quadratmeter, Esstisch, Bücher, Küche, Wochenende, Küchenmöbel, Fenster, Park, Monat, Miete, Heizung, Job",
+    "archive_tab": "Wohnen · 2 из 5",
+    "description_ru": "Все 14 пропусков заполнены; правок нет (рядом стикеры offen, Heizung)."
+  },
+  {
+    "id": "t-wohnen-sprechen-bad-kueche",
+    "module": "wohnen",
+    "title": "Sprechen: Badezimmer und Küche",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Wohnen · 2 из 5",
+    "description_ru": "Was haben Sie in Ihrem Badezimmer/Ihrer Küche? Was brauchen Sie noch / möchten Sie noch kaufen? Устно."
+  },
+  {
+    "id": "t-wohnen-wie-wohnen-sie",
+    "module": "wohnen",
+    "title": "Wie wohnen Sie? (вопросы о своём жилье, часть 1)",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Wohnen · 2 из 5",
+    "description_ru": "Устно; продолжение вопросов — в части 3."
+  },
+  {
+    "id": "t-wohnen-fragen-zum-wohnen",
+    "module": "wohnen",
+    "title": "Fragen zum Wohnen (Lieblingszimmer, Balkon …) — окончание",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Wohnen · 3 из 5",
+    "description_ru": "Устно; на доске следов нет."
+  },
+  {
+    "id": "t-wohnen-berichte-lesen",
+    "module": "wohnen",
+    "title": "Berichte über das Wohnen (Julius, Beate, Ines) — чтение",
+    "kind": "other",
+    "status": "done",
+    "archive_tab": "Wohnen · 3 из 5",
+    "description_ru": "Прочитано, слова разобраны на стикерах."
+  },
+  {
+    "id": "t-wohnen-informationen-tabelle",
+    "module": "wohnen",
+    "title": "Suchen Sie die Informationen aus dem Text + о своей квартире",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "wo-wohin",
+      "adj-endings-zero"
+    ],
+    "answer": "Beate/Ines заполнены; о себе: in einem Mehrfamilienhaus in der 1. Etage; in Stadtzentrum, ruhig, große Raume…; klein Küche, kein Balkon, teuer",
+    "correction": "in Stadtzentrum → im Stadtzentrum; klein Küche → kleine Küche; «+» у строки. Не исправлены: «Stad», «große Raume».",
+    "archive_tab": "Wohnen · 3 из 5"
+  },
+  {
+    "id": "t-wohnen-lueckentext-julius",
+    "module": "wohnen",
+    "title": "Lückentext 1 — Julius (stören, ausgehen, sein, müssen, studieren)",
+    "kind": "gap-fill",
+    "status": "todo",
+    "archive_tab": "Wohnen · 3 из 5",
+    "description_ru": "Пропуски 1–6 пустые."
+  },
+  {
+    "id": "t-wohnen-lueckentext-beate",
+    "module": "wohnen",
+    "title": "Lückentext 2 — Beate (fahre, habe, stehe, finden, arbeite, mag)",
+    "kind": "gap-fill",
+    "status": "checked",
+    "answer": "fahre, habe, stehe, finden, arbeite, mag",
+    "correction": "Синий «+», исправлений нет.",
+    "archive_tab": "Wohnen · 3 из 5"
+  },
+  {
+    "id": "t-wohnen-lueckentext-ines",
+    "module": "wohnen",
+    "title": "Lückentext 3 — Ines (Hochhaus, Etage, Fahrstuhl …)",
+    "kind": "gap-fill",
+    "status": "checked",
+    "answer": "Hochhaus, Etage, Fahrstuhl, Treppe, Lärm, Gegend, Supermarkt",
+    "correction": "Синий «+».",
+    "archive_tab": "Wohnen · 3 из 5"
+  },
+  {
+    "id": "t-wohnen-video-my-apartment",
+    "module": "wohnen",
+    "title": "Sehen Sie ein Video über die Wohnung (MY APARTMENT, room tour)",
+    "kind": "video",
+    "homework": true,
+    "homework_uncertain": true,
+    "status": "todo",
+    "link": "https://www.youtube.com/watch?v=3XF_2ygitxA&t=7s",
+    "archive_tab": "Wohnen · 3 из 5",
+    "description_ru": "Зелёная стрелка от кружка «UIA»/H/A слева от фрейма (область 33 «Заметки на полях»)."
+  },
+  {
+    "id": "t-wohnen-learningapps-wohnung-1",
+    "module": "wohnen",
+    "title": "Übungen zum Video — LearningApps «Die Wohnung» (1)",
+    "kind": "app",
+    "homework": true,
+    "status": "todo",
+    "link": "https://learningapps.org/view31223841",
+    "archive_tab": "Wohnen · 3 из 5",
+    "description_ru": "H/A зелёной ручкой в кружке со стрелкой к обеим карточкам. Какая ссылка — Wohnung1, какая — Wohnung2, по доске не определить."
+  },
+  {
+    "id": "t-wohnen-learningapps-wohnung-2",
+    "module": "wohnen",
+    "title": "Übungen zum Video — LearningApps «Die Wohnung» (2)",
+    "kind": "app",
+    "homework": true,
+    "status": "todo",
+    "link": "https://learningapps.org/view31223792",
+    "archive_tab": "Wohnen · 3 из 5",
+    "description_ru": "H/A, см. предыдущее."
+  },
+  {
+    "id": "t-wohnen-moebelstuecke-nennen",
+    "module": "wohnen",
+    "title": "Nennen Sie Möbelstücke (11 картинок)",
+    "kind": "speaking",
+    "status": "todo",
+    "archive_tab": "Wohnen · 3 из 5",
+    "description_ru": "Устно; подписей на доске нет."
+  },
+  {
+    "id": "t-wohnen-artikel-tabellen",
+    "module": "wohnen",
+    "title": "Strukturen: Lokalangaben — таблицы артиклей Dativ / Akkusativ",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "wo-wohin",
+      "prepositions-by-case"
+    ],
+    "answer": "Dativ: dem, dem, der, den +n; einem, einem, einer, ✕. Akkusativ: den, das, die, die; einen, ein, eine, ✕",
+    "archive_tab": "Wohnen · 3 из 5",
+    "description_ru": "Частично: ряды 3–5 (kein-, dein-, ihr-) пустые. Вставки оранжевой ручкой, «+ Wo?» / «+ Wohin?» — объяснение на уроке, проверки нет."
+  },
+  {
+    "id": "t-wohnen-saetze-wo-wohin",
+    "module": "wohnen",
+    "title": "Schreiben Sie Sätze (Wo? Dat. / Wohin? Akk.)",
+    "kind": "writing",
+    "status": "todo",
+    "grammar": [
+      "wo-wohin",
+      "liegen-legen"
+    ],
+    "archive_tab": "Wohnen · 3 из 5",
+    "description_ru": "Составить предложения из слов (stehen/liegen/sitzen/hängen + Dativ; stellen/legen/setzen/hängen + Akkusativ). Лист пустой; продолжается в части 4."
+  },
+  {
+    "id": "t-wohnen-praepositionen-katzen",
+    "module": "wohnen",
+    "title": "Шпаргалка «Предлоги на котиках» + стикеры (устная отработка)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "wo-wohin"
+    ],
+    "link": "https://t.me/softdeutsch/14",
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Объяснение и устная отработка; письменно ничего не заполнено."
+  },
+  {
+    "id": "t-wohnen-foto-wohnzimmer",
+    "module": "wohnen",
+    "title": "Фото гостиной — подписи предметов",
+    "kind": "speaking",
+    "status": "done",
+    "grammar": [
+      "liegen-legen"
+    ],
+    "answer": "der Fernseher, die Kommode, der Teppich, das Buch (ещё 4 предмета обведены без подписи)",
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Частично."
+  },
+  {
+    "id": "t-wohnen-dativ-antworten",
+    "module": "wohnen",
+    "title": "c Antworten Sie auf die Fragen. Achten Sie auf den Dativ.",
+    "kind": "writing",
+    "status": "todo",
+    "grammar": [
+      "wo-wohin",
+      "liegen-legen"
+    ],
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "8 предложений Wo? + Dativ; пусто."
+  },
+  {
+    "id": "t-wohnen-was-passt-zusammen",
+    "module": "wohnen",
+    "title": "3 Was passt zusammen? (Wo?/Wohin? — ответ)",
+    "kind": "matching",
+    "status": "todo",
+    "grammar": [
+      "wo-wohin",
+      "wohin-nach-in-auf-zu"
+    ],
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Соединены только линии от пункта 1 (к G и F; одна из них — образец)."
+  },
+  {
+    "id": "t-wohnen-wo-oder-wohin",
+    "module": "wohnen",
+    "title": "4 Wo oder wohin? Ergänzen Sie.",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "wo-wohin"
+    ],
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Пункты 2–8 пустые."
+  },
+  {
+    "id": "t-wohnen-artikel-dat-akk",
+    "module": "wohnen",
+    "title": "5 Ergänzen Sie die Artikel im Dativ oder Akkusativ.",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "wo-wohin"
+    ],
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Все пропуски пустые."
+  },
+  {
+    "id": "t-wohnen-wohnungen-beschreiben",
+    "module": "wohnen",
+    "title": "Beschreiben Sie Wohnungen (3 фото)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "wo-wohin",
+      "liegen-legen"
+    ],
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Устно; следов на доске нет."
+  },
+  {
+    "id": "t-wohnen-email-max",
+    "module": "wohnen",
+    "title": "Wohnungssuche A — E-Mail an Max (комната в WG)",
+    "kind": "writing",
+    "status": "done",
+    "grammar": [
+      "email-format"
+    ],
+    "assigned": "2026-10-09",
+    "answer": "Lieber Max, Ich interessiere mich für Ihr Zimmer. Ich heiße Alina und ich studiere an der Universität Leipzig. Wann kann ich kommen und das Zimmer sehen? Ich bin frei am Wochenende. LG Alina",
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Написано на уроке 9 октября; правок на доске нет."
+  },
+  {
+    "id": "t-wohnen-email-studentenwerk",
+    "module": "wohnen",
+    "title": "Wohnungssuche B — E-Mail an das Studentenwerk (комната, цены)",
+    "kind": "writing",
+    "status": "todo",
+    "grammar": [
+      "email-format"
+    ],
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Не написано."
+  },
+  {
+    "id": "t-wohnen-wegbeschreibung-leipzig",
+    "module": "wohnen",
+    "title": "Wegbeschreibung — Hören (Uni → Katharinenstraße, Leipzig)",
+    "kind": "listening",
+    "status": "todo",
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Аудио CD 2/43 (на доске нет); нарисовать маршрут на карте — не нарисован."
+  },
+  {
+    "id": "t-wohnen-weg-zur-arbeit",
+    "module": "wohnen",
+    "title": "Erzählen Sie Ihren Weg zur Schule/Arbeit/Uni",
+    "kind": "speaking",
+    "status": "todo",
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Устно; следов нет."
+  },
+  {
+    "id": "t-wohnen-weg-zum-geschaeft",
+    "module": "wohnen",
+    "title": "Erzählen Sie Ihren Weg zum Geschäft in der Nähe",
+    "kind": "speaking",
+    "status": "todo",
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 4 из 5",
+    "description_ru": "Устно; следов нет."
+  },
+  {
+    "id": "t-wohnen-wegbeschreibung-frankfurt",
+    "module": "wohnen",
+    "title": "Wegbeschreibung: Hotel Admiral → Kulturhaus Frankfurt",
+    "kind": "writing",
+    "status": "todo",
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 5 из 5",
+    "description_ru": "Написать описание пути по карте Google Maps; строки пустые. Стикер с фразами появился 9 октября."
+  },
+  {
+    "id": "t-wohnen-max-hoeren-zuordnen",
+    "module": "wohnen",
+    "title": "Hören: Max führt durch die Wohnung — Tätigkeiten zuordnen",
+    "kind": "listening",
+    "status": "done",
+    "grammar": [
+      "modal-verbs",
+      "modal-duerfen",
+      "modal-muessen",
+      "modal-koennen"
+    ],
+    "assigned": "2026-10-09",
+    "answer": "muss: sauber machen (обр.), Bad putzen, Geschirr abspülen; darf nicht: rauchen, Haustiere, laute Musik nach 22 Uhr; darf: Wäsche waschen; kann: Zimmer abschließen",
+    "archive_tab": "Wohnen · 5 из 5",
+    "description_ru": "Аудио CD 2/44. Сделано 9 октября, правок нет."
+  },
+  {
+    "id": "t-wohnen-modalverben-dialog",
+    "module": "wohnen",
+    "title": "Ergänzen Sie die Modalverben in der richtigen Form (диалог Erika — Max)",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "modal-verbs",
+      "modal-duerfen",
+      "modal-muessen",
+      "modal-koennen",
+      "modal-moegen-moechten"
+    ],
+    "assigned": "2026-10-09",
+    "answer": "(1) musst (2) darfst (3) darfst (4) darfst (5) durfen (6) musst (7) musst (8) darfst (9) Mochtest (10) kannst",
+    "archive_tab": "Wohnen · 5 из 5",
+    "description_ru": "Сделано 9 октября. Явных правок нет; на плашках «durfen»/«Mochtest» крошечные штрихи — возможно, репетитор дописала умлауты (?)."
+  },
+  {
+    "id": "t-wohnen-sprechen-haushalt",
+    "module": "wohnen",
+    "title": "Sprechen: Haushalt (Was machst du gern / musst du / darf man nicht?)",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "modal-muessen",
+      "modal-duerfen"
+    ],
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 5 из 5",
+    "description_ru": "Устно; следов нет."
+  },
+  {
+    "id": "t-wohnen-modalverben-tabelle",
+    "module": "wohnen",
+    "title": "Modalverben: таблица «глагол — предложения — значение»",
+    "kind": "gap-fill",
+    "status": "todo",
+    "grammar": [
+      "modal-verbs"
+    ],
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 5 из 5",
+    "description_ru": "Все пропуски пустые."
+  },
+  {
+    "id": "t-wohnen-sprechen-sollen-wollen",
+    "module": "wohnen",
+    "title": "Sprechen: Was sollen Sie jeden Tag tun? / Was wollen Sie statt Arbeit machen?",
+    "kind": "speaking",
+    "status": "todo",
+    "grammar": [
+      "modal-sollen",
+      "modal-wollen"
+    ],
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 5 из 5",
+    "description_ru": "Устно; следов нет."
+  },
+  {
+    "id": "t-wohnen-personalpronomen-dativ",
+    "module": "wohnen",
+    "title": "b Ergänzen Sie die Personalpronomen im Dativ. Lernen Sie die Wendungen.",
+    "kind": "gap-fill",
+    "homework": true,
+    "homework_uncertain": true,
+    "status": "todo",
+    "grammar": [
+      "personal-pronouns-dat",
+      "personal-pronouns"
+    ],
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 5 из 5",
+    "description_ru": "Пропуски 1–7 и клетки Dativ для ich/du в таблице пустые. Под заданием 9 октября круглая рукописная пометка, похожа на H/A."
+  },
+  {
+    "id": "t-wohnen-verbotsschilder",
+    "module": "wohnen",
+    "title": "Schreiben Sie. Was darf man hier nicht tun? (запрещающие знаки)",
+    "kind": "writing",
+    "homework": true,
+    "homework_uncertain": true,
+    "status": "todo",
+    "grammar": [
+      "modal-duerfen"
+    ],
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 5 из 5",
+    "description_ru": "7 знаков, строки пустые. Справа 9 октября круглая пометка со стрелкой, похожа на H/A."
+  },
+  {
+    "id": "t-wohnen-duerfen-saetze",
+    "module": "wohnen",
+    "title": "Предложения с dürfen из слов (Darf man hier rauchen?)",
+    "kind": "writing",
+    "homework": true,
+    "homework_uncertain": true,
+    "status": "todo",
+    "grammar": [
+      "modal-duerfen",
+      "word-order"
+    ],
+    "assigned": "2026-10-09",
+    "archive_tab": "Wohnen · 5 из 5",
+    "description_ru": "Пункты 1–4 пустые. Пометка внизу справа может относиться к этому заданию или к фрейму Test a1."
+  },
+  {
+    "id": "t-arbeit-2-c-antworten-wann",
+    "module": "arbeit-2",
+    "title": "c Antworten Sie wie im Beispiel (Wann …? — временные предлоги)",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "time-prepositions"
+    ],
+    "answer": "am Dienstag am 11 Uhr; von 2009 bis 2013; zwischen 11 und 12 Uhr; im August; nach der Besprechung",
+    "correction": "am 11 Uhr → um 11 Uhr; nach der Besprechung → vor. Приписка Алины «? не пон ситуацию» у п. 5.",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-ue6-siehst-du-mich",
+    "module": "arbeit-2",
+    "title": "Ü6 Siehst du mich? (Akkusativ-Pronomen)",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "personal-pronouns-akk"
+    ],
+    "answer": "Verstehst du ihn? Hörst du mich? Besuchst du uns am Donnerstag? Liebst du mich? Rufst du sie morgen an? Holst du ihn vom Flughafen ab?",
+    "correction": "Красный «+».",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-ue7-termin-vereinbaren",
+    "module": "arbeit-2",
+    "title": "Ü7 Einen Termin vereinbaren (глаголы в форме)",
+    "kind": "gap-fill",
+    "status": "checked",
+    "answer": "habe, vereinbaren, kommen, Geht, ist, brauche, erwarte",
+    "correction": "Красный «+».",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-ue8-neuer-job",
+    "module": "arbeit-2",
+    "title": "Ü8 Ein neuer Job (a) — глаголы в письме Марии",
+    "kind": "gap-fill",
+    "status": "checked",
+    "grammar": [
+      "modal-muessen"
+    ],
+    "answer": "habe, arbeite, muss, bin, organisiere, führen, beantworten, präsentieren, diskutieren",
+    "correction": "Красный «+».",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-ue9-raetsel-buero",
+    "module": "arbeit-2",
+    "title": "Ü9 Rätsel: Im Büro",
+    "kind": "other",
+    "status": "checked",
+    "answer": "DOKUMENTE, PROBLEM, REPARATUR, MONTEUR, MITTWOCH, BESPRECHUNG → TERMIN",
+    "correction": "Красный «+».",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-ue10-komposita",
+    "module": "arbeit-2",
+    "title": "Ü10 Komposita",
+    "kind": "matching",
+    "status": "checked",
+    "answer": "Internetverbindung, Arbeitsatmosphäre, Flughafen, Besprechungsraum, Geschäftspartner, Kühlschrank, Karrieremöglichkeiten, Geschirrspüler, Waschmaschine, Computerproblem",
+    "correction": "Красный «+».",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-ue11-termin-verschieben",
+    "module": "arbeit-2",
+    "title": "Ü11 Einen Termin verschieben (E-Mail)",
+    "kind": "gap-fill",
+    "status": "checked",
+    "grammar": [
+      "email-format",
+      "time-prepositions"
+    ],
+    "answer": "Guten Tag, um, absagen, zurückkomen, vereinbaren, Haben, Telefonnummer, Grüßen",
+    "correction": "Красный «+»; «zurückkomen» не исправлено.",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-t1-im-buero",
+    "module": "arbeit-2",
+    "title": "T1 Im Büro gibt es viel zu tun (глаголы)",
+    "kind": "gap-fill",
+    "status": "checked",
+    "grammar": [
+      "modal-muessen"
+    ],
+    "answer": "übersetzen, führen, vereinbaren, abholen, schreiben, sprechen",
+    "correction": "Красный «+»; баллы не проставлены.",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-t2-was-ist-passiert",
+    "module": "arbeit-2",
+    "title": "T2 Was ist passiert? (Perfekt / Präteritum)",
+    "kind": "writing",
+    "status": "checked",
+    "grammar": [
+      "perfekt",
+      "praeteritum-war-hatte"
+    ],
+    "answer": "Herr Müller hat zu spät gekommt, er hat im Stau gestanden; Klaus hat keine Emails geschrieben, er hatte keine Internetverbindung; Petra hat keinen Vortrag gehalten, der Beamer hat nicht funktioniert; Die Gäste haben … angekommen, das Flugzeug hatte Verspätung",
+    "correction": "hat → ist (gekommen); gekommt → gekommen; haben → sind (angekommen)",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-t3-telefongespraech",
+    "module": "arbeit-2",
+    "title": "T3 Ein Telefongespräch führen",
+    "kind": "gap-fill",
+    "status": "checked",
+    "answer": "funktioniert, Reparatur, Sie, Woche, Geht, dank",
+    "correction": "Красный «+».",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-arbeit-2-stikery-termin-perevod",
+    "module": "arbeit-2",
+    "title": "Стикеры-переводы: назначить / перенести / отменить встречу",
+    "kind": "writing",
+    "status": "checked",
+    "answer": "6 фраз (Können wir bitte das Treffen absagen? …)",
+    "correction": "«das Treffe» → Treffen; над ним «der Termin»",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-einkaufen-adj-akkusativ",
+    "module": "einkaufen",
+    "title": "Прилагательные в Akkusativ (ein • warm • Pullover → einen warmen Pullover)",
+    "kind": "gap-fill",
+    "status": "done",
+    "grammar": [
+      "adj-endings-ein",
+      "adj-endings-zero"
+    ],
+    "answer": "einen warmen Pullover, eine neue Bluse, rote Schuhe, kein weißes T-Shirt, deine schwarze Hose, einen schwarzen Schal, einen neuen Anzug, einen grünen Hut, meinen roten Mantel, ein blaues Kleid",
+    "archive_tab": "Заметки на полях доски",
+    "description_ru": "Справа от Einkaufen; правок нет; кто вписывал — не видно."
+  },
+  {
+    "id": "t-ha-verkehrsmittel-populaer-verkehrsmittel",
+    "module": "ha-verkehrsmittel",
+    "title": "Welche Verkehrsmittel sind populär in Deutschland? Warum?",
+    "kind": "writing",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "mit-dativ",
+      "conj-aber-denn-und-oder"
+    ],
+    "answer": "In Deutschland fahren viele Leute mit dem Fahrrad, denn es gibt viele Fahrradwege. Die öffentlichen Verkehrsmittel sind auch sehr popülar. Das Auto ist auch sehr bequem fur Urlaub in Europa, denn die Züge haben immer Verspätung.",
+    "correction": "«sind» и заглавная V в «Verspätung» написаны красным; «popülar», «fur» не исправлены.",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-nicht-gern-fahren",
+    "module": "ha-verkehrsmittel",
+    "title": "Mit welchem Verkehrsmittel fährst du nicht gern?",
+    "kind": "writing",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "mit-dativ",
+      "conj-aber-denn-und-oder"
+    ],
+    "answer": "Ich fahre nicht sehr gern mit dem Bus, denn es ist lang und nicht sehr bequem. Und ich mag die U-Bahn nicht, denn dort gibt es oft viele Obdachlose",
+    "correction": "lang → lange",
+    "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-ha-verkehrsmittel-viel-geld-reise",
+    "module": "ha-verkehrsmittel",
+    "title": "Du hast sehr viel Geld. Wohin möchtest du fahren und warum?",
+    "kind": "writing",
+    "homework": true,
+    "status": "checked",
+    "grammar": [
+      "wohin-nach-in-auf-zu",
+      "conj-aber-denn-und-oder"
+    ],
+    "answer": "Ich möchte nach Australien fahren, denn möchte das Great Barrier Reef sehen. Das ist mein Traum. Dort möchte ich mit einem Boot fahren und i… Meer tauchen.",
+    "correction": "denn → denn ich möchte; i… Meer → ins Meer (приписка «Куда? Akk»)",
+    "archive_tab": "Заметки на полях доски"
+  }
+]

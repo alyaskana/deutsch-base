@@ -14,15 +14,15 @@
   "summary": {
     "grammar": {
       "stuck": 7,
-      "learning": 0,
+      "learning": 30,
       "solid": 0,
-      "new": 36
+      "new": 8
     },
     "words": {
       "stuck": 0,
-      "learning": 0,
+      "learning": 248,
       "solid": 0,
-      "new": 2
+      "new": 804
     }
   },
   "grammar": [
@@ -31,14 +31,30 @@
       "title_ru": "Прошедшее время Perfekt",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 4,
+        "error": 4,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "partizip2-prefixes",
       "title_ru": "Partizip II с приставками",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 1,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "strong-verbs",
@@ -49,54 +65,102 @@
       "reason": "отмечено репетитором, после этого верных: 0 из 3",
       "counts": {
         "correct": 0,
-        "error": 0,
-        "struggle": 0,
+        "error": 2,
+        "struggle": 1,
         "flagged": 1
       },
       "last_date": null,
-      "last_result": "flagged"
+      "last_result": "error"
     },
     {
       "id": "praeteritum-war-hatte",
       "title_ru": "Прошедшее war / hatte",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "correct"
     },
     {
       "id": "modal-verbs",
       "title_ru": "Модальные глаголы",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "correct"
     },
     {
       "id": "modal-koennen",
       "title_ru": "können — мочь, уметь",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "modal-wollen",
       "title_ru": "wollen — хотеть",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "correct"
     },
     {
       "id": "modal-muessen",
       "title_ru": "müssen — быть должным",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 2,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "correct"
     },
     {
       "id": "modal-sollen",
       "title_ru": "sollen — следует",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "modal-duerfen",
@@ -110,28 +174,60 @@
       "title_ru": "mögen / möchten — нравиться / хотелось бы",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "separable-verbs",
       "title_ru": "Отделяемые приставки",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "verb-government",
       "title_ru": "Управление глаголов (Akk / Dat)",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 2,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "imperativ",
       "title_ru": "Повелительное наклонение (du / ihr / Sie)",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 4,
+        "error": 2,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "personal-pronouns",
@@ -145,14 +241,30 @@
       "title_ru": "Личные местоимения в Akkusativ",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 2,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "correct"
     },
     {
       "id": "personal-pronouns-dat",
       "title_ru": "Личные местоимения в Dativ",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 2,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "possessive-pronouns",
@@ -162,13 +274,13 @@
       "status": "stuck",
       "reason": "отмечено репетитором, после этого верных: 0 из 3",
       "counts": {
-        "correct": 0,
-        "error": 0,
+        "correct": 1,
+        "error": 10,
         "struggle": 0,
         "flagged": 1
       },
       "last_date": null,
-      "last_result": "flagged"
+      "last_result": "correct"
     },
     {
       "id": "wehtun-dativ",
@@ -214,7 +326,15 @@
       "title_ru": "Артикли и множественное число",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "kein-nicht",
@@ -235,7 +355,15 @@
       "title_ru": "Окончания после ein-типа",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 2,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "correct"
     },
     {
       "id": "adj-endings-der",
@@ -249,14 +377,30 @@
       "title_ru": "Окончания без артикля",
       "level": "A1",
       "covered_with_tutor": false,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "komparativ-superlativ",
       "title_ru": "Степени сравнения",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 3,
+        "error": 4,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "welch-dies",
@@ -270,14 +414,30 @@
       "title_ru": "Куда: nach / in / auf / zu",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 2,
+        "error": 2,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "mit-dativ",
       "title_ru": "mit + Dativ (транспорт)",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 5,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "correct"
     },
     {
       "id": "wo-wohin",
@@ -288,12 +448,12 @@
       "reason": "отмечено репетитором, после этого верных: 0 из 3",
       "counts": {
         "correct": 0,
-        "error": 0,
-        "struggle": 0,
+        "error": 1,
+        "struggle": 2,
         "flagged": 1
       },
       "last_date": null,
-      "last_result": "flagged"
+      "last_result": "error"
     },
     {
       "id": "prepositions-by-case",
@@ -303,69 +463,133 @@
       "status": "stuck",
       "reason": "отмечено репетитором, после этого верных: 0 из 3",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 0,
-        "struggle": 0,
+        "struggle": 1,
         "flagged": 1
       },
       "last_date": null,
-      "last_result": "flagged"
+      "last_result": "struggle"
     },
     {
       "id": "liegen-legen",
       "title_ru": "Где лежит / куда класть",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "time-prepositions",
       "title_ru": "Предлоги времени",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 2,
+        "struggle": 4,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "dates-ordinals",
       "title_ru": "Даты и порядковые числительные",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "clock-time",
       "title_ru": "Время на часах, Uhr и Stunde",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "word-order",
       "title_ru": "Порядок слов",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 3,
+        "error": 2,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "conj-aber-denn-und-oder",
       "title_ru": "Союзы aber / denn / und / oder",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "conj-dann-darum",
       "title_ru": "Наречия-связки dann / darum",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
     },
     {
       "id": "indirect-questions",
       "title_ru": "Косвенный вопрос",
       "level": "A1",
       "covered_with_tutor": false,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "w-questions",
@@ -388,20 +612,8334 @@
       "title_ru": "Обращение и подпись в письме",
       "level": "A1",
       "covered_with_tutor": true,
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
+    },
+    {
+      "id": "praesens",
+      "title_ru": "Спряжение в настоящем времени",
+      "level": "A1",
+      "covered_with_tutor": true,
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
+    },
+    {
+      "id": "komposita",
+      "title_ru": "Сложные слова",
+      "level": "A1",
+      "covered_with_tutor": true,
       "status": "new"
     }
   ],
   "words": [
     {
+      "id": "w-der-chef-war-zufrieden",
+      "lemma": "(Der Chef) war zufrieden.",
+      "ru": "(Шеф) был доволен.",
+      "status": "new"
+    },
+    {
+      "id": "w-abbiegen",
+      "lemma": "abbiegen",
+      "ru": "повернуть",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-abendessen",
+      "lemma": "das Abendessen",
+      "ru": "ужин",
+      "status": "new"
+    },
+    {
+      "id": "w-abendessen-mit-freunden",
+      "lemma": "Abendessen mit Freunden",
+      "ru": "ужин с друзьями",
+      "status": "new"
+    },
+    {
+      "id": "w-aber",
+      "lemma": "aber",
+      "ru": "но",
+      "status": "new"
+    },
+    {
+      "id": "w-abfahrt",
+      "lemma": "die Abfahrt",
+      "ru": "отправление",
+      "status": "new"
+    },
+    {
+      "id": "w-abflug",
+      "lemma": "der Abflug",
+      "ru": "вылет",
+      "status": "new"
+    },
+    {
       "id": "w-abholen",
       "lemma": "abholen",
-      "ru": "забирать",
+      "ru": "забирать; встречать; забирать из",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-abneigung",
+      "lemma": "die Abneigung",
+      "ru": "неприязнь, нелюбовь",
+      "status": "new"
+    },
+    {
+      "id": "w-abonnement",
+      "lemma": "das Abonnement",
+      "ru": "подписка",
+      "status": "new"
+    },
+    {
+      "id": "w-absagen",
+      "lemma": "absagen",
+      "ru": "отказываться; отменять",
+      "status": "new"
+    },
+    {
+      "id": "w-abschliessen",
+      "lemma": "abschließen",
+      "ru": "запирать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-absicht",
+      "lemma": "die Absicht",
+      "ru": "намерение",
+      "status": "new"
+    },
+    {
+      "id": "w-afghanistan",
+      "lemma": "Afghanistan",
+      "ru": "Афганистан",
+      "status": "new"
+    },
+    {
+      "id": "w-albanien",
+      "lemma": "Albanien",
+      "ru": "Албания",
+      "status": "new"
+    },
+    {
+      "id": "w-alle",
+      "lemma": "alle",
+      "ru": "все",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-alles",
+      "lemma": "alles",
+      "ru": "всё",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-alles-ist-schiefgegangen",
+      "lemma": "Alles ist schiefgegangen.",
+      "ru": "Всё пошло не так.",
+      "status": "new"
+    },
+    {
+      "id": "w-als",
+      "lemma": "als",
+      "ru": "чем (при сравнении)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-als-dessert-haette-ich-gerne",
+      "lemma": "Als Dessert hätte ich gerne …",
+      "ru": "На десерт я бы хотел(а) …",
+      "status": "new"
+    },
+    {
+      "id": "w-als-hauptgericht-nehme-ich",
+      "lemma": "Als Hauptgericht nehme ich …",
+      "ru": "В качестве основного блюда я возьму …",
+      "status": "new"
+    },
+    {
+      "id": "w-als-vorspeise-moechte-ich-gerne",
+      "lemma": "Als Vorspeise möchte ich gerne …",
+      "ru": "На закуску я бы хотел(а) …",
+      "status": "new"
+    },
+    {
+      "id": "w-also",
+      "lemma": "also",
+      "ru": "итак",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-am-22sten-juli",
+      "lemma": "am 22sten Juli",
+      "ru": "22-го июля",
+      "status": "new"
+    },
+    {
+      "id": "w-am-abend",
+      "lemma": "am Abend",
+      "ru": "вечером",
+      "status": "new"
+    },
+    {
+      "id": "w-am-beliebtesten-ist",
+      "lemma": "Am beliebtesten ist …",
+      "ru": "Самое популярное — …",
+      "status": "new"
+    },
+    {
+      "id": "w-am-haeufigsten",
+      "lemma": "am häufigsten",
+      "ru": "чаще всего",
+      "status": "new"
+    },
+    {
+      "id": "w-am-liebsten",
+      "lemma": "am liebsten",
+      "ru": "больше всего (люблю)",
+      "status": "new"
+    },
+    {
+      "id": "w-am-mittag",
+      "lemma": "am Mittag",
+      "ru": "в полдень, в обед",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-am-nachmittag",
+      "lemma": "am Nachmittag",
+      "ru": "после обеда, во второй половине дня",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-am-stadtrand",
+      "lemma": "am Stadtrand",
+      "ru": "на окраине города",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-am-vormittag",
+      "lemma": "am Vormittag",
+      "ru": "в первой половине дня, до полудня",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-am-wochenende-lange-schlafen",
+      "lemma": "am Wochenende lange schlafen",
+      "ru": "долго спать в выходные",
+      "status": "new"
+    },
+    {
+      "id": "w-ampel",
+      "lemma": "die Ampel",
+      "ru": "светофор",
+      "status": "new"
+    },
+    {
+      "id": "w-an",
+      "lemma": "an",
+      "ru": "на (вертикальная)",
+      "status": "new"
+    },
+    {
+      "id": "w-an-den-instituten",
+      "lemma": "an den Instituten",
+      "ru": "в институтах",
+      "status": "new"
+    },
+    {
+      "id": "w-an-der-dritten-querstrasse",
+      "lemma": "an der dritten Querstraße",
+      "ru": "на третьем перекрёстке (у третьей поперечной улицы)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-an-der-universitaet",
+      "lemma": "an der Universität",
+      "ru": "в университете",
+      "status": "new"
+    },
+    {
+      "id": "w-an-einem-fluss",
+      "lemma": "an einem Fluss",
+      "ru": "у реки",
+      "status": "new"
+    },
+    {
+      "id": "w-analysieren",
+      "lemma": "analysieren",
+      "ru": "анализировать",
+      "status": "new"
+    },
+    {
+      "id": "w-ananas",
+      "lemma": "die Ananas",
+      "ru": "ананас",
+      "status": "new"
+    },
+    {
+      "id": "w-anderthalb",
+      "lemma": "anderthalb",
+      "ru": "полтора (1,5)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-andorra",
+      "lemma": "Andorra",
+      "ru": "Андорра",
+      "status": "new"
+    },
+    {
+      "id": "w-anfangen",
+      "lemma": "anfangen",
+      "ru": "начинать(ся); начинаться; начинать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-anhaben",
+      "lemma": "anhaben",
+      "ru": "носить, «быть одетым в»",
+      "status": "new"
+    },
+    {
+      "id": "w-ankommen",
+      "lemma": "ankommen",
+      "ru": "прибывать",
+      "status": "new"
+    },
+    {
+      "id": "w-ankunft",
+      "lemma": "die Ankunft",
+      "ru": "прибытие",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-ankunftshalle",
+      "lemma": "die Ankunftshalle",
+      "ru": "зал прилёта",
+      "status": "new"
+    },
+    {
+      "id": "w-anprobieren",
+      "lemma": "anprobieren",
+      "ru": "примерять",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-anrufen",
+      "lemma": "anrufen",
+      "ru": "звонить (кому-то); звонить; звонить (по телефону)",
+      "status": "new"
+    },
+    {
+      "id": "w-anteil",
+      "lemma": "der Anteil",
+      "ru": "доля (чего-либо); доля",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-anziehen",
+      "lemma": "anziehen",
+      "ru": "надевать; надевать (предмет одежды)",
+      "status": "new"
+    },
+    {
+      "id": "w-anzug",
+      "lemma": "der Anzug",
+      "ru": "костюм",
+      "status": "new"
+    },
+    {
+      "id": "w-aok",
+      "lemma": "die AOK",
+      "ru": "AOK (Allgemeine Ortskrankenkasse) — государственная больничная касса",
+      "status": "new"
+    },
+    {
+      "id": "w-apfel",
+      "lemma": "der Apfel",
+      "ru": "яблоко",
+      "status": "new"
+    },
+    {
+      "id": "w-app",
+      "lemma": "die App",
+      "ru": "приложение",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-arbeiten",
+      "lemma": "arbeiten",
+      "ru": "работать",
+      "status": "new"
+    },
+    {
+      "id": "w-arm",
+      "lemma": "der Arm",
+      "ru": "рука",
+      "status": "new"
+    },
+    {
+      "id": "w-armenien",
+      "lemma": "Armenien",
+      "ru": "Армения",
+      "status": "new"
+    },
+    {
+      "id": "w-arzt",
+      "lemma": "der Arzt",
+      "ru": "врач",
+      "status": "new"
+    },
+    {
+      "id": "w-arzttermin",
+      "lemma": "der Arzttermin",
+      "ru": "запись (приём) к врачу",
+      "status": "new"
+    },
+    {
+      "id": "w-aserbaidschan",
+      "lemma": "Aserbaidschan",
+      "ru": "Азербайджан",
+      "status": "new"
+    },
+    {
+      "id": "w-assoziation",
+      "lemma": "die Assoziation",
+      "ru": "ассоциация",
+      "status": "new"
+    },
+    {
+      "id": "w-auch",
+      "lemma": "auch",
+      "ru": "тоже",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-auf",
+      "lemma": "auf",
+      "ru": "на (горизонт)",
+      "status": "new"
+    },
+    {
+      "id": "w-auf-dem-land",
+      "lemma": "auf dem Land",
+      "ru": "в деревне / за городом",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-auf-dem-markt-einkaufen",
+      "lemma": "auf dem Markt einkaufen",
+      "ru": "покупать на рынке",
+      "status": "new"
+    },
+    {
+      "id": "w-auf-der-couch-sitzen-und-fernsehen",
+      "lemma": "auf der Couch sitzen und fernsehen",
+      "ru": "сидеть на диване и смотреть телевизор",
+      "status": "new"
+    },
+    {
+      "id": "w-auf-der-rechten-seite",
+      "lemma": "auf der rechten Seite",
+      "ru": "на правой стороне",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-auf-jeden-fall",
+      "lemma": "auf jeden Fall",
+      "ru": "в любом случае; в любом случае = sicher",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-auf-platz-eins-liegen",
+      "lemma": "auf Platz eins liegen",
+      "ru": "быть на первом месте",
+      "status": "new"
+    },
+    {
+      "id": "w-auf-platz-liegt",
+      "lemma": "Auf Platz … liegt …",
+      "ru": "На … месте находится …",
+      "status": "new"
+    },
+    {
+      "id": "w-auf-wiederhoeren",
+      "lemma": "Auf Wiederhören.",
+      "ru": "До свидания (по телефону).",
+      "status": "new"
+    },
+    {
+      "id": "w-aufraeumen",
+      "lemma": "aufräumen",
+      "ru": "убираться, наводить порядок",
+      "status": "new"
+    },
+    {
+      "id": "w-aufstehen",
+      "lemma": "aufstehen",
+      "ru": "вставать",
+      "status": "new"
+    },
+    {
+      "id": "w-auftrag",
+      "lemma": "der Auftrag",
+      "ru": "поручение",
+      "status": "new"
+    },
+    {
+      "id": "w-auge",
+      "lemma": "das Auge",
+      "ru": "глаз",
+      "status": "new"
+    },
+    {
+      "id": "w-ausbildung",
+      "lemma": "die Ausbildung",
+      "ru": "образование, обучение",
+      "status": "new"
+    },
+    {
+      "id": "w-ausblick",
+      "lemma": "der Ausblick",
+      "ru": "вид на что-то",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-ausdrucken",
+      "lemma": "ausdrucken",
+      "ru": "распечатывать",
+      "status": "new"
+    },
+    {
+      "id": "w-ausgehen",
+      "lemma": "ausgehen",
+      "ru": "выйти гулять / чилить; go out; выходить (из дома)",
+      "status": "new"
+    },
+    {
+      "id": "w-ausschlafen",
+      "lemma": "ausschlafen",
+      "ru": "выспаться",
+      "status": "new"
+    },
+    {
+      "id": "w-aussehen",
+      "lemma": "aussehen",
+      "ru": "выглядеть",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-auszubildende",
+      "lemma": "Auszubildende",
+      "ru": "учащиеся на производстве, проходящие Ausbildung",
+      "status": "new"
+    },
+    {
+      "id": "w-auto",
+      "lemma": "das Auto",
+      "ru": "машина",
+      "status": "new"
+    },
+    {
+      "id": "w-autobahn",
+      "lemma": "die Autobahn",
+      "ru": "автомагистраль",
+      "status": "new"
+    },
+    {
+      "id": "w-autofahrer",
+      "lemma": "der Autofahrer",
+      "ru": "водитель автомобиля",
+      "status": "new"
+    },
+    {
+      "id": "w-ausserdem",
+      "lemma": "außerdem",
+      "ru": "кроме того",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-azubi",
+      "lemma": "Azubi",
+      "ru": "тот, кто проходит Ausbildung; студент колледжа",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-backen",
+      "lemma": "backen",
+      "ru": "печь",
+      "status": "new"
+    },
+    {
+      "id": "w-backwaren",
+      "lemma": "Backwaren",
+      "ru": "выпечка",
+      "status": "new"
+    },
+    {
+      "id": "w-bad",
+      "lemma": "das Bad",
+      "ru": "ванна; ванная комната",
+      "status": "new"
+    },
+    {
+      "id": "w-badewanne",
+      "lemma": "die Badewanne",
+      "ru": "ванна",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-bahnhof",
+      "lemma": "der Bahnhof",
+      "ru": "вокзал",
+      "status": "new"
+    },
+    {
+      "id": "w-bahnticket",
+      "lemma": "das Bahnticket",
+      "ru": "ж/д билет",
+      "status": "new"
+    },
+    {
+      "id": "w-balearen",
+      "lemma": "die Balearen",
+      "ru": "Балеарские острова",
+      "status": "new"
+    },
+    {
+      "id": "w-banane",
+      "lemma": "die Banane",
+      "ru": "банан",
+      "status": "new"
+    },
+    {
+      "id": "w-bangladesch",
+      "lemma": "Bangladesch",
+      "ru": "Бангладеш",
+      "status": "new"
+    },
+    {
+      "id": "w-basteln",
+      "lemma": "basteln",
+      "ru": "мастерить",
+      "status": "new"
+    },
+    {
+      "id": "w-bauch",
+      "lemma": "der Bauch",
+      "ru": "живот",
+      "status": "new"
+    },
+    {
+      "id": "w-bauchschmerzen",
+      "lemma": "Bauchschmerzen",
+      "ru": "боль в животе",
+      "status": "new"
+    },
+    {
+      "id": "w-beamer",
+      "lemma": "der Beamer",
+      "ru": "проектор",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-beantworten",
+      "lemma": "beantworten",
+      "ru": "отвечать (на письмо); отвечать (на что-то)",
+      "status": "new"
+    },
+    {
+      "id": "w-bedienen",
+      "lemma": "bedienen",
+      "ru": "обслуживать",
+      "status": "new"
+    },
+    {
+      "id": "w-beere",
+      "lemma": "die Beere",
+      "ru": "ягода",
+      "status": "new"
+    },
+    {
+      "id": "w-beginnen",
+      "lemma": "beginnen",
+      "ru": "начинать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-bei-der-aok-versichert-sein",
+      "lemma": "bei der AOK versichert sein",
+      "ru": "быть застрахованным в AOK",
+      "status": "new"
+    },
+    {
+      "id": "w-bei-der-arbeit",
+      "lemma": "bei der Arbeit",
+      "ru": "во время работы",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-bei-der-besprechung-protokoll-schreiben",
+      "lemma": "bei der Besprechung Protokoll schreiben",
+      "ru": "вести протокол на совещании",
+      "status": "new"
+    },
+    {
+      "id": "w-bei-einem-picknick",
+      "lemma": "bei einem Picknick",
+      "ru": "на пикнике",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-beige",
+      "lemma": "beige",
+      "ru": "бежевый",
+      "status": "new"
+    },
+    {
+      "id": "w-bein",
+      "lemma": "das Bein",
+      "ru": "нога",
+      "status": "new"
+    },
+    {
+      "id": "w-belegen",
+      "lemma": "belegen",
+      "ru": "занимать (место)",
+      "status": "new"
+    },
+    {
+      "id": "w-belgien",
+      "lemma": "Belgien",
+      "ru": "Бельгия",
+      "status": "new"
+    },
+    {
+      "id": "w-beliebt",
+      "lemma": "beliebt",
+      "ru": "популярный",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-benutzen",
+      "lemma": "benutzen",
+      "ru": "пользоваться, использовать",
+      "status": "new"
+    },
+    {
+      "id": "w-bequem",
+      "lemma": "bequem",
+      "ru": "удобный; удобно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-beraten",
+      "lemma": "beraten",
+      "ru": "консультировать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-bereich",
+      "lemma": "der Bereich",
+      "ru": "область, категория",
+      "status": "new"
+    },
+    {
+      "id": "w-berichte-artikel-schreiben",
+      "lemma": "Berichte/Artikel schreiben",
+      "ru": "писать отчёты/статьи",
+      "status": "new"
+    },
+    {
+      "id": "w-besitzen",
+      "lemma": "besitzen",
+      "ru": "владеть; иметь в собственности",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-besonders",
+      "lemma": "besonders",
+      "ru": "особенно",
+      "status": "new"
+    },
+    {
+      "id": "w-besprechen",
+      "lemma": "besprechen",
+      "ru": "обсуждать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-besprechung",
+      "lemma": "die Besprechung",
+      "ru": "совещание",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-besprechungen-fuehren",
+      "lemma": "Besprechungen führen",
+      "ru": "проводить совещания",
+      "status": "new"
+    },
+    {
+      "id": "w-bestehen-aus",
+      "lemma": "bestehen aus",
+      "ru": "состоять из",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-bestellen",
+      "lemma": "bestellen",
+      "ru": "заказывать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-besuchen",
+      "lemma": "besuchen",
+      "ru": "посетить; посещать; навещать",
+      "status": "new"
+    },
+    {
+      "id": "w-bett",
+      "lemma": "das Bett",
+      "ru": "кровать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-bevorzugen",
+      "lemma": "bevorzugen",
+      "ru": "предпочитать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-bezahlen",
+      "lemma": "bezahlen",
+      "ru": "оплачивать",
+      "status": "new"
+    },
+    {
+      "id": "w-bezirk",
+      "lemma": "der Bezirk",
+      "ru": "район",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-bhutan",
+      "lemma": "Bhutan",
+      "ru": "Бутан",
+      "status": "new"
+    },
+    {
+      "id": "w-bieten",
+      "lemma": "bieten",
+      "ru": "предлагать",
+      "status": "new"
+    },
+    {
+      "id": "w-bild",
+      "lemma": "das Bild",
+      "ru": "картина, картинка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-billig",
+      "lemma": "billig",
+      "ru": "дешёвый",
+      "status": "new"
+    },
+    {
+      "id": "w-birne",
+      "lemma": "die Birne",
+      "ru": "груша",
+      "status": "new"
+    },
+    {
+      "id": "w-bitte",
+      "lemma": "die Bitte",
+      "ru": "просьба",
+      "status": "new"
+    },
+    {
+      "id": "w-bitten",
+      "lemma": "bitten",
+      "ru": "просить",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-blau",
+      "lemma": "blau",
+      "ru": "синий",
+      "status": "new"
+    },
+    {
+      "id": "w-bleiben",
+      "lemma": "bleiben",
+      "ru": "оставаться",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-bluse",
+      "lemma": "die Bluse",
+      "ru": "блузка",
+      "status": "new"
+    },
+    {
+      "id": "w-boot",
+      "lemma": "das Boot",
+      "ru": "лодка",
+      "status": "new"
+    },
+    {
+      "id": "w-bosnien-und-herzegowina",
+      "lemma": "Bosnien und Herzegowina",
+      "ru": "Босния и Герцеговина",
+      "status": "new"
+    },
+    {
+      "id": "w-boutique",
+      "lemma": "die Boutique",
+      "ru": "бутик",
+      "status": "new"
+    },
+    {
+      "id": "w-braten",
+      "lemma": "braten",
+      "ru": "жарить",
+      "status": "new"
+    },
+    {
+      "id": "w-bratwurst",
+      "lemma": "die Bratwurst",
+      "ru": "жареная колбаска",
+      "status": "new"
+    },
+    {
+      "id": "w-brauchen",
+      "lemma": "brauchen",
+      "ru": "нуждаться",
+      "status": "new"
+    },
+    {
+      "id": "w-braun",
+      "lemma": "braun",
+      "ru": "коричневый",
+      "status": "new"
+    },
+    {
+      "id": "w-braunrot",
+      "lemma": "braunrot",
+      "ru": "красно-коричневый",
+      "status": "new"
+    },
+    {
+      "id": "w-brechen",
+      "lemma": "brechen",
+      "ru": "ломать",
+      "status": "new"
+    },
+    {
+      "id": "w-bringen",
+      "lemma": "bringen",
+      "ru": "приносить",
+      "status": "new"
+    },
+    {
+      "id": "w-brot",
+      "lemma": "das Brot",
+      "ru": "хлеб",
+      "status": "new"
+    },
+    {
+      "id": "w-broetchen",
+      "lemma": "das Brötchen",
+      "ru": "булочка",
+      "status": "new"
+    },
+    {
+      "id": "w-buch",
+      "lemma": "das Buch",
+      "ru": "книга",
+      "status": "new"
+    },
+    {
+      "id": "w-bulgarien",
+      "lemma": "Bulgarien",
+      "ru": "Болгария",
+      "status": "new"
+    },
+    {
+      "id": "w-burma-myanmar",
+      "lemma": "Burma (Myanmar)",
+      "ru": "Бирма (Мьянма)",
+      "status": "new"
+    },
+    {
+      "id": "w-bus",
+      "lemma": "der Bus",
+      "ru": "автобус",
+      "status": "new"
+    },
+    {
+      "id": "w-butter",
+      "lemma": "die Butter",
+      "ru": "сливочное масло",
+      "status": "new"
+    },
+    {
+      "id": "w-buecher-lesen",
+      "lemma": "Bücher lesen",
+      "ru": "читать книги",
+      "status": "new"
+    },
+    {
+      "id": "w-buegeln",
+      "lemma": "bügeln",
+      "ru": "гладить",
+      "status": "new"
+    },
+    {
+      "id": "w-caf",
+      "lemma": "das Café",
+      "ru": "кафе",
+      "status": "new"
+    },
+    {
+      "id": "w-check-in-schalter",
+      "lemma": "der Check-in-Schalter",
+      "ru": "стойка регистрации",
+      "status": "new"
+    },
+    {
+      "id": "w-china",
+      "lemma": "China",
+      "ru": "Китай",
+      "status": "new"
+    },
+    {
+      "id": "w-chinesisch",
+      "lemma": "chinesisch",
+      "ru": "китайский",
+      "status": "new"
+    },
+    {
+      "id": "w-cola",
+      "lemma": "die Cola",
+      "ru": "кола",
+      "status": "new"
+    },
+    {
+      "id": "w-computerspiele-spielen",
+      "lemma": "Computerspiele spielen",
+      "ru": "играть в компьютерные игры",
+      "status": "new"
+    },
+    {
+      "id": "w-couch",
+      "lemma": "die Couch",
+      "ru": "диван",
+      "status": "new"
+    },
+    {
+      "id": "w-croissant",
+      "lemma": "das Croissant",
+      "ru": "круассан",
+      "status": "new"
+    },
+    {
+      "id": "w-danach-kommt-mit-prozent",
+      "lemma": "Danach kommt mit … Prozent …",
+      "ru": "Затем идёт с … процентами …",
+      "status": "new"
+    },
+    {
+      "id": "w-danke-geht-es-gut",
+      "lemma": "Danke, … geht es gut.",
+      "ru": "Спасибо, у … всё хорошо.",
+      "status": "new"
+    },
+    {
+      "id": "w-dann",
+      "lemma": "dann",
+      "ru": "затем; потом",
+      "status": "new"
+    },
+    {
+      "id": "w-darum",
+      "lemma": "darum",
+      "ru": "поэтому",
+      "status": "new"
+    },
+    {
+      "id": "w-das-bad-putzen",
+      "lemma": "das Bad putzen",
+      "ru": "мыть ванную; мыть (чистить) ванную",
+      "status": "new"
+    },
+    {
+      "id": "w-das-beliebteste-verkehrsmittel-sein",
+      "lemma": "das beliebteste Verkehrsmittel sein",
+      "ru": "быть самым популярным видом транспорта",
+      "status": "new"
+    },
+    {
+      "id": "w-das-geht-leider-nicht-da-bin-ich-nicht-da",
+      "lemma": "Das geht leider nicht. Da bin ich nicht da.",
+      "ru": "К сожалению, не получится. Меня в это время не будет.",
+      "status": "new"
+    },
+    {
+      "id": "w-das-geschirr-spuelen",
+      "lemma": "das Geschirr spülen",
+      "ru": "мыть посуду",
+      "status": "new"
+    },
+    {
+      "id": "w-das-gesicht-waschen",
+      "lemma": "das Gesicht waschen",
+      "ru": "умывать лицо",
+      "status": "new"
+    },
+    {
+      "id": "w-das-heisst",
+      "lemma": "das heißt",
+      "ru": "то есть",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-das-projekt-praesentieren",
+      "lemma": "das Projekt präsentieren",
+      "ru": "презентовать проект",
+      "status": "new"
+    },
+    {
+      "id": "w-das-waere-es",
+      "lemma": "das wäre es",
+      "ru": "это всё",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-daten-analysieren",
+      "lemma": "Daten analysieren",
+      "ru": "анализировать данные",
+      "status": "new"
+    },
+    {
+      "id": "w-datum",
+      "lemma": "das Datum",
+      "ru": "дата",
+      "status": "new"
+    },
+    {
+      "id": "w-dauern",
+      "lemma": "dauern",
+      "ru": "длиться",
+      "status": "new"
+    },
+    {
+      "id": "w-decke",
+      "lemma": "die Decke",
+      "ru": "одеяло; также потолок",
+      "status": "new"
+    },
+    {
+      "id": "w-den-boden-fegen",
+      "lemma": "den Boden fegen",
+      "ru": "подметать пол",
+      "status": "new"
+    },
+    {
+      "id": "w-den-muell-rausbringen",
+      "lemma": "den Müll rausbringen",
+      "ru": "выносить мусор",
+      "status": "new"
+    },
+    {
+      "id": "w-den-platz-belegen",
+      "lemma": "den Platz belegen",
+      "ru": "занимать место",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-den-zug-nehmen",
+      "lemma": "den Zug nehmen",
+      "ru": "поехать на поезде (букв. «взять поезд»)",
+      "status": "new"
+    },
+    {
+      "id": "w-denken",
+      "lemma": "denken",
+      "ru": "думать",
+      "status": "new"
+    },
+    {
+      "id": "w-denn",
+      "lemma": "denn",
+      "ru": "так как; потому что",
+      "status": "new"
+    },
+    {
+      "id": "w-der-anzug-passt-gut",
+      "lemma": "Der Anzug passt … gut.",
+      "ru": "Костюм … хорошо подходит (сидит).",
+      "status": "new"
+    },
+    {
+      "id": "w-der-bus-hat-eine-panne",
+      "lemma": "Der Bus hat eine Panne.",
+      "ru": "У автобуса поломка.",
+      "status": "new"
+    },
+    {
+      "id": "w-der-zug-hat-verspaetung",
+      "lemma": "Der Zug hat Verspätung.",
+      "ru": "Поезд опаздывает.",
+      "status": "new"
+    },
+    {
+      "id": "w-dessert",
+      "lemma": "das Dessert",
+      "ru": "десерт",
+      "status": "new"
+    },
+    {
+      "id": "w-deutlich",
+      "lemma": "deutlich",
+      "ru": "определенно / очевидно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-deutsch",
+      "lemma": "deutsch",
+      "ru": "немецкий",
+      "status": "new"
+    },
+    {
+      "id": "w-deutsch-lernen",
+      "lemma": "Deutsch lernen",
+      "ru": "учить немецкий",
+      "status": "new"
+    },
+    {
+      "id": "w-deutsch-sprechen",
+      "lemma": "Deutsch sprechen",
+      "ru": "говорить по-немецки",
+      "status": "new"
+    },
+    {
+      "id": "w-deutsche",
+      "lemma": "Deutsche",
+      "ru": "немцы",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-deutschland",
+      "lemma": "Deutschland",
+      "ru": "Германия",
+      "status": "new"
+    },
+    {
+      "id": "w-die-blumen-giessen",
+      "lemma": "die Blumen gießen",
+      "ru": "поливать цветы",
+      "status": "new"
+    },
+    {
+      "id": "w-die-gaeste-vom-flughafen-abholen",
+      "lemma": "die Gäste vom Flughafen abholen",
+      "ru": "встретить (забрать) гостей из аэропорта",
+      "status": "new"
+    },
+    {
+      "id": "w-die-haende-waschen",
+      "lemma": "die Hände waschen",
+      "ru": "мыть руки",
+      "status": "new"
+    },
+    {
+      "id": "w-die-meisten-verben",
+      "lemma": "die meisten Verben",
+      "ru": "большинство глаголов",
+      "status": "new"
+    },
+    {
+      "id": "w-die-position-und-die-situation-wechseln",
+      "lemma": "die Position und die Situation wechseln",
+      "ru": "менять положение и ситуацию",
+      "status": "new"
+    },
+    {
+      "id": "w-die-rechnung-bitte",
+      "lemma": "Die Rechnung bitte.",
+      "ru": "Счёт, пожалуйста.",
+      "status": "new"
+    },
+    {
+      "id": "w-die-technik-im-besprechungsraum-kontrollieren",
+      "lemma": "die Technik im Besprechungsraum kontrollieren",
+      "ru": "проверить технику в переговорной",
+      "status": "new"
+    },
+    {
+      "id": "w-die-technik-kontrollieren",
+      "lemma": "die Technik kontrollieren",
+      "ru": "проверить технику",
+      "status": "new"
+    },
+    {
+      "id": "w-die-versichertenkarte-mitbringen",
+      "lemma": "die Versichertenkarte mitbringen",
+      "ru": "принести с собой карту застрахованного",
+      "status": "new"
+    },
+    {
+      "id": "w-die-wohnung-aufraeumen",
+      "lemma": "die Wohnung aufräumen",
+      "ru": "убирать квартиру",
+      "status": "new"
+    },
+    {
+      "id": "w-ding",
+      "lemma": "das Ding",
+      "ru": "вещь / thing",
+      "status": "new"
+    },
+    {
+      "id": "w-dokument",
+      "lemma": "das Dokument",
+      "ru": "документ",
+      "status": "new"
+    },
+    {
+      "id": "w-dokumente-scannen-und-ausdrucken",
+      "lemma": "Dokumente scannen und ausdrucken",
+      "ru": "сканировать и распечатывать документы",
+      "status": "new"
+    },
+    {
+      "id": "w-dokumente-artikel-lesen",
+      "lemma": "Dokumente/Artikel lesen",
+      "ru": "читать документы/статьи",
+      "status": "new"
+    },
+    {
+      "id": "w-dringend",
+      "lemma": "dringend",
+      "ru": "срочно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-dumm",
+      "lemma": "dumm",
+      "ru": "глупый",
+      "status": "new"
+    },
+    {
+      "id": "w-dunkelblau",
+      "lemma": "dunkelblau",
+      "ru": "тёмно-синий",
+      "status": "new"
+    },
+    {
+      "id": "w-dunkelgruen",
+      "lemma": "dunkelgrün",
+      "ru": "тёмно-зелёный",
+      "status": "new"
+    },
+    {
+      "id": "w-durchfuehren",
+      "lemma": "durchführen",
+      "ru": "проводить",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-durchschnittlich",
+      "lemma": "durchschnittlich",
+      "ru": "в среднем; средний",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-dusche",
+      "lemma": "die Dusche",
+      "ru": "душ",
+      "status": "new"
+    },
+    {
+      "id": "w-daenemark",
+      "lemma": "Dänemark",
+      "ru": "Дания",
+      "status": "new"
+    },
+    {
+      "id": "w-duerfen",
+      "lemma": "dürfen",
+      "ru": "мочь с чьего-то разрешения; иметь право делать; быть вправе",
+      "status": "new"
+    },
+    {
+      "id": "w-ei",
+      "lemma": "das Ei",
+      "ru": "яйцо",
+      "status": "new"
+    },
+    {
+      "id": "w-eigen",
+      "lemma": "eigen",
+      "ru": "собственный",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-eigentum",
+      "lemma": "das Eigentum",
+      "ru": "собственность",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-eigentumswohnung",
+      "lemma": "die Eigentumswohnung",
+      "ru": "квартира в собственности",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-eigentuemer",
+      "lemma": "der Eigentümer",
+      "ru": "собственник; владелец",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-ein-dokument-uebersetzen",
+      "lemma": "ein Dokument übersetzen",
+      "ru": "перевести документ",
+      "status": "new"
+    },
+    {
+      "id": "w-ein-eigenes-haus-besitzen",
+      "lemma": "ein eigenes Haus besitzen",
+      "ru": "владеть собственным домом",
+      "status": "new"
+    },
+    {
+      "id": "w-ein-fahrrad-haben",
+      "lemma": "ein Fahrrad haben",
+      "ru": "иметь велосипед",
+      "status": "new"
+    },
+    {
+      "id": "w-ein-instrument-spielen",
+      "lemma": "ein Instrument spielen",
+      "ru": "играть на инструменте",
+      "status": "new"
+    },
+    {
+      "id": "w-ein-protokoll-schreiben",
+      "lemma": "ein Protokoll schreiben",
+      "ru": "писать протокол",
+      "status": "new"
+    },
+    {
+      "id": "w-ein-tag-im-buero",
+      "lemma": "Ein Tag im Büro",
+      "ru": "день в офисе",
+      "status": "new"
+    },
+    {
+      "id": "w-eine-e-mail-beantworten",
+      "lemma": "eine E-Mail beantworten",
+      "ru": "ответить на письмо",
+      "status": "new"
+    },
+    {
+      "id": "w-eine-eigene-wohnung-haben",
+      "lemma": "eine eigene Wohnung haben",
+      "ru": "иметь собственную квартиру",
+      "status": "new"
+    },
+    {
+      "id": "w-eine-gesetzliche-private-krankenversicherung-haben",
+      "lemma": "eine gesetzliche/private Krankenversicherung haben",
+      "ru": "иметь государственную/частную медстраховку",
+      "status": "new"
+    },
+    {
+      "id": "w-eine-halbe-stunde",
+      "lemma": "eine halbe Stunde",
+      "ru": "полчаса",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-eine-serie-schauen",
+      "lemma": "eine Serie schauen",
+      "ru": "смотреть сериал",
+      "status": "new"
+    },
+    {
+      "id": "w-eine-sprache-lernen",
+      "lemma": "eine Sprache lernen",
+      "ru": "учить язык",
+      "status": "new"
+    },
+    {
+      "id": "w-einen-termin-absagen",
+      "lemma": "einen Termin absagen",
+      "ru": "отменить встречу",
+      "status": "new"
+    },
+    {
+      "id": "w-einen-termin-beim-arzt-vereinbaren",
+      "lemma": "einen Termin beim Arzt vereinbaren",
+      "ru": "записаться на приём к врачу",
+      "status": "new"
+    },
+    {
+      "id": "w-einen-termin-mit-einer-kundin-vereinbaren",
+      "lemma": "einen Termin mit einer Kundin vereinbaren",
+      "ru": "договориться о встрече с клиенткой",
+      "status": "new"
+    },
+    {
+      "id": "w-einen-termin-vereinbaren",
+      "lemma": "einen Termin vereinbaren",
+      "ru": "договориться о встрече; назначить встречу",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-einfamilienhaus",
+      "lemma": "das Einfamilienhaus",
+      "ru": "дом на одну семью, частный дом",
+      "status": "new"
+    },
+    {
+      "id": "w-einhalb",
+      "lemma": "einhalb",
+      "ru": "с половиной",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-einige",
+      "lemma": "einige",
+      "ru": "несколько, некоторые",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-einige-dokumente-ins-deutsche-uebersetzen",
+      "lemma": "einige Dokumente ins Deutsche übersetzen",
+      "ru": "перевести несколько документов на немецкий",
+      "status": "new"
+    },
+    {
+      "id": "w-einkaufen-shoppen-gehen",
+      "lemma": "einkaufen/shoppen gehen",
+      "ru": "ходить за покупками",
+      "status": "new"
+    },
+    {
+      "id": "w-einladen",
+      "lemma": "einladen",
+      "ru": "приглашать",
+      "status": "new"
+    },
+    {
+      "id": "w-einmal-im-monat-das-bad-putzen",
+      "lemma": "einmal im Monat das Bad putzen",
+      "ru": "раз в месяц мыть ванную",
+      "status": "new"
+    },
+    {
+      "id": "w-einnehmen",
+      "lemma": "einnehmen",
+      "ru": "принимать (лекарство, витамины)",
+      "status": "new"
+    },
+    {
+      "id": "w-eintrittskarte",
+      "lemma": "die Eintrittskarte",
+      "ru": "входной билет",
+      "status": "new"
+    },
+    {
+      "id": "w-einverstanden",
+      "lemma": "einverstanden",
+      "ru": "согласна (ich bin einverstanden — я согласна)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-eis",
+      "lemma": "das Eis",
+      "ru": "мороженое",
+      "status": "new"
+    },
+    {
+      "id": "w-elektronik",
+      "lemma": "die Elektronik",
+      "ru": "электроника",
+      "status": "new"
+    },
+    {
+      "id": "w-empfangen",
+      "lemma": "empfangen",
+      "ru": "принимать; встречать (гостей)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-empfehlen",
+      "lemma": "empfehlen",
+      "ru": "рекомендовать",
+      "status": "new"
+    },
+    {
+      "id": "w-englisch",
+      "lemma": "englisch",
+      "ru": "английский",
+      "status": "new"
+    },
+    {
+      "id": "w-englisch-sprechen",
+      "lemma": "Englisch sprechen",
+      "ru": "говорить по-английски",
+      "status": "new"
+    },
+    {
+      "id": "w-entscheiden",
+      "lemma": "entscheiden",
+      "ru": "решать",
+      "status": "new"
+    },
+    {
+      "id": "w-entwickeln",
+      "lemma": "entwickeln",
+      "ru": "разрабатывать",
+      "status": "new"
+    },
+    {
+      "id": "w-erdbeere",
+      "lemma": "die Erdbeere",
+      "ru": "клубника",
+      "status": "new"
+    },
+    {
+      "id": "w-erfolgreich",
+      "lemma": "erfolgreich",
+      "ru": "успешно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-erkaeltung",
+      "lemma": "die Erkältung",
+      "ru": "простуда",
+      "status": "new"
+    },
+    {
+      "id": "w-erlaubnis",
+      "lemma": "die Erlaubnis",
+      "ru": "разрешение",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-20-grad",
+      "lemma": "es ist 20 Grad",
+      "ru": "20 градусов (сейчас)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-es-ist-frostig",
+      "lemma": "Es ist frostig",
+      "ru": "морозно",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-heiss",
+      "lemma": "Es ist heiß",
+      "ru": "жарко",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-kalt",
+      "lemma": "Es ist kalt",
+      "ru": "холодно",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-kuehl",
+      "lemma": "Es ist kühl",
+      "ru": "прохладно",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-nass",
+      "lemma": "Es ist nass",
+      "ru": "сыро",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-neblig",
+      "lemma": "Es ist neblig",
+      "ru": "туманно",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-sonnig",
+      "lemma": "Es ist sonnig",
+      "ru": "солнечно",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-warm",
+      "lemma": "Es ist warm",
+      "ru": "тепло",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-windig",
+      "lemma": "Es ist windig",
+      "ru": "ветрено",
+      "status": "new"
+    },
+    {
+      "id": "w-es-ist-wolkig",
+      "lemma": "Es ist wolkig",
+      "ru": "облачно",
+      "status": "new"
+    },
+    {
+      "id": "w-es-kommt-auf-an",
+      "lemma": "es kommt auf … an",
+      "ru": "зависит от",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-es-kommt-darauf-an",
+      "lemma": "es kommt darauf an",
+      "ru": "зависит от обстоятельств",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 3,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-es-regnet",
+      "lemma": "Es regnet",
+      "ru": "идёт дождь",
+      "status": "new"
+    },
+    {
+      "id": "w-es-schneit",
+      "lemma": "Es schneit",
+      "ru": "идёт снег",
+      "status": "new"
+    },
+    {
+      "id": "w-es-tut-leid",
+      "lemma": "Es tut … leid.",
+      "ru": "… жаль.",
+      "status": "new"
+    },
+    {
+      "id": "w-essen",
+      "lemma": "essen",
+      "ru": "кушать; есть",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-esstisch",
+      "lemma": "der Esstisch",
+      "ru": "обеденный стол",
+      "status": "new"
+    },
+    {
+      "id": "w-estland",
+      "lemma": "Estland",
+      "ru": "Эстония",
+      "status": "new"
+    },
+    {
+      "id": "w-etwa",
+      "lemma": "etwa",
+      "ru": "примерно; около",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-etwas",
+      "lemma": "etwas",
+      "ru": "что-то",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-etwas-kaufen-verkaufen",
+      "lemma": "etwas kaufen/verkaufen",
+      "ru": "что-то покупать/продавать",
+      "status": "new"
+    },
+    {
+      "id": "w-etwas-lustiges",
+      "lemma": "etwas Lustiges",
+      "ru": "что-нибудь смешное",
+      "status": "new"
+    },
+    {
+      "id": "w-etwas-mit-der-familie-unternehmen",
+      "lemma": "etwas mit der Familie unternehmen",
+      "ru": "заниматься чем-то вместе с семьёй",
+      "status": "new"
+    },
+    {
+      "id": "w-etwas-mit-freunden-oder-der-familie-unternehmen",
+      "lemma": "etwas mit Freunden oder der Familie unternehmen",
+      "ru": "проводить время с друзьями или семьёй",
+      "status": "new"
+    },
+    {
+      "id": "w-etwas-mit-freunden-unternehmen",
+      "lemma": "etwas mit Freunden unternehmen",
+      "ru": "заниматься чем-то вместе с друзьями",
+      "status": "new"
+    },
+    {
+      "id": "w-experimente-durchfuehren",
+      "lemma": "Experimente durchführen",
+      "ru": "проводить эксперименты",
+      "status": "new"
+    },
+    {
+      "id": "w-fahren",
+      "lemma": "fahren",
+      "ru": "ехать; ездить",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-fahrgast",
+      "lemma": "der Fahrgast",
+      "ru": "пассажир (наземного транспорта)",
+      "status": "new"
+    },
+    {
+      "id": "w-fahrkarte",
+      "lemma": "die Fahrkarte",
+      "ru": "билет (на транспорт)",
+      "status": "new"
+    },
+    {
+      "id": "w-fahrkartenautomat",
+      "lemma": "der Fahrkartenautomat",
+      "ru": "автомат по продаже билетов",
+      "status": "new"
+    },
+    {
+      "id": "w-fahrplan",
+      "lemma": "der Fahrplan",
+      "ru": "расписание (транспорта)",
+      "status": "new"
+    },
+    {
+      "id": "w-fahrrad",
+      "lemma": "das Fahrrad",
+      "ru": "велосипед",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-fahrradfahren-gefaehrlich-finden",
+      "lemma": "Fahrradfahren gefährlich finden",
+      "ru": "считать езду на велосипеде опасной",
+      "status": "new"
+    },
+    {
+      "id": "w-fahrstuhl",
+      "lemma": "der Fahrstuhl",
+      "ru": "лифт",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-fair",
+      "lemma": "fair",
+      "ru": "честный, справедливый",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-fairer-chef",
+      "lemma": "fairer Chef",
+      "ru": "справедливый начальник",
+      "status": "new"
+    },
+    {
+      "id": "w-fall",
+      "lemma": "der Fall",
+      "ru": "случай",
+      "status": "new"
+    },
+    {
+      "id": "w-fallen",
+      "lemma": "fallen",
+      "ru": "падать",
+      "status": "new"
+    },
+    {
+      "id": "w-fast",
+      "lemma": "fast",
+      "ru": "почти",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-faul",
+      "lemma": "faul",
+      "ru": "ленивый",
+      "status": "new"
+    },
+    {
+      "id": "w-faulenzen",
+      "lemma": "faulenzen",
+      "ru": "бездельничать",
+      "status": "new"
+    },
+    {
+      "id": "w-fenster",
+      "lemma": "das Fenster",
+      "ru": "окно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-fernsehen",
+      "lemma": "fernsehen",
+      "ru": "смотреть телевизор",
+      "status": "new"
+    },
+    {
+      "id": "w-fernseher",
+      "lemma": "der Fernseher",
+      "ru": "телевизор",
+      "status": "new"
+    },
+    {
+      "id": "w-fieber",
+      "lemma": "das Fieber",
+      "ru": "лихорадка",
+      "status": "new"
+    },
+    {
+      "id": "w-film",
+      "lemma": "der Film",
+      "ru": "фильм",
+      "status": "new"
+    },
+    {
+      "id": "w-finden",
+      "lemma": "finden",
+      "ru": "находить",
+      "status": "new"
+    },
+    {
+      "id": "w-finger",
+      "lemma": "der Finger",
+      "ru": "палец (руки)",
+      "status": "new"
+    },
+    {
+      "id": "w-finnland",
+      "lemma": "Finnland",
+      "ru": "Финляндия",
+      "status": "new"
+    },
+    {
+      "id": "w-firma",
+      "lemma": "die Firma",
+      "ru": "фирма",
+      "status": "new"
+    },
+    {
+      "id": "w-fisch",
+      "lemma": "der Fisch",
+      "ru": "рыба",
+      "status": "new"
+    },
+    {
+      "id": "w-fitnessstudio",
+      "lemma": "das Fitnessstudio",
+      "ru": "фитнес-клуб",
+      "status": "new"
+    },
+    {
+      "id": "w-flasche",
+      "lemma": "die Flasche",
+      "ru": "бутылка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-fleisch",
+      "lemma": "das Fleisch",
+      "ru": "мясо",
+      "status": "new"
+    },
+    {
+      "id": "w-fliegen",
+      "lemma": "fliegen",
+      "ru": "летать",
+      "status": "new"
+    },
+    {
+      "id": "w-flughafen",
+      "lemma": "der Flughafen",
+      "ru": "аэропорт",
+      "status": "new"
+    },
+    {
+      "id": "w-flugplan",
+      "lemma": "der Flugplan",
+      "ru": "расписание рейсов",
+      "status": "new"
+    },
+    {
+      "id": "w-flugsteig",
+      "lemma": "der Flugsteig",
+      "ru": "выход на посадку",
+      "status": "new"
+    },
+    {
+      "id": "w-flugticket",
+      "lemma": "das Flugticket",
+      "ru": "авиабилет",
+      "status": "new"
+    },
+    {
+      "id": "w-flugzeug",
+      "lemma": "das Flugzeug",
+      "ru": "самолёт",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-flur",
+      "lemma": "der Flur",
+      "ru": "прихожая",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-folgen",
+      "lemma": "folgen",
+      "ru": "следовать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-fragewort",
+      "lemma": "das Fragewort",
+      "ru": "вопросительное слово",
+      "status": "new"
+    },
+    {
+      "id": "w-frankreich",
+      "lemma": "Frankreich",
+      "ru": "Франция",
+      "status": "new"
+    },
+    {
+      "id": "w-franzoesisch",
+      "lemma": "französisch",
+      "ru": "французский",
+      "status": "new"
+    },
+    {
+      "id": "w-freizeitsportler",
+      "lemma": "der Freizeitsportler",
+      "ru": "спортсмены-любители",
+      "status": "new"
+    },
+    {
+      "id": "w-freund",
+      "lemma": "der Freund",
+      "ru": "друг",
+      "status": "new"
+    },
+    {
+      "id": "w-freundin",
+      "lemma": "die Freundin",
+      "ru": "подруга",
+      "status": "new"
+    },
+    {
+      "id": "w-fruehstueck",
+      "lemma": "das Frühstück",
+      "ru": "завтрак",
+      "status": "new"
+    },
+    {
+      "id": "w-fruehstuecken",
+      "lemma": "frühstücken",
+      "ru": "завтракать",
+      "status": "new"
+    },
+    {
+      "id": "w-funktionieren",
+      "lemma": "funktionieren",
+      "ru": "работать, функционировать",
+      "status": "new"
+    },
+    {
+      "id": "w-fuss",
+      "lemma": "der Fuß",
+      "ru": "ступня; стопа",
+      "status": "new"
+    },
+    {
+      "id": "w-fussball-spielen",
+      "lemma": "Fußball spielen",
+      "ru": "играть в футбол",
+      "status": "new"
+    },
+    {
+      "id": "w-fussball-handball-tennis-spielen",
+      "lemma": "Fußball/Handball/Tennis spielen",
+      "ru": "играть в футбол/гандбол/теннис",
+      "status": "new"
+    },
+    {
+      "id": "w-faehigkeit",
+      "lemma": "die Fähigkeit",
+      "ru": "навык; умение; скилл; способность",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-faehre",
+      "lemma": "die Fähre",
+      "ru": "паром",
+      "status": "new"
+    },
+    {
+      "id": "w-fuehren",
+      "lemma": "führen",
+      "ru": "вести",
+      "status": "new"
+    },
+    {
+      "id": "w-fuehrerschein",
+      "lemma": "der Führerschein",
+      "ru": "водительские права (вод права); водительские права",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-garderobe",
+      "lemma": "die Garderobe",
+      "ru": "гардероб, вешалка (в прихожей)",
+      "status": "new"
+    },
+    {
+      "id": "w-gardine",
+      "lemma": "die Gardine",
+      "ru": "занавеска, штора",
+      "status": "new"
+    },
+    {
+      "id": "w-gast",
+      "lemma": "der Gast",
+      "ru": "гость",
+      "status": "new"
+    },
+    {
+      "id": "w-gate",
+      "lemma": "das Gate",
+      "ru": "выход на посадку",
+      "status": "new"
+    },
+    {
+      "id": "w-geben",
+      "lemma": "geben",
+      "ru": "давать",
+      "status": "new"
+    },
+    {
+      "id": "w-gefallen",
+      "lemma": "gefallen",
+      "ru": "понравиться",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-gefaehrlich",
+      "lemma": "gefährlich",
+      "ru": "опасный",
+      "status": "new"
+    },
+    {
+      "id": "w-gegend",
+      "lemma": "die Gegend",
+      "ru": "район; местность",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-gehalt",
+      "lemma": "das Gehalt",
+      "ru": "з/п (зарплата)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-geheimnis",
+      "lemma": "das Geheimnis",
+      "ru": "секрет",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-gehen",
+      "lemma": "gehen",
+      "ru": "идти; ходить",
+      "status": "new"
+    },
+    {
+      "id": "w-gehen-sie-auf-die-strasse",
+      "lemma": "Gehen Sie auf die … Straße",
+      "ru": "идите на … улицу",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-gehen-sie-geradeaus-bis-zu",
+      "lemma": "Gehen Sie geradeaus bis zu …",
+      "ru": "идите прямо до …",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-gehen-sie-gleich-rechts",
+      "lemma": "Gehen Sie gleich rechts",
+      "ru": "сразу направо / как раз направо",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-geht-es-vielleicht-auch-am-um",
+      "lemma": "Geht es vielleicht auch am ... um ...?",
+      "ru": "А можно, может быть, ... в ...?",
+      "status": "new"
+    },
+    {
+      "id": "w-gehoert-das-schoene-auto",
+      "lemma": "Gehört … das schöne Auto?",
+      "ru": "Эта красивая машина принадлежит …?",
+      "status": "new"
+    },
+    {
+      "id": "w-gelb",
+      "lemma": "gelb",
+      "ru": "жёлтый",
+      "status": "new"
+    },
+    {
+      "id": "w-gelten",
+      "lemma": "gelten",
+      "ru": "быть действительным; действовать (о правиле; билете); считаться",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-gelten-als",
+      "lemma": "gelten als",
+      "ru": "считаться",
+      "status": "new"
+    },
+    {
+      "id": "w-geniessen",
+      "lemma": "genießen",
+      "ru": "наслаждаться",
+      "status": "new"
+    },
+    {
+      "id": "w-georgien",
+      "lemma": "Georgien",
+      "ru": "Грузия",
+      "status": "new"
+    },
+    {
+      "id": "w-gericht",
+      "lemma": "das Gericht",
+      "ru": "блюдо",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-gern",
+      "lemma": "gern",
+      "ru": "охотно; с удовольствием",
+      "status": "new"
+    },
+    {
+      "id": "w-geraet",
+      "lemma": "das Gerät",
+      "ru": "устройство",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-geraete-reparieren",
+      "lemma": "Geräte reparieren",
+      "ru": "ремонтировать приборы/устройства",
+      "status": "new"
+    },
+    {
+      "id": "w-geschehen",
+      "lemma": "geschehen",
+      "ru": "происходить",
+      "status": "new"
+    },
+    {
+      "id": "w-geschirr",
+      "lemma": "das Geschirr",
+      "ru": "посуда",
+      "status": "new"
+    },
+    {
+      "id": "w-geschirr-abspuelen",
+      "lemma": "Geschirr abspülen",
+      "ru": "мыть посуду",
+      "status": "new"
+    },
+    {
+      "id": "w-geschirrspueler",
+      "lemma": "der Geschirrspüler",
+      "ru": "посудомоечная машина",
+      "status": "new"
+    },
+    {
+      "id": "w-gesetzlich",
+      "lemma": "gesetzlich",
+      "ru": "государственный",
+      "status": "new"
+    },
+    {
+      "id": "w-gespraech",
+      "lemma": "das Gespräch",
+      "ru": "разговор",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-gesund",
+      "lemma": "gesund",
+      "ru": "здоровый",
+      "status": "new"
+    },
+    {
+      "id": "w-gesund-essen",
+      "lemma": "gesund essen",
+      "ru": "правильно (здорово) питаться",
+      "status": "new"
+    },
+    {
+      "id": "w-gesunde-lebensmittel-kaufen",
+      "lemma": "gesunde Lebensmittel kaufen",
+      "ru": "покупать полезные продукты",
+      "status": "new"
+    },
+    {
+      "id": "w-gesundheit",
+      "lemma": "Gesundheit!",
+      "ru": "Будь здоров! (при чихании)",
+      "status": "new"
+    },
+    {
+      "id": "w-gesuender-leben",
+      "lemma": "gesünder leben",
+      "ru": "жить более здорово",
+      "status": "new"
+    },
+    {
+      "id": "w-gleich",
+      "lemma": "gleich",
+      "ru": "похожий",
+      "status": "new"
+    },
+    {
+      "id": "w-gleis",
+      "lemma": "das Gleis",
+      "ru": "путь, платформа (ж/д)",
+      "status": "new"
+    },
+    {
+      "id": "w-gluecklich",
+      "lemma": "glücklich",
+      "ru": "счастливый",
+      "status": "new"
+    },
+    {
+      "id": "w-gold",
+      "lemma": "gold",
+      "ru": "золотой",
+      "status": "new"
+    },
+    {
+      "id": "w-grau",
+      "lemma": "grau",
+      "ru": "серый",
+      "status": "new"
+    },
+    {
+      "id": "w-griechenland",
+      "lemma": "Griechenland",
+      "ru": "Греция",
+      "status": "new"
+    },
+    {
+      "id": "w-grippe",
+      "lemma": "die Grippe",
+      "ru": "грипп",
+      "status": "new"
+    },
+    {
+      "id": "w-grossraumwagen",
+      "lemma": "der Großraumwagen",
+      "ru": "вагон открытого типа (без купе)",
+      "status": "new"
+    },
+    {
+      "id": "w-grund",
+      "lemma": "der Grund",
+      "ru": "причина",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-groesse",
+      "lemma": "die Größe",
+      "ru": "размер",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-gruen",
+      "lemma": "grün",
+      "ru": "зелёный",
+      "status": "new"
+    },
+    {
+      "id": "w-gruenanlage",
+      "lemma": "die Grünanlage",
+      "ru": "зелень",
+      "status": "new"
+    },
+    {
+      "id": "w-gurke",
+      "lemma": "die Gurke",
+      "ru": "огурец",
+      "status": "new"
+    },
+    {
+      "id": "w-gut-schlafen",
+      "lemma": "gut schlafen",
+      "ru": "хорошо спать",
+      "status": "new"
+    },
+    {
+      "id": "w-gute-besserung",
+      "lemma": "Gute Besserung!",
+      "ru": "Выздоравливай!",
+      "status": "new"
+    },
+    {
+      "id": "w-gute-kommunikation",
+      "lemma": "gute Kommunikation",
+      "ru": "хорошая коммуникация",
+      "status": "new"
+    },
+    {
+      "id": "w-guten-appetit-danke-gleichfalls",
+      "lemma": "Guten Appetit! – Danke, gleichfalls.",
+      "ru": "Приятного аппетита! – Спасибо, взаимно.",
+      "status": "new"
+    },
+    {
+      "id": "w-gutes-gehalt",
+      "lemma": "gutes Gehalt",
+      "ru": "хорошая зарплата",
+      "status": "new"
+    },
+    {
+      "id": "w-gaeste-abholen",
+      "lemma": "Gäste abholen",
+      "ru": "встречать гостей",
+      "status": "new"
+    },
+    {
+      "id": "w-gaeste-empfangen",
+      "lemma": "Gäste empfangen",
+      "ru": "принимать гостей",
+      "status": "new"
+    },
+    {
+      "id": "w-haar",
+      "lemma": "das Haar",
+      "ru": "волосы",
+      "status": "new"
+    },
+    {
+      "id": "w-haben",
+      "lemma": "haben",
+      "ru": "иметь",
+      "status": "new"
+    },
+    {
+      "id": "w-hahn",
+      "lemma": "der Hahn",
+      "ru": "кран, петух",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-hallo",
+      "lemma": "Hallo …,",
+      "ru": "Привет, … (informell)",
+      "status": "new"
+    },
+    {
+      "id": "w-hals",
+      "lemma": "der Hals",
+      "ru": "горло; шея",
+      "status": "new"
+    },
+    {
+      "id": "w-halsschmerzen",
+      "lemma": "Halsschmerzen",
+      "ru": "боль в горле",
+      "status": "new"
+    },
+    {
+      "id": "w-halten",
+      "lemma": "halten",
+      "ru": "держать; остановиться",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-haltesignal",
+      "lemma": "das Haltesignal",
+      "ru": "сигнал остановки",
+      "status": "new"
+    },
+    {
+      "id": "w-haltestelle",
+      "lemma": "die Haltestelle",
+      "ru": "остановка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-hand",
+      "lemma": "die Hand",
+      "ru": "рука (кисть); кисть руки",
+      "status": "new"
+    },
+    {
+      "id": "w-haselnuss",
+      "lemma": "haselnuss",
+      "ru": "ореховый",
+      "status": "new"
+    },
+    {
+      "id": "w-hauptgericht",
+      "lemma": "das Hauptgericht",
+      "ru": "основное блюдо",
+      "status": "new"
+    },
+    {
+      "id": "w-haus",
+      "lemma": "das Haus",
+      "ru": "дом",
+      "status": "new"
+    },
+    {
+      "id": "w-hausaufgaben-machen",
+      "lemma": "Hausaufgaben machen",
+      "ru": "делать домашние задания",
+      "status": "new"
+    },
+    {
+      "id": "w-haushalt",
+      "lemma": "der Haushalt",
+      "ru": "домохозяйство",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-haustiere-mitbringen",
+      "lemma": "Haustiere mitbringen",
+      "ru": "приводить (привозить) домашних животных",
+      "status": "new"
+    },
+    {
+      "id": "w-heimatland",
+      "lemma": "das Heimatland",
+      "ru": "родная страна",
+      "status": "new"
+    },
+    {
+      "id": "w-heizung",
+      "lemma": "die Heizung",
+      "ru": "отопление",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-heissen",
+      "lemma": "heißen",
+      "ru": "называться",
+      "status": "new"
+    },
+    {
+      "id": "w-helfen",
+      "lemma": "helfen",
+      "ru": "помогать",
+      "status": "new"
+    },
+    {
+      "id": "w-hellblau",
+      "lemma": "hellblau",
+      "ru": "голубой",
+      "status": "new"
+    },
+    {
+      "id": "w-hellgruen",
+      "lemma": "hellgrün",
+      "ru": "светло-зелёный",
+      "status": "new"
+    },
+    {
+      "id": "w-hemd",
+      "lemma": "das Hemd",
+      "ru": "рубашка",
+      "status": "new"
+    },
+    {
+      "id": "w-herd",
+      "lemma": "der Herd",
+      "ru": "плита",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-herrlich",
+      "lemma": "herrlich",
+      "ru": "миленько; чудесно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-herzliche-gruesse",
+      "lemma": "Herzliche Grüße",
+      "ru": "Сердечный привет (informell)",
+      "status": "new"
+    },
+    {
+      "id": "w-hin-und-rueckfahrt",
+      "lemma": "die Hin- und Rückfahrt",
+      "ru": "поездка туда-обратно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-hinter",
+      "lemma": "hinter",
+      "ru": "позади / за",
+      "status": "new"
+    },
+    {
+      "id": "w-hoffen",
+      "lemma": "hoffen",
+      "ru": "надеяться",
+      "status": "new"
+    },
+    {
+      "id": "w-hose",
+      "lemma": "die Hose",
+      "ru": "брюки; штаны",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-hungrig",
+      "lemma": "hungrig",
+      "ru": "голодный",
+      "status": "new"
+    },
+    {
+      "id": "w-husten",
+      "lemma": "der Husten",
+      "ru": "кашель",
+      "status": "new"
+    },
+    {
+      "id": "w-hut",
+      "lemma": "der Hut",
+      "ru": "шляпа",
+      "status": "new"
+    },
+    {
+      "id": "w-haehnchen",
+      "lemma": "das Hähnchen",
+      "ru": "курица (блюдо)",
+      "status": "new"
+    },
+    {
+      "id": "w-haengen",
+      "lemma": "hängen",
+      "ru": "висеть",
+      "status": "new"
+    },
+    {
+      "id": "w-haengen-2",
+      "lemma": "hängen",
+      "ru": "вешать",
+      "status": "new"
+    },
+    {
+      "id": "w-hoeflich",
+      "lemma": "höflich",
+      "ru": "вежливый",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-hoeren",
+      "lemma": "hören",
+      "ru": "слушать; слышать",
+      "status": "new"
+    },
+    {
+      "id": "w-huehnerfleisch",
+      "lemma": "das Hühnerfleisch",
+      "ru": "курятина",
+      "status": "new"
+    },
+    {
+      "id": "w-ich-bin-nicht-sicher-aber-ich-denke-viele",
+      "lemma": "Ich bin nicht sicher, aber ich denke, viele …",
+      "ru": "Я не уверен(а), но думаю, многие …",
+      "status": "new"
+    },
+    {
+      "id": "w-ich-glaube-die-meisten",
+      "lemma": "Ich glaube, die meisten …",
+      "ru": "Я думаю, большинство …",
+      "status": "new"
+    },
+    {
+      "id": "w-ich-haette-gern",
+      "lemma": "Ich hätte gern …",
+      "ru": "Я бы хотел(а) …",
+      "status": "new"
+    },
+    {
+      "id": "w-ich-kann-zum-unterricht-nicht-kommen",
+      "lemma": "Ich kann zum Unterricht nicht kommen.",
+      "ru": "Я не могу прийти на занятие.",
+      "status": "new"
+    },
+    {
+      "id": "w-ich-moechte-bitte-zahlen",
+      "lemma": "Ich möchte bitte zahlen.",
+      "ru": "Я хотел(а) бы расплатиться.",
+      "status": "new"
+    },
+    {
+      "id": "w-ich-moechte-bitte",
+      "lemma": "Ich möchte bitte …",
+      "ru": "Мне, пожалуйста, …",
+      "status": "new"
+    },
+    {
+      "id": "w-ich-moechte-gern-einen-termin-fuer-die-reparatur-vereinbaren",
+      "lemma": "Ich möchte gern einen Termin für die Reparatur vereinbaren.",
+      "ru": "Я хотел(а) бы договориться о времени ремонта.",
+      "status": "new"
+    },
+    {
+      "id": "w-ich-nehme",
+      "lemma": "Ich nehme …",
+      "ru": "Я возьму …",
+      "status": "new"
+    },
+    {
+      "id": "w-ich-stehe-im-stau",
+      "lemma": "Ich stehe im Stau.",
+      "ru": "Я стою в пробке.",
+      "status": "new"
+    },
+    {
+      "id": "w-ihr-geschirr-selber-abspuelen",
+      "lemma": "ihr Geschirr selber abspülen",
+      "ru": "самой мыть свою посуду",
+      "status": "new"
+    },
+    {
+      "id": "w-ihr-zimmer-abschliessen",
+      "lemma": "ihr Zimmer abschließen",
+      "ru": "запирать свою комнату",
+      "status": "new"
+    },
+    {
+      "id": "w-im-garten-arbeiten",
+      "lemma": "im Garten arbeiten",
+      "ru": "работать в саду",
+      "status": "new"
+    },
+    {
+      "id": "w-im-geschaeft",
+      "lemma": "im Geschäft",
+      "ru": "в магазине",
+      "status": "new"
+    },
+    {
+      "id": "w-im-internet-surfen",
+      "lemma": "im Internet surfen",
+      "ru": "сидеть в интернете",
+      "status": "new"
+    },
+    {
+      "id": "w-im-stau-stehen",
+      "lemma": "im Stau stehen",
+      "ru": "стоять в пробке",
+      "status": "new"
+    },
+    {
+      "id": "w-immer-noch-nicht",
+      "lemma": "immer noch nicht",
+      "ru": "все ещё нет",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-in",
+      "lemma": "in",
+      "ru": "в",
+      "status": "new"
+    },
+    {
+      "id": "w-in-der-ecke",
+      "lemma": "in der Ecke",
+      "ru": "в углу",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-in-der-fuenften-etage",
+      "lemma": "in der fünften Etage",
+      "ru": "на пятом этаже",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-in-deutschland-finden-prozent-der-mitarbeiter-wichtig",
+      "lemma": "In Deutschland finden … Prozent der Mitarbeiter … wichtig.",
+      "ru": "В Германии … процентов сотрудников считают важным …",
+      "status": "new"
+    },
+    {
+      "id": "w-in-ordnung-bringen",
+      "lemma": "in Ordnung bringen",
+      "ru": "приводить в порядок",
+      "status": "new"
+    },
+    {
+      "id": "w-in-sozialen-netzwerken-kommunizieren",
+      "lemma": "in sozialen Netzwerken kommunizieren",
+      "ru": "общаться в соцсетях",
+      "status": "new"
+    },
+    {
+      "id": "w-indien",
+      "lemma": "Indien",
+      "ru": "Индия",
+      "status": "new"
+    },
+    {
+      "id": "w-indisch",
+      "lemma": "indisch",
+      "ru": "индийский",
+      "status": "new"
+    },
+    {
+      "id": "w-informationen-ueber-etwas-geben",
+      "lemma": "Informationen über etwas geben",
+      "ru": "давать информацию о чём-либо",
+      "status": "new"
+    },
+    {
+      "id": "w-informationsschalter",
+      "lemma": "der Informationsschalter",
+      "ru": "справочное окно, стойка информации",
+      "status": "new"
+    },
+    {
+      "id": "w-informieren",
+      "lemma": "informieren",
+      "ru": "информировать",
+      "status": "new"
+    },
+    {
+      "id": "w-ins-fitnessstudio-gehen",
+      "lemma": "ins Fitnessstudio gehen",
+      "ru": "ходить в фитнес-зал",
+      "status": "new"
+    },
+    {
+      "id": "w-ins-kino-gehen",
+      "lemma": "ins Kino gehen",
+      "ru": "ходить в кино",
+      "status": "new"
+    },
+    {
+      "id": "w-ins-kino-in-konzerte-gehen",
+      "lemma": "ins Kino/in Konzerte gehen",
+      "ru": "ходить в кино/на концерты",
+      "status": "new"
+    },
+    {
+      "id": "w-ins-theater-gehen",
+      "lemma": "ins Theater gehen",
+      "ru": "ходить в театр",
+      "status": "new"
+    },
+    {
+      "id": "w-interessante-aufgaben",
+      "lemma": "interessante Aufgaben",
+      "ru": "интересные задачи",
+      "status": "new"
+    },
+    {
+      "id": "w-internetverbindung",
+      "lemma": "die Internetverbindung",
+      "ru": "интернет-соединение",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-irak",
+      "lemma": "der Irak",
+      "ru": "Ирак",
+      "status": "new"
+    },
+    {
+      "id": "w-iran",
+      "lemma": "der Iran",
+      "ru": "Иран",
+      "status": "new"
+    },
+    {
+      "id": "w-irisch",
+      "lemma": "irisch",
+      "ru": "ирландский",
+      "status": "new"
+    },
+    {
+      "id": "w-irland",
+      "lemma": "Irland",
+      "ru": "Ирландия",
+      "status": "new"
+    },
+    {
+      "id": "w-island",
+      "lemma": "Island",
+      "ru": "Исландия",
+      "status": "new"
+    },
+    {
+      "id": "w-israel",
+      "lemma": "Israel",
+      "ru": "Израиль",
+      "status": "new"
+    },
+    {
+      "id": "w-italien",
+      "lemma": "Italien",
+      "ru": "Италия",
+      "status": "new"
+    },
+    {
+      "id": "w-italienisch",
+      "lemma": "italienisch",
+      "ru": "итальянский",
+      "status": "new"
+    },
+    {
+      "id": "w-ja-das-auto-gehoert",
+      "lemma": "Ja, das Auto gehört … .",
+      "ru": "Да, машина принадлежит … .",
+      "status": "new"
+    },
+    {
+      "id": "w-jacke",
+      "lemma": "die Jacke",
+      "ru": "куртка",
+      "status": "new"
+    },
+    {
+      "id": "w-jackett",
+      "lemma": "das Jackett",
+      "ru": "пиджак",
+      "status": "new"
+    },
+    {
+      "id": "w-jahr",
+      "lemma": "das Jahr",
+      "ru": "год",
+      "status": "new"
+    },
+    {
+      "id": "w-jahreszeit",
+      "lemma": "die Jahreszeit",
+      "ru": "время года",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-japan",
+      "lemma": "Japan",
+      "ru": "Япония",
+      "status": "new"
+    },
+    {
+      "id": "w-japanisch",
+      "lemma": "japanisch",
+      "ru": "японский",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-jasmin",
+      "lemma": "der Jasmin",
+      "ru": "жасмин",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-jazzmusik-hoeren",
+      "lemma": "Jazzmusik hören",
+      "ru": "слушать джаз",
+      "status": "new"
+    },
+    {
+      "id": "w-jeans",
+      "lemma": "die Jeans",
+      "ru": "джинсы",
+      "status": "new"
+    },
+    {
+      "id": "w-jeden-morgen-fruehstuecken",
+      "lemma": "jeden Morgen frühstücken",
+      "ru": "завтракать каждое утро",
+      "status": "new"
+    },
+    {
+      "id": "w-jemen",
+      "lemma": "der Jemen",
+      "ru": "Йемен",
+      "status": "new"
+    },
+    {
+      "id": "w-joghurt",
+      "lemma": "der Joghurt",
+      "ru": "йогурт",
+      "status": "new"
+    },
+    {
+      "id": "w-jordanien",
+      "lemma": "Jordanien",
+      "ru": "Иордания",
+      "status": "new"
+    },
+    {
+      "id": "w-kaffee",
+      "lemma": "der Kaffee",
+      "ru": "кофе",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-kaffee-trinken",
+      "lemma": "Kaffee trinken",
+      "ru": "пить кофе",
+      "status": "new"
+    },
+    {
+      "id": "w-kaliningrad",
+      "lemma": "Kaliningrad",
+      "ru": "Калининград (РФ)",
+      "status": "new"
+    },
+    {
+      "id": "w-kamera",
+      "lemma": "die Kamera",
+      "ru": "камера, фотоаппарат",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-kannst-du-mir-helfen",
+      "lemma": "Kannst du mir helfen?",
+      "ru": "Можешь мне помочь?",
+      "status": "new"
+    },
+    {
+      "id": "w-kaputt-sein",
+      "lemma": "kaputt sein",
+      "ru": "быть сломанным",
+      "status": "new"
+    },
+    {
+      "id": "w-kariert",
+      "lemma": "kariert",
+      "ru": "в клеточку",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-karrieremoeglichkeit",
+      "lemma": "die Karrieremöglichkeit",
+      "ru": "карьерная возможность",
+      "status": "new"
+    },
+    {
+      "id": "w-karte",
+      "lemma": "die Karte",
+      "ru": "карта",
+      "status": "new"
+    },
+    {
+      "id": "w-kartoffel",
+      "lemma": "die Kartoffel",
+      "ru": "картофель",
+      "status": "new"
+    },
+    {
+      "id": "w-kasachstan",
+      "lemma": "Kasachstan",
+      "ru": "Казахстан",
+      "status": "new"
+    },
+    {
+      "id": "w-katar",
+      "lemma": "Katar",
+      "ru": "Катар",
+      "status": "new"
+    },
+    {
+      "id": "w-kater",
+      "lemma": "der Kater",
+      "ru": "кот",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-katze",
+      "lemma": "die Katze",
+      "ru": "кошка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-kaufen",
+      "lemma": "kaufen",
+      "ru": "покупать",
+      "status": "new"
+    },
+    {
+      "id": "w-keine-internetverbindung-haben",
+      "lemma": "keine Internetverbindung haben",
+      "ru": "не иметь интернет-соединения",
+      "status": "new"
+    },
+    {
+      "id": "w-keinesfalls",
+      "lemma": "keinesfalls",
+      "ru": "ни в коем случае",
+      "status": "new"
+    },
+    {
+      "id": "w-keks",
+      "lemma": "der Keks",
+      "ru": "печенье",
+      "status": "new"
+    },
+    {
+      "id": "w-kennen",
+      "lemma": "kennen",
+      "ru": "знать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-kirgisistan",
+      "lemma": "Kirgisistan",
+      "ru": "Киргизстан",
+      "status": "new"
+    },
+    {
+      "id": "w-kissen",
+      "lemma": "das Kissen",
+      "ru": "подушка",
+      "status": "new"
+    },
+    {
+      "id": "w-kiwi",
+      "lemma": "die Kiwi",
+      "ru": "киви",
+      "status": "new"
+    },
+    {
+      "id": "w-kleid",
+      "lemma": "das Kleid",
+      "ru": "платье",
+      "status": "new"
+    },
+    {
+      "id": "w-kleiderschrank",
+      "lemma": "der Kleiderschrank",
+      "ru": "платяной шкаф",
+      "status": "new"
+    },
+    {
+      "id": "w-kleidung",
+      "lemma": "die Kleidung",
+      "ru": "одежда",
+      "status": "new"
+    },
+    {
+      "id": "w-klug",
+      "lemma": "klug",
+      "ru": "умный",
+      "status": "new"
+    },
+    {
+      "id": "w-knie",
+      "lemma": "das Knie",
+      "ru": "колено",
+      "status": "new"
+    },
+    {
+      "id": "w-kochen",
+      "lemma": "kochen",
+      "ru": "готовить; варить",
+      "status": "new"
+    },
+    {
+      "id": "w-kochgeraet",
+      "lemma": "das Kochgerät",
+      "ru": "прибор для готовки",
+      "status": "new"
+    },
+    {
+      "id": "w-kollegin",
+      "lemma": "die Kollegin",
+      "ru": "коллега (женщина)",
+      "status": "new"
+    },
+    {
+      "id": "w-kommen",
+      "lemma": "kommen",
+      "ru": "приходить",
+      "status": "new"
+    },
+    {
+      "id": "w-kommode",
+      "lemma": "die Kommode",
+      "ru": "комод",
+      "status": "new"
+    },
+    {
+      "id": "w-komplett",
+      "lemma": "komplett",
+      "ru": "совершенно",
+      "status": "new"
+    },
+    {
+      "id": "w-konstruieren",
+      "lemma": "konstruieren",
+      "ru": "конструировать",
+      "status": "new"
+    },
+    {
+      "id": "w-kontrollieren",
+      "lemma": "kontrollieren",
+      "ru": "проверять",
+      "status": "new"
+    },
+    {
+      "id": "w-kopf",
+      "lemma": "der Kopf",
+      "ru": "голова",
+      "status": "new"
+    },
+    {
+      "id": "w-kopfhoerer",
+      "lemma": "der Kopfhörer",
+      "ru": "наушники",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-kopfschmerzen",
+      "lemma": "Kopfschmerzen",
+      "ru": "головная боль",
+      "status": "new"
+    },
+    {
+      "id": "w-kopierer",
+      "lemma": "der Kopierer",
+      "ru": "копировальный аппарат",
+      "status": "new"
+    },
+    {
+      "id": "w-korsika",
+      "lemma": "Korsika",
+      "ru": "Корсика",
+      "status": "new"
+    },
+    {
+      "id": "w-krankenversicherung",
+      "lemma": "die Krankenversicherung",
+      "ru": "медицинская страховка",
+      "status": "new"
+    },
+    {
+      "id": "w-kroatien",
+      "lemma": "Kroatien",
+      "ru": "Хорватия",
+      "status": "new"
+    },
+    {
+      "id": "w-kuchen",
+      "lemma": "der Kuchen",
+      "ru": "пирог",
+      "status": "new"
+    },
+    {
+      "id": "w-kuchen-essen",
+      "lemma": "Kuchen essen",
+      "ru": "есть пирог",
+      "status": "new"
+    },
+    {
+      "id": "w-kunden-geschaeftspartner-beraten",
+      "lemma": "Kunden/Geschäftspartner beraten",
+      "ru": "консультировать клиентов/деловых партнёров",
+      "status": "new"
+    },
+    {
+      "id": "w-kuwait",
+      "lemma": "Kuwait",
+      "ru": "Кувейт",
+      "status": "new"
+    },
+    {
+      "id": "w-kaese",
+      "lemma": "der Käse",
+      "ru": "сыр",
+      "status": "new"
+    },
+    {
+      "id": "w-koennen",
+      "lemma": "können",
+      "ru": "мочь; уметь; смочь сделать; уметь делать; быть в состоянии сделать",
+      "status": "new"
+    },
+    {
+      "id": "w-kuechenschrank",
+      "lemma": "der Küchenschrank",
+      "ru": "кухонный шкаф",
+      "status": "new"
+    },
+    {
+      "id": "w-kuehlschrank",
+      "lemma": "der Kühlschrank",
+      "ru": "холодильник",
+      "status": "new"
+    },
+    {
+      "id": "w-lachen",
+      "lemma": "lachen",
+      "ru": "смеяться",
+      "status": "new"
+    },
+    {
+      "id": "w-lachs",
+      "lemma": "der Lachs",
+      "ru": "лосось",
+      "status": "new"
+    },
+    {
+      "id": "w-lampe",
+      "lemma": "die Lampe",
+      "ru": "лампа",
+      "status": "new"
+    },
+    {
+      "id": "w-lang",
+      "lemma": "lang",
+      "ru": "длинный",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-lange",
+      "lemma": "lange",
+      "ru": "долгий (долго); долго",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
+    },
+    {
+      "id": "w-langsam-essen",
+      "lemma": "langsam essen",
+      "ru": "есть медленно",
+      "status": "new"
+    },
+    {
+      "id": "w-laos",
+      "lemma": "Laos",
+      "ru": "Лаос",
+      "status": "new"
+    },
+    {
+      "id": "w-laptop",
+      "lemma": "der Laptop",
+      "ru": "ноутбук",
+      "status": "new"
+    },
+    {
+      "id": "w-lassen",
+      "lemma": "lassen",
+      "ru": "поручить; оставить / оставлять",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-laufen",
+      "lemma": "laufen",
+      "ru": "идти; проходить (о событии); бегать; бежать; идти пешком",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-laune",
+      "lemma": "die Laune",
+      "ru": "настроение",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-lebenslauf",
+      "lemma": "der Lebenslauf",
+      "ru": "резюме, автобиография",
+      "status": "new"
+    },
+    {
+      "id": "w-lebensmittel",
+      "lemma": "das Lebensmittel",
+      "ru": "продукты питания; продукт",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-leberwurst",
+      "lemma": "die Leberwurst",
+      "ru": "ливерная колбаса",
+      "status": "new"
+    },
+    {
+      "id": "w-leer",
+      "lemma": "leer",
+      "ru": "пустой",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-legen",
+      "lemma": "legen",
+      "ru": "класть",
+      "status": "new"
+    },
+    {
+      "id": "w-lehrer",
+      "lemma": "der Lehrer",
+      "ru": "учитель",
+      "status": "new"
+    },
+    {
+      "id": "w-lernen",
+      "lemma": "lernen",
+      "ru": "учить, учиться",
+      "status": "new"
+    },
+    {
+      "id": "w-lesen",
+      "lemma": "lesen",
+      "ru": "читать",
+      "status": "new"
+    },
+    {
+      "id": "w-lettland",
+      "lemma": "Lettland",
+      "ru": "Латвия",
+      "status": "new"
+    },
+    {
+      "id": "w-letztes-mal",
+      "lemma": "letztes Mal",
+      "ru": "в прошлый раз",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-leuchte",
+      "lemma": "die Leuchte",
+      "ru": "светильник",
+      "status": "new"
+    },
+    {
+      "id": "w-libanon",
+      "lemma": "der Libanon",
+      "ru": "Ливан",
+      "status": "new"
+    },
+    {
+      "id": "w-liebe-frau",
+      "lemma": "Liebe Frau …,",
+      "ru": "Дорогая госпожа … (halbformell)",
+      "status": "new"
+    },
+    {
+      "id": "w-liebe-gruesse",
+      "lemma": "Liebe Grüße",
+      "ru": "С любовью / тёплый привет (informell)",
+      "status": "new"
+    },
+    {
+      "id": "w-lieber-herr",
+      "lemma": "Lieber Herr …,",
+      "ru": "Дорогой господин … (halbformell)",
+      "status": "new"
+    },
+    {
+      "id": "w-liechtenstein",
+      "lemma": "Liechtenstein",
+      "ru": "Лихтенштейн",
+      "status": "new"
+    },
+    {
+      "id": "w-liegen",
+      "lemma": "liegen",
+      "ru": "лежать",
+      "status": "new"
+    },
+    {
+      "id": "w-links-von",
+      "lemma": "links von",
+      "ru": "слева от",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-litauen",
+      "lemma": "Litauen",
+      "ru": "Литва",
+      "status": "new"
+    },
+    {
+      "id": "w-lustig",
+      "lemma": "lustig",
+      "ru": "весёлый",
+      "status": "new"
+    },
+    {
+      "id": "w-luxemburg",
+      "lemma": "Luxemburg",
+      "ru": "Люксембург",
+      "status": "new"
+    },
+    {
+      "id": "w-laerm",
+      "lemma": "der Lärm",
+      "ru": "шум",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-laerm-machen",
+      "lemma": "Lärm machen",
+      "ru": "шуметь",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-loesen",
+      "lemma": "lösen",
+      "ru": "решать (проблему)",
+      "status": "new"
+    },
+    {
+      "id": "w-machen",
+      "lemma": "machen",
+      "ru": "делать",
+      "status": "new"
+    },
+    {
+      "id": "w-malediven",
+      "lemma": "die Malediven",
+      "ru": "Мальдивские острова",
+      "status": "new"
+    },
+    {
+      "id": "w-malta",
+      "lemma": "Malta",
+      "ru": "Мальта",
+      "status": "new"
+    },
+    {
+      "id": "w-man-kann",
+      "lemma": "man kann",
+      "ru": "можно",
+      "status": "new"
+    },
+    {
+      "id": "w-man-muss",
+      "lemma": "man muss",
+      "ru": "нужно",
+      "status": "new"
+    },
+    {
+      "id": "w-mango",
+      "lemma": "die Mango",
+      "ru": "манго",
+      "status": "new"
+    },
+    {
+      "id": "w-mann",
+      "lemma": "der Mann",
+      "ru": "мужчина; муж",
+      "status": "new"
+    },
+    {
+      "id": "w-mantel",
+      "lemma": "der Mantel",
+      "ru": "пальто",
+      "status": "new"
+    },
+    {
+      "id": "w-mazedonien",
+      "lemma": "Mazedonien",
+      "ru": "Македония",
+      "status": "new"
+    },
+    {
+      "id": "w-medikament",
+      "lemma": "das Medikament",
+      "ru": "лекарство",
+      "status": "new"
+    },
+    {
+      "id": "w-meeting",
+      "lemma": "das Meeting",
+      "ru": "митинг, созвон",
+      "status": "new"
+    },
+    {
+      "id": "w-mein-auto-ist-kaputtgegangen",
+      "lemma": "Mein Auto ist kaputtgegangen.",
+      "ru": "Моя машина сломалась.",
+      "status": "new"
+    },
+    {
+      "id": "w-meiner-meinung-nach",
+      "lemma": "meiner Meinung nach",
+      "ru": "по моему мнению",
+      "status": "new"
+    },
+    {
+      "id": "w-mentale-gesundheit",
+      "lemma": "mentale Gesundheit",
+      "ru": "ментальное (психическое) здоровье",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-miete",
+      "lemma": "die Miete",
+      "ru": "арендная плата",
+      "status": "new"
+    },
+    {
+      "id": "w-miete-zahlen",
+      "lemma": "Miete zahlen",
+      "ru": "платить аренду",
+      "status": "new"
+    },
+    {
+      "id": "w-mieten",
+      "lemma": "mieten",
+      "ru": "снимать, арендовать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-mieter",
+      "lemma": "der Mieter",
+      "ru": "арендатор, квартиросъёмщик",
+      "status": "new"
+    },
+    {
+      "id": "w-mietwohnung",
+      "lemma": "die Mietwohnung",
+      "ru": "съёмная квартира",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-mikrowelle",
+      "lemma": "die Mikrowelle",
+      "ru": "микроволновка",
+      "status": "new"
+    },
+    {
+      "id": "w-milch",
+      "lemma": "die Milch",
+      "ru": "молоко",
+      "status": "new"
+    },
+    {
+      "id": "w-mit-besten-gruessen",
+      "lemma": "Mit besten Grüßen",
+      "ru": "С наилучшими пожеланиями (halbformell)",
+      "status": "new"
+    },
+    {
+      "id": "w-mit-dem-bus-fahren",
+      "lemma": "mit dem Bus fahren",
+      "ru": "ехать на автобусе",
+      "status": "new"
+    },
+    {
+      "id": "w-mit-dem-flugzeug-fliegen",
+      "lemma": "mit dem Flugzeug fliegen",
+      "ru": "лететь на самолёте",
+      "status": "new"
+    },
+    {
+      "id": "w-mit-freunden-chatten",
+      "lemma": "mit Freunden chatten",
+      "ru": "переписываться с друзьями",
+      "status": "new"
+    },
+    {
+      "id": "w-mit-freunden-feiern",
+      "lemma": "mit Freunden feiern",
+      "ru": "праздновать/тусоваться с друзьями",
+      "status": "new"
+    },
+    {
+      "id": "w-mit-freunden-kochen",
+      "lemma": "mit Freunden kochen",
+      "ru": "готовить с друзьями",
+      "status": "new"
+    },
+    {
+      "id": "w-mit-freundlichen-gruessen",
+      "lemma": "Mit freundlichen Grüßen",
+      "ru": "С уважением (formell)",
+      "status": "new"
+    },
+    {
+      "id": "w-mit-kunden-geschaeftspartnern-sprechen",
+      "lemma": "mit Kunden/Geschäftspartnern sprechen",
+      "ru": "разговаривать с клиентами/деловыми партнёрами",
+      "status": "new"
+    },
+    {
+      "id": "w-mit-mitarbeitern-sprechen",
+      "lemma": "mit Mitarbeitern sprechen",
+      "ru": "разговаривать с сотрудниками",
+      "status": "new"
+    },
+    {
+      "id": "w-mitbringen",
+      "lemma": "mitbringen",
+      "ru": "принести с собой",
+      "status": "new"
+    },
+    {
+      "id": "w-mittagspause",
+      "lemma": "die Mittagspause",
+      "ru": "обеденный перерыв",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-moldawien",
+      "lemma": "Moldawien",
+      "ru": "Молдавия",
+      "status": "new"
+    },
+    {
+      "id": "w-moment-mal",
+      "lemma": "Moment mal.",
+      "ru": "Минутку.",
+      "status": "new"
+    },
+    {
+      "id": "w-monaco",
+      "lemma": "Monaco",
+      "ru": "Монако",
+      "status": "new"
+    },
+    {
+      "id": "w-mongolei",
+      "lemma": "die Mongolei",
+      "ru": "Монголия",
+      "status": "new"
+    },
+    {
+      "id": "w-montenegro",
+      "lemma": "Montenegro",
+      "ru": "Черногория",
+      "status": "new"
+    },
+    {
+      "id": "w-monteur",
+      "lemma": "der Monteur",
+      "ru": "монтёр; мастер",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-motorrad",
+      "lemma": "das Motorrad",
+      "ru": "мотоцикл",
+      "status": "new"
+    },
+    {
+      "id": "w-mund",
+      "lemma": "der Mund",
+      "ru": "рот",
+      "status": "new"
+    },
+    {
+      "id": "w-musik",
+      "lemma": "die Musik",
+      "ru": "музыка",
+      "status": "new"
+    },
+    {
+      "id": "w-musik-hoeren",
+      "lemma": "Musik hören",
+      "ru": "слушать музыку",
+      "status": "new"
+    },
+    {
+      "id": "w-maedchen",
+      "lemma": "das Mädchen",
+      "ru": "девочка, девушка",
+      "status": "new"
+    },
+    {
+      "id": "w-moebel",
+      "lemma": "Möbel",
+      "ru": "мебель",
+      "status": "new"
+    },
+    {
+      "id": "w-moechten",
+      "lemma": "möchten",
+      "ru": "хотеть бы (чего-л.); вежливая форма; неуверенное предположение",
+      "status": "new"
+    },
+    {
+      "id": "w-moegen",
+      "lemma": "mögen",
+      "ru": "любить (что-л./кого-л.); нравиться",
+      "status": "new"
+    },
+    {
+      "id": "w-moeglichkeit",
+      "lemma": "die Möglichkeit",
+      "ru": "возможность",
+      "status": "new"
+    },
+    {
+      "id": "w-moehre",
+      "lemma": "die Möhre",
+      "ru": "морковь",
+      "status": "new"
+    },
+    {
+      "id": "w-muessen",
+      "lemma": "müssen",
+      "ru": "должен, вынужден; собственное решение; долг, мораль, ответственность",
+      "status": "new"
+    },
+    {
+      "id": "w-muetze",
+      "lemma": "die Mütze",
+      "ru": "шапка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nach",
+      "lemma": "nach",
+      "ru": "после",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nach-22-00-uhr-laute-musik-hoeren",
+      "lemma": "nach 22.00 Uhr laute Musik hören",
+      "ru": "слушать громкую музыку после 22.00",
+      "status": "new"
+    },
+    {
+      "id": "w-nach-hause",
+      "lemma": "nach Hause",
+      "ru": "домой",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nach-hause-gehen",
+      "lemma": "nach Hause gehen",
+      "ru": "идти домой",
+      "status": "new"
+    },
+    {
+      "id": "w-nachteil",
+      "lemma": "der Nachteil",
+      "ru": "недостаток",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nachts-laut-musik-hoeren",
+      "lemma": "nachts laut Musik hören",
+      "ru": "ночью громко слушать музыку",
+      "status": "new"
+    },
+    {
+      "id": "w-nase",
+      "lemma": "die Nase",
+      "ru": "нос",
+      "status": "new"
+    },
+    {
+      "id": "w-natur",
+      "lemma": "die Natur",
+      "ru": "природа",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-neben",
+      "lemma": "neben",
+      "ru": "рядом",
+      "status": "new"
+    },
+    {
+      "id": "w-nehmen",
+      "lemma": "nehmen",
+      "ru": "брать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nennen",
+      "lemma": "nennen",
+      "ru": "называть",
+      "status": "new"
+    },
+    {
+      "id": "w-nepal",
+      "lemma": "Nepal",
+      "ru": "Непал",
+      "status": "new"
+    },
+    {
+      "id": "w-nett",
+      "lemma": "nett",
+      "ru": "милый (про людей)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nette-kollegen",
+      "lemma": "nette Kollegen",
+      "ru": "приятные коллеги",
+      "status": "new"
+    },
+    {
+      "id": "w-neugeboren",
+      "lemma": "neugeboren",
+      "ru": "новорождённый",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nichts",
+      "lemma": "nichts",
+      "ru": "ничего (nothing)",
+      "status": "new"
+    },
+    {
+      "id": "w-nichts-tun",
+      "lemma": "nichts tun",
+      "ru": "ничего не делать",
+      "status": "new"
+    },
+    {
+      "id": "w-nie",
+      "lemma": "nie",
+      "ru": "никогда",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-niederlande",
+      "lemma": "die Niederlande",
+      "ru": "Нидерланды",
+      "status": "new"
+    },
+    {
+      "id": "w-noch",
+      "lemma": "noch",
+      "ru": "пока / ещё",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nordkorea",
+      "lemma": "Nordkorea",
+      "ru": "Северная Корея",
+      "status": "new"
+    },
+    {
+      "id": "w-normalerweise",
+      "lemma": "normalerweise",
+      "ru": "обычно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-norwegen",
+      "lemma": "Norwegen",
+      "ru": "Норвегия",
+      "status": "new"
+    },
+    {
+      "id": "w-notwendigkeit",
+      "lemma": "die Notwendigkeit",
+      "ru": "необходимость",
+      "status": "new"
+    },
+    {
+      "id": "w-nudel",
+      "lemma": "die Nudel",
+      "ru": "макароны, лапша",
+      "status": "new"
+    },
+    {
+      "id": "w-nummer",
+      "lemma": "die Nummer",
+      "ru": "номер",
+      "status": "new"
+    },
+    {
+      "id": "w-nutzen",
+      "lemma": "nutzen",
+      "ru": "использовать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nuetzlich",
+      "lemma": "nützlich",
+      "ru": "полезно",
+      "status": "new"
+    },
+    {
+      "id": "w-obdachlose",
+      "lemma": "Obdachlose",
+      "ru": "бездомные",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-oder",
+      "lemma": "oder",
+      "ru": "или",
+      "status": "new"
+    },
+    {
+      "id": "w-ofen",
+      "lemma": "der Ofen",
+      "ru": "духовка, печь",
+      "status": "new"
+    },
+    {
+      "id": "w-offen",
+      "lemma": "offen",
+      "ru": "открытый",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-oft",
+      "lemma": "oft",
+      "ru": "часто",
+      "status": "new"
+    },
+    {
+      "id": "w-ohr",
+      "lemma": "das Ohr",
+      "ru": "ухо",
+      "status": "new"
+    },
+    {
+      "id": "w-ohrenschmerzen",
+      "lemma": "Ohrenschmerzen",
+      "ru": "боль в ушах",
+      "status": "new"
+    },
+    {
+      "id": "w-oman",
+      "lemma": "Oman",
+      "ru": "Оман",
+      "status": "new"
+    },
+    {
+      "id": "w-online",
+      "lemma": "online",
+      "ru": "онлайн",
+      "status": "new"
+    },
+    {
+      "id": "w-onlinespiele-spielen",
+      "lemma": "Onlinespiele spielen",
+      "ru": "играть в онлайн-игры",
+      "status": "new"
+    },
+    {
+      "id": "w-orange",
+      "lemma": "orange",
+      "ru": "оранжевый",
+      "status": "new"
+    },
+    {
+      "id": "w-ozean",
+      "lemma": "der Ozean",
+      "ru": "океан",
+      "status": "new"
+    },
+    {
+      "id": "w-pakistan",
+      "lemma": "Pakistan",
+      "ru": "Пакистан",
+      "status": "new"
+    },
+    {
+      "id": "w-paprika",
+      "lemma": "die Paprika",
+      "ru": "сладкий перец",
+      "status": "new"
+    },
+    {
+      "id": "w-parkplatz",
+      "lemma": "der Parkplatz",
+      "ru": "парковка",
+      "status": "new"
+    },
+    {
+      "id": "w-partys-feiern",
+      "lemma": "Partys feiern",
+      "ru": "устраивать вечеринки",
+      "status": "new"
+    },
+    {
+      "id": "w-passagier",
+      "lemma": "der Passagier",
+      "ru": "пассажир",
+      "status": "new"
+    },
+    {
+      "id": "w-passen",
+      "lemma": "passen",
+      "ru": "подходить",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-passkontrolle",
+      "lemma": "die Passkontrolle",
+      "ru": "паспортный контроль",
+      "status": "new"
+    },
+    {
+      "id": "w-patienten-untersuchen",
+      "lemma": "Patienten untersuchen",
+      "ru": "осматривать пациентов",
+      "status": "new"
+    },
+    {
+      "id": "w-persoenliche-infos",
+      "lemma": "Persönliche Infos",
+      "ru": "личные данные",
+      "status": "new"
+    },
+    {
+      "id": "w-pfannkuchen",
+      "lemma": "der Pfannkuchen",
+      "ru": "блин",
+      "status": "new"
+    },
+    {
+      "id": "w-pilz",
+      "lemma": "der Pilz",
+      "ru": "гриб",
+      "status": "new"
+    },
+    {
+      "id": "w-pizza",
+      "lemma": "die Pizza",
+      "ru": "пицца",
+      "status": "new"
+    },
+    {
+      "id": "w-plan",
+      "lemma": "der Plan",
+      "ru": "план",
+      "status": "new"
+    },
+    {
+      "id": "w-platz",
+      "lemma": "der Platz",
+      "ru": "место; площадь",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-polen",
+      "lemma": "Polen",
+      "ru": "Польша",
+      "status": "new"
+    },
+    {
+      "id": "w-polnisch",
+      "lemma": "polnisch",
+      "ru": "польский",
+      "status": "new"
+    },
+    {
+      "id": "w-pommes",
+      "lemma": "Pommes",
+      "ru": "картофель фри",
+      "status": "new"
+    },
+    {
+      "id": "w-portugal",
+      "lemma": "Portugal",
+      "ru": "Португалия",
+      "status": "new"
+    },
+    {
+      "id": "w-positive-arbeitsatmosphaere",
+      "lemma": "positive Arbeitsatmosphäre",
+      "ru": "позитивная рабочая атмосфера",
+      "status": "new"
+    },
+    {
+      "id": "w-poster",
+      "lemma": "das Poster",
+      "ru": "постер",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-preis",
+      "lemma": "der Preis",
+      "ru": "цена",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-preiswert",
+      "lemma": "preiswert",
+      "ru": "недорогой; выгодный по цене; выгодный",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-privathaushalt",
+      "lemma": "der Privathaushalt",
+      "ru": "частное домохозяйство",
+      "status": "new"
+    },
+    {
+      "id": "w-problem",
+      "lemma": "das Problem",
+      "ru": "проблема",
+      "status": "new"
+    },
+    {
+      "id": "w-probleme-haben-mit",
+      "lemma": "Probleme haben mit",
+      "ru": "иметь проблемы с …",
+      "status": "new"
+    },
+    {
+      "id": "w-prost",
+      "lemma": "Prost!",
+      "ru": "За здоровье! (с пивом)",
+      "status": "new"
+    },
+    {
+      "id": "w-praesentieren",
+      "lemma": "präsentieren",
+      "ru": "презентовать",
+      "status": "new"
+    },
+    {
+      "id": "w-pullover",
+      "lemma": "der Pullover",
+      "ru": "свитер",
+      "status": "new"
+    },
+    {
+      "id": "w-puenktlich",
+      "lemma": "pünktlich",
+      "ru": "вовремя",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-quadratmeter",
+      "lemma": "der Quadratmeter",
+      "ru": "квадратный метр",
+      "status": "new"
+    },
+    {
+      "id": "w-qualitaet",
+      "lemma": "die Qualität",
+      "ru": "качество",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-quark",
+      "lemma": "der Quark",
+      "ru": "творог",
+      "status": "new"
+    },
+    {
+      "id": "w-rad-fahren",
+      "lemma": "Rad fahren",
+      "ru": "кататься на велосипеде",
+      "status": "new"
+    },
+    {
+      "id": "w-radio-hoeren",
+      "lemma": "Radio hören",
+      "ru": "слушать радио",
+      "status": "new"
+    },
+    {
+      "id": "w-raten",
+      "lemma": "raten",
+      "ru": "советовать",
+      "status": "new"
+    },
+    {
+      "id": "w-rauchen",
+      "lemma": "rauchen",
+      "ru": "курить",
+      "status": "new"
+    },
+    {
+      "id": "w-rechts-von",
+      "lemma": "rechts von",
+      "ru": "справа от",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-reden",
+      "lemma": "reden",
+      "ru": "говорить о (чём-то)",
+      "status": "new"
+    },
+    {
+      "id": "w-regal",
+      "lemma": "das Regal",
+      "ru": "полка, стеллаж",
+      "status": "new"
+    },
+    {
+      "id": "w-regelmaessig",
+      "lemma": "regelmäßig",
+      "ru": "регулярно",
+      "status": "new"
+    },
+    {
+      "id": "w-regelmaessig-sport-treiben",
+      "lemma": "regelmäßig Sport treiben",
+      "ru": "регулярно заниматься спортом",
+      "status": "new"
+    },
+    {
+      "id": "w-regelmaessig-zum-arzt-gehen",
+      "lemma": "regelmäßig zum Arzt gehen",
+      "ru": "регулярно ходить к врачу",
+      "status": "new"
+    },
+    {
+      "id": "w-regenschirm",
+      "lemma": "der Regenschirm",
+      "ru": "зонт",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-reis",
+      "lemma": "der Reis",
+      "ru": "рис",
+      "status": "new"
+    },
+    {
+      "id": "w-reise",
+      "lemma": "die Reise",
+      "ru": "путешествие",
+      "status": "new"
+    },
+    {
+      "id": "w-reparatur",
+      "lemma": "die Reparatur",
+      "ru": "ремонт",
+      "status": "new"
+    },
+    {
+      "id": "w-richtung-marktplatz",
+      "lemma": "Richtung Marktplatz",
+      "ru": "в направлении рыночной площади",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-rindfleisch",
+      "lemma": "das Rindfleisch",
+      "ru": "говядина",
+      "status": "new"
+    },
+    {
+      "id": "w-rock",
+      "lemma": "der Rock",
+      "ru": "юбка",
+      "status": "new"
+    },
+    {
+      "id": "w-roller",
+      "lemma": "der Roller",
+      "ru": "самокат",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-rollschuh",
+      "lemma": "der Rollschuh",
+      "ru": "роликовый конёк (мн. ч. — роликовые коньки)",
+      "status": "new"
+    },
+    {
+      "id": "w-rosa",
+      "lemma": "rosa",
+      "ru": "розовый",
+      "status": "new"
+    },
+    {
+      "id": "w-rot",
+      "lemma": "rot",
+      "ru": "красный",
+      "status": "new"
+    },
+    {
+      "id": "w-rufen",
+      "lemma": "rufen",
+      "ru": "кричать, звать",
+      "status": "new"
+    },
+    {
+      "id": "w-rumaenien",
+      "lemma": "Rumänien",
+      "ru": "Румыния",
+      "status": "new"
+    },
+    {
+      "id": "w-russisch",
+      "lemma": "russisch",
+      "ru": "русский",
+      "status": "new"
+    },
+    {
+      "id": "w-russische-foederation",
+      "lemma": "die Russische Föderation",
+      "ru": "Российская Федерация",
+      "status": "new"
+    },
+    {
+      "id": "w-russland",
+      "lemma": "Russland",
+      "ru": "Россия",
+      "status": "new"
+    },
+    {
+      "id": "w-ruecken",
+      "lemma": "der Rücken",
+      "ru": "спина",
+      "status": "new"
+    },
+    {
+      "id": "w-rueckenschmerzen",
+      "lemma": "Rückenschmerzen",
+      "ru": "боль в спине",
+      "status": "new"
+    },
+    {
+      "id": "w-s-bahn",
+      "lemma": "die S-Bahn",
+      "ru": "городская электричка (Schnellbahn)",
+      "status": "new"
+    },
+    {
+      "id": "w-sagen",
+      "lemma": "sagen",
+      "ru": "сказать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-sahne",
+      "lemma": "die Sahne",
+      "ru": "сливки",
+      "status": "new"
+    },
+    {
+      "id": "w-salami",
+      "lemma": "die Salami",
+      "ru": "салями",
+      "status": "new"
+    },
+    {
+      "id": "w-salat",
+      "lemma": "der Salat",
+      "ru": "салат",
+      "status": "new"
+    },
+    {
+      "id": "w-sammeln",
+      "lemma": "sammeln",
+      "ru": "собирать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-san-marino",
+      "lemma": "San Marino",
+      "ru": "Сан-Марино",
+      "status": "new"
+    },
+    {
+      "id": "w-sardinien",
+      "lemma": "Sardinien",
+      "ru": "Сардиния",
+      "status": "new"
+    },
+    {
+      "id": "w-sauber-machen",
+      "lemma": "sauber machen",
+      "ru": "убирать, наводить чистоту",
+      "status": "new"
+    },
+    {
+      "id": "w-saudi-arabien",
+      "lemma": "Saudi-Arabien",
+      "ru": "Саудовская Аравия",
+      "status": "new"
+    },
+    {
+      "id": "w-sauerkraut",
+      "lemma": "das Sauerkraut",
+      "ru": "квашеная капуста",
+      "status": "new"
+    },
+    {
+      "id": "w-scannen",
+      "lemma": "scannen",
+      "ru": "сканировать",
+      "status": "new"
+    },
+    {
+      "id": "w-schal",
+      "lemma": "der Schal",
+      "ru": "шарф",
+      "status": "new"
+    },
+    {
+      "id": "w-schiefgehen",
+      "lemma": "schiefgehen",
+      "ru": "пойти не так; не получиться",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-schiff",
+      "lemma": "das Schiff",
+      "ru": "корабль",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-schinken",
+      "lemma": "der Schinken",
+      "ru": "ветчина",
+      "status": "new"
+    },
+    {
+      "id": "w-schlafen",
+      "lemma": "schlafen",
+      "ru": "спать",
+      "status": "new"
+    },
+    {
+      "id": "w-schlafen-gehen",
+      "lemma": "schlafen gehen",
+      "ru": "идти спать",
+      "status": "new"
+    },
+    {
+      "id": "w-schlagen",
+      "lemma": "schlagen",
+      "ru": "бить",
+      "status": "new"
+    },
+    {
+      "id": "w-schliessen",
+      "lemma": "schließen",
+      "ru": "закрывать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-schlaefrig",
+      "lemma": "schläfrig",
+      "ru": "сонный",
+      "status": "new"
+    },
+    {
+      "id": "w-schluessel",
+      "lemma": "der Schlüssel",
+      "ru": "ключ",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-schmecken",
+      "lemma": "schmecken",
+      "ru": "быть вкусным, нравиться на вкус",
+      "status": "new"
+    },
+    {
+      "id": "w-schmerz",
+      "lemma": "der Schmerz",
+      "ru": "боль",
+      "status": "new"
+    },
+    {
+      "id": "w-schnee",
+      "lemma": "der Schnee",
+      "ru": "снег",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-schneiden",
+      "lemma": "schneiden",
+      "ru": "резать",
+      "status": "new"
+    },
+    {
+      "id": "w-schnell",
+      "lemma": "schnell",
+      "ru": "быстрый",
+      "status": "new"
+    },
+    {
+      "id": "w-schnupfen",
+      "lemma": "der Schnupfen",
+      "ru": "насморк",
+      "status": "new"
+    },
+    {
+      "id": "w-schokolade",
+      "lemma": "die Schokolade",
+      "ru": "шоколад",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-schon",
+      "lemma": "schon",
+      "ru": "уже",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-schottisch",
+      "lemma": "schottisch",
+      "ru": "шотландский",
+      "status": "new"
+    },
+    {
+      "id": "w-schrecklich",
+      "lemma": "schrecklich",
+      "ru": "ужасно",
+      "status": "new"
+    },
+    {
+      "id": "w-schreiben",
+      "lemma": "schreiben",
+      "ru": "писать",
+      "status": "new"
+    },
+    {
+      "id": "w-schreibtisch",
+      "lemma": "der Schreibtisch",
+      "ru": "письменный стол",
+      "status": "new"
+    },
+    {
+      "id": "w-schuh",
+      "lemma": "der Schuh",
+      "ru": "обувь, туфли",
+      "status": "new"
+    },
+    {
+      "id": "w-schuhschrank",
+      "lemma": "der Schuhschrank",
+      "ru": "шкаф для обуви",
+      "status": "new"
+    },
+    {
+      "id": "w-schwaches-verb",
+      "lemma": "schwaches Verb",
+      "ru": "слабый глагол",
+      "status": "new"
+    },
+    {
+      "id": "w-schwarz",
+      "lemma": "schwarz",
+      "ru": "чёрный",
+      "status": "new"
+    },
+    {
+      "id": "w-schweden",
+      "lemma": "Schweden",
+      "ru": "Швеция",
+      "status": "new"
+    },
+    {
+      "id": "w-schwedisch",
+      "lemma": "schwedisch",
+      "ru": "шведский",
+      "status": "new"
+    },
+    {
+      "id": "w-schweiz",
+      "lemma": "die Schweiz",
+      "ru": "Швейцария",
+      "status": "new"
+    },
+    {
+      "id": "w-schwer",
+      "lemma": "schwer",
+      "ru": "тяжелый",
+      "status": "new"
+    },
+    {
+      "id": "w-schwimmen",
+      "lemma": "schwimmen",
+      "ru": "плавать",
+      "status": "new"
+    },
+    {
+      "id": "w-schoen",
+      "lemma": "schön",
+      "ru": "красивый",
+      "status": "new"
+    },
+    {
+      "id": "w-schoene-dinge-machen",
+      "lemma": "schöne Dinge machen",
+      "ru": "заниматься приятными вещами",
+      "status": "new"
+    },
+    {
+      "id": "w-secondhandladen",
+      "lemma": "der Secondhandladen",
+      "ru": "секонд-хенд",
+      "status": "new"
+    },
+    {
+      "id": "w-sehen",
+      "lemma": "sehen",
+      "ru": "смотреть на; смотреть; видеть",
+      "status": "new"
+    },
+    {
+      "id": "w-sehr-geehrte-damen-und-herren",
+      "lemma": "Sehr geehrte Damen und Herren,",
+      "ru": "Уважаемые дамы и господа, (formell)",
+      "status": "new"
+    },
+    {
+      "id": "w-sehr-geehrte-frau",
+      "lemma": "Sehr geehrte Frau …,",
+      "ru": "Уважаемая госпожа … (formell)",
+      "status": "new"
+    },
+    {
+      "id": "w-sehr-geehrter-herr",
+      "lemma": "Sehr geehrter Herr …,",
+      "ru": "Уважаемый господин … (formell)",
+      "status": "new"
+    },
+    {
+      "id": "w-sein",
+      "lemma": "sein",
+      "ru": "быть",
+      "status": "new"
+    },
+    {
+      "id": "w-seit",
+      "lemma": "seit",
+      "ru": "в течение (с какого-то момента до сейчас); на протяжении / в течение: длится все еще",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 3,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-selber-kochen",
+      "lemma": "selber kochen",
+      "ru": "готовить самому",
+      "status": "new"
+    },
+    {
+      "id": "w-selten",
+      "lemma": "selten",
+      "ru": "редко",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-serbien",
+      "lemma": "Serbien",
+      "ru": "Сербия",
+      "status": "new"
+    },
+    {
+      "id": "w-serie",
+      "lemma": "die Serie",
+      "ru": "сериал",
+      "status": "new"
+    },
+    {
+      "id": "w-sessel",
+      "lemma": "der Sessel",
+      "ru": "кресло",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-setzen",
+      "lemma": "setzen",
+      "ru": "садить, сажать",
+      "status": "new"
+    },
+    {
+      "id": "w-sicher",
+      "lemma": "sicher",
+      "ru": "безопасный, надёжный",
+      "status": "new"
+    },
+    {
+      "id": "w-sicherheitspersonal",
+      "lemma": "das Sicherheitspersonal",
+      "ru": "сотрудники службы безопасности",
+      "status": "new"
+    },
+    {
+      "id": "w-sieben-bis-acht-stunden-schlafen",
+      "lemma": "sieben bis acht Stunden schlafen",
+      "ru": "спать семь–восемь часов",
+      "status": "new"
+    },
+    {
+      "id": "w-silber",
+      "lemma": "silber",
+      "ru": "серебряный",
+      "status": "new"
+    },
+    {
+      "id": "w-singen",
+      "lemma": "singen",
+      "ru": "петь",
+      "status": "new"
+    },
+    {
+      "id": "w-single-haushalt",
+      "lemma": "der Single-Haushalt",
+      "ru": "домохозяйство из одного человека",
+      "status": "new"
+    },
+    {
+      "id": "w-sinn-machen",
+      "lemma": "Sinn machen",
+      "ru": "имеет смысл",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-sitzen",
+      "lemma": "sitzen",
+      "ru": "сидеть",
+      "status": "new"
+    },
+    {
+      "id": "w-sitzplatz",
+      "lemma": "der Sitzplatz",
+      "ru": "сидячее место",
+      "status": "new"
+    },
+    {
+      "id": "w-sizilien",
+      "lemma": "Sizilien",
+      "ru": "Сицилия",
+      "status": "new"
+    },
+    {
+      "id": "w-ski-fahren",
+      "lemma": "Ski fahren",
+      "ru": "кататься на лыжах",
+      "status": "new"
+    },
+    {
+      "id": "w-slowakei",
+      "lemma": "die Slowakei",
+      "ru": "Словакия",
+      "status": "new"
+    },
+    {
+      "id": "w-slowenien",
+      "lemma": "Slowenien",
+      "ru": "Словения",
+      "status": "new"
+    },
+    {
+      "id": "w-socke",
+      "lemma": "die Socke",
+      "ru": "носки",
+      "status": "new"
+    },
+    {
+      "id": "w-sofa",
+      "lemma": "das Sofa",
+      "ru": "диван",
+      "status": "new"
+    },
+    {
+      "id": "w-sollen",
+      "lemma": "sollen",
+      "ru": "должен, следует, нужно; чья-то ещё воля; законы, приказы, чужие распоряжения",
+      "status": "new"
+    },
+    {
+      "id": "w-spanien",
+      "lemma": "Spanien",
+      "ru": "Испания",
+      "status": "new"
+    },
+    {
+      "id": "w-spanisch",
+      "lemma": "spanisch",
+      "ru": "испанский",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-sparen",
+      "lemma": "sparen",
+      "ru": "экономить",
+      "status": "new"
+    },
+    {
+      "id": "w-spazieren-gehen",
+      "lemma": "spazieren gehen",
+      "ru": "гулять",
+      "status": "new"
+    },
+    {
+      "id": "w-speisekarte",
+      "lemma": "die Speisekarte",
+      "ru": "меню",
       "status": "new"
     },
     {
       "id": "w-spiegel",
       "lemma": "der Spiegel",
       "ru": "зеркало",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-spiel",
+      "lemma": "das Spiel",
+      "ru": "игра",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-spielen",
+      "lemma": "spielen",
+      "ru": "играть",
+      "status": "new"
+    },
+    {
+      "id": "w-spielzeug",
+      "lemma": "das Spielzeug",
+      "ru": "игрушки; игрушка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-sport-machen",
+      "lemma": "Sport machen",
+      "ru": "заниматься спортом",
+      "status": "new"
+    },
+    {
+      "id": "w-sport-treiben",
+      "lemma": "Sport treiben",
+      "ru": "заниматься спортом",
+      "status": "new"
+    },
+    {
+      "id": "w-sportartikel",
+      "lemma": "der Sportartikel",
+      "ru": "спорттовары",
+      "status": "new"
+    },
+    {
+      "id": "w-sportkleidung",
+      "lemma": "die Sportkleidung",
+      "ru": "спортивная одежда",
+      "status": "new"
+    },
+    {
+      "id": "w-sprechen",
+      "lemma": "sprechen",
+      "ru": "говорить; разговаривать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-spuelbecken",
+      "lemma": "das Spülbecken",
+      "ru": "кухонная мойка",
+      "status": "new"
+    },
+    {
+      "id": "w-sri-lanka",
+      "lemma": "Sri Lanka",
+      "ru": "Шри-Ланка",
+      "status": "new"
+    },
+    {
+      "id": "w-starkes-verb",
+      "lemma": "starkes Verb",
+      "ru": "сильный глагол",
+      "status": "new"
+    },
+    {
+      "id": "w-staub-saugen",
+      "lemma": "Staub saugen",
+      "ru": "пылесосить",
+      "status": "new"
+    },
+    {
+      "id": "w-staub-wischen",
+      "lemma": "Staub wischen",
+      "ru": "вытирать пыль",
+      "status": "new"
+    },
+    {
+      "id": "w-staubsaugen",
+      "lemma": "staubsaugen",
+      "ru": "пылесосить",
+      "status": "new"
+    },
+    {
+      "id": "w-stehen",
+      "lemma": "stehen",
+      "ru": "стоять",
+      "status": "new"
+    },
+    {
+      "id": "w-stellen",
+      "lemma": "stellen",
+      "ru": "ставить",
+      "status": "new"
+    },
+    {
+      "id": "w-steuer",
+      "lemma": "die Steuer",
+      "ru": "налог (die Steuern — налоги)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-stift",
+      "lemma": "der Stift",
+      "ru": "карандаш, ручка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-strasse",
+      "lemma": "die Straße",
+      "ru": "улица, дорога",
+      "status": "new"
+    },
+    {
+      "id": "w-strassenbahn",
+      "lemma": "die Straßenbahn",
+      "ru": "трамвай",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-strom",
+      "lemma": "der Strom",
+      "ru": "электричество",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-studie",
+      "lemma": "die Studie",
+      "ru": "исследование",
+      "status": "new"
+    },
+    {
+      "id": "w-studio",
+      "lemma": "das Studio",
+      "ru": "студия",
+      "status": "new"
+    },
+    {
+      "id": "w-studium",
+      "lemma": "das Studium",
+      "ru": "учеба",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-stoeren",
+      "lemma": "stören",
+      "ru": "мешать; беспокоить",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-supermarkt",
+      "lemma": "der Supermarkt",
+      "ru": "супермаркет",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-syrien",
+      "lemma": "Syrien",
+      "ru": "Сирия",
+      "status": "new"
+    },
+    {
+      "id": "w-suedkorea",
+      "lemma": "Südkorea",
+      "ru": "Южная Корея",
+      "status": "new"
+    },
+    {
+      "id": "w-suessigkeit",
+      "lemma": "die Süßigkeit",
+      "ru": "сладость",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-t-shirt",
+      "lemma": "das T-Shirt",
+      "ru": "футболка",
+      "status": "new"
+    },
+    {
+      "id": "w-tablette",
+      "lemma": "die Tablette",
+      "ru": "таблетка",
+      "status": "new"
+    },
+    {
+      "id": "w-tadschikistan",
+      "lemma": "Tadschikistan",
+      "ru": "Таджикистан",
+      "status": "new"
+    },
+    {
+      "id": "w-tanken",
+      "lemma": "tanken",
+      "ru": "заправляться",
+      "status": "new"
+    },
+    {
+      "id": "w-tankstelle",
+      "lemma": "die Tankstelle",
+      "ru": "заправка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-tanzen",
+      "lemma": "tanzen",
+      "ru": "танцевать",
+      "status": "new"
+    },
+    {
+      "id": "w-tauchen",
+      "lemma": "tauchen",
+      "ru": "дайвить, нырять",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-taxi",
+      "lemma": "das Taxi",
+      "ru": "такси",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-technik",
+      "lemma": "die Technik",
+      "ru": "техника",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-tee",
+      "lemma": "der Tee",
+      "ru": "чай",
+      "status": "new"
+    },
+    {
+      "id": "w-telefongespraeche-fuehren",
+      "lemma": "Telefongespräche führen",
+      "ru": "вести телефонные разговоры",
+      "status": "new"
+    },
+    {
+      "id": "w-telefonieren",
+      "lemma": "telefonieren",
+      "ru": "говорить по телефону",
+      "status": "new"
+    },
+    {
+      "id": "w-telefonnummer",
+      "lemma": "die Telefonnummer",
+      "ru": "номер телефона",
+      "status": "new"
+    },
+    {
+      "id": "w-teppich",
+      "lemma": "der Teppich",
+      "ru": "ковёр",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-termin",
+      "lemma": "der Termin",
+      "ru": "встреча; назначенное время; назначенная встреча; запись",
+      "status": "new"
+    },
+    {
+      "id": "w-tests-korrigieren",
+      "lemma": "Tests korrigieren",
+      "ru": "проверять тесты",
+      "status": "new"
+    },
+    {
+      "id": "w-teuer",
+      "lemma": "teuer",
+      "ru": "дорогой",
+      "status": "new"
+    },
+    {
+      "id": "w-thailand",
+      "lemma": "Thailand",
+      "ru": "Таиланд",
+      "status": "new"
+    },
+    {
+      "id": "w-tomate",
+      "lemma": "die Tomate",
+      "ru": "помидор",
+      "status": "new"
+    },
+    {
+      "id": "w-torte",
+      "lemma": "die Torte",
+      "ru": "торт",
+      "status": "new"
+    },
+    {
+      "id": "w-tragen",
+      "lemma": "tragen",
+      "ru": "носить что-то; носить; нести",
+      "status": "new"
+    },
+    {
+      "id": "w-trainieren",
+      "lemma": "trainieren",
+      "ru": "тренироваться",
+      "status": "new"
+    },
+    {
+      "id": "w-training",
+      "lemma": "das Training",
+      "ru": "тренировка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-tram",
+      "lemma": "die Tram",
+      "ru": "трамвай",
+      "status": "new"
+    },
+    {
+      "id": "w-traurig",
+      "lemma": "traurig",
+      "ru": "грустный",
+      "status": "new"
+    },
+    {
+      "id": "w-treffen",
+      "lemma": "treffen",
+      "ru": "встречать",
+      "status": "new"
+    },
+    {
+      "id": "w-treffen-noun",
+      "lemma": "das Treffen",
+      "ru": "встреча",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "error"
+    },
+    {
+      "id": "w-trinken",
+      "lemma": "trinken",
+      "ru": "пить",
+      "status": "new"
+    },
+    {
+      "id": "w-tschechische-republik",
+      "lemma": "die Tschechische Republik",
+      "ru": "Чехия",
+      "status": "new"
+    },
+    {
+      "id": "w-tun",
+      "lemma": "tun",
+      "ru": "делать",
+      "status": "new"
+    },
+    {
+      "id": "w-turkmenistan",
+      "lemma": "Turkmenistan",
+      "ru": "Туркменистан",
+      "status": "new"
+    },
+    {
+      "id": "w-taeglich-im-stau-stehen",
+      "lemma": "täglich im Stau stehen",
+      "ru": "ежедневно стоять в пробке",
+      "status": "new"
+    },
+    {
+      "id": "w-tuerkei",
+      "lemma": "die Türkei",
+      "ru": "Турция",
+      "status": "new"
+    },
+    {
+      "id": "w-tuerkis",
+      "lemma": "türkis",
+      "ru": "бирюзовый",
+      "status": "new"
+    },
+    {
+      "id": "w-u-bahn",
+      "lemma": "die U-Bahn",
+      "ru": "метро; метро (Untergrundbahn)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-uhr",
+      "lemma": "die Uhr",
+      "ru": "часы",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-ukraine",
+      "lemma": "die Ukraine",
+      "ru": "Украина",
+      "status": "new"
+    },
+    {
+      "id": "w-umsteigen",
+      "lemma": "das Umsteigen",
+      "ru": "пересадка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-umtauschen",
+      "lemma": "umtauschen",
+      "ru": "обменять (товар); обменивать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-umziehen",
+      "lemma": "umziehen",
+      "ru": "переехать; переезжать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-umzug",
+      "lemma": "der Umzug",
+      "ru": "переезд",
+      "status": "new"
+    },
+    {
+      "id": "w-und",
+      "lemma": "und",
+      "ru": "и",
+      "status": "new"
+    },
+    {
+      "id": "w-und-ich-trinke",
+      "lemma": "Und ich trinke …",
+      "ru": "А пить я буду …",
+      "status": "new"
+    },
+    {
+      "id": "w-ungarisch",
+      "lemma": "ungarisch",
+      "ru": "венгерский",
+      "status": "new"
+    },
+    {
+      "id": "w-ungarn",
+      "lemma": "Ungarn",
+      "ru": "Венгрия",
+      "status": "new"
+    },
+    {
+      "id": "w-ungefaehr",
+      "lemma": "ungefähr",
+      "ru": "примерно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-unhoeflich",
+      "lemma": "unhöflich",
+      "ru": "невежливо; невежливый",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-unter",
+      "lemma": "unter",
+      "ru": "под",
+      "status": "new"
+    },
+    {
+      "id": "w-unternehmen",
+      "lemma": "unternehmen",
+      "ru": "предпринять",
+      "status": "new"
+    },
+    {
+      "id": "w-unterricht",
+      "lemma": "der Unterricht",
+      "ru": "урок; занятие",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 3,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-unterrichten",
+      "lemma": "unterrichten",
+      "ru": "учить, преподавать",
+      "status": "new"
+    },
+    {
+      "id": "w-untersuchen",
+      "lemma": "untersuchen",
+      "ru": "обследовать",
+      "status": "new"
+    },
+    {
+      "id": "w-unterwaesche",
+      "lemma": "die Unterwäsche",
+      "ru": "нижнее бельё",
+      "status": "new"
+    },
+    {
+      "id": "w-usa",
+      "lemma": "die USA",
+      "ru": "США",
+      "status": "new"
+    },
+    {
+      "id": "w-usbekistan",
+      "lemma": "Usbekistan",
+      "ru": "Узбекистан",
+      "status": "new"
+    },
+    {
+      "id": "w-vatikanstadt",
+      "lemma": "die Vatikanstadt",
+      "ru": "Ватикан",
+      "status": "new"
+    },
+    {
+      "id": "w-verbot",
+      "lemma": "das Verbot",
+      "ru": "запрет",
+      "status": "new"
+    },
+    {
+      "id": "w-vereinbaren",
+      "lemma": "vereinbaren",
+      "ru": "договариваться (о встрече); согласовать; назначать",
+      "status": "new"
+    },
+    {
+      "id": "w-vereinigte-koenigreich",
+      "lemma": "das Vereinigte Königreich",
+      "ru": "Великобритания",
+      "status": "new"
+    },
+    {
+      "id": "w-vereinigten-arabischen-emirate",
+      "lemma": "die Vereinigten Arabischen Emirate",
+      "ru": "Объединённые Арабские Эмираты",
+      "status": "new"
+    },
+    {
+      "id": "w-vergessen",
+      "lemma": "vergessen",
+      "ru": "забывать",
+      "status": "new"
+    },
+    {
+      "id": "w-verkaufen",
+      "lemma": "verkaufen",
+      "ru": "продавать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-verkehrsmittel",
+      "lemma": "das Verkehrsmittel",
+      "ru": "вид транспорта",
+      "status": "new"
+    },
+    {
+      "id": "w-verkehrsschild",
+      "lemma": "das Verkehrsschild",
+      "ru": "дорожный знак",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-verkaeufer",
+      "lemma": "der Verkäufer",
+      "ru": "продавец",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-verkaeuferin",
+      "lemma": "die Verkäuferin",
+      "ru": "продавщица",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-verlieren",
+      "lemma": "verlieren",
+      "ru": "терять",
+      "status": "new"
+    },
+    {
+      "id": "w-vermieten",
+      "lemma": "vermieten",
+      "ru": "сдавать в аренду",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-verschieben",
+      "lemma": "verschieben",
+      "ru": "переносить (встречу); перенести; переносить; откладывать; откладывать (на другое время)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-versichertenkarte",
+      "lemma": "die Versichertenkarte",
+      "ru": "карта застрахованного",
+      "status": "new"
+    },
+    {
+      "id": "w-versicherung",
+      "lemma": "die Versicherung",
+      "ru": "страховка",
+      "status": "new"
+    },
+    {
+      "id": "w-verspaetung",
+      "lemma": "die Verspätung",
+      "ru": "опоздание",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-videos-sehen",
+      "lemma": "Videos sehen",
+      "ru": "смотреть видео",
+      "status": "new"
+    },
+    {
+      "id": "w-videospiele-spielen",
+      "lemma": "Videospiele spielen",
+      "ru": "играть в видеоигры",
+      "status": "new"
+    },
+    {
+      "id": "w-viel",
+      "lemma": "viel",
+      "ru": "много",
+      "status": "new"
+    },
+    {
+      "id": "w-viel-erfolg",
+      "lemma": "viel Erfolg",
+      "ru": "успехов",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-viel-fernsehen",
+      "lemma": "viel fernsehen",
+      "ru": "много смотреть телевизор",
+      "status": "new"
+    },
+    {
+      "id": "w-viel-lernen",
+      "lemma": "viel lernen",
+      "ru": "много учиться",
+      "status": "new"
+    },
+    {
+      "id": "w-viele-e-mails-lesen-beantworten-und-weiterleiten",
+      "lemma": "viele E-Mails lesen, beantworten und weiterleiten",
+      "ru": "читать много писем, отвечать на них и пересылать",
+      "status": "new"
+    },
+    {
+      "id": "w-viele-gruesse",
+      "lemma": "Viele Grüße",
+      "ru": "Всего доброго, привет (informell)",
+      "status": "new"
+    },
+    {
+      "id": "w-viertel",
+      "lemma": "das Viertel",
+      "ru": "четверть",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-vietnam",
+      "lemma": "Vietnam",
+      "ru": "Вьетнам",
+      "status": "new"
+    },
+    {
+      "id": "w-violett",
+      "lemma": "violett",
+      "ru": "фиолетовый",
+      "status": "new"
+    },
+    {
+      "id": "w-visitenkarte",
+      "lemma": "die Visitenkarte",
+      "ru": "визитная карточка",
+      "status": "new"
+    },
+    {
+      "id": "w-vitamine-einnehmen",
+      "lemma": "Vitamine einnehmen",
+      "ru": "принимать витамины",
+      "status": "new"
+    },
+    {
+      "id": "w-voll",
+      "lemma": "voll",
+      "ru": "полный",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-von-der-arbeit",
+      "lemma": "von der Arbeit",
+      "ru": "с работы",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-von-bis",
+      "lemma": "von … bis …",
+      "ru": "с … до …",
+      "status": "new"
+    },
+    {
+      "id": "w-vor",
+      "lemma": "vor",
+      "ru": "перед; … назад",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-vor-allem",
+      "lemma": "vor allem",
+      "ru": "прежде всего",
+      "status": "new"
+    },
+    {
+      "id": "w-vor-dem-urlaub",
+      "lemma": "vor dem Urlaub",
+      "ru": "перед отпуском",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-vor-der-reise",
+      "lemma": "vor der Reise",
+      "ru": "перед поездкой",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-vor-einer-woche",
+      "lemma": "vor einer Woche",
+      "ru": "неделю назад",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-vor-kurzem",
+      "lemma": "vor kurzem",
+      "ru": "недавно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-vorlesungen-seminare-besuchen",
+      "lemma": "Vorlesungen/Seminare besuchen",
+      "ru": "посещать лекции/семинары",
+      "status": "new"
+    },
+    {
+      "id": "w-vorliebe",
+      "lemma": "die Vorliebe",
+      "ru": "предпочтение, любовь к чему-л.",
+      "status": "new"
+    },
+    {
+      "id": "w-vorschlagen",
+      "lemma": "vorschlagen",
+      "ru": "предлагать",
+      "status": "new"
+    },
+    {
+      "id": "w-vorspeise",
+      "lemma": "die Vorspeise",
+      "ru": "закуска",
+      "status": "new"
+    },
+    {
+      "id": "w-vorteil",
+      "lemma": "der Vorteil",
+      "ru": "преимущество",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-vortrag",
+      "lemma": "der Vortrag",
+      "ru": "доклад",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-vortraege-referate-halten",
+      "lemma": "Vorträge/Referate halten",
+      "ru": "делать доклады/рефераты",
+      "status": "new"
+    },
+    {
+      "id": "w-wachsen",
+      "lemma": "wachsen",
+      "ru": "расти",
+      "status": "new"
+    },
+    {
+      "id": "w-waffel",
+      "lemma": "die Waffel",
+      "ru": "вафля",
+      "status": "new"
+    },
+    {
+      "id": "w-wand",
+      "lemma": "die Wand",
+      "ru": "стена",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-wann",
+      "lemma": "wann",
+      "ru": "когда?",
+      "status": "new"
+    },
+    {
+      "id": "w-wann-haben-sie-frei",
+      "lemma": "Wann haben Sie frei?",
+      "ru": "Когда вы свободны?",
+      "status": "new"
+    },
+    {
+      "id": "w-warme-getraenke-trinken",
+      "lemma": "warme Getränke trinken",
+      "ru": "пить тёплые напитки",
+      "status": "new"
+    },
+    {
+      "id": "w-warme-kleidung-anhaben",
+      "lemma": "warme Kleidung anhaben",
+      "ru": "быть в тёплой одежде, носить тёплую одежду",
+      "status": "new"
+    },
+    {
+      "id": "w-warmer-boden",
+      "lemma": "warmer Boden",
+      "ru": "теплый пол",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-warten",
+      "lemma": "warten",
+      "ru": "ждать",
+      "status": "new"
+    },
+    {
+      "id": "w-warum",
+      "lemma": "warum",
+      "ru": "почему?",
+      "status": "new"
+    },
+    {
+      "id": "w-was",
+      "lemma": "was",
+      "ru": "что?",
+      "status": "new"
+    },
+    {
+      "id": "w-was-fuer-ein-geraet-einen-internetanschluss-haben-sie",
+      "lemma": "Was für ein Gerät/einen Internetanschluss haben Sie?",
+      "ru": "Какой у вас прибор / какое интернет-подключение?",
+      "status": "new"
+    },
+    {
+      "id": "w-was-fuer-ein-zeug",
+      "lemma": "was für ein Zeug!",
+      "ru": "что за фигня!",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-was-kann-ich-fuer-sie-tun",
+      "lemma": "Was kann ich für Sie tun?",
+      "ru": "Чем могу вам помочь?",
+      "status": "new"
+    },
+    {
+      "id": "w-waschbecken",
+      "lemma": "das Waschbecken",
+      "ru": "раковина",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-waschmaschine",
+      "lemma": "die Waschmaschine",
+      "ru": "стиральная машина",
+      "status": "new"
+    },
+    {
+      "id": "w-wasserspender",
+      "lemma": "der Wasserspender",
+      "ru": "кулер, диспенсер для воды",
+      "status": "new"
+    },
+    {
+      "id": "w-wegbeschreibung",
+      "lemma": "die Wegbeschreibung",
+      "ru": "описание дороги / маршрута",
+      "status": "new"
+    },
+    {
+      "id": "w-wehtun",
+      "lemma": "wehtun",
+      "ru": "болеть (у кого-то); болеть",
+      "status": "new"
+    },
+    {
+      "id": "w-wein",
+      "lemma": "der Wein",
+      "ru": "вино",
+      "status": "new"
+    },
+    {
+      "id": "w-weinen",
+      "lemma": "weinen",
+      "ru": "плакать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-weiterleiten",
+      "lemma": "weiterleiten",
+      "ru": "пересылать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-weiss",
+      "lemma": "weiß",
+      "ru": "белый",
+      "status": "new"
+    },
+    {
+      "id": "w-weissrussland",
+      "lemma": "Weißrussland",
+      "ru": "Беларусь",
+      "status": "new"
+    },
+    {
+      "id": "w-welch",
+      "lemma": "welch-",
+      "ru": "какой? (какие?)",
+      "status": "new"
+    },
+    {
+      "id": "w-wen",
+      "lemma": "wen",
+      "ru": "кого?",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-wenig",
+      "lemma": "wenig",
+      "ru": "мало",
+      "status": "new"
+    },
+    {
+      "id": "w-wenig-alkohol-und-viel-gruenen-tee-trinken",
+      "lemma": "wenig Alkohol und viel grünen Tee trinken",
+      "ru": "пить мало алкоголя и много зелёного чая",
+      "status": "new"
+    },
+    {
+      "id": "w-weniger-zeit-im-internet-verbringen",
+      "lemma": "weniger Zeit im Internet verbringen",
+      "ru": "проводить меньше времени в интернете",
+      "status": "new"
+    },
+    {
+      "id": "w-wer",
+      "lemma": "wer",
+      "ru": "кто?",
+      "status": "new"
+    },
+    {
+      "id": "w-werden",
+      "lemma": "werden",
+      "ru": "становиться",
+      "status": "new"
+    },
+    {
+      "id": "w-wg",
+      "lemma": "die WG",
+      "ru": "общежитие / коммуналка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-whisky",
+      "lemma": "der Whisky",
+      "ru": "виски",
+      "status": "new"
+    },
+    {
+      "id": "w-wie",
+      "lemma": "wie",
+      "ru": "как?",
+      "status": "new"
+    },
+    {
+      "id": "w-wie-bitte",
+      "lemma": "Wie bitte?",
+      "ru": "Простите, что? (переспросить)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-wie-gefaellt-der-anzug",
+      "lemma": "Wie gefällt … der Anzug?",
+      "ru": "Как … нравится костюм?",
+      "status": "new"
+    },
+    {
+      "id": "w-wie-geht-es",
+      "lemma": "Wie geht es …?",
+      "ru": "Как у … дела?",
+      "status": "new"
+    },
+    {
+      "id": "w-wie-ist-gelaufen",
+      "lemma": "Wie ist … gelaufen?",
+      "ru": "Как прошло …?",
+      "status": "new"
+    },
+    {
+      "id": "w-wie-war",
+      "lemma": "Wie war …?",
+      "ru": "Как было …?",
+      "status": "new"
+    },
+    {
+      "id": "w-wirtschaft",
+      "lemma": "die Wirtschaft",
+      "ru": "экономика",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-wirtschaftswissenschaftlich",
+      "lemma": "wirtschaftswissenschaftlich",
+      "ru": "экономический (относящийся к экономическим наукам)",
+      "status": "new"
+    },
+    {
+      "id": "w-wissen",
+      "lemma": "wissen",
+      "ru": "знать",
+      "status": "new"
+    },
+    {
+      "id": "w-wissenschaft",
+      "lemma": "die Wissenschaft",
+      "ru": "наука",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-wo",
+      "lemma": "wo",
+      "ru": "где?",
+      "status": "new"
+    },
+    {
+      "id": "w-woche",
+      "lemma": "die Woche",
+      "ru": "неделя",
+      "status": "new"
+    },
+    {
+      "id": "w-woher",
+      "lemma": "woher",
+      "ru": "откуда?",
+      "status": "new"
+    },
+    {
+      "id": "w-wohin",
+      "lemma": "wohin",
+      "ru": "куда?",
+      "status": "new"
+    },
+    {
+      "id": "w-wohneigentum",
+      "lemma": "das Wohneigentum",
+      "ru": "жильё в собственности; жилая собственность",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-wohnen",
+      "lemma": "wohnen",
+      "ru": "жить, проживать",
+      "status": "new"
+    },
+    {
+      "id": "w-wohngemeinschaft",
+      "lemma": "die Wohngemeinschaft",
+      "ru": "совместная аренда квартиры, «коммуналка» по-немецки",
+      "status": "new"
+    },
+    {
+      "id": "w-wohnung",
+      "lemma": "die Wohnung",
+      "ru": "квартира",
+      "status": "new"
+    },
+    {
+      "id": "w-wohnungssuche",
+      "lemma": "die Wohnungssuche",
+      "ru": "поиск квартиры",
+      "status": "new"
+    },
+    {
+      "id": "w-wollen",
+      "lemma": "wollen",
+      "ru": "хотеть (чего-л.); намереваться сделать что-л.",
+      "status": "new"
+    },
+    {
+      "id": "w-wunsch",
+      "lemma": "der Wunsch",
+      "ru": "пожелание; желание",
+      "status": "new"
+    },
+    {
+      "id": "w-wurst",
+      "lemma": "die Wurst",
+      "ru": "колбаса",
+      "status": "new"
+    },
+    {
+      "id": "w-waehlen",
+      "lemma": "wählen",
+      "ru": "выбирать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-waesche-buegeln",
+      "lemma": "Wäsche bügeln",
+      "ru": "гладить бельё",
+      "status": "new"
+    },
+    {
+      "id": "w-waesche-waschen",
+      "lemma": "Wäsche waschen",
+      "ru": "стирать бельё",
+      "status": "new"
+    },
+    {
+      "id": "w-woechentlich",
+      "lemma": "wöchentlich",
+      "ru": "еженедельно",
+      "status": "new"
+    },
+    {
+      "id": "w-zahn",
+      "lemma": "der Zahn",
+      "ru": "зуб",
+      "status": "new"
+    },
+    {
+      "id": "w-zahnschmerzen",
+      "lemma": "Zahnschmerzen",
+      "ru": "зубная боль",
+      "status": "new"
+    },
+    {
+      "id": "w-zehe",
+      "lemma": "die Zehe",
+      "ru": "палец ноги",
+      "status": "new"
+    },
+    {
+      "id": "w-zeichnen",
+      "lemma": "zeichnen",
+      "ru": "рисовать",
+      "status": "new"
+    },
+    {
+      "id": "w-zeit-fuer-die-familie",
+      "lemma": "Zeit für die Familie",
+      "ru": "время для семьи (хороший баланс работы и жизни)",
+      "status": "new"
+    },
+    {
+      "id": "w-zeitschrift",
+      "lemma": "die Zeitschrift",
+      "ru": "журнал",
+      "status": "new"
+    },
+    {
+      "id": "w-zeitung",
+      "lemma": "die Zeitung",
+      "ru": "газета",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zeitungen-oder-zeitschriften-lesen",
+      "lemma": "Zeitungen oder Zeitschriften lesen",
+      "ru": "читать газеты или журналы",
+      "status": "new"
+    },
+    {
+      "id": "w-ziehen",
+      "lemma": "ziehen",
+      "ru": "тащить",
+      "status": "new"
+    },
+    {
+      "id": "w-ziemlich",
+      "lemma": "ziemlich",
+      "ru": "довольно",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zimmer",
+      "lemma": "das Zimmer",
+      "ru": "комната",
+      "status": "new"
+    },
+    {
+      "id": "w-zimmerpflanze",
+      "lemma": "die Zimmerpflanze",
+      "ru": "комнатное растение",
+      "status": "new"
+    },
+    {
+      "id": "w-zitrone",
+      "lemma": "die Zitrone",
+      "ru": "лимон",
+      "status": "new"
+    },
+    {
+      "id": "w-zu-abend-essen",
+      "lemma": "zu Abend essen",
+      "ru": "ужинать",
+      "status": "new"
+    },
+    {
+      "id": "w-zu-kunden-geschaeftspartnern-fahren",
+      "lemma": "zu Kunden/Geschäftspartnern fahren",
+      "ru": "ездить к клиентам/деловым партнёрам",
+      "status": "new"
+    },
+    {
+      "id": "w-zu-meinem-freund-gehen",
+      "lemma": "zu meinem Freund gehen",
+      "ru": "идти к моему другу",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-10-09",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zu-spaet-kommen",
+      "lemma": "zu spät kommen",
+      "ru": "опоздать",
+      "status": "new"
+    },
+    {
+      "id": "w-zuerst",
+      "lemma": "zuerst",
+      "ru": "сперва, сначала",
+      "status": "new"
+    },
+    {
+      "id": "w-zug",
+      "lemma": "der Zug",
+      "ru": "поезд",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zum-arzt-gehen",
+      "lemma": "zum Arzt gehen",
+      "ru": "идти к врачу",
+      "status": "new"
+    },
+    {
+      "id": "w-zum-ausgehen",
+      "lemma": "zum Ausgehen",
+      "ru": "чтобы сходить куда-нибудь; развлечься",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 2,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zum-ersten-mal",
+      "lemma": "zum ersten Mal",
+      "ru": "в первый раз",
+      "status": "new"
+    },
+    {
+      "id": "w-zum-spaziergang",
+      "lemma": "zum Spaziergang",
+      "ru": "на прогулку",
+      "status": "new"
+    },
+    {
+      "id": "w-zum-wohl",
+      "lemma": "Zum Wohl!",
+      "ru": "За здоровье! (с вином)",
+      "status": "new"
+    },
+    {
+      "id": "w-zur-arbeit-schule",
+      "lemma": "zur Arbeit/Schule",
+      "ru": "на работу / в школу",
+      "status": "new"
+    },
+    {
+      "id": "w-zur-miete-wohnen",
+      "lemma": "zur Miete wohnen",
+      "ru": "жить в съёмном жилье; снимать; жить в аренду",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zurueckfahren",
+      "lemma": "zurückfahren",
+      "ru": "ехать назад",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zweimal-in-der-woche-waesche-waschen",
+      "lemma": "zweimal in der Woche Wäsche waschen",
+      "ru": "два раза в неделю стирать бельё",
+      "status": "new"
+    },
+    {
+      "id": "w-zwiebel",
+      "lemma": "die Zwiebel",
+      "ru": "лук",
+      "status": "new"
+    },
+    {
+      "id": "w-zwischen",
+      "lemma": "zwischen",
+      "ru": "между",
+      "status": "new"
+    },
+    {
+      "id": "w-zwischenlandung",
+      "lemma": "die Zwischenlandung",
+      "ru": "пересадка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zypern",
+      "lemma": "Zypern",
+      "ru": "Кипр",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zaehne-putzen",
+      "lemma": "Zähne putzen",
+      "ru": "чистить зубы",
+      "status": "new"
+    },
+    {
+      "id": "w-oeffentliche-verkehrsmittel-nutzen",
+      "lemma": "öffentliche Verkehrsmittel nutzen",
+      "ru": "пользоваться общественным транспортом",
+      "status": "new"
+    },
+    {
+      "id": "w-oeffentliches-verkehrsmittel",
+      "lemma": "das öffentliches Verkehrsmittel",
+      "ru": "общественный транспорт",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-oel",
+      "lemma": "das Öl",
+      "ru": "растительное масло",
+      "status": "new"
+    },
+    {
+      "id": "w-oesterreich",
+      "lemma": "Österreich",
+      "ru": "Австрия",
+      "status": "new"
+    },
+    {
+      "id": "w-ueber",
+      "lemma": "über",
+      "ru": "над",
+      "status": "new"
+    },
+    {
+      "id": "w-ueber-mich",
+      "lemma": "Über mich",
+      "ru": "обо мне",
+      "status": "new"
+    },
+    {
+      "id": "w-ueber-wichtige-dinge-reden",
+      "lemma": "über wichtige Dinge reden",
+      "ru": "говорить о важных вещах",
+      "status": "new"
+    },
+    {
+      "id": "w-ueberall",
+      "lemma": "überall",
+      "ru": "повсюду",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-ueberhaupt",
+      "lemma": "überhaupt",
+      "ru": "вообще",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-uebernachten",
+      "lemma": "übernachten",
+      "ru": "ночевать; переночевать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-ueberrascht",
+      "lemma": "überrascht",
+      "ru": "удивленный",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-uebersetzen",
+      "lemma": "übersetzen",
+      "ru": "переводить",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-uebrigens",
+      "lemma": "übrigens",
+      "ru": "кстати",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-uebung",
+      "lemma": "die Übung",
+      "ru": "упражнение",
+      "status": "new"
+    },
+    {
+      "id": "w-ist-gut-prima-gelaufen",
+      "lemma": "… ist gut/prima gelaufen.",
+      "ru": "… прошло хорошо/отлично.",
+      "status": "new"
+    },
+    {
+      "id": "w-ist-sehr-weniger-beliebt",
+      "lemma": "… ist sehr/weniger beliebt.",
+      "ru": "… очень / менее популярно.",
+      "status": "new"
+    },
+    {
+      "id": "w-moegen-die-nicht-so",
+      "lemma": "… mögen die … nicht so.",
+      "ru": "… не очень любят …",
+      "status": "new"
+    },
+    {
+      "id": "w-von-100-mitarbeitern-finden-wichtig",
+      "lemma": "… von 100 Mitarbeitern finden … wichtig.",
+      "ru": "… из 100 сотрудников считают важным …",
+      "status": "new"
+    },
+    {
+      "id": "w-war-schrecklich",
+      "lemma": "… war schrecklich.",
+      "ru": "… было ужасно.",
       "status": "new"
     }
   ]

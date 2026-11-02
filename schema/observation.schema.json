@@ -19,7 +19,7 @@
     },
     "source": {
       "type": "string",
-      "pattern": "^(tutor_sticker|tutor_review|homework|lesson|chat|trainer:[a-z0-9-]+)$"
+      "pattern": "^(tutor_sticker|tutor_review|homework|lesson|chat|claude_review|trainer:[a-z0-9-]+)$"
     },
     "target": {
       "type": "object",
