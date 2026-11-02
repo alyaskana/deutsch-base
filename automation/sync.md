@@ -15,6 +15,7 @@ URL — sources.json, trainers.mein-deutsch. Прогресс: коллекци�
 ИСТОЧНИК 2. «Артикльный дождь» (Artikelregen)
 URL — trainers.artikelregen. Статистика: коллекция "data/users/me", документ "stats", поле w: {Слово: {ok, bad, t}}.
 - Сравни со stats_snapshot в sync.json. Прирост bad → наблюдения error, прирост ok → correct (не больше 3 записей каждого вида на слово за раз), source "trainer:artikelregen", target — слово в words.json (по лемме; нет — добавь существительное с артиклем и переводом), date — сегодня.
+- Первый запуск (stats_snapshot пустой): наблюдения по приросту не создавай. Для слов, которые сейчас слабые (bad > 0 и НЕ (ok >= 3 и ok >= bad*3)), добавь по одному наблюдению struggle без даты, note_ru «Слабое слово в Артикльном дожде на момент подключения». Затем сохрани снимок.
 - Сохрани новый снимок в stats_snapshot.
 
 ЗАВЕРШЕНИЕ
