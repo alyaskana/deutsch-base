@@ -1,0 +1,5 @@
+{
+  "window_days": 21,
+  "stuck": { "min_errors_in_window": 2, "correct_needed_after_flag": 3 },
+  "solid": { "last_n_correct": 5, "min_span_days": 7 }
+}

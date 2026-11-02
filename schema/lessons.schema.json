@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lessons.schema.json",
+  "title": "Журнал уроков",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "date"],
+    "properties": {
+      "id": { "$ref": "common.schema.json#/$defs/date" },
+      "date": { "$ref": "common.schema.json#/$defs/date" },
+      "modules": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+      "summary_ru": { "type": "string" },
+      "grammar": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+      "words": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+      "tasks_assigned": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+      "date_approx": { "type": "boolean", "description": "true — дата восстановлена приблизительно" }
+    },
+    "additionalProperties": false
+  }
+}

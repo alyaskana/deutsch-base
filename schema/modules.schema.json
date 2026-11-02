@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "modules.schema.json",
+  "title": "Модули доски",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "title", "order"],
+    "properties": {
+      "id": { "$ref": "common.schema.json#/$defs/id" },
+      "title": { "type": "string" },
+      "order": { "type": "integer", "description": "Порядок на доске" },
+      "topic_ru": { "type": "string" },
+      "level": { "$ref": "common.schema.json#/$defs/level" },
+      "grammar": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+      "progress": { "enum": ["not_started", "in_progress", "done"], "description": "Выполнение заданий, не усвоение" },
+      "archive_tab": { "type": "string", "description": "Вкладка в Claude Doc с полным текстом" }
+    },
+    "additionalProperties": false
+  }
+}

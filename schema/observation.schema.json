@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "observation.schema.json",
+  "title": "Наблюдение (одна строка observations.jsonl)",
+  "type": "object",
+  "required": ["id", "date", "source", "target", "result"],
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/id" },
+    "date": { "$ref": "common.schema.json#/$defs/date" },
+    "source": { "type": "string", "pattern": "^(tutor_sticker|tutor_review|homework|lesson|chat|trainer:[a-z0-9-]+)$" },
+    "target": {
+      "type": "object",
+      "required": ["type", "id"],
+      "properties": {
+        "type": { "enum": ["grammar", "word"] },
+        "id": { "$ref": "common.schema.json#/$defs/id" }
+      },
+      "additionalProperties": false
+    },
+    "result": { "enum": ["correct", "error", "struggle", "flagged"], "description": "flagged — репетитор отметила тему как слабую" },
+    "given": { "type": "string", "description": "Что ответила" },
+    "expected": { "type": "string", "description": "Как правильно" },
+    "note_ru": { "type": "string" },
+    "lesson": { "$ref": "common.schema.json#/$defs/date" },
+    "task": { "$ref": "common.schema.json#/$defs/id" }
+  },
+  "additionalProperties": false
+}

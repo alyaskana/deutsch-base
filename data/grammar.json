@@ -1,0 +1,17 @@
+[
+  {
+    "id": "wo-wohin",
+    "title_de": "Wechselpräpositionen: Wo? + Dativ / Wohin? + Akkusativ",
+    "title_ru": "Предлоги места: где — Dativ, куда — Akkusativ",
+    "level": "A1",
+    "category": "prepositions",
+    "rule_ru": "in, an, auf, unter, über, vor, hinter, neben, zwischen: место (Wo?) → Dativ, движение (Wohin?) → Akkusativ.",
+    "examples": [
+      { "de": "Das Buch liegt auf dem Tisch.", "ru": "Книга лежит на столе." },
+      { "de": "Ich lege das Buch auf den Tisch.", "ru": "Я кладу книгу на стол." }
+    ],
+    "related": ["liegen-legen"],
+    "covered_with_tutor": true,
+    "sources": [{ "module": "wohnen", "board_frame": "Wohnen ч. 3–4" }]
+  }
+]

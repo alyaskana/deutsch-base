@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "grammar.schema.json",
+  "title": "Грамматические темы",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "title_de", "title_ru", "level", "category"],
+    "properties": {
+      "id": { "$ref": "common.schema.json#/$defs/id" },
+      "title_de": { "type": "string" },
+      "title_ru": { "type": "string" },
+      "level": { "$ref": "common.schema.json#/$defs/level" },
+      "category": { "enum": ["verbs", "tenses", "cases", "articles", "pronouns", "prepositions", "adjectives", "word-order", "conjunctions", "numbers-time", "other"] },
+      "rule_ru": { "type": "string", "description": "Краткое правило своими словами" },
+      "examples": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/example" } },
+      "parent": { "$ref": "common.schema.json#/$defs/id", "description": "Более общая тема" },
+      "related": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+      "covered_with_tutor": { "type": "boolean", "description": "false — тема самостоятельная, «новое»" },
+      "sources": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/sourceRef" } }
+    },
+    "additionalProperties": false
+  }
+}

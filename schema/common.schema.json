@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "common.schema.json",
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+    "date": { "type": "string", "format": "date" },
+    "level": { "enum": ["A1", "A2", "B1"] },
+    "example": {
+      "type": "object",
+      "required": ["de"],
+      "properties": {
+        "de": { "type": "string" },
+        "ru": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "sourceRef": {
+      "type": "object",
+      "description": "Откуда взят материал",
+      "properties": {
+        "module": { "$ref": "#/$defs/id" },
+        "lesson": { "$ref": "#/$defs/date" },
+        "board_frame": { "type": "string" },
+        "by_claude": { "type": "boolean", "description": "true — перевод/пометка Claude, а не репетитора" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

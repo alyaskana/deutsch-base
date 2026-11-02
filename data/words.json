@@ -1,0 +1,23 @@
+[
+  {
+    "id": "w-abholen",
+    "lemma": "abholen",
+    "pos": "verb",
+    "ru": "забирать",
+    "with_prep": "von + Dat",
+    "governs": "Akk",
+    "verb_forms": { "present_3sg": "holt ab", "partizip2": "abgeholt", "aux": "haben", "separable_prefix": "ab", "strong": false },
+    "tags": ["arbeit"],
+    "sources": [{ "module": "woerter", "board_frame": "Б3, красный" }]
+  },
+  {
+    "id": "w-spiegel",
+    "lemma": "Spiegel",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Spiegel",
+    "ru": "зеркало",
+    "tags": ["wohnen"],
+    "sources": [{ "module": "woerter", "board_frame": "Б10", "by_claude": true }]
+  }
+]
