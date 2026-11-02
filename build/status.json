@@ -22,7 +22,7 @@
       "stuck": 0,
       "learning": 248,
       "solid": 0,
-      "new": 804
+      "new": 817
     }
   },
   "grammar": [
@@ -69,8 +69,8 @@
         "struggle": 1,
         "flagged": 1
       },
-      "last_date": null,
-      "last_result": "error"
+      "last_date": "2026-10-14",
+      "last_result": "flagged"
     },
     {
       "id": "praeteritum-war-hatte",
@@ -110,12 +110,12 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 1,
         "flagged": 0
       },
       "last_date": null,
-      "last_result": "struggle"
+      "last_result": "error"
     },
     {
       "id": "modal-wollen",
@@ -207,11 +207,11 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 2,
+        "error": 3,
         "struggle": 0,
         "flagged": 0
       },
-      "last_date": null,
+      "last_date": "2026-10-14",
       "last_result": "error"
     },
     {
@@ -244,12 +244,12 @@
       "status": "learning",
       "counts": {
         "correct": 2,
-        "error": 0,
+        "error": 1,
         "struggle": 0,
         "flagged": 0
       },
       "last_date": null,
-      "last_result": "correct"
+      "last_result": "error"
     },
     {
       "id": "personal-pronouns-dat",
@@ -279,8 +279,8 @@
         "struggle": 0,
         "flagged": 1
       },
-      "last_date": null,
-      "last_result": "correct"
+      "last_date": "2026-10-14",
+      "last_result": "flagged"
     },
     {
       "id": "wehtun-dativ",
@@ -302,7 +302,7 @@
         "struggle": 0,
         "flagged": 1
       },
-      "last_date": null,
+      "last_date": "2026-10-14",
       "last_result": "flagged"
     },
     {
@@ -314,12 +314,12 @@
       "reason": "отмечено репетитором, после этого верных: 0 из 3",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 0,
         "flagged": 1
       },
-      "last_date": null,
-      "last_result": "flagged"
+      "last_date": "2026-10-14",
+      "last_result": "error"
     },
     {
       "id": "articles-plural",
@@ -394,7 +394,7 @@
       "covered_with_tutor": true,
       "status": "learning",
       "counts": {
-        "correct": 3,
+        "correct": 2,
         "error": 4,
         "struggle": 2,
         "flagged": 0
@@ -452,8 +452,8 @@
         "struggle": 2,
         "flagged": 1
       },
-      "last_date": null,
-      "last_result": "error"
+      "last_date": "2026-10-14",
+      "last_result": "flagged"
     },
     {
       "id": "prepositions-by-case",
@@ -468,8 +468,8 @@
         "struggle": 1,
         "flagged": 1
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-10-14",
+      "last_result": "flagged"
     },
     {
       "id": "liegen-legen",
@@ -539,7 +539,7 @@
       "status": "learning",
       "counts": {
         "correct": 3,
-        "error": 2,
+        "error": 3,
         "struggle": 1,
         "flagged": 0
       },
@@ -604,7 +604,7 @@
         "struggle": 0,
         "flagged": 1
       },
-      "last_date": null,
+      "last_date": "2026-10-14",
       "last_result": "flagged"
     },
     {
@@ -630,7 +630,7 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 1,
+        "error": 3,
         "struggle": 0,
         "flagged": 0
       },
@@ -1069,6 +1069,12 @@
       "last_result": "struggle"
     },
     {
+      "id": "w-anrichte",
+      "lemma": "die Anrichte",
+      "ru": "буфет, сервант",
+      "status": "new"
+    },
+    {
       "id": "w-anrufen",
       "lemma": "anrufen",
       "ru": "звонить (кому-то); звонить; звонить (по телефону)",
@@ -1110,6 +1116,12 @@
       "id": "w-apfel",
       "lemma": "der Apfel",
       "ru": "яблоко",
+      "status": "new"
+    },
+    {
+      "id": "w-apotheke",
+      "lemma": "die Apotheke",
+      "ru": "аптека",
       "status": "new"
     },
     {
@@ -2133,6 +2145,12 @@
       "status": "new"
     },
     {
+      "id": "w-deckenleuchte",
+      "lemma": "die Deckenleuchte",
+      "ru": "потолочный светильник",
+      "status": "new"
+    },
+    {
       "id": "w-den-boden-fegen",
       "lemma": "den Boden fegen",
       "ru": "подметать пол",
@@ -2635,6 +2653,12 @@
       "status": "new"
     },
     {
+      "id": "w-einkaufsmoeglichkeit",
+      "lemma": "die Einkaufsmöglichkeit",
+      "ru": "возможность для покупок",
+      "status": "new"
+    },
+    {
       "id": "w-einladen",
       "lemma": "einladen",
       "ru": "приглашать",
@@ -2904,6 +2928,12 @@
       "id": "w-estland",
       "lemma": "Estland",
       "ru": "Эстония",
+      "status": "new"
+    },
+    {
+      "id": "w-etage",
+      "lemma": "die Etage",
+      "ru": "этаж",
       "status": "new"
     },
     {
@@ -4051,6 +4081,12 @@
       "status": "new"
     },
     {
+      "id": "w-hochhaus",
+      "lemma": "das Hochhaus",
+      "ru": "высотка",
+      "status": "new"
+    },
+    {
       "id": "w-hoffen",
       "lemma": "hoffen",
       "ru": "надеяться",
@@ -4319,6 +4355,12 @@
       "status": "new"
     },
     {
+      "id": "w-innenstadt",
+      "lemma": "die Innenstadt",
+      "ru": "центр города",
+      "status": "new"
+    },
+    {
       "id": "w-ins-fitnessstudio-gehen",
       "lemma": "ins Fitnessstudio gehen",
       "ru": "ходить в фитнес-зал",
@@ -4346,6 +4388,12 @@
       "id": "w-interessante-aufgaben",
       "lemma": "interessante Aufgaben",
       "ru": "интересные задачи",
+      "status": "new"
+    },
+    {
+      "id": "w-internet",
+      "lemma": "das Internet",
+      "ru": "интернет",
       "status": "new"
     },
     {
@@ -4641,6 +4689,12 @@
       },
       "last_date": null,
       "last_result": "struggle"
+    },
+    {
+      "id": "w-kauf",
+      "lemma": "der Kauf",
+      "ru": "покупка",
+      "status": "new"
     },
     {
       "id": "w-kaufen",
@@ -5236,6 +5290,12 @@
       "id": "w-meeting",
       "lemma": "das Meeting",
       "ru": "митинг, созвон",
+      "status": "new"
+    },
+    {
+      "id": "w-mehrfamilienhaus",
+      "lemma": "das Mehrfamilienhaus",
+      "ru": "многоквартирный дом",
       "status": "new"
     },
     {
@@ -7027,6 +7087,12 @@
       "status": "new"
     },
     {
+      "id": "w-stehlampe",
+      "lemma": "die Stehlampe",
+      "ru": "торшер",
+      "status": "new"
+    },
+    {
       "id": "w-stellen",
       "lemma": "stellen",
       "ru": "ставить",
@@ -7391,6 +7457,12 @@
       },
       "last_date": null,
       "last_result": "error"
+    },
+    {
+      "id": "w-treppe",
+      "lemma": "die Treppe",
+      "ru": "лестница",
+      "status": "new"
     },
     {
       "id": "w-trinken",
@@ -7985,6 +8057,12 @@
       },
       "last_date": null,
       "last_result": "struggle"
+    },
+    {
+      "id": "w-vorhang",
+      "lemma": "der Vorhang",
+      "ru": "штора",
+      "status": "new"
     },
     {
       "id": "w-vorlesungen-seminare-besuchen",
@@ -8773,14 +8851,8 @@
       "status": "new"
     },
     {
-      "id": "w-oeffentliche-verkehrsmittel-nutzen",
-      "lemma": "öffentliche Verkehrsmittel nutzen",
-      "ru": "пользоваться общественным транспортом",
-      "status": "new"
-    },
-    {
       "id": "w-oeffentliches-verkehrsmittel",
-      "lemma": "das öffentliches Verkehrsmittel",
+      "lemma": "das öffentliche Verkehrsmittel",
       "ru": "общественный транспорт",
       "status": "learning",
       "counts": {
@@ -8791,6 +8863,12 @@
       },
       "last_date": null,
       "last_result": "struggle"
+    },
+    {
+      "id": "w-oeffentliche-verkehrsmittel-nutzen",
+      "lemma": "öffentliche Verkehrsmittel nutzen",
+      "ru": "пользоваться общественным транспортом",
+      "status": "new"
     },
     {
       "id": "w-oel",

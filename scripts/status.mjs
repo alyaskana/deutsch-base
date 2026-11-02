@@ -14,7 +14,9 @@ const observations = readFileSync(join(root, "data/observations.jsonl"), "utf8")
   .split("\n").filter((l) => l.trim()).map((l) => JSON.parse(l));
 
 const argToday = process.argv.indexOf("--today");
-const today = argToday > 0 ? process.argv[argToday + 1] : new Date().toISOString().slice(0, 10);
+const berlinToday = () => new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Berlin" }).format(new Date());
+const today = argToday > 0 ? process.argv[argToday + 1] : berlinToday();
+if (!/^\d{4}-\d{2}-\d{2}$/.test(today ?? "")) { console.error("--today ожидает дату YYYY-MM-DD"); process.exit(1); }
 const DAY = 86400000;
 const daysBetween = (a, b) => (Date.parse(b) - Date.parse(a)) / DAY;
 
@@ -26,14 +28,14 @@ const isNegative = (o) => o.result === "error" || o.result === "struggle";
 export function computeStatus(obs, now = today, r = rules) {
   if (obs.length === 0) return { status: "new" };
   const sorted = [...obs].sort(byDate);
-  const inWindow = sorted.filter((o) => o.date && daysBetween(o.date, now) <= r.window_days);
+  const inWindow = sorted.filter((o) => { if (!o.date) return false; const d = daysBetween(o.date, now); return d >= 0 && d <= r.window_days; });
   const recentNegatives = inWindow.filter(isNegative).length;
 
   // Верные ответы засчитываются после отметки репетитора, только если у них есть дата позже отметки
   // (наблюдения без даты относятся к старому материалу и не «снимают» отметку).
-  const lastFlag = [...sorted].reverse().find((o) => o.result === "flagged");
-  const correctAfterFlag = lastFlag
-    ? sorted.filter((o) => o.result === "correct" && o.date && (!lastFlag.date || o.date > lastFlag.date)).length
+  const lastFlagIdx = sorted.map((o) => o.result).lastIndexOf("flagged");
+  const correctAfterFlag = lastFlagIdx >= 0
+    ? sorted.slice(lastFlagIdx + 1).filter((o) => o.result === "correct" && o.date).length
     : Infinity;
 
   const counts = {
@@ -77,7 +79,7 @@ const grammarStatus = grammar.map((g) => ({ id: g.id, title_ru: g.title_ru, leve
 const wordStatus = words.map((w) => ({ id: w.id, lemma: w.article ? `${w.article} ${w.lemma}` : w.lemma, ru: w.ru, ...computeStatus(wObs.get(w.id) ?? []) }));
 
 const unknown = observations.filter((o) => !(o.target.type === "grammar" ? grammar : words).some((x) => x.id === o.target.id));
-if (unknown.length) { console.error("Наблюдения ссылаются на несуществующие id:", unknown.map((o) => o.id)); process.exitCode = 1; }
+if (unknown.length) { console.error("Наблюдения ссылаются на несуществующие id:", unknown.map((o) => o.id)); process.exit(1); }
 
 const summary = (list) => Object.fromEntries(["stuck", "learning", "solid", "new"].map((s) => [s, list.filter((x) => x.status === s).length]));
 const out = { generated_for: today, rules, summary: { grammar: summary(grammarStatus), words: summary(wordStatus) }, grammar: grammarStatus, words: wordStatus };

@@ -316,14 +316,14 @@
     "module": "arbeit-2",
     "title": "Schreiben Sie eine E-Mail an Max Münzer. Verschieben Sie einen Termin.",
     "kind": "writing",
-    "status": "done",
+    "status": "todo",
     "grammar": [
       "email-format",
       "time-prepositions"
     ],
     "answer": "Liebe Frau Müller, Danke für Ihre E-mail. Ja, ich kann den Termin verschieben, kein Problem. Ich habe Zeit am 20. Mai von 10.00 Uhr bis 13.00 Uhr. Mit besten Grüßen Frau Hauptmann",
     "archive_tab": "Arbeit Teil 2",
-    "description_ru": "Написан ответ от имени Frau Hauptmann на письмо из предыдущего задания, а не письмо Max Münzer по опорным пунктам. Пометок нет."
+    "description_ru": "Написан ответ от имени Frau Hauptmann на письмо из предыдущего задания, а не письмо Max Münzer по опорным пунктам. Пометок нет. Написан ответ от лица Frau Hauptmann вместо письма Максу Мюнцеру — задание по условию не выполнено."
   },
   {
     "id": "t-arbeit-2-nachrichten-telefone",
@@ -603,7 +603,7 @@
     "id": "t-einkaufen-fragen-muessen",
     "module": "einkaufen",
     "title": "5. Устные вопросы с müssen",
-    "status": "done",
+    "status": "todo",
     "kind": "speaking",
     "grammar": [
       "modal-muessen"
@@ -628,7 +628,7 @@
     "id": "t-einkaufen-dialog-boutique",
     "module": "einkaufen",
     "title": "7. Диалог в магазине одежды: Secondhandladen / Boutique",
-    "status": "done",
+    "status": "todo",
     "kind": "speaking",
     "description_ru": "ролевой диалог покупатель–продавец по фразам-опорам (устно)",
     "archive_tab": "Einkaufen"
@@ -724,7 +724,7 @@
     "id": "t-einkaufen-fragen-komparativ",
     "module": "einkaufen",
     "title": "10. Устные вопросы с Komparativ",
-    "status": "done",
+    "status": "todo",
     "kind": "speaking",
     "grammar": [
       "komparativ-superlativ"
@@ -736,7 +736,7 @@
     "id": "t-einkaufen-wer-ist-besser",
     "module": "einkaufen",
     "title": "11. Wer ist besser?",
-    "status": "done",
+    "status": "todo",
     "kind": "speaking",
     "grammar": [
       "komparativ-superlativ"
@@ -2647,7 +2647,7 @@
     "kind": "gap-fill",
     "status": "checked",
     "answer": "fahre, habe, stehe, finden, arbeite, mag",
-    "correction": "Синий «+», исправлений нет.",
+    "correction": "Исправлений репетитора нет; Claude: (2) и (4) перепутаны — Das finde ich… / haben wir absolute Ruhe",
     "archive_tab": "Wohnen · 3 из 5"
   },
   {
@@ -2854,7 +2854,7 @@
     "status": "todo",
     "assigned": "2026-10-09",
     "archive_tab": "Wohnen · 4 из 5",
-    "description_ru": "Аудио CD 2/43 (на доске нет); нарисовать маршрут на карте — не нарисован."
+    "description_ru": "Аудио CD 2/43 (на доске нет); нарисовать маршрут на карте — не нарисован. Дата назначения выведена из сводки урока 9 октября."
   },
   {
     "id": "t-wohnen-weg-zur-arbeit",
@@ -2864,7 +2864,7 @@
     "status": "todo",
     "assigned": "2026-10-09",
     "archive_tab": "Wohnen · 4 из 5",
-    "description_ru": "Устно; следов нет."
+    "description_ru": "Устно; следов нет. Дата назначения выведена из сводки урока 9 октября."
   },
   {
     "id": "t-wohnen-weg-zum-geschaeft",
@@ -2874,7 +2874,7 @@
     "status": "todo",
     "assigned": "2026-10-09",
     "archive_tab": "Wohnen · 4 из 5",
-    "description_ru": "Устно; следов нет."
+    "description_ru": "Устно; следов нет. Дата назначения выведена из сводки урока 9 октября."
   },
   {
     "id": "t-wohnen-wegbeschreibung-frankfurt",

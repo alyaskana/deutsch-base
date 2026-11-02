@@ -1029,6 +1029,26 @@
       {
         "module": "woerter",
         "board_frame": "Б8"
+      },
+      {
+        "module": "einkaufen"
+      }
+    ]
+  },
+  {
+    "id": "w-anrichte",
+    "lemma": "Anrichte",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Anrichten",
+    "ru": "буфет, сервант",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
       }
     ]
   },
@@ -1215,6 +1235,22 @@
       }
     ],
     "plural": "Äpfel"
+  },
+  {
+    "id": "w-apotheke",
+    "lemma": "Apotheke",
+    "pos": "noun",
+    "article": "die",
+    "ru": "аптека",
+    "tags": [
+      "einkaufen"
+    ],
+    "sources": [
+      {
+        "module": "einkaufen"
+      }
+    ],
+    "plural": "Apotheken"
   },
   {
     "id": "w-app",
@@ -4037,6 +4073,23 @@
     ]
   },
   {
+    "id": "w-deckenleuchte",
+    "lemma": "Deckenleuchte",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Deckenleuchten",
+    "ru": "потолочный светильник",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
+      }
+    ]
+  },
+  {
     "id": "w-den-boden-fegen",
     "lemma": "den Boden fegen",
     "pos": "phrase",
@@ -4742,7 +4795,8 @@
     "verb_forms": {
       "present_3sg": "darf",
       "praeteritum": "durfte",
-      "aux": "haben"
+      "aux": "haben",
+      "partizip2": "gedurft"
     },
     "examples": [
       {
@@ -5250,6 +5304,23 @@
         "module": "gesundheit",
         "board_frame": "задания 1–3, 5a (свободное время)",
         "by_claude": true
+      }
+    ]
+  },
+  {
+    "id": "w-einkaufsmoeglichkeit",
+    "lemma": "Einkaufsmöglichkeit",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Einkaufsmöglichkeiten",
+    "ru": "возможность для покупок",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
       }
     ]
   },
@@ -5962,6 +6033,23 @@
       {
         "module": "warm-ups",
         "board_frame": "Europa (словарь, с. 322)"
+      }
+    ]
+  },
+  {
+    "id": "w-etage",
+    "lemma": "Etage",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Etagen",
+    "ru": "этаж",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
       }
     ]
   },
@@ -7466,7 +7554,8 @@
         "module": "woerter",
         "board_frame": "Б6"
       }
-    ]
+    ],
+    "plural": "Gehälter"
   },
   {
     "id": "w-geheimnis",
@@ -8201,6 +8290,9 @@
       {
         "module": "woerter",
         "board_frame": "Б8"
+      },
+      {
+        "module": "einkaufen"
       }
     ],
     "source_text": "die Größe, -n"
@@ -8981,6 +9073,23 @@
     ]
   },
   {
+    "id": "w-hochhaus",
+    "lemma": "Hochhaus",
+    "pos": "noun",
+    "article": "das",
+    "plural": "Hochhäuser",
+    "ru": "высотка",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
+      }
+    ]
+  },
+  {
     "id": "w-hoffen",
     "lemma": "hoffen",
     "pos": "verb",
@@ -9708,6 +9817,23 @@
     ]
   },
   {
+    "id": "w-innenstadt",
+    "lemma": "Innenstadt",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Innenstädte",
+    "ru": "центр города",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
+      }
+    ]
+  },
+  {
     "id": "w-ins-fitnessstudio-gehen",
     "lemma": "ins Fitnessstudio gehen",
     "pos": "phrase",
@@ -9788,6 +9914,21 @@
         "module": "arbeit-2",
         "board_frame": "Was finden Sie wichtig? / Statistik",
         "by_claude": true
+      }
+    ]
+  },
+  {
+    "id": "w-internet",
+    "lemma": "Internet",
+    "pos": "noun",
+    "article": "das",
+    "ru": "интернет",
+    "tags": [
+      "einkaufen"
+    ],
+    "sources": [
+      {
+        "module": "einkaufen"
       }
     ]
   },
@@ -10465,6 +10606,22 @@
         "by_claude": true
       }
     ]
+  },
+  {
+    "id": "w-kauf",
+    "lemma": "Kauf",
+    "pos": "noun",
+    "article": "der",
+    "ru": "покупка",
+    "tags": [
+      "einkaufen"
+    ],
+    "sources": [
+      {
+        "module": "einkaufen"
+      }
+    ],
+    "plural": "Käufe"
   },
   {
     "id": "w-kaufen",
@@ -11932,6 +12089,9 @@
         "module": "warm-ups",
         "board_frame": "Wohnen: подсказка у Katharina",
         "by_claude": true
+      },
+      {
+        "module": "wohnen"
       }
     ]
   },
@@ -12204,6 +12364,23 @@
         "module": "dein-tag",
         "board_frame": "dein Tag: предложения Алины",
         "by_claude": true
+      }
+    ]
+  },
+  {
+    "id": "w-mehrfamilienhaus",
+    "lemma": "Mehrfamilienhaus",
+    "pos": "noun",
+    "article": "das",
+    "plural": "Mehrfamilienhäuser",
+    "ru": "многоквартирный дом",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
       }
     ]
   },
@@ -12878,7 +13055,8 @@
       "present_3sg": "mag",
       "praeteritum": "mochte",
       "aux": "haben",
-      "strong": true
+      "strong": true,
+      "partizip2": "gemocht"
     },
     "examples": [
       {
@@ -14486,7 +14664,6 @@
     "lemma": "reden",
     "pos": "verb",
     "with_prep": "über + Akk",
-    "governs": "Akk",
     "verb_forms": {
       "present_3sg": "redet",
       "praeteritum": "redete",
@@ -15167,7 +15344,7 @@
     "lemma": "Schal",
     "pos": "noun",
     "article": "der",
-    "plural": "Schale",
+    "plural": "Schals",
     "ru": "шарф",
     "tags": [
       "kleidung"
@@ -16867,7 +17044,6 @@
     "lemma": "Sportkleidung",
     "pos": "noun",
     "article": "die",
-    "plural": "Sportkleidungen",
     "ru": "спортивная одежда",
     "tags": [
       "kleidung"
@@ -17083,6 +17259,23 @@
       {
         "module": "wohnen",
         "board_frame": "Часть 3, глаголы положения (Dat/Akk)"
+      }
+    ]
+  },
+  {
+    "id": "w-stehlampe",
+    "lemma": "Stehlampe",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Stehlampen",
+    "ru": "торшер",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
       }
     ]
   },
@@ -17975,6 +18168,23 @@
     ]
   },
   {
+    "id": "w-treppe",
+    "lemma": "Treppe",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Treppen",
+    "ru": "лестница",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
+      }
+    ]
+  },
+  {
     "id": "w-trinken",
     "lemma": "trinken",
     "pos": "verb",
@@ -18534,7 +18744,6 @@
         "by_claude": true
       }
     ],
-    "plural": "Unterrichte",
     "source_text": "der unterricht, e"
   },
   {
@@ -19377,7 +19586,7 @@
     "lemma": "vor",
     "pos": "prep",
     "ru": "перед; … назад",
-    "governs": "Akk+Dat",
+    "governs": "Dat",
     "examples": [
       {
         "de": "Der Kundenservice war vor sechs Monaten in der Firma."
@@ -19418,7 +19627,7 @@
       }
     ],
     "source_text": "vor; nach",
-    "with_prep": "время: всегда Dat (vor einer Woche); место: Wo? Dat / Wohin? Akk"
+    "with_prep": "временной: всегда Dat (vor einer Woche); как предлог места — Wo? Dat / Wohin? Akk"
   },
   {
     "id": "w-vor-allem",
@@ -19510,6 +19719,23 @@
       {
         "module": "wohnen",
         "board_frame": "Заметки на полях, обл. 29 (стикеры справа от Wohnen)"
+      }
+    ]
+  },
+  {
+    "id": "w-vorhang",
+    "lemma": "Vorhang",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Vorhänge",
+    "ru": "штора",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "wohnen",
+        "board_frame": "Часть 3"
       }
     ]
   },
@@ -21611,6 +21837,25 @@
     ]
   },
   {
+    "id": "w-oeffentliches-verkehrsmittel",
+    "lemma": "öffentliche Verkehrsmittel",
+    "pos": "noun",
+    "article": "das",
+    "ru": "общественный транспорт",
+    "tags": [
+      "transport",
+      "woerter"
+    ],
+    "sources": [
+      {
+        "module": "woerter",
+        "board_frame": "Б3"
+      }
+    ],
+    "source_text": "das öffentliche Verkehrsmittel",
+    "plural": "öffentliche Verkehrsmittel"
+  },
+  {
     "id": "w-oeffentliche-verkehrsmittel-nutzen",
     "lemma": "öffentliche Verkehrsmittel nutzen",
     "pos": "phrase",
@@ -21626,24 +21871,6 @@
         "by_claude": true
       }
     ]
-  },
-  {
-    "id": "w-oeffentliches-verkehrsmittel",
-    "lemma": "öffentliches Verkehrsmittel",
-    "pos": "noun",
-    "article": "das",
-    "ru": "общественный транспорт",
-    "tags": [
-      "transport",
-      "woerter"
-    ],
-    "sources": [
-      {
-        "module": "woerter",
-        "board_frame": "Б3"
-      }
-    ],
-    "source_text": "das öffentliche Verkehrsmittel"
   },
   {
     "id": "w-oel",

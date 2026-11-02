@@ -68,6 +68,10 @@
     },
     "module": {
       "$ref": "common.schema.json#/$defs/id"
+    },
+    "date_approx": {
+      "type": "boolean",
+      "description": "Дата восстановлена приблизительно"
     }
   },
   "additionalProperties": false
