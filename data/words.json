@@ -22188,5 +22188,261 @@
         "by_claude": true
       }
     ]
+  },
+  {
+    "id": "w-kajuete",
+    "lemma": "Kajüte",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Kajüten",
+    "ru": "каюта",
+    "tags": [
+      "segeln"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Mein Deutsch, урок «Segeln in Griechenland» → An Bord",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-steuer-boot",
+    "lemma": "Steuer",
+    "pos": "noun",
+    "article": "das",
+    "plural": "Steuer",
+    "ru": "штурвал, руль (на судне)",
+    "tags": [
+      "segeln"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Mein Deutsch, урок «Segeln in Griechenland» → An Bord",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-wind",
+    "lemma": "Wind",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Winde",
+    "ru": "ветер",
+    "tags": [
+      "segeln",
+      "wetter"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Mein Deutsch, урок «Segeln in Griechenland» → An Bord",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-mast",
+    "lemma": "Mast",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Masten",
+    "ru": "мачта",
+    "tags": [
+      "segeln"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Mein Deutsch, урок «Segeln in Griechenland» → An Bord",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-bucht",
+    "lemma": "Bucht",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Buchten",
+    "ru": "бухта",
+    "tags": [
+      "segeln"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Mein Deutsch, урок «Segeln in Griechenland» → An Bord",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-schildkroete",
+    "lemma": "Schildkröte",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Schildkröten",
+    "ru": "черепаха",
+    "tags": [
+      "segeln",
+      "tiere"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Mein Deutsch, урок «Segeln in Griechenland» → An Bord",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-muschel",
+    "lemma": "Muschel",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Muscheln",
+    "ru": "ракушка",
+    "tags": [
+      "segeln",
+      "meer"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Mein Deutsch, урок «Segeln in Griechenland» → An Bord",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-insel",
+    "lemma": "Insel",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Inseln",
+    "ru": "остров",
+    "tags": [
+      "segeln",
+      "reisen"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Mein Deutsch, урок «Segeln in Griechenland» → An Bord",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-segel",
+    "lemma": "Segel",
+    "pos": "noun",
+    "article": "das",
+    "plural": "Segel",
+    "ru": "парус",
+    "tags": [
+      "segeln"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Mein Deutsch, урок «Segeln in Griechenland» → An Bord",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-bericht",
+    "lemma": "Bericht",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Berichte",
+    "ru": "отчёт",
+    "tags": [
+      "arbeit"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Artikelregen",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-feier",
+    "lemma": "Feier",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Feiern",
+    "ru": "праздник, вечеринка",
+    "tags": [
+      "freizeit"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Artikelregen",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-nacht",
+    "lemma": "Nacht",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Nächte",
+    "ru": "ночь",
+    "tags": [
+      "zeit"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Artikelregen",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-schuessel",
+    "lemma": "Schüssel",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Schüsseln",
+    "ru": "миска",
+    "tags": [
+      "kueche"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Artikelregen",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
+  },
+  {
+    "id": "w-zoo",
+    "lemma": "Zoo",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Zoos",
+    "ru": "зоопарк",
+    "tags": [
+      "freizeit"
+    ],
+    "sources": [
+      {
+        "board_frame": "Тренажёр Artikelregen",
+        "by_claude": true
+      }
+    ],
+    "added": "2026-11-03"
   }
 ]

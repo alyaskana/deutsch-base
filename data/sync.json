@@ -1,10 +1,211 @@
 {
   "mein_deutsch": {
-    "last_sync": null,
-    "synced_runs": {}
+    "last_sync": "2026-11-03",
+    "synced_runs": {
+      "meer-museum": 1,
+      "possessiv-abrikos": 1,
+      "segeln-griechenland~an-bord": 1,
+      "segeln-griechenland~die-reise": 1,
+      "segeln-griechenland~perfekt": 1,
+      "segeln-griechenland~wo-wohin": 1,
+      "segeln-perfekt": 1,
+      "wg-regeln": 1,
+      "wo-wohin": 1
+    }
   },
   "artikelregen": {
-    "last_sync": null,
-    "stats_snapshot": {}
+    "last_sync": "2026-11-03",
+    "stats_snapshot": {
+      "Anrufbeantworter": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023283159
+      },
+      "Apotheke": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023397953
+      },
+      "Baby": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792022534391
+      },
+      "Bericht": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1792023289526
+      },
+      "Bluse": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023388934
+      },
+      "Brötchen": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1792023417723
+      },
+      "Büro": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023387150
+      },
+      "Chef": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023393117
+      },
+      "Couch": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1791984884562
+      },
+      "Ecke": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792022539091
+      },
+      "Ehefrau": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023280690
+      },
+      "Einfamilienhaus": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023286392
+      },
+      "Feier": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1792023413838
+      },
+      "Fluss": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023391301
+      },
+      "Heimatland": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1792022571046
+      },
+      "Karte": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023409554
+      },
+      "Leberwurst": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1792023276007
+      },
+      "Mango": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792022547009
+      },
+      "Medikament": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1791984901678
+      },
+      "Mund": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1791984882345
+      },
+      "Nacht": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1792022552326
+      },
+      "Papier": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792022549142
+      },
+      "Pilz": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1792022556977
+      },
+      "Rezeption": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023394885
+      },
+      "Rückflug": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023380200
+      },
+      "Schild": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792022542542
+      },
+      "Schuhschrank": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023265755
+      },
+      "Schüssel": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1792023269823
+      },
+      "Sonne": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023401903
+      },
+      "Spiel": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792022565595
+      },
+      "Studium": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023407954
+      },
+      "Taxi": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1791984899211
+      },
+      "Unterricht": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1791984890078
+      },
+      "Vorstellung": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023403770
+      },
+      "Wein": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792023400169
+      },
+      "Zeitschrift": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1791984894703
+      },
+      "Zoo": {
+        "bad": 1,
+        "ok": 0,
+        "t": 1792023383366
+      },
+      "Zwischenlandung": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1792022562645
+      }
+    }
   }
 }

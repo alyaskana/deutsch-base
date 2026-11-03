@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-11-02",
+  "generated_for": "2026-11-03",
   "rules": {
     "window_days": 21,
     "stuck": {
@@ -13,16 +13,16 @@
   },
   "summary": {
     "grammar": {
-      "stuck": 7,
-      "learning": 30,
+      "stuck": 8,
+      "learning": 29,
       "solid": 0,
       "new": 8
     },
     "words": {
       "stuck": 0,
-      "learning": 248,
+      "learning": 269,
       "solid": 0,
-      "new": 817
+      "new": 810
     }
   },
   "grammar": [
@@ -31,14 +31,15 @@
       "title_ru": "Прошедшее время Perfekt",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "learning",
+      "status": "stuck",
+      "reason": "8 ошибок/затруднений за 21 дн.",
       "counts": {
-        "correct": 4,
-        "error": 4,
+        "correct": 5,
+        "error": 12,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
+      "last_date": "2026-10-31",
       "last_result": "error"
     },
     {
@@ -95,12 +96,12 @@
       "status": "learning",
       "counts": {
         "correct": 1,
-        "error": 0,
+        "error": 1,
         "struggle": 0,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "correct"
+      "last_date": "2026-10-21",
+      "last_result": "error"
     },
     {
       "id": "modal-koennen",
@@ -272,15 +273,15 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "reason": "6 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 1,
-        "error": 10,
+        "error": 16,
         "struggle": 0,
         "flagged": 1
       },
-      "last_date": "2026-10-14",
-      "last_result": "flagged"
+      "last_date": "2026-10-31",
+      "last_result": "error"
     },
     {
       "id": "wehtun-dativ",
@@ -445,15 +446,15 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "reason": "отмечено репетитором, после этого верных: 2 из 3",
       "counts": {
-        "correct": 0,
+        "correct": 2,
         "error": 1,
         "struggle": 2,
         "flagged": 1
       },
-      "last_date": "2026-10-14",
-      "last_result": "flagged"
+      "last_date": "2026-10-31",
+      "last_result": "correct"
     },
     {
       "id": "prepositions-by-case",
@@ -553,13 +554,13 @@
       "covered_with_tutor": true,
       "status": "learning",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 1,
         "struggle": 2,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "error"
+      "last_date": "2026-11-02",
+      "last_result": "correct"
     },
     {
       "id": "conj-dann-darum",
@@ -568,13 +569,13 @@
       "covered_with_tutor": true,
       "status": "learning",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 1,
         "struggle": 2,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "error"
+      "last_date": "2026-11-02",
+      "last_result": "correct"
     },
     {
       "id": "indirect-questions",
@@ -1940,7 +1941,15 @@
       "id": "w-broetchen",
       "lemma": "das Brötchen",
       "ru": "булочка",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "w-buch",
@@ -2024,7 +2033,15 @@
       "id": "w-couch",
       "lemma": "die Couch",
       "ru": "диван",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "w-croissant",
@@ -3980,7 +3997,15 @@
       "id": "w-heimatland",
       "lemma": "das Heimatland",
       "ru": "родная страна",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "w-heizung",
@@ -5058,7 +5083,15 @@
       "id": "w-leberwurst",
       "lemma": "die Leberwurst",
       "ru": "ливерная колбаса",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "w-leer",
@@ -5284,7 +5317,15 @@
       "id": "w-medikament",
       "lemma": "das Medikament",
       "ru": "лекарство",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "w-meeting",
@@ -5996,7 +6037,15 @@
       "id": "w-pilz",
       "lemma": "der Pilz",
       "ru": "гриб",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "w-pizza",
@@ -8614,7 +8663,15 @@
       "id": "w-zeitschrift",
       "lemma": "die Zeitschrift",
       "ru": "журнал",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     },
     {
       "id": "w-zeitung",
@@ -9019,6 +9076,202 @@
       "lemma": "… war schrecklich.",
       "ru": "… было ужасно.",
       "status": "new"
+    },
+    {
+      "id": "w-kajuete",
+      "lemma": "die Kajüte",
+      "ru": "каюта",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-10-31",
+      "last_result": "error"
+    },
+    {
+      "id": "w-steuer-boot",
+      "lemma": "das Steuer",
+      "ru": "штурвал, руль (на судне)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-10-31",
+      "last_result": "error"
+    },
+    {
+      "id": "w-wind",
+      "lemma": "der Wind",
+      "ru": "ветер",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-10-31",
+      "last_result": "error"
+    },
+    {
+      "id": "w-mast",
+      "lemma": "der Mast",
+      "ru": "мачта",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-10-31",
+      "last_result": "error"
+    },
+    {
+      "id": "w-bucht",
+      "lemma": "die Bucht",
+      "ru": "бухта",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-10-31",
+      "last_result": "error"
+    },
+    {
+      "id": "w-schildkroete",
+      "lemma": "die Schildkröte",
+      "ru": "черепаха",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-10-31",
+      "last_result": "error"
+    },
+    {
+      "id": "w-muschel",
+      "lemma": "die Muschel",
+      "ru": "ракушка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-10-31",
+      "last_result": "error"
+    },
+    {
+      "id": "w-insel",
+      "lemma": "die Insel",
+      "ru": "остров",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-10-31",
+      "last_result": "error"
+    },
+    {
+      "id": "w-segel",
+      "lemma": "das Segel",
+      "ru": "парус",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-10-31",
+      "last_result": "error"
+    },
+    {
+      "id": "w-bericht",
+      "lemma": "der Bericht",
+      "ru": "отчёт",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-feier",
+      "lemma": "die Feier",
+      "ru": "праздник, вечеринка",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-nacht",
+      "lemma": "die Nacht",
+      "ru": "ночь",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-schuessel",
+      "lemma": "die Schüssel",
+      "ru": "миска",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zoo",
+      "lemma": "der Zoo",
+      "ru": "зоопарк",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": null,
+      "last_result": "struggle"
     }
   ]
 }
