@@ -22444,5 +22444,245 @@
       }
     ],
     "added": "2026-11-03"
+  },
+  {
+    "id": "w-alltag",
+    "lemma": "Alltag",
+    "pos": "noun",
+    "article": "der",
+    "plural": null,
+    "ru": "будни, повседневная жизнь",
+    "tags": [
+      "alltag"
+    ],
+    "examples": [
+      {
+        "de": "Deutsch braucht er vor allem für den Alltag."
+      }
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "стикер «der Alltag — будни»"
+      }
+    ]
+  },
+  {
+    "id": "w-vorlesung",
+    "lemma": "Vorlesung",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Vorlesungen",
+    "ru": "лекция",
+    "tags": [
+      "studium"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "стикер «die Vorlesung, en — лекция»"
+      }
+    ]
+  },
+  {
+    "id": "w-zum-glueck",
+    "lemma": "zum Glück",
+    "pos": "phrase",
+    "ru": "к счастью",
+    "tags": [
+      "alltag"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "стикер у «Alltag»"
+      }
+    ]
+  },
+  {
+    "id": "w-plaudern",
+    "lemma": "plaudern",
+    "pos": "verb",
+    "ru": "болтать",
+    "with_prep": "mit + Dat",
+    "tags": [
+      "alltag",
+      "freizeit"
+    ],
+    "examples": [
+      {
+        "de": "mit Freunden plaudern",
+        "ru": "болтать с друзьями"
+      }
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "стикер у «Alltag»"
+      }
+    ]
+  },
+  {
+    "id": "w-niemand",
+    "lemma": "niemand",
+    "pos": "pron",
+    "ru": "никто",
+    "tags": [
+      "alltag"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "стикер «niemand = nobody»"
+      }
+    ]
+  },
+  {
+    "id": "w-wechseln",
+    "lemma": "wechseln",
+    "pos": "verb",
+    "ru": "менять, поменять",
+    "governs": "Akk",
+    "tags": [
+      "wohnen"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "стикер «wechseln akk — поменять» у «Richte dein Zimmer ein»"
+      }
+    ]
+  },
+  {
+    "id": "w-ingenieurin",
+    "lemma": "Ingenieurin",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Ingenieurinnen",
+    "ru": "инженер (женщина)",
+    "tags": [
+      "arbeit",
+      "berufe"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "Hören Sie und ergänzen Sie die Informationen"
+      }
+    ]
+  },
+  {
+    "id": "w-konzern",
+    "lemma": "Konzern",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Konzerne",
+    "ru": "концерн, крупная компания",
+    "tags": [
+      "arbeit"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "Hören Sie und ergänzen Sie die Informationen",
+        "by_claude": true
+      }
+    ]
+  },
+  {
+    "id": "w-norden",
+    "lemma": "Norden",
+    "pos": "noun",
+    "article": "der",
+    "plural": null,
+    "ru": "север",
+    "tags": [
+      "geografie"
+    ],
+    "examples": [
+      {
+        "de": "Lille ist im Norden von Frankreich."
+      }
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "Hören Sie und ergänzen Sie die Informationen",
+        "by_claude": true
+      }
+    ]
+  },
+  {
+    "id": "w-hobby",
+    "lemma": "Hobby",
+    "pos": "noun",
+    "article": "das",
+    "plural": "Hobbys",
+    "ru": "хобби",
+    "tags": [
+      "freizeit"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "Hören Sie und ergänzen Sie die Informationen",
+        "by_claude": true
+      }
+    ]
+  },
+  {
+    "id": "w-handball",
+    "lemma": "Handball",
+    "pos": "noun",
+    "article": "der",
+    "plural": null,
+    "ru": "гандбол",
+    "tags": [
+      "freizeit",
+      "sport"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "Hören Sie und ergänzen Sie die Informationen",
+        "by_claude": true
+      }
+    ]
+  },
+  {
+    "id": "w-englisch-sprache",
+    "lemma": "Englisch",
+    "pos": "noun",
+    "article": "das",
+    "plural": null,
+    "ru": "английский язык",
+    "tags": [
+      "sprachen"
+    ],
+    "examples": [
+      {
+        "de": "auf Englisch",
+        "ru": "на английском"
+      }
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "board_frame": "Hören Sie und ergänzen Sie die Informationen",
+        "by_claude": true
+      }
+    ]
   }
 ]

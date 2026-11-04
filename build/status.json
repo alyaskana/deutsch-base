@@ -14,15 +14,15 @@
   "summary": {
     "grammar": {
       "stuck": 8,
-      "learning": 29,
+      "learning": 30,
       "solid": 0,
       "new": 8
     },
     "words": {
-      "stuck": 0,
-      "learning": 269,
+      "stuck": 1,
+      "learning": 277,
       "solid": 0,
-      "new": 810
+      "new": 813
     }
   },
   "grammar": [
@@ -644,6 +644,21 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "new"
+    },
+    {
+      "id": "noun-capitalization",
+      "title_ru": "Существительные с заглавной буквы",
+      "level": "A1",
+      "covered_with_tutor": false,
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "error"
     }
   ],
   "words": [
@@ -721,7 +736,15 @@
       "id": "w-abonnement",
       "lemma": "das Abonnement",
       "ru": "подписка",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "struggle"
     },
     {
       "id": "w-absagen",
@@ -3145,7 +3168,15 @@
       "id": "w-faulenzen",
       "lemma": "faulenzen",
       "ru": "бездельничать",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "struggle"
     },
     {
       "id": "w-fenster",
@@ -3463,10 +3494,10 @@
       "counts": {
         "correct": 0,
         "error": 0,
-        "struggle": 1,
+        "struggle": 2,
         "flagged": 0
       },
-      "last_date": null,
+      "last_date": "2026-11-04",
       "last_result": "struggle"
     },
     {
@@ -9272,6 +9303,135 @@
       },
       "last_date": null,
       "last_result": "struggle"
+    },
+    {
+      "id": "w-alltag",
+      "lemma": "der Alltag",
+      "ru": "будни, повседневная жизнь",
+      "status": "stuck",
+      "reason": "2 ошибок/затруднений за 21 дн.",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-vorlesung",
+      "lemma": "die Vorlesung",
+      "ru": "лекция",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-zum-glueck",
+      "lemma": "zum Glück",
+      "ru": "к счастью",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-plaudern",
+      "lemma": "plaudern",
+      "ru": "болтать",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-niemand",
+      "lemma": "niemand",
+      "ru": "никто",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-wechseln",
+      "lemma": "wechseln",
+      "ru": "менять, поменять",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 0,
+        "struggle": 1,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "struggle"
+    },
+    {
+      "id": "w-ingenieurin",
+      "lemma": "die Ingenieurin",
+      "ru": "инженер (женщина)",
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-04",
+      "last_result": "correct"
+    },
+    {
+      "id": "w-konzern",
+      "lemma": "der Konzern",
+      "ru": "концерн, крупная компания",
+      "status": "new"
+    },
+    {
+      "id": "w-norden",
+      "lemma": "der Norden",
+      "ru": "север",
+      "status": "new"
+    },
+    {
+      "id": "w-hobby",
+      "lemma": "das Hobby",
+      "ru": "хобби",
+      "status": "new"
+    },
+    {
+      "id": "w-handball",
+      "lemma": "der Handball",
+      "ru": "гандбол",
+      "status": "new"
+    },
+    {
+      "id": "w-englisch-sprache",
+      "lemma": "das Englisch",
+      "ru": "английский язык",
+      "status": "new"
     }
   ]
 }

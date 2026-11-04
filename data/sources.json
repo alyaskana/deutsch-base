@@ -13,7 +13,7 @@
       "title": "A2",
       "url": "https://miro.com/app/board/uXjVEbOuTqE=/",
       "status": "current",
-      "access": "нет доступа через коннектор; материал приходит скриншотами"
+      "access": "коннектор Miro не читает; по просьбе Алины Claude открывает доску в её браузере (Claude in Chrome) и снимает фрагментами"
     }
   ],
   "archive_doc": "https://claude.ai/code/artifact/41c37460-0ae4-4d1d-8d30-d71410aee138",

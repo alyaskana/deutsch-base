@@ -3197,5 +3197,19 @@
     "answer": "Ich möchte nach Australien fahren, denn möchte das Great Barrier Reef sehen. Das ist mein Traum. Dort möchte ich mit einem Boot fahren und i… Meer tauchen.",
     "correction": "denn → denn ich möchte; i… Meer → ins Meer (приписка «Куда? Akk»)",
     "archive_tab": "Заметки на полях доски"
+  },
+  {
+    "id": "t-was-man-so-macht-hoeren-ira-pierre",
+    "module": "was-man-so-macht",
+    "title": "Hören Sie und ergänzen Sie die Informationen (Ira, Pierre)",
+    "kind": "listening",
+    "homework": false,
+    "status": "checked",
+    "grammar": [
+      "noun-capitalization"
+    ],
+    "answer": "Ira: ingenieurin, keinen sport, Am wochenende. Pierre: aus, norden, studiert, englisch, Konzern, alltag, einkaufen, hobby, handball",
+    "correction": "Репетитор не правила. Claude: Ingenieurin, keinen Sport, Am Wochenende, Norden, auf Englisch, für den Alltag, zum Einkaufen, sein Hobby, Handball — существительные с заглавной; у Alltag пропущен артикль den",
+    "description_ru": "Аудирование: заполнить анкеты Ira и Pierre. Смысл везде верный, ошибки только в написании."
   }
 ]

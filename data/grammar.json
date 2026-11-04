@@ -931,5 +931,38 @@
         "module": "gesundheit"
       }
     ]
+  },
+  {
+    "id": "noun-capitalization",
+    "title_de": "Großschreibung der Nomen",
+    "title_ru": "Существительные с заглавной буквы",
+    "level": "A1",
+    "category": "other",
+    "rule_ru": "Все существительные пишутся с заглавной — и после предлога, и в устойчивых выражениях: am Wochenende, auf Englisch, im Norden. Глагол, ставший существительным, тоже с заглавной: zum Einkaufen.",
+    "examples": [
+      {
+        "de": "Am Wochenende läuft sie durch den Park.",
+        "ru": "По выходным она бегает в парке."
+      },
+      {
+        "de": "Er macht seinen Master auf Englisch.",
+        "ru": "Он учится в магистратуре на английском."
+      },
+      {
+        "de": "Er braucht Deutsch zum Einkaufen.",
+        "ru": "Немецкий нужен ему для покупок."
+      }
+    ],
+    "related": [
+      "noun-gender"
+    ],
+    "covered_with_tutor": false,
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "lesson": "2026-11-04",
+        "by_claude": true
+      }
+    ]
   }
 ]
