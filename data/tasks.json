@@ -3205,11 +3205,9 @@
     "kind": "listening",
     "homework": false,
     "status": "checked",
-    "grammar": [
-      "noun-capitalization"
-    ],
+    "grammar": [],
     "answer": "Ira: ingenieurin, keinen sport, Am wochenende. Pierre: aus, norden, studiert, englisch, Konzern, alltag, einkaufen, hobby, handball",
-    "correction": "Репетитор не правила. Claude: Ingenieurin, keinen Sport, Am Wochenende, Norden, auf Englisch, für den Alltag, zum Einkaufen, sein Hobby, Handball — существительные с заглавной; у Alltag пропущен артикль den",
+    "correction": "Репетитор не правила. Существительные с маленькой буквы (norden, englisch, alltag…) не считаем ошибкой — решение Алины: на занятиях для жизни это прощается, заглавные будем править прицельно позже. Отдельно: у Alltag пропущен артикль (für den Alltag).",
     "description_ru": "Аудирование: заполнить анкеты Ira и Pierre. Смысл везде верный, ошибки только в написании."
   }
 ]

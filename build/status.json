@@ -14,9 +14,9 @@
   "summary": {
     "grammar": {
       "stuck": 8,
-      "learning": 30,
+      "learning": 29,
       "solid": 0,
-      "new": 8
+      "new": 9
     },
     "words": {
       "stuck": 1,
@@ -650,15 +650,7 @@
       "title_ru": "Существительные с заглавной буквы",
       "level": "A1",
       "covered_with_tutor": false,
-      "status": "learning",
-      "counts": {
-        "correct": 0,
-        "error": 1,
-        "struggle": 0,
-        "flagged": 0
-      },
-      "last_date": "2026-11-04",
-      "last_result": "error"
+      "status": "new"
     }
   ],
   "words": [
