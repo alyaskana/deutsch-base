@@ -1,0 +1,278 @@
+{
+  "createdAt": "2026-10-15",
+  "order": 6,
+  "stages": [
+    {
+      "color": "sun",
+      "count": 8,
+      "items": [
+        [
+          "der",
+          "Kühlschrank",
+          "холодильник"
+        ],
+        [
+          "die",
+          "Waschmaschine",
+          "стиральная машина"
+        ],
+        [
+          "das",
+          "Bett",
+          "кровать"
+        ],
+        [
+          "der",
+          "Tisch",
+          "стол"
+        ],
+        [
+          "die",
+          "Küche",
+          "кухня"
+        ],
+        [
+          "das",
+          "Bad",
+          "ванная"
+        ],
+        [
+          "der",
+          "Staubsauger",
+          "пылесос"
+        ],
+        [
+          "die",
+          "Spülmaschine",
+          "посудомойка"
+        ],
+        [
+          "das",
+          "Fenster",
+          "окно"
+        ],
+        [
+          "der",
+          "Müll",
+          "мусор"
+        ],
+        [
+          "die",
+          "Wohnung",
+          "квартира"
+        ],
+        [
+          "das",
+          "Sofa",
+          "диван"
+        ],
+        [
+          "der",
+          "Schrank",
+          "шкаф"
+        ],
+        [
+          "die",
+          "Lampe",
+          "лампа"
+        ],
+        [
+          "das",
+          "Zimmer",
+          "комната"
+        ],
+        [
+          "der",
+          "Teppich",
+          "ковёр"
+        ],
+        [
+          "die",
+          "Treppe",
+          "лестница"
+        ],
+        [
+          "der",
+          "Balkon",
+          "балкон"
+        ],
+        [
+          "das",
+          "Regal",
+          "полка"
+        ],
+        [
+          "die",
+          "Dusche",
+          "душ"
+        ],
+        [
+          "der",
+          "Herd",
+          "плита"
+        ],
+        [
+          "die",
+          "Pfanne",
+          "сковорода"
+        ],
+        [
+          "das",
+          "Geschirr",
+          "посуда"
+        ],
+        [
+          "der",
+          "Flur",
+          "коридор"
+        ],
+        [
+          "die",
+          "Miete",
+          "аренда"
+        ],
+        [
+          "das",
+          "Waschbecken",
+          "раковина"
+        ]
+      ],
+      "shape": "flower",
+      "sub": "der, die или das: 8 слов из темы",
+      "theory": {
+        "ex": [
+          [
+            "der Kühlschrank → der Schrank",
+            "в составном слове род по последнему слову"
+          ],
+          [
+            "das Seepferdchen",
+            "-chen → всегда das"
+          ]
+        ],
+        "p": [
+          "Род нужно учить вместе со словом, но окончание часто подсказывает.",
+          "Если сомневаешься: слова на <b>-e</b> чаще всего <b>die</b>."
+        ],
+        "t": "Род по окончанию",
+        "tab": [
+          [
+            "der",
+            "die",
+            "das"
+          ],
+          [
+            "-ling, -ich, -ig, -er (люди, профессии: der Lehrer)",
+            "-e, -ung, -heit, -keit",
+            "-chen, -lein (уменьшит.)"
+          ],
+          [
+            "-ist, -ent, -ant, -ismus",
+            "-schaft, -ion, -tät, -ei",
+            "-um, -ment, -nis"
+          ],
+          [
+            "дни, месяцы, стороны света",
+            "-ik, -ur, -enz, -ie",
+            "-zeug, -tum, Ge-…"
+          ]
+        ]
+      },
+      "title": "Artikel-Sprint",
+      "type": "sprint"
+    },
+    {
+      "color": "pink",
+      "items": [
+        {
+          "aux": "habe",
+          "i": "putzen",
+          "p": "geputzt",
+          "ru": "убирать, мыть",
+          "s": "Ich ___ das Bad ___."
+        },
+        {
+          "aux": "habe",
+          "i": "waschen",
+          "p": "gewaschen",
+          "ru": "стирать",
+          "s": "Ich ___ die Wäsche ___."
+        },
+        {
+          "aux": "habe",
+          "i": "aufräumen",
+          "p": "aufgeräumt",
+          "ru": "прибираться",
+          "s": "Ich ___ mein Zimmer ___."
+        },
+        {
+          "aux": "bin",
+          "i": "einziehen",
+          "p": "eingezogen",
+          "ru": "въезжать",
+          "s": "Ich ___ im Mai ___."
+        },
+        {
+          "aux": "habe",
+          "i": "schlafen",
+          "p": "geschlafen",
+          "ru": "спать",
+          "s": "Ich ___ lange ___."
+        },
+        {
+          "aux": "bin",
+          "i": "gehen",
+          "p": "gegangen",
+          "ru": "идти",
+          "s": "Ich ___ zum Supermarkt ___."
+        },
+        {
+          "aux": "habe",
+          "i": "bringen",
+          "p": "gebracht",
+          "ru": "приносить",
+          "s": "Ich ___ den Müll nach unten ___."
+        }
+      ],
+      "shape": "square",
+      "sub": "haben или sein + Partizip II",
+      "theory": {
+        "ex": [
+          [
+            "Ich <b>bin</b> früh <b>aufgestanden</b>.",
+            "Я рано встала."
+          ],
+          [
+            "Wir <b>haben</b> Fisch <b>gegessen</b>.",
+            "Мы ели рыбу."
+          ]
+        ],
+        "p": [
+          "Прошедшее время в разговоре: <b>haben / sein</b> на 2-м месте + <b>Partizip II</b> в конце.",
+          "<b>sein</b> — движение из точки А в Б или изменение состояния (gehen, fahren, fliegen, schwimmen, aufstehen, werden, bleiben). Все остальные — <b>haben</b>.",
+          "Partizip: слабые <b>ge-…-t</b> (gemacht), сильные <b>ge-…-en</b>, часто с другой гласной (gefunden). Отделяемая приставка — перед ge: auf<b>ge</b>standen."
+        ],
+        "t": "Perfekt",
+        "tab": [
+          [
+            "",
+            "Пример"
+          ],
+          [
+            "haben",
+            "Ich <b>habe</b> das Bad <b>geputzt</b>."
+          ],
+          [
+            "sein",
+            "Wir <b>sind</b> nach Ithaka <b>gesegelt</b>."
+          ]
+        ]
+      },
+      "title": "Perfekt-Blitz",
+      "type": "perfekt"
+    }
+  ],
+  "sub": "Артикли для дома и Perfekt про уборку.",
+  "title": "Haushalt",
+  "topic": "Wohnen"
+}

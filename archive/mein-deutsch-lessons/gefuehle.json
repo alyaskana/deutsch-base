@@ -1,0 +1,268 @@
+{
+  "createdAt": "2026-10-21",
+  "order": -2,
+  "stages": [
+    {
+      "color": "coral",
+      "items": [
+        {
+          "a": "müde",
+          "l": "Hey, wie geht's dir heute?",
+          "n": "Плохо спала → <b>müde</b> (уставшая).",
+          "o": [
+            "müde",
+            "begeistert",
+            "glücklich"
+          ],
+          "tr": "— Привет, как ты сегодня? — Честно говоря, я устала. Я плохо спала.",
+          "y": "Ehrlich gesagt bin ich ___. Ich habe schlecht geschlafen."
+        },
+        {
+          "a": "denn",
+          "l": "Oh nein. Möchtest du einen Kaffee?",
+          "n": "Причина с прямым порядком (ich muss) → <b>denn</b>.",
+          "o": [
+            "denn",
+            "deshalb",
+            "sondern"
+          ],
+          "tr": "— Ой, нет. Хочешь кофе? — Да, с удовольствием, потому что мне сегодня ещё много работать.",
+          "y": "Ja, gern, ___ ich muss heute noch viel arbeiten."
+        },
+        {
+          "a": "deshalb",
+          "l": "Warum hast du denn schlecht geschlafen?",
+          "n": "Глагол <b>bin</b> сразу после союза → <b>deshalb</b>.",
+          "o": [
+            "deshalb",
+            "denn",
+            "aber"
+          ],
+          "tr": "— А почему ты плохо спала? — Мой кот ночью играл, поэтому я часто просыпалась.",
+          "y": "Mein Kater hat nachts gespielt, ___ bin ich oft aufgewacht."
+        },
+        {
+          "a": "sondern",
+          "l": "Haha, typisch Katze. Bist du jetzt böse auf ihn?",
+          "n": "После отрицания (nicht böse) — «а» → <b>sondern</b>.",
+          "o": [
+            "sondern",
+            "aber",
+            "oder"
+          ],
+          "tr": "— Ха-ха, типично для кошки. Ты теперь на него злишься? — Нет, я не злюсь, а просто немного не в духе.",
+          "y": "Nein, ich bin nicht böse, ___ nur ein bisschen grantig."
+        },
+        {
+          "a": "aber",
+          "l": "Heute Abend gehe ich ins Kino. Kommst du mit?",
+          "n": "Звучит здорово, <b>но</b>… → aber.",
+          "o": [
+            "aber",
+            "denn",
+            "oder"
+          ],
+          "tr": "— Сегодня вечером я иду в кино. Пойдёшь со мной? — Звучит здорово, но я слишком устала.",
+          "y": "Klingt toll, ___ ich bin zu müde."
+        },
+        {
+          "a": "besorgt",
+          "l": "Schade! Am Samstag zeige ich dir einen Film über Haie.",
+          "n": "<b>besorgt</b> — встревоженная, переживаю.",
+          "o": [
+            "besorgt",
+            "fröhlich",
+            "gelangweilt"
+          ],
+          "tr": "— Жаль! В субботу я покажу тебе фильм про акул. — Ой, нет, акулы! Тут я всегда немного переживаю.",
+          "y": "Oh nein, Haie! Da bin ich immer ein bisschen ___."
+        }
+      ],
+      "partner": {
+        "color": "sun",
+        "name": "Mia, коллега",
+        "shape": "flower"
+      },
+      "shape": "circle",
+      "sub": "Отвечай коллеге: эмоции и союзы",
+      "theory": {
+        "ex": [
+          [
+            "Ich bleibe zu Hause, <b>denn</b> ich <b>bin</b> müde.",
+            "…потому что я устала."
+          ],
+          [
+            "Ich bin müde, <b>deshalb bleibe</b> ich zu Hause.",
+            "…поэтому я остаюсь дома."
+          ]
+        ],
+        "p": [
+          "<b>aber, denn, und, sondern, oder</b> стоят на «нулевом» месте: после них прямой порядок, подлежащее и потом глагол.",
+          "<b>deshalb</b> (поэтому) занимает 1-е место сам — значит, глагол идёт сразу за ним.",
+          "<b>denn</b> — причина, <b>deshalb</b> — следствие. <b>sondern</b> — «а» только после nicht/kein."
+        ],
+        "t": "ADUSO и deshalb",
+        "tab": [
+          [
+            "0",
+            "1",
+            "2",
+            "…"
+          ],
+          [
+            "denn",
+            "ich",
+            "liebe",
+            "das Meer"
+          ],
+          [
+            "",
+            "deshalb",
+            "sind",
+            "wir ins Museum gegangen"
+          ]
+        ]
+      },
+      "title": "Кофе с Мией",
+      "type": "chat"
+    },
+    {
+      "color": "teal",
+      "items": [
+        {
+          "a": "denn",
+          "n": "Порядок прямой (ich wohne) → <b>denn</b>.",
+          "o": [
+            "denn",
+            "deshalb"
+          ],
+          "ru": "Я учу немецкий, потому что живу в Берлине.",
+          "s": "Ich lerne Deutsch, ___ ich wohne in Berlin."
+        },
+        {
+          "a": "deshalb",
+          "n": "Глагол сразу после союза → <b>deshalb</b>.",
+          "o": [
+            "deshalb",
+            "denn"
+          ],
+          "ru": "Я живу в Берлине, поэтому учу немецкий.",
+          "s": "Ich wohne in Berlin, ___ lerne ich Deutsch."
+        },
+        {
+          "a": "sondern",
+          "n": "После kein/nicht замена → <b>sondern</b>.",
+          "o": [
+            "sondern",
+            "aber"
+          ],
+          "ru": "Я пью не кофе, а чай.",
+          "s": "Ich trinke keinen Kaffee, ___ Tee."
+        },
+        {
+          "a": "aber",
+          "n": "Отрицания нет → <b>aber</b>.",
+          "o": [
+            "aber",
+            "sondern"
+          ],
+          "ru": "Фильм был длинный, но очень хороший.",
+          "s": "Der Film war lang, ___ sehr gut."
+        },
+        {
+          "a": "oder",
+          "n": "Выбор → <b>oder</b>.",
+          "o": [
+            "oder",
+            "und"
+          ],
+          "ru": "Хочешь чай или кофе?",
+          "s": "Möchtest du Tee ___ Kaffee?"
+        },
+        {
+          "a": "selten",
+          "n": "Раз в год → <b>selten</b> (редко).",
+          "o": [
+            "selten",
+            "oft",
+            "immer"
+          ],
+          "ru": "Я редко хожу в кино, может, раз в год.",
+          "s": "Ich gehe ___ ins Kino, vielleicht einmal im Jahr."
+        },
+        {
+          "a": "Leider",
+          "n": "<b>leider</b> — к сожалению. Наречие на 1-м месте → глагол ist сразу за ним.",
+          "o": [
+            "Leider",
+            "Natürlich",
+            "Gern"
+          ],
+          "ru": "Холодно. К сожалению, отопление сломалось.",
+          "s": "Es ist kalt. ___ ist die Heizung kaputt."
+        },
+        {
+          "a": "sondern",
+          "n": "nicht … <b>sondern</b>.",
+          "o": [
+            "sondern",
+            "aber",
+            "denn"
+          ],
+          "ru": "Мне не грустно, а наоборот — я счастлива.",
+          "s": "Ich bin nicht traurig, ___ glücklich."
+        }
+      ],
+      "shape": "diamond",
+      "sub": "ADUSO, deshalb и частые наречия",
+      "theory": {
+        "ex": [
+          [
+            "Ich bleibe zu Hause, <b>denn</b> ich <b>bin</b> müde.",
+            "…потому что я устала."
+          ],
+          [
+            "Ich bin müde, <b>deshalb bleibe</b> ich zu Hause.",
+            "…поэтому я остаюсь дома."
+          ],
+          [
+            "selten · oft · immer · manchmal",
+            "редко · часто · всегда · иногда"
+          ]
+        ],
+        "p": [
+          "<b>aber, denn, und, sondern, oder</b> стоят на «нулевом» месте: после них прямой порядок, подлежащее и потом глагол.",
+          "<b>deshalb</b> (поэтому) занимает 1-е место сам — значит, глагол идёт сразу за ним.",
+          "<b>denn</b> — причина, <b>deshalb</b> — следствие. <b>sondern</b> — «а» только после nicht/kein.",
+          "Наречие на 1-м месте (leider, heute, oft) работает как deshalb: глагол сразу за ним. <b>Leider ist</b> die Heizung kaputt."
+        ],
+        "t": "ADUSO и deshalb",
+        "tab": [
+          [
+            "0",
+            "1",
+            "2",
+            "…"
+          ],
+          [
+            "denn",
+            "ich",
+            "liebe",
+            "das Meer"
+          ],
+          [
+            "",
+            "deshalb",
+            "sind",
+            "wir ins Museum gegangen"
+          ]
+        ]
+      },
+      "title": "Слова-связки",
+      "type": "choice"
+    }
+  ],
+  "sub": "Болтовня с коллегой: müde, grantig, besorgt — и aber, denn, sondern, deshalb.",
+  "title": "Wie geht's dir?",
+  "topic": "Эмоции · Союзы"
+}

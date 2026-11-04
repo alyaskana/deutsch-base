@@ -1,0 +1,355 @@
+{
+  "createdAt": "2026-10-21",
+  "order": -1,
+  "stages": [
+    {
+      "color": "blue",
+      "count": 12,
+      "items": [
+        [
+          "der",
+          "Krake",
+          "осьминог"
+        ],
+        [
+          "der",
+          "Seestern",
+          "морская звезда"
+        ],
+        [
+          "die",
+          "Qualle",
+          "медуза"
+        ],
+        [
+          "das",
+          "Seepferdchen",
+          "морской конёк"
+        ],
+        [
+          "die",
+          "Krabbe",
+          "краб"
+        ],
+        [
+          "der",
+          "Hummer",
+          "омар"
+        ],
+        [
+          "die",
+          "Garnele",
+          "креветка"
+        ],
+        [
+          "die",
+          "Auster",
+          "устрица"
+        ],
+        [
+          "die",
+          "Muschel",
+          "ракушка, мидия"
+        ],
+        [
+          "der",
+          "Rochen",
+          "скат"
+        ],
+        [
+          "der",
+          "Aal",
+          "угорь"
+        ],
+        [
+          "der",
+          "Clownfisch",
+          "рыба-клоун"
+        ],
+        [
+          "der",
+          "Seeigel",
+          "морской ёж"
+        ],
+        [
+          "die",
+          "Seegurke",
+          "морской огурец"
+        ],
+        [
+          "der",
+          "Seelöwe",
+          "морской лев"
+        ],
+        [
+          "das",
+          "Walross",
+          "морж"
+        ],
+        [
+          "die",
+          "Seekuh",
+          "ламантин"
+        ],
+        [
+          "die",
+          "Robbe",
+          "тюлень"
+        ],
+        [
+          "die",
+          "Koralle",
+          "коралл"
+        ],
+        [
+          "das",
+          "Korallenriff",
+          "коралловый риф"
+        ],
+        [
+          "die",
+          "Alge",
+          "водоросль"
+        ],
+        [
+          "die",
+          "Seeanemone",
+          "актиния"
+        ],
+        [
+          "der",
+          "Kugelfisch",
+          "рыба-фугу"
+        ],
+        [
+          "der",
+          "Lachs",
+          "лосось"
+        ],
+        [
+          "der",
+          "Hai",
+          "акула"
+        ],
+        [
+          "der",
+          "Wal",
+          "кит"
+        ],
+        [
+          "der",
+          "Delfin",
+          "дельфин"
+        ],
+        [
+          "die",
+          "Schildkröte",
+          "черепаха"
+        ],
+        [
+          "das",
+          "Meer",
+          "море"
+        ],
+        [
+          "der",
+          "Strand",
+          "пляж"
+        ],
+        [
+          "die",
+          "Welle",
+          "волна"
+        ],
+        [
+          "das",
+          "Schiff",
+          "корабль"
+        ],
+        [
+          "der",
+          "Leuchtturm",
+          "маяк"
+        ],
+        [
+          "der",
+          "Taucher",
+          "дайвер"
+        ]
+      ],
+      "shape": "cloud",
+      "sub": "der, die или das: 12 жителей моря",
+      "theory": {
+        "ex": [
+          [
+            "der Kühlschrank → der Schrank",
+            "в составном слове род по последнему слову"
+          ],
+          [
+            "das Seepferdchen",
+            "-chen → всегда das"
+          ]
+        ],
+        "p": [
+          "Род нужно учить вместе со словом, но окончание часто подсказывает.",
+          "Если сомневаешься: слова на <b>-e</b> чаще всего <b>die</b>."
+        ],
+        "t": "Род по окончанию",
+        "tab": [
+          [
+            "der",
+            "die",
+            "das"
+          ],
+          [
+            "-ling, -ich, -ig, -er (люди, профессии: der Lehrer)",
+            "-e, -ung, -heit, -keit",
+            "-chen, -lein (уменьшит.)"
+          ],
+          [
+            "-ist, -ent, -ant, -ismus",
+            "-schaft, -ion, -tät, -ei",
+            "-um, -ment, -nis"
+          ],
+          [
+            "дни, месяцы, стороны света",
+            "-ik, -ur, -enz, -ie",
+            "-zeug, -tum, Ge-…"
+          ]
+        ]
+      },
+      "title": "Meerestiere",
+      "type": "sprint"
+    },
+    {
+      "color": "sun",
+      "items": [
+        {
+          "a": "ans",
+          "n": "Куда? an + das = <b>ans</b> (Akk.).",
+          "o": [
+            "ans",
+            "am"
+          ],
+          "ru": "На выходных мы едем на море.",
+          "s": "Wir fahren am Wochenende ___ Meer."
+        },
+        {
+          "a": "am",
+          "n": "liegen — где? an + dem = <b>am</b>.",
+          "o": [
+            "am",
+            "an den"
+          ],
+          "ru": "Мы весь день лежим на пляже.",
+          "s": "Wir liegen den ganzen Tag ___ Strand."
+        },
+        {
+          "a": "ins",
+          "n": "Движение — куда? → <b>ins</b>.",
+          "o": [
+            "ins",
+            "im"
+          ],
+          "ru": "Я прыгаю в воду.",
+          "s": "Ich springe ___ Wasser."
+        },
+        {
+          "a": "im",
+          "n": "Плавает там, где есть — <b>im</b> (Dat.).",
+          "o": [
+            "im",
+            "ins"
+          ],
+          "ru": "Рыба плавает в воде.",
+          "s": "Der Fisch schwimmt ___ Wasser."
+        },
+        {
+          "a": "auf dem",
+          "n": "sitzen — где? der Stein → <b>auf dem</b>.",
+          "o": [
+            "auf dem",
+            "auf den"
+          ],
+          "ru": "Краб сидит на камне.",
+          "s": "Die Krabbe sitzt ___ Stein."
+        },
+        {
+          "a": "auf den",
+          "n": "Движение наверх — куда? → <b>auf den</b> (Akk.).",
+          "o": [
+            "auf den",
+            "auf dem"
+          ],
+          "ru": "Морская звезда залезает на камень.",
+          "s": "Der Seestern klettert ___ Stein."
+        },
+        {
+          "a": "an der",
+          "n": "stehen — где? die Küste → <b>an der</b>.",
+          "o": [
+            "an der",
+            "an die"
+          ],
+          "ru": "Маяк стоит на берегу.",
+          "s": "Der Leuchtturm steht ___ Küste."
+        },
+        {
+          "a": "zum",
+          "n": "Направление к цели → zu + dem = <b>zum</b> (das Korallenriff; zu всегда Dativ).",
+          "o": [
+            "zum",
+            "zur"
+          ],
+          "ru": "Дайвер ныряет к коралловому рифу.",
+          "s": "Der Taucher taucht ___ Korallenriff."
+        }
+      ],
+      "shape": "penta",
+      "sub": "Где или куда?",
+      "theory": {
+        "ex": [
+          [
+            "Ich lege das Buch <b>ins</b> Regal.",
+            "Кладу книгу на полку (куда?)"
+          ],
+          [
+            "Das Buch liegt <b>im</b> Regal.",
+            "Книга лежит на полке (где?)"
+          ]
+        ],
+        "p": [
+          "<b>Wo?</b> (где?) — место, без движения → <b>Dativ</b>: stehen, liegen, sitzen, hängen (висеть).",
+          "<b>Wohin?</b> (куда?) — движение к месту → <b>Akkusativ</b>: stellen, legen, setzen, hängen (повесить), gehen.",
+          "<b>zu</b> всегда с Dativ, даже на «куда»: zum Kino, zur Apotheke."
+        ],
+        "t": "Wo? или Wohin?",
+        "tab": [
+          [
+            "",
+            "der",
+            "die",
+            "das"
+          ],
+          [
+            "Wo? Dat",
+            "im / am / auf dem",
+            "in der / an der",
+            "im / am"
+          ],
+          [
+            "Wohin? Akk",
+            "in den / an den",
+            "in die / an die",
+            "ins / ans / aufs"
+          ]
+        ]
+      },
+      "title": "Am Meer",
+      "type": "choice"
+    }
+  ],
+  "sub": "Морские жители на скорость и wo/wohin на пляже и под водой.",
+  "title": "Unter Wasser",
+  "topic": "Слова · Море"
+}

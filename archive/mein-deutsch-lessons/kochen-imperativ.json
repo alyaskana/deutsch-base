@@ -1,0 +1,235 @@
+{
+  "createdAt": "2026-10-15",
+  "order": 5,
+  "stages": [
+    {
+      "color": "sun",
+      "count": 8,
+      "items": [
+        [
+          "die",
+          "Heißluftfritteuse",
+          "аэрогриль"
+        ],
+        [
+          "der",
+          "Lachs",
+          "лосось"
+        ],
+        [
+          "die",
+          "Süßkartoffel",
+          "батат"
+        ],
+        [
+          "das",
+          "Hähnchen",
+          "курица"
+        ],
+        [
+          "der",
+          "Spinat",
+          "шпинат"
+        ],
+        [
+          "die",
+          "Soße",
+          "соус"
+        ],
+        [
+          "der",
+          "Frischkäse",
+          "творожный сыр"
+        ],
+        [
+          "das",
+          "Gewürz",
+          "специя"
+        ],
+        [
+          "die",
+          "Zucchini",
+          "кабачок"
+        ],
+        [
+          "der",
+          "Pilz",
+          "гриб"
+        ],
+        [
+          "das",
+          "Waffeleisen",
+          "вафельница"
+        ],
+        [
+          "die",
+          "Pfanne",
+          "сковорода"
+        ],
+        [
+          "der",
+          "Honig",
+          "мёд"
+        ],
+        [
+          "das",
+          "Ei",
+          "яйцо"
+        ]
+      ],
+      "shape": "flower",
+      "sub": "der, die или das: 8 слов с кухни",
+      "theory": {
+        "ex": [
+          [
+            "der Kühlschrank → der Schrank",
+            "в составном слове род по последнему слову"
+          ],
+          [
+            "das Seepferdchen",
+            "-chen → всегда das"
+          ]
+        ],
+        "p": [
+          "Род нужно учить вместе со словом, но окончание часто подсказывает.",
+          "Если сомневаешься: слова на <b>-e</b> чаще всего <b>die</b>."
+        ],
+        "t": "Род по окончанию",
+        "tab": [
+          [
+            "der",
+            "die",
+            "das"
+          ],
+          [
+            "-ling, -ich, -ig, -er (люди, профессии: der Lehrer)",
+            "-e, -ung, -heit, -keit",
+            "-chen, -lein (уменьшит.)"
+          ],
+          [
+            "-ist, -ent, -ant, -ismus",
+            "-schaft, -ion, -tät, -ei",
+            "-um, -ment, -nis"
+          ],
+          [
+            "дни, месяцы, стороны света",
+            "-ik, -ur, -enz, -ie",
+            "-zeug, -tum, Ge-…"
+          ]
+        ]
+      },
+      "title": "Küchen-Artikel",
+      "type": "sprint"
+    },
+    {
+      "color": "violet",
+      "items": [
+        {
+          "a": [
+            "Schneid",
+            "Schneide"
+          ],
+          "hint": "schneiden →",
+          "n": "du schneidest → без -st: <b>Schneid!</b> (можно Schneide!)",
+          "ru": "Нарежь кабачок кружочками! (schneiden)",
+          "s": "___ die Zucchini in Scheiben!"
+        },
+        {
+          "a": [
+            "Leg",
+            "Lege"
+          ],
+          "hint": "legen →",
+          "n": "<b>Leg!</b> И заметь: Wohin? in + Akkusativ → in <b>die</b> Fritteuse.",
+          "ru": "Положи лосося в аэрогриль! (legen)",
+          "s": "___ den Lachs in die Heißluftfritteuse!"
+        },
+        {
+          "a": [
+            "Stell",
+            "Stelle"
+          ],
+          "hint": "stellen →",
+          "n": "du stellst → <b>Stell!</b>",
+          "ru": "Поставь аэрогриль на 200 градусов! (stellen)",
+          "s": "___ die Fritteuse auf 200 Grad!"
+        },
+        {
+          "a": [
+            "Gib"
+          ],
+          "hint": "geben →",
+          "n": "Сильный: du gibst → <b>Gib!</b> Гласная e → i остаётся.",
+          "ru": "Дай мне, пожалуйста, соус! (geben)",
+          "s": "___ mir bitte die Soße!"
+        },
+        {
+          "a": [
+            "Nimm"
+          ],
+          "hint": "nehmen →",
+          "n": "Сильный: du nimmst → <b>Nimm!</b>",
+          "ru": "Возьми творожный сыр из холодильника! (nehmen)",
+          "s": "___ den Frischkäse aus dem Kühlschrank!"
+        },
+        {
+          "a": [
+            "Dreh",
+            "Drehe"
+          ],
+          "hint": "umdrehen →",
+          "n": "Отделяемая приставка уходит в конец: <b>Dreh</b> … <b>um</b>!",
+          "ru": "Переверни курицу через 10 минут! (umdrehen)",
+          "s": "___ das Hähnchen nach 10 Minuten um!"
+        }
+      ],
+      "shape": "diamond",
+      "sub": "Скажи на «ты»: что сделать",
+      "theory": {
+        "ex": [
+          [
+            "<b>Gib</b> das Öl in die Pfanne!",
+            "Налей масло на сковородку."
+          ]
+        ],
+        "p": [
+          "Глагол на 1-м месте. Подлежащее есть только в вежливой форме <b>Sie</b>.",
+          "<b>du</b>: форма с du без du и без -st: du schneidest → <b>Schneid(e)!</b> Умлаут уходит: du fährst → <b>Fahr!</b>",
+          "Отделяемая приставка — в конец: <b>Dreh</b> das Hähnchen <b>um</b>!"
+        ],
+        "t": "Imperativ",
+        "tab": [
+          [
+            "",
+            "kochen",
+            "nehmen",
+            "sein"
+          ],
+          [
+            "du",
+            "Koch!",
+            "Nimm!",
+            "Sei!"
+          ],
+          [
+            "ihr",
+            "Kocht!",
+            "Nehmt!",
+            "Seid!"
+          ],
+          [
+            "Sie",
+            "Kochen Sie!",
+            "Nehmen Sie!",
+            "Seien Sie!"
+          ]
+        ]
+      },
+      "title": "Imperativ",
+      "type": "type"
+    }
+  ],
+  "sub": "Артикли с кухни и Imperativ: командуй своему аэрогрилю.",
+  "title": "Kochen mit der Heißluftfritteuse",
+  "topic": "Imperativ"
+}
