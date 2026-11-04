@@ -25,6 +25,11 @@
     "artikelregen": {
       "url": "https://claude.ai/code/artifact/fe5b27f8-d4f7-4a69-afd6-02e799668814",
       "stats": "collection data/users/me, doc stats"
+    },
+    "padezhi": {
+      "url": "https://claude.ai/artifact/6ymp1gxbjCnwXRqZ5NoCpm",
+      "status": "retired",
+      "note": "закрыт 2026-11-04, слабые фразы перенесены в наблюдения; падежи тренируются в уроках Mein Deutsch"
     }
   },
   "lesson_intake": "Алина присылает скриншоты доски в чат; Claude разбирает их по automation/screenshots.md"
