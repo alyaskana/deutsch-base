@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-11-04",
+  "generated_for": "2026-11-05",
   "rules": {
     "window_days": 21,
     "stuck": {
@@ -19,8 +19,8 @@
       "new": 9
     },
     "words": {
-      "stuck": 1,
-      "learning": 277,
+      "stuck": 2,
+      "learning": 276,
       "solid": 0,
       "new": 813
     }
@@ -315,11 +315,11 @@
       "reason": "отмечено репетитором, после этого верных: 0 из 3",
       "counts": {
         "correct": 0,
-        "error": 1,
+        "error": 2,
         "struggle": 0,
         "flagged": 1
       },
-      "last_date": "2026-10-14",
+      "last_date": "2026-11-04",
       "last_result": "error"
     },
     {
@@ -462,15 +462,15 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "reason": "отмечено репетитором, после этого верных: 1 из 3",
       "counts": {
-        "correct": 1,
+        "correct": 2,
         "error": 0,
         "struggle": 2,
         "flagged": 1
       },
-      "last_date": "2026-10-14",
-      "last_result": "flagged"
+      "last_date": "2026-11-04",
+      "last_result": "correct"
     },
     {
       "id": "liegen-legen",
@@ -598,15 +598,15 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "reason": "отмечено репетитором, после этого верных: 1 из 3",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 0,
         "struggle": 0,
         "flagged": 1
       },
-      "last_date": "2026-10-14",
-      "last_result": "flagged"
+      "last_date": "2026-11-04",
+      "last_result": "correct"
     },
     {
       "id": "email-format",
@@ -728,15 +728,16 @@
       "id": "w-abonnement",
       "lemma": "das Abonnement",
       "ru": "подписка",
-      "status": "learning",
+      "status": "stuck",
+      "reason": "2 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 1,
         "flagged": 0
       },
       "last_date": "2026-11-04",
-      "last_result": "struggle"
+      "last_result": "error"
     },
     {
       "id": "w-absagen",
@@ -2051,12 +2052,12 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-04",
+      "last_result": "error"
     },
     {
       "id": "w-croissant",
@@ -9233,12 +9234,12 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-04",
+      "last_result": "error"
     },
     {
       "id": "w-feier",
@@ -9247,12 +9248,12 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-04",
+      "last_result": "error"
     },
     {
       "id": "w-nacht",
@@ -9261,12 +9262,12 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-04",
+      "last_result": "error"
     },
     {
       "id": "w-schuessel",
@@ -9301,15 +9302,15 @@
       "lemma": "der Alltag",
       "ru": "будни, повседневная жизнь",
       "status": "stuck",
-      "reason": "2 ошибок/затруднений за 21 дн.",
+      "reason": "3 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 0,
-        "error": 1,
+        "error": 2,
         "struggle": 1,
         "flagged": 0
       },
       "last_date": "2026-11-04",
-      "last_result": "struggle"
+      "last_result": "error"
     },
     {
       "id": "w-vorlesung",
