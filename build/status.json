@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-11-06",
+  "generated_for": "2026-11-07",
   "rules": {
     "window_days": 21,
     "stuck": {
@@ -95,13 +95,13 @@
       "covered_with_tutor": true,
       "status": "learning",
       "counts": {
-        "correct": 1,
+        "correct": 2,
         "error": 1,
         "struggle": 0,
         "flagged": 0
       },
-      "last_date": "2026-10-21",
-      "last_result": "error"
+      "last_date": "2026-11-06",
+      "last_result": "correct"
     },
     {
       "id": "modal-koennen",
@@ -141,12 +141,12 @@
       "status": "learning",
       "counts": {
         "correct": 2,
-        "error": 0,
+        "error": 1,
         "struggle": 0,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "correct"
+      "last_date": "2026-11-06",
+      "last_result": "error"
     },
     {
       "id": "modal-sollen",
@@ -548,11 +548,11 @@
       "status": "learning",
       "counts": {
         "correct": 3,
-        "error": 3,
+        "error": 4,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
+      "last_date": "2026-11-06",
       "last_result": "error"
     },
     {
