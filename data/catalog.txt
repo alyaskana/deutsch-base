@@ -1,0 +1,518 @@
+# Общая лексика A1–A2 по темам для словарика «Mein Deutsch» (как в Drops).
+# Составлено Claude по ступеням A1–A2 (ориентир: тематические списки Goethe-Zertifikat A1/A2), не с уроков.
+# Формат: слово | мн. ч. | перевод | уровень [| часть речи, если её не угадать по переводу]
+# Проверено редактором-носителем 2026-11-06.
+# Существительные с артиклем; «-» в мн. ч. — множественного числа нет или оно не употребляется.
+# Заголовок темы: «## ключ Название». Слова, которые уже есть в words.json, в словарик второй раз не попадают.
+
+## people Люди и семья
+der Mensch | Menschen | человек | A1
+die Frau | Frauen | женщина; жена | A1
+der Mann | Männer | мужчина; муж | A1
+das Kind | Kinder | ребёнок | A1
+die Familie | Familien | семья | A1
+die Eltern | - | родители | A1
+die Mutter | Mütter | мать | A1
+der Vater | Väter | отец | A1
+die Schwester | Schwestern | сестра | A1
+der Bruder | Brüder | брат | A1
+die Geschwister | - | братья и сёстры | A1
+die Tochter | Töchter | дочь | A1
+der Sohn | Söhne | сын | A1
+die Großeltern | - | бабушка и дедушка | A1
+die Oma | Omas | бабушка | A1
+der Opa | Opas | дедушка | A1
+der Freund | Freunde | друг; парень | A1
+die Freundin | Freundinnen | подруга; девушка | A1
+der Nachbar | Nachbarn | сосед | A2
+die Nachbarin | Nachbarinnen | соседка | A2
+der Onkel | Onkel | дядя | A2
+die Tante | Tanten | тётя | A2
+der Cousin | Cousins | двоюродный брат | A2
+die Cousine | Cousinen | двоюродная сестра | A2
+der Enkel | Enkel | внук | A2
+die Enkelin | Enkelinnen | внучка | A2
+der Partner | Partner | партнёр | A2
+die Hochzeit | Hochzeiten | свадьба | A2
+ledig | | не замужем, холост | A1 | adj
+verheiratet | | женат, замужем | A1 | adj
+geschieden | | разведён(а) | A2
+heiraten | | жениться, выйти замуж | A2
+kennenlernen | | познакомиться | A1
+das Alter | - | возраст | A1
+jung | | молодой | A1
+alt | | старый | A1
+groß | | большой; высокий | A1
+klein | | маленький; невысокий | A1
+schlank | | стройный | A2
+das Haar | Haare | волос; волосы | A2
+blond | | светловолосый | A2
+freundlich | | приветливый | A1
+nett | | милый, славный | A1
+lustig | | весёлый, смешной | A2
+ruhig | | спокойный, тихий | A2
+ehrlich | | честный | A2
+neugierig | | любопытный | A2
+der Geburtstag | Geburtstage | день рождения | A1
+
+## home Дом и быт
+die Wohnung | Wohnungen | квартира | A1
+das Haus | Häuser | дом | A1
+das Zimmer | Zimmer | комната | A1
+die Küche | Küchen | кухня | A1
+das Bad | Bäder | ванная | A1
+das Schlafzimmer | Schlafzimmer | спальня | A1
+das Wohnzimmer | Wohnzimmer | гостиная | A1
+der Flur | Flure | прихожая, коридор | A2
+der Balkon | Balkone | балкон | A1
+der Garten | Gärten | сад | A1
+der Keller | Keller | подвал | A2
+die Treppe | Treppen | лестница | A2
+der Aufzug | Aufzüge | лифт | A2
+die Tür | Türen | дверь | A1
+das Fenster | Fenster | окно | A1
+die Wand | Wände | стена | A2
+der Boden | Böden | пол | A2
+der Tisch | Tische | стол | A1
+der Stuhl | Stühle | стул | A1
+das Sofa | Sofas | диван | A1
+das Bett | Betten | кровать | A1
+der Schrank | Schränke | шкаф | A1
+das Regal | Regale | полка, стеллаж | A2
+die Lampe | Lampen | лампа | A1
+der Teppich | Teppiche | ковёр | A2
+der Spiegel | Spiegel | зеркало | A2
+der Kühlschrank | Kühlschränke | холодильник | A1
+der Herd | Herde | плита | A2
+die Waschmaschine | Waschmaschinen | стиральная машина | A2
+die Dusche | Duschen | душ | A1
+der Schlüssel | Schlüssel | ключ | A1
+die Miete | Mieten | арендная плата | A2
+der Vermieter | Vermieter | арендодатель | A2
+umziehen | | переезжать | A2
+aufräumen | | убирать, наводить порядок | A2
+putzen | | чистить, мыть | A1
+waschen | | стирать; мыть | A1
+kochen | | готовить, варить | A1
+wohnen | | жить, проживать | A1
+gemütlich | | уютный | A2
+hell | | светлый | A1
+dunkel | | тёмный | A1
+laut | | громкий, шумный | A1
+leise | | тихий | A2
+sauber | | чистый | A2
+schmutzig | | грязный | A2
+
+## food Еда
+das Essen | - | еда | A1
+das Frühstück | - | завтрак | A1
+das Mittagessen | - | обед | A1
+das Abendessen | - | ужин | A1
+das Brot | Brote | хлеб | A1
+das Brötchen | Brötchen | булочка | A1
+die Butter | - | сливочное масло | A1
+der Käse | - | сыр | A1
+die Wurst | Würste | колбаса | A1
+das Ei | Eier | яйцо | A1
+die Milch | - | молоко | A1
+der Joghurt | Joghurts | йогурт | A1
+das Fleisch | - | мясо | A1
+das Hähnchen | Hähnchen | курица (блюдо) | A2
+der Fisch | Fische | рыба | A1
+das Gemüse | - | овощи | A1
+das Obst | - | фрукты | A1
+der Apfel | Äpfel | яблоко | A1
+die Banane | Bananen | банан | A1
+die Orange | Orangen | апельсин | A1
+die Erdbeere | Erdbeeren | клубника | A2
+die Tomate | Tomaten | помидор | A1
+die Kartoffel | Kartoffeln | картофель | A1
+die Zwiebel | Zwiebeln | лук | A2
+die Gurke | Gurken | огурец | A2
+der Salat | Salate | салат | A1
+der Reis | - | рис | A1
+die Nudeln | - | макароны, лапша | A1
+die Suppe | Suppen | суп | A1
+der Kuchen | Kuchen | пирог, торт | A1
+die Schokolade | Schokoladen | шоколад | A1
+das Salz | - | соль | A1
+der Zucker | - | сахар | A1
+das Wasser | - | вода | A1
+der Kaffee | - | кофе | A1
+der Tee | Tees | чай | A1
+der Saft | Säfte | сок | A1
+das Bier | Biere | пиво | A1
+der Wein | Weine | вино | A1
+der Hunger | - | голод | A1
+der Durst | - | жажда | A1
+schmecken | | быть вкусным, нравиться на вкус | A1
+lecker | | вкусный | A1
+süß | | сладкий | A2
+scharf | | острый | A2
+frisch | | свежий | A2
+der Teller | Teller | тарелка | A2
+die Tasse | Tassen | чашка | A1
+das Glas | Gläser | стакан; банка | A1
+das Messer | Messer | нож | A2
+die Gabel | Gabeln | вилка | A2
+der Löffel | Löffel | ложка | A2
+die Speisekarte | Speisekarten | меню | A2
+die Rechnung | Rechnungen | счёт | A1
+bestellen | | заказывать | A1
+bezahlen | | платить | A1
+
+## shop Покупки и одежда
+der Supermarkt | Supermärkte | супермаркет | A1
+das Geschäft | Geschäfte | магазин | A1
+der Markt | Märkte | рынок | A1
+die Bäckerei | Bäckereien | пекарня | A1
+die Kasse | Kassen | касса | A1
+der Preis | Preise | цена | A1
+das Geld | - | деньги | A1
+der Euro | Euro | евро | A1
+das Angebot | Angebote | предложение, акция | A2
+billig | | дешёвый | A1
+teuer | | дорогой | A1
+kaufen | | покупать | A1
+kosten | | стоить | A1
+brauchen | | нуждаться; мне нужно | A1
+die Tüte | Tüten | пакет | A2
+die Flasche | Flaschen | бутылка | A1
+die Packung | Packungen | упаковка | A2
+das Kilo | Kilos | килограмм | A1
+die Kleidung | - | одежда | A1
+die Hose | Hosen | брюки | A1
+das Hemd | Hemden | рубашка | A1
+die Bluse | Blusen | блузка | A1
+das Kleid | Kleider | платье | A1
+der Rock | Röcke | юбка | A1
+der Pullover | Pullover | свитер | A1
+die Jacke | Jacken | куртка | A1
+der Mantel | Mäntel | пальто | A1
+das T-Shirt | T-Shirts | футболка | A1
+der Schuh | Schuhe | ботинок, туфля | A1
+die Socke | Socken | носок | A2
+die Mütze | Mützen | шапка | A2
+der Schal | Schals | шарф | A2
+die Tasche | Taschen | сумка | A1
+die Größe | Größen | размер | A1
+anprobieren | | примерять | A2
+passen | | подходить (по размеру) | A2
+tragen | | носить; нести | A2
+umtauschen | | обменять (товар) | A2
+die Farbe | Farben | цвет | A1
+rot | | красный | A1
+blau | | синий | A1
+grün | | зелёный | A1
+gelb | | жёлтый | A1
+schwarz | | чёрный | A1
+weiß | | белый | A1
+grau | | серый | A1
+braun | | коричневый | A1
+
+## city Город и дорога
+die Stadt | Städte | город | A1
+das Dorf | Dörfer | деревня | A2
+die Straße | Straßen | улица | A1
+der Platz | Plätze | площадь; место | A1
+die Ecke | Ecken | угол | A2
+die Kreuzung | Kreuzungen | перекрёсток | A2
+die Ampel | Ampeln | светофор | A2
+die Brücke | Brücken | мост | A2
+der Park | Parks | парк | A1
+die Kirche | Kirchen | церковь | A1
+das Rathaus | Rathäuser | ратуша | A2
+die Post | - | почта | A1
+die Bank | Banken | банк | A1
+die Apotheke | Apotheken | аптека | A1
+das Krankenhaus | Krankenhäuser | больница | A1
+die Schule | Schulen | школа | A1
+das Kino | Kinos | кинотеатр | A1
+das Museum | Museen | музей | A1
+der Bahnhof | Bahnhöfe | вокзал | A1
+die Haltestelle | Haltestellen | остановка | A1
+der Bus | Busse | автобус | A1
+die U-Bahn | U-Bahnen | метро | A1
+die S-Bahn | S-Bahnen | городская электричка | A1
+die Straßenbahn | Straßenbahnen | трамвай | A1
+der Zug | Züge | поезд | A1
+das Auto | Autos | машина | A1
+das Fahrrad | Fahrräder | велосипед | A1
+das Taxi | Taxis | такси | A1
+die Fahrkarte | Fahrkarten | билет (на транспорт) | A1
+das Gleis | Gleise | путь (на вокзале) | A2
+die Verspätung | Verspätungen | опоздание, задержка | A2
+fahren | | ехать | A1
+gehen | | идти | A1
+umsteigen | | делать пересадку | A2
+aussteigen | | выходить (из транспорта) | A2
+einsteigen | | садиться (в транспорт) | A2
+abbiegen | | поворачивать | A2
+geradeaus | | прямо | A1
+links | | налево, слева | A1
+rechts | | направо, справа | A1
+weit | | далеко | A1
+nah | | близко | A2
+zu Fuß | | пешком | A1
+
+## work Работа и учёба
+die Arbeit | - | работа | A1
+der Beruf | Berufe | профессия | A1
+die Firma | Firmen | фирма | A1
+das Büro | Büros | офис | A1
+der Chef | Chefs | начальник | A1
+die Chefin | Chefinnen | начальница | A1
+der Kollege | Kollegen | коллега | A1
+die Kollegin | Kolleginnen | коллега (женщина) | A1
+der Termin | Termine | встреча, запись | A1
+die Besprechung | Besprechungen | совещание | A2
+das Projekt | Projekte | проект | A2
+die Aufgabe | Aufgaben | задача, задание | A2
+der Computer | Computer | компьютер | A1
+der Drucker | Drucker | принтер | A2
+die E-Mail | E-Mails | электронное письмо | A1
+das Telefon | Telefone | телефон | A1
+der Kunde | Kunden | клиент | A2
+das Gehalt | Gehälter | зарплата | A2
+der Urlaub | Urlaube | отпуск | A1
+die Pause | Pausen | перерыв | A1
+die Bewerbung | Bewerbungen | заявление о приёме на работу | A2
+die Erfahrung | Erfahrungen | опыт | A2
+der Kurs | Kurse | курс | A1
+die Prüfung | Prüfungen | экзамен | A2
+die Sprache | Sprachen | язык | A1
+arbeiten | | работать | A1
+lernen | | учить, учиться | A1
+studieren | | учиться в вузе | A1
+verdienen | | зарабатывать | A2
+schicken | | отправлять | A1
+anrufen | | звонить | A1
+erklären | | объяснять | A2
+vorbereiten | | готовить, подготавливать | A2
+wichtig | | важный | A1
+fleißig | | прилежный, трудолюбивый | A2
+pünktlich | | пунктуальный, вовремя | A2
+
+## health Здоровье и тело
+der Körper | Körper | тело | A1
+der Kopf | Köpfe | голова | A1
+das Auge | Augen | глаз | A1
+das Ohr | Ohren | ухо | A1
+die Nase | Nasen | нос | A1
+der Mund | Münder | рот | A1
+der Zahn | Zähne | зуб | A1
+der Hals | Hälse | шея; горло | A1
+der Arm | Arme | рука (от плеча) | A1
+die Hand | Hände | рука (кисть) | A1
+der Finger | Finger | палец | A1
+der Bauch | Bäuche | живот | A1
+der Rücken | Rücken | спина | A1
+das Bein | Beine | нога | A1
+der Fuß | Füße | нога (ступня) | A1
+das Knie | Knie | колено | A2
+der Arzt | Ärzte | врач | A1
+die Ärztin | Ärztinnen | врач (женщина) | A1
+die Praxis | Praxen | кабинет врача | A2
+das Rezept | Rezepte | рецепт | A2
+die Tablette | Tabletten | таблетка | A1
+das Medikament | Medikamente | лекарство | A2
+das Fieber | - | температура, жар | A1
+der Husten | - | кашель | A1
+der Schnupfen | - | насморк | A2
+die Erkältung | Erkältungen | простуда | A2
+die Grippe | - | грипп | A2
+der Schmerz | Schmerzen | боль | A1
+krank | | больной | A1
+gesund | | здоровый | A1
+müde | | усталый | A1
+wehtun | | болеть (о части тела) | A2
+sich ausruhen | | отдыхать | A2
+die Gesundheit | - | здоровье | A2
+der Sport | - | спорт | A1
+
+## free Свободное время
+die Freizeit | - | свободное время | A1
+das Hobby | Hobbys | хобби | A1
+der Film | Filme | фильм | A1
+die Musik | - | музыка | A1
+das Konzert | Konzerte | концерт | A1
+das Theater | Theater | театр | A1
+die Ausstellung | Ausstellungen | выставка | A2
+das Buch | Bücher | книга | A1
+das Spiel | Spiele | игра | A1
+die Party | Partys | вечеринка | A1
+das Fest | Feste | праздник | A2
+das Foto | Fotos | фотография | A1
+der Ausflug | Ausflüge | поездка, вылазка | A2
+das Schwimmbad | Schwimmbäder | бассейн | A1
+lesen | | читать | A1
+schwimmen | | плавать | A1
+tanzen | | танцевать | A1
+singen | | петь | A1
+spielen | | играть | A1
+wandern | | ходить в походы | A2
+fotografieren | | фотографировать | A1
+malen | | рисовать | A2
+treffen | | встречать | A1
+sich treffen | | встречаться | A2
+einladen | | приглашать | A2
+besuchen | | навещать, посещать | A1
+Spaß machen | | доставлять удовольствие | A1
+gern | | охотно, с удовольствием | A1
+langweilig | | скучный | A1
+interessant | | интересный | A1
+toll | | классный | A1
+spannend | | захватывающий | A2
+
+## day Время и мой день
+der Tag | Tage | день | A1
+die Woche | Wochen | неделя | A1
+der Monat | Monate | месяц | A1
+das Jahr | Jahre | год | A1
+die Stunde | Stunden | час | A1
+die Minute | Minuten | минута | A1
+die Uhr | Uhren | часы | A1
+der Morgen | Morgen | утро | A1
+der Vormittag | Vormittage | время до полудня | A1
+der Mittag | Mittage | полдень | A1
+der Nachmittag | Nachmittage | вторая половина дня | A1
+der Abend | Abende | вечер | A1
+die Nacht | Nächte | ночь | A1
+das Wochenende | Wochenenden | выходные | A1
+der Montag | Montage | понедельник | A1
+der Dienstag | Dienstage | вторник | A1
+der Mittwoch | Mittwoche | среда | A1
+der Donnerstag | Donnerstage | четверг | A1
+der Freitag | Freitage | пятница | A1
+der Samstag | Samstage | суббота | A1
+der Sonntag | Sonntage | воскресенье | A1
+heute | | сегодня | A1
+morgen | | завтра | A1
+gestern | | вчера | A1
+früh | | рано | A1
+spät | | поздно | A1
+immer | | всегда | A1
+oft | | часто | A1
+manchmal | | иногда | A1
+nie | | никогда | A1
+jetzt | | сейчас | A1
+bald | | скоро | A2
+aufstehen | | вставать | A1
+frühstücken | | завтракать | A1
+duschen | | принимать душ | A1
+sich anziehen | | одеваться | A2
+schlafen | | спать | A1
+einkaufen | | делать покупки | A1
+der Alltag | - | повседневность, будни | A2
+
+## nature Природа и погода
+das Wetter | - | погода | A1
+die Sonne | - | солнце | A1
+der Regen | - | дождь | A1
+der Schnee | - | снег | A1
+der Wind | Winde | ветер | A1
+die Wolke | Wolken | облако | A2
+das Gewitter | Gewitter | гроза | A2
+die Temperatur | Temperaturen | температура | A2
+warm | | тёплый | A1
+kalt | | холодный | A1
+heiß | | жаркий | A1
+sonnig | | солнечный | A2
+regnen | | идти (о дожде) | A1
+schneien | | идти (о снеге) | A2
+der Frühling | - | весна | A1
+der Sommer | Sommer | лето | A1
+der Herbst | - | осень | A1
+der Winter | Winter | зима | A1
+die Natur | - | природа | A2
+der Wald | Wälder | лес | A1
+der Berg | Berge | гора | A1
+der See | Seen | озеро | A1
+das Meer | Meere | море | A1
+der Strand | Strände | пляж | A1
+der Fluss | Flüsse | река | A2
+die Insel | Inseln | остров | A2
+die Blume | Blumen | цветок | A1
+der Baum | Bäume | дерево | A1
+das Tier | Tiere | животное | A1
+der Hund | Hunde | собака | A1
+die Katze | Katzen | кошка | A1
+der Vogel | Vögel | птица | A2
+
+## travel Путешествия
+die Reise | Reisen | путешествие, поездка | A1
+der Urlaub | Urlaube | отпуск | A1
+das Hotel | Hotels | гостиница | A1
+das Zimmer | Zimmer | номер, комната | A1
+der Flughafen | Flughäfen | аэропорт | A1
+das Flugzeug | Flugzeuge | самолёт | A1
+der Flug | Flüge | рейс, перелёт | A2
+das Schiff | Schiffe | корабль | A2
+der Koffer | Koffer | чемодан | A1
+der Pass | Pässe | паспорт | A1
+das Ticket | Tickets | билет | A1
+die Ankunft | Ankünfte | прибытие | A2
+die Abfahrt | Abfahrten | отправление | A2
+die Karte | Karten | карта; билет; открытка | A1
+das Ausland | - | заграница | A2
+reisen | | путешествовать | A1
+buchen | | бронировать | A2
+reservieren | | резервировать | A2
+fliegen | | лететь | A1
+packen | | упаковывать, собирать вещи | A2
+ankommen | | прибывать | A1
+abfahren | | отправляться | A1
+übernachten | | ночевать | A2
+die Sehenswürdigkeit | Sehenswürdigkeiten | достопримечательность | A2
+der Stadtplan | Stadtpläne | карта города | A2
+
+## verbs Частые глаголы
+sein | | быть | A1
+haben | | иметь | A1
+werden | | становиться | A1
+machen | | делать | A1
+kommen | | приходить, приезжать | A1
+sagen | | сказать | A1
+sprechen | | говорить | A1
+fragen | | спрашивать | A1
+antworten | | отвечать | A1
+verstehen | | понимать | A1
+wissen | | знать | A1
+kennen | | знать, быть знакомым | A1
+denken | | думать | A1
+glauben | | верить, полагать | A1
+finden | | находить; считать | A1
+suchen | | искать | A1
+geben | | давать | A1
+nehmen | | брать | A1
+bringen | | приносить | A1
+holen | | забирать, приносить | A2
+helfen | | помогать | A1
+zeigen | | показывать | A1
+öffnen | | открывать | A1
+schließen | | закрывать | A2
+beginnen | | начинать | A2
+anfangen | | начинать | A1
+aufhören | | прекращать | A2
+warten | | ждать | A1
+bleiben | | оставаться | A1
+liegen | | лежать | A1
+stehen | | стоять | A1
+sitzen | | сидеть | A1
+legen | | класть | A2
+stellen | | ставить | A2
+hängen | | вешать; висеть | A2
+mögen | | любить, нравиться | A1
+möchten | | хотеть (вежливо) | A1
+wollen | | хотеть | A1
+können | | мочь, уметь | A1
+müssen | | быть должным | A1
+dürfen | | мочь, иметь право | A1
+sollen | | быть должным (по указанию), следует | A2
+gefallen | | нравиться | A2
+gehören | | принадлежать | A2
+vergessen | | забывать | A2
+sich freuen | | радоваться | A2
+sich erinnern | | вспоминать | A2
+versuchen | | пытаться | A2
+benutzen | | пользоваться | A2
