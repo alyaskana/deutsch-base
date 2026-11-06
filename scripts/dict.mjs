@@ -1,8 +1,10 @@
-// Собирает компактный словарь для «Mein Deutsch» из data/words.json и build/status.json.
+// Собирает словарь для «Mein Deutsch» (раздел «Словарик», плитки тем как в Drops):
+// слова с уроков (data/words.json + статусы из build/status.json) и общая лексика A1–A2 (data/catalog.txt).
 // Запуск: node scripts/dict.mjs  →  build/dict.json
-// Приложение читает его из своей базы: коллекция "lessons", документ "_dict" (поле d).
-// Формат слова: [лемма, артикль, мн.ч., перевод, часть речи, темы, статус, пример, формы]
-//   темы — строка из индексов TOPICS (символы "a".."z"), статус: "s" затык, "l" изучаю, "" новое.
+// Приложение читает его из своей базы: коллекция "lessons", документ "_dict" (поле j — JSON строкой); копия встроена в страницу.
+// Формат слова: [лемма, артикль, мн.ч., перевод, часть речи, темы, статус, пример, формы, откуда, уровень]
+//   темы — буквы из TOPICS ("a".."n"); статус: "s" затык, "l" было трудным, "" — нет;
+//   откуда: "" — с уроков, "c" — общий список A1–A2; уровень: "A1" | "A2" | "".
 import { readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -12,19 +14,25 @@ const read = (p) => JSON.parse(readFileSync(join(root, p), "utf8"));
 const words = read("data/words.json");
 const status = Object.fromEntries(read("build/status.json").words.map((w) => [w.id, w.status]));
 
-// Темы для фильтра: название по-русски и теги words.json, которые в неё входят.
+// Темы-плитки: ключ, название, цвет, форма маскота, теги words.json, которые в неё входят.
 export const TOPICS = [
-  ["Дом и быт", ["wohnen", "haushalt", "hausarbeit"]],
-  ["Работа", ["arbeit", "buero", "beruf", "email"]],
-  ["Здоровье и тело", ["gesundheit", "gesundheit-klein", "koerper"]],
-  ["Еда", ["essen", "restaurant"]],
-  ["Покупки и одежда", ["einkaufen", "kleidung", "farben"]],
-  ["Город и дорога", ["unterwegs", "transport", "ha-verkehrsmittel", "wegbeschreibung"]],
-  ["Свободное время", ["freizeit", "segeln", "meer", "tiere", "stimmung"]],
-  ["Мой день", ["tagesablauf", "mein-tag", "dein-tag", "alltag", "wetter", "kennenlernen"]],
-  ["Страны и языки", ["laender", "sprachen"]],
+  ["people", "Люди и семья", "#FF77B4", "flower", ["kennenlernen", "stimmung"]],
+  ["home", "Дом и быт", "#16BFA6", "square", ["wohnen", "haushalt", "hausarbeit"]],
+  ["food", "Еда", "#FFB21E", "circle", ["essen", "restaurant"]],
+  ["shop", "Покупки и одежда", "#FF6B4A", "diamond", ["einkaufen", "kleidung", "farben"]],
+  ["city", "Город и дорога", "#5B84F0", "penta", ["unterwegs", "transport", "ha-verkehrsmittel", "wegbeschreibung"]],
+  ["work", "Работа и учёба", "#7444E6", "square", ["arbeit", "buero", "beruf", "email"]],
+  ["health", "Здоровье и тело", "#E07A5F", "cloud", ["gesundheit", "gesundheit-klein", "koerper"]],
+  ["free", "Свободное время", "#FF77B4", "circle", ["freizeit", "segeln"]],
+  ["day", "Время и мой день", "#FFB21E", "flower", ["tagesablauf", "mein-tag", "dein-tag", "alltag"]],
+  ["nature", "Природа и погода", "#16B37A", "cloud", ["wetter", "meer", "tiere"]],
+  ["travel", "Путешествия и страны", "#5D7F95", "penta", ["laender", "sprachen"]],
+  ["verbs", "Частые глаголы", "#5B84F0", "diamond", []],
+  ["other", "Разное", "#A79FC4", "circle", []],
 ];
 const L = "abcdefghijklmnopqrstuvwxyz";
+const T = Object.fromEntries(TOPICS.map(([k], i) => [k, L[i]]));
+const fold = (s) => String(s).toLowerCase().replace(/^(der|die|das)\s+/, "").replace(/ä/g, "a").replace(/ö/g, "o").replace(/ü/g, "u").replace(/ß/g, "ss").trim();
 
 const forms = (w) => {
   const f = w.verb_forms;
@@ -37,17 +45,47 @@ const forms = (w) => {
   if (gov) out.push(gov);
   return out.join(" · ");
 };
+const trim = (row) => { while (row.length && row[row.length - 1] === "") row.pop(); return row; };
 
+// 1. Общий список A1–A2: тема берётся из заголовка, часть речи — по артиклю
+const cat = new Map();
+let cur = null;
+for (const line of readFileSync(join(root, "data/catalog.txt"), "utf8").split("\n")) {
+  const h = line.match(/^##\s+(\w+)\s/);
+  if (h) { cur = h[1]; if (!T[cur]) throw new Error("catalog.txt: неизвестная тема " + cur); continue; }
+  if (!line.trim() || line.startsWith("#")) continue;
+  const [w, pl, ru, lvl, posx] = line.split("|").map((s) => s.trim());
+  const m = w.match(/^(der|die|das)\s+(.+)$/);
+  const k = fold(w);
+  const e = cat.get(k);
+  if (e) { if (!e.t.includes(T[cur])) e.t += T[cur]; continue; }
+  // часть речи: по артиклю, пробелу и русскому переводу (инфинитив → глагол, -ый/-ий/-ой → прилагательное)
+  const ru1 = ru.split(/[,;(]/)[0].trim().split(" ")[0];
+  const pos = posx ? posx : m ? "noun" : /\s/.test(w.replace(/^sich /, "")) ? "phrase" : /(ть|ться|ти|чь|чься)$/.test(ru1) ? "verb" : /(ый|ий|ой|ён)$/.test(ru1) ? "adj" : "adv";
+  cat.set(k, { lemma: m ? m[2] : w, art: m ? m[1] : "", pl: pl === "-" ? "" : pl || "", ru, pos, t: T[cur] + (pos === "verb" && cur !== "verbs" ? T.verbs : ""), lvl: lvl || "" });
+}
+
+// 2. Слова с уроков; если слово есть и в общем списке — берём его темы и уровень
+const seen = new Set();
 const d = words.map((w) => {
   const tags = new Set(w.tags || []);
-  const t = TOPICS.map(([, ts], i) => (ts.some((x) => tags.has(x)) ? L[i] : "")).join("");
+  const k = fold((w.article ? w.article + " " : "") + w.lemma);
+  seen.add(k);
+  const c = cat.get(k);
+  let t = TOPICS.map(([key, , , , ts], i) => (ts.some((x) => tags.has(x)) || (c && c.t.includes(L[i])) ? L[i] : "")).join("");
+  if (w.pos === "verb" && !t.includes(T.verbs)) t += T.verbs;
+  if (!t) t = T.other;
   const st = { stuck: "s", learning: "l" }[status[w.id]] || "";
   const ex = (w.examples || [])[0];
-  const row = [w.lemma, w.article || "", w.plural && w.plural !== w.lemma ? w.plural : "", w.ru || "", w.pos || "", t, st, ex ? ex.de + (ex.ru ? " — " + ex.ru : "") : "", forms(w)];
-  while (row.length && row[row.length - 1] === "") row.pop();
-  return row;
+  return trim([w.lemma, w.article || "", w.plural && w.plural !== w.lemma ? w.plural : "", w.ru || "", w.pos || "", t, st, ex ? ex.de + (ex.ru ? " — " + ex.ru : "") : "", forms(w), "", c ? c.lvl : ""]);
 });
+let added = 0;
+for (const [k, c] of cat) {
+  if (seen.has(k)) continue;
+  d.push(trim([c.lemma, c.art, c.pl, c.ru, c.pos, c.t, "", "", "", "c", c.lvl]));
+  added++;
+}
 
-const out = { v: 1, at: new Date().toISOString().slice(0, 10), topics: TOPICS.map(([n]) => n), d };
+const out = { v: 2, at: new Date().toISOString().slice(0, 16) + "Z", topics: TOPICS.map(([k, n, color, shape]) => [L[TOPICS.findIndex((x) => x[0] === k)], n, color, shape]), d };
 writeFileSync(join(root, "build/dict.json"), JSON.stringify(out));
-console.log(`build/dict.json: ${d.length} слов, ${Math.round(JSON.stringify(out).length / 1024)} КБ`);
+console.log(`build/dict.json: ${d.length} слов (${d.length - added} с уроков, ${added} из общего списка A1–A2), ${Math.round(JSON.stringify(out).length / 1024)} КБ`);
