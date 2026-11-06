@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-11-05",
+  "generated_for": "2026-11-06",
   "rules": {
     "window_days": 21,
     "stuck": {
@@ -14,13 +14,13 @@
   "summary": {
     "grammar": {
       "stuck": 8,
-      "learning": 29,
+      "learning": 30,
       "solid": 0,
-      "new": 9
+      "new": 8
     },
     "words": {
-      "stuck": 2,
-      "learning": 276,
+      "stuck": 4,
+      "learning": 274,
       "solid": 0,
       "new": 813
     }
@@ -32,14 +32,14 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "8 ошибок/затруднений за 21 дн.",
+      "reason": "9 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 5,
-        "error": 12,
+        "error": 13,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-05",
       "last_result": "error"
     },
     {
@@ -168,7 +168,15 @@
       "title_ru": "dürfen — разрешено",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-05",
+      "last_result": "error"
     },
     {
       "id": "modal-moegen-moechten",
@@ -273,14 +281,14 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "6 ошибок/затруднений за 21 дн.",
+      "reason": "4 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 1,
-        "error": 16,
+        "error": 17,
         "struggle": 1,
         "flagged": 1
       },
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-05",
       "last_result": "error"
     },
     {
@@ -2049,14 +2057,15 @@
       "id": "w-couch",
       "lemma": "die Couch",
       "ru": "диван",
-      "status": "learning",
+      "status": "stuck",
+      "reason": "2 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 0,
-        "error": 1,
+        "error": 2,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": "2026-11-04",
+      "last_date": "2026-11-05",
       "last_result": "error"
     },
     {
@@ -9245,14 +9254,15 @@
       "id": "w-feier",
       "lemma": "die Feier",
       "ru": "праздник, вечеринка",
-      "status": "learning",
+      "status": "stuck",
+      "reason": "2 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 0,
-        "error": 1,
+        "error": 2,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": "2026-11-04",
+      "last_date": "2026-11-05",
       "last_result": "error"
     },
     {
