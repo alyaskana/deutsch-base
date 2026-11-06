@@ -10,10 +10,11 @@
     {
       "id": "a2",
       "level": "A2",
-      "title": "A2",
-      "url": "https://miro.com/app/board/uXjVEbOuTqE=/",
+      "title": "Deutsch Alina A2",
+      "url": "https://miro.com/app/board/uXjVESxm5c8=/",
       "status": "current",
-      "access": "коннектор Miro не читает; по просьбе Алины Claude открывает доску в её браузере (Claude in Chrome) и снимает фрагментами"
+      "access": "коннектор Miro читает (проверено 2026-11-06); старая доска old_url коннектору недоступна",
+      "old_url": "https://miro.com/app/board/uXjVEbOuTqE=/"
     }
   ],
   "archive_doc": "https://claude.ai/code/artifact/41c37460-0ae4-4d1d-8d30-d71410aee138",
