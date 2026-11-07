@@ -22684,5 +22684,33 @@
         "by_claude": true
       }
     ]
+  },
+  {
+    "id": "w-ende",
+    "lemma": "Ende",
+    "pos": "noun",
+    "article": "das",
+    "ru": "конец",
+    "tags": [
+      "mein-deutsch"
+    ],
+    "examples": [
+      {
+        "de": "am Ende des Unterrichts",
+        "ru": "в конце занятия"
+      }
+    ],
+    "added": "2026-11-07"
+  },
+  {
+    "id": "w-becken",
+    "lemma": "Becken",
+    "pos": "noun",
+    "article": "das",
+    "ru": "бассейн; большой аквариум",
+    "tags": [
+      "mein-deutsch"
+    ],
+    "added": "2026-11-07"
   }
 ]

@@ -1,22 +1,23 @@
 {
   "mein_deutsch": {
-    "last_sync": "2026-11-05",
+    "last_sync": "2026-11-07",
     "synced_runs": {
       "meer-museum": 1,
       "mein-alltag": 1,
       "possessiv-abrikos": 1,
-      "review": 4,
+      "review": 6,
       "segeln-griechenland~an-bord": 1,
       "segeln-griechenland~die-reise": 1,
       "segeln-griechenland~perfekt": 1,
       "segeln-griechenland~wo-wohin": 1,
       "segeln-perfekt": 1,
       "wg-regeln": 1,
-      "wo-wohin": 1
+      "wo-wohin": 1,
+      "an-nichts-denken": 1
     }
   },
   "artikelregen": {
-    "last_sync": "2026-11-05",
+    "last_sync": "2026-11-07",
     "stats_snapshot": {
       "Anrufbeantworter": {
         "bad": 0,
@@ -209,5 +210,9 @@
         "t": 1792022562645
       }
     }
+  },
+  "hausaufgaben": {
+    "last_sync": "2026-11-07",
+    "note": "новые сдачи определяются по review.at < at в коллекции hw"
   }
 }
