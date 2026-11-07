@@ -1,0 +1,22 @@
+# Озвучка «Mein Deutsch» и «Artikelregen»
+
+Голос: OpenAI `gpt-4o-mini-tts`, голос `marin` (переменная `TTS_VOICE`). Ключ OpenAI лежит в секретах облачной среды проекта (Network secret для `api.openai.com`), прокси подставляет его сам, в коде и в репозитории ключа нет.
+
+Звук хранится в базе каждой страницы, коллекция `audio`:
+- `_index` — `{v, voice, at, m: {hash: docId}}`;
+- `<группа>.<n>` — `{c: {hash: mp3 в base64}}`, до ~240 КБ на документ (ArtifactData пишет не больше 256 КБ на документ, batch — до 1 МБ, то есть по 4 документа). Группа — id урока, `_dict` (словарь), `_saved` (её сохранённые слова), `_ar` (слова Artikelregen).
+
+`hash` — `ahash(akey(текст))` из `akey.py`, такой же код в страницах (`akey`, `ahash`). Страница ищет клип по тексту, который озвучивает; нет клипа — в «Mein Deutsch» читает системный голос, в Artikelregen молчит.
+
+## Как озвучить новое (порядок для задачи «Пополнение в Mein Deutsch»)
+
+1. ArtifactData «Mein Deutsch» (https://claude.ai/artifact/EF22N3Wk3vb8Fdau9keTS7): `list` коллекции `lessons` и `get` документа `progress` в коллекции `data/users/me` с `out_dir=<dir>/db`; `get` `audio/_index` с `out_dir=<dir>/idx` (документа нет — начни с `{"m":{}}`).
+2. `python3 scripts/tts/collect.py <dir>/db <dir>/texts.json`
+3. `python3 -c` или вручную: из `_index.json` взять `m` в `<dir>/have.json`.
+   `python3 scripts/tts/gen.py <dir>/texts.json <dir>/clips --have <dir>/have.json --report <dir>/report.json`
+4. Проверка (редактор-носитель): в `report.json` клипы, где распознавание услышало не то. Отдельные слова распознаются хуже, там это часто шум. Предложения и всё, где услышано другое слово, переслушать по смыслу: если слово действительно произнесено неверно, удалить mp3 и сгенерировать снова; не выходит — убрать текст из `texts.json` (останется системный голос).
+5. `python3 scripts/tts/pack.py <dir>/texts.json <dir>/clips <dir>/out --index <dir>/idx/audio/_index.json`
+6. Записать в коллекцию `audio` все новые `out/<группа>.<n>.json` (batch, `set`, новые документы без if_version) и затем `out/_index.json` в `_index` (`set` с if_version, если документ был).
+7. «Artikelregen» (https://claude.ai/artifact/YQinY1gBWqetVFHmACmRVm): то же с `collect_ar.py` по коллекции `extra_words` и своим `audio/_index`.
+
+Ничего не озвучилось нового — ничего не писать.
