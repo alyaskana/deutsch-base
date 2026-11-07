@@ -1,0 +1,355 @@
+[
+  {
+    "id": "tutor-drei-formen",
+    "title": "Три формы: глаголы, которые спрашивает репетитор",
+    "kind": "tutor",
+    "level": "A2",
+    "added": "2026-11-07",
+    "source": "Доска Miro, глаголы на котах + дописаны от руки (umziehen, beginnen, bitten, ausgehen); скриншот Алины 2026-11-07",
+    "note": "Приоритет: учить раньше общей таблицы. Дописанные от руки — самые свежие.",
+    "words": [
+      "w-umziehen",
+      "w-beginnen",
+      "w-bitten",
+      "w-ausgehen",
+      "w-trinken",
+      "w-fahren",
+      "w-gelten",
+      "w-schiefgehen",
+      "w-schlafen",
+      "w-anrufen",
+      "w-schreiben",
+      "w-sehen",
+      "w-verschieben",
+      "w-anfangen",
+      "w-essen",
+      "w-gehen",
+      "w-sprechen",
+      "w-lesen",
+      "w-tragen",
+      "w-nehmen",
+      "w-aufstehen",
+      "w-laufen"
+    ],
+    "trainer_lessons": [
+      {
+        "id": "drei-formen-1",
+        "released": "2026-11-07",
+        "words": [
+          "w-umziehen",
+          "w-beginnen",
+          "w-bitten",
+          "w-ausgehen",
+          "w-anfangen",
+          "w-anrufen"
+        ]
+      },
+      {
+        "id": "drei-formen-2",
+        "released": "2026-11-07",
+        "words": [
+          "w-aufstehen",
+          "w-verschieben",
+          "w-gelten",
+          "w-schiefgehen",
+          "w-gehen",
+          "w-laufen"
+        ]
+      },
+      {
+        "id": "drei-formen-3",
+        "released": "2026-11-07",
+        "words": [
+          "w-trinken",
+          "w-fahren",
+          "w-schlafen",
+          "w-schreiben",
+          "w-sehen"
+        ]
+      },
+      {
+        "id": "drei-formen-4",
+        "released": "2026-11-07",
+        "words": [
+          "w-essen",
+          "w-sprechen",
+          "w-lesen",
+          "w-tragen",
+          "w-nehmen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "unregelmaessige-verben-a1",
+    "title": "Неправильные глаголы A1 (вся таблица)",
+    "kind": "reference",
+    "level": "A1",
+    "added": "2026-11-07",
+    "source": "Таблица «Неправильные глаголы A1» (PDF от Алины 2026-11-07)",
+    "note": "Учить тройкой Infinitiv — Präteritum — Perfekt, haben/sein внутри третьей формы. backen: buk и backte нормативны, в базе backte. hängen: hing — gehangen (висеть) и hängte — gehängt (вешать, w-haengen-2). Уроки drei-formen-5…12 выпускаются по одному, когда пройден предыдущий; формат как у 1–4 (haben/sein → Präteritum → Perfekt, 5–6 глаголов).",
+    "groups": [
+      {
+        "id": "a-u-a",
+        "title": "a – u – a",
+        "words": [
+          "w-fahren",
+          "w-tragen",
+          "w-schlagen",
+          "w-wachsen"
+        ]
+      },
+      {
+        "id": "separable",
+        "title": "Отделяемые",
+        "words": [
+          "w-anfangen",
+          "w-einladen"
+        ]
+      },
+      {
+        "id": "special",
+        "title": "Особые формы",
+        "words": [
+          "w-sein",
+          "w-werden",
+          "w-kommen",
+          "w-geschehen",
+          "w-bleiben",
+          "w-schreiben",
+          "w-heissen",
+          "w-liegen",
+          "w-sitzen",
+          "w-stehen",
+          "w-tun",
+          "w-lassen",
+          "w-schneiden",
+          "w-entscheiden",
+          "w-empfangen",
+          "w-empfehlen",
+          "w-bitten",
+          "w-backen",
+          "w-haengen"
+        ]
+      },
+      {
+        "id": "a-ie-a",
+        "title": "a/u/au – ie – a/u/au",
+        "words": [
+          "w-schlafen",
+          "w-fallen",
+          "w-halten",
+          "w-braten",
+          "w-raten",
+          "w-rufen",
+          "w-laufen"
+        ]
+      },
+      {
+        "id": "mixed",
+        "title": "Смешанные (-te)",
+        "words": [
+          "w-bringen",
+          "w-denken",
+          "w-kennen",
+          "w-nennen",
+          "w-wissen",
+          "w-haben"
+        ]
+      },
+      {
+        "id": "i-a-u",
+        "title": "i – a – u/o",
+        "words": [
+          "w-beginnen",
+          "w-finden",
+          "w-trinken",
+          "w-singen",
+          "w-schwimmen"
+        ]
+      },
+      {
+        "id": "e-a-o",
+        "title": "e – a – o",
+        "words": [
+          "w-sprechen",
+          "w-brechen",
+          "w-helfen",
+          "w-nehmen",
+          "w-treffen"
+        ]
+      },
+      {
+        "id": "e-a-e",
+        "title": "e – a – e",
+        "words": [
+          "w-geben",
+          "w-lesen",
+          "w-sehen",
+          "w-essen",
+          "w-vergessen"
+        ]
+      },
+      {
+        "id": "ie-o-o",
+        "title": "ie – o – o",
+        "words": [
+          "w-bieten",
+          "w-fliegen",
+          "w-ziehen",
+          "w-geniessen",
+          "w-verlieren",
+          "w-schliessen"
+        ]
+      }
+    ],
+    "trainer_lessons": [
+      {
+        "id": "drei-formen-5",
+        "words": [
+          "w-schlagen",
+          "w-wachsen",
+          "w-einladen",
+          "w-fallen",
+          "w-halten",
+          "w-rufen"
+        ]
+      },
+      {
+        "id": "drei-formen-6",
+        "words": [
+          "w-braten",
+          "w-raten",
+          "w-finden",
+          "w-singen",
+          "w-schwimmen"
+        ]
+      },
+      {
+        "id": "drei-formen-7",
+        "words": [
+          "w-bringen",
+          "w-denken",
+          "w-kennen",
+          "w-nennen",
+          "w-wissen",
+          "w-haben"
+        ]
+      },
+      {
+        "id": "drei-formen-8",
+        "words": [
+          "w-brechen",
+          "w-helfen",
+          "w-treffen",
+          "w-geben",
+          "w-vergessen"
+        ]
+      },
+      {
+        "id": "drei-formen-9",
+        "words": [
+          "w-bieten",
+          "w-fliegen",
+          "w-ziehen",
+          "w-geniessen",
+          "w-verlieren",
+          "w-schliessen"
+        ]
+      },
+      {
+        "id": "drei-formen-10",
+        "words": [
+          "w-sein",
+          "w-werden",
+          "w-kommen",
+          "w-geschehen",
+          "w-bleiben"
+        ]
+      },
+      {
+        "id": "drei-formen-11",
+        "words": [
+          "w-heissen",
+          "w-liegen",
+          "w-sitzen",
+          "w-stehen",
+          "w-tun"
+        ]
+      },
+      {
+        "id": "drei-formen-12",
+        "words": [
+          "w-lassen",
+          "w-schneiden",
+          "w-entscheiden",
+          "w-empfangen",
+          "w-empfehlen",
+          "w-backen",
+          "w-haengen"
+        ]
+      }
+    ],
+    "words": [
+      "w-fahren",
+      "w-tragen",
+      "w-schlagen",
+      "w-wachsen",
+      "w-anfangen",
+      "w-einladen",
+      "w-sein",
+      "w-werden",
+      "w-kommen",
+      "w-geschehen",
+      "w-bleiben",
+      "w-schreiben",
+      "w-heissen",
+      "w-liegen",
+      "w-sitzen",
+      "w-stehen",
+      "w-tun",
+      "w-lassen",
+      "w-schneiden",
+      "w-entscheiden",
+      "w-empfangen",
+      "w-empfehlen",
+      "w-bitten",
+      "w-backen",
+      "w-haengen",
+      "w-schlafen",
+      "w-fallen",
+      "w-halten",
+      "w-braten",
+      "w-raten",
+      "w-rufen",
+      "w-laufen",
+      "w-bringen",
+      "w-denken",
+      "w-kennen",
+      "w-nennen",
+      "w-wissen",
+      "w-haben",
+      "w-beginnen",
+      "w-finden",
+      "w-trinken",
+      "w-singen",
+      "w-schwimmen",
+      "w-sprechen",
+      "w-brechen",
+      "w-helfen",
+      "w-nehmen",
+      "w-treffen",
+      "w-geben",
+      "w-lesen",
+      "w-sehen",
+      "w-essen",
+      "w-vergessen",
+      "w-bieten",
+      "w-fliegen",
+      "w-ziehen",
+      "w-geniessen",
+      "w-verlieren",
+      "w-schliessen"
+    ]
+  }
+]

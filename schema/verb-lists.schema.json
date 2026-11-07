@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "verb-lists.schema.json",
+  "title": "Списки глаголов для заучивания (три формы)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "kind",
+      "words"
+    ],
+    "properties": {
+      "id": {
+        "$ref": "common.schema.json#/$defs/id"
+      },
+      "title": {
+        "type": "string"
+      },
+      "kind": {
+        "enum": [
+          "tutor",
+          "reference"
+        ],
+        "description": "tutor — спрашивает репетитор (приоритет), reference — общий список"
+      },
+      "level": {
+        "$ref": "common.schema.json#/$defs/level"
+      },
+      "added": {
+        "$ref": "common.schema.json#/$defs/date"
+      },
+      "source": {
+        "type": "string"
+      },
+      "note": {
+        "type": "string"
+      },
+      "words": {
+        "type": "array",
+        "items": {
+          "$ref": "common.schema.json#/$defs/id"
+        },
+        "description": "Ссылки на words.json; формы берутся оттуда (verb_forms)"
+      },
+      "groups": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "title",
+            "words"
+          ],
+          "properties": {
+            "id": {
+              "$ref": "common.schema.json#/$defs/id"
+            },
+            "title": {
+              "type": "string"
+            },
+            "words": {
+              "type": "array",
+              "items": {
+                "$ref": "common.schema.json#/$defs/id"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "trainer_lessons": {
+        "type": "array",
+        "description": "Уроки в «Mein Deutsch» (id документа в lessons); released — дата выпуска, нет даты — урок ещё не выпущен",
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "words"
+          ],
+          "properties": {
+            "id": {
+              "$ref": "common.schema.json#/$defs/id"
+            },
+            "released": {
+              "$ref": "common.schema.json#/$defs/date"
+            },
+            "words": {
+              "type": "array",
+              "items": {
+                "$ref": "common.schema.json#/$defs/id"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}
