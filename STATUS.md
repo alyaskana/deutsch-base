@@ -48,7 +48,7 @@
 - **Обращение и подпись в письме** `email-format`
 - **Спряжение в настоящем времени** `praesens`
 
-### Не проверено (8)
+### Не проверено (12)
 
 - **Личные местоимения: Nom / Akk / Dat** `personal-pronouns`
 - **Болит: wehtun + Dativ** `wehtun-dativ`
@@ -58,6 +58,21 @@
 - **Какой / этот: welch- / dies-** `welch-dies`
 - **Сложные слова** `komposita`
 - **Существительные с заглавной буквы** `noun-capitalization` · самостоятельно
+- **Präteritum модальных глаголов** `praeteritum-modal`
+- **Глаголы с предлогами** `verbs-with-prepositions` · самостоятельно
+- **Придаточные: weil, dass, wenn, ob** `subordinate-clauses` · самостоятельно
+- **Слова на -ung, -heit, -keit** `wortbildung-ung`
+
+### Впереди, ещё не проходили (8)
+
+- **Präteritum всех глаголов** `praeteritum`
+- **Возвратные глаголы: sich** `reflexive-verbs`
+- **darauf, worauf** `pronominal-adverbs`
+- **Konjunktiv II: würde, hätte, wäre** `konjunktiv-2`
+- **Относительные предложения** `relative-clauses`
+- **Genitiv** `genitiv`
+- **man, jemand, niemand, etwas, nichts** `indefinite-pronouns`
+- **Was für ein …?** `was-fuer-ein`
 
 ## Слова
 

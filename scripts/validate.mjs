@@ -48,6 +48,9 @@ for (const v of data["verb-lists"]) {
   all.forEach((r) => ref("words", r, `verb-list ${v.id}`));
   for (const r of all) { const w = data.words.find((x) => x.id === r); if (w && !(w.verb_forms?.praeteritum && w.verb_forms?.partizip2 && w.verb_forms?.aux)) errors.push(`verb-list ${v.id}: у ${r} нет трёх форм`); }
 }
+const mdg = read("data/mein-deutsch-grammar.json");
+check("mein-deutsch-grammar.schema.json", mdg, "data/mein-deutsch-grammar.json");
+for (const [k, v] of Object.entries(mdg.stages ?? {})) v.forEach((r) => ref("grammar", r, `mein-deutsch-grammar ${k}`));
 const oSeen = new Set();
 for (const { line, o } of observations) {
   if (oSeen.has(o.id)) errors.push(`observations: дубль id ${o.id}`); oSeen.add(o.id);
