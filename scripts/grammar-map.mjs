@@ -30,7 +30,7 @@ const st = new Map(status.grammar.map((s) => [s.id, s]));
 const top = (id) => { let g = byId.get(id); while (g?.parent) g = byId.get(g.parent); return g?.id; };
 const kids = (id) => grammar.filter((g) => top(g.id) === id && g.id !== id);
 
-// Статус темы вместе с подтемами: затык важнее всего, «впереди» — только если тему не начинали.
+// Статус темы вместе с подтемами: «сложно» важнее всего, «впереди» — только если тему не начинали.
 function agg(id) {
   const own = st.get(id);
   const all = [own, ...kids(id).map((k) => st.get(k.id))].filter(Boolean);
@@ -82,4 +82,4 @@ const out = {
 mkdirSync(join(root, "build"), { recursive: true });
 writeFileSync(join(root, "build/grammar-map.json"), JSON.stringify(out) + "\n");
 const count = (s) => topics.filter((t) => t.st === s).length;
-console.log(`grammar-map: ${topics.length} тем (A1 ${topics.filter((t) => t.lv === "A1").length}, A2 ${topics.filter((t) => t.lv === "A2").length}); затык ${count("stuck")}, изучаю ${count("learning")}, не проверено ${count("new")}, впереди ${count("planned")}`);
+console.log(`grammar-map: ${topics.length} тем (A1 ${topics.filter((t) => t.lv === "A1").length}, A2 ${topics.filter((t) => t.lv === "A2").length}); сложно ${count("stuck")}, изучаю ${count("learning")}, не проверено ${count("new")}, впереди ${count("planned")}`);

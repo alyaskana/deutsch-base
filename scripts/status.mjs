@@ -100,7 +100,7 @@ for (const s of ["stuck", "learning", "solid", "new", "planned"]) {
 }
 const stuckWords = wordStatus.filter((w) => w.status === "stuck");
 const learningWords = wordStatus.filter((w) => w.status === "learning");
-lines.push("## Слова", "", `Всего ${wordStatus.length}: затык ${stuckWords.length}, изучаю ${learningWords.length}, уверенно ${wordStatus.filter((w) => w.status === "solid").length}, не проверено ${wordStatus.filter((w) => w.status === "new").length}.`, "");
+lines.push("## Слова", "", `Всего ${wordStatus.length}: сложно ${stuckWords.length}, изучаю ${learningWords.length}, уверенно ${wordStatus.filter((w) => w.status === "solid").length}, не проверено ${wordStatus.filter((w) => w.status === "new").length}.`, "");
 if (stuckWords.length) { lines.push("### Затык", ""); for (const w of stuckWords) lines.push(`- ${w.lemma} — ${w.ru}`); lines.push(""); }
 if (learningWords.length) { lines.push(`### Изучаю (${learningWords.length})`, "", learningWords.map((w) => w.lemma).join(", "), ""); }
 writeFileSync(join(root, "STATUS.md"), lines.join("\n"));
