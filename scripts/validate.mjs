@@ -24,6 +24,7 @@ const data = {
   modules: read("data/modules.json"),
   lessons: read("data/lessons.json"),
   tasks: read("data/tasks.json"),
+  "verb-lists": read("data/verb-lists.json"),
 };
 const observations = readFileSync(join(root, "data/observations.jsonl"), "utf8")
   .split("\n").filter((l) => l.trim()).map((l, i) => ({ line: i + 1, o: JSON.parse(l) }));
@@ -42,6 +43,11 @@ for (const w of data.words) { (w.grammar ?? []).forEach((r) => ref("grammar", r,
 for (const m of data.modules) (m.grammar ?? []).forEach((r) => ref("grammar", r, `module ${m.id}`));
 for (const t of data.tasks) { ref("modules", t.module, `task ${t.id}`); (t.grammar ?? []).forEach((r) => ref("grammar", r, `task ${t.id}`)); }
 for (const l of data.lessons) { (l.modules ?? []).forEach((r) => ref("modules", r, `lesson ${l.id}`)); (l.grammar ?? []).forEach((r) => ref("grammar", r, `lesson ${l.id}`)); (l.words ?? []).forEach((r) => ref("words", r, `lesson ${l.id}`)); (l.tasks_assigned ?? []).forEach((r) => ref("tasks", r, `lesson ${l.id}`)); }
+for (const v of data["verb-lists"]) {
+  const all = [...v.words, ...(v.groups ?? []).flatMap((g) => g.words), ...(v.trainer_lessons ?? []).flatMap((t) => t.words)];
+  all.forEach((r) => ref("words", r, `verb-list ${v.id}`));
+  for (const r of all) { const w = data.words.find((x) => x.id === r); if (w && !(w.verb_forms?.praeteritum && w.verb_forms?.partizip2 && w.verb_forms?.aux)) errors.push(`verb-list ${v.id}: у ${r} нет трёх форм`); }
+}
 const oSeen = new Set();
 for (const { line, o } of observations) {
   if (oSeen.has(o.id)) errors.push(`observations: дубль id ${o.id}`); oSeen.add(o.id);
