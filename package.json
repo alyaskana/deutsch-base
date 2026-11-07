@@ -5,8 +5,9 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "status": "node scripts/status.mjs",
-    "check": "node scripts/validate.mjs && node scripts/status.mjs && node scripts/dict.mjs",
-    "dict": "node scripts/dict.mjs"
+    "check": "node scripts/validate.mjs && node scripts/status.mjs && node scripts/dict.mjs && node scripts/grammar-map.mjs",
+    "dict": "node scripts/dict.mjs",
+    "grammar-map": "node scripts/grammar-map.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",

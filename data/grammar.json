@@ -3,6 +3,7 @@
     "id": "perfekt",
     "title_de": "Perfekt",
     "title_ru": "Прошедшее время Perfekt",
+    "short": "Perfekt",
     "level": "A1",
     "category": "tenses",
     "rule_ru": "haben/sein в 2-й позиции + Partizip II в конце. sein — с глаголами движения и смены состояния (gehen, fahren, kommen, bleiben).",
@@ -67,6 +68,7 @@
     "id": "strong-verbs",
     "title_de": "Starke und unregelmäßige Verben",
     "title_ru": "Сильные и неправильные глаголы: три формы",
+    "short": "3 Formen",
     "level": "A1",
     "category": "verbs",
     "rule_ru": "Инфинитив — Präteritum — Partizip II с изменением корня (fahren — fuhr — gefahren), часто с умлаутом в 2–3 л. ед. ч. (er fährt).",
@@ -97,6 +99,7 @@
     "id": "praeteritum-war-hatte",
     "title_de": "Präteritum: war, hatte",
     "title_ru": "Прошедшее war / hatte",
+    "short": "war/hatte",
     "level": "A1",
     "category": "tenses",
     "rule_ru": "sein и haben в прошедшем обычно в Präteritum: ich war, du warst, er war; ich hatte, du hattest.",
@@ -120,6 +123,7 @@
     "id": "modal-verbs",
     "title_de": "Modalverben",
     "title_ru": "Модальные глаголы",
+    "short": "Modal",
     "level": "A1",
     "category": "verbs",
     "rule_ru": "Модальный глагол во 2-й позиции, смысловой инфинитив в конце. В ед. ч. меняется корень, 1 и 3 л. ед. ч. без окончания (ich kann, er kann).",
@@ -230,6 +234,7 @@
     "id": "separable-verbs",
     "title_de": "Trennbare Verben",
     "title_ru": "Отделяемые приставки",
+    "short": "trennbar",
     "level": "A1",
     "category": "verbs",
     "rule_ru": "Ударная приставка (ab-, an-, auf-, aus-, mit-, um-, zurück-…) уходит в конец предложения в Präsens: Ich probiere das an.",
@@ -256,6 +261,7 @@
     "id": "verb-government",
     "title_de": "Rektion der Verben",
     "title_ru": "Управление глаголов (Akk / Dat)",
+    "short": "Akk/Dat",
     "level": "A1",
     "category": "cases",
     "rule_ru": "Каждый глагол требует свой падеж дополнения: большинство — Akk (kennen, bestellen, nutzen), некоторые — Dat (helfen, gefallen, wehtun).",
@@ -279,6 +285,7 @@
     "id": "imperativ",
     "title_de": "Imperativ",
     "title_ru": "Повелительное наклонение (du / ihr / Sie)",
+    "short": "Imperativ",
     "level": "A1",
     "category": "verbs",
     "rule_ru": "du: основа без -st (komm!, nimm!), ihr: форма ihr без местоимения (kommt!), Sie: Kommen Sie!",
@@ -305,6 +312,7 @@
     "id": "personal-pronouns",
     "title_de": "Personalpronomen",
     "title_ru": "Личные местоимения: Nom / Akk / Dat",
+    "short": "mir/dich",
     "level": "A1",
     "category": "pronouns",
     "rule_ru": "ich–mich–mir, du–dich–dir, er–ihn–ihm, sie–sie–ihr, es–es–ihm, wir–uns–uns, ihr–euch–euch, sie/Sie–sie/Sie–ihnen/Ihnen.",
@@ -364,6 +372,7 @@
     "id": "possessive-pronouns",
     "title_de": "Possessivartikel in den Kasus",
     "title_ru": "Притяжательные в падежах",
+    "short": "mein-",
     "level": "A1",
     "category": "pronouns",
     "rule_ru": "mein/dein/sein/ihr/unser/euer/Ihr склоняются как ein: meinen Bruder (Akk), meiner Mutter (Dat).",
@@ -383,6 +392,7 @@
     "id": "wehtun-dativ",
     "title_de": "wehtun + Dativ, Schmerzen haben",
     "title_ru": "Болит: wehtun + Dativ",
+    "short": "wehtun",
     "level": "A1",
     "category": "cases",
     "rule_ru": "Кому болит — Dativ: Mir tut der Kopf weh. Или: Ich habe Kopfschmerzen.",
@@ -400,6 +410,7 @@
     "id": "case-choice",
     "title_de": "Kasuswahl beim Sprechen",
     "title_ru": "Выбор падежа в речи",
+    "short": "Kasus",
     "level": "A1",
     "category": "cases",
     "rule_ru": "Падеж определяют глагол, предлог и роль слова: подлежащее — Nom, прямое дополнение — Akk, кому/где — Dat.",
@@ -414,6 +425,7 @@
     "id": "noun-gender",
     "title_de": "Genus der Nomen",
     "title_ru": "Род существительных",
+    "short": "der/die",
     "level": "A1",
     "category": "articles",
     "rule_ru": "Род учится вместе со словом; помогают окончания: -ung, -heit, -keit, -e → die; -chen, -um → das; -er (лица), -ling → der.",
@@ -431,6 +443,7 @@
     "id": "articles-plural",
     "title_de": "Artikel und Plural",
     "title_ru": "Артикли и множественное число",
+    "short": "Plural",
     "level": "A1",
     "category": "articles",
     "rule_ru": "Во мн. ч. артикль всегда die. Форма мн. ч. учится со словом: -e, -(e)n, -er, -s, без изменения, часто с умлаутом.",
@@ -460,6 +473,7 @@
     "id": "kein-nicht",
     "title_de": "kein / nicht",
     "title_ru": "Отрицание kein / nicht",
+    "short": "kein",
     "level": "A1",
     "category": "articles",
     "rule_ru": "kein — вместо ein или без артикля перед существительным; nicht — всё остальное.",
@@ -480,6 +494,7 @@
     "id": "adjective-endings",
     "title_de": "Adjektivdeklination",
     "title_ru": "Окончания прилагательных",
+    "short": "-e/-en",
     "level": "A1",
     "category": "adjectives",
     "rule_ru": "Окончание зависит от типа артикля (ein / der / без артикля), рода и падежа.",
@@ -544,6 +559,7 @@
     "id": "komparativ-superlativ",
     "title_de": "Komparativ und Superlativ",
     "title_ru": "Степени сравнения",
+    "short": "besser",
     "level": "A1",
     "category": "adjectives",
     "rule_ru": "-er для сравнения (+ als), am -sten для превосходной; односложные часто с умлаутом. gern — lieber — am liebsten. so … wie — так же, как.",
@@ -573,6 +589,7 @@
     "id": "welch-dies",
     "title_de": "welch- / dies-",
     "title_ru": "Какой / этот: welch- / dies-",
+    "short": "dies-",
     "level": "A1",
     "category": "articles",
     "rule_ru": "Склоняются как der: Welchen Rock nimmst du? Diesen.",
@@ -587,6 +604,7 @@
     "id": "wohin-nach-in-auf-zu",
     "title_de": "Wohin? nach / in / auf / zu",
     "title_ru": "Куда: nach / in / auf / zu",
+    "short": "nach/zu",
     "level": "A1",
     "category": "prepositions",
     "rule_ru": "nach — города, страны без артикля, nach Hause; in + Akk — страны с артиклем и закрытые места; zu + Dat — к людям, учреждениям; auf + Akk — открытые места, мероприятия.",
@@ -617,6 +635,7 @@
     "id": "mit-dativ",
     "title_de": "mit + Dativ",
     "title_ru": "mit + Dativ (транспорт)",
+    "short": "mit",
     "level": "A1",
     "category": "prepositions",
     "rule_ru": "mit всегда с Dat: mit dem Bus, mit der U-Bahn.",
@@ -643,6 +662,7 @@
     "id": "wo-wohin",
     "title_de": "Wechselpräpositionen: Wo? + Dativ / Wohin? + Akkusativ",
     "title_ru": "Предлоги места: где — Dativ, куда — Akkusativ",
+    "short": "Wo/Wohin",
     "level": "A1",
     "category": "prepositions",
     "rule_ru": "in, an, auf, unter, über, vor, hinter, neben, zwischen: место (Wo?) → Dativ, движение (Wohin?) → Akkusativ.",
@@ -671,6 +691,7 @@
     "id": "prepositions-by-case",
     "title_de": "Präpositionen nach Kasus",
     "title_ru": "Предлоги по падежам",
+    "short": "für/mit",
     "level": "A1",
     "category": "prepositions",
     "rule_ru": "Только Dat: aus, bei, mit, nach, seit, von, zu. Только Akk: durch, für, gegen, ohne, um. Оба: Wechselpräpositionen.",
@@ -717,6 +738,7 @@
     "id": "time-prepositions",
     "title_de": "Temporale Präpositionen",
     "title_ru": "Предлоги времени",
+    "short": "um/am",
     "level": "A1",
     "category": "prepositions",
     "rule_ru": "um — часы; am — дни, части дня, даты; im — месяцы, сезоны; vor/nach/seit + Dat; bis — до; von … bis; zwischen.",
@@ -748,6 +770,7 @@
     "id": "dates-ordinals",
     "title_de": "Datum und Ordinalzahlen",
     "title_ru": "Даты и порядковые числительные",
+    "short": "Datum",
     "level": "A1",
     "category": "numbers-time",
     "rule_ru": "1–19: -te, с 20: -ste; дата с am + -ten: am elften Mai.",
@@ -765,6 +788,7 @@
     "id": "clock-time",
     "title_de": "Uhrzeit, Uhr und Stunde",
     "title_ru": "Время на часах, Uhr и Stunde",
+    "short": "Uhr",
     "level": "A1",
     "category": "numbers-time",
     "rule_ru": "Uhr — время на часах (um 10 Uhr), Stunde — длительность (eine halbe Stunde). halb, Viertel vor/nach, anderthalb.",
@@ -782,6 +806,7 @@
     "id": "word-order",
     "title_de": "Satzstellung",
     "title_ru": "Порядок слов",
+    "short": "Satz",
     "level": "A1",
     "category": "word-order",
     "rule_ru": "Глагол на 2-м месте; если первым стоит обстоятельство — подлежащее после глагола. Время перед местом.",
@@ -865,6 +890,7 @@
     "id": "w-questions",
     "title_de": "W-Fragen",
     "title_ru": "Вопросительные слова",
+    "short": "W-Frage",
     "level": "A1",
     "category": "word-order",
     "rule_ru": "W-слово на 1-м месте, глагол на 2-м: Wo wohnst du? Wen? — кого, Wem? — кому.",
@@ -879,6 +905,7 @@
     "id": "email-format",
     "title_de": "Anrede und Gruß in E-Mails",
     "title_ru": "Обращение и подпись в письме",
+    "short": "Brief",
     "level": "A1",
     "category": "other",
     "rule_ru": "Sehr geehrte Frau …, / Hallo …, — Mit freundlichen Grüßen / Viele Grüße.",
@@ -893,6 +920,7 @@
     "id": "praesens",
     "title_de": "Präsens: Konjugation",
     "title_ru": "Спряжение в настоящем времени",
+    "short": "Präsens",
     "level": "A1",
     "category": "verbs",
     "rule_ru": "Окончания -e, -st, -t, -en, -t, -en; у сильных глаголов смена гласной во 2–3 л. ед. ч. (fahren → du fährst, er fährt).",
@@ -919,6 +947,7 @@
     "id": "komposita",
     "title_de": "Komposita",
     "title_ru": "Сложные слова",
+    "short": "Komposita",
     "level": "A1",
     "category": "other",
     "rule_ru": "Род сложного слова — по последней части: das Haus + die Tür → die Haustür.",
@@ -936,6 +965,7 @@
     "id": "noun-capitalization",
     "title_de": "Großschreibung der Nomen",
     "title_ru": "Существительные с заглавной буквы",
+    "short": "Groß",
     "level": "A1",
     "category": "other",
     "rule_ru": "Все существительные пишутся с заглавной — и после предлога, и в устойчивых выражениях: am Wochenende, auf Englisch, im Norden. Глагол, ставший существительным, тоже с заглавной: zum Einkaufen.",
@@ -962,6 +992,291 @@
         "module": "was-man-so-macht",
         "lesson": "2026-11-04",
         "by_claude": true
+      }
+    ]
+  },
+  {
+    "id": "praeteritum-modal",
+    "title_de": "Präteritum der Modalverben",
+    "title_ru": "Präteritum модальных глаголов",
+    "short": "konnte",
+    "level": "A2",
+    "category": "tenses",
+    "rule_ru": "Основа без умлаута + -te: können → konnte, müssen → musste, dürfen → durfte, wollen → wollte, sollen → sollte, mögen → mochte. У ich и er/sie нет окончания: ich konnte, er musste.",
+    "examples": [
+      {
+        "de": "Gestern konnte ich nicht kommen.",
+        "ru": "Вчера я не смогла прийти."
+      },
+      {
+        "de": "Als Kind musste ich früh aufstehen.",
+        "ru": "В детстве мне приходилось рано вставать."
+      }
+    ],
+    "related": [
+      "modal-verbs",
+      "praeteritum-war-hatte"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "was-man-so-macht"
+      }
+    ]
+  },
+  {
+    "id": "praeteritum",
+    "title_de": "Präteritum",
+    "title_ru": "Präteritum всех глаголов",
+    "short": "ging",
+    "level": "A2",
+    "category": "tenses",
+    "rule_ru": "Прошедшее время для рассказа и письма. Слабые глаголы: основа + -te (machte, wohnte). Сильные меняют корень: gehen → ging, kommen → kam, fahren → fuhr. У ich и er/sie нет окончания.",
+    "examples": [
+      {
+        "de": "Er ging nach Hause.",
+        "ru": "Он пошёл домой."
+      },
+      {
+        "de": "Wir wohnten in Berlin.",
+        "ru": "Мы жили в Берлине."
+      }
+    ],
+    "related": [
+      "strong-verbs",
+      "praeteritum-modal"
+    ],
+    "covered_with_tutor": false,
+    "planned": true
+  },
+  {
+    "id": "reflexive-verbs",
+    "title_de": "Reflexive Verben",
+    "title_ru": "Возвратные глаголы: sich",
+    "short": "sich",
+    "level": "A2",
+    "category": "verbs",
+    "rule_ru": "sich меняется по лицу: ich freue mich, du freust dich, er freut sich, wir freuen uns, ihr freut euch, sie freuen sich. Если есть ещё дополнение в Akk, sich в Dativ: Ich wasche mir die Hände.",
+    "examples": [
+      {
+        "de": "Ich freue mich auf den Urlaub.",
+        "ru": "Я радуюсь предстоящему отпуску."
+      },
+      {
+        "de": "Wir treffen uns um acht.",
+        "ru": "Мы встречаемся в восемь."
+      }
+    ],
+    "covered_with_tutor": false,
+    "planned": true
+  },
+  {
+    "id": "verbs-with-prepositions",
+    "title_de": "Verben mit Präpositionen",
+    "title_ru": "Глаголы с предлогами",
+    "short": "denken an",
+    "level": "A2",
+    "category": "verbs",
+    "rule_ru": "Предлог учится вместе с глаголом и задаёт падеж: denken an + Akk, warten auf + Akk, sich freuen auf + Akk, sprechen mit + Dat, träumen von + Dat.",
+    "examples": [
+      {
+        "de": "Ich denke oft an dich.",
+        "ru": "Я часто думаю о тебе."
+      },
+      {
+        "de": "Wir warten auf den Bus.",
+        "ru": "Мы ждём автобус."
+      }
+    ],
+    "related": [
+      "verb-government",
+      "pronominal-adverbs"
+    ],
+    "covered_with_tutor": false
+  },
+  {
+    "id": "pronominal-adverbs",
+    "title_de": "Pronominaladverbien",
+    "title_ru": "darauf, worauf",
+    "short": "darauf",
+    "level": "A2",
+    "category": "pronouns",
+    "rule_ru": "Вместо «предлог + вещь»: da(r) + предлог — darauf, daran, damit. Вопрос о вещи: wo(r) + предлог — Worauf? Woran? О людях так не говорят: auf ihn, an sie.",
+    "examples": [
+      {
+        "de": "Worauf wartest du? — Auf den Bus.",
+        "ru": "Чего ты ждёшь? — Автобус."
+      },
+      {
+        "de": "Ich freue mich schon darauf.",
+        "ru": "Я уже этому радуюсь."
+      }
+    ],
+    "related": [
+      "verbs-with-prepositions"
+    ],
+    "covered_with_tutor": false,
+    "planned": true
+  },
+  {
+    "id": "konjunktiv-2",
+    "title_de": "Konjunktiv II",
+    "title_ru": "Konjunktiv II: würde, hätte, wäre",
+    "short": "würde",
+    "level": "A2",
+    "category": "verbs",
+    "rule_ru": "Вежливая просьба и желание: Ich hätte gern …, Könnten Sie …?, Ich würde gern + инфинитив в конце. hätte — от haben, wäre — от sein.",
+    "examples": [
+      {
+        "de": "Ich würde gern nach Italien fahren.",
+        "ru": "Я бы с удовольствием поехала в Италию."
+      },
+      {
+        "de": "Könnten Sie mir bitte helfen?",
+        "ru": "Не могли бы вы мне помочь?"
+      }
+    ],
+    "covered_with_tutor": false,
+    "planned": true
+  },
+  {
+    "id": "subordinate-clauses",
+    "title_de": "Nebensätze mit weil, dass, wenn, ob",
+    "title_ru": "Придаточные: weil, dass, wenn, ob",
+    "short": "weil",
+    "level": "A2",
+    "category": "conjunctions",
+    "rule_ru": "После weil, dass, wenn и ob спрягаемый глагол уходит в конец, перед союзом запятая. Если придаточное стоит первым, главное начинается с глагола.",
+    "examples": [
+      {
+        "de": "Ich bleibe zu Hause, weil ich müde bin.",
+        "ru": "Я останусь дома, потому что устала."
+      },
+      {
+        "de": "Wenn ich Zeit habe, lese ich.",
+        "ru": "Когда у меня есть время, я читаю."
+      }
+    ],
+    "related": [
+      "word-order",
+      "conj-aber-denn-und-oder",
+      "indirect-questions"
+    ],
+    "covered_with_tutor": false
+  },
+  {
+    "id": "relative-clauses",
+    "title_de": "Relativsätze",
+    "title_ru": "Относительные предложения",
+    "short": "der, die",
+    "level": "A2",
+    "category": "conjunctions",
+    "rule_ru": "Относительное местоимение похоже на артикль (der, die, das), его падеж зависит от роли в придаточном, глагол в конце: der Mann, der dort steht; die Frau, die ich kenne.",
+    "examples": [
+      {
+        "de": "Das ist der Mann, der neben mir wohnt.",
+        "ru": "Это мужчина, который живёт рядом со мной."
+      },
+      {
+        "de": "Das ist die Stadt, die ich liebe.",
+        "ru": "Это город, который я люблю."
+      }
+    ],
+    "covered_with_tutor": false,
+    "planned": true
+  },
+  {
+    "id": "genitiv",
+    "title_de": "Genitiv",
+    "title_ru": "Genitiv",
+    "short": "des",
+    "level": "A2",
+    "category": "cases",
+    "rule_ru": "Принадлежность: das Auto meines Vaters, die Tasche der Frau. der/das → des + -(e)s, die → der. В речи часто von + Dativ: das Auto von meinem Vater. С именами: Annas Buch.",
+    "examples": [
+      {
+        "de": "Das ist das Auto meines Vaters.",
+        "ru": "Это машина моего отца."
+      },
+      {
+        "de": "Annas Wohnung ist sehr hell.",
+        "ru": "Квартира Анны очень светлая."
+      }
+    ],
+    "covered_with_tutor": false,
+    "planned": true
+  },
+  {
+    "id": "indefinite-pronouns",
+    "title_de": "Indefinitpronomen",
+    "title_ru": "man, jemand, niemand, etwas, nichts",
+    "short": "man",
+    "level": "A2",
+    "category": "pronouns",
+    "rule_ru": "man — «люди вообще», глагол как с er: Hier darf man nicht rauchen. jemand — кто-то, niemand — никто, etwas — что-то, nichts — ничего.",
+    "examples": [
+      {
+        "de": "Hier darf man nicht parken.",
+        "ru": "Здесь нельзя парковаться."
+      },
+      {
+        "de": "Niemand war zu Hause.",
+        "ru": "Никого не было дома."
+      }
+    ],
+    "covered_with_tutor": false,
+    "planned": true
+  },
+  {
+    "id": "was-fuer-ein",
+    "title_de": "Was für ein …?",
+    "title_ru": "Was für ein …?",
+    "short": "was für",
+    "level": "A2",
+    "category": "articles",
+    "rule_ru": "Вопрос о том, какой предмет по свойствам: Was für ein Auto hast du? — Ein rotes. welch- спрашивает о выборе из известных: Welches Auto ist deins?",
+    "examples": [
+      {
+        "de": "Was für ein Auto hast du? — Ein kleines.",
+        "ru": "Какая у тебя машина? — Маленькая."
+      },
+      {
+        "de": "Was für Musik hörst du gern?",
+        "ru": "Какую музыку ты любишь слушать?"
+      }
+    ],
+    "related": [
+      "welch-dies"
+    ],
+    "covered_with_tutor": false,
+    "planned": true
+  },
+  {
+    "id": "wortbildung-ung",
+    "title_de": "Wortbildung: -ung, -heit, -keit",
+    "title_ru": "Слова на -ung, -heit, -keit",
+    "short": "-ung",
+    "level": "A2",
+    "category": "other",
+    "rule_ru": "Существительные из глаголов и прилагательных, всегда с die: wohnen → die Wohnung, frei → die Freiheit, möglich → die Möglichkeit.",
+    "examples": [
+      {
+        "de": "Die Wohnung ist hell.",
+        "ru": "Квартира светлая."
+      },
+      {
+        "de": "Das ist eine gute Möglichkeit.",
+        "ru": "Это хорошая возможность."
+      }
+    ],
+    "related": [
+      "noun-gender",
+      "komposita"
+    ],
+    "covered_with_tutor": true,
+    "sources": [
+      {
+        "module": "was-man-so-macht"
       }
     ]
   }

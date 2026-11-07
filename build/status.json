@@ -16,7 +16,8 @@
       "stuck": 9,
       "learning": 29,
       "solid": 0,
-      "new": 8
+      "new": 12,
+      "planned": 8
     },
     "words": {
       "stuck": 4,
@@ -659,6 +660,90 @@
       "title_ru": "Существительные с заглавной буквы",
       "level": "A1",
       "covered_with_tutor": false,
+      "status": "new"
+    },
+    {
+      "id": "praeteritum-modal",
+      "title_ru": "Präteritum модальных глаголов",
+      "level": "A2",
+      "covered_with_tutor": true,
+      "status": "new"
+    },
+    {
+      "id": "praeteritum",
+      "title_ru": "Präteritum всех глаголов",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "planned"
+    },
+    {
+      "id": "reflexive-verbs",
+      "title_ru": "Возвратные глаголы: sich",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "planned"
+    },
+    {
+      "id": "verbs-with-prepositions",
+      "title_ru": "Глаголы с предлогами",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "new"
+    },
+    {
+      "id": "pronominal-adverbs",
+      "title_ru": "darauf, worauf",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "planned"
+    },
+    {
+      "id": "konjunktiv-2",
+      "title_ru": "Konjunktiv II: würde, hätte, wäre",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "planned"
+    },
+    {
+      "id": "subordinate-clauses",
+      "title_ru": "Придаточные: weil, dass, wenn, ob",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "new"
+    },
+    {
+      "id": "relative-clauses",
+      "title_ru": "Относительные предложения",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "planned"
+    },
+    {
+      "id": "genitiv",
+      "title_ru": "Genitiv",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "planned"
+    },
+    {
+      "id": "indefinite-pronouns",
+      "title_ru": "man, jemand, niemand, etwas, nichts",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "planned"
+    },
+    {
+      "id": "was-fuer-ein",
+      "title_ru": "Was für ein …?",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "planned"
+    },
+    {
+      "id": "wortbildung-ung",
+      "title_ru": "Слова на -ung, -heit, -keit",
+      "level": "A2",
+      "covered_with_tutor": true,
       "status": "new"
     }
   ],

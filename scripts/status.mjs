@@ -75,26 +75,27 @@ const group = (type) => {
 const gObs = group("grammar");
 const wObs = group("word");
 
-const grammarStatus = grammar.map((g) => ({ id: g.id, title_ru: g.title_ru, level: g.level, covered_with_tutor: g.covered_with_tutor ?? true, ...computeStatus(gObs.get(g.id) ?? []) }));
+// planned — темы из плана A1–A2, которые ещё не проходили; первое наблюдение снимает эту отметку.
+const grammarStatus = grammar.map((g) => ({ id: g.id, title_ru: g.title_ru, level: g.level, covered_with_tutor: g.covered_with_tutor ?? true, ...(g.planned && !gObs.has(g.id) ? { status: "planned" } : computeStatus(gObs.get(g.id) ?? [])) }));
 const wordStatus = words.map((w) => ({ id: w.id, lemma: w.article ? `${w.article} ${w.lemma}` : w.lemma, ru: w.ru, ...computeStatus(wObs.get(w.id) ?? []) }));
 
 const unknown = observations.filter((o) => !(o.target.type === "grammar" ? grammar : words).some((x) => x.id === o.target.id));
 if (unknown.length) { console.error("Наблюдения ссылаются на несуществующие id:", unknown.map((o) => o.id)); process.exit(1); }
 
-const summary = (list) => Object.fromEntries(["stuck", "learning", "solid", "new"].map((s) => [s, list.filter((x) => x.status === s).length]));
+const summary = (list) => Object.fromEntries(["stuck", "learning", "solid", "new", ...(list.some((x) => x.status === "planned") ? ["planned"] : [])].map((s) => [s, list.filter((x) => x.status === s).length]));
 const out = { generated_for: today, rules, summary: { grammar: summary(grammarStatus), words: summary(wordStatus) }, grammar: grammarStatus, words: wordStatus };
 mkdirSync(join(root, "build"), { recursive: true });
 writeFileSync(join(root, "build/status.json"), JSON.stringify(out, null, 2) + "\n");
 
 // STATUS.md
-const label = { stuck: "Затык", learning: "Изучаю", solid: "Уверенно", new: "Не проверено" };
+const label = { stuck: "Затык", learning: "Изучаю", solid: "Уверенно", new: "Не проверено", planned: "Впереди, ещё не проходили" };
 const lines = [`# Статус на ${today}`, "", "Файл генерируется `node scripts/status.mjs`, руками не править.", ""];
 lines.push("## Грамматика", "");
-for (const s of ["stuck", "learning", "solid", "new"]) {
+for (const s of ["stuck", "learning", "solid", "new", "planned"]) {
   const list = grammarStatus.filter((g) => g.status === s);
   if (!list.length) continue;
   lines.push(`### ${label[s]} (${list.length})`, "");
-  for (const g of list) lines.push(`- **${g.title_ru}** \`${g.id}\`${g.reason ? ` — ${g.reason}` : ""}${g.covered_with_tutor ? "" : " · самостоятельно"}`);
+  for (const g of list) lines.push(`- **${g.title_ru}** \`${g.id}\`${g.reason ? ` — ${g.reason}` : ""}${g.covered_with_tutor || s === "planned" ? "" : " · самостоятельно"}`);
   lines.push("");
 }
 const stuckWords = wordStatus.filter((w) => w.status === "stuck");
