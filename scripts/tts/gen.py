@@ -1,14 +1,16 @@
-"""Synthesize clips with OpenAI TTS and check each one by speech recognition.
+"""Synthesize clips with OpenAI TTS (or ElevenLabs with TTS_ENGINE=eleven TTS_VOICE_ID=<id>) and check each one by speech recognition.
 Usage: gen.py <texts.json> <outdir> [--have have.json] [--report report.json]
 texts.json: [[group, [[key, text, kind], ...]], ...] from collect.py
 have.json: {hash: docId} — clips already in the artifact (skipped).
 Writes <outdir>/<hash>.mp3 and <outdir>/report.json (ASR mismatches).
-The API key is injected by the environment proxy for api.openai.com (no key in code)."""
+API keys are injected by the environment proxy for api.openai.com / api.elevenlabs.io (no key in code)."""
 import json,os,re,sys,subprocess,time,urllib.request,concurrent.futures as cf
 sys.path.insert(0,os.path.dirname(__file__))
 from akey import ahash,key
 VOICE=os.environ.get('TTS_VOICE','marin')
 MODEL='gpt-4o-mini-tts'
+ENGINE=os.environ.get('TTS_ENGINE','openai')
+EL_VOICE=os.environ.get('TTS_VOICE_ID','')
 I_SENT='Sprich klares, natürliches Hochdeutsch wie eine Muttersprachlerin aus Deutschland. Ruhig und etwas langsamer als normal, deutliche Aussprache, korrekte Wortbetonung, neutrale freundliche Intonation.'
 I_WORD='Sprich nur dieses deutsche Wort oder diese kurze Wortgruppe, klar und deutlich wie in einem Wörterbuch, mit korrekter Betonung, Hochdeutsch.'
 def post(url,data=None,files=None,timeout=120):
@@ -28,7 +30,10 @@ def post(url,data=None,files=None,timeout=120):
             time.sleep(2**i)
 def tts(text,kind):
     word=kind in ('t','d','w','v') and len(text.split())<=3
-    raw=post('https://api.openai.com/v1/audio/speech',{'model':MODEL,'voice':VOICE,'input':text.replace('…',' … '),'instructions':I_WORD if word else I_SENT,'response_format':'mp3'})
+    if ENGINE=='eleven':
+        raw=post(f'https://api.elevenlabs.io/v1/text-to-speech/{EL_VOICE}?output_format=mp3_44100_64',{'text':text.replace('…',' … '),'model_id':'eleven_multilingual_v2','language_code':'de','voice_settings':{'stability':0.6 if word else 0.5,'similarity_boost':0.75}})
+    else:
+        raw=post('https://api.openai.com/v1/audio/speech',{'model':MODEL,'voice':VOICE,'input':text.replace('…',' … '),'instructions':I_WORD if word else I_SENT,'response_format':'mp3'})
     p=subprocess.run(['ffmpeg','-loglevel','error','-i','-','-af','silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse,adelay=60|60,apad=pad_dur=0.12','-ac','1','-ar','24000','-b:a','40k','-f','mp3','-'],input=raw,capture_output=True,check=True)
     return p.stdout
 def asr(blob):
@@ -46,7 +51,7 @@ if __name__=='__main__':
     items=[x for g,t in json.load(open(src)) for x in t if ahash(x[0]) not in have]
     print('to do',len(items),flush=True)
     rep=[];n=0
-    with cf.ThreadPoolExecutor(8) as ex:
+    with cf.ThreadPoolExecutor(int(os.environ.get('TTS_THREADS','8'))) as ex:
         for h,k,text,kind,heard,sz in ex.map(lambda x:one(x,out),items):
             n+=1
             if key(heard)!=k:rep.append({'h':h,'text':text,'kind':kind,'heard':heard})
