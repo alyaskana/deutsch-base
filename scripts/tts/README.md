@@ -1,6 +1,8 @@
 # Озвучка «Mein Deutsch» и «Artikelregen»
 
-Голос: OpenAI `gpt-4o-mini-tts`, голос `marin` (переменная `TTS_VOICE`). Ключ OpenAI лежит в секретах облачной среды проекта (Network secret для `api.openai.com`), прокси подставляет его сам, в коде и в репозитории ключа нет.
+Голос новых записей (с 2026-11-08): ElevenLabs, голос «Adrian» (`X3GmkxFRIWulRy3Eaur7`), модель `eleven_multilingual_v2`. Запуск: `TTS_ENGINE=eleven TTS_VOICE_ID=X3GmkxFRIWulRy3Eaur7 TTS_THREADS=4 python3 scripts/tts/gen.py …`. Подписка ElevenLabs временная: если API ElevenLabs отвечает ошибкой оплаты, лимита или доступа, озвучивай как раньше через OpenAI (без `TTS_ENGINE`, голос `marin`).
+Старые записи сделаны OpenAI `gpt-4o-mini-tts`, голос `marin`; часть уже заменена Адрианом. Ключи лежат в секретах облачной среды (Network secret для `api.openai.com` и `api.elevenlabs.io`), прокси подставляет их сам, в коде и в репозитории ключей нет.
+Перезаписать готовые клипы новым голосом: `pack.py … --replace hashes.json` кладёт их в новые документы, старые документы не трогает. Копия индекса только с голосом GPT: /mnt/project-files/tts/index-backup/.
 
 Звук хранится в базе каждой страницы, коллекция `audio`:
 - `_index` — `{v, voice, at, m: {hash: docId}}`;
@@ -15,7 +17,7 @@
 3. `python3 -c` или вручную: из `_index.json` взять `m` в `<dir>/have.json`.
    `python3 scripts/tts/gen.py <dir>/texts.json <dir>/clips --have <dir>/have.json --report <dir>/report.json`
 4. Проверка (редактор-носитель): в `report.json` клипы, где распознавание услышало не то. Отдельные слова распознаются хуже, там это часто шум. Предложения и всё, где услышано другое слово, переслушать по смыслу: если слово действительно произнесено неверно, удалить mp3 и сгенерировать снова; не выходит — убрать текст из `texts.json` (останется системный голос). Несуществующие формы, которые стоят в уроках как неверные варианты (например, ziehte, begonn в drei-formen), не озвучивать: убрать их из `texts.json`.
-5. `python3 scripts/tts/pack.py <dir>/texts.json <dir>/clips <dir>/out --index <dir>/idx/audio/_index.json`
+5. `TTS_VOICE=marin python3 scripts/tts/pack.py <dir>/texts.json <dir>/clips <dir>/out --index <dir>/idx/audio/_index.json`
 6. Записать в коллекцию `audio` все новые `out/<группа>.<n>.json` (batch, `set`, новые документы без if_version) и затем `out/_index.json` в `_index` (`set` с if_version, если документ был).
 7. «Artikelregen» (https://claude.ai/artifact/YQinY1gBWqetVFHmACmRVm): то же с `collect_ar.py` по коллекции `extra_words` и своим `audio/_index`.
 
