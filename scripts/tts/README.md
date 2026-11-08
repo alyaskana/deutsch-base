@@ -14,7 +14,7 @@
 2. `python3 scripts/tts/collect.py <dir>/db <dir>/texts.json`
 3. `python3 -c` или вручную: из `_index.json` взять `m` в `<dir>/have.json`.
    `python3 scripts/tts/gen.py <dir>/texts.json <dir>/clips --have <dir>/have.json --report <dir>/report.json`
-4. Проверка (редактор-носитель): в `report.json` клипы, где распознавание услышало не то. Отдельные слова распознаются хуже, там это часто шум. Предложения и всё, где услышано другое слово, переслушать по смыслу: если слово действительно произнесено неверно, удалить mp3 и сгенерировать снова; не выходит — убрать текст из `texts.json` (останется системный голос).
+4. Проверка (редактор-носитель): в `report.json` клипы, где распознавание услышало не то. Отдельные слова распознаются хуже, там это часто шум. Предложения и всё, где услышано другое слово, переслушать по смыслу: если слово действительно произнесено неверно, удалить mp3 и сгенерировать снова; не выходит — убрать текст из `texts.json` (останется системный голос). Несуществующие формы, которые стоят в уроках как неверные варианты (например, ziehte, begonn в drei-formen), не озвучивать: убрать их из `texts.json`.
 5. `python3 scripts/tts/pack.py <dir>/texts.json <dir>/clips <dir>/out --index <dir>/idx/audio/_index.json`
 6. Записать в коллекцию `audio` все новые `out/<группа>.<n>.json` (batch, `set`, новые документы без if_version) и затем `out/_index.json` в `_index` (`set` с if_version, если документ был).
 7. «Artikelregen» (https://claude.ai/artifact/YQinY1gBWqetVFHmACmRVm): то же с `collect_ar.py` по коллекции `extra_words` и своим `audio/_index`.
