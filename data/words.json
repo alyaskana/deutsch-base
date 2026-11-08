@@ -22712,5 +22712,22 @@
       "mein-deutsch"
     ],
     "added": "2026-11-07"
+  },
+  {
+    "id": "w-hintergrund",
+    "lemma": "Hintergrund",
+    "pos": "noun",
+    "article": "der",
+    "ru": "задний план, фон",
+    "tags": [
+      "mein-deutsch"
+    ],
+    "examples": [
+      {
+        "de": "im Hintergrund",
+        "ru": "на заднем плане"
+      }
+    ],
+    "added": "2026-11-08"
   }
 ]
