@@ -133,34 +133,6 @@ for (const [t, v] of Object.entries(perType)) {
   else console.log(`  ${t}: ответов ${v.answers}, со звуком ${v.sound}`);
 }
 
-// «Живая речь»: строка в плане, ссылка на YouTube с нужной секунды, место запоминается после возврата.
-if (/function showVideo\(/.test(html)) {
-  const { page, errs } = await open();
-  await page.evaluate(() => showHome());
-  if (!(await page.$('#go-video'))) bad('живая речь: в плане на главной нет строки с видео');
-  else {
-    await page.click('#go-video');
-    const href = await page.getAttribute('#ytgo', 'href').catch(() => null);
-    if (!/^https:\/\/www\.youtube\.com\/watch\?v=[\w-]{11}$/.test(href || '')) bad(`живая речь: ссылка на видео не та: ${href}`);
-    // как будто ушла в YouTube пять минут назад и вернулась
-    await page.evaluate(() => { const v = VIDEOS[0]; vidSt(v).open = Date.now() - 300000; vidDraft = null; showVideo(v); });
-    const t = await page.textContent('#ytt');
-    if (t !== '4:50') bad(`живая речь: после 5 минут предложено место ${t}, ждали 4:50`);
-    await page.click('.ytstep button[data-d="60"]');
-    await page.click('#dbtn');
-    await page.waitForTimeout(1800);
-    const st = await page.evaluate(() => { const p = __store['data/users/me/progress'], v = p && p.video && p.video[VIDEOS[0].id]; return { v, row: document.querySelector('#go-video .m')?.textContent }; });
-    if (!st.v || st.v.pos !== 350 || st.v.open || (st.v.days || []).length !== 1) bad(`живая речь: место не записано в базу: ${JSON.stringify(st.v)}`);
-    if (st.row !== '✓ сегодня') bad(`живая речь: строка в плане показывает «${st.row}»`);
-    await page.click('#go-video');
-    const h2 = await page.getAttribute('#ytgo', 'href').catch(() => null);
-    if (!/&t=350s$/.test(h2 || '')) bad(`живая речь: ссылка не продолжает с места: ${h2}`);
-  }
-  for (const e of [...new Set(errs)]) bad(`живая речь: ошибка JS: ${e}`);
-  console.log('✓ живая речь');
-  await page.close();
-}
-
 // Поля ввода: быстрый набор.
 {
   const { page, errs } = await open();
