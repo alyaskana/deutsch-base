@@ -1,0 +1,337 @@
+{
+ "title": "Die Hausschuhe",
+ "topic": "Чтение · Wie man Deutscher wird",
+ "sub": "Том из Испании впервые идёт в гости к Мии, и у двери его ждёт сюрприз.",
+ "color": "teal",
+ "createdAt": "2026-11-09",
+ "order": 21,
+ "serial": {
+  "id": "wmd",
+  "title": "Wie man Deutscher wird",
+  "ru": "Как стать немцем",
+  "sub": "Том из Испании переезжает в Берлин и знакомится с немецкими привычками.",
+  "total": 50
+ },
+ "ep": 1,
+ "stages": [
+  {
+   "type": "meaning",
+   "title": "Новые слова",
+   "sub": "5 слов из истории",
+   "color": "violet",
+   "shape": "circle",
+   "skill": "Слова из историй",
+   "items": [
+    {
+     "w": "zum ersten Mal",
+     "s": "Ich bin <b>zum ersten Mal</b> in Berlin. Ich kenne die Stadt noch nicht.",
+     "tr": "Я … в Берлине. Я ещё не знаю город.",
+     "trf": "Я в первый раз в Берлине. Я ещё не знаю город.",
+     "o": [
+      "в первый раз",
+      "в последний раз",
+      "очень часто"
+     ],
+     "a": "в первый раз",
+     "n": "<b>zum ersten Mal</b> — в первый раз. zum letzten Mal — в последний раз."
+    },
+    {
+     "w": "ausziehen",
+     "s": "Es ist warm hier. Ich <b>ziehe</b> meine Jacke <b>aus</b>.",
+     "tr": "Здесь тепло. Я … куртку.",
+     "trf": "Здесь тепло. Я снимаю куртку.",
+     "o": [
+      "снимаю",
+      "надеваю",
+      "покупаю"
+     ],
+     "a": "снимаю",
+     "n": "<b>ausziehen</b> — снимать одежду или обувь. Приставка уходит в конец: ich ziehe … aus. Наоборот: anziehen — надевать."
+    },
+    {
+     "w": "weich",
+     "s": "Das Kissen ist <b>weich</b> wie eine Wolke.",
+     "tr": "Подушка …, как облако.",
+     "trf": "Подушка мягкая, как облако.",
+     "o": [
+      "мягкая",
+      "тяжёлая",
+      "мокрая"
+     ],
+     "a": "мягкая",
+     "n": "<b>weich</b> — мягкий. Наоборот: hart — твёрдый, жёсткий."
+    },
+    {
+     "w": "der Flur",
+     "s": "Meine Jacke hängt im <b>Flur</b>, gleich neben der Wohnungstür.",
+     "tr": "Моя куртка висит в …, сразу рядом с входной дверью.",
+     "trf": "Моя куртка висит в прихожей, сразу рядом с входной дверью.",
+     "o": [
+      "прихожей",
+      "ванной",
+      "подвале"
+     ],
+     "a": "прихожей",
+     "n": "<b>der Flur</b> — прихожая, коридор в квартире. im Flur — в прихожей."
+    },
+    {
+     "w": "fast",
+     "s": "Es ist zwei Minuten vor zehn. Es ist <b>fast</b> zehn Uhr.",
+     "tr": "Сейчас без двух минут десять. … десять часов.",
+     "trf": "Сейчас без двух минут десять. Почти десять часов.",
+     "o": [
+      "Почти",
+      "Уже",
+      "Ровно"
+     ],
+     "a": "Почти",
+     "n": "<b>fast</b> — почти. Не путай с английским fast: «быстро» по-немецки schnell."
+    }
+   ]
+  },
+  {
+   "type": "read",
+   "title": "Die Hausschuhe",
+   "sub": "Читаем историю",
+   "color": "teal",
+   "shape": "cloud",
+   "mins": 2,
+   "skill": "Чтение",
+   "text": {
+    "title": "Die Hausschuhe",
+    "cap": "Серия 1 · Том впервые в гостях у Мии",
+    "paragraphs": [
+     "Tom kommt aus Spanien und wohnt seit einer Woche in Berlin. Heute besucht er {{zum ersten Mal|в первый раз}} seine Freundin Mia. Er kauft Blumen und fährt mit dem Bus zu ihr. Er ist ein bisschen {{nervös|взволнован}}.",
+     "Mia {{macht|открывает (aufmachen: macht … auf)}} die Tür {{auf|открывает (aufmachen: macht … auf)}}. „Hallo Tom, komm rein!“ Dann schaut sie auf seine Füße. „Aber bitte {{zieh|сними (ausziehen: zieh … aus)}} zuerst die Schuhe {{aus|сними (ausziehen: zieh … aus)}}.“",
+     "Tom versteht nicht. „Warum? Meine Schuhe sind neu und sauber.“ Mia lacht. „In Deutschland tragen wir zu Hause keine {{Straßenschuhe|уличная обувь}}. So bleibt der Boden sauber. Hier, für dich.“ Sie gibt ihm ein Paar graue {{Hausschuhe|домашние тапочки}}.",
+     "Tom zieht die Hausschuhe an. Sie sind {{weich|мягкие}} und warm. Er geht durch die Wohnung. Der {{Fußboden|пол}} in der Küche ist kalt, aber seine Füße bleiben warm. „Nicht schlecht“, denkt er.",
+     "Sie trinken Tee und sprechen über Berlin. Es ist ein schöner Abend. Um zehn Uhr sagt Tom: „Ich muss nach Hause.“",
+     "Im Bus schauen die Leute auf seine Füße. Tom schaut auch. Er trägt noch die Hausschuhe! Seine Schuhe stehen bei Mia im {{Flur|прихожая, коридор}}. Tom lacht. Jetzt ist er {{fast|почти}} ein echter Deutscher."
+    ],
+    "tr": [
+     "Том из Испании и уже неделю живёт в Берлине. Сегодня он в первый раз идёт в гости к своей подруге Мии. Он покупает цветы и едет к ней на автобусе. Он немного волнуется.",
+     "Мия открывает дверь. «Привет, Том, заходи!» Потом она смотрит на его ноги. «Но сначала, пожалуйста, сними обувь».",
+     "Том не понимает. «Почему? Мои ботинки новые и чистые». Мия смеётся. «В Германии мы дома не носим уличную обувь. Так пол остаётся чистым. Вот, это тебе». Она даёт ему пару серых тапочек.",
+     "Том надевает тапочки. Они мягкие и тёплые. Он идёт по квартире. Пол на кухне холодный, но его ногам тепло. «Неплохо», — думает он.",
+     "Они пьют чай и говорят о Берлине. Это приятный вечер. В десять часов Том говорит: «Мне пора домой».",
+     "В автобусе люди смотрят на его ноги. Том тоже смотрит. Он всё ещё в тапочках! Его ботинки стоят у Мии в прихожей. Том смеётся. Теперь он почти настоящий немец."
+    ],
+    "dict": {
+     "kommt": "происходит, родом (kommen aus = быть родом из)",
+     "aus": "из; также приставка ausziehen (zieh … aus = сними)",
+     "spanien": "Испания",
+     "und": "и",
+     "wohnt": "живёт (wohnen)",
+     "seit": "с, уже (о времени)",
+     "einer": "одной (ein)",
+     "woche": "неделя",
+     "in": "в",
+     "berlin": "Берлин",
+     "heute": "сегодня",
+     "besucht": "навещает (besuchen)",
+     "er": "он",
+     "zum": "в, к (zu + dem); zum ersten Mal = в первый раз",
+     "ersten": "первый (erste)",
+     "mal": "раз",
+     "seine": "его, свою (sein)",
+     "freundin": "подруга, девушка",
+     "kauft": "покупает (kaufen)",
+     "blumen": "цветы (die Blume)",
+     "fährt": "едет (fahren)",
+     "mit": "с, на (транспорте)",
+     "dem": "артикль дат. падежа (der/das)",
+     "bus": "автобус",
+     "zu": "к; zu Hause = дома",
+     "ihr": "к ней; ей",
+     "ist": "есть, является (sein)",
+     "ein": "один; неопр. артикль",
+     "bisschen": "немного (ein bisschen)",
+     "nervös": "взволнованный, нервничает",
+     "macht": "открывает (aufmachen: macht … auf)",
+     "die": "артикль (опред.)",
+     "tür": "дверь",
+     "auf": "приставка aufmachen (macht … auf = открывает); также предлог «на» (schaut auf = смотрит на)",
+     "hallo": "привет",
+     "komm": "заходи, иди (kommen)",
+     "rein": "внутрь, сюда (komm rein = заходи)",
+     "dann": "потом, затем",
+     "schaut": "смотрит (schauen)",
+     "sie": "она; они",
+     "füße": "ноги, ступни (der Fuß)",
+     "aber": "но",
+     "bitte": "пожалуйста",
+     "zieh": "сними (ausziehen: zieh … aus)",
+     "zuerst": "сначала",
+     "schuhe": "обувь, туфли (der Schuh)",
+     "versteht": "понимает (verstehen)",
+     "nicht": "не",
+     "warum": "почему",
+     "meine": "мои (mein)",
+     "sind": "есть, являются (sein)",
+     "neu": "новый",
+     "sauber": "чистый",
+     "lacht": "смеётся (lachen)",
+     "deutschland": "Германия",
+     "tragen": "носить, носим",
+     "wir": "мы",
+     "hause": "дом (zu Hause = дома; nach Hause = домой)",
+     "keine": "не, никакие (kein)",
+     "straßenschuhe": "уличная обувь",
+     "so": "так",
+     "bleibt": "остаётся (bleiben)",
+     "der": "артикль (опред., м. род)",
+     "boden": "пол",
+     "hier": "вот, здесь",
+     "für": "для",
+     "dich": "тебя (du)",
+     "gibt": "даёт (geben)",
+     "ihm": "ему (er)",
+     "paar": "пара",
+     "graue": "серые (grau)",
+     "hausschuhe": "домашние тапочки",
+     "zieht": "надевает (anziehen: zieht … an)",
+     "an": "приставка anziehen (zieht … an = надевает)",
+     "weich": "мягкий",
+     "warm": "тёплый",
+     "geht": "идёт (gehen)",
+     "durch": "через, по",
+     "wohnung": "квартира",
+     "fußboden": "пол",
+     "küche": "кухня",
+     "kalt": "холодный",
+     "bleiben": "остаются, остаться",
+     "schlecht": "плохо (nicht schlecht = неплохо)",
+     "denkt": "думает (denken)",
+     "trinken": "пьют, пить",
+     "tee": "чай",
+     "sprechen": "разговаривают, говорить",
+     "über": "о, про",
+     "es": "оно; es ist = это (есть)",
+     "schöner": "прекрасный (schön)",
+     "abend": "вечер",
+     "um": "в (о времени: um zehn Uhr = в десять часов)",
+     "zehn": "десять",
+     "uhr": "час, часы",
+     "sagt": "говорит (sagen)",
+     "ich": "я",
+     "muss": "должен (müssen)",
+     "nach": "nach Hause = домой; предлог «после, в»",
+     "im": "в (in + dem)",
+     "schauen": "смотрят, смотреть",
+     "leute": "люди",
+     "auch": "тоже, также",
+     "trägt": "носит, на нём (tragen)",
+     "noch": "ещё, всё ещё",
+     "stehen": "стоят, стоять",
+     "bei": "у (кого-то)",
+     "flur": "прихожая, коридор",
+     "jetzt": "теперь, сейчас",
+     "fast": "почти",
+     "echter": "настоящий (echt)",
+     "deutscher": "немец"
+    }
+   },
+   "items": [
+    {
+     "q": "Warum soll Tom die Schuhe ausziehen?",
+     "o": [
+      "Der Boden soll sauber bleiben",
+      "Seine Schuhe sind kaputt",
+      "In der Wohnung ist es zu warm"
+     ],
+     "a": "Der Boden soll sauber bleiben",
+     "n": "Mia sagt: „So <b>bleibt der Boden sauber</b>.“"
+    },
+    {
+     "q": "Was gibt Mia Tom?",
+     "o": [
+      "Warme Socken",
+      "Ein Paar graue Hausschuhe",
+      "Ein Paar neue Stiefel"
+     ],
+     "a": "Ein Paar graue Hausschuhe",
+     "n": "Sie gibt ihm <b>ein Paar graue Hausschuhe</b>."
+    },
+    {
+     "q": "Was sieht Tom im Bus?",
+     "o": [
+      "Er hat die Blumen vergessen",
+      "Er sitzt im falschen Bus",
+      "Er trägt noch die Hausschuhe"
+     ],
+     "a": "Er trägt noch die Hausschuhe",
+     "n": "Er <b>trägt noch die Hausschuhe</b>! Seine Schuhe stehen bei Mia im Flur."
+    }
+   ]
+  },
+  {
+   "type": "cloze",
+   "title": "Слово в контексте",
+   "sub": "Первая буква дана, остальное впиши",
+   "ask": "Допиши слово",
+   "color": "sun",
+   "shape": "flower",
+   "skill": "Слова из историй",
+   "items": [
+    {
+     "s": "Die Schuhe stehen im ___.",
+     "a": "Flur",
+     "ru": "Обувь стоит в прихожей.",
+     "n": "<b>der Flur</b> — прихожая. im Flur = in dem Flur.",
+     "tr": "Обувь стоит в прихожей."
+    },
+    {
+     "s": "Der Pullover ist warm und ___.",
+     "a": "weich",
+     "ru": "Свитер тёплый и мягкий.",
+     "n": "<b>weich</b> — мягкий.",
+     "tr": "Свитер тёплый и мягкий."
+    },
+    {
+     "s": "Der Film ist ___ zu Ende, nur noch fünf Minuten.",
+     "a": "fast",
+     "ru": "Фильм почти закончился, осталось пять минут.",
+     "n": "<b>fast</b> — почти.",
+     "tr": "Фильм почти закончился, осталось пять минут."
+    },
+    {
+     "s": "Zieh bitte die Schuhe ___!",
+     "a": "aus",
+     "ru": "Сними, пожалуйста, обувь!",
+     "n": "<b>ausziehen</b> — снимать: приставка aus стоит в конце. С an было бы «надень».",
+     "tr": "Сними, пожалуйста, обувь!"
+    },
+    {
+     "s": "Ich esse heute zum ersten ___ Sushi.",
+     "a": "Mal",
+     "ru": "Я сегодня в первый раз ем суши.",
+     "n": "<b>zum ersten Mal</b> — в первый раз. Mal пишется с большой буквы.",
+     "tr": "Я сегодня в первый раз ем суши."
+    }
+   ]
+  },
+  {
+   "type": "write",
+   "title": "Про тебя",
+   "sub": "Обувь у тебя дома",
+   "color": "pink",
+   "shape": "penta",
+   "items": [
+    {
+     "q": "А у тебя дома ходят в уличной обуви или снимают её? Напиши 1–2 предложения.",
+     "hint": "Слова из истории: <b>die Schuhe ausziehen, die Hausschuhe, der Flur, sauber</b>.",
+     "ph": "Bei mir zu Hause …",
+     "ex": [
+      "Bei mir zu Hause ziehen alle die Schuhe aus.",
+      "Meine Gäste bekommen Hausschuhe, und ihre Schuhe bleiben im Flur."
+     ],
+     "check": [
+      "<b>ausziehen</b> делится: ich ziehe die Schuhe <b>aus</b>",
+      "Глагол на втором месте: Bei mir zu Hause <b>ziehen</b> alle …",
+      "Существительные с большой буквы"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -516,3 +516,110 @@ sich freuen | | радоваться | A2
 sich erinnern | | вспоминать | A2
 versuchen | | пытаться | A2
 benutzen | | пользоваться | A2
+
+# Слова из Fluent — старого плагина, с которого Алина начинала (добавлено 2026-11-09).
+# Взяты только живые слова; учебниковые редкости (Politologie, Nachttischchen, Vetter) пропущены.
+
+## people Люди и семья
+der Neffe | Neffen | племянник | A2
+die Nichte | Nichten | племянница | A2
+der Großvater | Großväter | дедушка | A1
+die Großmutter | Großmütter | бабушка | A1
+der Junge | Jungen | мальчик | A1
+der Besuch | Besuche | визит; гости | A2
+streng | | строгий | A2
+ernst | | серьёзный | A2
+hilfsbereit | | отзывчивый | A2
+zufrieden | | довольный | A2
+fröhlich | | весёлый | A2
+sportlich | | спортивный | A2
+enttäuscht | | разочарованный | A2
+lachen | | смеяться | A1
+lächeln | | улыбаться | A2
+
+## work Работа и учёба
+der Elektriker | Elektriker | электрик | A2
+die Krankenschwester | Krankenschwestern | медсестра | A2
+der Professor | Professoren | профессор | A2
+der Rentner | Rentner | пенсионер | A2
+der Politiker | Politiker | политик | A2
+das Thema | Themen | тема | A1
+die Frage | Fragen | вопрос | A1
+das Beispiel | Beispiele | пример | A1
+die Gruppe | Gruppen | группа | A1
+die Bibliothek | Bibliotheken | библиотека | A2
+das Arbeitszimmer | Arbeitszimmer | рабочий кабинет | A2
+der Vorschlag | Vorschläge | предложение (что-то сделать) | A2
+die Webentwicklung | - | веб-разработка | A2
+
+## free Свободное время
+das Klavier | Klaviere | пианино | A2
+Klavier spielen | | играть на пианино | A2
+Schach spielen | | играть в шахматы | A2
+Tennis spielen | | играть в теннис | A1
+stricken | | вязать | A2
+das Geschenk | Geschenke | подарок | A1
+schenken | | дарить | A2
+feiern | | праздновать | A1
+der Feiertag | Feiertage | праздничный день | A2
+Ostern | - | Пасха | A2 | noun
+der Traum | Träume | мечта; сон | A2
+
+## day Время и мой день
+die Zeit | Zeiten | время | A1
+abends | | по вечерам | A1
+heute Abend | | сегодня вечером | A1
+zu Hause | | дома | A1
+diesmal | | в этот раз | A2
+momentan | | в данный момент | A2
+
+## nature Природа и погода
+das Gras | Gräser | трава | A2
+
+## shop Покупки и одежда
+der Korb | Körbe | корзина | A2
+
+## verbs Частые глаголы
+leben | | жить | A1
+bekommen | | получать | A1
+verbringen | | проводить (время) | A2
+meinen | | иметь в виду; считать | A2
+stimmen | | быть верным | A1
+pflegen | | ухаживать | A2
+interessieren | | интересовать | A2
+wiegen | | весить | A2
+
+## other Разное
+hier | | здесь | A1
+da | | там; тут | A1
+nebenan | | рядом, по соседству | A2
+zusammen | | вместе | A1
+gemeinsam | | вместе, сообща | A2
+allein | | один, одна | A1
+einander | | друг друга | A2 | pron
+eigentlich | | вообще-то, собственно | A2
+doch | | ведь; всё-таки | A1
+vielleicht | | возможно | A1
+leider | | к сожалению | A1
+wirklich | | действительно | A1
+ganz | | совсем, вполне | A1
+sonst | | иначе; обычно | A2
+deshalb | | поэтому | A2
+wieso | | почему | A2
+ein bisschen | | немного | A1
+ein paar | | несколько | A1
+richtig | | правильный | A1
+falsch | | неправильный | A1
+schlecht | | плохой | A1
+hilfreich | | полезный | A2
+schade | | жаль | A1
+prima | | отлично | A1
+es geht | | нормально, сойдёт | A1
+wie geht's? | | как дела? | A1
+für | | для; на (срок) | A1 | prep
+ohne | | без | A1 | prep
+durch | | через, сквозь | A1 | prep
+gegen | | против; около (о времени) | A1 | prep
+um | | в (о времени); вокруг | A1 | prep
+bis | | до | A1 | prep
+entlang | | вдоль | A2 | prep

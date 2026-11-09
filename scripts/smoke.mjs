@@ -99,7 +99,7 @@ const perType = {};
 async function playLesson(l) {
   const t0 = Date.now();
   const { page, errs } = await open();
-  await page.evaluate(id => { const l = S.lessons.find(x => x.id === id); showIntro(l); startRun(); }, l.id);
+  await page.evaluate(id => { const l = S.lessons.find(x => x.id === id) || findLesson(id); showIntro(l); startRun(); }, l.id);
   let steps = 0, stuck = 0, last = '', done = false;
   while (steps++ < 400 && Date.now() - t0 < 120000) {
     await page.waitForTimeout(30);

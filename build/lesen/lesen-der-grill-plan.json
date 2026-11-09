@@ -1,0 +1,312 @@
+{
+ "title": "Der Grill-Plan",
+ "topic": "Чтение · Wie man Deutscher wird",
+ "sub": "Том хочет пожарить мясо завтра. Мия открывает календарь.",
+ "color": "teal",
+ "createdAt": "2026-11-09",
+ "order": 23,
+ "serial": {
+  "id": "wmd",
+  "title": "Wie man Deutscher wird",
+  "ru": "Как стать немцем",
+  "sub": "Том из Испании переезжает в Берлин и знакомится с немецкими привычками.",
+  "total": 50
+ },
+ "ep": 3,
+ "stages": [
+  {
+   "type": "meaning",
+   "title": "Новые слова",
+   "sub": "5 слов из истории",
+   "color": "violet",
+   "shape": "circle",
+   "skill": "Слова из историй",
+   "items": [
+    {
+     "w": "das Getränk",
+     "s": "Auf der Party gibt es <b>Getränke</b>: Wasser, Saft und Bier.",
+     "tr": "На вечеринке есть …: вода, сок и пиво.",
+     "trf": "На вечеринке есть напитки: вода, сок и пиво.",
+     "o": [
+      "напитки",
+      "закуски",
+      "подарки"
+     ],
+     "a": "напитки",
+     "n": "<b>das Getränk</b>, мн. ч. die Getränke — напиток. От trinken."
+    },
+    {
+     "w": "vorher",
+     "s": "Wir essen um acht. <b>Vorher</b> gehe ich noch einkaufen.",
+     "tr": "Мы едим в восемь. … я ещё схожу за покупками.",
+     "trf": "Мы едим в восемь. До этого я ещё схожу за покупками.",
+     "o": [
+      "До этого",
+      "После этого",
+      "Вместо этого"
+     ],
+     "a": "До этого",
+     "n": "<b>vorher</b> — до этого, заранее. Наоборот: nachher — после этого."
+    },
+    {
+     "w": "der Wetterbericht",
+     "s": "Der <b>Wetterbericht</b> sagt: Morgen regnet es.",
+     "tr": "… говорит: завтра будет дождь.",
+     "trf": "Прогноз погоды говорит: завтра будет дождь.",
+     "o": [
+      "Прогноз погоды",
+      "Сосед",
+      "Календарь"
+     ],
+     "a": "Прогноз погоды",
+     "n": "<b>der Wetterbericht</b> = das Wetter + der Bericht, дословно «отчёт о погоде». Это прогноз погоды."
+    },
+    {
+     "w": "fehlen",
+     "s": "Alle sind da, nur Emma <b>fehlt</b>. Sie ist krank.",
+     "tr": "Все на месте, только Эммы …. Она болеет.",
+     "trf": "Все на месте, только Эммы не хватает. Она болеет.",
+     "o": [
+      "не хватает",
+      "достаточно",
+      "слишком много"
+     ],
+     "a": "не хватает",
+     "n": "<b>fehlen</b> — отсутствовать, не хватать. Nichts fehlt — всё на месте."
+    },
+    {
+     "w": "klappen",
+     "s": "Ich habe viel gelernt, und in der Prüfung hat alles <b>geklappt</b>.",
+     "tr": "Я много занималась, и на экзамене всё ….",
+     "trf": "Я много занималась, и на экзамене всё получилось.",
+     "o": [
+      "получилось",
+      "сломалось",
+      "закончилось"
+     ],
+     "a": "получилось",
+     "n": "<b>klappen</b> — получаться, удаваться (разговорное). Es klappt! — Получается!"
+    }
+   ]
+  },
+  {
+   "type": "read",
+   "title": "Der Grill-Plan",
+   "sub": "Читаем историю",
+   "color": "teal",
+   "shape": "cloud",
+   "mins": 2,
+   "skill": "Чтение",
+   "text": {
+    "title": "Der Grill-Plan",
+    "cap": "Серия 3 · Барбекю по-немецки",
+    "paragraphs": [
+     "Tom will mit Mia und ihren Freunden {{grillen|жарить на гриле}}. „Super Idee“, sagt Mia. „Wann? {{Spontan|спонтанно}}, morgen?“, fragt Tom. Mia schaut ihn an. „Morgen?! Nein, nein. Wir brauchen einen Plan.“",
+     "Mia öffnet ihren {{Kalender|календарь}}. „Samstag in zwei Wochen, 14 Uhr, im Park am See.“ Sie schreibt eine {{Liste|список}}: Wer bringt Fleisch? Wer bringt Salat? Wer bringt den Grill?",
+     "Ihre Freunde antworten schnell. Lukas bringt den Grill und {{Kohle|уголь}}. Emma macht Kartoffelsalat. Tom soll Brot und {{Getränke|напитки}} kaufen. Alles steht auf der Liste.",
+     "Eine Woche {{vorher|заранее, до этого}} schaut Mia auf den {{Wetterbericht|прогноз погоды}}. „Sonne, 24 Grad. Gut.“ Zwei Tage vorher schreibt sie in den Gruppenchat: „Nicht {{vergessen|забыть}}: Samstag, 14 Uhr!“",
+     "Am Samstag um 13:55 sind alle im Park. Der Grill brennt um 14:10. Es gibt Fleisch, drei Salate und kalte Getränke. Nichts {{fehlt|отсутствует (fehlen)}}.",
+     "„Siehst du“, sagt Mia, „mit einem Plan {{klappt|получается (klappen)}} alles.“ Tom nickt. In Spanien beginnt eine Party, wann sie beginnt. In Deutschland beginnt sie um 14 Uhr."
+    ],
+    "tr": [
+     "Том хочет пожарить мясо на гриле с Мией и её друзьями. «Отличная идея», — говорит Мия. «Когда? Спонтанно, завтра?» — спрашивает Том. Мия смотрит на него. «Завтра?! Нет-нет. Нам нужен план».",
+     "Мия открывает календарь. «Суббота через две недели, 14 часов, в парке у озера». Она пишет список: кто принесёт мясо? Кто принесёт салат? Кто принесёт гриль?",
+     "Её друзья отвечают быстро. Лукас принесёт гриль и уголь. Эмма сделает картофельный салат. Том должен купить хлеб и напитки. Всё есть в списке.",
+     "За неделю до этого Мия смотрит прогноз погоды. «Солнце, 24 градуса. Хорошо». За два дня она пишет в общий чат: «Не забудьте: суббота, 14 часов!»",
+     "В субботу в 13:55 все в парке. Гриль горит в 14:10. Есть мясо, три салата и холодные напитки. Всё на месте.",
+     "«Видишь, — говорит Мия, — с планом всё получается». Том кивает. В Испании вечеринка начинается, когда начинается. В Германии она начинается в 14 часов."
+    ],
+    "dict": {
+     "will": "хочет (wollen)",
+     "mit": "с",
+     "und": "и",
+     "ihren": "её (ihr)",
+     "freunden": "друзьями (der Freund)",
+     "grillen": "жарить на гриле",
+     "super": "отличная, супер",
+     "idee": "идея (die Idee)",
+     "sagt": "говорит (sagen)",
+     "wann": "когда",
+     "spontan": "спонтанно",
+     "morgen": "завтра",
+     "fragt": "спрашивает (fragen)",
+     "schaut": "смотрит (schauen)",
+     "ihn": "его, на него (er)",
+     "an": "на (schaut ... an = смотрит на, anschauen)",
+     "nein": "нет",
+     "wir": "мы",
+     "brauchen": "нам нужен (brauchen — нуждаться)",
+     "einen": "один; неопр. артикль (вин. п.)",
+     "plan": "план (der Plan)",
+     "öffnet": "открывает (öffnen)",
+     "kalender": "календарь (der Kalender)",
+     "samstag": "суббота (der Samstag)",
+     "in": "в, через",
+     "zwei": "две, два",
+     "wochen": "недели (die Woche)",
+     "uhr": "час, часов (die Uhr)",
+     "im": "в (in dem)",
+     "park": "парк (der Park)",
+     "am": "у, на; в (an dem)",
+     "see": "озеро (der See)",
+     "sie": "она; они",
+     "schreibt": "пишет (schreiben)",
+     "eine": "одна; неопр. артикль",
+     "liste": "список (die Liste)",
+     "wer": "кто",
+     "bringt": "приносит (bringen)",
+     "fleisch": "мясо (das Fleisch)",
+     "salat": "салат (der Salat)",
+     "den": "опр. артикль (вин. п.)",
+     "grill": "гриль (der Grill)",
+     "ihre": "их; её",
+     "freunde": "друзья (der Freund)",
+     "antworten": "отвечают (antworten)",
+     "schnell": "быстро",
+     "kohle": "уголь (die Kohle)",
+     "macht": "делает (machen)",
+     "kartoffelsalat": "картофельный салат",
+     "soll": "должен (sollen)",
+     "brot": "хлеб (das Brot)",
+     "getränke": "напитки (das Getränk)",
+     "kaufen": "купить",
+     "alles": "всё",
+     "steht": "стоит, записано (stehen)",
+     "auf": "на",
+     "der": "опр. артикль",
+     "woche": "неделя (die Woche)",
+     "vorher": "заранее, до этого",
+     "wetterbericht": "прогноз погоды (der Wetterbericht)",
+     "sonne": "солнце (die Sonne)",
+     "grad": "градуса (das Grad)",
+     "gut": "хорошо",
+     "tage": "дня, дни (der Tag)",
+     "gruppenchat": "групповой чат (der Gruppenchat)",
+     "nicht": "не",
+     "vergessen": "забыть",
+     "um": "в (о времени)",
+     "sind": "находятся, есть (sein)",
+     "alle": "все",
+     "brennt": "горит (brennen)",
+     "es": "оно (es gibt = есть, имеется)",
+     "gibt": "имеется (es gibt, geben)",
+     "drei": "три",
+     "salate": "салата (der Salat)",
+     "kalte": "холодные (kalt)",
+     "nichts": "ничего",
+     "fehlt": "отсутствует (fehlen)",
+     "siehst": "видишь (sehen)",
+     "du": "ты",
+     "einem": "неопр. артикль (дат. п.)",
+     "klappt": "получается (klappen)",
+     "nickt": "кивает (nicken)",
+     "spanien": "Испания",
+     "beginnt": "начинается (beginnen)",
+     "party": "вечеринка (die Party)",
+     "deutschland": "Германия"
+    }
+   },
+   "items": [
+    {
+     "q": "Was will Tom, und was will Mia?",
+     "o": [
+      "Tom will spontan grillen, Mia will einen Plan",
+      "Tom will einen Plan, Mia will spontan grillen",
+      "Beide wollen morgen grillen"
+     ],
+     "a": "Tom will spontan grillen, Mia will einen Plan",
+     "n": "Mia sagt: „Morgen?! Nein, nein. Wir brauchen <b>einen Plan</b>.“"
+    },
+    {
+     "q": "Was bringt Lukas mit?",
+     "o": [
+      "Kartoffelsalat",
+      "Brot und Getränke",
+      "Den Grill und Kohle"
+     ],
+     "a": "Den Grill und Kohle",
+     "n": "Lukas bringt <b>den Grill und Kohle</b>."
+    },
+    {
+     "q": "Wie ist es am Samstag im Park?",
+     "o": [
+      "Das Fleisch fehlt",
+      "Alle sind pünktlich da und nichts fehlt",
+      "Viele Freunde kommen zu spät"
+     ],
+     "a": "Alle sind pünktlich da und nichts fehlt",
+     "n": "Am Samstag um 13:55 sind alle im Park. <b>Nichts fehlt.</b>"
+    }
+   ]
+  },
+  {
+   "type": "cloze",
+   "title": "Слово в контексте",
+   "sub": "Первая буква дана, остальное впиши",
+   "ask": "Допиши слово",
+   "color": "sun",
+   "shape": "flower",
+   "skill": "Слова из историй",
+   "items": [
+    {
+     "s": "Ich kaufe die ___ für die Party: Wasser und Saft.",
+     "a": "Getränke",
+     "ru": "Я покупаю напитки для вечеринки: воду и сок.",
+     "n": "<b>das Getränk</b>, мн. ч. die Getränke — напиток.",
+     "tr": "Я покупаю напитки для вечеринки: воду и сок."
+    },
+    {
+     "s": "Der Salat ist fast fertig, nur das Salz ___.",
+     "a": "fehlt",
+     "ru": "Салат почти готов, не хватает только соли.",
+     "n": "<b>fehlen</b> — не хватать: das Salz fehlt.",
+     "tr": "Салат почти готов, не хватает только соли."
+    },
+    {
+     "s": "Keine Angst, das ___ schon!",
+     "a": "klappt",
+     "ru": "Не бойся, всё получится!",
+     "n": "<b>klappen</b> — получаться: Das klappt schon! — Всё получится!",
+     "tr": "Не бойся, всё получится!"
+    },
+    {
+     "s": "Der Film beginnt um acht. ___ trinken wir einen Kaffee.",
+     "a": "Vorher",
+     "ru": "Фильм начинается в восемь. До этого мы выпьем кофе.",
+     "n": "<b>vorher</b> — до этого.",
+     "tr": "Фильм начинается в восемь. До этого мы выпьем кофе."
+    },
+    {
+     "s": "Regnet es morgen? Ich schaue auf den ___.",
+     "a": "Wetterbericht",
+     "ru": "Завтра будет дождь? Я посмотрю прогноз погоды.",
+     "n": "<b>der Wetterbericht</b> — прогноз погоды.",
+     "tr": "Завтра будет дождь? Я посмотрю прогноз погоды."
+    }
+   ]
+  },
+  {
+   "type": "write",
+   "title": "Про тебя",
+   "sub": "Ты как Том или как Мия",
+   "color": "pink",
+   "shape": "penta",
+   "items": [
+    {
+     "q": "Ты больше как Том (спонтанно) или как Мия (по плану)? Напиши 1–2 предложения.",
+     "hint": "Слова из истории: <b>spontan, einen Plan machen, die Liste, vorher, klappen</b>.",
+     "ph": "Ich bin eher wie …",
+     "ex": [
+      "Ich bin eher wie Mia: Ich mache gern einen Plan und schreibe eine Liste.",
+      "Ich bin spontan wie Tom, aber mit einem Plan klappt alles besser."
+     ],
+     "check": [
+      "<b>wie</b> Tom, <b>wie</b> Mia — «как Том», «как Мия»",
+      "Глагол на втором месте: Ich <b>mache</b> gern einen Plan",
+      "Существительные с большой буквы"
+     ]
+    }
+   ]
+  }
+ ]
+}

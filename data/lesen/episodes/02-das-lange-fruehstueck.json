@@ -1,0 +1,41 @@
+{
+  "story": "das-lange-fruehstueck",
+  "ep": 2,
+  "sub": "Семья Мии зовёт Тома на завтрак. Он рассчитывает на полчаса.",
+  "cap": "Серия 2 · Суббота у родителей Мии",
+  "meaning": [
+    {"w": "einladen", "s": "Am Freitag habe ich Geburtstag. Ich <b>lade</b> alle meine Freunde <b>ein</b>.", "tr": "В пятницу у меня день рождения. Я … всех своих друзей.", "trf": "В пятницу у меня день рождения. Я приглашаю всех своих друзей.", "o": ["приглашаю", "встречаю", "забываю"], "a": "приглашаю", "n": "<b>einladen</b> — приглашать. ich lade ein, er <b>lädt</b> ein (a → ä). Perfekt: hat eingeladen."},
+    {"w": "staunen", "s": "Das Kind sieht zum ersten Mal das Meer und <b>staunt</b>: So viel Wasser!", "tr": "Ребёнок в первый раз видит море и …: столько воды!", "trf": "Ребёнок в первый раз видит море и удивляется: столько воды!", "o": ["удивляется", "засыпает", "уходит"], "a": "удивляется", "n": "<b>staunen</b> — удивляться, изумляться."},
+    {"w": "die Sorte", "s": "Im Supermarkt gibt es zwanzig <b>Sorten</b> Käse.", "tr": "В супермаркете есть двадцать … сыра.", "trf": "В супермаркете есть двадцать сортов сыра.", "o": ["сортов", "кусков", "килограммов"], "a": "сортов", "n": "<b>die Sorte</b>, мн. ч. die Sorten — сорт, вид. fünf Sorten Brot — пять видов хлеба."},
+    {"w": "fertig sein", "s": "Warte bitte, ich bin gleich <b>fertig</b>. Nur noch eine E-Mail.", "tr": "Подожди, пожалуйста, я сейчас …. Ещё только одно письмо.", "trf": "Подожди, пожалуйста, я сейчас закончу. Ещё только одно письмо.", "o": ["закончу", "уйду", "опоздаю"], "a": "закончу", "n": "<b>fertig sein</b> — закончить, быть готовым. Ich bin fertig — я закончила, я готова."},
+    {"w": "egal", "s": "Tee oder Kaffee? Das ist mir <b>egal</b>, ich trinke beides gern.", "tr": "Чай или кофе? Мне …, я люблю и то и другое.", "trf": "Чай или кофе? Мне всё равно, я люблю и то и другое.", "o": ["всё равно", "невкусно", "нельзя"], "a": "всё равно", "n": "<b>egal</b> — всё равно, неважно. Das ist mir egal — мне всё равно."}
+  ],
+  "tr": [
+    "В субботу семья Мии приглашает Тома на завтрак. «Приходи в десять», — говорит Мия. Том думает: «Кофе, тост — тридцать минут». У него потом ещё много планов.",
+    "В десять часов Том сидит за столом и удивляется: на столе пять видов хлеба, булочки, сыр, колбаса, варенье, мёд, яйца, фрукты и йогурт. «Сегодня праздник?» — спрашивает он. «Нет, — говорит Мия, — сегодня суббота».",
+    "Отец Мии режет хлеб. Её мама варит яйца. Все едят медленно и много разговаривают: о неделе, о соседях, о погоде.",
+    "Через час Том хочет встать. «Куда? — спрашивает Мия. — Мы ещё не закончили». Она наливает ему ещё кофе.",
+    "В час дня все всё ещё сидят за столом. Том много съел и выпил три чашки кофе. Его планы? Неважно. Завтрак здесь не приём пищи, а хобби.",
+    "Вечером Том пишет своей семье: «В Германии завтрак как кино: он длится долго, и не хочется уходить посередине»."
+  ],
+  "questions": [
+    {"q": "Was denkt Tom am Anfang: Wie lange dauert das Frühstück?", "o": ["Etwa dreißig Minuten", "Den ganzen Vormittag", "Ungefähr zwei Stunden"], "a": "Etwa dreißig Minuten", "n": "Tom denkt: „Ein Kaffee, ein Toast — <b>dreißig Minuten</b>.“"},
+    {"q": "Tom will nach einer Stunde aufstehen. Was macht Mia?", "o": ["Sie steht auch auf", "Sie gibt ihm noch einen Kaffee", "Sie bringt ihn zur Tür"], "a": "Sie gibt ihm noch einen Kaffee", "n": "Sie <b>schenkt</b> ihm noch einen Kaffee <b>ein</b>."},
+    {"q": "Was schreibt Tom am Abend? Das Frühstück ist wie …", "o": ["ein kurzer Snack", "ein Geburtstag", "ein Kino"], "a": "ein Kino", "n": "„In Deutschland ist das Frühstück <b>wie ein Kino</b>: Es dauert lange.“"}
+  ],
+  "cloze": [
+    {"s": "Wir laden unsere Nachbarn zum Essen ___.", "a": "ein", "ru": "Мы приглашаем соседей на обед.", "n": "<b>einladen</b> — приглашать: приставка ein стоит в конце."},
+    {"s": "Bist du mit den Hausaufgaben ___?", "a": "fertig", "ru": "Ты закончила с домашним заданием?", "n": "<b>fertig sein</b> — закончить, быть готовым."},
+    {"s": "Rot oder blau? Das ist mir ___.", "a": "egal", "ru": "Красный или синий? Мне всё равно.", "n": "<b>egal</b> — всё равно."},
+    {"s": "Die Bäckerei hat viele ___ Brot.", "a": "Sorten", "ru": "В пекарне много видов хлеба.", "n": "<b>die Sorte</b>, мн. ч. die Sorten — сорт, вид."},
+    {"s": "Tom sieht den Tisch und ___: so viel Essen!", "a": "staunt", "ru": "Том видит стол и удивляется: столько еды!", "n": "<b>staunen</b> — удивляться: er staunt."}
+  ],
+  "write": {
+    "sub": "Твой завтрак в выходной",
+    "q": "Опиши свой завтрак в выходной: что ты ешь и сколько он длится? Напиши 1–2 предложения.",
+    "hint": "Слова из истории: <b>das Brötchen, der Käse, die Marmelade, das Ei, lange dauern, fertig sein</b>.",
+    "ph": "Am Wochenende frühstücke ich …",
+    "ex": ["Am Wochenende frühstücke ich lange: Es gibt Brötchen, Käse und Eier.", "Mein Frühstück dauert nur zehn Minuten: Ich trinke einen Kaffee und bin fertig."],
+    "check": ["Время в начале, глагол сразу после: Am Wochenende <b>frühstücke</b> ich …", "<b>dauern</b>: Das Frühstück dauert eine Stunde", "Существительные с большой буквы"]
+  }
+}
