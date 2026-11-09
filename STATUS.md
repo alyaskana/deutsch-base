@@ -16,7 +16,7 @@
 - **Порядок слов** `word-order` — 2 ошибок/затруднений за 21 дн.
 - **Вопросительные слова** `w-questions` — отмечено репетитором, после этого верных: 1 из 3
 
-### Изучаю (29)
+### Изучаю (30)
 
 - **Partizip II с приставками** `partizip2-prefixes`
 - **Прошедшее war / hatte** `praeteritum-war-hatte`
@@ -47,8 +47,9 @@
 - **Косвенный вопрос** `indirect-questions` · самостоятельно
 - **Обращение и подпись в письме** `email-format`
 - **Спряжение в настоящем времени** `praesens`
+- **Придаточные: weil, dass, wenn, ob** `subordinate-clauses` · самостоятельно
 
-### Не проверено (12)
+### Не проверено (11)
 
 - **Личные местоимения: Nom / Akk / Dat** `personal-pronouns`
 - **Болит: wehtun + Dativ** `wehtun-dativ`
@@ -60,7 +61,6 @@
 - **Существительные с заглавной буквы** `noun-capitalization` · самостоятельно
 - **Präteritum модальных глаголов** `praeteritum-modal`
 - **Глаголы с предлогами** `verbs-with-prepositions` · самостоятельно
-- **Придаточные: weil, dass, wenn, ob** `subordinate-clauses` · самостоятельно
 - **Слова на -ung, -heit, -keit** `wortbildung-ung`
 
 ### Впереди, ещё не проходили (8)

@@ -14,9 +14,9 @@
   "summary": {
     "grammar": {
       "stuck": 9,
-      "learning": 29,
+      "learning": 30,
       "solid": 0,
-      "new": 12,
+      "new": 11,
       "planned": 8
     },
     "words": {
@@ -285,7 +285,7 @@
       "reason": "5 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 2,
-        "error": 18,
+        "error": 19,
         "struggle": 1,
         "flagged": 1
       },
@@ -339,7 +339,7 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 2,
+        "error": 3,
         "struggle": 0,
         "flagged": 0
       },
@@ -405,11 +405,11 @@
       "status": "learning",
       "counts": {
         "correct": 2,
-        "error": 4,
+        "error": 5,
         "struggle": 2,
         "flagged": 0
       },
-      "last_date": null,
+      "last_date": "2026-05-15",
       "last_result": "error"
     },
     {
@@ -504,11 +504,11 @@
       "status": "learning",
       "counts": {
         "correct": 1,
-        "error": 2,
+        "error": 3,
         "struggle": 4,
         "flagged": 0
       },
-      "last_date": null,
+      "last_date": "2026-05-15",
       "last_result": "error"
     },
     {
@@ -580,7 +580,7 @@
       "status": "learning",
       "counts": {
         "correct": 1,
-        "error": 1,
+        "error": 2,
         "struggle": 2,
         "flagged": 0
       },
@@ -709,7 +709,15 @@
       "title_ru": "Придаточные: weil, dass, wenn, ob",
       "level": "A2",
       "covered_with_tutor": false,
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 2,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-05-19",
+      "last_result": "error"
     },
     {
       "id": "relative-clauses",
