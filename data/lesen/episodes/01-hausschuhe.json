@@ -1,0 +1,41 @@
+{
+  "story": "hausschuhe",
+  "ep": 1,
+  "sub": "Том из Испании впервые идёт в гости к Мии, и у двери его ждёт сюрприз.",
+  "cap": "Серия 1 · Том впервые в гостях у Мии",
+  "meaning": [
+    {"w": "zum ersten Mal", "s": "Ich bin <b>zum ersten Mal</b> in Berlin. Ich kenne die Stadt noch nicht.", "tr": "Я … в Берлине. Я ещё не знаю город.", "trf": "Я в первый раз в Берлине. Я ещё не знаю город.", "o": ["в первый раз", "в последний раз", "очень часто"], "a": "в первый раз", "n": "<b>zum ersten Mal</b> — в первый раз. zum letzten Mal — в последний раз."},
+    {"w": "ausziehen", "s": "Es ist warm hier. Ich <b>ziehe</b> meine Jacke <b>aus</b>.", "tr": "Здесь тепло. Я … куртку.", "trf": "Здесь тепло. Я снимаю куртку.", "o": ["снимаю", "надеваю", "покупаю"], "a": "снимаю", "n": "<b>ausziehen</b> — снимать одежду или обувь. Приставка уходит в конец: ich ziehe … aus. Наоборот: anziehen — надевать."},
+    {"w": "weich", "s": "Das Kissen ist <b>weich</b> wie eine Wolke.", "tr": "Подушка …, как облако.", "trf": "Подушка мягкая, как облако.", "o": ["мягкая", "тяжёлая", "мокрая"], "a": "мягкая", "n": "<b>weich</b> — мягкий. Наоборот: hart — твёрдый, жёсткий."},
+    {"w": "der Flur", "s": "Meine Jacke hängt im <b>Flur</b>, gleich neben der Wohnungstür.", "tr": "Моя куртка висит в …, сразу рядом с входной дверью.", "trf": "Моя куртка висит в прихожей, сразу рядом с входной дверью.", "o": ["прихожей", "ванной", "подвале"], "a": "прихожей", "n": "<b>der Flur</b> — прихожая, коридор в квартире. im Flur — в прихожей."},
+    {"w": "fast", "s": "Es ist zwei Minuten vor zehn. Es ist <b>fast</b> zehn Uhr.", "tr": "Сейчас без двух минут десять. … десять часов.", "trf": "Сейчас без двух минут десять. Почти десять часов.", "o": ["Почти", "Уже", "Ровно"], "a": "Почти", "n": "<b>fast</b> — почти. Не путай с английским fast: «быстро» по-немецки schnell."}
+  ],
+  "tr": [
+    "Том из Испании и уже неделю живёт в Берлине. Сегодня он в первый раз идёт в гости к своей подруге Мии. Он покупает цветы и едет к ней на автобусе. Он немного волнуется.",
+    "Мия открывает дверь. «Привет, Том, заходи!» Потом она смотрит на его ноги. «Но сначала, пожалуйста, сними обувь».",
+    "Том не понимает. «Почему? Мои ботинки новые и чистые». Мия смеётся. «В Германии мы дома не носим уличную обувь. Так пол остаётся чистым. Вот, это тебе». Она даёт ему пару серых тапочек.",
+    "Том надевает тапочки. Они мягкие и тёплые. Он идёт по квартире. Пол на кухне холодный, но его ногам тепло. «Неплохо», — думает он.",
+    "Они пьют чай и говорят о Берлине. Это приятный вечер. В десять часов Том говорит: «Мне пора домой».",
+    "В автобусе люди смотрят на его ноги. Том тоже смотрит. Он всё ещё в тапочках! Его ботинки стоят у Мии в прихожей. Том смеётся. Теперь он почти настоящий немец."
+  ],
+  "questions": [
+    {"q": "Warum soll Tom die Schuhe ausziehen?", "o": ["Der Boden soll sauber bleiben", "Seine Schuhe sind kaputt", "In der Wohnung ist es zu warm"], "a": "Der Boden soll sauber bleiben", "n": "Mia sagt: „So <b>bleibt der Boden sauber</b>.“"},
+    {"q": "Was gibt Mia Tom?", "o": ["Warme Socken", "Ein Paar graue Hausschuhe", "Ein Paar neue Stiefel"], "a": "Ein Paar graue Hausschuhe", "n": "Sie gibt ihm <b>ein Paar graue Hausschuhe</b>."},
+    {"q": "Was sieht Tom im Bus?", "o": ["Er hat die Blumen vergessen", "Er sitzt im falschen Bus", "Er trägt noch die Hausschuhe"], "a": "Er trägt noch die Hausschuhe", "n": "Er <b>trägt noch die Hausschuhe</b>! Seine Schuhe stehen bei Mia im Flur."}
+  ],
+  "cloze": [
+    {"s": "Die Schuhe stehen im ___.", "a": "Flur", "ru": "Обувь стоит в прихожей.", "n": "<b>der Flur</b> — прихожая. im Flur = in dem Flur."},
+    {"s": "Der Pullover ist warm und ___.", "a": "weich", "ru": "Свитер тёплый и мягкий.", "n": "<b>weich</b> — мягкий."},
+    {"s": "Der Film ist ___ zu Ende, nur noch fünf Minuten.", "a": "fast", "ru": "Фильм почти закончился, осталось пять минут.", "n": "<b>fast</b> — почти."},
+    {"s": "Zieh bitte die Schuhe ___!", "a": "aus", "ru": "Сними, пожалуйста, обувь!", "n": "<b>ausziehen</b> — снимать: приставка aus стоит в конце. С an было бы «надень»."},
+    {"s": "Ich esse heute zum ersten ___ Sushi.", "a": "Mal", "ru": "Я сегодня в первый раз ем суши.", "n": "<b>zum ersten Mal</b> — в первый раз. Mal пишется с большой буквы."}
+  ],
+  "write": {
+    "sub": "Обувь у тебя дома",
+    "q": "А у тебя дома ходят в уличной обуви или снимают её? Напиши 1–2 предложения.",
+    "hint": "Слова из истории: <b>die Schuhe ausziehen, die Hausschuhe, der Flur, sauber</b>.",
+    "ph": "Bei mir zu Hause …",
+    "ex": ["Bei mir zu Hause ziehen alle die Schuhe aus.", "Meine Gäste bekommen Hausschuhe, und ihre Schuhe bleiben im Flur."],
+    "check": ["<b>ausziehen</b> делится: ich ziehe die Schuhe <b>aus</b>", "Глагол на втором месте: Bei mir zu Hause <b>ziehen</b> alle …", "Существительные с большой буквы"]
+  }
+}
