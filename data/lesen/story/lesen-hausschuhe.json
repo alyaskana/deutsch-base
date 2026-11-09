@@ -1,0 +1,130 @@
+{
+ "id": "lesen-hausschuhe",
+ "bg": null,
+ "lines": [
+  {
+   "p": 0,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Die Hausschuhe.",
+   "tag": "[warm]"
+  },
+  {
+   "p": 0,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Tom kommt aus Spanien und wohnt seit einer Woche in Berlin. Heute besucht er zum ersten Mal seine Freundin Mia. Er kauft Blumen und fährt mit dem Bus zu ihr. Er ist ein bisschen nervös."
+  },
+  {
+   "p": 1,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Mia macht die Tür auf."
+  },
+  {
+   "p": 1,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Hallo Tom, komm rein!",
+   "tag": "[fröhlich]"
+  },
+  {
+   "p": 1,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Dann schaut sie auf seine Füße.",
+   "tag": "[langsam]"
+  },
+  {
+   "p": 1,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Aber bitte zieh zuerst die Schuhe aus.",
+   "tag": "[freundlich, bestimmt]"
+  },
+  {
+   "p": 2,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Tom versteht nicht."
+  },
+  {
+   "p": 2,
+   "who": "Tom",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Warum? Meine Schuhe sind neu und sauber.",
+   "tag": "[verwirrt]"
+  },
+  {
+   "p": 2,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Mia lacht."
+  },
+  {
+   "p": 2,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "In Deutschland tragen wir zu Hause keine Straßenschuhe. So bleibt der Boden sauber. Hier, für dich.",
+   "tag": "[lacht]"
+  },
+  {
+   "p": 2,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Sie gibt ihm ein Paar graue Hausschuhe."
+  },
+  {
+   "p": 3,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Tom zieht die Hausschuhe an. Sie sind weich und warm. Er geht durch die Wohnung. Der Fußboden in der Küche ist kalt, aber seine Füße bleiben warm."
+  },
+  {
+   "p": 3,
+   "who": "Tom",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Nicht schlecht,",
+   "tag": "[nachdenklich, zufrieden]"
+  },
+  {
+   "p": 3,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "denkt er."
+  },
+  {
+   "p": 4,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Sie trinken Tee und sprechen über Berlin. Es ist ein schöner Abend. Um zehn Uhr sagt Tom:"
+  },
+  {
+   "p": 4,
+   "who": "Tom",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Ich muss nach Hause."
+  },
+  {
+   "p": 5,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Im Bus schauen die Leute auf seine Füße. Tom schaut auch.",
+   "tag": "[spannend]"
+  },
+  {
+   "p": 5,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Er trägt noch die Hausschuhe! Seine Schuhe stehen bei Mia im Flur.",
+   "tag": "[überrascht, amüsiert]"
+  },
+  {
+   "p": 5,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Tom lacht. Jetzt ist er fast ein echter Deutscher.",
+   "tag": "[schmunzelnd]"
+  }
+ ]
+}

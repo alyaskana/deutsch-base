@@ -237,7 +237,38 @@
      "a": "Alle sind pünktlich da und nichts fehlt",
      "n": "Am Samstag um 13:55 sind alle im Park. <b>Nichts fehlt.</b>"
     }
-   ]
+   ],
+   "audio": {
+    "id": "lesen-der-grill-plan",
+    "n": 4,
+    "dur": 75.96,
+    "t": [
+     [
+      0.8,
+      14.48
+     ],
+     [
+      14.48,
+      27.68
+     ],
+     [
+      27.68,
+      40.16
+     ],
+     [
+      40.16,
+      52.72
+     ],
+     [
+      52.72,
+      64.56
+     ],
+     [
+      64.56,
+      75.12
+     ]
+    ]
+   }
   },
   {
    "type": "cloze",

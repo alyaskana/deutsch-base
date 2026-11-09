@@ -1,0 +1,118 @@
+{
+ "id": "lesen-der-grill-plan",
+ "bg": null,
+ "lines": [
+  {
+   "p": 0,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Der Grill-Plan.",
+   "tag": "[warm]"
+  },
+  {
+   "p": 0,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Tom will mit Mia und ihren Freunden grillen."
+  },
+  {
+   "p": 0,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Super Idee!",
+   "tag": "[begeistert]"
+  },
+  {
+   "p": 0,
+   "who": "Tom",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Wann? Spontan, morgen?",
+   "tag": "[fröhlich]"
+  },
+  {
+   "p": 0,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Mia schaut ihn an.",
+   "tag": "[langsam]"
+  },
+  {
+   "p": 0,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Morgen?! Nein, nein. Wir brauchen einen Plan.",
+   "tag": "[entsetzt]"
+  },
+  {
+   "p": 1,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Mia öffnet ihren Kalender."
+  },
+  {
+   "p": 1,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Samstag in zwei Wochen, vierzehn Uhr, im Park am See.",
+   "tag": "[sachlich]"
+  },
+  {
+   "p": 1,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Sie schreibt eine Liste: Wer bringt Fleisch? Wer bringt Salat? Wer bringt den Grill?"
+  },
+  {
+   "p": 2,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Ihre Freunde antworten schnell. Lukas bringt den Grill und Kohle. Emma macht Kartoffelsalat. Tom soll Brot und Getränke kaufen. Alles steht auf der Liste."
+  },
+  {
+   "p": 3,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Eine Woche vorher schaut Mia auf den Wetterbericht."
+  },
+  {
+   "p": 3,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Sonne, vierundzwanzig Grad. Gut.",
+   "tag": "[zufrieden]"
+  },
+  {
+   "p": 3,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Zwei Tage vorher schreibt sie in den Gruppenchat:"
+  },
+  {
+   "p": 3,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Nicht vergessen: Samstag, vierzehn Uhr!",
+   "tag": "[bestimmt]"
+  },
+  {
+   "p": 4,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Am Samstag um dreizehn Uhr fünfundfünfzig sind alle im Park. Der Grill brennt um vierzehn Uhr zehn. Es gibt Fleisch, drei Salate und kalte Getränke. Nichts fehlt."
+  },
+  {
+   "p": 5,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Siehst du, mit einem Plan klappt alles.",
+   "tag": "[stolz]"
+  },
+  {
+   "p": 5,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Tom nickt. In Spanien beginnt eine Party, wann sie beginnt. In Deutschland beginnt sie um vierzehn Uhr.",
+   "tag": "[schmunzelnd]"
+  }
+ ]
+}

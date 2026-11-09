@@ -262,7 +262,38 @@
      "a": "Er trägt noch die Hausschuhe",
      "n": "Er <b>trägt noch die Hausschuhe</b>! Seine Schuhe stehen bei Mia im Flur."
     }
-   ]
+   ],
+   "audio": {
+    "id": "lesen-hausschuhe",
+    "n": 4,
+    "dur": 79.57,
+    "t": [
+     [
+      0.8,
+      15.2
+     ],
+     [
+      15.2,
+      24.4
+     ],
+     [
+      24.4,
+      41.36
+     ],
+     [
+      41.36,
+      54.32
+     ],
+     [
+      54.32,
+      63.44
+     ],
+     [
+      63.44,
+      78.24
+     ]
+    ]
+   }
   },
   {
    "type": "cloze",

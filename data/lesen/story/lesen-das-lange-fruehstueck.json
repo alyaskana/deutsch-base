@@ -1,0 +1,118 @@
+{
+ "id": "lesen-das-lange-fruehstueck",
+ "bg": null,
+ "lines": [
+  {
+   "p": 0,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Das lange Frühstück.",
+   "tag": "[warm]"
+  },
+  {
+   "p": 0,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Am Samstag lädt Mias Familie Tom zum Frühstück ein."
+  },
+  {
+   "p": 0,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Komm um zehn Uhr,",
+   "tag": "[fröhlich]"
+  },
+  {
+   "p": 0,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "sagt Mia. Tom denkt:"
+  },
+  {
+   "p": 0,
+   "who": "Tom",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Ein Kaffee, ein Toast, dreißig Minuten.",
+   "tag": "[locker]"
+  },
+  {
+   "p": 0,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Er hat danach noch viele Pläne."
+  },
+  {
+   "p": 1,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Um zehn Uhr sitzt Tom am Tisch und staunt: Auf dem Tisch stehen fünf Sorten Brot, Brötchen, Käse, Wurst, Marmelade, Honig, Eier, Obst und Joghurt.",
+   "tag": "[staunend]"
+  },
+  {
+   "p": 1,
+   "who": "Tom",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Ist heute ein Fest?",
+   "tag": "[überrascht]"
+  },
+  {
+   "p": 1,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "fragt er."
+  },
+  {
+   "p": 1,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Nein, heute ist Samstag.",
+   "tag": "[amüsiert]"
+  },
+  {
+   "p": 2,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Mias Vater schneidet Brot. Ihre Mutter kocht die Eier. Alle essen langsam und sprechen viel: über die Woche, über die Nachbarn, über das Wetter.",
+   "tag": "[gemütlich]"
+  },
+  {
+   "p": 3,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Nach einer Stunde will Tom aufstehen."
+  },
+  {
+   "p": 3,
+   "who": "Mia",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Wohin? Wir sind noch nicht fertig.",
+   "tag": "[erstaunt]"
+  },
+  {
+   "p": 3,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Sie schenkt ihm noch einen Kaffee ein."
+  },
+  {
+   "p": 4,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Um ein Uhr sitzen alle noch am Tisch. Tom hat viel gegessen und drei Tassen Kaffee getrunken. Seine Pläne? Egal. Das Frühstück ist hier keine Mahlzeit, es ist ein Hobby.",
+   "tag": "[schmunzelnd]"
+  },
+  {
+   "p": 5,
+   "who": "Erzähler",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Am Abend schreibt Tom seiner Familie:"
+  },
+  {
+   "p": 5,
+   "who": "Tom",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "In Deutschland ist das Frühstück wie ein Kino: Es dauert lange, und man will nicht mittendrin gehen.",
+   "tag": "[lacht leise]"
+  }
+ ]
+}
