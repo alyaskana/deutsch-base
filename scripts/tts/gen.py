@@ -11,6 +11,13 @@ VOICE=os.environ.get('TTS_VOICE','marin')
 MODEL='gpt-4o-mini-tts'
 ENGINE=os.environ.get('TTS_ENGINE','openai')
 EL_VOICE=os.environ.get('TTS_VOICE_ID','')
+# Диктант (kind 'k') озвучивается разными голосами по очереди: Алина привыкает к разным голосам и акцентам.
+# Список берётся из data/hoeren/voices.json, голос выбирается по хэшу фразы (одна фраза — всегда один голос).
+try:EL_MANY=[v['id'] for v in json.load(open(os.path.join(os.path.dirname(__file__),'../../data/hoeren/voices.json')))['voices']]
+except Exception:EL_MANY=[]
+def el_voice(text,kind):
+    if kind=='k' and EL_MANY:return EL_MANY[int(ahash(key(text)),16)%len(EL_MANY)]
+    return EL_VOICE
 I_SENT='Sprich klares, natürliches Hochdeutsch wie eine Muttersprachlerin aus Deutschland. Ruhig und etwas langsamer als normal, deutliche Aussprache, korrekte Wortbetonung, neutrale freundliche Intonation.'
 I_WORD='Sprich nur dieses deutsche Wort oder diese kurze Wortgruppe, klar und deutlich wie in einem Wörterbuch, mit korrekter Betonung, Hochdeutsch.'
 def post(url,data=None,files=None,timeout=120):
@@ -31,7 +38,7 @@ def post(url,data=None,files=None,timeout=120):
 def tts(text,kind):
     word=kind in ('t','d','w','v') and len(text.split())<=3
     if ENGINE=='eleven':
-        raw=post(f'https://api.elevenlabs.io/v1/text-to-speech/{EL_VOICE}?output_format=mp3_44100_64',{'text':text.replace('…',' … '),'model_id':'eleven_multilingual_v2','language_code':'de','voice_settings':{'stability':0.6 if word else 0.5,'similarity_boost':0.75}})
+        raw=post(f'https://api.elevenlabs.io/v1/text-to-speech/{el_voice(text,kind)}?output_format=mp3_44100_64',{'text':text.replace('…',' … '),'model_id':'eleven_multilingual_v2','language_code':'de','voice_settings':{'stability':0.6 if word else 0.5,'similarity_boost':0.75}})
     else:
         raw=post('https://api.openai.com/v1/audio/speech',{'model':MODEL,'voice':VOICE,'input':text.replace('…',' … '),'instructions':I_WORD if word else I_SENT,'response_format':'mp3'})
     p=subprocess.run(['ffmpeg','-loglevel','error','-i','-','-af','silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse,adelay=60|60,apad=pad_dur=0.12','-ac','1','-ar','24000','-b:a','40k','-f','mp3','-'],input=raw,capture_output=True,check=True)
