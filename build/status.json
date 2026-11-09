@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-11-08",
+  "generated_for": "2026-11-09",
   "rules": {
     "window_days": 21,
     "stuck": {
@@ -21,7 +21,7 @@
     },
     "words": {
       "stuck": 7,
-      "learning": 275,
+      "learning": 276,
       "solid": 0,
       "new": 812
     }
@@ -284,13 +284,13 @@
       "status": "stuck",
       "reason": "5 ошибок/затруднений за 21 дн.",
       "counts": {
-        "correct": 1,
+        "correct": 2,
         "error": 18,
         "struggle": 1,
         "flagged": 1
       },
-      "last_date": "2026-11-07",
-      "last_result": "error"
+      "last_date": "2026-11-09",
+      "last_result": "correct"
     },
     {
       "id": "wehtun-dativ",
@@ -9573,6 +9573,20 @@
         "flagged": 0
       },
       "last_date": "2026-11-07",
+      "last_result": "error"
+    },
+    {
+      "id": "w-geschieden",
+      "lemma": "geschieden",
+      "ru": "разведён(а)",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-09",
       "last_result": "error"
     }
   ]

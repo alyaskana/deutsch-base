@@ -22729,5 +22729,16 @@
       }
     ],
     "added": "2026-11-08"
+  },
+  {
+    "id": "w-geschieden",
+    "lemma": "geschieden",
+    "pos": "adj",
+    "ru": "разведён(а)",
+    "tags": [
+      "familie",
+      "mein-deutsch"
+    ],
+    "added": "2026-11-09"
   }
 ]
