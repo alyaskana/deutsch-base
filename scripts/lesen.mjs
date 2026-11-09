@@ -32,6 +32,7 @@ function joinSplit(p) {
 
 const out = join(root, "build/lesen");
 mkdirSync(out, { recursive: true });
+const audio = read("data/lesen/audio.json");
 const errors = [];
 for (const f of readdirSync(join(root, "data/lesen/episodes")).filter((x) => x.endsWith(".json")).sort()) {
   const e = read("data/lesen/episodes/" + f);
@@ -53,6 +54,8 @@ for (const f of readdirSync(join(root, "data/lesen/episodes")).filter((x) => x.e
     const w = c.a.toLowerCase();
     if (!plain.toLowerCase().includes(w) && !e.meaning.some((m) => m.s.toLowerCase().includes(w))) errors.push(`${f}: «${c.a}» нет ни в истории, ни в новых словах`);
   }
+  const au = audio["lesen-" + s.id];
+  if (au && au.t.length !== paragraphs.length) errors.push(`${f}: в записи ${au.t.length} абзацев, в истории ${paragraphs.length}`);
   const doc = {
     title: s.title,
     topic: "Чтение · " + SERIAL.title,
@@ -65,7 +68,8 @@ for (const f of readdirSync(join(root, "data/lesen/episodes")).filter((x) => x.e
     stages: [
       { type: "meaning", title: "Новые слова", sub: `${e.meaning.length} слов из истории`, color: "violet", shape: "circle", skill: "Слова из историй", items: e.meaning },
       { type: "read", title: s.title, sub: "Читаем историю", color: "teal", shape: "cloud", mins: 2, skill: "Чтение",
-        text: { title: s.title, cap: e.cap, paragraphs, tr: e.tr, dict: s.dict || {} }, items: e.questions },
+        text: { title: s.title, cap: e.cap, paragraphs, tr: e.tr, dict: s.dict || {} }, items: e.questions,
+        ...(audio["lesen-" + s.id] ? { audio: audio["lesen-" + s.id] } : {}) },
       { type: "cloze", title: "Слово в контексте", sub: "Первая буква дана, остальное впиши", ask: "Допиши слово", color: "sun", shape: "flower", skill: "Слова из историй",
         items: e.cloze.map((c) => ({ ...c, tr: c.ru })) },
       { type: "write", title: "Про тебя", sub: e.write.sub, color: "pink", shape: "penta", items: [{ q: e.write.q, hint: e.write.hint, ph: e.write.ph, ex: e.write.ex, check: e.write.check }] },
