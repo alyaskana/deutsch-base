@@ -13,6 +13,11 @@ def sent_de(it,st):
     t=st.get('type')
     if t=='chat':return f"{it.get('l','')} — {(it.get('y') or '').replace('___',str(first(it.get('a')) or ''),1)}"
     if t=='spot':return re.sub(r'\[([^\]]+)\]\*?',r'\1',it.get('s') or '')
+    if t in('tf','fix') and isinstance(it.get('t'),list):  # sentence as corrected: the wrong word is never voiced
+        w=list(it['t'])
+        if it.get('bad') is not None and it.get('a') is not None:w[it['bad']]=str(first(it['a']))+(re.search(r'[.,!?;:]*$',str(w[it['bad']])).group(0))
+        return plain(' '.join(w))
+    if t=='dict':return plain(it.get('s') or '')
     if it.get('aux') and it.get('p') and isinstance(it.get('s'),str):
         return plain(re.sub(r'<br>.*$','',it['s']).replace('___',it['aux'],1).replace('___',it['p'],1))
     if t=='build' and isinstance(it.get('ok'),list) and it['ok']:
@@ -53,7 +58,9 @@ for f in sorted(glob.glob(DB+'/lessons/*.json')):
     for vg in l.get('vocab') or []:
         for w in vg.get('w') or []:
             if w and isinstance(w[0],str):add(g,w[0],'w')
-    for s in german_strings(l):
+    # tf/fix sentences contain a deliberate mistake: voice only the corrected sentence, not their words
+    l_words=l if all(st.get('type') not in('tf','fix') for st in stages(l)) else {**l,'stages':[st for st in stages(l) if st.get('type') not in('tf','fix')],'chapters':[]}
+    for s in german_strings(l_words):
         for w in WORD.findall(plain(re.sub(r'\{\{([^|}]+)\|[^}]*\}\}',r'\1',s))):add(g,w,'t')
     groups.append([lid,g])
 d=json.load(open(DB+'/lessons/_dict.json'));j=json.loads(d['j']) if isinstance(d['j'],str) else d['j']
