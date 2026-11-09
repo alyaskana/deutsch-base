@@ -1,0 +1,10 @@
+/* v80, на согласовании: «Слово дня» без тёмных заливок, «Пары» со стартовой картинкой, большой урок на молочном фоне */
+.wc.g{background:#BDEBD2;border-color:#BDEBD2;color:#0B6B49}
+.wc.y{background:#FFE08A;border-color:#FFE08A;color:#6B4A00}
+.wc.n{background:#E9E2D8;border-color:#E9E2D8;color:#857E9F}
+.kr button.g{background:#BDEBD2;color:#0B6B49}.kr button.y{background:#FFE08A;color:#6B4A00}.kr button.n{background:#EDE6DC;color:#B3AAA0;box-shadow:none}
+.pdemo{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0 6px}
+.pdemo span{border-radius:16px;padding:13px 8px;font-family:var(--display);font-weight:600;font-size:17px;text-align:center;background:#fff;border:2px solid var(--line);color:var(--ink)}
+.pdemo span.on{background:#BDEBD2;border-color:#BDEBD2;color:#0B6B49}
+.prec{display:flex;align-items:baseline;gap:8px;justify-content:center;margin-top:14px;color:var(--mute);font-weight:700}
+.prec b{font-family:var(--display);font-size:34px;color:var(--ink);font-weight:600}

@@ -1,0 +1,5 @@
+body.sea{--ground:#F4EFE8;background-color:#F4EFE8;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='30'%3E%3Cpath d='M0 15 q12 -9 24 0 t24 0 t24 0 t24 0' fill='none' stroke='%235D7F95' stroke-opacity='.16' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E")}
+body.sea .clock{color:#22323D}
+body.sea .dock:not(.fb){background:linear-gradient(to top,#F4EFE8 62%,rgba(244,239,232,0))}
+body.sea .bars span{background:#E2DACE}
+body.sea .section h3,body.sea .section .label{color:#22323D}
