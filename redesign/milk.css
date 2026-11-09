@@ -204,3 +204,25 @@ body.tb .app>.back{display:none}
 .vtop.wide .vm{width:84px;height:84px;right:18px;bottom:16px}
 .vask{margin-top:12px;width:100%}
 .back[hidden],.vhd[hidden]{display:none!important}
+/* v81: «Итоги» */
+.shead{flex-direction:row;align-items:center;justify-content:space-between}.shead .mh1{margin:6px 0 14px;font-size:34px}
+.swk{display:flex;gap:14px;background:#fff;border-radius:28px;padding:20px;box-shadow:0 2px 10px rgba(43,36,64,.10);margin-bottom:12px}
+.swkl{flex:1;display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.swkl small,.skn small,.sgl small{font-family:var(--display);font-weight:600;font-size:17px;color:#2B2440}
+.swkl b{font-family:var(--display);font-weight:600;font-size:60px;line-height:1;color:#2B2440;margin-top:14px}
+.swkl span{font-weight:800;font-size:15px;color:#2B2440;line-height:1.25;margin-top:4px}
+.swkl em{font-style:normal;font-weight:800;font-size:12.5px;background:#BDEBD2;color:#0B6B49;border-radius:99px;padding:6px 12px;margin-top:12px}
+.swb{display:flex;gap:6px;align-items:stretch;height:176px}
+.swb div{display:flex;flex-direction:column;align-items:center;gap:6px;width:16px}
+.swb i{flex:1;width:100%;background:#EFE9F9;border-radius:8px;display:flex;align-items:flex-end;overflow:hidden}
+.swb u{display:block;width:100%;background:#A98BEF;border-radius:8px}
+.swb .td u{background:#7444E6}
+.swb small{font-size:10.5px;font-weight:800;color:#6E6888}.swb .td small{color:#7444E6}
+.sduo2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.skn,.sgl{border-radius:28px;padding:18px;min-height:150px;display:flex;flex-direction:column;position:relative}
+.skn{background:#fff;box-shadow:0 2px 10px rgba(43,36,64,.10)}
+.skn b{font-family:var(--display);font-weight:600;font-size:46px;color:#0B6B49;line-height:1;margin-top:10px}
+.sgl{background:#FFE08A}
+.sgl b{font-weight:800;font-size:16px;color:#2B2440;line-height:1.2;margin-top:8px}
+.sgl .ring{width:58px;height:58px;position:absolute;right:14px;bottom:14px}
+.sgl .ring circle:first-of-type{stroke:rgba(43,36,64,.14)}

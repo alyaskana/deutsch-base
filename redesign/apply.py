@@ -75,6 +75,7 @@ M='/* ---------- lesson intro ---------- */\nfunction showIntro';i=s.index(M);s=
 
 import importlib.util as _u
 _sp=_u.spec_from_file_location('vocab',__file__.replace('apply.py','vocab.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
+_sp=_u.spec_from_file_location('stats',__file__.replace('apply.py','stats.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
 
 # ---------- 3. Стили ----------
 CSS=open(__file__.replace('apply.py','milk.css')).read()
