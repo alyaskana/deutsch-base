@@ -1,0 +1,63 @@
+/* ---------- v76: палитра «Молоко» и правки экранов урока (редизайн «Мозаика», 2026-11-09) ---------- */
+.dock.fb{box-shadow:0 -6px 24px rgba(43,36,64,.12);border-radius:34px 34px 0 0}
+.card{box-shadow:0 6px 20px rgba(43,36,64,.10)}
+.x,.back,.pill,.sndt{background:#fff}
+.bars span,.pbar{background:#E2DACE}
+.press:disabled{color:#6E6888}
+.opt.right,.pc.right{border-color:#8FD3B4;background:#BDEBD2;color:#0B6B49;box-shadow:0 4px 0 #8FD3B4}
+.opt.wrong,.pc.wrong{border-color:#F09CC2;background:#FFC9DF;color:#7A1848;box-shadow:0 4px 0 #F09CC2}
+.dock.ok .fbh h3{color:#0E7F57}.dock.no .fbh h3{color:#7A1848}
+.dock.fb.no{background:#FFE9F3}
+.press.bad{--c:#B02A70}
+.field{box-shadow:none}
+/* три варианта ответа стоят столбиком, без пустого места */
+.opts:not(.forms):has(.opt:nth-child(3):last-child){grid-template-columns:1fr}
+/* ä ö ü ß есть в клавиатуре телефона, кнопки нужны только с мышью */
+@media (hover:none) and (pointer:coarse){.keys{display:none}}
+/* замедление: круглая кнопка с черепашкой */
+.slow,.w1slow{width:44px;height:44px;min-height:44px;padding:0;border-radius:50%;flex:none;display:grid;place-items:center;background:var(--soft);color:#2B2440}
+.slow svg{width:26px;height:26px}
+.slow[aria-pressed=true]{background:var(--accent,var(--blue));color:#fff}
+.hear .slow,.dkb .slow{background:#fff}.dkb .slow{background:var(--soft)}
+/* плеер в одну линию: кнопка, полоса со временем, черепашка */
+.player{grid-template-columns:52px minmax(0,1fr) 44px;grid-template-areas:"b bar s" "b time s";column-gap:14px;row-gap:6px}
+.player .ptrack,.player .prow{display:contents}
+.player .pbtn{grid-area:b;width:52px;height:52px;box-shadow:0 4px 0 var(--lip)}
+.player .pbtn svg{width:22px;height:22px}
+.player .pbar{grid-area:bar;align-self:end}
+.player .ptime{grid-area:time;align-self:start;font-size:13px;font-weight:800;color:#6E6888;font-variant-numeric:tabular-nums}
+.player .slow{grid-area:s}
+.hear{padding:10px 14px;gap:6px}
+.hear .player{grid-template-columns:44px minmax(0,1fr) 44px;column-gap:12px}
+.hear .pbtn{width:44px;height:44px;box-shadow:0 3px 0 var(--lip)}
+.hear .pbtn svg{width:18px;height:18px}
+.lsn+.goal{margin-top:2px}
+/* голоса с лицами */
+.voices{gap:10px 22px;margin:4px 0 2px}
+.voices span{background:none;padding:0;gap:9px}
+.voices .av{width:44px;height:44px;flex:none;display:block}
+.voices em{font-style:normal;display:flex;flex-direction:column;line-height:1.15}
+.voices em b{font-size:15px}
+.voices em small{font-size:12.5px;font-weight:800;color:#6E6888}
+/* диктант: звук в реплике маскота */
+.prompt.dk{margin-bottom:16px}
+.dkb{display:flex;align-items:center;gap:12px;padding:12px 12px 14px 14px}
+.dkb .w1pb{width:52px;height:52px;border-radius:50%;flex:none}
+.dkb .w1pb svg{width:24px;height:24px}
+.dkw{flex:1;min-width:0;display:flex;align-items:center;justify-content:space-between;height:30px;overflow:hidden}
+.dkw i{width:4px;border-radius:4px;background:color-mix(in srgb,var(--violet) 38%,#fff);transform-origin:50% 50%}
+.dkw.on i{animation:dkw .8s ease-in-out infinite}
+@keyframes dkw{50%{transform:scaleY(.35)}}
+/* письмо: задание отдельным заголовком */
+.wtask{margin:2px 0 -6px;font-family:var(--body);font-weight:900;font-size:19px;line-height:1.25;color:#2B2440}
+/* начало шага: правило сразу в карточке */
+.stagecard.hasth{align-items:stretch;text-align:left;padding-top:22px}
+.stagecard.hasth>.mz{width:72px;height:72px;margin:0 0 2px}
+.stagecard.hasth h2{font-size:26px}
+.stagecard.hasth p{max-width:none}
+.th.thin{display:flex;flex-direction:column;gap:12px;margin-top:4px}
+/* без тёмных заливок: подсказка и перевод слова на белом */
+.toast{background:#fff;color:var(--ink);box-shadow:0 6px 20px rgba(43,36,64,.18)}
+.wpop{background:#fff;color:var(--ink);box-shadow:0 8px 24px rgba(43,36,64,.20)}
+.wpop span{color:#5F587C}.wpop span.no{color:#857E9F}
+.wpop:after{background:#fff}
