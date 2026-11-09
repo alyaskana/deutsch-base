@@ -162,6 +162,45 @@ for (const [t, v] of Object.entries(perType)) {
   await page.close();
 }
 
+// Игры на главной: «Слово дня» и «Пары» (если они есть на странице).
+{
+  const { page, errs } = await open();
+  const has = await page.evaluate(() => typeof showWordle === 'function' && typeof showPairs === 'function');
+  if (!has) console.log('  · игры: на странице нет, пропуск');
+  else {
+    await page.evaluate(() => showHome()); await page.waitForTimeout(300);
+    if (!(await page.$('#go-wordle')) || !(await page.$('#go-pairs'))) bad('игры: на главной нет плиток «Слово дня» и «Пары»');
+    else {
+      await page.click('#go-wordle'); await page.waitForTimeout(300);
+      const W = await page.evaluate(() => wordleToday()?.lemma?.toUpperCase() || '');
+      if (!/^[A-ZÄÖÜ]{5}$/.test(W)) bad(`слово дня: нет слова из 5 букв (${W})`);
+      else {
+        for (const c of W) await page.click(`.kr button[data-k="${c}"]`);
+        const o0 = await page.evaluate(() => __smoke.osc);
+        await page.click('#dbtn'); await page.waitForTimeout(400);
+        const r = await page.evaluate(() => ({ won: !!document.querySelector('.w1res'), saved: !!(__store['data/users/me/progress']?.games?.w?.won) }));
+        await page.waitForTimeout(1500);
+        const o1 = await page.evaluate(() => __smoke.osc);
+        if (!r.won) bad('слово дня: угаданное слово не засчитано');
+        if (o1 <= o0) bad('слово дня: после угаданного слова нет звука');
+        console.log(`  ${r.won && o1 > o0 ? '✓' : '✗'} слово дня`);
+      }
+      await page.evaluate(() => showHome()); await page.waitForTimeout(200);
+      await page.click('#go-pairs'); await page.waitForTimeout(200); await page.click('#dbtn'); await page.waitForTimeout(300);
+      let n = 0;
+      for (let k = 0; k < 7; k++) {
+        n += await page.evaluate(() => { const a = document.querySelector('.pc[data-s=l]:not(.right)'); if (!a) return 0; const c = document.querySelector(`.pc[data-s=r][data-k="${a.dataset.k}"]`); a.click(); c.click(); return 1; });
+        await page.waitForTimeout(300);
+      }
+      const shown = await page.evaluate(() => parseInt(document.querySelector('#ps b')?.textContent || '0'));
+      if (n < 6 || shown !== n) bad(`пары: засчитано ${shown} из ${n} верных пар, новый раунд не появился`);
+      else console.log('  ✓ пары');
+    }
+  }
+  for (const e of [...new Set(errs)]) bad(`игры: ошибка JS: ${e}`);
+  await page.close();
+}
+
 await browser.close();
 console.log(problems ? `\n${problems} проблем(ы)` : '\n✓ Автотест прошёл');
 process.exit(problems ? 1 : 0);
