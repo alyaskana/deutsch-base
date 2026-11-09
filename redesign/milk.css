@@ -169,3 +169,38 @@ body.tb .app>.back{display:none}
 .srecent{display:flex;flex-wrap:wrap;gap:8px}
 .srecent button{padding:9px 14px;border-radius:999px;background:var(--soft);font-size:15px;font-weight:800;color:#2B2440}
 .dock .msay{box-shadow:0 6px 20px rgba(43,36,64,.14)}
+/* v80: «Слова» */
+.mh1{font-family:var(--display);font-weight:600;font-size:34px;color:#2B2440;margin:6px 4px 14px}
+.vsayf{margin-bottom:14px}
+.vtoday{display:flex;align-items:center;gap:12px;width:100%;border:0;border-radius:28px;padding:18px 20px;background:#BDEBD2;color:#0B6B49;text-align:left;box-shadow:0 4px 0 #9ED9BA;margin-bottom:12px;font-family:inherit}
+.vtoday b{font-family:var(--display);font-size:44px;font-weight:600;line-height:1}
+.vtoday span{flex:1;font-weight:800;font-size:17px;line-height:1.2}
+.vtoday i{width:48px;height:48px;border-radius:50%;background:#fff;display:grid;place-items:center;color:#0B6B49;flex:none}
+.vtoday i svg{width:22px;height:22px}
+.vtoday.ok{box-shadow:none}.vtoday.ok b{font-size:30px}
+.varts{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px}
+.vart{border:0;border-radius:22px;padding:14px 14px 12px;text-align:left;font-family:inherit;display:flex;flex-direction:column;gap:6px}
+.vart b{font-family:var(--display);font-size:24px;font-weight:600}
+.vart span{font-weight:800;font-size:15px}
+.vart.der{background:#DDEFFB;color:#14588A}.vart.die{background:#FFC9DF;color:#7A1848}.vart.das{background:#FFE9B0;color:#6B4A00}
+.vlns{background:#fff;border-radius:24px;box-shadow:0 2px 10px rgba(43,36,64,.10);margin-bottom:8px;overflow:hidden}
+.vln{display:flex;align-items:center;gap:10px;width:100%;border:0;background:none;padding:17px 18px;font-family:inherit;text-align:left;color:#2B2440}
+.vln+.vln{border-top:1.5px solid #F0EAE0}
+.vln b{font-family:var(--display);font-weight:600;font-size:19px;flex:1}
+.vln small{color:#6E6888;font-weight:700;font-size:13px;order:-0}
+.vln em{font-style:normal;font-family:var(--display);font-weight:600;font-size:20px;color:#7444E6}
+.vln .chev{width:18px;height:18px;color:#857E9F;flex:none}
+.msec{font-family:var(--display);font-weight:500;font-size:22px;color:#2B2440;margin:22px 4px 12px}
+.vtopics{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.vtop{position:relative;border:0;border-radius:22px;background:var(--c);min-height:112px;padding:12px 10px 10px;text-align:left;font-family:inherit;color:#2B2440;display:flex;flex-direction:column;overflow:hidden}
+.vtop b{font-weight:800;font-size:12px;line-height:1.2}
+.vtop em{font-style:normal;font-family:var(--display);font-weight:600;font-size:22px;margin-top:auto}
+.vtop .vm{position:absolute;right:8px;bottom:8px;width:38px;height:38px}
+.vtop .vm svg{width:100%;height:100%}
+.vtop .tbar{position:absolute;left:12px;right:56px;bottom:6px;height:4px;margin:0}
+.vtop.wide{grid-column:1/-1;min-height:120px;padding:16px 18px;background:#fff;box-shadow:0 2px 10px rgba(43,36,64,.10)}
+.vtop.wide b{font-family:var(--display);font-weight:600;font-size:21px}
+.vtop.wide em{font-size:36px;color:#0B6B49}
+.vtop.wide .vm{width:84px;height:84px;right:18px;bottom:16px}
+.vask{margin-top:12px;width:100%}
+.back[hidden],.vhd[hidden]{display:none!important}

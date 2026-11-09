@@ -73,6 +73,9 @@ rep('<div class="shead"><h1>Итоги недели</h1><span>${rng}</span></div
 # ---------- 2c. «Как сказать» разговором ----------
 M='/* ---------- lesson intro ---------- */\nfunction showIntro';i=s.index(M);s=s[:i]+open(__file__.replace('apply.py','say.js')).read()+'\n'+s[i:]
 
+import importlib.util as _u
+_sp=_u.spec_from_file_location('vocab',__file__.replace('apply.py','vocab.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
+
 # ---------- 3. Стили ----------
 CSS=open(__file__.replace('apply.py','milk.css')).read()
 i=s.rindex('\n<script>')
