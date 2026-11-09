@@ -57,6 +57,19 @@ rep('''  shell(`<div class="card stagecard">${st.pic?''','''  shell(`<div class=
 rep('function showTheory(st){','''function theoryBody(st){const T=st.theory;return `<div class="th thin" style="--c:${col(st.color)}">${(T.p||[]).map(x=>`<p>${rich(x)}</p>`).join('')}${T.tab?`<div class="tab"><table>${T.tab.map((r,i)=>`<tr>${r.map(c=>i===0?`<th>${rich(c)}</th>`:`<td>${rich(c)}</td>`).join('')}</tr>`).join('')}</table></div>`:''}${T.ex?.length?`<div class="exs">${T.ex.map(x=>`<div class="ex"><div>${rich(x[0])}</div>${x[1]?`<span>${esc(x[1])}</span>`:''}</div>`).join('')}</div>`:''}</div>`}
 function showTheory(st){''')
 
+# ---------- 2b. Главная «Сегодня», таб-бар, экран «Уроки» ----------
+a=s.index('function showHome(){');b=s.index('/* ---------- lesson intro ---------- */',a)
+s=s[:a]+open(__file__.replace('apply.py','home.js')).read()+'\n'+s[b:]
+# грамматика и три формы теперь живут в «Уроках»
+i=s.index('function showGrammar(tab){');j=s.index("$('back').onclick=showHome;",i)
+s=s[:i]+s[i:j].replace('${BACK_SVG}Главная</button>','${BACK_SVG}Уроки</button>')+"$('back').onclick=showLessons;"+s[j+len("$('back').onclick=showHome;"):]
+i=s.index('function showVerbs(){');j=s.index("$('back').onclick=showHome;",i)
+s=s[:i]+s[i:j].replace('${BACK_SVG}Главная</button>','${BACK_SVG}Уроки</button>')+"$('back').onclick=showLessons;"+s[j+len("$('back').onclick=showHome;"):]
+rep("\nshowHome();\nconnect();\n","\ninitTabs();\nshowHome();\nconnect();\n")
+
+# кнопка звуков ответов переехала с главной в «Итоги»
+rep('<div class="shead"><h1>Итоги недели</h1><span>${rng}</span></div>','<div class="shead"><h1>Итоги недели</h1><span>${rng}</span>${sndToggle()}</div>')
+
 # ---------- 3. Стили ----------
 CSS=open(__file__.replace('apply.py','milk.css')).read()
 i=s.rindex('\n<script>')
