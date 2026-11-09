@@ -1,0 +1,911 @@
+[
+ {
+  "id": "hoeren-hafen",
+  "title": "Im Hafen",
+  "cap": "Разговор в порту",
+  "bg": "small marina harbour ambience, gentle waves against boats, rigging clinking, distant seagulls, no music, no voices",
+  "lines": [
+   {
+    "who": "Mia",
+    "voice": "rf6om1hG105SScFBBLVW",
+    "de": "Hallo Adrian! Bist du nicht letzte Woche nach Korfu gesegelt?",
+    "ru": "Привет, Адриан! Ты ведь на прошлой неделе ходил под парусом на Корфу?"
+   },
+   {
+    "who": "Adrian",
+    "voice": "X3GmkxFRIWulRy3Eaur7",
+    "de": "Ja, genau. Wir sind am Montag losgefahren und am Freitag zurückgekommen.",
+    "ru": "Да, точно. Мы вышли в понедельник и вернулись в пятницу."
+   },
+   {
+    "who": "Mia",
+    "voice": "rf6om1hG105SScFBBLVW",
+    "de": "Und? Wie war das Wetter?",
+    "ru": "И как? Какая была погода?"
+   },
+   {
+    "who": "Adrian",
+    "voice": "X3GmkxFRIWulRy3Eaur7",
+    "de": "Am Anfang super. Aber am Mittwoch ist plötzlich ein Sturm gekommen.",
+    "ru": "Сначала отличная. Но в среду вдруг пришёл шторм."
+   },
+   {
+    "who": "Mia",
+    "voice": "rf6om1hG105SScFBBLVW",
+    "de": "Oh nein! Was habt ihr gemacht?",
+    "ru": "Ой нет! Что вы сделали?",
+    "tag": "[erschrocken]"
+   },
+   {
+    "who": "Adrian",
+    "voice": "X3GmkxFRIWulRy3Eaur7",
+    "de": "Wir haben schnell die Segel eingeholt und sind in eine kleine Bucht gefahren. Dort haben wir die ganze Nacht gewartet.",
+    "ru": "Мы быстро убрали паруса и зашли в маленькую бухту. Там мы ждали всю ночь."
+   },
+   {
+    "who": "Mia",
+    "voice": "rf6om1hG105SScFBBLVW",
+    "de": "Habt ihr überhaupt geschlafen?",
+    "ru": "Вы вообще спали?"
+   },
+   {
+    "who": "Adrian",
+    "voice": "X3GmkxFRIWulRy3Eaur7",
+    "de": "Nicht viel. Aber am Morgen ist das Meer wieder ruhig geworden, und wir haben Delfine gesehen.",
+    "ru": "Мало. Зато утром море снова успокоилось, и мы видели дельфинов.",
+    "tag": "[lacht]"
+   },
+   {
+    "who": "Mia",
+    "voice": "rf6om1hG105SScFBBLVW",
+    "de": "Wie schön! Nächstes Mal komme ich mit.",
+    "ru": "Как здорово! В следующий раз я поеду с вами."
+   }
+  ],
+  "qs": [
+   [
+    "Когда они вернулись?",
+    [
+     "В пятницу",
+     "В понедельник",
+     "В среду"
+    ],
+    "…und am <b>Freitag</b> zurückgekommen."
+   ],
+   [
+    "Что случилось в среду?",
+    [
+     "Пришёл шторм",
+     "Сломался мотор",
+     "Кто-то заболел"
+    ],
+    "Am Mittwoch ist plötzlich ein <b>Sturm</b> gekommen."
+   ],
+   [
+    "Где они провели ночь?",
+    [
+     "В маленькой бухте",
+     "В порту Корфу",
+     "В открытом море"
+    ],
+    "…sind in eine <b>kleine Bucht</b> gefahren."
+   ],
+   [
+    "Что они увидели утром?",
+    [
+     "Дельфинов",
+     "Черепах",
+     "Другую яхту"
+    ],
+    "…wir haben <b>Delfine</b> gesehen."
+   ]
+  ],
+  "ch": [
+   [
+    "Wir ___ am Montag losgefahren.",
+    "Мы вышли в понедельник.",
+    "sind",
+    "haben",
+    "losfahren — движение → <b>sind</b> losgefahren."
+   ],
+   [
+    "Am Mittwoch ___ ein Sturm gekommen.",
+    "В среду пришёл шторм.",
+    "ist",
+    "hat",
+    "kommen — движение → <b>ist</b> gekommen."
+   ],
+   [
+    "Wir ___ schnell die Segel eingeholt.",
+    "Мы быстро убрали паруса.",
+    "haben",
+    "sind",
+    "einholen что (die Segel) → <b>haben</b> eingeholt."
+   ],
+   [
+    "Wir ___ in eine kleine Bucht gefahren.",
+    "Мы зашли в маленькую бухту.",
+    "sind",
+    "haben",
+    "fahren куда-то → <b>sind</b> gefahren."
+   ],
+   [
+    "Dort ___ wir die ganze Nacht gewartet.",
+    "Там мы ждали всю ночь.",
+    "haben",
+    "sind",
+    "warten — место не меняется → <b>haben</b> gewartet."
+   ]
+  ],
+  "sp": [
+   [
+    "[Ja], genau. Wir sind am [Montag] [losgefahren]* und am Freitag [zurückgekommen]*.",
+    "Да, точно. Мы вышли в понедельник и вернулись в пятницу.",
+    "Partizip II стоит в конце. У глаголов с отделяемой приставкой ge стоит после неё: los<b>ge</b>fahren, zurück<b>ge</b>kommen."
+   ],
+   [
+    "Wir haben [schnell] die Segel [eingeholt]* und sind in eine [kleine] Bucht [gefahren]*.",
+    "Мы быстро убрали паруса и зашли в маленькую бухту.",
+    "ein<b>ge</b>holt, <b>ge</b>fahren. schnell и kleine — прилагательные."
+   ],
+   [
+    "Aber am Morgen [ist] das Meer wieder [ruhig] [geworden]*, und wir haben Delfine [gesehen]*.",
+    "Зато утром море снова успокоилось, и мы видели дельфинов.",
+    "<b>ge</b>worden (werden — изменение состояния, поэтому ist), <b>ge</b>sehen. ist — вспомогательный глагол, ruhig — прилагательное."
+   ]
+  ],
+  "speakers": {
+   "Mia": "Швейцария",
+   "Adrian": "Германия"
+  },
+  "gloss": {
+   "hallo": "привет",
+   "letzte": "прошлая (letzte Woche — на прошлой неделе)",
+   "korfu": "Корфу, остров в Греции",
+   "genau": "точно",
+   "losgefahren": "отправились (Perfekt от losfahren, с sein)",
+   "zurückgekommen": "вернулись (Perfekt от zurückkommen, с sein)",
+   "anfang": "начало (am Anfang — сначала)",
+   "super": "супер, отлично",
+   "sturm": "шторм (der Sturm)",
+   "gekommen": "пришёл (Perfekt от kommen, с sein)",
+   "habt": "имеете (ihr habt) — здесь вспомогательный для Perfekt",
+   "eingeholt": "убрали (Perfekt от einholen: die Segel einholen — убрать паруса)",
+   "gewartet": "ждали (Perfekt от warten, с haben)",
+   "wieder": "снова",
+   "geworden": "стало (Perfekt от werden, с sein)",
+   "delfine": "дельфины (der Delfin)",
+   "nächstes": "следующий (nächstes Mal — в следующий раз)",
+   "mal": "раз",
+   "gesegelt": "ходил под парусом (Perfekt от segeln, с sein, когда есть куда)",
+   "überhaupt": "вообще",
+   "bucht": "бухта (die Bucht)",
+   "segel": "паруса (das Segel)",
+   "ruhig": "спокойный"
+  },
+  "order": -15.5,
+  "createdAt": "2026-11-09"
+ },
+ {
+  "id": "hoeren-kater",
+  "title": "Der Kater ist weg",
+  "cap": "Соседи во дворе",
+  "bg": "quiet residential courtyard ambience, distant city traffic, a few birds, no music, no voices",
+  "lines": [
+   {
+    "who": "Berta",
+    "voice": "CoFoB7a7PXA8RBsMHbua",
+    "de": "Ben! Hast du meinen Kater gesehen? Felix ist weg!",
+    "ru": "Бен! Ты не видел моего кота? Феликс пропал!",
+    "tag": "[aufgeregt]"
+   },
+   {
+    "who": "Ben",
+    "voice": "aTTiK3YzK3dXETpuDE2h",
+    "de": "Nein, leider nicht. Seit wann ist er denn weg?",
+    "ru": "Нет, к сожалению. А с какого времени его нет?"
+   },
+   {
+    "who": "Berta",
+    "voice": "CoFoB7a7PXA8RBsMHbua",
+    "de": "Seit gestern Abend. Ich habe die Balkontür offen gelassen, und er ist rausgesprungen.",
+    "ru": "С вчерашнего вечера. Я оставила балконную дверь открытой, и он выпрыгнул."
+   },
+   {
+    "who": "Ben",
+    "voice": "aTTiK3YzK3dXETpuDE2h",
+    "de": "Hast du schon im Keller gesucht? Katzen verstecken sich gern.",
+    "ru": "Ты уже искала в подвале? Кошки любят прятаться."
+   },
+   {
+    "who": "Berta",
+    "voice": "CoFoB7a7PXA8RBsMHbua",
+    "de": "Ja, ich habe überall gesucht. Ich habe auch Zettel aufgehängt.",
+    "ru": "Да, я везде искала. Я ещё повесила объявления."
+   },
+   {
+    "who": "Ben",
+    "voice": "aTTiK3YzK3dXETpuDE2h",
+    "de": "Moment mal… Was sitzt denn da auf meinem Auto?",
+    "ru": "Минуточку… А кто это сидит на моей машине?"
+   },
+   {
+    "who": "Berta",
+    "voice": "CoFoB7a7PXA8RBsMHbua",
+    "de": "Felix! Du böser Kater! Ich habe die ganze Nacht nicht geschlafen!",
+    "ru": "Феликс! Плохой кот! Я всю ночь не спала!",
+    "tag": "[erleichtert]"
+   },
+   {
+    "who": "Ben",
+    "voice": "aTTiK3YzK3dXETpuDE2h",
+    "de": "Er hat wohl einen kleinen Ausflug gemacht und ist dann auf mein Auto gesprungen.",
+    "ru": "Похоже, он устроил себе небольшую прогулку, а потом запрыгнул на мою машину.",
+    "tag": "[lacht]"
+   }
+  ],
+  "qs": [
+   [
+    "Как кот выбрался из дома?",
+    [
+     "Через балконную дверь",
+     "Через окно на кухне",
+     "Через подвал"
+    ],
+    "Ich habe die <b>Balkontür</b> offen gelassen…"
+   ],
+   [
+    "Что Берта уже сделала?",
+    [
+     "Повесила объявления",
+     "Позвонила в полицию",
+     "Купила корм"
+    ],
+    "Ich habe auch <b>Zettel</b> aufgehängt."
+   ],
+   [
+    "Где нашёлся кот?",
+    [
+     "На машине Бена",
+     "В подвале",
+     "На балконе"
+    ],
+    "Was sitzt denn da <b>auf meinem Auto</b>?"
+   ],
+   [
+    "Как Берта провела ночь?",
+    [
+     "Не спала",
+     "Спала у Бена",
+     "Смотрела телевизор"
+    ],
+    "Ich habe die ganze Nacht <b>nicht geschlafen</b>!"
+   ]
+  ],
+  "ch": [
+   [
+    "___ du meinen Kater gesehen?",
+    "Ты не видел моего кота?",
+    "Hast",
+    "Bist",
+    "sehen кого → <b>hast</b> gesehen."
+   ],
+   [
+    "Er ___ rausgesprungen.",
+    "Он выпрыгнул.",
+    "ist",
+    "hat",
+    "springen куда-то (наружу) → <b>ist</b> gesprungen."
+   ],
+   [
+    "Ich ___ überall gesucht.",
+    "Я везде искала.",
+    "habe",
+    "bin",
+    "suchen кого/что — нет перемещения из точки A в точку B → <b>habe</b> gesucht."
+   ],
+   [
+    "Ich ___ die ganze Nacht nicht geschlafen.",
+    "Я всю ночь не спала.",
+    "habe",
+    "bin",
+    "schlafen — без движения → <b>habe</b> geschlafen."
+   ],
+   [
+    "Er ___ einen kleinen Ausflug gemacht.",
+    "Он устроил небольшую прогулку.",
+    "hat",
+    "ist",
+    "machen что → <b>hat</b> gemacht."
+   ]
+  ],
+  "sp": [
+   [
+    "Ich habe die Balkontür [offen] [gelassen]*, und er ist [rausgesprungen]*.",
+    "Я оставила балконную дверь открытой, и он выпрыгнул.",
+    "<b>ge</b>lassen, raus<b>ge</b>sprungen. offen — прилагательное."
+   ],
+   [
+    "Ja, ich habe [überall] [gesucht]*. Ich habe auch [Zettel] [aufgehängt]*.",
+    "Да, я везде искала. Я ещё повесила объявления.",
+    "<b>ge</b>sucht, auf<b>ge</b>hängt: ge стоит после отделяемой приставки."
+   ],
+   [
+    "Er hat [wohl] einen [kleinen] Ausflug [gemacht]* und ist dann auf mein [Auto] [gesprungen]*.",
+    "Похоже, он устроил себе небольшую прогулку, а потом запрыгнул на мою машину.",
+    "<b>ge</b>macht, <b>ge</b>sprungen. wohl — частица, kleinen — прилагательное, Auto — существительное."
+   ]
+  ],
+  "speakers": {
+   "Berta": "Берлин",
+   "Ben": "Германия"
+  },
+  "gloss": {
+   "weg": "нет, пропал (ist weg — пропал)",
+   "balkontür": "балконная дверь (die Balkontür)",
+   "gelassen": "оставила (Perfekt от lassen: offen lassen — оставить открытым)",
+   "rausgesprungen": "выпрыгнул (Perfekt от rausspringen, с sein)",
+   "gesucht": "искала (Perfekt от suchen, с haben)",
+   "verstecken": "прятать (sich verstecken — прятаться)",
+   "sich": "себя, -ся",
+   "zettel": "записка, объявление (der Zettel)",
+   "aufgehängt": "повесила (Perfekt от aufhängen, с haben)",
+   "moment": "момент (Moment mal — минуточку)",
+   "mal": "частица: Moment mal — минуточку",
+   "da": "там",
+   "böser": "плохой, злой (böse)",
+   "wohl": "наверное, похоже",
+   "gesprungen": "прыгнул (Perfekt от springen, с sein)",
+   "keller": "подвал (der Keller)",
+   "ausflug": "прогулка, вылазка (der Ausflug)",
+   "seit": "с (какого времени)"
+  },
+  "order": -15.4,
+  "createdAt": "2026-11-09"
+ },
+ {
+  "id": "hoeren-wien",
+  "title": "Ein Wochenende in Wien",
+  "cap": "Две подруги в кафе",
+  "bg": "quiet cozy cafe ambience, soft distant chatter, cups and spoons clinking, no music",
+  "lines": [
+   {
+    "who": "Lea",
+    "voice": "7eVMgwCnXydb3CikjV7a",
+    "de": "Na, Alexandra, wie war dein Wochenende?",
+    "ru": "Ну что, Александра, как прошли выходные?"
+   },
+   {
+    "who": "Alexandra",
+    "voice": "x5q1BXyLc7tegNqnOvnx",
+    "de": "Sehr schön! Meine Freundin aus Hamburg hat mich in Wien besucht.",
+    "ru": "Очень хорошо! Ко мне в Вену приезжала подруга из Гамбурга."
+   },
+   {
+    "who": "Lea",
+    "voice": "7eVMgwCnXydb3CikjV7a",
+    "de": "Toll! Was habt ihr gemacht?",
+    "ru": "Здорово! Что вы делали?"
+   },
+   {
+    "who": "Alexandra",
+    "voice": "x5q1BXyLc7tegNqnOvnx",
+    "de": "Am Samstag sind wir mit der Straßenbahn in die Stadt gefahren und haben uns Schloss Schönbrunn angeschaut.",
+    "ru": "В субботу мы поехали на трамвае в город и посмотрели дворец Шёнбрунн."
+   },
+   {
+    "who": "Lea",
+    "voice": "7eVMgwCnXydb3CikjV7a",
+    "de": "Und habt ihr auch Sachertorte gegessen?",
+    "ru": "А торт «Захер» вы тоже ели?"
+   },
+   {
+    "who": "Alexandra",
+    "voice": "x5q1BXyLc7tegNqnOvnx",
+    "de": "Natürlich! Wir haben gleich zwei Stück gegessen. Danach sind wir lange im Park spazieren gegangen.",
+    "ru": "Конечно! Мы съели целых два куска. Потом мы долго гуляли в парке.",
+    "tag": "[lacht]"
+   },
+   {
+    "who": "Lea",
+    "voice": "7eVMgwCnXydb3CikjV7a",
+    "de": "Und am Sonntag?",
+    "ru": "А в воскресенье?"
+   },
+   {
+    "who": "Alexandra",
+    "voice": "x5q1BXyLc7tegNqnOvnx",
+    "de": "Am Sonntag hat es geregnet. Wir sind zu Hause geblieben und haben einen Film geschaut.",
+    "ru": "В воскресенье шёл дождь. Мы остались дома и посмотрели фильм."
+   }
+  ],
+  "qs": [
+   [
+    "Откуда приезжала подруга?",
+    [
+     "Из Гамбурга",
+     "Из Мюнхена",
+     "Из Берлина"
+    ],
+    "Meine Freundin aus <b>Hamburg</b> hat mich in Wien besucht."
+   ],
+   [
+    "На чём они поехали в город?",
+    [
+     "На трамвае",
+     "На метро",
+     "На велосипедах"
+    ],
+    "…sind wir mit der <b>Straßenbahn</b> in die Stadt gefahren."
+   ],
+   [
+    "Сколько кусков торта они съели?",
+    [
+     "Два",
+     "Один",
+     "Три"
+    ],
+    "Wir haben gleich <b>zwei</b> Stück gegessen."
+   ],
+   [
+    "Почему в воскресенье они остались дома?",
+    [
+     "Шёл дождь",
+     "Они устали",
+     "Подруга уехала"
+    ],
+    "Am Sonntag hat es <b>geregnet</b>."
+   ]
+  ],
+  "ch": [
+   [
+    "Meine Freundin ___ mich besucht.",
+    "Ко мне приезжала подруга.",
+    "hat",
+    "ist",
+    "besuchen кого → <b>hat</b> besucht."
+   ],
+   [
+    "Wir ___ in die Stadt gefahren.",
+    "Мы поехали в город.",
+    "sind",
+    "haben",
+    "fahren куда-то → <b>sind</b> gefahren."
+   ],
+   [
+    "___ ihr auch Sachertorte gegessen?",
+    "Вы тоже ели торт «Захер»?",
+    "Habt",
+    "Seid",
+    "essen что → <b>habt</b> gegessen."
+   ],
+   [
+    "Wir ___ zu Hause geblieben.",
+    "Мы остались дома.",
+    "sind",
+    "haben",
+    "bleiben — исключение, всегда <b>sein</b>: sind geblieben."
+   ],
+   [
+    "Am Sonntag ___ es geregnet.",
+    "В воскресенье шёл дождь.",
+    "hat",
+    "ist",
+    "regnen — погода, нет движения → <b>hat</b> geregnet."
+   ]
+  ],
+  "sp": [
+   [
+    "Am Samstag sind wir mit der [Straßenbahn] in die Stadt [gefahren]* und haben uns Schloss Schönbrunn [angeschaut]*.",
+    "В субботу мы поехали на трамвае в город и посмотрели дворец Шёнбрунн.",
+    "<b>ge</b>fahren, an<b>ge</b>schaut. Straßenbahn — существительное."
+   ],
+   [
+    "Wir haben gleich zwei Stück [gegessen]*. Danach sind wir [lange] im Park [spazieren] [gegangen]*.",
+    "Мы съели целых два куска. Потом мы долго гуляли в парке.",
+    "<b>ge</b>gessen, spazieren <b>ge</b>gangen. spazieren — инфинитив, не Partizip II."
+   ],
+   [
+    "Wir sind zu Hause [geblieben]* und haben einen [Film] [geschaut]*.",
+    "Мы остались дома и посмотрели фильм.",
+    "<b>ge</b>blieben, <b>ge</b>schaut."
+   ]
+  ],
+  "speakers": {
+   "Lea": "Германия",
+   "Alexandra": "Австрия"
+  },
+  "gloss": {
+   "na": "ну",
+   "besucht": "навестила (Perfekt от besuchen, с haben, без ge)",
+   "habt": "имеете (ihr habt) — здесь вспомогательный для Perfekt",
+   "schloss": "дворец, замок (das Schloss)",
+   "angeschaut": "посмотрели (Perfekt от anschauen: sich etwas anschauen — посмотреть что-то)",
+   "sachertorte": "торт «Захер», венский шоколадный торт (die Sachertorte)",
+   "zwei": "два",
+   "stück": "кусок (das Stück; zwei Stück — два куска)",
+   "danach": "после этого",
+   "spazieren": "гулять (spazieren gehen)",
+   "geregnet": "шёл дождь (Perfekt от regnen, с haben)",
+   "geschaut": "смотрели (Perfekt от schauen, с haben)",
+   "straßenbahn": "трамвай (die Straßenbahn)",
+   "gleich": "сразу, целых",
+   "geblieben": "остались (Perfekt от bleiben, с sein)"
+  },
+  "order": -15.3,
+  "createdAt": "2026-11-09"
+ },
+ {
+  "id": "hoeren-zu-spaet",
+  "title": "Zu spät",
+  "cap": "Утро в офисе",
+  "bg": "calm open office ambience, quiet keyboard typing, a coffee machine in the distance, no music, no voices",
+  "lines": [
+   {
+    "who": "Anna",
+    "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+    "de": "Servus, Tony! Du bist ja heute spät dran. Was ist passiert?",
+    "ru": "Привет, Тони! Ты сегодня поздно. Что случилось?"
+   },
+   {
+    "who": "Tony",
+    "voice": "sbJf8opzqSGRyRJzCVjD",
+    "de": "Ach, frag nicht. Ich hab meinen Wecker nicht gehört.",
+    "ru": "Ах, не спрашивай. Я не услышал будильник."
+   },
+   {
+    "who": "Anna",
+    "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+    "de": "Oje. Und dann?",
+    "ru": "Ой-ой. А потом?"
+   },
+   {
+    "who": "Tony",
+    "voice": "sbJf8opzqSGRyRJzCVjD",
+    "de": "Ich bin aufgestanden, hab schnell geduscht und bin zum Bahnhof gerannt.",
+    "ru": "Я встал, быстро принял душ и побежал на вокзал."
+   },
+   {
+    "who": "Anna",
+    "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+    "de": "Und hast du den Zug noch bekommen?",
+    "ru": "И ты успел на поезд?"
+   },
+   {
+    "who": "Tony",
+    "voice": "sbJf8opzqSGRyRJzCVjD",
+    "de": "Nein, der ist mir direkt vor der Nase weggefahren. Ich hab zwanzig Minuten auf den nächsten gewartet.",
+    "ru": "Нет, он ушёл прямо у меня перед носом. Я двадцать минут ждал следующего."
+   },
+   {
+    "who": "Anna",
+    "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+    "de": "Hast du wenigstens schon gefrühstückt?",
+    "ru": "Ты хоть позавтракал?",
+    "tag": "[lacht]"
+   },
+   {
+    "who": "Tony",
+    "voice": "sbJf8opzqSGRyRJzCVjD",
+    "de": "Nein. Ich hab nur einen Kaffee getrunken.",
+    "ru": "Нет. Я выпил только кофе.",
+    "tag": "[seufzt]"
+   },
+   {
+    "who": "Anna",
+    "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+    "de": "Komm, ich hab Brezen mitgebracht und frischen Kaffee gekocht.",
+    "ru": "Пойдём, я принесла брецели и сварила свежий кофе."
+   }
+  ],
+  "qs": [
+   [
+    "Почему Тони опоздал?",
+    [
+     "Не услышал будильник",
+     "Заболел",
+     "Забыл ключи"
+    ],
+    "Ich hab meinen <b>Wecker</b> nicht gehört."
+   ],
+   [
+    "Что случилось с поездом?",
+    [
+     "Ушёл у него перед носом",
+     "Был переполнен",
+     "Его отменили"
+    ],
+    "…der ist mir direkt <b>vor der Nase weggefahren</b>."
+   ],
+   [
+    "Сколько он ждал следующего поезда?",
+    [
+     "Двадцать минут",
+     "Десять минут",
+     "Час"
+    ],
+    "Ich hab <b>zwanzig Minuten</b> auf den nächsten gewartet."
+   ],
+   [
+    "Что принесла Анна?",
+    [
+     "Брецели",
+     "Пирожные",
+     "Бутерброды"
+    ],
+    "Komm, ich hab <b>Brezen</b> mitgebracht…"
+   ]
+  ],
+  "ch": [
+   [
+    "Was ___ passiert?",
+    "Что случилось?",
+    "ist",
+    "hat",
+    "passieren — всегда с <b>sein</b>: ist passiert."
+   ],
+   [
+    "Ich ___ meinen Wecker nicht gehört.",
+    "Я не услышал будильник.",
+    "habe",
+    "bin",
+    "hören что → <b>habe</b> gehört."
+   ],
+   [
+    "Ich ___ aufgestanden.",
+    "Я встал.",
+    "bin",
+    "habe",
+    "aufstehen — меняется положение → <b>bin</b> aufgestanden."
+   ],
+   [
+    "Der Zug ___ abgefahren.",
+    "Поезд ушёл.",
+    "ist",
+    "hat",
+    "abfahren — движение → <b>ist</b> abgefahren."
+   ],
+   [
+    "Ich ___ nur einen Kaffee getrunken.",
+    "Я выпил только кофе.",
+    "habe",
+    "bin",
+    "trinken что → <b>habe</b> getrunken."
+   ]
+  ],
+  "sp": [
+   [
+    "Nein, der ist mir direkt vor der [Nase] [weggefahren]*. Ich hab [zwanzig] Minuten auf den nächsten [gewartet]*.",
+    "Нет, он ушёл прямо у меня перед носом. Я двадцать минут ждал следующего.",
+    "weg<b>ge</b>fahren, <b>ge</b>wartet. Nase — существительное, zwanzig — числительное."
+   ],
+   [
+    "Ich bin [aufgestanden]*, hab [schnell] [geduscht]* und bin zum Bahnhof [gerannt]*.",
+    "Я встал, быстро принял душ и побежал на вокзал.",
+    "auf<b>ge</b>standen, <b>ge</b>duscht, <b>ge</b>rannt."
+   ],
+   [
+    "Komm, ich hab [Brezen] [mitgebracht]* und [frischen] Kaffee [gekocht]*.",
+    "Пойдём, я принесла брецели и сварила свежий кофе.",
+    "mit<b>ge</b>bracht (bringen — неправильный), <b>ge</b>kocht. Brezen — существительное, frischen — прилагательное."
+   ]
+  ],
+  "speakers": {
+   "Anna": "Бавария",
+   "Tony": "Саксония"
+  },
+  "gloss": {
+   "servus": "привет (по-баварски и по-австрийски)",
+   "dran": "spät dran sein — опаздывать",
+   "passiert": "случилось (Perfekt от passieren, с sein)",
+   "ach": "ах",
+   "frag": "спрашивай (frag nicht — не спрашивай)",
+   "hab": "= habe, так говорят в разговоре",
+   "wecker": "будильник (der Wecker)",
+   "gehört": "услышал (Perfekt от hören, с haben)",
+   "oje": "ой-ой",
+   "aufgestanden": "встал (Perfekt от aufstehen, с sein)",
+   "geduscht": "принял душ (Perfekt от duschen, с haben)",
+   "gerannt": "побежал (Perfekt от rennen, с sein)",
+   "bekommen": "здесь: успеть на (den Zug bekommen)",
+   "direkt": "прямо",
+   "weggefahren": "уехал (Perfekt от wegfahren, с sein; jemandem vor der Nase wegfahren — уйти перед носом)",
+   "zwanzig": "двадцать",
+   "nächsten": "следующий",
+   "gewartet": "ждал (Perfekt от warten, с haben)",
+   "wenigstens": "хотя бы",
+   "gefrühstückt": "позавтракал (Perfekt от frühstücken, с haben)",
+   "komm": "пойдём, давай",
+   "brezen": "брецели, крендели (по-баварски: die Breze, мн. Brezen)",
+   "mitgebracht": "принесла (Perfekt от mitbringen, с haben)",
+   "gekocht": "сварила (Perfekt от kochen, с haben)",
+   "getrunken": "выпил (Perfekt от trinken, с haben)",
+   "nase": "нос (die Nase)"
+  },
+  "order": -15.2,
+  "createdAt": "2026-11-09"
+ },
+ {
+  "id": "hoeren-umzug",
+  "title": "Der Umzug",
+  "cap": "Звонок другу",
+  "bg": null,
+  "lines": [
+   {
+    "who": "Toby",
+    "voice": "eEmoQJhC4SAEQpCINUov",
+    "de": "Grüß dich, Seraina! Ich habe gehört, du bist umgezogen?",
+    "ru": "Привет, Сераина! Я слышал, ты переехала?"
+   },
+   {
+    "who": "Seraina",
+    "voice": "4yZGYlR0JpmqiCxBgPi5",
+    "de": "Ja, endlich! Letzten Samstag. Jetzt wohne ich direkt am See.",
+    "ru": "Да, наконец-то! В прошлую субботу. Теперь я живу прямо у озера."
+   },
+   {
+    "who": "Toby",
+    "voice": "eEmoQJhC4SAEQpCINUov",
+    "de": "Super! Hat dir jemand geholfen?",
+    "ru": "Супер! Тебе кто-нибудь помог?"
+   },
+   {
+    "who": "Seraina",
+    "voice": "4yZGYlR0JpmqiCxBgPi5",
+    "de": "Ja, meine Brüder sind gekommen. Wir haben den ganzen Tag Kisten getragen.",
+    "ru": "Да, пришли мои братья. Мы весь день таскали коробки."
+   },
+   {
+    "who": "Toby",
+    "voice": "eEmoQJhC4SAEQpCINUov",
+    "de": "Und hat alles geklappt?",
+    "ru": "И всё получилось?"
+   },
+   {
+    "who": "Seraina",
+    "voice": "4yZGYlR0JpmqiCxBgPi5",
+    "de": "Fast. Leider ist mein Spiegel kaputtgegangen.",
+    "ru": "Почти. К сожалению, моё зеркало разбилось.",
+    "tag": "[seufzt]"
+   },
+   {
+    "who": "Toby",
+    "voice": "eEmoQJhC4SAEQpCINUov",
+    "de": "Oh nein! Und was hast du am Abend gemacht?",
+    "ru": "Ой нет! А что ты делала вечером?"
+   },
+   {
+    "who": "Seraina",
+    "voice": "4yZGYlR0JpmqiCxBgPi5",
+    "de": "Wir haben Pizza bestellt und auf dem Balkon gegessen. Von dort sieht man den See.",
+    "ru": "Мы заказали пиццу и съели её на балконе. Оттуда видно озеро."
+   },
+   {
+    "who": "Toby",
+    "voice": "eEmoQJhC4SAEQpCINUov",
+    "de": "Klingt toll. Wann darf ich dich besuchen?",
+    "ru": "Звучит здорово. Когда можно к тебе в гости?"
+   }
+  ],
+  "qs": [
+   [
+    "Где теперь живёт Сераина?",
+    [
+     "У озера",
+     "В центре города",
+     "У своих братьев"
+    ],
+    "Jetzt wohne ich direkt <b>am See</b>."
+   ],
+   [
+    "Кто ей помогал с переездом?",
+    [
+     "Братья",
+     "Тоби",
+     "Соседи"
+    ],
+    "Ja, meine <b>Brüder</b> sind gekommen."
+   ],
+   [
+    "Что сломалось при переезде?",
+    [
+     "Зеркало",
+     "Лампа",
+     "Стол"
+    ],
+    "Leider ist mein <b>Spiegel</b> kaputtgegangen."
+   ],
+   [
+    "Где они ели пиццу?",
+    [
+     "На балконе",
+     "На кухне",
+     "В ресторане"
+    ],
+    "…und <b>auf dem Balkon</b> gegessen."
+   ]
+  ],
+  "ch": [
+   [
+    "Du ___ umgezogen?",
+    "Ты переехала?",
+    "bist",
+    "hast",
+    "umziehen (переезжать) — меняется место → <b>bist</b> umgezogen."
+   ],
+   [
+    "Meine Brüder ___ gekommen.",
+    "Пришли мои братья.",
+    "sind",
+    "haben",
+    "kommen — движение → <b>sind</b> gekommen."
+   ],
+   [
+    "Wir ___ den ganzen Tag Kisten getragen.",
+    "Мы весь день таскали коробки.",
+    "haben",
+    "sind",
+    "tragen что → <b>haben</b> getragen."
+   ],
+   [
+    "Mein Spiegel ___ kaputtgegangen.",
+    "Моё зеркало разбилось.",
+    "ist",
+    "hat",
+    "kaputtgehen — меняется состояние → <b>ist</b> kaputtgegangen."
+   ],
+   [
+    "Wir ___ Pizza bestellt.",
+    "Мы заказали пиццу.",
+    "haben",
+    "sind",
+    "bestellen что → <b>haben</b> bestellt."
+   ]
+  ],
+  "sp": [
+   [
+    "[Ich] habe [gehört]*, du bist [umgezogen]*?",
+    "Я слышал, ты переехала?",
+    "<b>ge</b>hört, um<b>ge</b>zogen."
+   ],
+   [
+    "Ja, meine [Brüder] sind [gekommen]*. Wir haben den [ganzen] Tag Kisten [getragen]*.",
+    "Да, пришли мои братья. Мы весь день таскали коробки.",
+    "<b>ge</b>kommen, <b>ge</b>tragen. Brüder — существительное, ganzen — прилагательное."
+   ],
+   [
+    "Wir haben Pizza [bestellt]* und auf dem [Balkon] [gegessen]*.",
+    "Мы заказали пиццу и съели её на балконе.",
+    "bestellen с приставкой be-, без ge: <b>bestellt</b>. <b>gegessen</b> от essen."
+   ]
+  ],
+  "speakers": {
+   "Toby": "Бавария",
+   "Seraina": "Швейцария"
+  },
+  "gloss": {
+   "grüß": "Grüß dich — привет (на юге Германии и в Австрии)",
+   "gehört": "слышал (Perfekt от hören, с haben)",
+   "umgezogen": "переехала (Perfekt от umziehen, с sein)",
+   "endlich": "наконец",
+   "letzten": "прошлый (letzten Samstag — в прошлую субботу)",
+   "direkt": "прямо",
+   "jemand": "кто-то, кто-нибудь",
+   "geholfen": "помог (Perfekt от helfen, с haben)",
+   "brüder": "братья (der Bruder)",
+   "gekommen": "пришли (Perfekt от kommen, с sein)",
+   "kisten": "коробки, ящики (die Kiste)",
+   "getragen": "таскали (Perfekt от tragen, с haben)",
+   "geklappt": "получилось (Perfekt от klappen, с haben)",
+   "kaputtgegangen": "сломалось, разбилось (Perfekt от kaputtgehen, с sein)",
+   "bestellt": "заказали (Perfekt от bestellen, с haben, без ge)",
+   "sieht": "видит (man sieht — видно)",
+   "gegessen": "съели (Perfekt от essen, с haben)",
+   "see": "озеро (der See)",
+   "spiegel": "зеркало (der Spiegel)",
+   "umzug": "переезд (der Umzug)"
+  },
+  "order": -15.1,
+  "createdAt": "2026-11-09"
+ }
+]
