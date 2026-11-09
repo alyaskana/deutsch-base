@@ -1,0 +1,80 @@
+{
+ "note": "Голоса ElevenLabs для сценок «Слушаем». Алина просила как можно более разные голоса, чтобы привыкать к акцентам (2026-11-09). В каждой сценке два разных голоса из разных мест; чередовать.",
+ "voices": [
+  {
+   "who": "Adrian",
+   "id": "X3GmkxFRIWulRy3Eaur7",
+   "from": "Германия",
+   "sex": "m",
+   "note": "основной голос приложения"
+  },
+  {
+   "who": "Lea",
+   "id": "7eVMgwCnXydb3CikjV7a",
+   "from": "Германия",
+   "sex": "f"
+  },
+  {
+   "who": "Ben",
+   "id": "aTTiK3YzK3dXETpuDE2h",
+   "from": "Германия",
+   "sex": "m"
+  },
+  {
+   "who": "Susi",
+   "id": "v3V1d2rk6528UrLKRuy8",
+   "from": "Германия",
+   "sex": "f",
+   "note": "ещё не использована"
+  },
+  {
+   "who": "Alexandra",
+   "id": "x5q1BXyLc7tegNqnOvnx",
+   "from": "Австрия",
+   "sex": "f"
+  },
+  {
+   "who": "Markus",
+   "id": "bVOjN7kZvgHpaTG6B3zK",
+   "from": "Австрия",
+   "sex": "m",
+   "note": "ещё не использован"
+  },
+  {
+   "who": "Mia",
+   "id": "rf6om1hG105SScFBBLVW",
+   "from": "Швейцария",
+   "sex": "f"
+  },
+  {
+   "who": "Seraina",
+   "id": "4yZGYlR0JpmqiCxBgPi5",
+   "from": "Швейцария",
+   "sex": "f"
+  },
+  {
+   "who": "Anna",
+   "id": "Ah5UjbC5d1A2iCl9Lbe7",
+   "from": "Бавария",
+   "sex": "f"
+  },
+  {
+   "who": "Toby",
+   "id": "eEmoQJhC4SAEQpCINUov",
+   "from": "Бавария",
+   "sex": "m"
+  },
+  {
+   "who": "Berta",
+   "id": "CoFoB7a7PXA8RBsMHbua",
+   "from": "Берлин",
+   "sex": "f"
+  },
+  {
+   "who": "Tony",
+   "id": "sbJf8opzqSGRyRJzCVjD",
+   "from": "Саксония",
+   "sex": "m"
+  }
+ ]
+}

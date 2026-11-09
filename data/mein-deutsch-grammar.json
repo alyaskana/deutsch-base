@@ -65,6 +65,16 @@
     "wg-regeln|0": ["modal-duerfen", "modal-muessen"],
     "wg-regeln|1": ["possessive-pronouns"],
     "wo-wohin|0": ["wo-wohin"],
-    "wo-wohin|1": ["wohin-nach-in-auf-zu"]
+    "wo-wohin|1": ["wohin-nach-in-auf-zu"],
+    "hoeren-hafen|2": ["perfekt"],
+    "hoeren-hafen|3": ["perfekt", "partizip2-prefixes"],
+    "hoeren-kater|2": ["perfekt"],
+    "hoeren-kater|3": ["perfekt", "partizip2-prefixes"],
+    "hoeren-wien|2": ["perfekt"],
+    "hoeren-wien|3": ["perfekt", "partizip2-prefixes"],
+    "hoeren-zu-spaet|2": ["perfekt"],
+    "hoeren-zu-spaet|3": ["perfekt", "partizip2-prefixes"],
+    "hoeren-umzug|2": ["perfekt"],
+    "hoeren-umzug|3": ["perfekt", "partizip2-prefixes"]
   }
 }
