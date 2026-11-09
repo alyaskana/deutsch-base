@@ -70,6 +70,9 @@ rep("\nshowHome();\nconnect();\n","\ninitTabs();\nshowHome();\nconnect();\n")
 # кнопка звуков ответов переехала с главной в «Итоги»
 rep('<div class="shead"><h1>Итоги недели</h1><span>${rng}</span></div>','<div class="shead"><h1>Итоги недели</h1><span>${rng}</span>${sndToggle()}</div>')
 
+# ---------- 2c. «Как сказать» разговором ----------
+M='/* ---------- lesson intro ---------- */\nfunction showIntro';i=s.index(M);s=s[:i]+open(__file__.replace('apply.py','say.js')).read()+'\n'+s[i:]
+
 # ---------- 3. Стили ----------
 CSS=open(__file__.replace('apply.py','milk.css')).read()
 i=s.rindex('\n<script>')

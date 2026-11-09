@@ -61,7 +61,7 @@ function showHome(){
     </div></div>`;
   app.querySelectorAll('.bigrow').forEach(b=>b.onclick=()=>showBig(S.lessons.find(l=>l.id===b.dataset.big)));
   $('go-stats').onclick=showStats;
-  $('hsay').onsubmit=e=>{e.preventDefault();const q=$('hq').value.trim();if(q.length<2)return;VV='home';VQ=q;showVocab();drawVSay(q,!app.querySelector('.wlist'),true);window.scrollTo(0,0)};
+  $('hsay').onsubmit=e=>{e.preventDefault();const q=$('hq').value.trim();if(q.length<2)return showSay();sayRun(q)};
   if($('go-review'))$('go-review').onclick=()=>startReview(dueCards(15),{title:'Повторение'});
   const st=S.lessons?planSteps():[];
   app.querySelectorAll('.mplan [data-step]').forEach(b=>b.onclick=()=>{const s=st[+b.dataset.step];if(s&&!(s.done&&s.k!=='lesson'))s.go()});
