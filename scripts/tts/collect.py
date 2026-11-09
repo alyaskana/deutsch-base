@@ -50,9 +50,13 @@ for f in sorted(glob.glob(DB+'/lessons/*.json')):
     lid=f.split('/')[-1][:-5]
     if lid.startswith('_'):continue
     l=json.load(open(f));g=[]
+    for st in stages(l):  # диктант первым: та же фраза в другом этапе не должна забрать её себе с обычным голосом
+        if st.get('type')=='dict':
+            for it in st.get('items') or []:
+                if isinstance(it,dict):add(g,sent_de(it,st),'k')
     for st in stages(l):
         for it in st.get('items') or []:
-            if isinstance(it,dict) and (it.get('tr') or it.get('trf')):add(g,sent_de(it,st),'s')
+            if isinstance(it,dict) and (it.get('tr') or it.get('trf')):add(g,sent_de(it,st),'k' if st.get('type')=='dict' else 's')  # k = диктант: разные голоса
             if isinstance(it,dict) and st.get('type')=='chat':  # page voices the partner line on show and only the reply after an answer
                 add(g,it.get('l',''),'s');add(g,(it.get('y') or '').replace('___',str(first(it.get('a')) or ''),1),'s')
     for vg in l.get('vocab') or []:
