@@ -48,6 +48,8 @@ for f in sorted(glob.glob(DB+'/lessons/*.json')):
     for st in stages(l):
         for it in st.get('items') or []:
             if isinstance(it,dict) and (it.get('tr') or it.get('trf')):add(g,sent_de(it,st),'s')
+            if isinstance(it,dict) and st.get('type')=='chat':  # page voices the partner line on show and only the reply after an answer
+                add(g,it.get('l',''),'s');add(g,(it.get('y') or '').replace('___',str(first(it.get('a')) or ''),1),'s')
     for vg in l.get('vocab') or []:
         for w in vg.get('w') or []:
             if w and isinstance(w[0],str):add(g,w[0],'w')
