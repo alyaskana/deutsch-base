@@ -464,3 +464,53 @@ body.sea .dock:not(.fb){background:none}
 .mles b em{font-style:normal}
 .mles.pk-words b,.mles.pk-warm b{font-family:var(--body);font-weight:900;font-size:28px}
 .mles.pk-warm small{margin-top:4px;font-size:14px;opacity:.8}
+
+/* ---------- v98: десктоп (от 1000px) ---------- */
+@media (min-width:1000px){
+  /* разделы столбиком слева */
+  body.tb{padding-left:112px}
+  #tabs{left:20px;right:auto;top:0;bottom:0;padding:0;display:flex!important;align-items:center}
+  #tabs[hidden]{display:none!important}
+  #tabs .in{width:88px;max-width:none;grid-template-columns:1fr;gap:6px;padding:10px 8px;border-radius:32px}
+  #tabs button{min-height:68px;font-size:12px}
+  #tabs button[aria-current]{background:#F4EFE8}
+  body.tb .app{padding-bottom:48px}
+  /* главная */
+  .app:has(>.hgrid){max-width:1120px}
+  .hgrid{grid-template-columns:minmax(0,440px) minmax(0,1fr);gap:36px}
+  .hgrid .mgames{display:grid;grid-template-columns:1fr 1fr}
+  .hgrid .mgame{min-height:132px}
+  .hgrid .mgame.wd{flex-direction:column;align-items:flex-start;justify-content:space-between}
+  .hgrid .hr>.section:first-child{padding-top:0}
+  /* уроки: мозаика в четыре колонки, широкая плитка то слева, то справа */
+  .app:has(>.mmos){max-width:1120px}
+  .mmos{grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-flow:dense;gap:14px}
+  .mmos .mt.wide{grid-column:span 2;height:190px}
+  .mmos .mt.wide:nth-child(6n+4){grid-column:3/5}
+  .mkinds{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .app:has(>.mmos) .vlns{max-width:540px}
+  /* слова: слева поиск и повторение, справа темы */
+  .app:has(.vtopics){max-width:1120px;display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);grid-template-rows:auto auto auto auto 1fr;column-gap:36px;align-content:start}
+  .app:has(.vtopics)>*,.app:has(.vtopics) #vbody>*{grid-column:1}
+  .app:has(.vtopics) #vbody>.msec{grid-column:2;grid-row:1;align-self:end}
+  .app:has(.vtopics) #vbody>.vtopics{grid-column:2;grid-row:2/span 4;grid-template-columns:repeat(4,minmax(0,1fr));align-content:start}
+  .app:has(.vtopics) .vtop.wide{grid-column:span 2}
+  .app:has(.vtopics) .vtop:not(.wide){min-height:124px}
+  /* итоги */
+  .app:has(>.swk){max-width:1040px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);column-gap:20px;align-content:start}
+  .app:has(>.swk)>.shead{grid-column:1/-1}
+  .app:has(>.swk)>.swk{grid-column:1;grid-row:2/span 2;margin-bottom:0}
+  .app:has(>.swk)>.sduo2,.app:has(>.swk)>.swr{grid-column:2}
+  /* цели и грамматика в две колонки */
+  .app:has(>.glist),.app:has(>.gql){max-width:1000px}
+  .glist,.gql{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .app:has(>.wk3){max-width:860px}
+}
+@media (min-width:1000px){.app:has(.vtopics) .vtop:not(.wide) b{font-size:15px}}
+@media (min-width:1000px) and (max-width:1199px){
+  .hgrid{grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:24px}
+  .hgrid .mgames{grid-template-columns:1fr}.hgrid .mgame{min-height:92px}.hgrid .mgame.wd{flex-direction:row;align-items:center}
+  .app:has(.vtopics){grid-template-columns:minmax(0,360px) minmax(0,1fr);column-gap:24px}
+  .app:has(.vtopics) #vbody>.vtopics{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .app:has(.vtopics) .vtop.wide{grid-column:1/-1}
+}
