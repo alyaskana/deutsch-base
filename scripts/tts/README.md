@@ -10,16 +10,18 @@
 
 `hash` — `ahash(akey(текст))` из `akey.py`, такой же код в страницах (`akey`, `ahash`). Страница ищет клип по тексту, который озвучивает; нет клипа — в «Mein Deutsch» читает системный голос, в Artikelregen молчит.
 
-## Как озвучить новое (порядок для задачи «Пополнение в Mein Deutsch»)
+## Как озвучить новое (порядок для ежедневной задачи «Озвучка в Mein Deutsch»)
+
+С 2026-11-10 озвучку делает отдельная задача «Озвучка в Mein Deutsch» (7:23 Europe/Berlin, каждый запуск в новой сессии в среде Default, где сервисы озвучки разрешены). В «Пополнении» шага озвучки больше нет: его постоянная сессия создана в старой среде, и сервис озвучки отвечал там 403.
 
 1. ArtifactData «Mein Deutsch» (https://claude.ai/artifact/EF22N3Wk3vb8Fdau9keTS7): `list` коллекции `lessons` и `get` документа `progress` в коллекции `data/users/me` с `out_dir=<dir>/db`; `get` `audio/_index` с `out_dir=<dir>/idx` (документа нет — начни с `{"m":{}}`).
 2. `python3 scripts/tts/collect.py <dir>/db <dir>/texts.json`
 3. `python3 -c` или вручную: из `_index.json` взять `m` в `<dir>/have.json`.
    `python3 scripts/tts/gen.py <dir>/texts.json <dir>/clips --have <dir>/have.json --report <dir>/report.json`
-4. Проверка (редактор-носитель): в `report.json` клипы, где распознавание услышало не то. Отдельные слова распознаются хуже, там это часто шум. Предложения и всё, где услышано другое слово, переслушать по смыслу: если слово действительно произнесено неверно, удалить mp3 и сгенерировать снова; не выходит — убрать текст из `texts.json` (останется системный голос). Несуществующие формы, которые стоят в уроках как неверные варианты (например, ziehte, begonn в drei-formen), не озвучивать: убрать их из `texts.json`.
+4. Проверка (редактор-носитель): в `report.json` клипы, где распознавание услышало не то. Отдельные слова распознаются хуже, там это часто шум. Предложения и всё, где услышано другое слово, переслушать по смыслу: если слово действительно произнесено неверно, удалить mp3 и сгенерировать снова; не выходит — убрать текст из `texts.json` (останется системный голос). Для упрямых клипов есть `fix.py <report.json> <clips> <flagged.json>`: второй распознаватель и до двух новых дублей. Короткие слова, междометия и имена (Oje, Seraina) распознаются плохо, расхождение там обычно шум. Несуществующие формы, которые стоят в уроках как неверные варианты (например, ziehte, begonn в drei-formen), не озвучивать: убрать их из `texts.json`.
 5. `TTS_VOICE=marin python3 scripts/tts/pack.py <dir>/texts.json <dir>/clips <dir>/out --index <dir>/idx/audio/_index.json`
 6. Записать в коллекцию `audio` все новые `out/<группа>.<n>.json` (batch, `set`, новые документы без if_version) и затем `out/_index.json` в `_index` (`set` с if_version, если документ был).
-7. «Artikelregen» (https://claude.ai/artifact/YQinY1gBWqetVFHmACmRVm): то же с `collect_ar.py` по коллекции `extra_words` и своим `audio/_index`.
+7. «Artikelregen» (https://claude.ai/artifact/YQinY1gBWqetVFHmACmRVm): то же с `collect_ar.py` по коллекции `extra_words` и своим `audio/_index`. `collect_ar.py` получает саму папку с документами (`<out_dir>/extra_words`), а не `out_dir`.
 
 Ничего не озвучилось нового — ничего не писать.
 
