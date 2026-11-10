@@ -6,7 +6,9 @@
 //   2. каждый тип задания отвечает на ответ: в каждом типе, где есть ответы, звучит звук;
 //   3. урок доходит до финала, прогресс записывается в базу (data/users/me/progress);
 //   4. поля ввода (словарик, «Как сказать», поиск глаголов): быстрый набор
-//      не пересоздаёт поле и не шлёт запрос на каждую букву.
+//      не пересоздаёт поле и не шлёт запрос на каждую букву;
+//   5. тренировка слов: звук прошлого слова не играет на новом экране,
+//      после верного ответа всегда плашка с переводом.
 // Выход 1, если есть хоть одна проблема.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -198,6 +200,56 @@ for (const [t, v] of Object.entries(perType)) {
     }
   }
   for (const e of [...new Set(errs)]) bad(`игры: ошибка JS: ${e}`);
+  await page.close();
+}
+
+// Тренировка слов: звук прошлого слова не звучит на новом экране, после верного ответа всегда плашка с переводом.
+// Баг дошёл до Алины 2026-11-10: звук грузился дольше, чем она нажимала «Дальше», и играл уже поверх следующего слова.
+{
+  const { page, errs } = await open();
+  const has = await page.evaluate(() => typeof startReview === 'function' && typeof vocabSpec === 'function' && typeof aplay === 'function' && typeof adoc === 'function');
+  if (!has) console.log('  · тренировка слов: на странице нет, пропуск');
+  else {
+    const words = await page.evaluate(() => {
+      // звук каждого слова «грузится» 700 мс, как при медленной сети
+      window.__late = []; window.__req = {};
+      AIDX = new Proxy({}, { get: (_, h) => h }); aindex = () => Promise.resolve(AIDX);
+      adoc = h => new Promise(r => setTimeout(() => { AURL[h] = 'data:audio/mpeg;base64,AAAA#' + h; r(true); }, 700));
+      const say0 = say; say = function (t, slow) { __req[ahash(akey(t))] = { t, task: document.querySelector('.task') }; return say0(t, slow); };
+      const ap0 = aplay; aplay = function (url, slow, fail) { const q = __req[url.split('#')[1]]; if (q && q.task !== document.querySelector('.task')) __late.push(q.t); return ap0(url, slow, () => {}); };
+      const L = []; (S.lessons || []).forEach(l => (l.vocab || []).forEach(g => (g.w || []).forEach(w => { if (w[0] && w[1] && L.length < 5 && !L.some(x => x.de === w[0])) L.push({ de: plainTxt(w[0]), ru: splitRu(plainTxt(w[1]))[0] }); })));
+      const st = { title: 'Словарик', shape: 'cloud', color: '#5D7F95' };
+      // первые карточки «выбери перевод», последние «выбери слово» (box 2)
+      startReview(L.map((x, k) => ({ id: 'v|b:smoke' + k, t: 'vocab', item: { ...x, note: '', ex: '' }, st, skill: 'Словарик', box: k < 3 ? 0 : 2, lapses: 0, due: 0 })), { title: 'Слова дня' });
+      return L;
+    });
+    await page.waitForTimeout(200);
+    if (!(await page.$('.task')) && (await page.$('#dbtn'))) { await page.click('#dbtn'); await page.waitForTimeout(200); }
+    let shown = 0, noFb = 0, noTr = 0;
+    for (let k = 0; k < words.length && (await page.$('.task .opt')); k++) {
+      const ok = await page.evaluate(W => {
+        const opts = [...document.querySelectorAll('.task .opt')], q = document.querySelector('.task .bubble').textContent;
+        const w = W.find(x => opts.some(o => o.dataset.o === x.ru) && q.includes(x.de.replace(/^(der|die|das) /, ''))) || W.find(x => opts.some(o => o.dataset.o === x.de) && q.includes(x.ru));
+        if (!w) return false; const b = opts.find(o => o.dataset.o === w.ru && q.includes(w.de.replace(/^(der|die|das) /, ''))) || opts.find(o => o.dataset.o === w.de);
+        b.click(); return true;
+      }, words);
+      if (!ok) break; shown++;
+      await page.waitForTimeout(350);
+      const fb = await page.evaluate(() => { const d = document.getElementById('dock'); return { ok: d.classList.contains('fb') && d.classList.contains('ok') && !!document.getElementById('dbtn'), tr: !!d.querySelector('.vtrn') }; });
+      if (!fb.ok) noFb++; else if (!fb.tr) noTr++;
+      // «Дальше» раньше, чем звук успел загрузиться
+      await page.evaluate(() => document.getElementById('dbtn')?.click());
+      await page.waitForTimeout(150);
+    }
+    await page.waitForTimeout(1200);
+    const late = await page.evaluate(() => __late);
+    if (shown < 3) bad(`тренировка слов: показано только ${shown} карточек из ${words.length}`);
+    if (noFb) bad(`тренировка слов: после ${noFb} верных ответов нет плашки «Верно» с кнопкой «Дальше»`);
+    if (noTr) bad(`тренировка слов: в ${noTr} плашках после верного ответа нет перевода (плашки должны быть одинаковыми)`);
+    if (late.length) bad(`тренировка слов: звук прошлого слова играет на новом экране (${late.slice(0, 3).join(', ')})`);
+    console.log(`  ${shown >= 3 && !noFb && !noTr && !late.length ? '✓' : '✗'} тренировка слов: звук и плашка`);
+  }
+  for (const e of [...new Set(errs)]) bad(`тренировка слов: ошибка JS: ${e}`);
   await page.close();
 }
 
