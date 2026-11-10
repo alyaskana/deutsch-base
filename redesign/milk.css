@@ -467,13 +467,16 @@ body.sea .dock:not(.fb){background:none}
 
 /* ---------- v98: десктоп (от 1000px) ---------- */
 @media (min-width:1000px){
-  /* разделы столбиком слева */
-  body.tb{padding-left:112px}
-  #tabs{left:20px;right:auto;top:0;bottom:0;padding:0;display:flex!important;align-items:center}
+  /* разделы обычной шапкой сайта сверху */
+  body.tb{padding-top:68px}
+  #tabs{left:0;right:0;top:0;bottom:auto;padding:0 max(24px,env(safe-area-inset-right,0px)) 0 max(24px,env(safe-area-inset-left,0px));pointer-events:auto;background:rgba(244,239,232,.92);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 1px 0 #E6DFD3;display:block!important}
   #tabs[hidden]{display:none!important}
-  #tabs .in{width:88px;max-width:none;grid-template-columns:1fr;gap:6px;padding:10px 8px;border-radius:32px}
-  #tabs button{min-height:68px;font-size:12px}
-  #tabs button[aria-current]{background:#F4EFE8}
+  #tabs .in{max-width:1088px;height:68px;display:flex;align-items:center;gap:6px;background:none;box-shadow:none;border-radius:0;padding:0}
+  #tabs .in:before{content:"Mein Deutsch";font-family:var(--display);font-weight:600;font-size:21px;color:#2B2440;margin-right:auto}
+  #tabs button{flex-direction:row;gap:8px;min-height:44px;padding:0 16px;font-size:15px;border-radius:999px}
+  #tabs button svg{width:22px;height:22px}
+  #tabs button:hover{color:#2B2440}
+  #tabs button[aria-current]{background:#fff;box-shadow:0 2px 0 #E0D8CC}
   body.tb .app{padding-bottom:48px}
   /* главная */
   .app:has(>.hgrid){max-width:1120px}
