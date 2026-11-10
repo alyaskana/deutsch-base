@@ -306,6 +306,10 @@ body.tb .app>.back{display:none}
 .vtop.wide{height:124px;border-radius:30px;padding:16px 18px 14px}
 .vtop.wide b{font-size:22px}.vtop.wide em{font-size:40px;color:#0E8D7A}
 .vtop.wide>svg{right:0;bottom:0;width:170px;height:124px}
+.vtop em small{font-size:.62em;font-weight:600;opacity:.6}
+.vtop .tbar{position:static;height:6px;border-radius:6px;margin:6px 0 2px;width:calc(100% - 50px);background:rgba(43,36,64,.12);flex:none}
+.vtop.wide .tbar{width:46%;max-width:180px;background:var(--soft)}
+.vtop.wide em small{color:#2B2440}
 .stop .scnt{margin-left:auto;font-style:normal;font-family:var(--display);font-weight:600;font-size:24px;color:#2B2440;padding-right:4px}
 .msec.s{font-size:18px;font-weight:600;margin:18px 4px 10px}
 #vbody .wlist{background:none;box-shadow:none;padding:0;gap:6px;border-radius:0}
@@ -538,12 +542,11 @@ body.sea .dock:not(.fb){background:none}
 .sduo2 .swr .mm{right:14px;top:auto;bottom:12px;width:64px;height:64px;transform:none}
 .sgoals .msec:first-child{margin-top:10px}
 .sduo2 .swr{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start}.sduo2 .swr b{max-width:120px}
-.vtop em small{font-family:var(--body);font-weight:800;font-size:12px;color:#6E6888}
 .vtop:not(.wide){padding-bottom:22px}
-.vtop .tbar{position:absolute;left:12px;right:56px;bottom:11px;height:5px;margin:0;background:rgba(43,36,64,.12);border-radius:5px}
+.vtop .tbar{position:absolute;left:12px;right:56px;bottom:11px;width:auto;height:5px;margin:0;background:rgba(43,36,64,.12);border-radius:5px}
 .vtop .tbar i.k{background:#0E8A5E;border-radius:5px}
-.vtop.wide{padding-bottom:26px}.vtop.wide em small{font-size:15px}
-.vtop.wide .tbar{left:18px;right:190px;bottom:14px;height:6px}
-.vtop:not(.wide) em{font-size:20px;white-space:nowrap}.vtop:not(.wide) em small{font-size:11px;margin-left:1px}
+.vtop.wide{padding-bottom:26px}
+.vtop.wide .tbar{left:18px;right:190px;bottom:14px;height:6px;max-width:none}
+.vtop:not(.wide) em{font-size:20px;white-space:nowrap}.vtop:not(.wide) em small{font-size:11px;margin-left:1px;letter-spacing:-.02em}
 .vtop:not(.wide)>svg{width:34px;height:34px;right:8px;bottom:12px}
 .vtop:not(.wide) .tbar{right:50px}
