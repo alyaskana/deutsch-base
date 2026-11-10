@@ -1,6 +1,6 @@
 {
   "mein_deutsch": {
-    "last_sync": "2026-11-09",
+    "last_sync": "2026-11-10",
     "synced_runs": {
       "meer-museum": 1,
       "mein-alltag": 1,
@@ -15,11 +15,13 @@
       "wo-wohin": 1,
       "an-nichts-denken": 1,
       "segeln-griechenland~bilder": 1,
-      "possessiv-1": 1
+      "possessiv-1": 1,
+      "possessiv-2": 1,
+      "possessiv-3": 1
     }
   },
   "artikelregen": {
-    "last_sync": "2026-11-09",
+    "last_sync": "2026-11-10",
     "stats_snapshot": {
       "Anrufbeantworter": {
         "bad": 0,
@@ -214,7 +216,7 @@
     }
   },
   "hausaufgaben": {
-    "last_sync": "2026-11-09",
+    "last_sync": "2026-11-10",
     "note": "новые сдачи определяются по review.at < at в коллекции hw"
   }
 }

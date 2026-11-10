@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-11-09",
+  "generated_for": "2026-11-10",
   "rules": {
     "window_days": 21,
     "stuck": {
@@ -13,8 +13,8 @@
   },
   "summary": {
     "grammar": {
-      "stuck": 9,
-      "learning": 30,
+      "stuck": 10,
+      "learning": 29,
       "solid": 0,
       "new": 11,
       "planned": 8
@@ -214,14 +214,15 @@
       "title_ru": "Управление глаголов (Akk / Dat)",
       "level": "A1",
       "covered_with_tutor": true,
-      "status": "learning",
+      "status": "stuck",
+      "reason": "3 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 0,
-        "error": 4,
+        "error": 6,
         "struggle": 0,
         "flagged": 0
       },
-      "last_date": "2026-11-07",
+      "last_date": "2026-11-09",
       "last_result": "error"
     },
     {
@@ -282,10 +283,10 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "5 ошибок/затруднений за 21 дн.",
+      "reason": "10 ошибок/затруднений за 21 дн.",
       "counts": {
-        "correct": 2,
-        "error": 19,
+        "correct": 4,
+        "error": 24,
         "struggle": 1,
         "flagged": 1
       },
@@ -474,12 +475,12 @@
       "reason": "отмечено репетитором, после этого верных: 1 из 3",
       "counts": {
         "correct": 2,
-        "error": 0,
+        "error": 1,
         "struggle": 2,
         "flagged": 1
       },
-      "last_date": "2026-11-04",
-      "last_result": "correct"
+      "last_date": "2026-11-09",
+      "last_result": "error"
     },
     {
       "id": "liegen-legen",
