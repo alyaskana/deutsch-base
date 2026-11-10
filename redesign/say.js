@@ -1,5 +1,5 @@
 /* ---------- v79: «Как сказать» разговором: её сообщение, ответ карточкой от маскота, поле внизу ---------- */
-let SAYLOG=[],SAYBACK=()=>showHome();
+let ASKBACK=false,SAYLOG=[],SAYBACK=()=>showHome();
 const ICON_CLOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>';
 /* одно поле: тьютор сам различает «как сказать слово или фразу» и вопрос о языке */
 async function askAny(q){
@@ -46,7 +46,7 @@ function sayItem(it,i){
   return `<div class="sq"><span>${esc(it.q)}</span></div><div class="sans"><span class="sava">${mascot('flower','violet','happy')}</span>${body}</div>`;
 }
 function showSay(stay){
-  if(view==='vocab')SAYBACK=()=>{VV='home';VQ='';showVocab()};else if(view==='home')SAYBACK=()=>showHome();
+  if(view==='vocab'&&VV!=='asked')SAYBACK=()=>{VV='home';VQ='';showVocab()};else if(view==='home')SAYBACK=()=>showHome();
   view='say';lesson=null;stopTimers();clearInterval(clockTimer);document.body.classList.remove('sea');
   const recent=askHist().slice(0,4);
   app.innerHTML=`<div class="stop"><button class="x" id="sback" aria-label="Назад">${BACK_SVG}</button><h1>Как сказать</h1><button class="x" id="shist" aria-label="Что я спрашивала">${ICON_CLOCK}</button></div>
@@ -54,7 +54,7 @@ function showSay(stay){
     <div style="height:96px" aria-hidden="true"></div>`;
   dock(`<form class="msay" id="sform"><input id="sq" type="text" enterkeyhint="send" placeholder="Слово, фраза или вопрос" aria-label="Слово, фраза или вопрос" autocomplete="off" autocapitalize="off" spellcheck="false"><button type="submit" aria-label="Спросить">${ICON_SEND}</button></form>`);
   $('sback').onclick=()=>SAYBACK();
-  $('shist').onclick=()=>{VV='asked';VQ='';showVocab();window.scrollTo(0,0)};
+  $('shist').onclick=()=>{VV='asked';VQ='';ASKBACK=true;showVocab();window.scrollTo(0,0)};
   $('sform').onsubmit=e=>{e.preventDefault();const q=$('sq').value;$('sq').value='';sayRun(q)};
   app.querySelectorAll('.srecent button').forEach(b=>b.onclick=()=>sayRun(b.dataset.q));
   app.querySelectorAll('.sspk').forEach(b=>b.onclick=()=>say(b.dataset.say));

@@ -71,11 +71,13 @@ rep("\nshowHome();\nconnect();\n","\ninitTabs();\nshowHome();\nconnect();\n")
 rep('<div class="shead"><h1>Итоги недели</h1><span>${rng}</span></div>','<div class="shead"><h1>Итоги недели</h1><span>${rng}</span>${sndToggle()}</div>')
 
 # ---------- 2c. «Как сказать» разговором ----------
-M='/* ---------- lesson intro ---------- */\nfunction showIntro';i=s.index(M);s=s[:i]+open(__file__.replace('apply.py','say.js')).read()+'\n'+s[i:]
+M='/* ---------- lesson intro ---------- */\nfunction showIntro';i=s.index(M);s=s[:i]+open(__file__.replace('apply.py','art.js')).read()+'\n'+open(__file__.replace('apply.py','say.js')).read()+'\n'+s[i:]
 
 import importlib.util as _u
 _sp=_u.spec_from_file_location('vocab',__file__.replace('apply.py','vocab.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
 _sp=_u.spec_from_file_location('stats',__file__.replace('apply.py','stats.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
+_sp=_u.spec_from_file_location('gram',__file__.replace('apply.py','gram.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
+_sp=_u.spec_from_file_location('read',__file__.replace('apply.py','read.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
 
 # ---------- 3. Стили ----------
 CSS=open(__file__.replace('apply.py','milk.css')).read()

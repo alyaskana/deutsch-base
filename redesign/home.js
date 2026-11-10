@@ -8,14 +8,14 @@ const TAB_ICONS={
   stats:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="11" width="4.4" height="9" rx="2.2" fill="currentColor"/><rect x="9.8" y="4" width="4.4" height="16" rx="2.2" fill="currentColor"/><rect x="15.6" y="8" width="4.4" height="12" rx="2.2" fill="currentColor"/></svg>'};
 const TABS=[['home','Сегодня'],['lessons','Уроки'],['vocab','Слова'],['stats','Итоги']];
 let tabsEl=null;
-function tabKey(){return view==='home'?'home':view==='lessons'?'lessons':view==='vocab'&&VV==='home'?'vocab':view==='stats'?'stats':''}
+function tabKey(){return view==='home'?'home':view==='lessons'?'lessons':view==='vocab'?'vocab':['stats','week','goals'].includes(view)?'stats':''}
 function syncTabs(){
   if(!tabsEl)return;const k=tabKey();document.body.classList.toggle('tb',!!k);tabsEl.hidden=!k;if(!k)return;
   tabsEl.innerHTML=`<div class="in">${TABS.map(([t,n])=>`<button data-t="${t}"${t===k?' aria-current="page"':''}>${TAB_ICONS[t]}<span>${n}</span></button>`).join('')}</div>`;
 }
 function initTabs(){
   tabsEl=document.createElement('nav');tabsEl.id='tabs';tabsEl.hidden=true;tabsEl.setAttribute('aria-label','Разделы');document.body.appendChild(tabsEl);
-  tabsEl.onclick=e=>{const b=e.target.closest('button');if(!b||b.hasAttribute('aria-current'))return;
+  tabsEl.onclick=e=>{const b=e.target.closest('button');if(!b)return;
     ({home:showHome,lessons:showLessons,vocab:()=>{VV='home';VQ='';showVocab();window.scrollTo(0,0)},stats:showStats})[b.dataset.t]()};
   new MutationObserver(syncTabs).observe(app,{childList:true});
 }
@@ -25,11 +25,19 @@ const CHECK_SVG='<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stro
 function planRow(s,i){
   const l=s.k==='lesson'?(s.done?findLesson((lessonDoneToday()||{}).lesson):(quickLong()||{}).l):null;
   if(s.done)return `<button class="mrow ok" data-step="${i}"><i>${CHECK_SVG}</i><b>${esc(s.k==='lesson'?s.title:s.kick)}</b>${s.k==='lesson'&&s.sub?`<span>${esc(s.sub)}</span>`:''}</button>`;
-  if(s.k==='lesson'){const K=KIND_TILE[l?lessonKind(l).k:'gram'],st=l&&l.stages[0];
-    return `<button class="mles" data-step="${i}" style="--bg:${K[0]};--lip:${K[1]};--ink:${K[2]}"><small>${esc(s.kick)}</small><b>${esc(s.title)}</b><span class="lart">${st&&st.pic?ill(st.pic):mascot(s.shape,l?col(st.color):'#7444E6','happy',true)}</span><span class="go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 5.500v13l11-6.500z" fill="currentColor"/></svg></span></button>`}
+  if(s.k==='lesson'){const K=l?TILE_PAL[tileIdx(l)]:TILE_PAL[0];
+    return `<button class="mles" data-step="${i}" style="--bg:${K[0]};--lip:${K[1]};--ink:${K[2]}"><b>${esc(s.title)}</b><span class="lart">${l?lessonArt(l):''}</span><span class="go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 5.500v13l11-6.500z" fill="currentColor"/></svg></span></button>`}
   const n=parseInt(s.title)||0;
   return `<button class="mrow" data-step="${i}"><b>${s.k==='words'?`<em>${n}</em> ${plural(n,'слово','слова','слов')}`:esc(s.kick)}</b>${s.k==='warm'?`<span>${esc(s.title)}</span>`:''}<i class="pic ${s.k}"></i></button>`;
 }
+/* большой урок плиткой-сценой: название, стрелка, полоска глав */
+function mbig(l){
+  const s=bigState(l),N=l.chapters.length,cur=s.cur?s.cur.i:-1;
+  return `<button class="mbig" data-big="${esc(l.id)}"><svg viewBox="0 0 360 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="360" height="170" fill="#C9F1EA"/><circle cx="318" cy="40" r="20" fill="#FFB21E"/><path d="M0 96Q40 60 96 92T190 86V110H0z" fill="#B9A3F0"/><rect y="100" width="360" height="70" fill="#16BFA6"/><g fill="none" stroke="#7BE3D3" stroke-width="4" stroke-linecap="round"><path d="M110 152q10-8 20 0t20 0"/><path d="M250 138q10-8 20 0t20 0"/><path d="M300 112q8-6 16 0t16 0"/></g><g transform="translate(196 28)"><rect x="29" y="0" width="4" height="80" rx="2" fill="#3A2A6B"/><path d="M27 6L27 70L-6 70z" fill="#fff"/><path d="M36 2L36 70L78 70z" fill="#E8553D"/><path d="M-14 76H86q-8 22-30 22H12q-20 0-26-22z" fill="#7A4630"/><g fill="#FBE9C6"><circle cx="20" cy="86" r="3"/><circle cx="34" cy="86" r="3"/><circle cx="48" cy="86" r="3"/></g></g></svg>
+    <b>${esc(l.title)}</b><span class="arr">${ICON_ARROW}</span><span class="segs" role="img" aria-label="Пройдено ${s.doneN} из ${N}">${l.chapters.map((c,i)=>`<i class="${i===cur?'cur':P_done(l,c)?'on':''}"></i>`).join('')}</span></button>`;
+}
+function P_done(big,c){return !!S.progress.lessons[chId(big,c)]}
+const ICON_ARROW='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 function planList(){
   if(!S.lessons)return `<div class="skel" style="height:300px;border-radius:32px"></div>`;
   const st=planSteps();if(!st.length)return '';
@@ -57,9 +65,9 @@ function showHome(){
       ${planList()}${empty}
     </div><div class="hcol hr">
       ${S.lessons?`<div class="section"><h3>Пять минут</h3></div><div class="mgames">${gamesTiles()}</div>`:''}
-      ${BIG.length?`<div class="section"><h3>${BIG.length>1?'Большие уроки':'Большой урок'}</h3></div><div class="bigs">${BIG.map(bigRow).join('')}</div>`:''}
+      ${BIG.length?`<div class="section"><h3>${BIG.length>1?'Большие уроки':'Большой урок'}</h3></div><div class="bigs">${BIG.map(mbig).join('')}</div>`:''}
     </div></div>`;
-  app.querySelectorAll('.bigrow').forEach(b=>b.onclick=()=>showBig(S.lessons.find(l=>l.id===b.dataset.big)));
+  app.querySelectorAll('.mbig').forEach(b=>b.onclick=()=>showBig(S.lessons.find(l=>l.id===b.dataset.big)));
   $('go-stats').onclick=showStats;
   $('hsay').onsubmit=e=>{e.preventDefault();const q=$('hq').value.trim();if(q.length<2)return showSay();sayRun(q)};
   if($('go-review'))$('go-review').onclick=()=>startReview(dueCards(15),{title:'Повторение'});
@@ -68,23 +76,61 @@ function showHome(){
   if($('pmore'))$('pmore').onclick=()=>{const f=focusLesson(true),r=f?{l:f.l}:recommend();if(r)showIntro(r.l)};
   window.scrollTo(0,0);
 }
-/* «Уроки»: новые, повторить кружками, сериал, грамматика и три формы, большие уроки */
+/* «Уроки»: вкладки Новые / Повторить / Все, мозаика плиток с картинками, «По видам», повторить кружками */
+let LTAB='new';
+const KIND_ICON={
+  gram:'<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="6" width="16" height="16" rx="5" fill="#7444E6"/><rect x="26" y="6" width="16" height="16" rx="5" fill="#FFCB45"/><rect x="6" y="26" width="16" height="16" rx="5" fill="#16BFA6"/><rect x="26" y="26" width="16" height="16" rx="5" fill="#FF77B4"/></svg>',
+  read:'<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 10q9-4 18 2v28q-9-6-18-2z" fill="#8FD0F7"/><path d="M42 10q-9-4-18 2v28q9-6 18-2z" fill="#4DB6F2"/></svg>',
+  hear:'<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 28v-4a16 16 0 0 1 32 0v4" fill="none" stroke="#3A2A6B" stroke-width="4" stroke-linecap="round"/><rect x="5" y="26" width="10" height="16" rx="5" fill="#16BFA6"/><rect x="33" y="26" width="10" height="16" rx="5" fill="#16BFA6"/></svg>',
+  write:'<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="6" width="28" height="36" rx="6" fill="#FFE08A"/><path d="M14 16h16M14 24h16M14 32h9" stroke="#C27B0C" stroke-width="3" stroke-linecap="round"/><path d="M30 40l12-14l4 4l-12 14l-6 2z" fill="#E8553D"/></svg>',
+  talk:'<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 12a6 6 0 0 1 6-6h18a6 6 0 0 1 6 6v10a6 6 0 0 1-6 6h-12l-8 7v-7a6 6 0 0 1-4-6z" fill="#FF77B4"/><path d="M22 32h14a6 6 0 0 0 6-6v-6" fill="none" stroke="#B02A70" stroke-width="4" stroke-linecap="round"/></svg>',
+  story:'<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="22" y="4" width="3" height="30" rx="1.500" fill="#3A2A6B"/><path d="M20 8v24h-14z" fill="#B79CF6"/><path d="M27 6v26h16z" fill="#E8553D"/><path d="M4 36h40q-4 9-13 9h-14q-9 0-13-9z" fill="#7A4630"/></svg>'};
+const KIND_NAME={gram:'Грамматика',read:'Чтение',hear:'На слух',write:'Письмо',talk:'Разговор',story:'Истории'};
+function lessonCats(l){const has=t=>l.stages.some(s=>s.type===t),k=lessonKind(l).k,o=[];
+  if(k==='hear'||has('listen'))o.push('hear');if(k==='read'||has('read'))o.push('read');if(has('write'))o.push('write');if(has('chat')||has('scene'))o.push('talk');if(k==='gram'||k==='tutor')o.push('gram');return o}
+const TILE_PAL=[['#FFE08A','#D9A52A','#2B2440'],['#8FD0F7','#5FAEDD','#1F1640'],['#FFC9DF','#F09CC2','#7A1848'],['#A9E8DC','#62C6B5','#12443C'],['#FFC98A','#E59A45','#2B2440']];
+function tileIdx(l){let x=0;for(const c of String(l.id||l.title))x=(x*31+c.charCodeAt(0))%9973;return x%TILE_PAL.length}
+function kindTile(l,k){const K=TILE_PAL[k==null?tileIdx(l):k];return `--bg:${K[0]};--lip:${K[1]};--ink:${K[2]}`}
+function mosaic(list){
+  let prev=-1;
+  return `<div class="mmos">${list.map((l,i)=>{const wide=i%3===0||(i===list.length-1&&i%3===1);let k=tileIdx(l);if(k===prev)k=(k+1)%TILE_PAL.length;prev=k;
+    return `<button class="mt${wide?' wide':''}" data-id="${esc(l.id)}" style="${kindTile(l,k)}"><b>${esc(l.title)}</b>${lessonArt(l)}</button>`}).join('')}</div>`;
+}
+function kcard(l,sub,done){return `<button class="kcard" data-id="${esc(l.id)}"><span class="ka" style="${kindTile(l)}">${lessonArt(l)}${done?`<i>${CHECK_SVG}</i>`:''}</span><b>${esc(l.title)}</b>${sub?`<small>${esc(sub)}</small>`:''}</button>`}
 function showLessons(){
   view='lessons';lesson=null;stopTimers();clearInterval(clockTimer);dock('');document.body.classList.remove('sea');
   const ALL=S.lessons||[],BIG=ALL.filter(l=>isBig(l)&&!isSerial(l)),SER=ALL.filter(isSerial),L=ALL.filter(l=>!isBig(l)),P=S.progress;
   const newL=L.filter(l=>!P.lessons[l.id]),doneL=L.filter(l=>P.lessons[l.id]).sort((a,b)=>P.lessons[a.id].last.pct-P.lessons[b.id].last.pct||P.lessons[a.id].last.t-P.lessons[b.id].last.t);
-  const rep=l=>{const c=lessonKind(l).c;return `<button class="mrep" data-id="${esc(l.id)}">${ring(P.lessons[l.id].last.pct,c,64)}<b>${esc(l.title)}</b></button>`};
-  const tiles=[gramEntry(),verbTile()].filter(Boolean).join('');
-  app.innerHTML=`<div class="mhead"><h1>Уроки</h1></div>
+  if(LTAB==='new'&&!newL.length)LTAB=doneL.length?'rep':'all';
+  const rep=l=>`<button class="mrep" data-id="${esc(l.id)}">${ring(P.lessons[l.id].last.pct,lessonKind(l).c,64)}<b>${esc(l.title)}</b></button>`;
+  const serN=SER.reduce((s,l)=>s+l.chapters.length,0),cnt=k=>L.filter(l=>lessonCats(l).includes(k)).length;
+  const gT=typeof gTopics==='function'?gTopics().length:0;
+  const kinds=[['gram',gT,['тема','темы','тем']],['read',cnt('read')+serN,['текст','текста','текстов']],['hear',cnt('hear'),['диалог','диалога','диалогов']],['write',cnt('write'),['задание','задания','заданий']],['talk',cnt('talk'),['сценка','сценки','сценок']],['story',BIG.length,['история','истории','историй']]].filter(x=>x[1]);
+  app.innerHTML=`<h1 class="mh1">Уроки</h1>
     ${S.lessons?'':'<div class="skel"></div>'}
-    ${newL.length?`<div class="section"><h3>Новые</h3></div><div class="shelf">${newL.map(ltile).join('')}</div>`:''}
-    ${doneL.length?`<div class="section"><h3>Повторить</h3></div><div class="shelf mreps">${doneL.map(rep).join('')}</div>`:''}
-    ${SER.length?`<div class="section"><h3>Чтение</h3></div>${SER.map(serialRow).join('')}`:''}
-    ${tiles?`<div class="section"><h3>Грамматика</h3></div><div class="sduo">${tiles}</div>`:''}
-    ${BIG.length?`<div class="section"><h3>${BIG.length>1?'Большие уроки':'Большой урок'}</h3></div><div class="bigs">${BIG.map(bigRow).join('')}</div>`:''}`;
-  app.querySelectorAll('.ltile,.mrep').forEach(b=>b.onclick=()=>showIntro(S.lessons.find(l=>l.id===b.dataset.id)));
-  app.querySelectorAll('.bigrow').forEach(b=>b.onclick=()=>showBig(S.lessons.find(l=>l.id===b.dataset.big)));
-  app.querySelectorAll('.serow').forEach(b=>b.onclick=()=>{const l=S.lessons.find(x=>x.id===b.dataset.ser),s=l&&bigState(l);if(s&&s.cur)showIntro(chapterLesson(l,s.cur.i));else showSerial(l)});
-  if($('go-gram'))$('go-gram').onclick=()=>showGrammar();if($('go-verbs'))$('go-verbs').onclick=showVerbs;
+    <div class="mpills" role="tablist">${[['new',`Новые · ${newL.length}`,newL.length],['rep',`Повторить · ${doneL.length}`,doneL.length],['all','Все',L.length]].filter(x=>x[2]).map(([k,t])=>`<button role="tab" aria-selected="${LTAB===k}" data-lt="${k}">${t}</button>`).join('')}</div>
+    ${LTAB==='new'?mosaic(newL):LTAB==='all'?mosaic(L):`<div class="mreps grid">${doneL.map(rep).join('')}</div>`}
+    ${kinds.length?`<h3 class="msec">По видам</h3><div class="mkinds">${kinds.map(([k,n,w])=>`<button data-kind="${k}">${KIND_ICON[k]}<span><b>${KIND_NAME[k]}</b><small>${n} ${plural(n,...w)}</small></span></button>`).join('')}</div>`:''}
+    ${typeof VF_V!=='undefined'&&VF_V.length?`<div class="vlns" style="margin-top:10px"><button class="vln" id="go-verbs"><b>Три формы глаголов</b><em>${VF_V.length}</em>${CHEV}</button></div>`:''}
+    ${LTAB!=='rep'&&doneL.length?`<h3 class="msec">Повторить</h3><div class="shelf mreps">${doneL.map(rep).join('')}</div>`:''}`;
+  app.querySelectorAll('[data-lt]').forEach(b=>b.onclick=()=>{LTAB=b.dataset.lt;showLessons()});
+  app.querySelectorAll('.mt,.mrep').forEach(b=>b.onclick=()=>showIntro(S.lessons.find(l=>l.id===b.dataset.id)));
+  if($('go-verbs'))$('go-verbs').onclick=showVerbs;
+  app.querySelectorAll('[data-kind]').forEach(b=>b.onclick=()=>b.dataset.kind==='gram'?showGrammar():showKind(b.dataset.kind));
+  window.scrollTo(0,0);
+}
+/* один вид уроков: карточки с картинками; у чтения сначала серии сериала */
+function showKind(k){
+  view='lessons';lesson=null;stopTimers();clearInterval(clockTimer);dock('');document.body.classList.remove('sea');
+  const ALL=S.lessons||[],BIG=ALL.filter(l=>isBig(l)&&!isSerial(l)),SER=k==='read'?ALL.filter(isSerial):[],L=ALL.filter(l=>!isBig(l)&&lessonCats(l).includes(k)),P=S.progress;
+  const sub=l=>{const t=String(l.topic||'').split('·').pop().trim();return t.length<=22?t:''};
+  app.innerHTML=`<div class="stop"><button class="x" id="kback" aria-label="Назад">${BACK_SVG}</button><h1>${KIND_NAME[k]}</h1></div>
+    ${SER.map(s=>`<h3 class="msec">Сериал «${esc(s.title)}»</h3><div class="shelf kshelf">${s.chapters.map((c,i)=>kcard({...chapterLesson(s,i),serial:true},`Серия ${c.ep||i+1}`,P_done(s,c)).replace('data-id=',`data-ser="${esc(s.id)}" data-ch="${i}" data-x=`)).join('')}</div>`).join('')}
+    ${k==='story'?`<div class="bigs">${BIG.map(mbig).join('')}</div>`:''}
+    ${L.length?`${SER.length?'<h3 class="msec">Истории</h3>':''}<div class="kgrid">${L.map(l=>kcard(l,sub(l),!!P.lessons[l.id])).join('')}</div>`:''}`;
+  $('kback').onclick=showLessons;
+  app.querySelectorAll('.kcard[data-id]').forEach(b=>b.onclick=()=>showIntro(S.lessons.find(l=>l.id===b.dataset.id)));
+  app.querySelectorAll('.kcard[data-ser]').forEach(b=>b.onclick=()=>showIntro(chapterLesson(S.lessons.find(l=>l.id===b.dataset.ser),+b.dataset.ch)));
+  app.querySelectorAll('.mbig').forEach(b=>b.onclick=()=>showBig(S.lessons.find(l=>l.id===b.dataset.big)));
   window.scrollTo(0,0);
 }
