@@ -3,7 +3,7 @@
  "topic": "Чтение · Wie man Deutscher wird",
  "sub": "Том из Испании впервые идёт в гости к Мии, и у двери его ждёт сюрприз.",
  "color": "teal",
- "createdAt": "2026-11-09",
+ "createdAt": "2026-11-10",
  "order": 21,
  "serial": {
   "id": "wmd",
@@ -229,7 +229,107 @@
      "fast": "почти",
      "echter": "настоящий (echt)",
      "deutscher": "немец"
-    }
+    },
+    "lines": [
+     [
+      0,
+      "",
+      "Tom kommt aus Spanien und wohnt seit einer Woche in Berlin. Heute besucht er zum ersten Mal seine Freundin Mia. Er kauft Blumen und fährt mit dem Bus zu ihr. Er ist ein bisschen nervös."
+     ],
+     [
+      1,
+      "",
+      "Mia macht die Tür auf."
+     ],
+     [
+      1,
+      "Mia",
+      "Hallo Tom, komm rein!"
+     ],
+     [
+      1,
+      "",
+      "Dann schaut sie auf seine Füße."
+     ],
+     [
+      1,
+      "Mia",
+      "Aber bitte zieh zuerst die Schuhe aus."
+     ],
+     [
+      2,
+      "",
+      "Tom versteht nicht."
+     ],
+     [
+      2,
+      "Tom",
+      "Warum? Meine Schuhe sind neu und sauber."
+     ],
+     [
+      2,
+      "",
+      "Mia lacht."
+     ],
+     [
+      2,
+      "Mia",
+      "In Deutschland tragen wir zu Hause keine Straßenschuhe. So bleibt der Boden sauber. Hier, für dich."
+     ],
+     [
+      2,
+      "",
+      "Sie gibt ihm ein Paar graue Hausschuhe."
+     ],
+     [
+      3,
+      "",
+      "Tom zieht die Hausschuhe an. Sie sind weich und warm. Er geht durch die Wohnung. Der Fußboden in der Küche ist kalt, aber seine Füße bleiben warm."
+     ],
+     [
+      3,
+      "Tom",
+      "Nicht schlecht,"
+     ],
+     [
+      3,
+      "",
+      "denkt er."
+     ],
+     [
+      4,
+      "",
+      "Sie trinken Tee und sprechen über Berlin. Es ist ein schöner Abend. Um zehn Uhr sagt Tom:"
+     ],
+     [
+      4,
+      "Tom",
+      "Ich muss nach Hause."
+     ],
+     [
+      5,
+      "",
+      "Im Bus schauen die Leute auf seine Füße. Tom schaut auch."
+     ],
+     [
+      5,
+      "",
+      "Er trägt noch die Hausschuhe! Seine Schuhe stehen bei Mia im Flur."
+     ],
+     [
+      5,
+      "",
+      "Tom lacht. Jetzt ist er fast ein echter Deutscher."
+     ]
+    ],
+    "sc": [
+     "Первый визит",
+     "У двери",
+     "Тапочки",
+     "По квартире",
+     "Вечер",
+     "В автобусе"
+    ]
    },
    "items": [
     {

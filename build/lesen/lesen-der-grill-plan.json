@@ -3,7 +3,7 @@
  "topic": "Чтение · Wie man Deutscher wird",
  "sub": "Том хочет пожарить мясо завтра. Мия открывает календарь.",
  "color": "teal",
- "createdAt": "2026-11-09",
+ "createdAt": "2026-11-10",
  "order": 23,
  "serial": {
   "id": "wmd",
@@ -204,7 +204,97 @@
      "beginnt": "начинается (beginnen)",
      "party": "вечеринка (die Party)",
      "deutschland": "Германия"
-    }
+    },
+    "lines": [
+     [
+      0,
+      "",
+      "Tom will mit Mia und ihren Freunden grillen."
+     ],
+     [
+      0,
+      "Mia",
+      "Super Idee!"
+     ],
+     [
+      0,
+      "Tom",
+      "Wann? Spontan, morgen?"
+     ],
+     [
+      0,
+      "",
+      "Mia schaut ihn an."
+     ],
+     [
+      0,
+      "Mia",
+      "Morgen?! Nein, nein. Wir brauchen einen Plan."
+     ],
+     [
+      1,
+      "",
+      "Mia öffnet ihren Kalender."
+     ],
+     [
+      1,
+      "Mia",
+      "Samstag in zwei Wochen, vierzehn Uhr, im Park am See."
+     ],
+     [
+      1,
+      "",
+      "Sie schreibt eine Liste: Wer bringt Fleisch? Wer bringt Salat? Wer bringt den Grill?"
+     ],
+     [
+      2,
+      "",
+      "Ihre Freunde antworten schnell. Lukas bringt den Grill und Kohle. Emma macht Kartoffelsalat. Tom soll Brot und Getränke kaufen. Alles steht auf der Liste."
+     ],
+     [
+      3,
+      "",
+      "Eine Woche vorher schaut Mia auf den Wetterbericht."
+     ],
+     [
+      3,
+      "Mia",
+      "Sonne, vierundzwanzig Grad. Gut."
+     ],
+     [
+      3,
+      "",
+      "Zwei Tage vorher schreibt sie in den Gruppenchat:"
+     ],
+     [
+      3,
+      "Mia",
+      "Nicht vergessen: Samstag, vierzehn Uhr!"
+     ],
+     [
+      4,
+      "",
+      "Am Samstag um dreizehn Uhr fünfundfünfzig sind alle im Park. Der Grill brennt um vierzehn Uhr zehn. Es gibt Fleisch, drei Salate und kalte Getränke. Nichts fehlt."
+     ],
+     [
+      5,
+      "Mia",
+      "Siehst du, mit einem Plan klappt alles."
+     ],
+     [
+      5,
+      "",
+      "Tom nickt. In Spanien beginnt eine Party, wann sie beginnt. In Deutschland beginnt sie um vierzehn Uhr."
+     ]
+    ],
+    "sc": [
+     "Идея",
+     "Календарь",
+     "Список",
+     "Погода",
+     "Суббота",
+     "Вывод"
+    ]
    },
    "items": [
     {

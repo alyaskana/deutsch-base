@@ -3,7 +3,7 @@
  "topic": "Чтение · Wie man Deutscher wird",
  "sub": "Семья Мии зовёт Тома на завтрак. Он рассчитывает на полчаса.",
  "color": "teal",
- "createdAt": "2026-11-09",
+ "createdAt": "2026-11-10",
  "order": 22,
  "serial": {
   "id": "wmd",
@@ -217,7 +217,97 @@
      "man": "безличное местоимение (man will = хочется)",
      "mittendrin": "посередине, на середине",
      "gehen": "уходить, идти"
-    }
+    },
+    "lines": [
+     [
+      0,
+      "",
+      "Am Samstag lädt Mias Familie Tom zum Frühstück ein."
+     ],
+     [
+      0,
+      "Mia",
+      "Komm um zehn Uhr,"
+     ],
+     [
+      0,
+      "",
+      "sagt Mia. Tom denkt:"
+     ],
+     [
+      0,
+      "Tom",
+      "Ein Kaffee, ein Toast, dreißig Minuten."
+     ],
+     [
+      0,
+      "",
+      "Er hat danach noch viele Pläne."
+     ],
+     [
+      1,
+      "",
+      "Um zehn Uhr sitzt Tom am Tisch und staunt: Auf dem Tisch stehen fünf Sorten Brot, Brötchen, Käse, Wurst, Marmelade, Honig, Eier, Obst und Joghurt."
+     ],
+     [
+      1,
+      "Tom",
+      "Ist heute ein Fest?"
+     ],
+     [
+      1,
+      "",
+      "fragt er."
+     ],
+     [
+      1,
+      "Mia",
+      "Nein, heute ist Samstag."
+     ],
+     [
+      2,
+      "",
+      "Mias Vater schneidet Brot. Ihre Mutter kocht die Eier. Alle essen langsam und sprechen viel: über die Woche, über die Nachbarn, über das Wetter."
+     ],
+     [
+      3,
+      "",
+      "Nach einer Stunde will Tom aufstehen."
+     ],
+     [
+      3,
+      "Mia",
+      "Wohin? Wir sind noch nicht fertig."
+     ],
+     [
+      3,
+      "",
+      "Sie schenkt ihm noch einen Kaffee ein."
+     ],
+     [
+      4,
+      "",
+      "Um ein Uhr sitzen alle noch am Tisch. Tom hat viel gegessen und drei Tassen Kaffee getrunken. Seine Pläne? Egal. Das Frühstück ist hier keine Mahlzeit, es ist ein Hobby."
+     ],
+     [
+      5,
+      "",
+      "Am Abend schreibt Tom seiner Familie:"
+     ],
+     [
+      5,
+      "Tom",
+      "In Deutschland ist das Frühstück wie ein Kino: Es dauert lange, und man will nicht mittendrin gehen."
+     ]
+    ],
+    "sc": [
+     "Приглашение",
+     "Стол",
+     "Семья",
+     "Час спустя",
+     "Час дня",
+     "Вечером"
+    ]
    },
    "items": [
     {

@@ -2,6 +2,7 @@
 import re
 NEW=r"""function runRead(st){
   if(PEND&&PEND.ii>0)return readQs(st);
+  if(st.text&&Array.isArray(st.text.lines)&&st.text.lines.length)return runScenes(st);
   shell(`<div class="card rdc" id="txt">${st.audio?`<div class="hear" style="--accent:${col(st.color)}">${playerHTML(st).replace('Слушать разговор','Слушать историю')}</div>`:''}${storyHTML(st)}</div><div style="height:90px" aria-hidden="true"></div>`);
   if(st.audio)mountPlayer(st,$('txt'));
   const root=$('txt'),PS=[...root.querySelectorAll('.story>p:not(.ptx):not(.cap)')],N=PS.length;let k=0;
@@ -20,7 +21,8 @@ NEW=r"""function runRead(st){
   });
 }
 """
+SCENES=open(__file__.replace('read.py','scenes.js'),encoding='utf-8').read()
 def patch(s):
     M='function runRead(st){';assert s.count(M)==1
     i=s.index(M);m=re.compile(r'^\}\n',re.M).search(s,i)
-    return s[:i]+NEW+s[m.end():]
+    return s[:i]+SCENES+NEW+s[m.end():]

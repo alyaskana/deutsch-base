@@ -57,7 +57,7 @@ function showGoals(){
   const todo=A.filter(x=>!x.done).filter(x=>{const g=x.id.replace(/\d+$/,'');if(seen.has(g))return false;seen.add(g);return true}).sort((a,b)=>b.have/b.need-a.have/a.need).slice(0,3);
   app.innerHTML=`<div class="stop"><button class="x" id="gback" aria-label="Назад">${BACK_SVG}</button><h1>Цели</h1></div>
    <div class="glist">${todo.map((x,i)=>{const a=goalAct(x),tag=a?'button':'div';return `<${tag} class="gnl g${i%3}"${a?` data-g="${esc(a.k)}"`:''}><span class="gh"><b>${esc(goalTitle(x))}</b><em>${x.have}<small> / ${x.need}</small></em></span><span class="gb"><i style="width:${Math.round(x.have/x.need*100)}%"></i></span></${tag}>`}).join('')}</div>
-   ${got.length?`<h3 class="msec">Уже получилось</h3><div class="ggot">${got.map(x=>`<div>${achBadge(x,true)}<b>${esc(x.title)}</b></div>`).join('')}</div>`:''}`;
+   ${got.length?`<h3 class="msec">Уже получилось</h3><div class="ggot">${got.map(x=>`<div>${hexBadge(x)}<b>${esc(x.title)}</b></div>`).join('')}</div>`:''}`;
   $('gback').onclick=showStats;
   app.querySelectorAll('.gnl[data-g]').forEach(b=>b.onclick=()=>goalGo(b.dataset.g));
   window.scrollTo(0,0);
@@ -67,6 +67,6 @@ import re
 def patch(s):
     M='function showStats(){';i=s.index(M)
     m=re.compile(r'^\}\n',re.M).search(s,i);j=m.end()
-    s=s[:i]+TRACK.lstrip('\n')+NEW+s[j:]
+    s=s[:i]+TRACK.lstrip('\n')+open(__file__.replace('stats.py','hex.js'),encoding='utf-8').read()+NEW+s[j:]
     assert s.count('back:showStats')>=1
     return s

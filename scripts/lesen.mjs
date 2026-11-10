@@ -54,6 +54,13 @@ for (const f of readdirSync(join(root, "data/lesen/episodes")).filter((x) => x.e
     const w = c.a.toLowerCase();
     if (!plain.toLowerCase().includes(w) && !e.meaning.some((m) => m.s.toLowerCase().includes(w))) errors.push(`${f}: «${c.a}» нет ни в истории, ни в новых словах`);
   }
+  // реплики по ролям для чтения «По сценам»: [абзац, кто ('' = рассказчик), текст]
+  let lines = null;
+  try {
+    const st = read("data/lesen/story/lesen-" + s.id + ".json");
+    lines = st.lines.filter((l, i) => !(i === 0 && l.de.replace(/\.$/, "") === s.title)).map((l) => [l.p, l.who === "Erzähler" ? "" : l.who, l.de]);
+  } catch (err) { lines = null; }
+  if (e.sc && e.sc.length !== paragraphs.length) errors.push(`${f}: названий сцен ${e.sc.length}, абзацев ${paragraphs.length}`);
   const au = audio["lesen-" + s.id];
   if (au && au.t.length !== paragraphs.length) errors.push(`${f}: в записи ${au.t.length} абзацев, в истории ${paragraphs.length}`);
   const doc = {
@@ -68,7 +75,7 @@ for (const f of readdirSync(join(root, "data/lesen/episodes")).filter((x) => x.e
     stages: [
       { type: "meaning", title: "Новые слова", sub: `${e.meaning.length} слов из истории`, color: "violet", shape: "circle", skill: "Слова из историй", items: e.meaning },
       { type: "read", title: s.title, sub: "Читаем историю", color: "teal", shape: "cloud", mins: 2, skill: "Чтение",
-        text: { title: s.title, cap: e.cap, paragraphs, tr: e.tr, dict: s.dict || {} }, items: e.questions,
+        text: { title: s.title, cap: e.cap, paragraphs, tr: e.tr, dict: s.dict || {}, ...(lines ? { lines } : {}), ...(e.sc ? { sc: e.sc } : {}) }, items: e.questions,
         ...(audio["lesen-" + s.id] ? { audio: audio["lesen-" + s.id] } : {}) },
       { type: "cloze", title: "Слово в контексте", sub: "Первая буква дана, остальное впиши", ask: "Допиши слово", color: "sun", shape: "flower", skill: "Слова из историй",
         items: e.cloze.map((c) => ({ ...c, tr: c.ru })) },
