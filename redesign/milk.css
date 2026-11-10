@@ -428,3 +428,5 @@ body.tb .app>.back{display:none}
 .bigcard.mbg .seabar{background:#E9D9C4}
 /* v91: в морском уроке под кнопкой «Дальше» нет сплошной полосы поверх волн */
 body.sea .dock:not(.fb){background:none}
+/* v91: светлая кнопка в нижней панели белая, чтобы не сливалась с молочным фоном */
+.dock:not(.fb) .press.ghost{--c:#fff;--lip:#DDD5C8}
