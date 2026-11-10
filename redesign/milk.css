@@ -495,10 +495,14 @@ body.sea .dock:not(.fb){background:none}
   .mkinds{grid-template-columns:repeat(6,minmax(0,1fr))}
   .app:has(>.mmos) .vlns{max-width:540px}
   /* слова: слева поиск и повторение, справа темы */
-  .app:has(.vtopics){max-width:1120px;display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);grid-template-rows:auto auto auto auto 1fr;column-gap:36px;align-content:start}
+  .app:has(.vtopics){max-width:1120px;display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);grid-template-rows:auto auto auto auto auto 1fr;column-gap:36px;align-content:start}
   .app:has(.vtopics)>*,.app:has(.vtopics) #vbody>*{grid-column:1}
-  .app:has(.vtopics) #vbody>.msec{grid-column:2;grid-row:1;align-self:end}
-  .app:has(.vtopics) #vbody>.vtopics{grid-column:2;grid-row:2/span 4;grid-template-columns:repeat(4,minmax(0,1fr));align-content:start}
+  .app:has(.vtopics) .vhd{display:contents}
+  .app:has(.vtopics) .vhd>*{grid-column:1}
+  .app:has(.vtopics) .vhd>.mh1{grid-column:1/-1}
+  .app:has(.vtopics) .vhd>form{margin-bottom:14px;align-self:start}
+  .app:has(.vtopics) #vbody>.msec{display:none}
+  .app:has(.vtopics) #vbody>.vtopics{grid-column:2;grid-row:2/span 5;grid-template-columns:repeat(4,minmax(0,1fr));align-content:start}
   .app:has(.vtopics) .vtop.wide{grid-column:span 2}
   .app:has(.vtopics) .vtop:not(.wide){min-height:124px}
   /* итоги */
