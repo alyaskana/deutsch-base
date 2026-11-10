@@ -21,6 +21,7 @@ function initTabs(){
 }
 /* плитка урока красится по виду урока, текст тёмный */
 const KIND_TILE={gram:['#FFD66B','#E0A92B','#2B2440'],tutor:['#FFC98A','#E59A45','#2B2440'],read:['#A9E8DC','#62C6B5','#12443C'],hear:['#BBD6FA','#7FA9E6','#1D3460'],life:['#FFC9DF','#F09CC2','#7A1848']};
+const TILE_KIND={gram:'Грамматика',tutor:'После занятия',read:'Чтение',hear:'На слух',life:'Из жизни'};
 const CHECK_SVG='<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.500l4 4 8-9"/></svg>';
 /* план дня дорожкой: текущий шаг крупной плиткой, сделанные и следующие свёрнуты в строки */
 const STEP_PAL={warm:['#FFD2BF','#EE9F85','#4A1D10'],words:['#BBD6FA','#7FA9E6','#1D3460']};
@@ -94,7 +95,7 @@ function kindTile(l,k){const K=TILE_PAL[k==null?tileIdx(l):k];return `--bg:${K[0
 function mosaic(list){
   let prev=-1;
   return `<div class="mmos">${list.map((l,i)=>{const wide=i%3===0||(i===list.length-1&&i%3===1);let k=tileIdx(l);if(k===prev)k=(k+1)%TILE_PAL.length;prev=k;
-    return `<button class="mt${wide?' wide':''}" data-id="${esc(l.id)}" style="${kindTile(l,k)}"><b>${esc(l.title)}</b>${lessonArt(l)}</button>`}).join('')}</div>`;
+    return `<button class="mt${wide?' wide':''}" data-id="${esc(l.id)}" style="${kindTile(l,k)}"><small class="mtk">${TILE_KIND[lessonKind(l).k]||''}</small><b>${esc(l.title)}</b>${lessonArt(l)}</button>`}).join('')}</div>`;
 }
 function kcard(l,sub,done){return `<button class="kcard" data-id="${esc(l.id)}"><span class="ka" style="${kindTile(l)}">${lessonArt(l)}${done?`<i>${CHECK_SVG}</i>`:''}</span><b>${esc(l.title)}</b>${sub?`<small>${esc(sub)}</small>`:''}</button>`}
 function showLessons(){

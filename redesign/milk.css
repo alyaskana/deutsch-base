@@ -522,3 +522,6 @@ body.sea .dock:not(.fb){background:none}
 .pgrp .mrow b em{color:inherit}
 .bigcard .bcl{display:flex;flex-direction:column;gap:3px}.bigcard .bcl i{font-style:normal}.bigcard .bcl i:first-child{font-weight:900}
 .mgame.pr{color:#2B2440}
+.mt .mtk{position:absolute;left:16px;top:14px;font-size:12px;font-weight:800;color:#2B2440;opacity:.5}
+.mt b{top:33px}
+.mt.wide .mtk{left:18px;top:16px}.mt.wide b{top:36px}
