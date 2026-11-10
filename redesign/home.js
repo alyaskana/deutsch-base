@@ -34,7 +34,7 @@ function planRow(s,i,cur){
   return `<button class="mrow nx" data-step="${i}" style="--bg:${K[0]};--lip:${K[1]}"><b>${name}</b><i class="pic ${s.k}"></i></button>`;
 }
 /* большой урок плиткой-сценой: название, стрелка, полоска глав */
-function mbig(l){return bigCard(l).replace('class="bigcard"','class="bigcard mbg"')}
+function mbig(l){return bigCard(l).replace('class="bigcard"','class="bigcard mbg"').replace(/<span>([^<]*)<\/span>/,(m,t)=>'<span class="bcl">'+t.split(' · ').map(x=>'<i>'+x+'</i>').join('')+'</span>')}
 function P_done(big,c){return !!S.progress.lessons[chId(big,c)]}
 const ICON_ARROW='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 function planList(){

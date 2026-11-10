@@ -519,3 +519,4 @@ body.sea .dock:not(.fb){background:none}
   .app:has(.vtopics) .vtop.wide{grid-column:1/-1}
 }
 .pgrp .mrow b em{color:inherit}
+.bigcard .bcl{display:flex;flex-direction:column;gap:3px}.bigcard .bcl i{font-style:normal}.bigcard .bcl i:first-child{font-weight:900}
