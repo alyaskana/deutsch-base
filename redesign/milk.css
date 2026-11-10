@@ -433,3 +433,34 @@ body.sea .dock:not(.fb){background:none}
 /* v92: «Повторить больше» белой строкой, как остальные строки плана */
 .pall{background:#fff;border:0;border-radius:22px;min-height:56px;padding:12px 18px;margin:0;font-family:inherit;font-size:16px;color:#2B2440;box-shadow:0 4px 0 #E2DACE}
 .pall b{font-size:16px;color:#7444E6}
+
+/* ---------- v95: план дня дорожкой ---------- */
+.pgrp{display:flex;flex-direction:column;gap:12px;padding-left:42px}
+.pstp{position:relative}
+.pstp:before,.pstp:after{content:"";position:absolute;left:-28px;width:4px;background:repeating-linear-gradient(to bottom,#D8CFC2 0 6px,transparent 6px 12px)}
+.pstp:before{top:-6px;bottom:50%}.pstp:after{top:50%;bottom:-6px}
+.pstp:first-child:before,.pstp:last-child:after{display:none}
+.pstp.dn:after,.pstp.dn+.pstp:before{background:#8CD3B4}
+.pnd{position:absolute;left:-42px;top:50%;margin-top:-16px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:600;font-size:15px;background:#F4EFE8;color:#857E9F;box-shadow:inset 0 0 0 3px #D8CFC2;z-index:1}
+.pnd svg{width:16px;height:16px}
+.pstp.dn .pnd{background:#0E8A5E;color:#fff;box-shadow:none}
+.pstp.cu .pnd{background:#7444E6;color:#fff;box-shadow:0 0 0 5px rgba(116,68,230,.18)}
+.pgrp .mrow{min-height:60px}
+.pgrp .mrow.ok{background:#D3F0E0;box-shadow:0 4px 0 #B4DEC8}
+.pgrp .mrow.ok span{flex:1}
+.pgrp .mrow.nx{background:color-mix(in srgb,var(--bg) 46%,#fff);box-shadow:0 4px 0 color-mix(in srgb,var(--lip) 42%,#fff)}
+.pgrp .mrow.nx:active{box-shadow:0 1px 0 color-mix(in srgb,var(--lip) 42%,#fff)}
+.pgrp .mrow.nx b{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.mrow .pic.lesson:before{left:14px;background:var(--lip);transform:rotate(12deg)}
+.mrow .pic.lesson:after{left:4px;background:var(--bg);transform:rotate(-6deg);box-shadow:inset 0 0 0 2px rgba(255,255,255,.5)}
+.pgrp .mles{min-height:214px}
+.mles .bpic{position:relative;display:block;width:150px;height:120px}
+.mles .bpic:before,.mles .bpic:after{content:"";position:absolute;width:78px;height:104px;border-radius:18px;top:10px}
+.mles .bpic.words:before{left:54px;background:#FF8A5C;transform:rotate(12deg)}
+.mles .bpic.words:after{left:20px;background:#fff;transform:rotate(-6deg)}
+.mles .bpic.warm:before{left:54px;background:#FFD66B;transform:rotate(12deg)}
+.mles .bpic.warm:after{left:20px;background:#fff;transform:rotate(-6deg)}
+.mles.pk-warm .lart,.mles.pk-words .lart{left:8px;width:150px}
+.mles b em{font-style:normal}
+.mles.pk-words b,.mles.pk-warm b{font-family:var(--body);font-weight:900;font-size:28px}
+.mles.pk-warm small{margin-top:4px;font-size:14px;opacity:.8}

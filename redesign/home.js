@@ -22,13 +22,15 @@ function initTabs(){
 /* плитка урока красится по виду урока, текст тёмный */
 const KIND_TILE={gram:['#FFD66B','#E0A92B','#2B2440'],tutor:['#FFC98A','#E59A45','#2B2440'],read:['#A9E8DC','#62C6B5','#12443C'],hear:['#BBD6FA','#7FA9E6','#1D3460'],life:['#FFC9DF','#F09CC2','#7A1848']};
 const CHECK_SVG='<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.500l4 4 8-9"/></svg>';
-function planRow(s,i){
+/* план дня дорожкой: текущий шаг крупной плиткой, сделанные и следующие свёрнуты в строки */
+const STEP_PAL={warm:['#FFD2BF','#EE9F85','#4A1D10'],words:['#BBD6FA','#7FA9E6','#1D3460']};
+function planRow(s,i,cur){
   const l=s.k==='lesson'?(s.done?findLesson((lessonDoneToday()||{}).lesson):(quickLong()||{}).l):null;
-  if(s.done)return `<button class="mrow ok" data-step="${i}"><i>${CHECK_SVG}</i><b>${esc(s.k==='lesson'?s.title:s.kick)}</b>${s.k==='lesson'&&s.sub?`<span>${esc(s.sub)}</span>`:''}</button>`;
-  if(s.k==='lesson'){const K=l?TILE_PAL[tileIdx(l)]:TILE_PAL[0];
-    return `<button class="mles" data-step="${i}" style="--bg:${K[0]};--lip:${K[1]};--ink:${K[2]}"><b>${esc(s.title)}</b><span class="lart">${l?lessonArt(l):''}</span><span class="go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 5.500v13l11-6.500z" fill="currentColor"/></svg></span></button>`}
-  const n=parseInt(s.title)||0;
-  return `<button class="mrow" data-step="${i}"><b>${s.k==='words'?`<em>${n}</em> ${plural(n,'слово','слова','слов')}`:esc(s.kick)}</b>${s.k==='warm'?`<span>${esc(s.title)}</span>`:''}<i class="pic ${s.k}"></i></button>`;
+  const K=s.k==='lesson'?(l?TILE_PAL[tileIdx(l)]:TILE_PAL[0]):STEP_PAL[s.k],n=parseInt(s.title)||0;
+  const name=s.k==='lesson'?esc(s.title):s.k==='words'?`<em>${n}</em> ${plural(n,'слово','слова','слов')}`:esc(s.kick);
+  if(s.done)return `<button class="mrow ok" data-step="${i}"><b>${s.k==='words'?esc(s.kick):name}</b>${s.k==='lesson'&&s.sub?`<span>${esc(s.sub)}</span>`:''}</button>`;
+  if(cur)return `<button class="mles pk-${s.k}" data-step="${i}" style="--bg:${K[0]};--lip:${K[1]};--ink:${K[2]}"><b>${name}</b>${s.k==='warm'?`<small>${esc(s.title)}</small>`:''}<span class="lart">${s.k==='lesson'?(l?lessonArt(l):''):`<i class="bpic ${s.k}"></i>`}</span><span class="go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 5.500v13l11-6.500z" fill="currentColor"/></svg></span></button>`;
+  return `<button class="mrow nx" data-step="${i}" style="--bg:${K[0]};--lip:${K[1]}"><b>${name}</b><i class="pic ${s.k}"></i></button>`;
 }
 /* большой урок плиткой-сценой: название, стрелка, полоска глав */
 function mbig(l){return bigCard(l).replace('class="bigcard"','class="bigcard mbg"')}
@@ -38,7 +40,8 @@ function planList(){
   if(!S.lessons)return `<div class="skel" style="height:300px;border-radius:32px"></div>`;
   const st=planSteps();if(!st.length)return '';
   const allDone=st.every(s=>s.done),f=allDone&&focusLesson(true),rec=allDone?(f?{l:f.l}:recommend()):null;
-  return `<div class="mplan">${st.map(planRow).join('')}${rec?`<button class="press" id="pmore" style="--c:${lessonKind(rec.l).c}"><span>Ещё урок</span><b>${esc(rec.l.title)}</b></button>`:''}${moreReview(allDone)}</div>`;
+  const cur=st.findIndex(x=>!x.done);
+  return `<div class="mplan"><div class="pgrp">${st.map((x,i)=>`<div class="pstp ${x.done?'dn':i===cur?'cu':'nx'}"><span class="pnd">${x.done?CHECK_SVG:i+1}</span>${planRow(x,i,i===cur)}</div>`).join('')}</div>${rec?`<button class="press" id="pmore" style="--c:${lessonKind(rec.l).c}"><span>Ещё урок</span><b>${esc(rec.l.title)}</b></button>`:''}${moreReview(allDone)}</div>`;
 }
 function gamesTiles(){
   if(!S.lessons)return '';const w=wordleState(),pb=pairsBest();
