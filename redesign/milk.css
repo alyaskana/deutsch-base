@@ -426,3 +426,5 @@ body.tb .app>.back{display:none}
 .bigcard.mbg .ill>rect:first-child{fill:#fff}
 .bigcard.mbg .picwrap{background:#fff}
 .bigcard.mbg .seabar{background:#E9D9C4}
+/* v91: в морском уроке под кнопкой «Дальше» нет сплошной полосы поверх волн */
+body.sea .dock:not(.fb){background:none}
