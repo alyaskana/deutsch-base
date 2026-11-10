@@ -78,6 +78,7 @@ _sp=_u.spec_from_file_location('vocab',__file__.replace('apply.py','vocab.py'));
 _sp=_u.spec_from_file_location('stats',__file__.replace('apply.py','stats.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
 _sp=_u.spec_from_file_location('gram',__file__.replace('apply.py','gram.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
 _sp=_u.spec_from_file_location('read',__file__.replace('apply.py','read.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
+_sp=_u.spec_from_file_location('mist',__file__.replace('apply.py','mist.py'));_m=_u.module_from_spec(_sp);_sp.loader.exec_module(_m);s=_m.patch(s)
 
 # ---------- 3. Стили ----------
 CSS=open(__file__.replace('apply.py','milk.css')).read()

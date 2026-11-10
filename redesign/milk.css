@@ -556,3 +556,13 @@ body.sea .dock:not(.fb){background:none}
 .gnl em{line-height:1}
 .gnl .gb{width:100%;margin-top:auto}
 .sgoals .glist{align-items:stretch}
+
+/* ---------- v109: разбор ошибок ---------- */
+.mlist div{display:flex;flex-direction:column;gap:4px;background:#fff;border-radius:16px;padding:12px 14px;font-size:16px;box-shadow:inset 0 0 0 2px #EFE9DF}
+.review2 .mlist div{background:#F9F6F1;box-shadow:none}
+.mxm,.mxr,.mxw{display:block;position:relative;padding-left:26px}
+.mxm{color:#C9283B;text-decoration:line-through;text-decoration-thickness:2px;font-weight:800}
+.mxm:before,.mxr:before{content:"";position:absolute;left:0;top:2px;width:18px;height:18px;border-radius:50%;background:#FFE3EA center/12px no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='%23C9283B' stroke-width='2.2' stroke-linecap='round'%3E%3Cpath d='M3 3l6 6M9 3l-6 6'/%3E%3C/svg%3E")}
+.mxr{font-weight:800;color:#2B2440}
+.mxr:before{background-color:#DDF6EA;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='%230E8A5E' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2.5 6.3l2.3 2.3 4.7-5.2'/%3E%3C/svg%3E")}
+.mxw{font-size:14px;font-weight:600;color:#5F587C;line-height:1.4;margin-top:2px}
