@@ -113,7 +113,7 @@ body.tb .app>.back{display:none}
 .mgame:active{transform:translateY(3px)}
 .mgame b{font-family:var(--body);font-weight:900;font-size:19px;line-height:1.15}
 .mgame.wd{background:#FFE08A;color:#2B2440;box-shadow:0 4px 0 #E9C25A}
-.mgame.wd b{max-width:5.2em}
+.mgame.wd b{white-space:nowrap}.mgame.wd .cells{flex:none}
 .mgame .cells{display:flex;gap:5px}
 .mgame .cells i{width:34px;height:34px;border-radius:10px;background:#E4C46A;display:grid;place-items:center;font-style:normal;font-family:var(--display);font-weight:600;font-size:18px;color:#2B2440}
 .mgame .cells i.g{background:#0E8A5E;color:#fff}.mgame .cells i.n{background:#fff}
@@ -226,3 +226,7 @@ body.tb .app>.back{display:none}
 .sgl b{font-weight:800;font-size:16px;color:#2B2440;line-height:1.2;margin-top:8px}
 .sgl .ring{width:58px;height:58px;position:absolute;right:14px;bottom:14px}
 .sgl .ring circle:first-of-type{stroke:rgba(43,36,64,.14)}
+/* большой урок на главной: белая карточка, чтобы не сливалась с молочным фоном */
+.bigrow{background:#fff;box-shadow:0 2px 10px rgba(43,36,64,.10),0 4px 0 #E0D8CC}
+.bigrow:active{box-shadow:0 1px 0 #E0D8CC}
+.bigrow .picwrap{background:#F4EFE8}
