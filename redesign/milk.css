@@ -444,7 +444,8 @@ body.sea .dock:not(.fb){background:none}
 .pnd{position:absolute;left:-42px;top:50%;margin-top:-16px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:600;font-size:15px;background:#F4EFE8;color:#857E9F;box-shadow:inset 0 0 0 3px #D8CFC2;z-index:1}
 .pnd svg{width:16px;height:16px}
 .pstp.dn .pnd{background:#0E8A5E;color:#fff;box-shadow:none}
-.pstp.cu .pnd{background:#7444E6;color:#fff;box-shadow:0 0 0 5px rgba(116,68,230,.18)}
+.pstp.nx .pnd{background:color-mix(in srgb,var(--nb) 46%,#fff);color:var(--ni);box-shadow:inset 0 0 0 3px color-mix(in srgb,var(--nl) 60%,#fff)}
+.pstp.cu .pnd{background:var(--nb);color:var(--ni);box-shadow:inset 0 0 0 3px var(--nl),0 0 0 5px color-mix(in srgb,var(--nb) 45%,transparent)}
 .pgrp .mrow{min-height:60px}
 .pgrp .mrow.ok{background:#D3F0E0;box-shadow:0 4px 0 #B4DEC8}
 .pgrp .mrow.ok span{flex:1}
@@ -517,3 +518,4 @@ body.sea .dock:not(.fb){background:none}
   .app:has(.vtopics) #vbody>.vtopics{grid-template-columns:repeat(3,minmax(0,1fr))}
   .app:has(.vtopics) .vtop.wide{grid-column:1/-1}
 }
+.pgrp .mrow b em{color:inherit}

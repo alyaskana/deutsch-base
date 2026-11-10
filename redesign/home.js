@@ -24,6 +24,7 @@ const KIND_TILE={gram:['#FFD66B','#E0A92B','#2B2440'],tutor:['#FFC98A','#E59A45'
 const CHECK_SVG='<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.500l4 4 8-9"/></svg>';
 /* план дня дорожкой: текущий шаг крупной плиткой, сделанные и следующие свёрнуты в строки */
 const STEP_PAL={warm:['#FFD2BF','#EE9F85','#4A1D10'],words:['#BBD6FA','#7FA9E6','#1D3460']};
+function stepPal(s){if(s.k!=='lesson')return STEP_PAL[s.k];const l=s.done?findLesson((lessonDoneToday()||{}).lesson):(quickLong()||{}).l;return l?TILE_PAL[tileIdx(l)]:TILE_PAL[0]}
 function planRow(s,i,cur){
   const l=s.k==='lesson'?(s.done?findLesson((lessonDoneToday()||{}).lesson):(quickLong()||{}).l):null;
   const K=s.k==='lesson'?(l?TILE_PAL[tileIdx(l)]:TILE_PAL[0]):STEP_PAL[s.k],n=parseInt(s.title)||0;
@@ -41,7 +42,7 @@ function planList(){
   const st=planSteps();if(!st.length)return '';
   const allDone=st.every(s=>s.done),f=allDone&&focusLesson(true),rec=allDone?(f?{l:f.l}:recommend()):null;
   const cur=st.findIndex(x=>!x.done);
-  return `<div class="mplan"><div class="pgrp">${st.map((x,i)=>`<div class="pstp ${x.done?'dn':i===cur?'cu':'nx'}"><span class="pnd">${x.done?CHECK_SVG:i+1}</span>${planRow(x,i,i===cur)}</div>`).join('')}</div>${rec?`<button class="press" id="pmore" style="--c:${lessonKind(rec.l).c}"><span>Ещё урок</span><b>${esc(rec.l.title)}</b></button>`:''}${moreReview(allDone)}</div>`;
+  return `<div class="mplan"><div class="pgrp">${st.map((x,i)=>`<div class="pstp ${x.done?'dn':i===cur?'cu':'nx'}" style="--nb:${stepPal(x)[0]};--nl:${stepPal(x)[1]};--ni:${stepPal(x)[2]}"><span class="pnd">${x.done?CHECK_SVG:i+1}</span>${planRow(x,i,i===cur)}</div>`).join('')}</div>${rec?`<button class="press" id="pmore" style="--c:${lessonKind(rec.l).c}"><span>Ещё урок</span><b>${esc(rec.l.title)}</b></button>`:''}${moreReview(allDone)}</div>`;
 }
 function gamesTiles(){
   if(!S.lessons)return '';const w=wordleState(),pb=pairsBest();
