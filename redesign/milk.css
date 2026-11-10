@@ -423,8 +423,8 @@ body.tb .app>.back{display:none}
 /* v90: большой урок на главной прежней обложкой (картинка целиком, подпись, курсив), на белом, чтобы не сливалась с фоном */
 .bigcard.mbg{background:#fff;border:0;font-family:inherit;padding:0;border-radius:30px;box-shadow:0 6px 0 #2F4B5D}
 .bigcard.mbg:active{box-shadow:0 2px 0 #2F4B5D}
-.bigcard.mbg .ill>rect:first-child{fill:#fff}
-.bigcard.mbg .picwrap{background:#fff}
+.bigcard.mbg .ill>rect:first-child{fill:#D7E9F2}
+.bigcard.mbg .picwrap{background:#D7E9F2}
 .bigcard.mbg .seabar{background:#E9D9C4}
 /* v91: в морском уроке под кнопкой «Дальше» нет сплошной полосы поверх волн */
 body.sea .dock:not(.fb){background:none}
