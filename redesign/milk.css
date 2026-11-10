@@ -550,3 +550,9 @@ body.sea .dock:not(.fb){background:none}
 .vtop:not(.wide) em{font-size:20px;white-space:nowrap}.vtop:not(.wide) em small{font-size:11px;margin-left:1px;letter-spacing:-.02em}
 .vtop:not(.wide)>svg{width:34px;height:34px;right:8px;bottom:12px}
 .vtop:not(.wide) .tbar{right:50px}
+.gnl{justify-content:space-between;height:100%}
+.gnl .gh{align-items:flex-start;width:100%}
+.gnl .gh b{min-width:0;text-wrap:balance;padding-top:4px}
+.gnl em{line-height:1}
+.gnl .gb{width:100%;margin-top:auto}
+.sgoals .glist{align-items:stretch}
