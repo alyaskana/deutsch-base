@@ -504,8 +504,12 @@ body.sea .dock:not(.fb){background:none}
   /* итоги */
   .app:has(>.swk){max-width:1040px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);column-gap:20px;align-content:start}
   .app:has(>.swk)>.shead{grid-column:1/-1}
-  .app:has(>.swk)>.swk{grid-column:1;grid-row:2/span 2;margin-bottom:0}
-  .app:has(>.swk)>.sduo2,.app:has(>.swk)>.swr{grid-column:2}
+  .app:has(>.swk)>.swk{grid-column:1;margin-bottom:0}
+  .app:has(>.swk)>.sduo2{grid-column:2;margin-bottom:0}
+  .app:has(>.swk)>.sduo2>*{min-height:216px}
+  .app:has(>.swk)>.sgoals{grid-column:1/-1}
+  .sgoals .glist{grid-template-columns:repeat(3,1fr)}
+  .sgoals .ggot{grid-template-columns:repeat(6,minmax(0,1fr))}
   /* цели и грамматика в две колонки */
   .app:has(>.glist),.app:has(>.gql){max-width:1000px}
   .glist,.gql{display:grid;grid-template-columns:1fr 1fr;gap:12px}
@@ -525,3 +529,8 @@ body.sea .dock:not(.fb){background:none}
 .mt .mtk{position:absolute;left:16px;top:14px;font-size:12px;font-weight:800;color:#2B2440;opacity:.5}
 .mt b{top:33px}
 .mt.wide .mtk{left:18px;top:16px}.mt.wide b{top:36px}
+.sduo2 .swr{min-height:150px;padding:18px;border-radius:28px}
+.sduo2 .swr b{font-size:22px;max-width:none}
+.sduo2 .swr .mm{right:14px;top:auto;bottom:12px;width:64px;height:64px;transform:none}
+.sgoals .msec:first-child{margin-top:10px}
+.sduo2 .swr{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start}.sduo2 .swr b{max-width:120px}

@@ -23,9 +23,10 @@ function showStats(){
    <div class="swk"><div class="swkl"><small>Эта неделя</small><b>${W.sum}</b><span>${plural(W.sum,'минута','минуты','минут')}${W.act?`<br>за ${W.act} ${plural(W.act,'день','дня','дней')}`:''}</span>${PW.sum&&W.sum>PW.sum?`<em>↑ +${W.sum-PW.sum} к прошлой</em>`:''}</div>
      <div class="swb">${W.days.map((x,k)=>`<div class="${k===6?'td':''}"><i><u style="height:${x.m?Math.max(10,Math.round(x.m/mx*100)):0}%"></u></i><small>${x.n}</small></div>`).join('')}</div></div>
    <div class="sduo2"><div class="skn"><small>Знаю слов</small><b>${kn}</b><span class="dots" aria-hidden="true">${[[4,1],[2,2],[3,2],[4,2],[1,3],[2,3],[3,3],[4,3]].map(([c,r],i)=>`<i class="${r===3&&c<4?'on':''}" style="grid-column:${c};grid-row:${r}"></i>`).join('')}</span></div>
-     ${g?`<button class="sgl" id="go-goals"><small>Цель</small><b>${esc(goalTitle(g))}</b>${ring(Math.round(g.have/g.need*100),'#7444E6')}</button>`:`<button class="sgl" id="go-goals"><small>Цели</small><b>Все отметки пройдены</b></button>`}</div>
-   <button class="swr" id="go-week"><b>Обзор недели</b><span class="mm">${mascot('flower','#ffffff','happy')}</span></button>`;
-  $('go-goals').onclick=showGoals;$('go-week').onclick=showWeek;
+     <button class="swr" id="go-week"><b>Обзор недели</b><span class="mm">${mascot('flower','#ffffff','happy')}</span></button></div>
+   ${goalsBlock()}`;
+  app.querySelectorAll('.gnl[data-g]').forEach(b=>b.onclick=()=>goalGo(b.dataset.g));
+  $('go-week').onclick=showWeek;
   if(wr&&S.progress.wrSeen!==wr.week){S.progress.wrSeen=wr.week;try{persist()}catch(e){}}
   window.scrollTo(0,0);
 }
@@ -51,6 +52,13 @@ function showWeek(){
   window.scrollTo(0,0);
 }
 /* «Цели»: ближайшие отметки полосками и то, что уже получилось */
+/* цели и «Уже получилось» живут прямо в «Итогах» */
+function goalsBlock(){
+  const A=achList(),seen=new Set(),got=A.filter(x=>x.done).sort((a,b)=>(b.at||0)-(a.at||0));
+  const todo=A.filter(x=>!x.done).filter(x=>{const g=x.id.replace(/\d+$/,'');if(seen.has(g))return false;seen.add(g);return true}).sort((a,b)=>b.have/b.need-a.have/a.need).slice(0,3);
+  return `<div class="sgoals">${todo.length?`<h3 class="msec">Цели</h3><div class="glist">${todo.map((x,i)=>{const a=goalAct(x),tag=a?'button':'div';return `<${tag} class="gnl g${i%3}"${a?` data-g="${esc(a.k)}"`:''}><span class="gh"><b>${esc(goalTitle(x))}</b><em>${x.have}<small> / ${x.need}</small></em></span><span class="gb"><i style="width:${Math.round(x.have/x.need*100)}%"></i></span></${tag}>`}).join('')}</div>`:''}
+   ${got.length?`<h3 class="msec">Уже получилось</h3><div class="ggot">${got.map(x=>`<div>${hexBadge(x)}<b>${esc(x.title)}</b></div>`).join('')}</div>`:''}</div>`;
+}
 function showGoals(){
   view='goals';lesson=null;stopTimers();clearInterval(clockTimer);dock('');
   const A=achList(),seen=new Set(),got=A.filter(x=>x.done).sort((a,b)=>(b.at||0)-(a.at||0));
