@@ -1,5 +1,5 @@
 /* ---------- v76: палитра «Молоко» и правки экранов урока (редизайн «Мозаика», 2026-11-09) ---------- */
-.dock.fb{box-shadow:0 -6px 24px rgba(43,36,64,.12);border-radius:34px 34px 0 0}
+@media (max-width:759px){.dock.fb{box-shadow:0 -6px 24px rgba(43,36,64,.12);border-radius:34px 34px 0 0}} /* on wide screens the feedback is a floating card; a shadow on the dock itself drew an empty rounded strip behind it */
 .card{box-shadow:0 6px 20px rgba(43,36,64,.10)}
 .x,.back,.pill,.sndt{background:#fff}
 .bars span,.pbar{background:#E2DACE}
@@ -430,3 +430,6 @@ body.tb .app>.back{display:none}
 body.sea .dock:not(.fb){background:none}
 /* v91: светлая кнопка в нижней панели белая, чтобы не сливалась с молочным фоном */
 .dock:not(.fb) .press.ghost{--c:#fff;--lip:#DDD5C8}
+/* v92: «Повторить больше» белой строкой, как остальные строки плана */
+.pall{background:#fff;border:0;border-radius:22px;min-height:56px;padding:12px 18px;margin:0;font-family:inherit;font-size:16px;color:#2B2440;box-shadow:0 4px 0 #E2DACE}
+.pall b{font-size:16px;color:#7444E6}
