@@ -420,3 +420,9 @@ body.tb .app>.back{display:none}
 .mbig .segs i{background:#E9D9C4}.mbig .segs i.on{background:#2F4B5D}.mbig .segs i.cur{background:#D75A32}
 .mbig .arr{bottom:40px;width:48px;height:48px}.mbig .segs{left:18px;right:18px;bottom:18px}
 .mbig b{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-weight:400;font-size:26px;line-height:1.05;max-width:170px}
+/* v90: большой урок на главной прежней обложкой (картинка целиком, подпись, курсив), на белом, чтобы не сливалась с фоном */
+.bigcard.mbg{background:#fff;border:0;font-family:inherit;padding:0;border-radius:30px;box-shadow:0 6px 0 #2F4B5D}
+.bigcard.mbg:active{box-shadow:0 2px 0 #2F4B5D}
+.bigcard.mbg .ill>rect:first-child{fill:#fff}
+.bigcard.mbg .picwrap{background:#fff}
+.bigcard.mbg .seabar{background:#E9D9C4}

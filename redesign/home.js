@@ -31,11 +31,7 @@ function planRow(s,i){
   return `<button class="mrow" data-step="${i}"><b>${s.k==='words'?`<em>${n}</em> ${plural(n,'слово','слова','слов')}`:esc(s.kick)}</b>${s.k==='warm'?`<span>${esc(s.title)}</span>`:''}<i class="pic ${s.k}"></i></button>`;
 }
 /* большой урок плиткой-сценой: название, стрелка, полоска глав */
-function mbig(l){
-  const s=bigState(l),N=l.chapters.length,cur=s.cur?s.cur.i:-1;
-  return `<button class="mbig" data-big="${esc(l.id)}"><svg viewBox="0 0 360 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="360" height="170" fill="#fff"/><path d="${starP(196,36,17,7)}" fill="${IP.ochre}"/>${gullFly(318,30,.8)}${gullFly(338,44,.55)}<g transform="translate(156 -8) scale(.6)"><path d="M190 22 L190 150 L268 150Z" fill="${IP.orange}"/><path d="M182 40 L182 150 L120 150Z" fill="${IP.peri}"/><path d="M186 16 V158" ${L(3)}/><path d="M100 162 L294 162 Q272 200 198 202 Q132 200 100 162Z" fill="${IP.brown}"/><circle cx="160" cy="176" r="4.5" fill="#fff"/><circle cx="182" cy="178" r="4.5" fill="#fff"/><circle cx="204" cy="178" r="4.5" fill="#fff"/></g>${crescent(190,124,34,IP.peri)}${crescent(300,128,40,IP.peri)}${crescent(96,132,30,IP.peri)}${fishS(326,112,.5,IP.orange)}${shellS(170,84,.38)}</svg>
-    <b>${esc(l.title)}</b><span class="arr">${ICON_ARROW}</span><span class="segs" role="img" aria-label="Пройдено ${s.doneN} из ${N}">${l.chapters.map((c,i)=>`<i class="${i===cur?'cur':P_done(l,c)?'on':''}"></i>`).join('')}</span></button>`;
-}
+function mbig(l){return bigCard(l).replace('class="bigcard"','class="bigcard mbg"')}
 function P_done(big,c){return !!S.progress.lessons[chId(big,c)]}
 const ICON_ARROW='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 function planList(){
@@ -67,7 +63,7 @@ function showHome(){
       ${S.lessons?`<div class="section"><h3>Пять минут</h3></div><div class="mgames">${gamesTiles()}</div>`:''}
       ${BIG.length?`<div class="section"><h3>${BIG.length>1?'Большие уроки':'Большой урок'}</h3></div><div class="bigs">${BIG.map(mbig).join('')}</div>`:''}
     </div></div>`;
-  app.querySelectorAll('.mbig').forEach(b=>b.onclick=()=>showBig(S.lessons.find(l=>l.id===b.dataset.big)));
+  app.querySelectorAll('.mbg').forEach(b=>b.onclick=()=>showBig(S.lessons.find(l=>l.id===b.dataset.big)));
   $('go-stats').onclick=showStats;
   $('hsay').onsubmit=e=>{e.preventDefault();const q=$('hq').value.trim();if(q.length<2)return showSay();sayRun(q)};
   if($('go-review'))$('go-review').onclick=()=>startReview(dueCards(15),{title:'Повторение'});
@@ -131,6 +127,6 @@ function showKind(k){
   $('kback').onclick=showLessons;
   app.querySelectorAll('.kcard[data-id]').forEach(b=>b.onclick=()=>showIntro(S.lessons.find(l=>l.id===b.dataset.id)));
   app.querySelectorAll('.kcard[data-ser]').forEach(b=>b.onclick=()=>showIntro(chapterLesson(S.lessons.find(l=>l.id===b.dataset.ser),+b.dataset.ch)));
-  app.querySelectorAll('.mbig').forEach(b=>b.onclick=()=>showBig(S.lessons.find(l=>l.id===b.dataset.big)));
+  app.querySelectorAll('.mbg').forEach(b=>b.onclick=()=>showBig(S.lessons.find(l=>l.id===b.dataset.big)));
   window.scrollTo(0,0);
 }
