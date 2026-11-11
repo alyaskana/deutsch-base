@@ -38,18 +38,33 @@ function rgSchedule(s,ok,fast){const now=Date.now(),prev=s.t||now,iv=s.iv||0,el=
   if(iv>0&&s.d>now&&el<iv*.5)return;
   s.iv=iv<=0?1:Math.min(180,Math.round(Math.max(iv,el)*(fast?2.5:1.8)*10)/10);s.d=now+s.iv*RG_DAY}
 function rgInDays(s){const n=Math.round((s.d-Date.now())/RG_DAY);return n<=0?'сегодня':n===1?'завтра':'через '+n+' '+plural(n,'день','дня','дней')}
-function rgPool(m){const W=rgData().W,P=rgP();
+/* слова из словаря: всё, что сохранила или отметила «Учить», если это существительное с артиклем.
+   Слова из базы игры берут её род; новых в базе — добавляются в общий список под темой «Мои». */
+let RGMY=null;const RG_MY=5;
+function rgMy(){const L=savedList(),key=L.length+'|'+L.reduce((a,x)=>Math.max(a,x.t||0),0);
+  if(RGMY&&RGMY.key===key&&RGMY.src===ARD)return RGMY;
+  const D=rgData(),set=new Set(),add=[];
+  L.forEach(x=>{const m=String(x.de||'').trim().match(/^(der|die|das)\s+([A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+)$/);if(!m)return;const l=m[2].toLowerCase();if(set.has(l))return;set.add(l);
+    if(!D.by[l])add.push({w:m[2],g:m[1],ru:x.ru||'',t:'Мои',lvl:'',hard:false})});
+  return RGMY={key,src:ARD,set,all:D.W.concat(add)}}
+const rgIsMy=x=>rgMy().set.has(x.w.toLowerCase());
+function rgPool(m){const W=rgMy().all,P=rgP();
+  if(m==='my')return W.filter(rgIsMy);
   if(m.startsWith('rule:')){const r=rgData().R[+m.slice(5)];return r?rgMine(r).concat(rgExtra(r)):[]}
   if(m==='mix')return W;if(m==='a2')return W.filter(x=>x.lvl==='A2');if(m==='hard')return W.filter(x=>x.hard);
   if(m==='due')return W.filter(x=>rgDue(x.w));if(m==='weak')return W.filter(x=>rgWeak(x.w));if(m==='new')return W.filter(x=>!P.w[x.w]);
   return W.filter(x=>x.t===m)}
 function rgPick(m){const P=rgP();let src=rgPool(m).slice(),out=[];
+  /* умный раунд: до 5 слов из словаря — сначала те, что пора повторить, потом ошибки и новые; выученные не раньше срока */
+  if(m==='mix'){const sc=x=>(rgDue(x.w)?3:0)+(rgWeak(x.w)?2:0)+(P.w[x.w]?0:1)-(rgKnown(x.w)&&!rgDue(x.w)?3:0)+Math.random();
+    out=rgPool('my').map(x=>[sc(x),x]).filter(a=>a[0]>.5).sort((a,b)=>b[0]-a[0]).slice(0,RG_MY).map(a=>a[1]);
+    const t0=new Set(out);src=src.filter(x=>!t0.has(x))}
   if(m==='mix'||m==='due'){const od=x=>{const s=rgSrs(x.w);return s.iv?(Date.now()-s.d)/(s.iv*RG_DAY):1e9};
-    out=src.filter(x=>rgDue(x.w)).sort((a,b)=>od(b)-od(a)).slice(0,RG_ROUND);
+    out=out.concat(src.filter(x=>rgDue(x.w)).sort((a,b)=>od(b)-od(a)).slice(0,RG_ROUND-out.length));
     if(m==='due')return shuffle(out);
-    const fresh=shuffle(src.filter(x=>!P.w[x.w])).slice(0,Math.min(6,RG_ROUND-out.length));
+    const t1=new Set(out),fresh=shuffle(src.filter(x=>!P.w[x.w]&&!t1.has(x))).slice(0,Math.max(0,Math.min(6,RG_ROUND-out.length)));
     out=out.concat(fresh);const taken=new Set(out);src=src.filter(x=>!taken.has(x)&&!rgDue(x.w));
-    if(out.length>=RG_ROUND)return shuffle(out)}
+    if(out.length>=RG_ROUND)return shuffle(out.slice(0,RG_ROUND))}
   const wt=x=>{const s=rgSrs(x.w);if(!s)return 3;return Math.max(.4,1+s.bad*2.5-s.ok*.6+(x.hard?1:0)+(rgDue(x.w)?3:0))};
   const target=Math.min(RG_ROUND,out.length+src.length);
   while(out.length<target){let r=Math.random()*src.reduce((a,x)=>a+wt(x),0),i=0;for(;i<src.length;i++){r-=wt(src[i]);if(r<=0)break}out.push(src.splice(Math.min(i,src.length-1),1)[0])}
@@ -62,7 +77,7 @@ function rgTable(){let h='<div class="rg-tbl">';
       h+=`<button class="rg-xc" data-card="${r.id}" aria-label="${esc(r.end)}, например ${esc(g+' '+(r.ex1||{}).w)}"><b class="rg-xe">${x.hl?esc(r.end.split(' и ')[0]):esc(x.lab)}</b><span class="rg-xw rg-k-${g}"><span class="rg-xm" aria-hidden="true">${x.em}</span><span>${x.html}</span></span></button>`});
     h+='</div>'}
   return h+'</div>'}
-function rgEntry(){const P=rgP(),dn=rgData().W.filter(x=>rgDue(x.w)).length;
+function rgEntry(){const P=rgP(),dn=rgMy().all.filter(x=>rgDue(x.w)).length;
   return `<button class="rg-entry" data-rg="menu"><span class="rg-drops" aria-hidden="true"><i></i><i></i><i></i></span><span><b>Тренировать</b><small>${dn?dn+' '+plural(dn,'слово','слова','слов')+' пора повторить':'раунд '+RG_ROUND+' слов'}${P.best?' · рекорд '+P.best:''}</small></span><span class="rg-chev" aria-hidden="true">›</span></button>`}
 function showRod(){sayStop();
   view='rod';lesson=null;stopTimers();dock('');document.body.classList.remove('sea');rgCur=null;
@@ -120,10 +135,11 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&rgCur&&view==='rod'
 
 /* ---------- меню игры ---------- */
 function rgMenu(from){if(from)rgFrom=from;sayStop();view='game';stopTimers();rgClose();
-  const D=rgData(),W=D.W,P=rgP(),seen=W.filter(x=>P.w[x.w]).length,k=W.filter(x=>rgKnown(x.w)).length,wk=W.filter(x=>rgWeak(x.w)).length,fresh=W.length-seen,dn=W.filter(x=>rgDue(x.w)).length;
+  const W=rgMy().all,P=rgP(),my=rgPool('my'),myk=my.filter(x=>rgKnown(x.w)).length,seen=W.filter(x=>P.w[x.w]).length,k=W.filter(x=>rgKnown(x.w)).length,wk=W.filter(x=>rgWeak(x.w)).length,fresh=W.length-seen,dn=W.filter(x=>rgDue(x.w)).length;
   const nx=W.map(x=>P.w[x.w]&&rgSrs(x.w)).filter(s=>s&&s.d>Date.now()).sort((a,b)=>a.d-b.d)[0];
-  const hero=dn?`Сначала ${Math.min(dn,RG_ROUND)} из ${dn} ${plural(dn,'слова','слов','слов')}, которые пора повторить, потом новые.`:`Повторять пока нечего${nx?', следующие слова '+rgInDays(nx):''}. Раунд из новых слов и тех, что даются хуже.`;
+  const hero=(dn?`Сначала ${Math.min(dn,RG_ROUND)} из ${dn} ${plural(dn,'слова','слов','слов')}, которые пора повторить, потом новые.`:`Повторять пока нечего${nx?', следующие слова '+rgInDays(nx):''}. Раунд из новых слов и тех, что даются хуже.`)+(my.length?' Несколько слов в каждом раунде — твои из словаря.':'');
   const SETS=[['due','Пора повторить','↻','rg-l-good rg-k-good',dn?dn+' '+plural(dn,'слово ждёт','слова ждут','слов ждут')+' повторения':'на сегодня всё повторено'],
+    ['my','Мои слова','★','rg-l-vio rg-k-vio',my.length?my.length+' '+plural(my.length,'слово','слова','слов')+' из словаря'+(myk?', выучено '+myk:''):'сохрани слова в словаре, и они появятся здесь'],
     ['weak','Мои ошибки','×','rg-l-die rg-k-die',wk?'повторить '+wk+' '+plural(wk,'слово','слова','слов'):'пока нет'],
     ['new','Новые слова','+','rg-l-der rg-k-der',fresh+' ещё не встречались'],
     ['hard','С занятий','!','rg-l-das rg-k-das',rgPool('hard').length+' слов, где ошибалась на занятиях'],
@@ -137,6 +153,10 @@ function rgMenu(from){if(from)rgFrom=from;sayStop();view='game';stopTimers();rgC
   $('rgback').onclick=rgBack;
   app.querySelectorAll('[data-start]').forEach(b=>b.onclick=()=>rgStart(b.dataset.start));
   window.scrollTo(0,0)}
+/* для карточки слова в словаре: путаешь ли род в «Тренировать» */
+function rgWordNote(e){try{const w=stripArt(String(e.own&&e.own.de||e.de||'')).trim();if(!/^[A-ZÄÖÜ]/.test(w))return '';const s=rgP().w[w];if(!s||!s.bad)return '';
+  if(rgKnown(w))return `<p class="wnote">Род уже не путаешь: в «Тренировать» ${s.ok} ${plural(s.ok,'верный ответ','верных ответа','верных ответов')}.</p>`;
+  return `<p class="wnote rg-wn">Путаешь род: ${s.bad} ${plural(s.bad,'ошибка','ошибки','ошибок')} в «Тренировать». Слово чаще попадается в раундах.</p>`}catch(_){return ''}}
 function rgBack(){rgStop();if(rgFrom==='rod')return showRod();if(rgFrom&&rgFrom.startsWith('rule:')){showRod();rgOpen(rgData().R[+rgFrom.slice(5)]);return}showHome()}
 
 /* ---------- раунд ---------- */

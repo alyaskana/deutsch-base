@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-11-11",
+  "generated_for": "2026-11-12",
   "rules": {
     "window_days": 21,
     "stuck": {
@@ -33,7 +33,7 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "11 ошибок/затруднений за 21 дн.",
+      "reason": "9 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 5,
         "error": 15,
@@ -283,7 +283,7 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "10 ошибок/затруднений за 21 дн.",
+      "reason": "8 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 4,
         "error": 24,
