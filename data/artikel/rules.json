@@ -1,0 +1,1535 @@
+[
+ {
+  "g": "der",
+  "end": "-er",
+  "m": [
+   "🐹",
+   "der Hamster",
+   "хомяк"
+  ],
+  "re": "er$",
+  "weak": 1,
+  "list": null,
+  "pct": {
+   "der": 67,
+   "die": 12,
+   "das": 21
+  },
+  "lead": "Две трети слов на -er мужского рода. Сильнее всего правило работает для людей и приборов.",
+  "sec": {
+   "der": "Люди от глаголов: fahren → der Fahrer, spielen → der Spieler. Приборы: der Computer, der Fernseher. Бытовые вещи: der Teller, der Becher, der Pullover. Месяцы: der Oktober.",
+   "die": "Женщины в семье: die Mutter, die Schwester, die Tochter. Части тела: die Schulter, die Leber (но der Körper, der Finger). Плюс die Feder (перо), die Butter, die Nummer.",
+   "das": "Вещества: das Wasser, das Silber, das Feuer. Вещи на -ier: das Bier, das Papier (люди на -ier — der: der Passagier). И важные отдельные: das Fenster, das Zimmer, das Messer, das Theater."
+  },
+  "ex": [
+   "der Fahrer:водитель",
+   "der Teller:тарелка",
+   "die Mutter:мама",
+   "das Messer:нож"
+  ],
+  "ex1": {
+   "emoji": "💻",
+   "w": "Computer",
+   "hl": "er",
+   "label": "",
+   "ru": "компьютер"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-or",
+  "m": [
+   "🐊",
+   "der Alligator",
+   "аллигатор"
+  ],
+  "re": "or$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -or мужского рода. Исключения всего два.",
+  "sec": {
+   "der": "Профессии: der Doktor, der Professor, der Direktor. Машины: der Motor, der Monitor, der Traktor.",
+   "das": "das Tor (ворота), das Labor (лаборатория)."
+  },
+  "ex": [
+   "der Motor:мотор",
+   "der Doktor:доктор",
+   "der Traktor:трактор",
+   "das Tor:ворота"
+  ],
+  "ex1": {
+   "emoji": "🚜",
+   "w": "Traktor",
+   "hl": "or",
+   "label": "",
+   "ru": "трактор"
+  }
+ },
+ {
+  "g": "der",
+  "end": "Напитки",
+  "m": [
+   "🦩",
+   "der Flamingo",
+   "фламинго"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "wein",
+   "whisky",
+   "alkohol",
+   "kaffee",
+   "tee",
+   "bier"
+  ],
+  "pct": null,
+  "lead": "Алкоголь и горячие напитки мужского рода. Исключение одно, и оно всем известно.",
+  "sec": {
+   "der": "der Wein, der Sekt, der Wodka, der Whisky, der Kaffee, der Tee, der Kakao.",
+   "das": "das Bier."
+  },
+  "ex": [
+   "der Sekt:игристое",
+   "der Kakao:какао"
+  ],
+  "ex1": {
+   "emoji": "☕",
+   "w": "Kaffee",
+   "hl": "",
+   "label": "Напитки",
+   "ru": "кофе"
+  }
+ },
+ {
+  "g": "der",
+  "end": "Короткие и колючие",
+  "m": [
+   "🦀",
+   "der Krebs",
+   "рак"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "kopf",
+   "zahn",
+   "hals",
+   "arm",
+   "bauch",
+   "schmerz",
+   "markt",
+   "sport",
+   "film",
+   "test",
+   "plan",
+   "stift",
+   "brief",
+   "platz",
+   "zug",
+   "park",
+   "strom",
+   "staub",
+   "müll",
+   "herd",
+   "flur",
+   "stuhl",
+   "schrank",
+   "rock",
+   "hut",
+   "schuh",
+   "fisch",
+   "reis",
+   "lachs",
+   "pilz",
+   "keks",
+   "hand",
+   "wand",
+   "stadt",
+   "milch",
+   "wurst",
+   "bett",
+   "bad",
+   "haus",
+   "buch",
+   "kind",
+   "öl",
+   "eis",
+   "geld",
+   "bild",
+   "brot",
+   "fleisch",
+   "hemd",
+   "kleid",
+   "ding",
+   "jahr",
+   "boot",
+   "schiff",
+   "spiel"
+  ],
+  "pct": {
+   "der": 61,
+   "die": 13,
+   "das": 26
+  },
+  "lead": "Короткие слова в один слог, которые начинаются и кончаются согласной, чаще мужского рода. Чем больше согласных в начале, тем вероятнее der.",
+  "sec": {
+   "der": "der Kopf, der Zahn, der Grund, der Stift, der Krebs. Sch + согласная почти всегда der: der Schmerz, der Schrank, der Schnee.",
+   "die": "Часто на -t: die Stadt, die Welt, die Post, die Luft, die Wand, die Hand.",
+   "das": "Вещества: das Glas, das Gold, das Öl, das Fett, das Blut. Детёныши: das Kind, das Kalb, das Lamm. Заимствования: das Team, das Steak. И разное: das Bett, das Haus, das Buch."
+  },
+  "ex": [
+   "der Frosch:лягушка",
+   "die Welt:мир",
+   "das Glas:стакан, стекло"
+  ],
+  "ex1": {
+   "emoji": "🪑",
+   "w": "Stuhl",
+   "hl": "",
+   "label": "Короткие",
+   "ru": "стул"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-en",
+  "m": [
+   "🐆",
+   "der Gepard",
+   "гепард"
+  ],
+  "re": "[^h]en$",
+  "weak": 1,
+  "list": null,
+  "pct": {
+   "der": 81,
+   "das": 19
+  },
+  "lead": "Если убрать глаголы-существительные (das Essen) и уменьшительные (das Mädchen), слова на -en почти все мужского рода.",
+  "sec": {
+   "der": "der Garten, der Kuchen, der Rücken, der Boden, der Ofen, der Laden, der Schinken, der Husten.",
+   "das": "Постельное: das Kissen, das Laken. Глагол как слово: das Essen, das Leben. И das Zeichen, das Becken."
+  },
+  "ex": [
+   "der Wagen:машина, вагон",
+   "der Hafen:порт",
+   "das Laken:простыня"
+  ],
+  "ex1": {
+   "emoji": "🌳",
+   "w": "Garten",
+   "hl": "en",
+   "label": "",
+   "ru": "сад"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-el",
+  "m": [
+   "🦔",
+   "der Igel",
+   "ёж"
+  ],
+  "re": "el$",
+  "weak": 1,
+  "list": null,
+  "pct": {
+   "der": 60,
+   "die": 24,
+   "das": 16
+  },
+  "lead": "Больше половины слов на -el мужского рода. Но многое съедобное на -el — женского.",
+  "sec": {
+   "der": "der Schlüssel, der Mantel, der Spiegel, der Löffel, der Artikel, der Onkel. Животные: der Esel, der Igel.",
+   "die": "Еда: die Kartoffel, die Zwiebel, die Waffel, die Nudel (но der Spargel, der Knödel). И die Regel, die Ampel, die Gabel.",
+   "das": "das Hotel, das Kabel, das Rätsel, das Mittel (das Lebensmittel)."
+  },
+  "ex": [
+   "der Löffel:ложка",
+   "die Nudel:макарона",
+   "die Gabel:вилка",
+   "das Kabel:кабель"
+  ],
+  "ex1": {
+   "emoji": "🔑",
+   "w": "Schlüssel",
+   "hl": "el",
+   "label": "",
+   "ru": "ключ"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-nd",
+  "m": [
+   "🐕",
+   "der Hund",
+   "собака"
+  ],
+  "re": "nd$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Почти все слова на -nd мужского рода.",
+  "sec": {
+   "der": "der Hund, der Freund, der Abend, der Grund, der Mund, der Strand, der Sand.",
+   "die": "die Hand, die Wand, die Jugend, die Gegend.",
+   "das": "das Kind, das Land, das Pfund."
+  },
+  "ex": [
+   "der Strand:пляж",
+   "der Sand:песок",
+   "das Land:страна"
+  ],
+  "ex1": {
+   "emoji": "🐕",
+   "w": "Hund",
+   "hl": "nd",
+   "label": "",
+   "ru": "собака"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-ck",
+  "m": [
+   "🦝",
+   "der Waschbär",
+   "енот"
+  ],
+  "re": "ck$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -ck чаще мужского рода. Если не der, то das.",
+  "sec": {
+   "der": "der Rock, der Fleck, der Sack, der Schluck, der Geschmack.",
+   "das": "das Stück (das Frühstück), das Glück, das Gepäck, das Picknick."
+  },
+  "ex": [
+   "der Fleck:пятно",
+   "das Glück:счастье",
+   "das Gepäck:багаж"
+  ],
+  "ex1": {
+   "emoji": "🎒",
+   "w": "Rucksack",
+   "hl": "ck",
+   "label": "",
+   "ru": "рюкзак"
+  }
+ },
+ {
+  "g": "der",
+  "end": "Мужчины",
+  "m": [
+   "🦁",
+   "der Löwe",
+   "лев"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "mann",
+   "freund",
+   "kater",
+   "kollege",
+   "kunde",
+   "chef",
+   "gast",
+   "lehrer",
+   "verkäufer",
+   "mitarbeiter",
+   "mieter",
+   "arzt",
+   "patient",
+   "monteur",
+   "bruder",
+   "vater",
+   "sohn",
+   "onkel",
+   "opa",
+   "herr",
+   "junge",
+   "nachbar",
+   "kellner",
+   "student",
+   "schüler",
+   "fahrer",
+   "partner",
+   "hausmann",
+   "ehemann",
+   "großvater"
+  ],
+  "pct": null,
+  "lead": "Мужчины, самцы и мужские профессии мужского рода, даже на -e: der Junge, der Kollege, der Löwe.",
+  "sec": {
+   "der": "der Mann, der Vater, der Freund, der Kollege, der Kunde, der Arzt, der Kater.",
+   "die": "die Geisel (заложник) — для любого пола.",
+   "das": "das Mitglied (член), das Opfer (жертва)."
+  },
+  "ex": [
+   "der Junge:мальчик",
+   "der Vater:отец",
+   "das Mitglied:член клуба"
+  ],
+  "ex1": {
+   "emoji": "👨",
+   "w": "Mann",
+   "hl": "",
+   "label": "Мужчины",
+   "ru": "мужчина; муж"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-ag",
+  "m": [
+   "🦈",
+   "der Hai",
+   "акула"
+  ],
+  "re": "ag$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -ag всегда мужского рода. Исключений нет.",
+  "sec": {
+   "der": "der Tag, der Montag, der Vortrag, der Vertrag, der Betrag, der Schlag."
+  },
+  "ex": [
+   "der Vertrag:договор",
+   "der Betrag:сумма"
+  ],
+  "ex1": {
+   "emoji": "📅",
+   "w": "Montag",
+   "hl": "ag",
+   "label": "",
+   "ru": "понедельник"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-uch",
+  "m": [
+   "🦍",
+   "der Gorilla",
+   "горилла"
+  ],
+  "re": "uch$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -uch мужского рода, кроме трёх.",
+  "sec": {
+   "der": "der Bauch, der Besuch, der Versuch, der Rauch.",
+   "die": "die Couch.",
+   "das": "das Buch, das Tuch (das Handtuch)."
+  },
+  "ex": [
+   "der Besuch:визит",
+   "der Versuch:попытка"
+  ],
+  "ex1": {
+   "emoji": "💨",
+   "w": "Rauch",
+   "hl": "uch",
+   "label": "",
+   "ru": "дым"
+  }
+ },
+ {
+  "g": "der",
+  "end": "Погода",
+  "m": [
+   "🐧",
+   "der Pinguin",
+   "пингвин"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "schnee",
+   "regen",
+   "wind",
+   "wetter",
+   "wolke"
+  ],
+  "pct": null,
+  "lead": "Осадки, ветра и бури мужского рода.",
+  "sec": {
+   "der": "der Regen, der Schnee, der Wind, der Sturm, der Blitz, der Nebel.",
+   "die": "die Brise (лёгкий ветерок).",
+   "das": "Общие слова: das Wetter, das Gewitter."
+  },
+  "ex": [
+   "der Regen:дождь",
+   "der Wind:ветер",
+   "der Sturm:буря",
+   "das Wetter:погода"
+  ],
+  "ex1": {
+   "emoji": "🌧️",
+   "w": "Regen",
+   "hl": "",
+   "label": "Погода",
+   "ru": "дождь"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-ant -ent -eur",
+  "m": [
+   "🐘",
+   "der Elefant",
+   "слон"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "patient",
+   "monteur",
+   "passagier",
+   "prozent",
+   "croissant"
+  ],
+  "pct": null,
+  "lead": "Люди на -ant, -ent, -eur, -ist мужского рода. Не люди — уже нет.",
+  "sec": {
+   "der": "der Elefant, der Praktikant, der Patient, der Student, der Monteur, der Friseur, der Tourist.",
+   "das": "Французские слова и не люди: das Restaurant, das Croissant, das Prozent, das Talent."
+  },
+  "ex": [
+   "der Praktikant:стажёр",
+   "der Student:студент",
+   "das Restaurant:ресторан"
+  ],
+  "ex1": {
+   "emoji": "🐘",
+   "w": "Elefant",
+   "hl": "ant",
+   "label": "",
+   "ru": "слон"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-all",
+  "m": [
+   "🐬",
+   "der Delfin",
+   "дельфин"
+  ],
+  "re": "all$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -all мужского рода, исключений два.",
+  "sec": {
+   "der": "der Ball, der Fußball, der Fall, der Unfall, der Abfall, der Stall.",
+   "die": "die Nachtigall (соловей).",
+   "das": "das Metall — металлы всегда das."
+  },
+  "ex": [
+   "der Unfall:авария",
+   "der Abfall:мусор",
+   "das Metall:металл"
+  ],
+  "ex1": {
+   "emoji": "⚽",
+   "w": "Ball",
+   "hl": "all",
+   "label": "",
+   "ru": "мяч"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-ig -ich",
+  "m": [
+   "🐺",
+   "der Wolf",
+   "волк"
+  ],
+  "re": "(ig|ich)$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -ig и -ich мужского рода. Числа — отдельная история.",
+  "sec": {
+   "der": "der Honig, der Teppich, der König, der Essig, der Teig.",
+   "die": "Числа: die Zwanzig, die Fünfzig.",
+   "das": "das Reich, das Sandwich."
+  },
+  "ex": [
+   "der Honig:мёд",
+   "der König:король",
+   "das Sandwich:сэндвич"
+  ],
+  "ex1": {
+   "emoji": "🍯",
+   "w": "Honig",
+   "hl": "ig",
+   "label": "",
+   "ru": "мёд"
+  }
+ },
+ {
+  "g": "der",
+  "end": "-ling",
+  "m": [
+   "🦋",
+   "der Schmetterling",
+   "бабочка"
+  ],
+  "re": "ling$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -ling всегда мужского рода. Не путать с английскими -ing: das Meeting.",
+  "sec": {
+   "der": "der Frühling, der Liebling, der Lehrling, der Zwilling, der Schmetterling."
+  },
+  "ex": [
+   "der Liebling:любимчик",
+   "der Zwilling:близнец"
+  ],
+  "ex1": {
+   "emoji": "🦋",
+   "w": "Schmetterling",
+   "hl": "ling",
+   "label": "",
+   "ru": "бабочка"
+  }
+ },
+ {
+  "g": "der",
+  "end": "Время",
+  "m": [
+   "🐻",
+   "der Bär",
+   "медведь"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "tag",
+   "abend",
+   "morgen",
+   "monat",
+   "vormittag",
+   "mittag",
+   "nachmittag",
+   "dezember",
+   "sommer",
+   "winter",
+   "frühling",
+   "woche",
+   "jahr",
+   "stunde",
+   "wochenende",
+   "montag",
+   "dienstag",
+   "mittwoch",
+   "donnerstag",
+   "freitag",
+   "samstag",
+   "sonntag",
+   "januar",
+   "februar",
+   "märz",
+   "april",
+   "mai",
+   "juni",
+   "juli",
+   "august",
+   "september",
+   "oktober",
+   "november",
+   "herbst",
+   "nacht",
+   "minute",
+   "sekunde",
+   "wochentag",
+   "feiertag"
+  ],
+  "pct": null,
+  "lead": "Дни, месяцы, времена года и части суток мужского рода. Главная ловушка — ночь.",
+  "sec": {
+   "der": "der Montag, der Januar, der Sommer, der Morgen, der Mittag, der Abend. И сами слова der Tag, der Monat.",
+   "die": "die Nacht. И другие единицы времени: die Woche, die Stunde, die Zeit.",
+   "das": "das Jahr, das Wochenende."
+  },
+  "ex": [
+   "der Herbst:осень",
+   "die Nacht:ночь"
+  ],
+  "ex1": {
+   "emoji": "❄️",
+   "w": "Winter",
+   "hl": "",
+   "label": "Время",
+   "ru": "зима"
+  }
+ },
+ {
+  "g": "der",
+  "end": "Глагол без суффикса",
+  "m": [
+   "🦊",
+   "der Fuchs",
+   "лиса"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "wunsch",
+   "zug",
+   "bericht",
+   "beruf",
+   "vortrag",
+   "fall",
+   "stau",
+   "abflug",
+   "verbot"
+  ],
+  "pct": null,
+  "lead": "Если существительное — это голая основа глагола, оно обычно мужского рода.",
+  "sec": {
+   "der": "wünschen → der Wunsch, ziehen → der Zug, berichten → der Bericht, fliegen → der Flug.",
+   "das": "das Verbot, das Angebot."
+  },
+  "ex": [
+   "der Schlaf:сон",
+   "der Kauf:покупка",
+   "der Anruf:звонок"
+  ],
+  "ex1": {
+   "emoji": "✈️",
+   "w": "Flug",
+   "hl": "",
+   "label": "От глагола",
+   "ru": "рейс, полёт"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-e",
+  "m": [
+   "🦒",
+   "die Giraffe",
+   "жираф"
+  ],
+  "re": "e$",
+  "weak": 1,
+  "list": null,
+  "pct": {
+   "der": 10,
+   "die": 85,
+   "das": 5
+  },
+  "lead": "Около 85% слов на -e женского рода. Это самое полезное правило из всех.",
+  "sec": {
+   "die": "die Küche, die Lampe, die Tasche, die Straße. Птицы тоже: die Ente, die Eule, die Taube.",
+   "der": "Мужчины и многие звери: der Junge, der Kollege, der Kunde, der Löwe, der Affe, der Hase. И слова: der Name, der Käse, der Kaffee, der Tee.",
+   "das": "das Auge, das Ende, das Knie. Слова на Ge-: das Gemüse, das Gebäude. Заимствования: das Image."
+  },
+  "ex": [
+   "die Straße:улица",
+   "der Junge:мальчик",
+   "das Ende:конец",
+   "das Gebäude:здание"
+  ],
+  "ex1": {
+   "emoji": "👜",
+   "w": "Tasche",
+   "hl": "e",
+   "label": "",
+   "ru": "сумка"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-nz",
+  "m": [
+   "🦭",
+   "die Robbe",
+   "тюлень"
+  ],
+  "re": "nz$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -nz из двух слогов и больше женского рода.",
+  "sec": {
+   "die": "die Eleganz, die Konferenz, die Toleranz, die Tendenz, die Distanz.",
+   "der": "Односложные: der Tanz, der Prinz, der Glanz."
+  },
+  "ex": [
+   "die Konferenz:конференция",
+   "die Distanz:дистанция",
+   "der Tanz:танец"
+  ],
+  "ex1": {
+   "emoji": "🎤",
+   "w": "Konferenz",
+   "hl": "nz",
+   "label": "",
+   "ru": "конференция"
+  }
+ },
+ {
+  "g": "die",
+  "end": "Фрукты",
+  "m": [
+   "🐛",
+   "die Raupe",
+   "гусеница"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "birne",
+   "erdbeere",
+   "banane",
+   "ananas",
+   "mango",
+   "kiwi",
+   "zitrone",
+   "beere",
+   "apfel",
+   "obst",
+   "blume",
+   "orange"
+  ],
+  "pct": null,
+  "lead": "Почти все фрукты, ягоды и цветы женского рода.",
+  "sec": {
+   "die": "die Banane, die Birne, die Kiwi, die Ananas, die Nuss, die Mandel, die Rose.",
+   "der": "der Apfel, der Pfirsich.",
+   "das": "das Obst — фрукты вообще."
+  },
+  "ex": [
+   "die Nuss:орех",
+   "die Rose:роза",
+   "der Pfirsich:персик"
+  ],
+  "ex1": {
+   "emoji": "🍌",
+   "w": "Banane",
+   "hl": "",
+   "label": "Фрукты",
+   "ru": "банан"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-ion",
+  "m": [
+   "🐝",
+   "die Biene",
+   "пчела"
+  ],
+  "re": "ion$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -ion женского рода. Обычно это русские «-ция».",
+  "sec": {
+   "die": "die Station, die Information, die Emotion, die Nation.",
+   "das": "das Stadion — единственное частое исключение."
+  },
+  "ex": [
+   "die Emotion:эмоция",
+   "die Nation:нация",
+   "das Stadion:стадион"
+  ],
+  "ex1": {
+   "emoji": "🚉",
+   "w": "Station",
+   "hl": "ion",
+   "label": "",
+   "ru": "станция"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-heit -keit",
+  "m": [
+   "🦉",
+   "die Eule",
+   "сова"
+  ],
+  "re": "(heit|keit)$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -heit и -keit всегда женского рода. Обычно это русские «-ость» и «-ство».",
+  "sec": {
+   "die": "die Gesundheit, die Möglichkeit, die Freiheit, die Schönheit, die Süßigkeit."
+  },
+  "ex": [
+   "die Freiheit:свобода",
+   "die Schönheit:красота"
+  ],
+  "ex1": {
+   "emoji": "🍬",
+   "w": "Süßigkeit",
+   "hl": "keit",
+   "label": "",
+   "ru": "сладость"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-ung",
+  "m": [
+   "🐢",
+   "die Schildkröte",
+   "черепаха"
+  ],
+  "re": "ung$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -ung женского рода почти без исключений.",
+  "sec": {
+   "die": "die Wohnung, die Zeitung, die Kleidung, die Rechnung, die Heizung.",
+   "der": "Пара коротких: der Sprung, der Schwung."
+  },
+  "ex": [
+   "die Überraschung:сюрприз",
+   "der Sprung:прыжок"
+  ],
+  "ex1": {
+   "emoji": "📰",
+   "w": "Zeitung",
+   "hl": "ung",
+   "label": "",
+   "ru": "газета"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-in",
+  "m": [
+   "🐈",
+   "die Katze",
+   "кошка"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "freundin",
+   "kollegin",
+   "kundin",
+   "verkäuferin",
+   "termin",
+   "vitamin",
+   "jasmin",
+   "partnerin",
+   "nachbarin",
+   "kellnerin",
+   "lehrerin",
+   "studentin",
+   "schülerin",
+   "ärztin",
+   "frau",
+   "mutter",
+   "tochter",
+   "schwester",
+   "tante",
+   "oma",
+   "dame",
+   "ehefrau",
+   "großmutter"
+  ],
+  "pct": null,
+  "lead": "Женская форма на -in всегда женского рода: der Lehrer → die Lehrerin. Если -in не женщина, правило не работает.",
+  "sec": {
+   "die": "die Lehrerin, die Freundin, die Kollegin, die Ärztin, die Architektin.",
+   "der": "der Termin, der Jasmin.",
+   "das": "das Vitamin, das Magazin, das Benzin."
+  },
+  "ex": [
+   "die Ärztin:врач (ж)",
+   "das Magazin:журнал"
+  ],
+  "ex1": {
+   "emoji": "👩‍🏫",
+   "w": "Lehrerin",
+   "hl": "in",
+   "label": "",
+   "ru": "учительница"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-ur",
+  "m": [
+   "🐄",
+   "die Kuh",
+   "корова"
+  ],
+  "re": "ur$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -ur в основном женского рода.",
+  "sec": {
+   "die": "die Natur, die Kultur, die Reparatur, die Temperatur, die Frisur.",
+   "der": "-eur всегда der: der Monteur, der Friseur. И der Flur.",
+   "das": "das Abitur."
+  },
+  "ex": [
+   "die Natur:природа",
+   "die Frisur:причёска",
+   "das Abitur:аттестат"
+  ],
+  "ex1": {
+   "emoji": "🌿",
+   "w": "Natur",
+   "hl": "ur",
+   "label": "",
+   "ru": "природа"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-schaft",
+  "m": [
+   "🐭",
+   "die Maus",
+   "мышь"
+  ],
+  "re": "schaft$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -schaft всегда женского рода.",
+  "sec": {
+   "die": "die Wissenschaft, die Freundschaft, die Mannschaft, die Wirtschaft."
+  },
+  "ex": [
+   "die Freundschaft:дружба",
+   "die Mannschaft:команда"
+  ],
+  "ex1": {
+   "emoji": "🤝",
+   "w": "Freundschaft",
+   "hl": "schaft",
+   "label": "",
+   "ru": "дружба"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-ik",
+  "m": [
+   "🦗",
+   "die Grille",
+   "сверчок"
+  ],
+  "re": "ik$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -ik женского рода. Обычно это русские «-ика».",
+  "sec": {
+   "die": "die Musik, die Technik, die Elektronik, die Grammatik, die Statistik.",
+   "das": "das Mosaik."
+  },
+  "ex": [
+   "die Grammatik:грамматика",
+   "die Statistik:статистика"
+  ],
+  "ex1": {
+   "emoji": "🎵",
+   "w": "Musik",
+   "hl": "ik",
+   "label": "",
+   "ru": "музыка"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-tät",
+  "m": [
+   "🐜",
+   "die Ameise",
+   "муравей"
+  ],
+  "re": "tät$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -tät всегда женского рода. Обычно это русские «-тет».",
+  "sec": {
+   "die": "die Universität, die Qualität, die Nationalität, die Realität."
+  },
+  "ex": [
+   "die Nationalität:национальность",
+   "die Realität:реальность"
+  ],
+  "ex1": {
+   "emoji": "🎓",
+   "w": "Universität",
+   "hl": "tät",
+   "label": "",
+   "ru": "университет"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-ei",
+  "m": [
+   "🐔",
+   "die Henne",
+   "курица"
+  ],
+  "re": "ei$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Ударное -ei на конце женского рода: места и занятия.",
+  "sec": {
+   "die": "die Bäckerei, die Polizei, die Bücherei, die Türkei.",
+   "der": "der Papagei, der Brei.",
+   "das": "das Ei — тут -ei не суффикс."
+  },
+  "ex": [
+   "die Bäckerei:пекарня",
+   "die Polizei:полиция",
+   "das Ei:яйцо"
+  ],
+  "ex1": {
+   "emoji": "🥨",
+   "w": "Bäckerei",
+   "hl": "ei",
+   "label": "",
+   "ru": "пекарня"
+  }
+ },
+ {
+  "g": "die",
+  "end": "-a",
+  "m": [
+   "🐍",
+   "die Schlange",
+   "змея"
+  ],
+  "re": "a$",
+  "weak": 1,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -a обычно женского рода, как в русском.",
+  "sec": {
+   "die": "die Pizza, die Kamera, die Firma, die Paprika, die Oma.",
+   "das": "das Sofa и греческие на -ma: das Thema, das Klima, das Komma."
+  },
+  "ex": [
+   "die Oma:бабушка",
+   "das Thema:тема"
+  ],
+  "ex1": {
+   "emoji": "🍕",
+   "w": "Pizza",
+   "hl": "a",
+   "label": "",
+   "ru": "пицца"
+  }
+ },
+ {
+  "g": "das",
+  "end": "-um",
+  "m": [
+   "🦓",
+   "das Zebra",
+   "зебра"
+  ],
+  "re": "um$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Почти все слова на -um среднего рода.",
+  "sec": {
+   "das": "das Museum, das Zentrum, das Datum, das Studium, das Eigentum.",
+   "der": "-aum всегда der: der Baum, der Raum, der Traum. И der Konsum."
+  },
+  "ex": [
+   "der Baum:дерево",
+   "der Traum:мечта, сон"
+  ],
+  "ex1": {
+   "emoji": "🏛️",
+   "w": "Museum",
+   "hl": "um",
+   "label": "",
+   "ru": "музей"
+  }
+ },
+ {
+  "g": "das",
+  "end": "Ge-",
+  "m": [
+   "🐑",
+   "das Schaf",
+   "овца"
+  ],
+  "re": "^ge.",
+  "weak": 1,
+  "list": null,
+  "pct": {
+   "das": 60
+  },
+  "lead": "Около 60% слов на Ge- среднего рода, особенно собирательные.",
+  "sec": {
+   "das": "das Gemüse, das Geschirr, das Gesicht, das Geschäft, das Getränk, das Geheimnis, das Gebäude.",
+   "der": "der Geschmack, der Gedanke. Люди: der Gefangene. Составные не в счёт: der Geburtstag.",
+   "die": "С женскими суффиксами: die Gesundheit, die Gesellschaft. И выучить: die Gefahr, die Geburt, die Geschichte, die Gegend."
+  },
+  "ex": [
+   "das Geschenk:подарок",
+   "die Gefahr:опасность",
+   "der Gedanke:мысль"
+  ],
+  "ex1": {
+   "emoji": "🥦",
+   "w": "Gemüse",
+   "hl": "^Ge",
+   "label": "",
+   "ru": "овощи"
+  }
+ },
+ {
+  "g": "das",
+  "end": "Металлы",
+  "m": [
+   "🐪",
+   "das Kamel",
+   "верблюд"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "wasser",
+   "öl",
+   "bier",
+   "eis",
+   "geld"
+  ],
+  "pct": null,
+  "lead": "Все металлы среднего рода. Многие вещества тоже.",
+  "sec": {
+   "das": "das Gold, das Silber, das Kupfer, das Metall. Вещества: das Wasser, das Öl, das Papier, das Glas."
+  },
+  "ex": [
+   "das Gold:золото",
+   "das Silber:серебро",
+   "das Papier:бумага"
+  ],
+  "ex1": {
+   "emoji": "🥇",
+   "w": "Gold",
+   "hl": "",
+   "label": "Металлы",
+   "ru": "золото"
+  }
+ },
+ {
+  "g": "das",
+  "end": "-o -ma -em",
+  "m": [
+   "🦘",
+   "das Känguru",
+   "кенгуру"
+  ],
+  "re": "(o|ma|em)$",
+  "weak": 1,
+  "list": null,
+  "pct": {
+   "das": 60
+  },
+  "lead": "Слова на -o и греческие на -ma, -em в основном среднего рода.",
+  "sec": {
+   "das": "das Kino, das Auto, das Radio, das Video, das Büro, das Konto, das Thema, das Problem.",
+   "der": "Горячие напитки: der Kakao, der Espresso. И der Euro, der Zoo.",
+   "die": "Фрукты: die Mango, die Avocado. Сокращения: die Disko, die Limo, die Info. И die Firma."
+  },
+  "ex": [
+   "das Konto:счёт в банке",
+   "der Zoo:зоопарк",
+   "die Limo:лимонад"
+  ],
+  "ex1": {
+   "emoji": "🚗",
+   "w": "Auto",
+   "hl": "o",
+   "label": "",
+   "ru": "машина"
+  }
+ },
+ {
+  "g": "das",
+  "end": "-chen и детёныши",
+  "m": [
+   "🐿️",
+   "das Eichhörnchen",
+   "белка"
+  ],
+  "re": "(chen|lein)$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Уменьшительные -chen и -lein всегда среднего рода, даже у людей. Дети и детёныши тоже das.",
+  "sec": {
+   "das": "das Mädchen, das Brötchen, das Häuschen. Дети: das Kind, das Baby, das Kalb, das Lamm, das Küken.",
+   "der": "der Kuchen, der Knochen — тут -chen не суффикс. И der Welpe (щенок)."
+  },
+  "ex": [
+   "das Baby:малыш",
+   "das Küken:цыплёнок",
+   "der Welpe:щенок"
+  ],
+  "ex1": {
+   "emoji": "👧",
+   "w": "Mädchen",
+   "hl": "chen",
+   "label": "",
+   "ru": "девочка, девушка"
+  }
+ },
+ {
+  "g": "das",
+  "end": "Языки",
+  "m": [
+   "🐇",
+   "das Kaninchen",
+   "кролик"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [],
+  "pct": null,
+  "lead": "Все языки среднего рода, когда это существительное.",
+  "sec": {
+   "das": "das Deutsch, das Englisch, das Russisch. С артиклем: das Deutsche."
+  },
+  "ex": [
+   "das Deutsch:немецкий язык",
+   "das Englisch:английский язык",
+   "das Russisch:русский язык"
+  ],
+  "ex1": {
+   "emoji": "🗣️",
+   "w": "Deutsch",
+   "hl": "",
+   "label": "Языки",
+   "ru": "немецкий язык"
+  }
+ },
+ {
+  "g": "das",
+  "end": "-ment",
+  "m": [
+   "🐴",
+   "das Pferd",
+   "лошадь"
+  ],
+  "re": "ment$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -ment среднего рода. Но просто -ent у людей — der.",
+  "sec": {
+   "das": "das Medikament, das Dokument, das Instrument, das Experiment, das Parlament.",
+   "der": "der Moment, der Zement."
+  },
+  "ex": [
+   "das Dokument:документ",
+   "der Moment:момент"
+  ],
+  "ex1": {
+   "emoji": "🎻",
+   "w": "Instrument",
+   "hl": "ment",
+   "label": "",
+   "ru": "музыкальный инструмент"
+  }
+ },
+ {
+  "g": "das",
+  "end": "-ing и заимствования",
+  "m": [
+   "🦙",
+   "das Lama",
+   "лама"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "meeting",
+   "café",
+   "theater",
+   "kino",
+   "fitnessstudio",
+   "internet",
+   "t-shirt",
+   "outfit",
+   "dessert",
+   "app",
+   "e-mail",
+   "couch",
+   "laptop",
+   "party"
+  ],
+  "pct": null,
+  "lead": "Английские слова на -ing среднего рода. Кафе, кино и отели тоже. Другие заимствования часто берут род немецкого перевода.",
+  "sec": {
+   "das": "das Meeting, das Training, das Marketing, das Café, das Kino, das Hotel, das Restaurant.",
+   "der": "der Pudding. По переводу: der Laptop (der Computer).",
+   "die": "По переводу: die App (die Anwendung), die E-Mail (die Post), die Party (die Feier). И die Couch."
+  },
+  "ex": [
+   "das Training:тренировка",
+   "das Hotel:отель",
+   "der Pudding:пудинг"
+  ],
+  "ex1": {
+   "emoji": "🏋️",
+   "w": "Training",
+   "hl": "ing",
+   "label": "",
+   "ru": "тренировка"
+  }
+ },
+ {
+  "g": "das",
+  "end": "Глагол как слово",
+  "m": [
+   "🐖",
+   "das Schwein",
+   "свинья"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [
+   "essen",
+   "abendessen"
+  ],
+  "pct": null,
+  "lead": "Любой глагол можно сделать существительным, и оно будет среднего рода.",
+  "sec": {
+   "das": "lernen → das Lernen, essen → das Essen, schwimmen → das Schwimmen, leben → das Leben."
+  },
+  "ex": [
+   "das Lernen:учёба",
+   "das Schwimmen:плавание",
+   "das Leben:жизнь"
+  ],
+  "ex1": {
+   "emoji": "🍽️",
+   "w": "Essen",
+   "hl": "",
+   "label": "Глагол",
+   "ru": "еда"
+  }
+ },
+ {
+  "g": "das",
+  "end": "-al",
+  "m": [
+   "🦛",
+   "das Nilpferd",
+   "бегемот"
+  ],
+  "re": "al$",
+  "weak": 0,
+  "list": null,
+  "pct": {
+   "der": 33,
+   "das": 63
+  },
+  "lead": "Около 60% слов на -al среднего рода.",
+  "sec": {
+   "das": "das Regal, das Tal, das Material, das Personal, das Signal.",
+   "der": "der Schal, der Kanal, der Wal, der Pokal.",
+   "die": "die Moral."
+  },
+  "ex": [
+   "das Material:материал",
+   "der Kanal:канал",
+   "der Wal:кит"
+  ],
+  "ex1": {
+   "emoji": "🗄️",
+   "w": "Regal",
+   "hl": "al",
+   "label": "",
+   "ru": "полка, стеллаж"
+  }
+ },
+ {
+  "g": "das",
+  "end": "Цвета",
+  "m": [
+   "🦄",
+   "das Einhorn",
+   "единорог"
+  ],
+  "re": null,
+  "weak": 0,
+  "list": [],
+  "pct": null,
+  "lead": "Цвета как существительные среднего рода. Прилагательные, ставшие словом, тоже: das Gute, das Neue.",
+  "sec": {
+   "das": "das Rot, das Blau, das Grün, das Schwarz. das Gute, das Neue.",
+   "die": "Само слово «цвет»: die Farbe."
+  },
+  "ex": [
+   "das Rot:красный цвет",
+   "das Grün:зелёный цвет",
+   "die Farbe:цвет"
+  ],
+  "ex1": {
+   "emoji": "🔴",
+   "w": "Rot",
+   "hl": "",
+   "label": "Цвета",
+   "ru": "красный цвет"
+  }
+ },
+ {
+  "g": "das",
+  "end": "-nis",
+  "m": [
+   "🦏",
+   "das Nashorn",
+   "носорог"
+  ],
+  "re": "nis$",
+  "weak": 0,
+  "list": null,
+  "pct": null,
+  "lead": "Слова на -nis примерно поровну среднего и женского рода, у das чуть чаще.",
+  "sec": {
+   "das": "das Geheimnis, das Ergebnis, das Zeugnis.",
+   "die": "die Erlaubnis, die Kenntnis."
+  },
+  "ex": [
+   "das Ergebnis:результат",
+   "das Zeugnis:аттестат"
+  ],
+  "ex1": {
+   "emoji": "📜",
+   "w": "Zeugnis",
+   "hl": "nis",
+   "label": "",
+   "ru": "аттестат, характеристика"
+  }
+ }
+]

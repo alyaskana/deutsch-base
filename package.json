@@ -5,11 +5,12 @@
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "status": "node scripts/status.mjs",
-    "check": "node scripts/validate.mjs && node scripts/status.mjs && node scripts/dict.mjs && node scripts/grammar-map.mjs",
+    "check": "node scripts/validate.mjs && node scripts/status.mjs && node scripts/dict.mjs && node scripts/grammar-map.mjs && node scripts/artikel.mjs",
     "dict": "node scripts/dict.mjs",
     "grammar-map": "node scripts/grammar-map.mjs",
     "page-check": "node scripts/page-check.mjs",
-    "smoke": "node scripts/smoke.mjs"
+    "smoke": "node scripts/smoke.mjs",
+    "artikel": "node scripts/artikel.mjs"
   },
   "devDependencies": {
     "acorn": "^8.19.0",
