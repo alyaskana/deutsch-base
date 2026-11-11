@@ -6,8 +6,9 @@
 // Существительные с уроков (data/words.json), которых нет в words.json, добавляются при сборке с темой «Уроки».
 // Запуск: node scripts/artikel.mjs  →  build/artikel.json
 // Приложение читает его из своей базы: коллекция "lessons", документ "_artikel" (поле j — JSON строкой); копия встроена в страницу.
-// Формат: {v, R:[правила], W:[[слово, g(r|e|s), перевод, тема, уровень, сложное 0/1]], H:{слово: подсказка}}
+// Формат: {v, at (хэш содержимого: приложение берёт копию из базы, только если он другой), R:[правила], W:[[слово, g(r|e|s), перевод, тема, уровень, сложное 0/1]], H:{слово: подсказка}}
 import { readFileSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -70,6 +71,7 @@ if (err.length) {
   console.error("artikel: ошибки\n  " + err.join("\n  "));
   process.exit(1);
 }
-const out = { v: 1, R: rules, W, H: hints };
+const at = createHash("sha1").update(JSON.stringify([rules, W, hints])).digest("hex").slice(0, 10);
+const out = { v: 1, at, R: rules, W, H: hints };
 writeFileSync(join(root, "build/artikel.json"), JSON.stringify(out) + "\n");
 console.log(`artikel: ${rules.length} правил, ${W.length} слов (${words.length} + ${added} с уроков), ${nh} подсказок → build/artikel.json`);

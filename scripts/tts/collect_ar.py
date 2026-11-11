@@ -1,19 +1,23 @@
-"""Collect Artikelregen words ("der Tisch") to voice. Usage: collect_ar.py <extra_words dir> <out.json> [page.html]
-extra_words dir: ArtifactData list out_dir of collection "extra_words" (one JSON per word).
-page.html (optional): the Artikelregen page, to include the WORDS list built into it."""
-import json,glob,re,sys,os
+"""Collect the article game's words ("der Tisch") to voice for Mein Deutsch.
+Usage: collect_ar.py <build/artikel.json> <out.json>
+The game moved from Artikelregen into Mein Deutsch on 2026-11-12: its words (rules, words, hints) are built by
+scripts/artikel.mjs into build/artikel.json; the clips go into Mein Deutsch's own "audio" collection, group "_ar"."""
+import json,sys,os
 sys.path.insert(0,os.path.dirname(__file__))
 from akey import key
-d,out=sys.argv[1],sys.argv[2]
-W=[]
-if len(sys.argv)>3:
-    m=re.search(r'const WORDS = (\[.*?\]);\n',open(sys.argv[3]).read(),re.S);W=json.loads(m.group(1))
-for f in sorted(glob.glob(d+'/*.json')):
-    x=json.load(open(f));W.append(x.get('data',x))
+src,out=sys.argv[1],sys.argv[2]
+A=json.load(open(src))
+G={'r':'der','e':'die','s':'das'}
 items=[];seen=set()
-for w in W:
-    if not w.get('w') or w.get('g') not in ('der','die','das'):continue
-    t=f"{w['g']} {w['w']}";k=key(t)
+def add(t):
+    k=key(t)
     if k not in seen:seen.add(k);items.append([k,t,'d'])
+for w in A['W']:
+    g=G.get(w[1],w[1])
+    if w[0] and g in ('der','die','das'):add(f"{g} {w[0]}")
+for r in A['R']:
+    for s in r.get('ex') or []:
+        a=s.split(':')[0].strip()
+        if a.split(' ')[0] in ('der','die','das'):add(a)
 json.dump([['_ar',items]],open(out,'w'),ensure_ascii=False)
 print('words',len(items))

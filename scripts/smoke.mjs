@@ -8,7 +8,8 @@
 //   4. поля ввода (словарик, «Как сказать», поиск глаголов): быстрый набор
 //      не пересоздаёт поле и не шлёт запрос на каждую букву;
 //   5. тренировка слов: звук прошлого слова не играет на новом экране,
-//      после верного ответа всегда плашка с переводом.
+//      после верного ответа всегда плашка с переводом;
+//   6. «Род слова»: 43 правила, 1005 слов, 693 подсказки, поиск, карточка, раунд «Тренировать» до итога.
 // Выход 1, если есть хоть одна проблема.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -200,6 +201,53 @@ for (const [t, v] of Object.entries(perType)) {
     }
   }
   for (const e of [...new Set(errs)]) bad(`игры: ошибка JS: ${e}`);
+  await page.close();
+}
+
+// «Род слова» и «Тренировать» (перенос Artikelregen, 2026-11-12): ничего из правил не потерялось,
+// поиск не пересоздаёт поле, карточка открывается и листается, раунд доходит до итога и пишет прогресс игры.
+{
+  const { page, errs } = await open();
+  const has = await page.evaluate(() => typeof showRod === 'function' && typeof ARD === 'object');
+  if (!has) console.log('  · род слова: на странице нет, пропуск');
+  else {
+    const c = await page.evaluate(() => ({ r: ARD.R.length, w: ARD.W.length, h: Object.keys(ARD.H).length, sec: ARD.R.filter(r => r.sec && r.lead && r.ex1 && r.ex1.emoji).length }));
+    if (c.r < 43 || c.w < 1005 || c.h < 693 || c.sec < 43) bad(`род слова: правил ${c.r}/43, полных ${c.sec}/43, слов ${c.w}/1005, подсказок ${c.h}/693`);
+    await page.evaluate(() => { showVocab(); }); await page.waitForTimeout(200);
+    await page.click('.vart.der'); await page.waitForTimeout(300);
+    const cells = await page.$$eval('.rg-xc', a => a.length);
+    if (cells < 43) bad(`род слова: в таблице ${cells} ячеек из 43`);
+    const inp = await page.$('#rgq'); await page.evaluate(() => { document.querySelector('#rgq').__k = 1; });
+    await inp.type('unte', { delay: 60 }); await page.waitForTimeout(500);
+    const sg = await page.evaluate(() => ({ same: document.querySelector('#rgq')?.__k === 1, words: [...document.querySelectorAll('.rg-sg .rg-w')].map(x => x.textContent) }));
+    if (!sg.same) bad('род слова: поле поиска пересоздаётся при наборе');
+    if (!sg.words.some(w => /Unterricht/.test(w))) bad(`род слова: на «unte» нет Unterricht (${sg.words.join(', ')})`);
+    await page.click('.rg-sg[data-card]'); await page.waitForTimeout(400);
+    const card = await page.evaluate(() => ({ open: !!document.querySelector('.rg-sheet .rg-card'), lis: document.querySelectorAll('.rg-sheet .rg-gul li').length, pager: document.querySelector('.rg-pager span')?.textContent || '' }));
+    if (!card.open || !card.lis) bad('род слова: карточка правила не открылась или пустая');
+    const p0 = card.pager; await page.evaluate(() => (document.querySelector('.rg-rnd[data-step="1"]:not([disabled])') || document.querySelector('.rg-rnd[data-step="-1"]')).click()); await page.waitForTimeout(300);
+    const p1 = await page.evaluate(() => document.querySelector('.rg-pager span')?.textContent || '');
+    if (p0 === p1) bad('род слова: карточка не листается');
+    await page.evaluate(() => document.querySelector('.rg-sbtn [data-rg="rule"]').click()); await page.waitForTimeout(500);
+    if (!(await page.$('.rg-play .rg-fall'))) bad('род слова: «Тренировать» из карточки не запустил раунд');
+    await page.evaluate(() => { rgStop(); rgMenu('home'); }); await page.waitForTimeout(200);
+    await page.click('[data-start="mix"]'); await page.waitForTimeout(400);
+    const o0 = await page.evaluate(() => __smoke.osc);
+    let n = 0, wrong = 0;
+    for (let k = 0; k < 40; k++) {
+      const r = await page.evaluate(k => { if (typeof RGS === 'undefined' || !RGS || !RGS.cur || RGS.cur.done) return document.querySelector('.rg-play') ? 'wait' : 'end'; const g = RGS.cur.x.g; const ans = k % 7 === 3 ? (g === 'der' ? 'die' : 'der') : g; document.querySelector(`.rg-keys [data-a="${ans}"]`).dispatchEvent(new PointerEvent('pointerdown', { bubbles: true })); return ans === g ? 'ok' : 'bad'; }, k);
+      if (r === 'end') break; if (r === 'ok' || r === 'bad') n++;
+      if (r === 'bad') { wrong++; await page.waitForTimeout(150); const fb = await page.$('.rg-fb [data-next]'); if (!fb) { bad('род слова: после ошибки нет панели с «Дальше»'); break; } await fb.click(); }
+      await page.waitForTimeout(r === 'ok' ? 720 : 200);
+    }
+    await page.waitForTimeout(1500);
+    const res = await page.evaluate(() => ({ done: !!document.querySelector('.rg-res'), art: __store['data/users/me/progress']?.art || null, osc: __smoke.osc }));
+    if (!res.done) bad(`род слова: раунд не дошёл до итога (ответов ${n})`);
+    else if (!res.art || !res.art.rounds || Object.keys(res.art.w || {}).length < 10) bad('род слова: прогресс игры не записан в базу');
+    if (res.osc <= o0) bad('род слова: в раунде нет звука ответа');
+    if (res.done && res.art && res.osc > o0) console.log(`  ✓ род слова: таблица, поиск, карточка, раунд (${n} ответов, ${wrong} ошибок)`);
+  }
+  for (const e of [...new Set(errs)]) bad(`род слова: ошибка JS: ${e}`);
   await page.close();
 }
 
