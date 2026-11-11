@@ -44,7 +44,7 @@
 - `lesson` — ошибка или успех на уроке
 - `chat` — практика с Claude
 - `claude_review` — ошибка на доске, которую репетитор не исправила, а заметил Claude
-- `trainer:<name>` — тренажёры (`trainer:artikelregen`, `trainer:mein-deutsch`, `trainer:padezh`)
+- `trainer:<name>` — тренажёры (`trainer:artikelregen` — игра в артикли, с 2026-11-12 внутри Mein Deutsch, `trainer:mein-deutsch`, `trainer:padezh`)
 
 ## Связь с другими местами
 

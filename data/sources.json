@@ -25,7 +25,8 @@
     },
     "artikelregen": {
       "url": "https://claude.ai/artifact/YQinY1gBWqetVFHmACmRVm",
-      "stats": "collection data/users/me, doc stats"
+      "status": "retired",
+      "note": "закрыт 2026-11-12: правила, слова и подсказки — data/artikel (сборка scripts/artikel.mjs → документ _artikel в Mein Deutsch), игра «Тренировать» и экран «Род слова» — в Mein Deutsch, статистика игры — progress.art; прошлый прогресс перенесён туда же"
     },
     "padezhi": {
       "url": "https://claude.ai/artifact/6ymp1gxbjCnwXRqZ5NoCpm",

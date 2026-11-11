@@ -1,10 +1,10 @@
 Промпт ежедневной задачи «Синхронизация deutsch-base» (06:13 Europe/Berlin). Эта копия должна совпадать с промптом задачи; меняя одно, меняй и другое.
 
-Ежедневная задача: перенести новое о немецком Алины в её структурированную базу — GitHub-репозиторий alyaskana/deutsch-base. Источники: страница уроков «Mein Deutsch», тренажёр «Artikelregen» и страница домашки «Meine Hausaufgaben». Тренажёр «Падежная мастерская» закрыт (в data/sources.json он помечен status retired): не читай его и не трогай его запись в sources.json. Материал уроков с досок Miro эта задача не читает. Пиши Алине по-русски, коротко и спокойно, без восклицательных знаков и ободряющих фраз.
+Ежедневная задача: перенести новое о немецком Алины в её структурированную базу — GitHub-репозиторий alyaskana/deutsch-base. Источники: страница уроков «Mein Deutsch» (в ней же игра в артикли «Тренировать», бывший тренажёр «Artikelregen») и страница домашки «Meine Hausaufgaben». Тренажёр «Падежная мастерская» закрыт (в data/sources.json он помечен status retired): не читай его и не трогай его запись в sources.json. Материал уроков с досок Miro эта задача не читает. Пиши Алине по-русски, коротко и спокойно, без восклицательных знаков и ободряющих фраз.
 
 ССЫЛКИ (единственно верные; если в data/sources.json у этих страниц другие — замени на эти)
 - «Mein Deutsch»: https://claude.ai/artifact/EF22N3Wk3vb8Fdau9keTS7
-- «Artikelregen»: https://claude.ai/artifact/YQinY1gBWqetVFHmACmRVm
+- «Artikelregen»: https://claude.ai/artifact/YQinY1gBWqetVFHmACmRVm — закрыт 2026-11-12, игра переехала в «Mein Deutsch». Не читай его; в data/sources.json он помечен status retired.
 - «Meine Hausaufgaben»: https://claude.ai/artifact/J1FSBSacQKcxMzVCwirDsr
 
 ПОДГОТОВКА
@@ -18,7 +18,7 @@
 target наблюдения — только существующий id из data/grammar.json или слово из data/words.json. Новые темы грамматики не создавай. Если подходящей темы нет, бери ближайшую по смыслу и опиши точную ошибку в note_ru. В note_ru всегда пиши саму фразу или слово, в котором была ошибка, и правильный ответ.
 
 ИСТОЧНИК 1. «Mein Deutsch»
-Прогресс: коллекция "data/users/me", документ "progress" (lessons: {id: {runs, best, last: {pct, mist[], stages[], writes[]}}}, history[{lesson, t (мс), pct, ok, total}]). Уроки: коллекция "lessons". Документы "_dict" и "_grammar" в коллекции "lessons" — служебные, а не уроки: при чтении уроков их пропускай.
+Прогресс: коллекция "data/users/me", документ "progress" (lessons: {id: {runs, best, last: {pct, mist[], stages[], writes[]}}}, history[{lesson, t (мс), pct, ok, total}]). Уроки: коллекция "lessons". Документы "_dict", "_grammar" и "_artikel" в коллекции "lessons" — служебные, а не уроки: при чтении уроков их пропускай.
 - Новые прохождения = записи в progress.lessons, у которых runs больше, чем в sync.json → mein_deutsch.synced_runs[id] (нет записи = 0). Id вида "урок~глава" — глава большого урока, урок в коллекции "lessons" ищи по части до "~".
 - Дата прохождения: последняя запись history с этим lesson, t переведи в дату Europe/Berlin. Нет записи — сегодня с date_approx.
 - Каждая строка last.mist — одна ошибка, это HTML-фрагмент с правильным ответом. Найди задание урока, к которому она относится (по тексту), и определи target так:
@@ -32,8 +32,8 @@ target наблюдения — только существующий id из da
 - ПОВТОРЕНИЕ. Записи progress, которым не соответствует урок в "lessons" (например review), — это повторение пройденного. Их ошибки тоже важны: повторная ошибка в том же слове — главный сигнал, что тема даётся сложно. Каждую строку last.mist такой записи запиши наблюдением error по тем же правилам target (задание ищи по тексту ошибки во всех уроках коллекции; не нашёл — определи target по самому фрагменту), note_ru начинай с «Повторение:». Наблюдений correct для повторения не создавай. Проверь, нет ли уже такого наблюдения (та же дата, target и expected), чтобы не задвоить.
 - Обнови synced_runs.
 
-ИСТОЧНИК 2. «Artikelregen»
-Статистика: коллекция "data/users/me", документ "stats", поле w: {Слово: {ok, bad, t, iv, d}}. Поля iv и d — расписание повторения на странице, для синхронизации не нужны.
+ИСТОЧНИК 2. Игра в артикли «Тренировать» в «Mein Deutsch» (бывший «Artikelregen», перенесён 2026-11-12)
+Статистика: «Mein Deutsch», коллекция "data/users/me", документ "progress", поле art.w: {Слово: {ok, bad, t, iv, d}} (art.best и art.rounds — рекорд и число раундов, для синхронизации не нужны). Снимок по-прежнему в sync.json → artikelregen. Поля iv и d — расписание повторения на странице, для синхронизации не нужны.
 - Сравни ok и bad со stats_snapshot в sync.json → artikelregen. Прирост bad → наблюдения error, прирост ok → correct (не больше 3 записей каждого вида на слово за раз), source "trainer:artikelregen", target — слово в words.json (по лемме; нет — добавь существительное с артиклем и переводом), date — сегодня.
 - Сохрани новый снимок в stats_snapshot (только ok, bad, t).
 
@@ -48,10 +48,11 @@ target наблюдения — только существующий id из da
 ЗАВЕРШЕНИЕ
 1. id наблюдений: "o-<источник>-<дата>-<NNN>" (например o-artikelregen-2026-11-05-001, o-hausaufgaben-2026-11-07-001), уникальные. Новые наблюдения только дописываются в конец observations.jsonl, старые не меняются.
 2. Обнови last_sync в sync.json у обработанных источников.
-3. npm run check — должен пройти без ошибок (он же пересчитает STATUS.md, build/status.json, build/dict.json и build/grammar-map.json). Исправь данные, если проверка падает.
+3. npm run check — должен пройти без ошибок (он же пересчитает STATUS.md, build/status.json, build/dict.json, build/grammar-map.json и build/artikel.json). Исправь данные, если проверка падает.
 3a. Если build/dict.json изменился (git diff по файлу): обнови словарь в «Mein Deutsch» — ArtifactData, коллекция "lessons", документ "_dict", поля {"j": <содержимое build/dict.json одной строкой>, "at": <поле at из файла>, "note": "Словарь для «Mein Deutsch»: собирается scripts/dict.mjs в deutsch-base. Не урок."}. Сначала get, чтобы взять version для if_version; документа ещё нет — создай без if_version.
 3b. Если build/grammar-map.json изменился (git diff по файлу): так же обнови документ "_grammar" в коллекции "lessons" «Mein Deutsch»: {"j": <содержимое build/grammar-map.json одной строкой>, "at": <поле at из файла>, "note": "Карта грамматики: собирается scripts/grammar-map.mjs в deutsch-base. Не урок."}. Сначала get для if_version; документа нет — создай без if_version.
-4. Если ничего нового нет ни в одном источнике, sources.json, build/dict.json и build/grammar-map.json не менялись: ничего не коммить и заверши одной строкой «Нового нет». Уведомление не нужно.
+3c. Если build/artikel.json изменился (git diff по файлу; например, в words.json добавились существительные): так же обнови документ "_artikel" в коллекции "lessons" «Mein Deutsch»: {"j": <содержимое build/artikel.json одной строкой>, "at": <поле at из файла>, "note": "Правила рода, слова и подсказки игры «Тренировать»: собирается scripts/artikel.mjs в deutsch-base. Не урок."}. Сначала get для if_version.
+4. Если ничего нового нет ни в одном источнике, sources.json, build/dict.json, build/grammar-map.json и build/artikel.json не менялись: ничего не коммить и заверши одной строкой «Нового нет». Уведомление не нужно.
 5. Иначе: git add -A, коммит "Синхронизация <дата>: <кратко что>", push в main.
 
 ОТВЕТ АЛИНЕ (только если что-то изменилось в сложных темах или проверена новая домашка, 1–2 строки): какие темы или слова стали или перестали даваться сложно, что исправить в домашке. Без технических подробностей, статус stuck называй словом «сложно», без жаргона. Если ничего такого нет — заверши одной строкой без обращения к Алине.
