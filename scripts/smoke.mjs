@@ -20,7 +20,10 @@ try { ({ chromium } = require('playwright')); } catch { ({ chromium } = await im
 
 const [page_, dir] = process.argv.slice(2);
 if (!page_ || !dir) { console.error('Запуск: npm run smoke -- страница.html папка-с-уроками'); process.exit(2); }
-const html = fs.readFileSync(page_, 'utf8');
+// Страницу проверяем такой, какой её отдаёт публикация: обёртка до <title> (doctype, head, первый <style>) отбрасывается.
+// В ноябре 2026 стили «Рода слова» попали в эту обёртку, локально всё было красиво, а у Алины — голый текст.
+let html = fs.readFileSync(page_, 'utf8');
+{ const t = html.indexOf('<title>'), b = html.lastIndexOf('<body>', t); if (t > 0 && b >= 0) html = html.slice(b + 6); }
 const docs = fs.readdirSync(dir).filter(f => f.endsWith('.json')).map(f => {
   const d = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
   return { id: path.basename(f, '.json'), data: d.data && !d.stages && !d.chapters ? d.data : d };
@@ -213,9 +216,16 @@ for (const [t, v] of Object.entries(perType)) {
   else {
     const c = await page.evaluate(() => ({ r: ARD.R.length, w: ARD.W.length, h: Object.keys(ARD.H).length, sec: ARD.R.filter(r => r.sec && r.lead && r.ex1 && r.ex1.emoji).length }));
     if (c.r < 43 || c.w < 1005 || c.h < 693 || c.sec < 43) bad(`род слова: правил ${c.r}/43, полных ${c.sec}/43, слов ${c.w}/1005, подсказок ${c.h}/693`);
+    // стили на месте: плитка на главной и вход в раунд — с подложкой, а не голым текстом
+    await page.evaluate(() => { showHome(); }); await page.waitForTimeout(250);
+    const look = await page.evaluate(() => [...document.querySelectorAll('.mgame')].map(e => { const c = getComputedStyle(e); return { k: e.className, bg: c.backgroundColor, h: e.getBoundingClientRect().height }; }));
+    for (const t of look) if (/rgba\(0, 0, 0, 0\)|transparent/.test(t.bg) || t.h < 60) bad(`главная: плитка «${t.k}» без подложки или сплющена (${t.bg}, ${Math.round(t.h)}px)`);
+    if (!look.some(t => /\bar\b/.test(t.k))) bad('главная: нет плитки «Тренировать» в «Пять минут»');
     await page.evaluate(() => { showVocab(); }); await page.waitForTimeout(200);
     await page.click('.vart.der'); await page.waitForTimeout(300);
     const cells = await page.$$eval('.rg-xc', a => a.length);
+    const sty = await page.evaluate(() => { const e = document.querySelector('.rg-entry'), x = document.querySelector('.rg-xc'); return { e: e && getComputedStyle(e).display, x: x && getComputedStyle(x).backgroundColor }; });
+    if (sty.e !== 'grid' || !sty.x || /rgba\(0, 0, 0, 0\)/.test(sty.x)) bad(`род слова: стили не применились (вход ${sty.e}, ячейка ${sty.x})`);
     if (cells < 43) bad(`род слова: в таблице ${cells} ячеек из 43`);
     const inp = await page.$('#rgq'); await page.evaluate(() => { document.querySelector('#rgq').__k = 1; });
     await inp.type('unte', { delay: 60 }); await page.waitForTimeout(500);
@@ -245,6 +255,14 @@ for (const [t, v] of Object.entries(perType)) {
     if (!res.done) bad(`род слова: раунд не дошёл до итога (ответов ${n})`);
     else if (!res.art || !res.art.rounds || Object.keys(res.art.w || {}).length < 10) bad('род слова: прогресс игры не записан в базу');
     if (res.osc <= o0) bad('род слова: в раунде нет звука ответа');
+    // слова из словаря: сохранённое существительное попадает в «Мои слова» и в умный раунд, ошибка видна на карточке слова
+    const my = await page.evaluate(() => { S.progress.saved = (S.progress.saved || []).concat([{ id: 'smk1', de: 'der Tisch', ru: 'стол', t: Date.now(), src: 'smoke' }, { id: 'smk2', de: 'die Smokewelt', ru: 'тест', t: Date.now() + 1, src: 'smoke' }]);
+      const pool = rgPool('my').map(x => x.w), mix = new Set(); for (let i = 0; i < 6; i++) rgPick('mix').forEach(x => mix.add(x.w));
+      rgP().w.Smokewelt = { ok: 0, bad: 2, t: Date.now() }; const e = { de: 'die Smokewelt', own: null };
+      return { pool, inMix: mix.has('Tisch') || mix.has('Smokewelt'), note: rgWordNote(e) + (String(showWord).includes('rgWordNote(e)') ? '' : ' нет в showWord') }; });
+    if (!my.pool.includes('Tisch') || !my.pool.includes('Smokewelt')) bad(`род слова: «Мои слова» не видят сохранённые слова (${my.pool.join(', ')})`);
+    if (!my.inMix) bad('род слова: слова из словаря не попадают в умный раунд');
+    if (!/Путаешь род/.test(my.note) || /нет в showWord/.test(my.note)) bad('род слова: на карточке слова нет отметки об ошибках в роде');
     if (res.done && res.art && res.osc > o0) console.log(`  ✓ род слова: таблица, поиск, карточка, раунд (${n} ответов, ${wrong} ошибок)`);
   }
   for (const e of [...new Set(errs)]) bad(`род слова: ошибка JS: ${e}`);

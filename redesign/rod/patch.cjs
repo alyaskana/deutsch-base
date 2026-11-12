@@ -18,7 +18,10 @@ rep('<button class="vart ${a}" data-v="art:${a}">','<button class="vart ${a}" da
 rep('<button class="mgame pr" id="go-pairs">','<button class="mgame ar" data-rg="menu"><span class="art-t"><b>Тренировать</b><span class="rec">${(S.progress.art&&S.progress.art.best)?`<em>${S.progress.art.best}</em> рекорд`:\'der, die, das\'}</span></span><span class="ardrops" aria-hidden="true"><i></i><i></i><i></i></span></button>\n    <button class="mgame pr" id="go-pairs">','games');
 // 6б. «На что налечь» в обзоре недели: action "artikelregen" открывает «Тренировать» в приложении
 rep("const TRAINERS={artikelregen:{n:'Artikelregen',u:'https://claude.ai/artifact/YQinY1gBWqetVFHmACmRVm'}};","const TRAINERS={artikelregen:{n:'Тренировать',u:'#rg'},artikel:{n:'Тренировать',u:'#rg'}};",'trainers');
+// 6b. карточка слова в словаре: путаешь ли род в «Тренировать»
+rep("${e.st==='s'?'<p class=\"wnote\">Недавно","${rgWordNote(e)}${e.st==='s'?'<p class=\"wnote\">Недавно",'wordnote');
 // 7. код и стили
 const last=h.lastIndexOf('</script>');h=h.slice(0,last)+'\n'+js+'\n'+h.slice(last);
-const st=h.indexOf('</style>');h=h.slice(0,st)+'\n'+css+'\n'+h.slice(st);
+/* стили — в первый <style> страницы после <title>: обёртка до <title> при публикации отбрасывается */
+const st=h.indexOf('</style>',h.indexOf('<title>'));h=h.slice(0,st)+'\n'+css+'\n'+h.slice(st);
 fs.writeFileSync(out,h);console.log('ok',h.length);
