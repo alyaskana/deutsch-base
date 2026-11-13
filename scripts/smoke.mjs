@@ -15,6 +15,8 @@
 //   8. «Собери фразу»: любой верный порядок засчитывается, первая плашка без заглавной буквы,
 //      повтор Perfekt спрягает haben/sein по подлежащему; «Спросить про ошибку» → «Почему не мой вариант?»
 //      засчитывает ответ, если преподаватель согласен.
+//   9. «Как сказать»: в историю не попадают недописанные запросы и опечатки; просмотр прошлого
+//      запроса и повтор в том же разговоре не считаются повтором.
 // Выход 1, если есть хоть одна проблема.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -409,6 +411,44 @@ for (const [t, v] of Object.entries(perType)) {
   r.forEach(x => bad('порядок слов: ' + x));
   for (const e of [...new Set(errs)]) bad(`порядок слов: ошибка JS: ${e}`);
   console.log(`  ${r.length ? '✗' : '✓'} порядок слов и «Почему не мой вариант?»`);
+  await page.close();
+}
+
+// «Как сказать»: история без недописанного и опечаток, счётчик повторов не растёт от просмотра.
+// Баг ноября 2026: в истории оставались «черепаха л» и «чееаха», нажатие на прошлый запрос считалось повтором.
+{
+  const { page, errs } = await open();
+  const r = await page.evaluate(async () => {
+    const out = [], wait = ms => new Promise(f => setTimeout(f, ms));
+    if (typeof sayRun !== 'function' || typeof showDict !== 'function') return ['нет sayRun/showDict'];
+    S.progress.ask = [];
+    S.sample = { json: async () => ({ kind: 'word', de: 'die Schildkröte', ru: 'черепаха', ex: '' }) };
+    const H = () => S.progress.ask.map(h => h.q + '×' + (h.n || 1));
+    // словарь в уроке: пауза посреди набора запускает ответ сам, потом фраза дописана
+    showDict(); await wait(300);
+    const dq = document.getElementById('dq');
+    if (!dq) return ['словарь в уроке не открылся'];
+    const type = async t => { for (const ch of t) { dq.value += ch; dq.dispatchEvent(new Event('input', { bubbles: true })); await wait(40); } };
+    await type('черепаха л'); await wait(2200);
+    if (!S.progress.ask.some(h => h.q === 'черепаха л')) out.push('пауза в словаре урока не запустила ответ (тест устарел?)');
+    await type('етит'); dq.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true })); await wait(400);
+    if (S.progress.ask.some(h => h.q === 'черепаха л')) out.push('недописанный запрос «черепаха л» остался в истории: ' + H().join(', '));
+    // опечатка, исправленная в чате
+    showSay(); await wait(100);
+    sayRun('чееаха'); await wait(200); sayRun('черепаха'); await wait(200);
+    if (S.progress.ask.some(h => h.q === 'чееаха')) out.push('опечатка «чееаха» осталась в истории после исправления: ' + H().join(', '));
+    // нажатие на прошлый запрос и повтор в том же разговоре — не повтор
+    sayRun('черепаха', true); await wait(100); sayRun('черепаха'); await wait(100);
+    const h = S.progress.ask.find(x => x.q === 'черепаха');
+    if (!h) out.push('«черепаха» не попала в историю');
+    else if ((h.n || 1) > 1) out.push('просмотр и повтор в том же разговоре засчитаны как повтор: ×' + h.n);
+    // через час — уже повтор
+    if (h) { h.t -= 2 * 3600e3; sayRun('черепаха'); await wait(100); if ((h.n || 1) !== 2) out.push('повтор через час не засчитан: ×' + h.n); }
+    return out;
+  }).catch(e => ['ошибка теста: ' + e]);
+  r.forEach(x => bad('«Как сказать»: ' + x));
+  for (const e of [...new Set(errs)]) bad(`«Как сказать»: ошибка JS: ${e}`);
+  console.log(`  ${r.length ? '✗' : '✓'} «Как сказать»: история и повторы`);
   await page.close();
 }
 
