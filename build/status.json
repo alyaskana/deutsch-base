@@ -23,7 +23,7 @@
       "stuck": 9,
       "learning": 280,
       "solid": 0,
-      "new": 808
+      "new": 809
     }
   },
   "grammar": [
@@ -1830,6 +1830,12 @@
       "id": "w-besprechungen-fuehren",
       "lemma": "Besprechungen führen",
       "ru": "проводить совещания",
+      "status": "new"
+    },
+    {
+      "id": "w-bestehen",
+      "lemma": "bestehen",
+      "ru": "сдать (экзамен); состоять",
       "status": "new"
     },
     {

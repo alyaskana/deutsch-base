@@ -2794,6 +2794,41 @@
     ]
   },
   {
+    "id": "w-bestehen",
+    "lemma": "bestehen",
+    "pos": "verb",
+    "ru": "сдать (экзамен); состоять",
+    "verb_forms": {
+      "present_3sg": "besteht",
+      "praeteritum": "bestand",
+      "partizip2": "bestanden",
+      "aux": "haben",
+      "separable_prefix": null,
+      "strong": true
+    },
+    "examples": [
+      {
+        "de": "Ich habe die Prüfung bestanden",
+        "ru": "Я сдала экзамен"
+      }
+    ],
+    "tags": [
+      "perfekt",
+      "verben"
+    ],
+    "grammar": [
+      "perfekt",
+      "strong-verbs"
+    ],
+    "sources": [
+      {
+        "module": "perfekt",
+        "board_frame": "Комментарий Алины в Mein Deutsch 2026-11-13: добавить bestehen в список «Коты в таблетнице»",
+        "by_claude": true
+      }
+    ]
+  },
+  {
     "id": "w-bestehen-aus",
     "lemma": "bestehen aus",
     "pos": "verb",
