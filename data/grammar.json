@@ -120,6 +120,35 @@
     ]
   },
   {
+    "id": "werden",
+    "title_de": "werden: Futur I",
+    "title_ru": "werden: становиться и будущее",
+    "short": "werden",
+    "level": "A2",
+    "category": "verbs",
+    "rule_ru": "werden: ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden. С прилагательным или существительным — «становиться» (Es wird kalt). С инфинитивом в конце — будущее, Futur I (Ich werde morgen anrufen). Прошедшее: wurde, ist geworden (Perfekt с sein). werden + Partizip II — Passiv, позже.",
+    "examples": [
+      {
+        "de": "Die Tage werden kürzer.",
+        "ru": "Дни становятся короче."
+      },
+      {
+        "de": "Sie werden nach Berlin ziehen.",
+        "ru": "Они переедут в Берлин."
+      },
+      {
+        "de": "Am Abend bin ich müde geworden.",
+        "ru": "Вечером я устала."
+      }
+    ],
+    "related": [
+      "perfekt",
+      "strong-verbs",
+      "praesens"
+    ],
+    "covered_with_tutor": false
+  },
+  {
     "id": "modal-verbs",
     "title_de": "Modalverben",
     "title_ru": "Модальные глаголы",
