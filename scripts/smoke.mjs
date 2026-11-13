@@ -13,7 +13,8 @@
 //   7. главная на ноутбуке и планшете (820–1440 px): в «Пять минут» каждый ряд заполнен целиком,
 //      нет карточки с пустотой справа, страница не шире окна.
 //   8. «Собери фразу»: любой верный порядок засчитывается, первая плашка без заглавной буквы,
-//      повтор Perfekt спрягает haben/sein по подлежащему, «Оспорить» засчитывает ответ, если преподаватель согласен.
+//      повтор Perfekt спрягает haben/sein по подлежащему; «Спросить про ошибку» → «Почему не мой вариант?»
+//      засчитывает ответ, если преподаватель согласен.
 // Выход 1, если есть хоть одна проблема.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -388,10 +389,16 @@ for (const [t, v] of Object.entries(perType)) {
     await put(no[0]);
     const dsp = document.getElementById('dsp');
     if (document.getElementById('dock').classList.contains('ok')) out.push('неверный порядок засчитан');
-    else if (!dsp) out.push('нет кнопки «Оспорить» после ошибки');
+    else if (!dsp) out.push('нет ссылки «Спросить про ошибку» после ошибки');
     else {
       S.sample = { json: async () => ({ ok: true, why: 'Так тоже можно.', tip: '' }) };
-      dsp.click(); await wait(400);
+      dsp.click(); await wait(200);
+      const why = document.getElementById('dspwhy');
+      if (!why) out.push('«Спросить про ошибку»: в чате нет вопроса «Почему не мой вариант?»');
+      else { why.click(); await wait(400); }
+      const msg = document.querySelector('#asklog .askm.ai');
+      if (!msg || !/Ты права/.test(msg.textContent)) out.push('«Почему не мой вариант?»: в чате нет ответа преподавателя');
+      document.getElementById('askx')?.click(); await wait(100);
       const d = document.getElementById('dock');
       if (!d.classList.contains('ok') || !/Засчитано/.test(d.textContent)) out.push('«Оспорить»: ответ не засчитан после согласия преподавателя');
       if (!(S.progress.disputes || []).length) out.push('«Оспорить»: спор не записан в progress.disputes');
@@ -401,7 +408,7 @@ for (const [t, v] of Object.entries(perType)) {
   }).catch(e => ['ошибка теста: ' + e]);
   r.forEach(x => bad('порядок слов: ' + x));
   for (const e of [...new Set(errs)]) bad(`порядок слов: ошибка JS: ${e}`);
-  console.log(`  ${r.length ? '✗' : '✓'} порядок слов и «Оспорить»`);
+  console.log(`  ${r.length ? '✗' : '✓'} порядок слов и «Почему не мой вариант?»`);
   await page.close();
 }
 
