@@ -16,7 +16,8 @@
 //      повтор Perfekt спрягает haben/sein по подлежащему; «Спросить про ошибку» → «Почему не мой вариант?»
 //      засчитывает ответ, если преподаватель согласен.
 //   9. «Как сказать»: в историю не попадают недописанные запросы и опечатки; просмотр прошлого
-//      запроса и повтор в том же разговоре не считаются повтором.
+//      запроса и повтор в том же разговоре не считаются повтором; вопросы тоже в истории, разговор
+//      остаётся после перезагрузки, у глагола видны прошедшие формы.
 // Выход 1, если есть хоть одна проблема.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -449,6 +450,26 @@ for (const [t, v] of Object.entries(perType)) {
     else if ((h.n || 1) > 1) out.push('просмотр и повтор в том же разговоре засчитаны как повтор: ×' + h.n);
     // через час — уже повтор
     if (h) { h.t -= 2 * 3600e3; sayRun('черепаха'); await wait(100); if ((h.n || 1) !== 2) out.push('повтор через час не засчитан: ×' + h.n); }
+    // ответ пришёл — «Думаю» сменяется ответом (в v126 параметр sayRun затенил глобальный view, и экран не перерисовывался)
+    showSay(); S.sample = { json: async () => ({ kind: 'word', de: 'der Hund', ru: 'собака', ex: '' }) };
+    sayRun('собака'); await wait(200);
+    if (!/Hund/.test(document.querySelector('.slog')?.textContent || '')) out.push('ответ не появляется на экране, висит «Думаю»');
+    // v127: вопросы о языке тоже в истории, формы глагола под словом, разговор остаётся после перезагрузки
+    if (typeof sayLogSeed === 'function') {
+      let calls = 0;
+      S.sample = { json: async p => { calls++; return /kennen/.test(p)
+        ? { kind: 'q', lead: 'kennen — люди, wissen — факты', items: [{ de: 'kennen', ru: 'знать', note: '', ex: [['Ich **kenne** ihn.', 'Я его знаю.']] }], check: '', tasks: [] }
+        : { kind: 'word', de: 'gehen', ru: 'идти', f: 'ging · ist gegangen', ex: '' }; } };
+      sayRun('прошедшее от gehen'); await wait(200);
+      if (!/ging · ist gegangen/.test(document.querySelector('.slog')?.textContent || '')) out.push('у глагола не показаны прошедшие формы');
+      sayRun('разница kennen и wissen'); await wait(200);
+      if (!S.progress.ask.some(x => x.kind === 'q' && x.a)) out.push('вопрос о языке не сохранился в истории');
+      if (askRepeats().some(x => x.kind === 'q')) out.push('вопрос о языке попал в повторы недели');
+      SAYLOG.length = 0; sayLogSeed.done = false; showHome(); showSay(); await wait(100);
+      if (!SAYLOG.some(x => /kennen/.test(x.q))) out.push('после перезагрузки разговор пустой');
+      const c0 = calls; sayRun('разница kennen и wissen', true); await wait(150);
+      if (calls !== c0) out.push('прошлый вопрос из истории спрашивается заново вместо сохранённого ответа');
+    }
     return out;
   }).catch(e => ['ошибка теста: ' + e]);
   r.forEach(x => bad('«Как сказать»: ' + x));
