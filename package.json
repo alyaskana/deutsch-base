@@ -10,7 +10,8 @@
     "grammar-map": "node scripts/grammar-map.mjs",
     "page-check": "node scripts/page-check.mjs",
     "smoke": "node scripts/smoke.mjs",
-    "artikel": "node scripts/artikel.mjs"
+    "artikel": "node scripts/artikel.mjs",
+    "screens": "node scripts/screens.mjs"
   },
   "devDependencies": {
     "acorn": "^8.19.0",
