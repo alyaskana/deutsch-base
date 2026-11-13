@@ -907,5 +907,155 @@
   },
   "order": -15.1,
   "createdAt": "2026-11-09"
+ },
+ {
+  "id": "hoeren-mein-morgen",
+  "title": "Was machst du morgens?",
+  "cap": "Опрос на улице",
+  "bg": "busy city street ambience in Berlin, distant traffic, footsteps, light chatter far away, no music",
+  "bg_gain": 1.6,
+  "lines": [
+   {
+    "who": "Berta",
+    "voice": "CoFoB7a7PXA8RBsMHbua",
+    "de": "Hallo! Wir machen eine kleine Umfrage. Was machst du morgens als Erstes?",
+    "ru": "Привет! Мы проводим небольшой опрос. Что ты делаешь утром первым делом?"
+   },
+   {
+    "who": "Susi",
+    "voice": "v3V1d2rk6528UrLKRuy8",
+    "de": "Als Erstes schaue ich aufs Handy, ehrlich gesagt. Das möchte ich mir abgewöhnen.",
+    "ru": "Честно говоря, первым делом я смотрю в телефон. От этого я хочу отучиться.",
+    "tag": "[lacht]"
+   },
+   {
+    "who": "Berta",
+    "voice": "CoFoB7a7PXA8RBsMHbua",
+    "de": "Und dann?",
+    "ru": "А потом?"
+   },
+   {
+    "who": "Susi",
+    "voice": "v3V1d2rk6528UrLKRuy8",
+    "de": "Dann gehe ich unter die Dusche, ziehe mich an und mache mir einen Kaffee. Ohne Kaffee geht bei mir nichts.",
+    "ru": "Потом иду в душ, одеваюсь и делаю себе кофе. Без кофе у меня ничего не получается."
+   },
+   {
+    "who": "Berta",
+    "voice": "CoFoB7a7PXA8RBsMHbua",
+    "de": "Und wie ist das bei Ihnen?",
+    "ru": "А как у вас?"
+   },
+   {
+    "who": "Markus",
+    "voice": "bVOjN7kZvgHpaTG6B3zK",
+    "de": "Ich bin Pensionist, ich habe Zeit. Ich stehe um sieben auf, mache das Fenster auf und frühstücke in Ruhe.",
+    "ru": "Я на пенсии, у меня есть время. Я встаю в семь, открываю окно и спокойно завтракаю."
+   },
+   {
+    "who": "Berta",
+    "voice": "CoFoB7a7PXA8RBsMHbua",
+    "de": "Wie sieht deine Morgenroutine aus?",
+    "ru": "Как выглядит твоё утро?"
+   },
+   {
+    "who": "Mia",
+    "voice": "rf6om1hG105SScFBBLVW",
+    "de": "Ich stehe um sechs auf und mache zehn Minuten Yoga. Danach dusche ich, schminke mich und setze mich an den Schreibtisch. Ich arbeite im Homeoffice.",
+    "ru": "Я встаю в шесть и десять минут занимаюсь йогой. Потом принимаю душ, крашусь и сажусь за стол. Я работаю из дома."
+   },
+   {
+    "who": "Berta",
+    "voice": "CoFoB7a7PXA8RBsMHbua",
+    "de": "Und was machst du abends als Letztes?",
+    "ru": "А что ты делаешь вечером напоследок?"
+   },
+   {
+    "who": "Mia",
+    "voice": "rf6om1hG105SScFBBLVW",
+    "de": "Ich putze mir die Zähne und lese noch ein paar Seiten in meinem Buch. Nicht am Handy!",
+    "ru": "Чищу зубы и читаю ещё несколько страниц в своей книге. Не в телефоне!",
+    "tag": "[lacht]"
+   }
+  ],
+  "qs": [
+   [
+    "Что Сузи делает утром первым делом?",
+    [
+     "Смотрит в телефон",
+     "Пьёт кофе",
+     "Идёт в душ"
+    ],
+    "Als Erstes schaue ich aufs <b>Handy</b>"
+   ],
+   [
+    "Без чего у Сузи утром ничего не получается?",
+    [
+     "Без кофе",
+     "Без душа",
+     "Без музыки"
+    ],
+    "Ohne <b>Kaffee</b> geht bei mir nichts."
+   ],
+   [
+    "Почему у Маркуса утром много времени?",
+    [
+     "Он на пенсии",
+     "Он в отпуске",
+     "Он работает из дома"
+    ],
+    "Ich bin <b>Pensionist</b>, ich habe Zeit."
+   ],
+   [
+    "Что Мия делает вечером напоследок?",
+    [
+     "Читает несколько страниц книги",
+     "Смотрит сериал",
+     "Листает телефон"
+    ],
+    "lese noch ein paar Seiten in meinem <b>Buch</b>"
+   ]
+  ],
+  "ch": [],
+  "sp": [],
+  "speakers": {
+   "Berta": "Берлин",
+   "Susi": "Германия",
+   "Markus": "Австрия",
+   "Mia": "Швейцария"
+  },
+  "gloss": {
+   "umfrage": "опрос (die Umfrage)",
+   "als": "als Erstes — первым делом, als Letztes — напоследок",
+   "erstes": "als Erstes — первым делом",
+   "letztes": "als Letztes — напоследок, в последнюю очередь",
+   "aufs": "auf + das: aufs Handy schauen — смотреть в телефон",
+   "handy": "мобильный телефон (das Handy)",
+   "ehrlich": "ehrlich gesagt — честно говоря",
+   "gesagt": "ehrlich gesagt — честно говоря",
+   "abgewöhnen": "sich etwas abgewöhnen — отучиться от чего-то (Das möchte ich mir abgewöhnen)",
+   "dusche": "душ (die Dusche); unter die Dusche gehen — идти в душ",
+   "ziehe": "sich anziehen — одеваться: ich ziehe mich an",
+   "mir": "себе (Dativ от ich): ich mache mir einen Kaffee",
+   "mich": "себя (Akk. от ich): ich ziehe mich an",
+   "ohne": "без (+ Akk.)",
+   "geht": "Ohne Kaffee geht nichts — без кофе ничего не получается",
+   "pensionist": "пенсионер (der Pensionist, так говорят в Австрии; в Германии der Rentner)",
+   "ruhe": "покой; in Ruhe — спокойно, не спеша",
+   "morgenroutine": "утренний распорядок (die Morgenroutine)",
+   "sieht": "Wie sieht … aus? — Как выглядит …? (aussehen)",
+   "schminke": "sich schminken — краситься: ich schminke mich",
+   "setze": "sich setzen — садиться: ich setze mich an den Schreibtisch",
+   "schreibtisch": "письменный стол (der Schreibtisch)",
+   "homeoffice": "работа из дома (das Homeoffice)",
+   "putze": "putzen — чистить: ich putze mir die Zähne",
+   "zähne": "зубы (der Zahn, мн. die Zähne)",
+   "seiten": "страницы (die Seite)",
+   "yoga": "йога (das Yoga)",
+   "dann": "потом",
+   "danach": "после этого"
+  },
+  "order": -20,
+  "createdAt": "2026-11-13"
  }
 ]

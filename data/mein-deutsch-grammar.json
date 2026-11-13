@@ -80,6 +80,17 @@
     "hoeren-zu-spaet|2": ["perfekt"],
     "hoeren-zu-spaet|3": ["perfekt", "partizip2-prefixes"],
     "hoeren-umzug|2": ["perfekt"],
-    "hoeren-umzug|3": ["perfekt", "partizip2-prefixes"]
+    "hoeren-umzug|3": ["perfekt", "partizip2-prefixes"],
+    "hoeren-mein-morgen|2": ["word-order"],
+    "hoeren-mein-morgen|3": ["separable-verbs"],
+    "mein-morgen-2|0": ["reflexive-verbs"],
+    "mein-morgen-2|1": ["reflexive-verbs"],
+    "mein-morgen-2|2": ["reflexive-verbs"],
+    "mein-morgen-2|3": ["reflexive-verbs", "word-order"],
+    "mein-morgen-3|0": ["wo-wohin"],
+    "mein-morgen-3|1": ["time-prepositions"],
+    "mein-morgen-3|2": ["separable-verbs", "word-order"],
+    "mein-morgen-4|0": ["perfekt", "reflexive-verbs"],
+    "mein-morgen-4|1": ["word-order", "reflexive-verbs", "wo-wohin", "possessive-pronouns"]
   }
 }
