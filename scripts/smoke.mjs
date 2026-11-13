@@ -12,6 +12,8 @@
 //   6. «Род слова»: 43 правила, 1005 слов, 693 подсказки, поиск, карточка, раунд «Тренировать» до итога;
 //   7. главная на ноутбуке и планшете (820–1440 px): в «Пять минут» каждый ряд заполнен целиком,
 //      нет карточки с пустотой справа, страница не шире окна.
+//   8. «Собери фразу»: любой верный порядок засчитывается, первая плашка без заглавной буквы,
+//      повтор Perfekt спрягает haben/sein по подлежащему, «Оспорить» засчитывает ответ, если преподаватель согласен.
 // Выход 1, если есть хоть одна проблема.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -353,6 +355,54 @@ for (const [t, v] of Object.entries(perType)) {
     console.log(`  ${!r.none && !r.holes.length && r.wide <= 1 ? '✓' : '✗'} главная ${width} px`);
     await c.close();
   }
+}
+
+// 8. Порядок слов. 13.11.2026 Алина собрала «ich habe im Supermarkt Proviant eingekauft», а засчитали ошибку:
+// повтор принимал один порядок, и заглавная «Im» на плашке подсказывала начало. Плюс кнопка «Оспорить».
+{
+  const { page, errs } = await open();
+  const r = await page.evaluate(async () => {
+    const out = [];
+    const perf = { s: 'Im Supermarkt ___ ich Proviant ___.', aux: 'habe', p: 'eingekauft', ru: 'закупиться', i: 'einkaufen' };
+    const b = toBuild(perf, 'perfekt');
+    if (!b) return ['toBuild не собрал фразу из Perfekt'];
+    const wir = toBuild({ s: 'Wir ___ jeden Tag ___.', aux: 'bin', p: 'gesegelt' }, 'perfekt');
+    if (wir && wir.ok[0] !== 'Wir sind jeden Tag gesegelt') out.push('Perfekt → фраза: «' + wir.ok[0] + '» вместо «Wir sind jeden Tag gesegelt»');
+    const yes = [['ich', 'habe', 'im', 'Supermarkt', 'Proviant', 'eingekauft'], ['Proviant', 'habe', 'ich', 'im', 'Supermarkt', 'eingekauft']];
+    const no = [['im', 'habe', 'Supermarkt', 'ich', 'Proviant', 'eingekauft'], ['im', 'Supermarkt', 'habe', 'Proviant', 'ich', 'eingekauft'], ['ich', 'im', 'Supermarkt', 'habe', 'Proviant', 'eingekauft'], ['ich', 'habe', 'Supermarkt', 'im', 'Proviant', 'eingekauft']];
+    yes.forEach(w => { if (!orderOk(w, b)) out.push('не принят верный порядок: ' + w.join(' ')) });
+    no.forEach(w => { if (orderOk(w, b)) out.push('принят неверный порядок: ' + w.join(' ')) });
+    if (owTile('Im', true) !== 'im' || owTile('Petya', true) !== 'Petya') out.push('первая плашка: заглавная буква не убрана или имя испорчено');
+    // в интерфейсе: собрать её порядок
+    const L = { id: 'smoke-order', title: 'Порядок слов', stages: [{ type: 'build', title: 'Порядок', color: 'coral', items: [{ ...b }, { ...b }] }] };
+    S.lessons.push(L); showIntro(L); startRun();
+    const wait = ms => new Promise(f => setTimeout(f, ms));
+    const pass = async () => { for (let k = 0; k < 6 && !document.querySelector('.bank'); k++) { const d = document.getElementById('dbtn'); if (d) d.click(); await wait(200) } };
+    await pass();
+    const bankTxt = [...document.querySelectorAll('.bank .tile')].map(t => t.textContent);
+    if (bankTxt.includes('Im')) out.push('на плашке осталась «Im» с большой буквы');
+    const put = async words => { for (const w of words) { const t = [...document.querySelectorAll('.bank .tile:not(.ghost)')].find(x => x.textContent.toLowerCase() === w.toLowerCase()); if (!t) { out.push('нет плашки ' + w); return } t.click(); await wait(30) } document.getElementById('dbtn').click(); await wait(300) };
+    await put(yes[0]);
+    if (!document.getElementById('dock').classList.contains('ok')) out.push('её порядок «ich habe im Supermarkt Proviant eingekauft» засчитан ошибкой');
+    document.getElementById('dbtn').click(); await wait(300); await pass();
+    await put(no[0]);
+    const dsp = document.getElementById('dsp');
+    if (document.getElementById('dock').classList.contains('ok')) out.push('неверный порядок засчитан');
+    else if (!dsp) out.push('нет кнопки «Оспорить» после ошибки');
+    else {
+      S.sample = { json: async () => ({ ok: true, why: 'Так тоже можно.', tip: '' }) };
+      dsp.click(); await wait(400);
+      const d = document.getElementById('dock');
+      if (!d.classList.contains('ok') || !/Засчитано/.test(d.textContent)) out.push('«Оспорить»: ответ не засчитан после согласия преподавателя');
+      if (!(S.progress.disputes || []).length) out.push('«Оспорить»: спор не записан в progress.disputes');
+      if (!orderOk(no[0], b)) out.push('«Оспорить»: засчитанный вариант не запомнился');
+    }
+    return out;
+  }).catch(e => ['ошибка теста: ' + e]);
+  r.forEach(x => bad('порядок слов: ' + x));
+  for (const e of [...new Set(errs)]) bad(`порядок слов: ошибка JS: ${e}`);
+  console.log(`  ${r.length ? '✗' : '✓'} порядок слов и «Оспорить»`);
+  await page.close();
 }
 
 await browser.close();
