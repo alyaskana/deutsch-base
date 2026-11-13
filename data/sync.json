@@ -1,11 +1,11 @@
 {
   "mein_deutsch": {
-    "last_sync": "2026-11-11",
+    "last_sync": "2026-11-13",
     "synced_runs": {
       "meer-museum": 1,
       "mein-alltag": 2,
       "possessiv-abrikos": 1,
-      "review": 14,
+      "review": 17,
       "segeln-griechenland~an-bord": 1,
       "segeln-griechenland~die-reise": 1,
       "segeln-griechenland~perfekt": 1,
@@ -17,11 +17,12 @@
       "segeln-griechenland~bilder": 1,
       "possessiv-1": 1,
       "possessiv-2": 1,
-      "possessiv-3": 1
+      "possessiv-3": 1,
+      "drei-formen-1": 1
     }
   },
   "artikelregen": {
-    "last_sync": "2026-11-11",
+    "last_sync": "2026-11-13",
     "stats_snapshot": {
       "Anrufbeantworter": {
         "bad": 0,
@@ -40,8 +41,8 @@
       },
       "Bericht": {
         "bad": 1,
-        "ok": 0,
-        "t": 1792023289526
+        "ok": 1,
+        "t": 1794524967547
       },
       "Bluse": {
         "bad": 0,
@@ -50,8 +51,8 @@
       },
       "Brötchen": {
         "bad": 1,
-        "ok": 0,
-        "t": 1792023417723
+        "ok": 1,
+        "t": 1794524969275
       },
       "Büro": {
         "bad": 0,
@@ -65,8 +66,18 @@
       },
       "Couch": {
         "bad": 1,
+        "ok": 1,
+        "t": 1794524961913
+      },
+      "Croissant": {
+        "bad": 1,
         "ok": 0,
-        "t": 1791984884562
+        "t": 1794524982546
+      },
+      "Dessert": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1794524971716
       },
       "Ecke": {
         "bad": 0,
@@ -85,8 +96,8 @@
       },
       "Feier": {
         "bad": 1,
-        "ok": 0,
-        "t": 1792023413838
+        "ok": 1,
+        "t": 1794524954300
       },
       "Fluss": {
         "bad": 0,
@@ -103,10 +114,15 @@
         "ok": 1,
         "t": 1792023409554
       },
+      "Korallenriff": {
+        "bad": 0,
+        "ok": 1,
+        "t": 1794524965423
+      },
       "Leberwurst": {
         "bad": 1,
-        "ok": 0,
-        "t": 1792023276007
+        "ok": 1,
+        "t": 1794524975825
       },
       "Mango": {
         "bad": 0,
@@ -115,13 +131,13 @@
       },
       "Medikament": {
         "bad": 1,
-        "ok": 0,
-        "t": 1791984901678
+        "ok": 1,
+        "t": 1794524978800
       },
       "Mund": {
         "bad": 0,
-        "ok": 1,
-        "t": 1791984882345
+        "ok": 2,
+        "t": 1794524960314
       },
       "Nacht": {
         "bad": 1,
@@ -135,8 +151,8 @@
       },
       "Pilz": {
         "bad": 1,
-        "ok": 0,
-        "t": 1792022556977
+        "ok": 1,
+        "t": 1794524973825
       },
       "Rezeption": {
         "bad": 0,
@@ -159,9 +175,9 @@
         "t": 1792023265755
       },
       "Schüssel": {
-        "bad": 1,
+        "bad": 2,
         "ok": 0,
-        "t": 1792023269823
+        "t": 1794524989531
       },
       "Sonne": {
         "bad": 0,
@@ -185,8 +201,8 @@
       },
       "Unterricht": {
         "bad": 0,
-        "ok": 1,
-        "t": 1791984890078
+        "ok": 2,
+        "t": 1794524963564
       },
       "Vorstellung": {
         "bad": 0,
@@ -204,9 +220,9 @@
         "t": 1791984894703
       },
       "Zoo": {
-        "bad": 1,
+        "bad": 2,
         "ok": 0,
-        "t": 1792023383366
+        "t": 1794524957114
       },
       "Zwischenlandung": {
         "bad": 0,
@@ -216,7 +232,7 @@
     }
   },
   "hausaufgaben": {
-    "last_sync": "2026-11-11",
+    "last_sync": "2026-11-13",
     "note": "новые сдачи определяются по review.at < at в коллекции hw"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_for": "2026-11-11",
+  "generated_for": "2026-11-13",
   "rules": {
     "window_days": 21,
     "stuck": {
@@ -20,10 +20,10 @@
       "planned": 8
     },
     "words": {
-      "stuck": 8,
-      "learning": 275,
+      "stuck": 9,
+      "learning": 280,
       "solid": 0,
-      "new": 812
+      "new": 808
     }
   },
   "grammar": [
@@ -33,14 +33,14 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "11 ошибок/затруднений за 21 дн.",
+      "reason": "13 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 5,
-        "error": 15,
+        "error": 19,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": "2026-11-08",
+      "last_date": "2026-11-13",
       "last_result": "error"
     },
     {
@@ -64,15 +64,15 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "отмечено репетитором, после этого верных: 0 из 3",
+      "reason": "отмечено репетитором, после этого верных: 1 из 3",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 2,
         "struggle": 1,
         "flagged": 1
       },
-      "last_date": "2026-10-14",
-      "last_result": "flagged"
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "praeteritum-war-hatte",
@@ -283,7 +283,7 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "10 ошибок/затруднений за 21 дн.",
+      "reason": "8 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 4,
         "error": 24,
@@ -1446,7 +1446,15 @@
       "id": "w-ausgehen",
       "lemma": "ausgehen",
       "ru": "выйти гулять / чилить; go out; выходить (из дома)",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-13",
+      "last_result": "error"
     },
     {
       "id": "w-ausschlafen",
@@ -1957,12 +1965,12 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-13",
+      "last_result": "error"
     },
     {
       "id": "w-blau",
@@ -2062,13 +2070,13 @@
       "ru": "булочка",
       "status": "learning",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 0,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-buch",
@@ -2155,19 +2163,27 @@
       "status": "stuck",
       "reason": "2 ошибок/затруднений за 21 дн.",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 2,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": "2026-11-05",
-      "last_result": "error"
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-croissant",
       "lemma": "das Croissant",
       "ru": "круассан",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-13",
+      "last_result": "error"
     },
     {
       "id": "w-danach-kommt-mit-prozent",
@@ -2362,7 +2378,15 @@
       "id": "w-dessert",
       "lemma": "das Dessert",
       "ru": "десерт",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-deutlich",
@@ -5222,13 +5246,13 @@
       "ru": "ливерная колбаса",
       "status": "learning",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 0,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-leer",
@@ -5456,13 +5480,13 @@
       "ru": "лекарство",
       "status": "learning",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 0,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-meeting",
@@ -5688,7 +5712,15 @@
       "id": "w-mund",
       "lemma": "der Mund",
       "ru": "рот",
-      "status": "new"
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-musik",
@@ -6176,13 +6208,13 @@
       "ru": "гриб",
       "status": "learning",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 0,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-pizza",
@@ -7758,15 +7790,16 @@
       "id": "w-umziehen",
       "lemma": "umziehen",
       "ru": "переехать; переезжать",
-      "status": "learning",
+      "status": "stuck",
+      "reason": "2 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 2,
         "struggle": 2,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-13",
+      "last_result": "error"
     },
     {
       "id": "w-umzug",
@@ -7844,13 +7877,13 @@
       "ru": "урок; занятие",
       "status": "learning",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 1,
         "struggle": 3,
         "flagged": 0
       },
-      "last_date": "2026-11-07",
-      "last_result": "error"
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-unterrichten",
@@ -9348,13 +9381,13 @@
       "status": "stuck",
       "reason": "2 ошибок/затруднений за 21 дн.",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 2,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": "2026-11-10",
-      "last_result": "error"
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-feier",
@@ -9363,13 +9396,13 @@
       "status": "stuck",
       "reason": "2 ошибок/затруднений за 21 дн.",
       "counts": {
-        "correct": 0,
+        "correct": 1,
         "error": 2,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": "2026-11-05",
-      "last_result": "error"
+      "last_date": "2026-11-13",
+      "last_result": "correct"
     },
     {
       "id": "w-nacht",
@@ -9392,12 +9425,12 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-13",
+      "last_result": "error"
     },
     {
       "id": "w-zoo",
@@ -9406,12 +9439,12 @@
       "status": "learning",
       "counts": {
         "correct": 0,
-        "error": 0,
+        "error": 1,
         "struggle": 1,
         "flagged": 0
       },
-      "last_date": null,
-      "last_result": "struggle"
+      "last_date": "2026-11-13",
+      "last_result": "error"
     },
     {
       "id": "w-alltag",
@@ -9597,6 +9630,34 @@
         "flagged": 0
       },
       "last_date": "2026-11-09",
+      "last_result": "error"
+    },
+    {
+      "id": "w-korallenriff",
+      "lemma": "das Korallenriff",
+      "ru": "коралловый риф",
+      "status": "learning",
+      "counts": {
+        "correct": 1,
+        "error": 0,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-13",
+      "last_result": "correct"
+    },
+    {
+      "id": "w-alter",
+      "lemma": "das Alter",
+      "ru": "возраст",
+      "status": "learning",
+      "counts": {
+        "correct": 0,
+        "error": 1,
+        "struggle": 0,
+        "flagged": 0
+      },
+      "last_date": "2026-11-13",
       "last_result": "error"
     }
   ]

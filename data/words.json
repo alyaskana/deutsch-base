@@ -22740,5 +22740,28 @@
       "mein-deutsch"
     ],
     "added": "2026-11-09"
+  },
+  {
+    "id": "w-korallenriff",
+    "lemma": "Korallenriff",
+    "pos": "noun",
+    "article": "das",
+    "ru": "коралловый риф",
+    "tags": [
+      "mein-deutsch"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-alter",
+    "lemma": "Alter",
+    "pos": "noun",
+    "article": "das",
+    "ru": "возраст",
+    "tags": [
+      "alltag",
+      "mein-deutsch"
+    ],
+    "added": "2026-11-13"
   }
 ]

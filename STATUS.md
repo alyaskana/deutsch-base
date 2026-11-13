@@ -1,4 +1,4 @@
-# Статус на 2026-11-11
+# Статус на 2026-11-13
 
 Файл генерируется `node scripts/status.mjs`, руками не править.
 
@@ -6,10 +6,10 @@
 
 ### Затык (10)
 
-- **Прошедшее время Perfekt** `perfekt` — 11 ошибок/затруднений за 21 дн.
-- **Сильные и неправильные глаголы: три формы** `strong-verbs` — отмечено репетитором, после этого верных: 0 из 3
+- **Прошедшее время Perfekt** `perfekt` — 13 ошибок/затруднений за 21 дн.
+- **Сильные и неправильные глаголы: три формы** `strong-verbs` — отмечено репетитором, после этого верных: 1 из 3
 - **Управление глаголов (Akk / Dat)** `verb-government` — 3 ошибок/затруднений за 21 дн.
-- **Притяжательные в падежах** `possessive-pronouns` — 10 ошибок/затруднений за 21 дн.
+- **Притяжательные в падежах** `possessive-pronouns` — 8 ошибок/затруднений за 21 дн.
 - **Выбор падежа в речи** `case-choice` — 2 ошибок/затруднений за 21 дн.
 - **Род существительных** `noun-gender` — отмечено репетитором, после этого верных: 0 из 3
 - **Предлоги места: где — Dativ, куда — Akkusativ** `wo-wohin` — 4 ошибок/затруднений за 21 дн.
@@ -76,19 +76,20 @@
 
 ## Слова
 
-Всего 1095: сложно 8, изучаю 275, уверенно 0, не проверено 812.
+Всего 1097: сложно 9, изучаю 280, уверенно 0, не проверено 808.
 
 ### Затык
 
 - das Abonnement — подписка
 - die Couch — диван
 - denken — думать
+- umziehen — переехать; переезжать
 - die Bucht — бухта
 - der Bericht — отчёт
 - die Feier — праздник, вечеринка
 - der Alltag — будни, повседневная жизнь
 - das Ende — конец
 
-### Изучаю (275)
+### Изучаю (280)
 
-abbiegen, abholen, abschließen, alle, alles, als, also, am Mittag, am Nachmittag, am Stadtrand, am Vormittag, an der dritten Querstraße, anderthalb, anfangen, die Ankunft, anprobieren, der Anteil, die App, auch, auf dem Land, auf der rechten Seite, auf jeden Fall, der Ausblick, aussehen, außerdem, Azubi, die Badewanne, der Beamer, beginnen, bei der Arbeit, bei einem Picknick, beliebt, bequem, beraten, besitzen, besprechen, die Besprechung, bestehen aus, bestellen, das Bett, bevorzugen, der Bezirk, das Bild, bitten, bleiben, das Brötchen, das heißt, das wäre es, den Platz belegen, deutlich, Deutsche, dringend, durchführen, durchschnittlich, eigen, das Eigentum, die Eigentumswohnung, der Eigentümer, eine halbe Stunde, einen Termin vereinbaren, einhalb, einige, einverstanden, empfangen, erfolgreich, es ist 20 Grad, es kommt auf … an, es kommt darauf an, essen, etwa, etwas, fahren, das Fahrrad, der Fahrstuhl, fair, fast, faulenzen, das Fenster, die Flasche, das Flugzeug, der Flur, folgen, die Fähigkeit, der Führerschein, gefallen, die Gegend, das Gehalt, das Geheimnis, Gehen Sie auf die … Straße, Gehen Sie geradeaus bis zu …, Gehen Sie gleich rechts, gelten, das Gericht, das Gerät, das Gespräch, der Grund, die Größe, der Hahn, halten, die Haltestelle, der Haushalt, das Heimatland, die Heizung, der Herd, herrlich, die Hin- und Rückfahrt, die Hose, höflich, immer noch nicht, in der Ecke, in der fünften Etage, die Internetverbindung, die Jahreszeit, japanisch, der Jasmin, der Kaffee, die Kamera, kariert, der Kater, die Katze, kennen, der Kopfhörer, lang, lange, lassen, laufen, die Laune, das Lebensmittel, die Leberwurst, leer, letztes Mal, links von, der Lärm, Lärm machen, das Medikament, mentale Gesundheit, mieten, die Mietwohnung, die Mittagspause, der Monteur, die Mütze, nach, nach Hause, der Nachteil, die Natur, nehmen, nett, neugeboren, nie, noch, normalerweise, nutzen, Obdachlose, offen, passen, der Pilz, der Platz, das Poster, der Preis, preiswert, pünktlich, die Qualität, rechts von, der Regenschirm, Richtung Marktplatz, der Roller, sagen, sammeln, schiefgehen, das Schiff, schließen, der Schlüssel, der Schnee, die Schokolade, schon, seit, selten, der Sessel, Sinn machen, spanisch, der Spiegel, das Spiel, das Spielzeug, sprechen, die Steuer, der Stift, die Straßenbahn, der Strom, das Studium, stören, der Supermarkt, die Süßigkeit, die Tankstelle, tauchen, das Taxi, die Technik, der Teppich, das Training, das Treffen, die U-Bahn, die Uhr, das Umsteigen, umtauschen, umziehen, ungefähr, unhöflich, der Unterricht, verkaufen, das Verkehrsschild, der Verkäufer, die Verkäuferin, vermieten, verschieben, die Verspätung, viel Erfolg, das Viertel, voll, von der Arbeit, vor, vor dem Urlaub, vor der Reise, vor einer Woche, vor kurzem, der Vorteil, der Vortrag, die Wand, warmer Boden, was für ein Zeug!, das Waschbecken, weinen, weiterleiten, wen, die WG, Wie bitte?, die Wirtschaft, die Wissenschaft, das Wohneigentum, wählen, die Zeitschrift, die Zeitung, ziemlich, zu meinem Freund gehen, der Zug, zum Ausgehen, zur Miete wohnen, zurückfahren, die Zwischenlandung, Zypern, das öffentliche Verkehrsmittel, überall, überhaupt, übernachten, überrascht, übersetzen, übrigens, die Kajüte, das Steuer, der Wind, der Mast, die Schildkröte, die Muschel, die Insel, das Segel, die Nacht, die Schüssel, der Zoo, die Vorlesung, zum Glück, plaudern, niemand, wechseln, die Ingenieurin, das Becken, der Hintergrund, geschieden
+abbiegen, abholen, abschließen, alle, alles, als, also, am Mittag, am Nachmittag, am Stadtrand, am Vormittag, an der dritten Querstraße, anderthalb, anfangen, die Ankunft, anprobieren, der Anteil, die App, auch, auf dem Land, auf der rechten Seite, auf jeden Fall, der Ausblick, ausgehen, aussehen, außerdem, Azubi, die Badewanne, der Beamer, beginnen, bei der Arbeit, bei einem Picknick, beliebt, bequem, beraten, besitzen, besprechen, die Besprechung, bestehen aus, bestellen, das Bett, bevorzugen, der Bezirk, das Bild, bitten, bleiben, das Brötchen, das Croissant, das heißt, das wäre es, den Platz belegen, das Dessert, deutlich, Deutsche, dringend, durchführen, durchschnittlich, eigen, das Eigentum, die Eigentumswohnung, der Eigentümer, eine halbe Stunde, einen Termin vereinbaren, einhalb, einige, einverstanden, empfangen, erfolgreich, es ist 20 Grad, es kommt auf … an, es kommt darauf an, essen, etwa, etwas, fahren, das Fahrrad, der Fahrstuhl, fair, fast, faulenzen, das Fenster, die Flasche, das Flugzeug, der Flur, folgen, die Fähigkeit, der Führerschein, gefallen, die Gegend, das Gehalt, das Geheimnis, Gehen Sie auf die … Straße, Gehen Sie geradeaus bis zu …, Gehen Sie gleich rechts, gelten, das Gericht, das Gerät, das Gespräch, der Grund, die Größe, der Hahn, halten, die Haltestelle, der Haushalt, das Heimatland, die Heizung, der Herd, herrlich, die Hin- und Rückfahrt, die Hose, höflich, immer noch nicht, in der Ecke, in der fünften Etage, die Internetverbindung, die Jahreszeit, japanisch, der Jasmin, der Kaffee, die Kamera, kariert, der Kater, die Katze, kennen, der Kopfhörer, lang, lange, lassen, laufen, die Laune, das Lebensmittel, die Leberwurst, leer, letztes Mal, links von, der Lärm, Lärm machen, das Medikament, mentale Gesundheit, mieten, die Mietwohnung, die Mittagspause, der Monteur, der Mund, die Mütze, nach, nach Hause, der Nachteil, die Natur, nehmen, nett, neugeboren, nie, noch, normalerweise, nutzen, Obdachlose, offen, passen, der Pilz, der Platz, das Poster, der Preis, preiswert, pünktlich, die Qualität, rechts von, der Regenschirm, Richtung Marktplatz, der Roller, sagen, sammeln, schiefgehen, das Schiff, schließen, der Schlüssel, der Schnee, die Schokolade, schon, seit, selten, der Sessel, Sinn machen, spanisch, der Spiegel, das Spiel, das Spielzeug, sprechen, die Steuer, der Stift, die Straßenbahn, der Strom, das Studium, stören, der Supermarkt, die Süßigkeit, die Tankstelle, tauchen, das Taxi, die Technik, der Teppich, das Training, das Treffen, die U-Bahn, die Uhr, das Umsteigen, umtauschen, ungefähr, unhöflich, der Unterricht, verkaufen, das Verkehrsschild, der Verkäufer, die Verkäuferin, vermieten, verschieben, die Verspätung, viel Erfolg, das Viertel, voll, von der Arbeit, vor, vor dem Urlaub, vor der Reise, vor einer Woche, vor kurzem, der Vorteil, der Vortrag, die Wand, warmer Boden, was für ein Zeug!, das Waschbecken, weinen, weiterleiten, wen, die WG, Wie bitte?, die Wirtschaft, die Wissenschaft, das Wohneigentum, wählen, die Zeitschrift, die Zeitung, ziemlich, zu meinem Freund gehen, der Zug, zum Ausgehen, zur Miete wohnen, zurückfahren, die Zwischenlandung, Zypern, das öffentliche Verkehrsmittel, überall, überhaupt, übernachten, überrascht, übersetzen, übrigens, die Kajüte, das Steuer, der Wind, der Mast, die Schildkröte, die Muschel, die Insel, das Segel, die Nacht, die Schüssel, der Zoo, die Vorlesung, zum Glück, plaudern, niemand, wechseln, die Ingenieurin, das Becken, der Hintergrund, geschieden, das Korallenriff, das Alter
