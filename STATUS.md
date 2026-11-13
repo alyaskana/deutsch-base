@@ -49,8 +49,9 @@
 - **Спряжение в настоящем времени** `praesens`
 - **Придаточные: weil, dass, wenn, ob** `subordinate-clauses` · самостоятельно
 
-### Не проверено (11)
+### Не проверено (12)
 
+- **werden: становиться и будущее** `werden` · самостоятельно
 - **Личные местоимения: Nom / Akk / Dat** `personal-pronouns`
 - **Болит: wehtun + Dativ** `wehtun-dativ`
 - **Отрицание kein / nicht** `kein-nicht`

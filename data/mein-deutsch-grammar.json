@@ -1,6 +1,11 @@
 {
   "note": "Какие этапы уроков «Mein Deutsch» тренируют какую тему. Ключ — <id урока>|<номер этапа с 0>, для глав большого урока <id>~<глава>|<этап>. По этим этапам собираются «Где было» и задания «Закрепить» в разделе «Грамматика». Новый урок — новые строки здесь.",
   "stages": {
+    "werden|0": ["werden", "praesens"],
+    "werden|1": ["werden"],
+    "werden|2": ["werden", "word-order"],
+    "werden|3": ["werden", "strong-verbs"],
+    "werden|4": ["werden", "perfekt"],
     "an-nichts-denken|0": ["separable-verbs"],
     "an-nichts-denken|1": ["noun-gender"],
     "an-nichts-denken|2": ["verbs-with-prepositions"],

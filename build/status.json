@@ -16,7 +16,7 @@
       "stuck": 10,
       "learning": 29,
       "solid": 0,
-      "new": 11,
+      "new": 12,
       "planned": 8
     },
     "words": {
@@ -88,6 +88,13 @@
       },
       "last_date": null,
       "last_result": "correct"
+    },
+    {
+      "id": "werden",
+      "title_ru": "werden: становиться и будущее",
+      "level": "A2",
+      "covered_with_tutor": false,
+      "status": "new"
     },
     {
       "id": "modal-verbs",
