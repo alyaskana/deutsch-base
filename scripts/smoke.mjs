@@ -9,7 +9,9 @@
 //      не пересоздаёт поле и не шлёт запрос на каждую букву;
 //   5. тренировка слов: звук прошлого слова не играет на новом экране,
 //      после верного ответа всегда плашка с переводом;
-//   6. «Род слова»: 43 правила, 1005 слов, 693 подсказки, поиск, карточка, раунд «Тренировать» до итога.
+//   6. «Род слова»: 43 правила, 1005 слов, 693 подсказки, поиск, карточка, раунд «Тренировать» до итога;
+//   7. главная на ноутбуке и планшете (820–1440 px): в «Пять минут» каждый ряд заполнен целиком,
+//      нет карточки с пустотой справа, страница не шире окна.
 // Выход 1, если есть хоть одна проблема.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -317,6 +319,40 @@ for (const [t, v] of Object.entries(perType)) {
   }
   for (const e of [...new Set(errs)]) bad(`тренировка слов: ошибка JS: ${e}`);
   await page.close();
+}
+
+// 7. Главная на широком экране. 13.11.2026 у Алины на ноутбуке «Тренировать» шла на всю ширину между
+// «Словом дня» и «Парами», и те стояли по одной с пустотой справа. Смартфонный прогон этого не видел.
+{
+  const SHOTS = process.env.SMOKE_SHOTS;
+  for (const width of [820, 1100, 1280, 1440]) {
+    const c = await browser.newContext({ viewport: { width, height: 900 }, deviceScaleFactor: 1 });
+    await c.addInitScript(MOCK);
+    const page = await c.newPage();
+    const errs = [];
+    page.on('pageerror', e => errs.push(String(e.message || e).slice(0, 200)));
+    await page.goto('file://' + tmp);
+    await page.waitForSelector('.mgames .mgame', { timeout: 8000 }).catch(() => {});
+    await page.waitForTimeout(400);
+    const r = await page.evaluate(() => {
+      const box = document.querySelector('.mgames');
+      if (!box) return { none: true };
+      const cs = getComputedStyle(box), W = box.getBoundingClientRect().width, gap = parseFloat(cs.columnGap) || 0;
+      const rows = {};
+      [...box.children].filter(e => e.offsetParent !== null).forEach(e => { const b = e.getBoundingClientRect(); (rows[Math.round(b.top)] ||= []).push(b.width); });
+      const holes = Object.values(rows).map(ws => W - ws.reduce((a, b) => a + b, 0) - gap * (ws.length - 1)).filter(h => h > 8);
+      return { holes: holes.map(Math.round), wide: document.documentElement.scrollWidth - innerWidth };
+    });
+    if (r.none) bad(`главная ${width} px: блок «Пять минут» не найден`);
+    else {
+      if (r.holes.length) bad(`главная ${width} px: в «Пять минут» ряд не заполнен, пустота справа ${r.holes.join(', ')} px`);
+      if (r.wide > 1) bad(`главная ${width} px: страница шире окна на ${r.wide} px`);
+    }
+    for (const e of [...new Set(errs)]) bad(`главная ${width} px: ошибка JS: ${e}`);
+    if (SHOTS) await page.screenshot({ path: path.join(SHOTS, `home-${width}.png`), fullPage: false });
+    console.log(`  ${!r.none && !r.holes.length && r.wide <= 1 ? '✓' : '✗'} главная ${width} px`);
+    await c.close();
+  }
 }
 
 await browser.close();
