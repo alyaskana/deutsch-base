@@ -1,0 +1,369 @@
+{
+ "title": "Пять предлогов",
+ "topic": "Книга · 6.7",
+ "sub": "für, ohne, durch, gegen, um: после них всегда Akkusativ. Падеж выбирает сам предлог.",
+ "order": 0,
+ "createdAt": "2026-11-13",
+ "book": {
+  "l": 6,
+  "s": "6.7",
+  "video": {
+   "n": 26,
+   "t": 76,
+   "end": 287,
+   "cap": "FUDOG: пять предлогов с Akkusativ"
+  }
+ },
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Предлог решает падеж",
+   "sub": "Выбери артикль после предлога",
+   "color": "coral",
+   "shape": "circle",
+   "skill": "für, ohne, durch, gegen, um + Akk.",
+   "theory": {
+    "t": "Пять предлогов + Akkusativ",
+    "p": [
+     "После <b>für, ohne, durch, gegen, um</b> всегда <b>Akkusativ</b>. Падеж здесь выбирает сам предлог, поэтому подлежащее искать не нужно.",
+     "Заметно это у мужского рода: der → <b>den</b>, ein → <b>einen</b>. У die, das и множественного форма не меняется, но падеж всё равно Akkusativ.",
+     "Местоимения тоже меняются: für <b>dich</b>, ohne <b>ihn</b>, gegen <b>uns</b>. Сочетание *für du неверно.",
+     "Один маршрут по рынку, чтобы запомнить все пять: покупаем для Пауля, идём без сумки через рынок, против ветра и сворачиваем за угол."
+    ],
+    "tab": [
+     [
+      "предлог",
+      "пример",
+      "смысл"
+     ],
+     [
+      "für",
+      "für Paul",
+      "для Пауля"
+     ],
+     [
+      "ohne",
+      "ohne Tasche",
+      "без сумки"
+     ],
+     [
+      "durch",
+      "durch den Markt",
+      "через рынок, внутри него"
+     ],
+     [
+      "gegen",
+      "gegen den Wind",
+      "против ветра"
+     ],
+     [
+      "um",
+      "um die Ecke",
+      "за угол, огибая"
+     ]
+    ],
+    "ex": [
+     [
+      "Der Kaffee ist für <b>den</b> Verkäufer.",
+      "Кофе для продавца."
+     ],
+     [
+      "Wir gehen ohne <b>die</b> Tasche.",
+      "Мы идём без этой сумки."
+     ]
+    ]
+   },
+   "items": [
+    {
+     "s": "Der Kaffee ist für ___ Verkäufer.",
+     "ru": "Кофе для продавца.",
+     "o": [
+      "den",
+      "dem",
+      "der"
+     ],
+     "a": "den",
+     "n": "für + Akk., der Verkäufer → <b>den</b>.",
+     "tr": "Кофе для продавца."
+    },
+    {
+     "s": "Wir gehen durch ___ Markt.",
+     "ru": "Мы идём через рынок.",
+     "o": [
+      "den",
+      "dem",
+      "der"
+     ],
+     "a": "den",
+     "n": "durch + Akk., der Markt → <b>den</b>.",
+     "tr": "Мы идём через рынок."
+    },
+    {
+     "s": "Paul fährt gegen ___ Wind.",
+     "ru": "Пауль едет против ветра.",
+     "o": [
+      "den",
+      "dem",
+      "des"
+     ],
+     "a": "den",
+     "n": "gegen + Akk., der Wind → <b>den</b>.",
+     "tr": "Пауль едет против ветра."
+    },
+    {
+     "s": "Der Laden ist gleich um ___ Ecke.",
+     "ru": "Магазин прямо за углом.",
+     "o": [
+      "die",
+      "der",
+      "den"
+     ],
+     "a": "die",
+     "n": "um + Akk., die Ecke → <b>die</b>. Форма та же, что в Nominativ, но это Akkusativ. der здесь был бы Dativ.",
+     "tr": "Магазин прямо за углом."
+    },
+    {
+     "s": "Ich gehe heute ohne ___ Schirm.",
+     "ru": "Сегодня я иду без своего зонта.",
+     "o": [
+      "meinen",
+      "meinem",
+      "mein"
+     ],
+     "a": "meinen",
+     "n": "ohne + Akk., der Schirm → <b>meinen</b>.",
+     "tr": "Сегодня я иду без своего зонта."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Какой предлог?",
+   "sub": "Выбери предлог по смыслу",
+   "color": "sun",
+   "shape": "flower",
+   "skill": "für, ohne, durch, gegen, um: значения",
+   "theory": {
+    "t": "Что значит каждый",
+    "p": [
+     "<b>für</b> — для кого или за сколько: Käse für Paul, Käse für zwei Euro.",
+     "<b>ohne</b> — без. Артикль часто пропадает: Kaffee ohne Zucker. Это всё равно Akkusativ.",
+     "<b>durch</b> — сквозь, внутри пространства: durch den Park. «Через неделю» так не переводится: <b>in</b> einer Woche.",
+     "<b>gegen</b> — против: Köln spielt gegen Hamburg. <b>um</b> — вокруг, за угол: um die Ecke.",
+     "Русское «схожу за сыром» — не für: Ich <b>hole</b> Käse."
+    ]
+   },
+   "items": [
+    {
+     "s": "Wir gehen ___ den Park.",
+     "ru": "Мы идём через парк.",
+     "o": [
+      "durch",
+      "gegen",
+      "ohne"
+     ],
+     "a": "durch",
+     "n": "Сквозь пространство → <b>durch</b>.",
+     "tr": "Мы идём через парк."
+    },
+    {
+     "s": "Köln spielt heute ___ Hamburg.",
+     "ru": "Кёльн сегодня играет против Гамбурга.",
+     "o": [
+      "gegen",
+      "durch",
+      "um"
+     ],
+     "a": "gegen",
+     "n": "Против соперника → <b>gegen</b>.",
+     "tr": "Кёльн сегодня играет против Гамбурга."
+    },
+    {
+     "s": "Ich trinke Kaffee ___ Zucker.",
+     "ru": "Я пью кофе без сахара.",
+     "o": [
+      "ohne",
+      "für",
+      "durch"
+     ],
+     "a": "ohne",
+     "n": "Без → <b>ohne</b>, часто без артикля.",
+     "tr": "Я пью кофе без сахара."
+    },
+    {
+     "s": "Der Bus fährt ___ die Ecke.",
+     "ru": "Автобус поворачивает за угол.",
+     "o": [
+      "um",
+      "für",
+      "ohne"
+     ],
+     "a": "um",
+     "n": "Огибая угол → <b>um</b> die Ecke.",
+     "tr": "Автобус поворачивает за угол."
+    },
+    {
+     "s": "___ einer Woche ziehe ich um.",
+     "ru": "Через неделю я переезжаю.",
+     "o": [
+      "In",
+      "Durch",
+      "Für"
+     ],
+     "a": "In",
+     "n": "«Через неделю» — <b>in</b> einer Woche. durch — только сквозь пространство.",
+     "tr": "Через неделю я переезжаю."
+    }
+   ]
+  },
+  {
+   "type": "type",
+   "title": "Для тебя, без него",
+   "sub": "Выбери форму местоимения",
+   "color": "teal",
+   "shape": "penta",
+   "skill": "Личные местоимения в Akkusativ",
+   "theory": {
+    "t": "Местоимения после предлога",
+    "p": [
+     "Предлог уже выбрал падеж, поэтому местоимение тоже в Akkusativ, а не в словарной форме."
+    ],
+    "tab": [
+     [
+      "кто",
+      "Akkusativ"
+     ],
+     [
+      "ich",
+      "mich"
+     ],
+     [
+      "du",
+      "dich"
+     ],
+     [
+      "er",
+      "ihn"
+     ],
+     [
+      "sie / es",
+      "sie / es"
+     ],
+     [
+      "wir",
+      "uns"
+     ],
+     [
+      "ihr",
+      "euch"
+     ],
+     [
+      "sie / Sie",
+      "sie / Sie"
+     ]
+    ]
+   },
+   "items": [
+    {
+     "s": "Die Blumen sind für ___.",
+     "ru": "Цветы для тебя.",
+     "a": "dich",
+     "hint": "du",
+     "n": "für + Akk.: du → <b>dich</b>. *für du — ошибка.",
+     "tr": "Цветы для тебя."
+    },
+    {
+     "s": "Ohne ___ gehe ich nicht.",
+     "ru": "Без него я не пойду.",
+     "a": "ihn",
+     "hint": "er",
+     "n": "ohne + Akk.: er → <b>ihn</b>.",
+     "tr": "Без него я не пойду."
+    },
+    {
+     "s": "Paul kauft Käse für ___.",
+     "ru": "Пауль покупает сыр для нас.",
+     "a": "uns",
+     "hint": "wir",
+     "n": "für + Akk.: wir → <b>uns</b>.",
+     "tr": "Пауль покупает сыр для нас."
+    },
+    {
+     "s": "Ich habe nichts gegen ___.",
+     "ru": "Я ничего не имею против вас (ребят).",
+     "a": "euch",
+     "hint": "ihr",
+     "n": "gegen + Akk.: ihr → <b>euch</b>.",
+     "tr": "Я ничего не имею против вас (ребят)."
+    }
+   ]
+  },
+  {
+   "type": "tf",
+   "title": "Ловушки",
+   "sub": "Найди ошибку и исправь её сама",
+   "ask": "Есть ли ошибка?",
+   "color": "violet",
+   "shape": "diamond",
+   "skill": "für, ohne, durch, gegen, um + Akk.",
+   "items": [
+    {
+     "t": [
+      "Für",
+      "du",
+      "habe",
+      "ich",
+      "einen",
+      "Kuchen",
+      "gekauft."
+     ],
+     "bad": 1,
+     "a": "dich",
+     "n": "für + Akk.: du → <b>dich</b>.",
+     "tr": "Для тебя я купила пирог."
+    },
+    {
+     "t": [
+      "Wir",
+      "gehen",
+      "ohne",
+      "Tasche",
+      "zum",
+      "Markt."
+     ],
+     "ok": true,
+     "n": "ohne часто без артикля. Это всё равно Akkusativ.",
+     "tr": "Мы идём на рынок без сумки."
+    },
+    {
+     "t": [
+      "Der",
+      "Laden",
+      "ist",
+      "gleich",
+      "um",
+      "der",
+      "Ecke."
+     ],
+     "bad": 5,
+     "a": "die",
+     "n": "um + Akk., die Ecke → <b>die</b>.",
+     "tr": "Магазин прямо за углом."
+    },
+    {
+     "t": [
+      "Wir",
+      "fahren",
+      "durch",
+      "dem",
+      "Tunnel."
+     ],
+     "bad": 3,
+     "a": "den",
+     "n": "durch + Akk., der Tunnel → <b>den</b>.",
+     "tr": "Мы едем через туннель."
+    }
+   ]
+  }
+ ]
+}

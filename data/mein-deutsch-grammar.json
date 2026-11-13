@@ -91,6 +91,14 @@
     "mein-morgen-3|1": ["time-prepositions"],
     "mein-morgen-3|2": ["separable-verbs", "word-order"],
     "mein-morgen-4|0": ["perfekt", "reflexive-verbs"],
-    "mein-morgen-4|1": ["word-order", "reflexive-verbs", "wo-wohin", "possessive-pronouns"]
+    "mein-morgen-4|1": ["word-order", "reflexive-verbs", "wo-wohin", "possessive-pronouns"],
+    "book-06-7|0": ["prepositions-by-case"],
+    "book-06-7|1": ["prepositions-by-case"],
+    "book-06-7|2": ["personal-pronouns-akk"],
+    "book-06-7|3": ["prepositions-by-case", "personal-pronouns-akk"],
+    "book-15-2|0": ["wo-wohin"],
+    "book-15-2|1": ["wo-wohin", "prepositions-by-case"],
+    "book-15-2|2": ["wo-wohin"],
+    "book-15-2|3": ["wo-wohin", "liegen-legen"]
   }
 }
