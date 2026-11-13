@@ -1,4 +1,4 @@
-"""Synthesize clips with OpenAI TTS (or ElevenLabs with TTS_ENGINE=eleven TTS_VOICE_ID=<id>) and check each one by speech recognition.
+"""Synthesize clips with OpenAI TTS (or ElevenLabs with TTS_ENGINE=eleven: main voices from data/hoeren/voices.json, or TTS_VOICE_ID=<id[,id]>) and check each one by speech recognition.
 Usage: gen.py <texts.json> <outdir> [--have have.json] [--report report.json]
 texts.json: [[group, [[key, text, kind], ...]], ...] from collect.py
 have.json: {hash: docId} — clips already in the artifact (skipped).
@@ -13,11 +13,15 @@ ENGINE=os.environ.get('TTS_ENGINE','openai')
 EL_VOICE=os.environ.get('TTS_VOICE_ID','')
 # Диктант (kind 'k') озвучивается разными голосами по очереди: Алина привыкает к разным голосам и акцентам.
 # Список берётся из data/hoeren/voices.json, голос выбирается по хэшу фразы (одна фраза — всегда один голос).
-try:EL_MANY=[v['id'] for v in json.load(open(os.path.join(os.path.dirname(__file__),'../../data/hoeren/voices.json')))['voices']]
-except Exception:EL_MANY=[]
+# Остальное — основные голоса приложения (main: true в voices.json; с 2026-11-13 Adrian и Helmut) тоже по хэшу текста.
+# TTS_VOICE_ID (один id или несколько через запятую) заменяет основные голоса.
+try:_V=json.load(open(os.path.join(os.path.dirname(__file__),'../../data/hoeren/voices.json')))['voices']
+except Exception:_V=[]
+EL_MANY=[v['id'] for v in _V]
+EL_MAIN=[x for x in EL_VOICE.split(',') if x.strip()] or [v['id'] for v in _V if v.get('main')]
 def el_voice(text,kind):
-    if kind=='k' and EL_MANY:return EL_MANY[int(ahash(key(text)),16)%len(EL_MANY)]
-    return EL_VOICE
+    pool=EL_MANY if kind=='k' and EL_MANY else EL_MAIN
+    return pool[int(ahash(key(text)),16)%len(pool)] if pool else ''
 I_SENT='Sprich klares, natürliches Hochdeutsch wie eine Muttersprachlerin aus Deutschland. Ruhig und etwas langsamer als normal, deutliche Aussprache, korrekte Wortbetonung, neutrale freundliche Intonation.'
 I_WORD='Sprich nur dieses deutsche Wort oder diese kurze Wortgruppe, klar und deutlich wie in einem Wörterbuch, mit korrekter Betonung, Hochdeutsch.'
 def post(url,data=None,files=None,timeout=120):
