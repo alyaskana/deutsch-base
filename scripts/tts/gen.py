@@ -18,7 +18,13 @@ EL_VOICE=os.environ.get('TTS_VOICE_ID','')
 try:_V=json.load(open(os.path.join(os.path.dirname(__file__),'../../data/hoeren/voices.json')))['voices']
 except Exception:_V=[]
 EL_MANY=[v['id'] for v in _V]
-EL_MAIN=[x for x in EL_VOICE.split(',') if x.strip()] or [v['id'] for v in _V if v.get('main')]
+# Ежедневная задача «Озвучка в Mein Deutsch» по старому промпту передаёт TTS_VOICE_ID=<Adrian>, а промпт той задачи нельзя
+# поменять без её удаления. Поэтому один id Адриана считается старой настройкой и заменяется основными голосами;
+# озвучить именно Адрианом: TTS_VOICE_ONLY=1.
+_MAIN=[v['id'] for v in _V if v.get('main')]
+_ENV=[x.strip() for x in EL_VOICE.split(',') if x.strip()]
+if _ENV==['X3GmkxFRIWulRy3Eaur7'] and not os.environ.get('TTS_VOICE_ONLY') and _MAIN:_ENV=[]
+EL_MAIN=_ENV or _MAIN
 def el_voice(text,kind):
     pool=EL_MANY if kind=='k' and EL_MANY else EL_MAIN
     return pool[int(ahash(key(text)),16)%len(pool)] if pool else ''
