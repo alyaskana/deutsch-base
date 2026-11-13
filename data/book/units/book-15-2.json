@@ -1,0 +1,324 @@
+{
+ "title": "Цель или место",
+ "topic": "Книга · 15.2",
+ "sub": "Двойные предлоги: новое место → Akkusativ, место действия → Dativ. Даже если кошка бегает.",
+ "order": 0,
+ "createdAt": "2026-11-13",
+ "book": {
+  "l": 15,
+  "s": "15.2",
+  "video": {
+   "n": 25,
+   "t": 84,
+   "end": 179,
+   "cap": "wohin — Akkusativ, wo — Dativ"
+  }
+ },
+ "stages": [
+  {
+   "type": "sort",
+   "title": "Новое место или место?",
+   "sub": "Названо новое место или где всё происходит?",
+   "ask": "Что называет предлог?",
+   "bins": [
+    "новое место · Akk",
+    "место · Dat"
+   ],
+   "color": "blue",
+   "shape": "cloud",
+   "skill": "Где — Dativ, куда — Akkusativ",
+   "theory": {
+    "t": "Движение не решает",
+    "p": [
+     "Часто советуют: «есть движение — ставь Akkusativ». Это неверно. Кошка бегает в обоих примерах ниже, а падежи разные.",
+     "Предлог называет <b>новое место</b> для человека или вещи → <b>Akkusativ</b> (wohin?). Предлог называет <b>место, где всё происходит</b> → <b>Dativ</b> (wo?).",
+     "Границу комнаты пересекать не нужно: Ich stelle den Stuhl <b>neben den</b> Schrank. Новое место названо, значит Akkusativ.",
+     "<b>herum</b> — туда-сюда внутри места: in der Wohnung herum."
+    ],
+    "ex": [
+     [
+      "Die Katze läuft <b>in der</b> Wohnung herum.",
+      "Кошка бегает по квартире (где?)."
+     ],
+     [
+      "Die Katze läuft <b>in die</b> Küche.",
+      "Кошка бежит на кухню (куда?)."
+     ]
+    ]
+   },
+   "items": [
+    {
+     "w": "Die Katze läuft in die Küche.",
+     "a": "новое место · Akk",
+     "n": "Кухня — цель, кошка перемещается туда: <b>in die</b>.",
+     "ru": "Кошка бежит на кухню."
+    },
+    {
+     "w": "Die Katze läuft in der Wohnung herum.",
+     "a": "место · Dat",
+     "n": "Квартира — место всей беготни: <b>in der</b>.",
+     "ru": "Кошка бегает по квартире."
+    },
+    {
+     "w": "Paul läuft im Park.",
+     "a": "место · Dat",
+     "n": "Где он бегает: <b>im</b> = in dem.",
+     "ru": "Пауль бегает в парке."
+    },
+    {
+     "w": "Ich trage das Geschirr in den Keller.",
+     "a": "новое место · Akk",
+     "n": "Подвал станет новым местом посуды: <b>in den</b>.",
+     "ru": "Я несу посуду в подвал."
+    },
+    {
+     "w": "Ich stelle den Stuhl neben den Schrank.",
+     "a": "новое место · Akk",
+     "n": "Новое место стула названо: <b>neben den</b>.",
+     "ru": "Я ставлю стул рядом со шкафом."
+    },
+    {
+     "w": "Das Geschirr ist im Keller.",
+     "a": "место · Dat",
+     "n": "Посуда уже там: <b>im</b> = in dem.",
+     "ru": "Посуда в подвале."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Особые случаи",
+   "sub": "Выбери артикль",
+   "color": "coral",
+   "shape": "square",
+   "skill": "Где — Dativ, куда — Akkusativ",
+   "theory": {
+    "t": "Глаголы со своим правилом",
+    "p": [
+     "<b>ankommen</b> (прибывать) и <b>landen</b> (приземляться) — с местом, то есть Dativ: <b>im</b> Hotel ankommen, <b>auf dem</b> Flughafen landen.",
+     "<b>parken</b> называет место стоянки: Paul parkt <b>vor dem</b> Haus.",
+     "<b>einziehen in</b> (въезжать) называет новое жильё: in <b>die</b> Wohnung einziehen.",
+     "Правило «куда/где» — только для девяти двойных предлогов. После <b>zu</b> всегда Dativ, даже с направлением: zum Bahnhof."
+    ]
+   },
+   "items": [
+    {
+     "s": "Wir sind gut ___ Hotel angekommen.",
+     "ru": "Мы благополучно прибыли в гостиницу.",
+     "o": [
+      "im",
+      "ins"
+     ],
+     "a": "im",
+     "n": "ankommen + место → Dativ: <b>im</b> Hotel.",
+     "tr": "Мы благополучно прибыли в гостиницу."
+    },
+    {
+     "s": "Paul parkt vor ___ Haus.",
+     "ru": "Пауль паркуется перед домом.",
+     "o": [
+      "dem",
+      "das"
+     ],
+     "a": "dem",
+     "n": "parken называет место стоянки → Dativ: <b>vor dem</b> Haus.",
+     "tr": "Пауль паркуется перед домом."
+    },
+    {
+     "s": "Wir kommen um acht ___ Bahnhof an.",
+     "ru": "Мы приезжаем на вокзал в восемь.",
+     "o": [
+      "am",
+      "an den"
+     ],
+     "a": "am",
+     "n": "ankommen → место → Dativ: an dem = <b>am</b>.",
+     "tr": "Мы приезжаем на вокзал в восемь."
+    },
+    {
+     "s": "Mein Bruder zieht in ___ WG ein.",
+     "ru": "Мой брат въезжает в квартиру с соседями.",
+     "o": [
+      "die",
+      "der"
+     ],
+     "a": "die",
+     "n": "einziehen in — новое жильё → Akkusativ: <b>in die</b> WG.",
+     "tr": "Мой брат въезжает в квартиру с соседями."
+    },
+    {
+     "s": "Die Kinder laufen zwischen ___ Betten herum.",
+     "ru": "Дети бегают между кроватями.",
+     "o": [
+      "den",
+      "die"
+     ],
+     "a": "den",
+     "n": "herum — внутри места → Dativ, мн. ч. → <b>den</b> Betten.",
+     "tr": "Дети бегают между кроватями."
+    }
+   ]
+  },
+  {
+   "type": "type",
+   "title": "ins или im?",
+   "sub": "Собери предлог с артиклем",
+   "color": "teal",
+   "shape": "penta",
+   "skill": "Где — Dativ, куда — Akkusativ",
+   "theory": {
+    "t": "Короткие формы",
+    "p": [
+     "Предлог с артиклем часто сливается. Падеж остаётся внутри: <b>-s</b> от das (Akk), <b>-m</b> от dem (Dat).",
+     "С женским родом слияния нет: in <b>die</b> Küche, in <b>der</b> Küche. *ins Küche — ошибка."
+    ],
+    "tab": [
+     [
+      "полная",
+      "короткая",
+      "падеж"
+     ],
+     [
+      "in das",
+      "ins",
+      "Akk"
+     ],
+     [
+      "in dem",
+      "im",
+      "Dat"
+     ],
+     [
+      "an das",
+      "ans",
+      "Akk"
+     ],
+     [
+      "an dem",
+      "am",
+      "Dat"
+     ],
+     [
+      "auf das",
+      "aufs",
+      "Akk"
+     ]
+    ]
+   },
+   "items": [
+    {
+     "s": "Ich trage die Teller ___ Wohnzimmer.",
+     "ru": "Я несу тарелки в гостиную.",
+     "a": [
+      "ins",
+      "in das"
+     ],
+     "hint": "in",
+     "n": "Новое место → Akk: in das = <b>ins</b>.",
+     "tr": "Я несу тарелки в гостиную."
+    },
+    {
+     "s": "Der Fernseher steht ___ Schlafzimmer.",
+     "ru": "Телевизор стоит в спальне.",
+     "a": [
+      "im",
+      "in dem"
+     ],
+     "hint": "in",
+     "n": "Где стоит → Dat: in dem = <b>im</b>.",
+     "tr": "Телевизор стоит в спальне."
+    },
+    {
+     "s": "Ich stelle den Stuhl ___ Bett.",
+     "ru": "Я ставлю стул к кровати.",
+     "a": [
+      "ans",
+      "an das"
+     ],
+     "hint": "an",
+     "n": "Новое место → Akk: an das = <b>ans</b>.",
+     "tr": "Я ставлю стул к кровати."
+    },
+    {
+     "s": "Die Lampe steht ___ Bett.",
+     "ru": "Лампа стоит у кровати.",
+     "a": [
+      "am",
+      "an dem"
+     ],
+     "hint": "an",
+     "n": "Где стоит → Dat: an dem = <b>am</b>.",
+     "tr": "Лампа стоит у кровати."
+    }
+   ]
+  },
+  {
+   "type": "tf",
+   "title": "Ошибки Алины из книги",
+   "sub": "Найди ошибку и исправь её сама",
+   "ask": "Есть ли ошибка?",
+   "color": "violet",
+   "shape": "diamond",
+   "skill": "Где — Dativ, куда — Akkusativ",
+   "items": [
+    {
+     "t": [
+      "Ich",
+      "lege",
+      "das",
+      "Buch",
+      "auf",
+      "dem",
+      "Tisch."
+     ],
+     "bad": 5,
+     "a": "den",
+     "n": "Кладу куда → Akk, der Tisch → <b>den</b>.",
+     "tr": "Я кладу книгу на стол."
+    },
+    {
+     "t": [
+      "Der",
+      "Spiegel",
+      "hängt",
+      "an",
+      "die",
+      "Wand."
+     ],
+     "bad": 4,
+     "a": "der",
+     "n": "Висит где → Dat, die Wand → <b>der</b>.",
+     "tr": "Зеркало висит на стене."
+    },
+    {
+     "t": [
+      "Die",
+      "Kinder",
+      "spielen",
+      "im",
+      "Garten."
+     ],
+     "ok": true,
+     "n": "Где играют → Dativ: <b>im</b> = in dem. Всё верно.",
+     "tr": "Дети играют в саду."
+    },
+    {
+     "t": [
+      "Meine",
+      "Eltern",
+      "sind",
+      "gut",
+      "in",
+      "die",
+      "Wohnung",
+      "angekommen."
+     ],
+     "bad": 5,
+     "a": "der",
+     "n": "ankommen → место → Dativ: <b>in der</b> Wohnung.",
+     "tr": "Мои родители благополучно добрались до квартиры."
+    }
+   ]
+  }
+ ]
+}

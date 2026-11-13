@@ -18,6 +18,7 @@
 //   9. «Как сказать»: в историю не попадают недописанные запросы и опечатки; просмотр прошлого
 //      запроса и повтор в том же разговоре не считаются повтором; вопросы тоже в истории, разговор
 //      остаётся после перезагрузки, у глагола видны прошедшие формы.
+//  10. «Книга»: разделы книги не в общем списке, карта 60 уроков + 6 контрольных, раздел открывается, видео с секундой.
 // Выход 1, если есть хоть одна проблема.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -279,6 +280,43 @@ for (const [t, v] of Object.entries(perType)) {
     if (res.done && res.art && res.osc > o0) console.log(`  ✓ род слова: таблица, поиск, карточка, раунд (${n} ответов, ${wrong} ошибок)`);
   }
   for (const e of [...new Set(errs)]) bad(`род слова: ошибка JS: ${e}`);
+  await page.close();
+}
+
+// «Книга» (2026-11-13): уроки-разделы книги не попадают в общий список уроков, карта книги показывает
+// все 60 уроков и контрольные, экран урока открывает готовый раздел, у вступления есть ссылка на видео с секундой.
+if (!only) {
+  const { page, errs } = await open();
+  const r = await page.evaluate(async () => {
+    const out = [], w = ms => new Promise(f => setTimeout(f, ms));
+    if (typeof showBook !== 'function') return ['нет раздела'];
+    const U = S.book || [];
+    if ((S.lessons || []).some(l => l.book && l.book.s)) out.push('урок книги попал в общий список уроков');
+    showLessons(); await w(50);
+    if (!document.getElementById('go-book')) out.push('на вкладке «Уроки» нет входа в книгу');
+    showBook(); await w(50);
+    const folds = document.querySelectorAll('.bkfold').length;
+    if (folds > 4) out.push(`свёрнуто ${folds} частей: открытыми должны быть A1, A2 и части с готовыми разделами`);
+    BOOK.parts.forEach(p => BKOPEN[p.lv] = true); showBook(); await w(50);
+    const rows = document.querySelectorAll('.bkrow');
+    if (rows.length !== 66) out.push(`на карте ${rows.length} строк вместо 60 уроков и 6 контрольных`);
+    if (document.documentElement.scrollWidth > innerWidth + 1) out.push('карта шире экрана');
+    if (U.length) {
+      const n = +U[0].book.l; document.querySelector(`button.bkrow[data-n="${n}"]`).click(); await w(50);
+      const sec = document.querySelector('button.bksec');
+      if (!sec) out.push(`в уроке ${n} нет готового раздела`);
+      else { sec.click(); await w(80);
+        if (view !== 'intro') out.push('раздел не открылся');
+        const v = document.querySelector('.bkvid');
+        if (lesson && lesson.book && lesson.book.video && !(v && /youtu\.be\/[\w-]{11}\?t=\d+/.test(v.href))) out.push('у раздела нет ссылки на видео с секундой');
+        document.getElementById('back').click(); await w(50);
+        if (view !== 'bookl') out.push('«назад» из раздела ведёт не к уроку книги');
+      }
+    }
+    return out;
+  }).catch(e => ['ошибка: ' + e]);
+  if (r[0] === 'нет раздела') console.log('· книга: раздела нет на странице, пропуск');
+  else { for (const x of r) bad('книга: ' + x); for (const e of [...new Set(errs)]) bad(`книга: ошибка JS: ${e}`); console.log(`  ${r.length || errs.length ? '✗' : '✓'} книга: карта, урок, раздел, видео`); }
   await page.close();
 }
 
