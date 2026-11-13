@@ -112,6 +112,11 @@ const perType = {};
 async function playLesson(l) {
   const t0 = Date.now();
   const { page, errs } = await open();
+  if (l.tp) {
+    // «К тесту»: раздел запускается с экрана подготовки, не из коллекции уроков
+    const ok = await page.evaluate(k => { if (typeof tpStart !== 'function' || !tpActive()) return false; showTest(); tpStart(k); return view === 'run' || !!document.querySelector('.stagecard,.task'); }, l.tp);
+    if (!ok) { console.log(`· ${l.id}: раздела нет на странице, пропуск`); await page.close(); return; }
+  } else
   await page.evaluate(id => { const l = S.lessons.find(x => x.id === id) || findLesson(id); showIntro(l); startRun(); }, l.id);
   let steps = 0, stuck = 0, last = '', done = false;
   while (steps++ < 400 && Date.now() - t0 < 120000) {
@@ -132,14 +137,14 @@ async function playLesson(l) {
   if (!done && !stuck) bad(`${l.id}: урок не дошёл до финала (${steps} шагов)`);
   if (done) {
     await page.waitForTimeout(1800);
-    const saved = await page.evaluate(id => { const p = __store['data/users/me/progress']; return !!(p && p.lessons && p.lessons[id]); }, l.id);
+    const saved = await page.evaluate(([id, tp]) => { const p = __store['data/users/me/progress']; return !!(p && p.lessons && p.lessons[id]) && (!tp || Object.keys(p.tp || {}).some(k => k.length > 2)); }, [l.id, !!l.tp]);
     if (!saved) bad(`${l.id}: после финала прогресс не записан в базу`);
   }
   for (const e of [...new Set(errs)]) bad(`${l.id}: ошибка JS: ${e}`);
   console.log(`${done ? '✓' : '·'} ${l.id} (${Math.round((Date.now() - t0) / 1000)} с)`);
   await page.close();
 }
-{ const q = [...lessons]; await Promise.all(Array.from({ length: 4 }, async () => { while (q.length) await playLesson(q.shift()); })); }
+{ const q = [...lessons, ...(only ? [] : ['words', 'modal', 'pres', 'praet', 'formen', 'mock'].map(k => ({ id: 'tp-' + k, tp: k })))]; await Promise.all(Array.from({ length: 4 }, async () => { while (q.length) await playLesson(q.shift()); })); }
 
 for (const [t, v] of Object.entries(perType)) {
   if (v.sound < v.answers) bad(`тип «${t}»: ${v.answers - v.sound} из ${v.answers} ответов без звука (${[...v.lessons].slice(0, 3).join(', ')})`);
