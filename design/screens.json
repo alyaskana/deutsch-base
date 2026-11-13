@@ -256,7 +256,17 @@
     "fold": true,
     "js": [
       "showTest(showHome)",
-      "tpStart(\"words\")",
+      "tpStart(\"wl0\")",
+      "document.getElementById(\"dbtn\")&&document.getElementById(\"dbtn\").click()"
+    ]
+  },
+  {
+    "id": "33b-test-words-gap",
+    "fold": true,
+    "js": [
+      "showTest(showHome)",
+      "tpStart(\"wl0\")",
+      "STAGES.splice(0,1);startRun(null)",
       "document.getElementById(\"dbtn\")&&document.getElementById(\"dbtn\").click()"
     ]
   },
@@ -266,6 +276,7 @@
     "js": [
       "showTest(showHome)",
       "tpStart(\"praet\")",
+      "STAGES.splice(0,1);startRun(null)",
       "document.getElementById(\"dbtn\")&&document.getElementById(\"dbtn\").click()"
     ]
   },
@@ -275,6 +286,7 @@
     "js": [
       "showTest(showHome)",
       "tpStart(\"praet\")",
+      "STAGES.splice(0,1);startRun(null)",
       "document.getElementById(\"dbtn\")&&document.getElementById(\"dbtn\").click()",
       "(()=>{const I=[...document.querySelectorAll(\".tpin\")];const it=STAGES[stageIdx].items[0];I.forEach((x,k)=>{x.value=k===4?\"habt\":it.f[k];x.dispatchEvent(new Event(\"input\",{bubbles:true}))})})()",
       "document.getElementById(\"dbtn\").click()"

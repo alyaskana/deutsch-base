@@ -145,7 +145,7 @@ async function playLesson(l) {
   console.log(`${done ? '✓' : '·'} ${l.id} (${Math.round((Date.now() - t0) / 1000)} с)`);
   await page.close();
 }
-{ const q = [...lessons, ...(only ? [] : ['words', 'modal', 'pres', 'praet', 'formen', 'mock'].map(k => ({ id: 'tp-' + k, tp: k })))]; await Promise.all(Array.from({ length: 4 }, async () => { while (q.length) await playLesson(q.shift()); })); }
+{ const q = [...lessons, ...(only ? [] : ['wl0', 'wl5', 'modal', 'pres', 'praet', 'formen', 'mock'].map(k => ({ id: 'tp-' + k, tp: k })))]; await Promise.all(Array.from({ length: 4 }, async () => { while (q.length) await playLesson(q.shift()); })); }
 
 for (const [t, v] of Object.entries(perType)) {
   if (v.sound < v.answers) bad(`тип «${t}»: ${v.answers - v.sound} из ${v.answers} ответов без звука (${[...v.lessons].slice(0, 3).join(', ')})`);
