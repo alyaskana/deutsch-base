@@ -23,7 +23,7 @@
       "stuck": 9,
       "learning": 280,
       "solid": 0,
-      "new": 809
+      "new": 835
     }
   },
   "grammar": [
@@ -2925,7 +2925,7 @@
     {
       "id": "w-entwickeln",
       "lemma": "entwickeln",
-      "ru": "разрабатывать",
+      "ru": "развивать; разрабатывать",
       "status": "new"
     },
     {
@@ -3303,7 +3303,7 @@
     {
       "id": "w-faulenzen",
       "lemma": "faulenzen",
-      "ru": "бездельничать",
+      "ru": "лениться, бездельничать",
       "status": "learning",
       "counts": {
         "correct": 0,
@@ -9665,6 +9665,162 @@
       },
       "last_date": "2026-11-13",
       "last_result": "error"
+    },
+    {
+      "id": "w-kirsche",
+      "lemma": "die Kirsche",
+      "ru": "вишня",
+      "status": "new"
+    },
+    {
+      "id": "w-kirche",
+      "lemma": "die Kirche",
+      "ru": "церковь",
+      "status": "new"
+    },
+    {
+      "id": "w-teilnehmen",
+      "lemma": "teilnehmen",
+      "ru": "участвовать",
+      "status": "new"
+    },
+    {
+      "id": "w-routine",
+      "lemma": "die Routine",
+      "ru": "рутина",
+      "status": "new"
+    },
+    {
+      "id": "w-seltsam",
+      "lemma": "seltsam",
+      "ru": "странный",
+      "status": "new"
+    },
+    {
+      "id": "w-meinung",
+      "lemma": "die Meinung",
+      "ru": "мнение",
+      "status": "new"
+    },
+    {
+      "id": "w-note",
+      "lemma": "die Note",
+      "ru": "оценка; нота",
+      "status": "new"
+    },
+    {
+      "id": "w-semesterarbeit",
+      "lemma": "die Semesterarbeit",
+      "ru": "курсовая работа",
+      "status": "new"
+    },
+    {
+      "id": "w-apfelwein",
+      "lemma": "der Apfelwein",
+      "ru": "сидр",
+      "status": "new"
+    },
+    {
+      "id": "w-ostern",
+      "lemma": "Ostern",
+      "ru": "Пасха",
+      "status": "new"
+    },
+    {
+      "id": "w-kneipe",
+      "lemma": "die Kneipe",
+      "ru": "кабак, бар",
+      "status": "new"
+    },
+    {
+      "id": "w-vorbei-sein",
+      "lemma": "vorbei sein",
+      "ru": "закончиться",
+      "status": "new"
+    },
+    {
+      "id": "w-einschlafen",
+      "lemma": "einschlafen",
+      "ru": "заснуть",
+      "status": "new"
+    },
+    {
+      "id": "w-verschlafen",
+      "lemma": "verschlafen",
+      "ru": "проспать",
+      "status": "new"
+    },
+    {
+      "id": "w-fach",
+      "lemma": "das Fach",
+      "ru": "предмет (учебный)",
+      "status": "new"
+    },
+    {
+      "id": "w-schriftsteller",
+      "lemma": "der Schriftsteller",
+      "ru": "писатель",
+      "status": "new"
+    },
+    {
+      "id": "w-vorbereitung",
+      "lemma": "die Vorbereitung",
+      "ru": "подготовка",
+      "status": "new"
+    },
+    {
+      "id": "w-studieren",
+      "lemma": "studieren",
+      "ru": "изучать (в вузе), учиться в вузе",
+      "status": "new"
+    },
+    {
+      "id": "w-einen-vortrag-halten",
+      "lemma": "einen Vortrag halten",
+      "ru": "выступать с докладом",
+      "status": "new"
+    },
+    {
+      "id": "w-sofort",
+      "lemma": "sofort",
+      "ru": "сразу же",
+      "status": "new"
+    },
+    {
+      "id": "w-auf-die-kanarischen-inseln",
+      "lemma": "auf die Kanarischen Inseln",
+      "ru": "на Канарские острова (куда?)",
+      "status": "new"
+    },
+    {
+      "id": "w-strand",
+      "lemma": "der Strand",
+      "ru": "пляж",
+      "status": "new"
+    },
+    {
+      "id": "w-liefern",
+      "lemma": "liefern",
+      "ru": "доставлять, доставить",
+      "status": "new"
+    },
+    {
+      "id": "w-lieferung",
+      "lemma": "die Lieferung",
+      "ru": "доставка",
+      "status": "new"
+    },
+    {
+      "id": "w-fuer-eine-stunde",
+      "lemma": "für eine Stunde",
+      "ru": "на час",
+      "status": "new"
+    },
+    {
+      "id": "w-unterwegs",
+      "lemma": "unterwegs",
+      "ru": "в пути",
+      "status": "new"
     }
   ]
 }

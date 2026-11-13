@@ -1,248 +1,283 @@
 [
- {
-  "id": "01-home",
-  "js": [
-   "showHome()"
-  ]
- },
- {
-  "id": "02-lessons",
-  "js": [
-   "showLessons()"
-  ]
- },
- {
-  "id": "03-kind-read",
-  "js": [
-   "showKind('read')"
-  ]
- },
- {
-  "id": "03-kind-gram",
-  "js": [
-   "showKind('gram')"
-  ]
- },
- {
-  "id": "04-vocab",
-  "js": [
-   "showVocab()"
-  ]
- },
- {
-  "id": "05-rod",
-  "js": [
-   "showRod()"
-  ]
- },
- {
-  "id": "05-rod-card",
-  "js": [
-   "showRod()",
-   "(()=>{const c=document.querySelector('.rg-xc');c&&c.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "05-rod-train",
-  "js": [
-   "rgMenu()"
-  ]
- },
- {
-  "id": "06-dict",
-  "js": [
-   "showDict()"
-  ]
- },
- {
-  "id": "07-say",
-  "js": [
-   "showSay()"
-  ]
- },
- {
-  "id": "08-stats",
-  "js": [
-   "showStats()"
-  ]
- },
- {
-  "id": "09-week",
-  "js": [
-   "showWeek()"
-  ]
- },
- {
-  "id": "10-grammar",
-  "js": [
-   "showGrammar()"
-  ]
- },
- {
-  "id": "11-gtopic",
-  "js": [
-   "showGrammar()",
-   "(()=>{const b=document.querySelector('[data-g]');b&&b.click()})()"
-  ]
- },
- {
-  "id": "12-verbs",
-  "js": [
-   "showVerbs()"
-  ]
- },
- {
-  "id": "13-big",
-  "js": [
-   "showBig(S.lessons.find(l=>isBig(l)&&!isSerial(l)))"
-  ]
- },
- {
-  "id": "14-serial",
-  "js": [
-   "showSerial(S.lessons.find(isSerial))"
-  ]
- },
- {
-  "id": "15-intro",
-  "js": [
-   "showIntro(S.lessons.find(x=>x.id==='wo-wohin'))"
-  ]
- },
- {
-  "id": "16-stagecard",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin')||findLesson('wo-wohin');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='choice')-1;nextStage();})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "17-choice",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin')||findLesson('wo-wohin');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='choice')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "18-choice-wrong",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin')||findLesson('wo-wohin');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='choice')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()",
-   "(()=>{document.querySelector('.opt').click()})()"
-  ],
-  "fold": 1,
-  "wait": 900
- },
- {
-  "id": "18-choice-right",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='drei-formen-1')||findLesson('drei-formen-1');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='choice')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()",
-   "(()=>{const o=document.querySelector('.opt');o&&o.click()})()"
-  ],
-  "fold": 1,
-  "wait": 900
- },
- {
-  "id": "19-build",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='segeln-perfekt')||findLesson('segeln-perfekt');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='build')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "20-sort",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='drei-formen-1')||findLesson('drei-formen-1');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='sort')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "21-listen",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='hoeren-hafen')||findLesson('hoeren-hafen');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='listen')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "22-read",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='lesen-hausschuhe')||findLesson('lesen-hausschuhe');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='read')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ]
- },
- {
-  "id": "23-chat",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='possessiv-abrikos')||findLesson('possessiv-abrikos');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='chat')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "24-map",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin')||findLesson('wo-wohin');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='map')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "25-sprint",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='mein-alltag')||findLesson('mein-alltag');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='sprint')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "26-write",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='meer-museum')||findLesson('meer-museum');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='write')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "27-cloze",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='kleine-fehler')||findLesson('kleine-fehler');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='cloze')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "28-perfekt",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='segeln-perfekt')||findLesson('segeln-perfekt');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='perfekt')-1;nextStage();})()",
-   "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
-  ],
-  "fold": 1
- },
- {
-  "id": "29-wordle",
-  "js": [
-   "showWordle()"
-  ],
-  "fold": 1
- },
- {
-  "id": "30-pairs",
-  "js": [
-   "showPairs()"
-  ],
-  "fold": 1
- },
- {
-  "id": "31-final",
-  "js": [
-   "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin');showIntro(lesson);startRun();results=STAGES.map(()=>({ok:4,total:5,mist:[]}));doneTasks=totalTasks;showFinal();})()"
-  ],
-  "wait": 1500
- }
+  {
+    "id": "01-home",
+    "js": [
+      "showHome()"
+    ]
+  },
+  {
+    "id": "02-lessons",
+    "js": [
+      "showLessons()"
+    ]
+  },
+  {
+    "id": "03-kind-read",
+    "js": [
+      "showKind('read')"
+    ]
+  },
+  {
+    "id": "03-kind-gram",
+    "js": [
+      "showKind('gram')"
+    ]
+  },
+  {
+    "id": "04-vocab",
+    "js": [
+      "showVocab()"
+    ]
+  },
+  {
+    "id": "05-rod",
+    "js": [
+      "showRod()"
+    ]
+  },
+  {
+    "id": "05-rod-card",
+    "js": [
+      "showRod()",
+      "(()=>{const c=document.querySelector('.rg-xc');c&&c.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "05-rod-train",
+    "js": [
+      "rgMenu()"
+    ]
+  },
+  {
+    "id": "06-dict",
+    "js": [
+      "showDict()"
+    ]
+  },
+  {
+    "id": "07-say",
+    "js": [
+      "showSay()"
+    ]
+  },
+  {
+    "id": "08-stats",
+    "js": [
+      "showStats()"
+    ]
+  },
+  {
+    "id": "09-week",
+    "js": [
+      "showWeek()"
+    ]
+  },
+  {
+    "id": "10-grammar",
+    "js": [
+      "showGrammar()"
+    ]
+  },
+  {
+    "id": "11-gtopic",
+    "js": [
+      "showGrammar()",
+      "(()=>{const b=document.querySelector('[data-g]');b&&b.click()})()"
+    ]
+  },
+  {
+    "id": "12-verbs",
+    "js": [
+      "showVerbs()"
+    ]
+  },
+  {
+    "id": "13-big",
+    "js": [
+      "showBig(S.lessons.find(l=>isBig(l)&&!isSerial(l)))"
+    ]
+  },
+  {
+    "id": "14-serial",
+    "js": [
+      "showSerial(S.lessons.find(isSerial))"
+    ]
+  },
+  {
+    "id": "15-intro",
+    "js": [
+      "showIntro(S.lessons.find(x=>x.id==='wo-wohin'))"
+    ]
+  },
+  {
+    "id": "16-stagecard",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin')||findLesson('wo-wohin');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='choice')-1;nextStage();})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "17-choice",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin')||findLesson('wo-wohin');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='choice')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "18-choice-wrong",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin')||findLesson('wo-wohin');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='choice')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()",
+      "(()=>{document.querySelector('.opt').click()})()"
+    ],
+    "fold": 1,
+    "wait": 900
+  },
+  {
+    "id": "18-choice-right",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='drei-formen-1')||findLesson('drei-formen-1');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='choice')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()",
+      "(()=>{const o=document.querySelector('.opt');o&&o.click()})()"
+    ],
+    "fold": 1,
+    "wait": 900
+  },
+  {
+    "id": "19-build",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='segeln-perfekt')||findLesson('segeln-perfekt');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='build')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "20-sort",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='drei-formen-1')||findLesson('drei-formen-1');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='sort')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "21-listen",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='hoeren-hafen')||findLesson('hoeren-hafen');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='listen')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "22-read",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='lesen-hausschuhe')||findLesson('lesen-hausschuhe');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='read')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ]
+  },
+  {
+    "id": "23-chat",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='possessiv-abrikos')||findLesson('possessiv-abrikos');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='chat')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "24-map",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin')||findLesson('wo-wohin');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='map')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "25-sprint",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='mein-alltag')||findLesson('mein-alltag');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='sprint')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "26-write",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='meer-museum')||findLesson('meer-museum');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='write')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "27-cloze",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='kleine-fehler')||findLesson('kleine-fehler');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='cloze')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "28-perfekt",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='segeln-perfekt')||findLesson('segeln-perfekt');showIntro(lesson);startRun();stageIdx=STAGES.findIndex(s=>s.type==='perfekt')-1;nextStage();})()",
+      "(()=>{const d=document.getElementById('dbtn');if(d&&d.offsetParent)d.click()})()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "29-wordle",
+    "js": [
+      "showWordle()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "30-pairs",
+    "js": [
+      "showPairs()"
+    ],
+    "fold": 1
+  },
+  {
+    "id": "31-final",
+    "js": [
+      "(()=>{lesson=S.lessons.find(x=>x.id==='wo-wohin');showIntro(lesson);startRun();results=STAGES.map(()=>({ok:4,total:5,mist:[]}));doneTasks=totalTasks;showFinal();})()"
+    ],
+    "wait": 1500
+  },
+  {
+    "id": "32-test",
+    "js": [
+      "showTest(showHome)"
+    ]
+  },
+  {
+    "id": "33-test-words",
+    "fold": true,
+    "js": [
+      "showTest(showHome)",
+      "tpStart(\"words\")",
+      "document.getElementById(\"dbtn\")&&document.getElementById(\"dbtn\").click()"
+    ]
+  },
+  {
+    "id": "34-test-table",
+    "fold": true,
+    "js": [
+      "showTest(showHome)",
+      "tpStart(\"praet\")",
+      "document.getElementById(\"dbtn\")&&document.getElementById(\"dbtn\").click()"
+    ]
+  },
+  {
+    "id": "35-test-table-checked",
+    "fold": true,
+    "js": [
+      "showTest(showHome)",
+      "tpStart(\"praet\")",
+      "document.getElementById(\"dbtn\")&&document.getElementById(\"dbtn\").click()",
+      "(()=>{const I=[...document.querySelectorAll(\".tpin\")];const it=STAGES[stageIdx].items[0];I.forEach((x,k)=>{x.value=k===4?\"habt\":it.f[k];x.dispatchEvent(new Event(\"input\",{bubbles:true}))})})()",
+      "document.getElementById(\"dbtn\").click()"
+    ]
+  }
 ]

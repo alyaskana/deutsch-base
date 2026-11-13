@@ -211,7 +211,8 @@
     "source_text": "das Abonnement, e",
     "ru": "подписка",
     "tags": [
-      "einkaufen"
+      "einkaufen",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -1646,7 +1647,8 @@
       "tagesablauf",
       "mein-tag",
       "perfekt",
-      "verben"
+      "verben",
+      "test-2026-11"
     ],
     "grammar": [
       "separable-verbs",
@@ -1863,7 +1865,8 @@
     ],
     "tags": [
       "gesundheit-klein",
-      "gesundheit"
+      "gesundheit",
+      "test-2026-11"
     ],
     "grammar": [
       "separable-verbs"
@@ -2637,7 +2640,8 @@
     },
     "tags": [
       "arbeit",
-      "woerter"
+      "woerter",
+      "test-2026-11"
     ],
     "grammar": [
       "verb-government"
@@ -2719,7 +2723,8 @@
     "ru": "особенно",
     "tags": [
       "gesundheit",
-      "freizeit"
+      "freizeit",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -5147,7 +5152,8 @@
     ],
     "tags": [
       "mein-tag",
-      "tagesablauf"
+      "tagesablauf",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -5647,10 +5653,11 @@
       "strong": false
     },
     "source_text": "разрабатывает",
-    "ru": "разрабатывать",
+    "ru": "развивать; разрабатывать",
     "tags": [
       "ha-pronomen",
-      "arbeit"
+      "arbeit",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -6531,12 +6538,13 @@
       "separable_prefix": null,
       "strong": false
     },
-    "ru": "бездельничать",
+    "ru": "лениться, бездельничать",
     "tags": [
       "gesundheit",
       "freizeit",
       "mein-tag",
-      "tagesablauf"
+      "tagesablauf",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -7525,7 +7533,8 @@
       }
     ],
     "tags": [
-      "wohnen"
+      "wohnen",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -11647,7 +11656,8 @@
     "article": "die",
     "ru": "настроение",
     "tags": [
-      "woerter"
+      "woerter",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -12275,7 +12285,8 @@
     "ru": "нужно",
     "tags": [
       "unterwegs",
-      "transport"
+      "transport",
+      "test-2026-11"
     ],
     "grammar": [
       "modal-muessen"
@@ -12442,7 +12453,8 @@
     "ru": "по моему мнению",
     "tags": [
       "gesundheit",
-      "freizeit"
+      "freizeit",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -13449,7 +13461,8 @@
     },
     "tags": [
       "perfekt",
-      "verben"
+      "verben",
+      "test-2026-11"
     ],
     "grammar": [
       "perfekt",
@@ -14714,7 +14727,8 @@
     ],
     "ru": "говорить о (чём-то)",
     "tags": [
-      "gesundheit"
+      "gesundheit",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -14749,7 +14763,8 @@
     "ru": "регулярно",
     "tags": [
       "gesundheit",
-      "freizeit"
+      "freizeit",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -15796,7 +15811,8 @@
     "pos": "adv",
     "ru": "уже",
     "tags": [
-      "woerter"
+      "woerter",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -18292,7 +18308,8 @@
     },
     "tags": [
       "perfekt",
-      "verben"
+      "verben",
+      "test-2026-11"
     ],
     "grammar": [
       "perfekt",
@@ -18829,7 +18846,8 @@
     "tags": [
       "gesundheit",
       "ha-pronomen",
-      "arbeit"
+      "arbeit",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -20606,6 +20624,13 @@
         "module": "perfekt",
         "board_frame": "starke Verben für A1-A2"
       }
+    ],
+    "examples": [
+      {
+        "de": "sie werden",
+        "ru": "они будут",
+        "note": "стикер 2026-11-13"
+      }
     ]
   },
   {
@@ -22040,7 +22065,8 @@
     "tags": [
       "perfekt",
       "verben",
-      "woerter"
+      "woerter",
+      "test-2026-11"
     ],
     "grammar": [
       "perfekt"
@@ -22511,7 +22537,8 @@
     "plural": "Vorlesungen",
     "ru": "лекция",
     "tags": [
-      "studium"
+      "studium",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -22527,7 +22554,8 @@
     "pos": "phrase",
     "ru": "к счастью",
     "tags": [
-      "alltag"
+      "alltag",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -22545,7 +22573,8 @@
     "with_prep": "mit + Dat",
     "tags": [
       "alltag",
-      "freizeit"
+      "freizeit",
+      "test-2026-11"
     ],
     "examples": [
       {
@@ -22567,7 +22596,8 @@
     "pos": "pron",
     "ru": "никто",
     "tags": [
-      "alltag"
+      "alltag",
+      "test-2026-11"
     ],
     "sources": [
       {
@@ -22796,6 +22826,535 @@
     "tags": [
       "alltag",
       "mein-deutsch"
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-kirsche",
+    "lemma": "Kirsche",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Kirschen",
+    "ru": "вишня",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-kirche",
+    "lemma": "Kirche",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Kirchen",
+    "ru": "церковь",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-teilnehmen",
+    "lemma": "teilnehmen",
+    "pos": "verb",
+    "ru": "участвовать",
+    "verb_forms": {
+      "present_3sg": "nimmt teil",
+      "praeteritum": "nahm teil",
+      "partizip2": "teilgenommen",
+      "aux": "haben",
+      "separable_prefix": "teil",
+      "strong": true
+    },
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13",
+    "with_prep": "an + Dat",
+    "grammar": [
+      "separable-verbs"
+    ]
+  },
+  {
+    "id": "w-routine",
+    "lemma": "Routine",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Routinen",
+    "ru": "рутина",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-seltsam",
+    "lemma": "seltsam",
+    "pos": "adj",
+    "ru": "странный",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-meinung",
+    "lemma": "Meinung",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Meinungen",
+    "ru": "мнение",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-note",
+    "lemma": "Note",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Noten",
+    "ru": "оценка; нота",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-semesterarbeit",
+    "lemma": "Semesterarbeit",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Semesterarbeiten",
+    "ru": "курсовая работа",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-apfelwein",
+    "lemma": "Apfelwein",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Apfelweine",
+    "ru": "сидр",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-ostern",
+    "lemma": "Ostern",
+    "pos": "noun",
+    "article": null,
+    "plural": null,
+    "ru": "Пасха",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13",
+    "source_text": "die Ostern",
+    "examples": [
+      {
+        "de": "Frohe Ostern!",
+        "note": "обычно без артикля"
+      }
+    ]
+  },
+  {
+    "id": "w-kneipe",
+    "lemma": "Kneipe",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Kneipen",
+    "ru": "кабак, бар",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-vorbei-sein",
+    "lemma": "vorbei sein",
+    "pos": "phrase",
+    "ru": "закончиться",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13",
+    "examples": [
+      {
+        "de": "Der Film ist vorbei.",
+        "ru": "Фильм закончился."
+      }
+    ]
+  },
+  {
+    "id": "w-einschlafen",
+    "lemma": "einschlafen",
+    "pos": "verb",
+    "ru": "заснуть",
+    "verb_forms": {
+      "present_3sg": "schläft ein",
+      "praeteritum": "schlief ein",
+      "partizip2": "eingeschlafen",
+      "aux": "sein",
+      "separable_prefix": "ein",
+      "strong": true
+    },
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13",
+    "grammar": [
+      "separable-verbs"
+    ]
+  },
+  {
+    "id": "w-verschlafen",
+    "lemma": "verschlafen",
+    "pos": "verb",
+    "ru": "проспать",
+    "verb_forms": {
+      "present_3sg": "verschläft",
+      "praeteritum": "verschlief",
+      "partizip2": "verschlafen",
+      "aux": "haben",
+      "separable_prefix": null,
+      "strong": true
+    },
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-fach",
+    "lemma": "Fach",
+    "pos": "noun",
+    "article": "das",
+    "plural": "Fächer",
+    "ru": "предмет (учебный)",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-schriftsteller",
+    "lemma": "Schriftsteller",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Schriftsteller",
+    "ru": "писатель",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-vorbereitung",
+    "lemma": "Vorbereitung",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Vorbereitungen",
+    "ru": "подготовка",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-studieren",
+    "lemma": "studieren",
+    "pos": "verb",
+    "ru": "изучать (в вузе), учиться в вузе",
+    "verb_forms": {
+      "present_3sg": "studiert",
+      "praeteritum": "studierte",
+      "partizip2": "studiert",
+      "aux": "haben",
+      "separable_prefix": null,
+      "strong": false
+    },
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13",
+    "examples": [
+      {
+        "de": "Ich habe Design studiert.",
+        "ru": "Я изучала дизайн."
+      }
+    ]
+  },
+  {
+    "id": "w-einen-vortrag-halten",
+    "lemma": "einen Vortrag halten",
+    "pos": "phrase",
+    "ru": "выступать с докладом",
+    "tags": [
+      "woerter",
+      "test-2026-11"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "стикеры к тесту (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-sofort",
+    "lemma": "sofort",
+    "pos": "adv",
+    "ru": "сразу же",
+    "tags": [
+      "woerter"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "новые стикеры (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-auf-die-kanarischen-inseln",
+    "lemma": "auf die Kanarischen Inseln",
+    "pos": "phrase",
+    "ru": "на Канарские острова (куда?)",
+    "tags": [
+      "woerter"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "новые стикеры (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-strand",
+    "lemma": "Strand",
+    "pos": "noun",
+    "article": "der",
+    "plural": "Strände",
+    "ru": "пляж",
+    "tags": [
+      "woerter"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "новые стикеры (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-liefern",
+    "lemma": "liefern",
+    "pos": "verb",
+    "ru": "доставлять, доставить",
+    "verb_forms": {
+      "present_3sg": "liefert",
+      "praeteritum": "lieferte",
+      "partizip2": "geliefert",
+      "aux": "haben",
+      "separable_prefix": null,
+      "strong": false
+    },
+    "tags": [
+      "woerter"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "новые стикеры (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-lieferung",
+    "lemma": "Lieferung",
+    "pos": "noun",
+    "article": "die",
+    "plural": "Lieferungen",
+    "ru": "доставка",
+    "tags": [
+      "woerter"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "новые стикеры (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-fuer-eine-stunde",
+    "lemma": "für eine Stunde",
+    "pos": "phrase",
+    "ru": "на час",
+    "tags": [
+      "woerter"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "новые стикеры (скриншот Алины 2026-11-13)"
+      }
+    ],
+    "added": "2026-11-13"
+  },
+  {
+    "id": "w-unterwegs",
+    "lemma": "unterwegs",
+    "pos": "adv",
+    "ru": "в пути",
+    "tags": [
+      "woerter"
+    ],
+    "sources": [
+      {
+        "module": "was-man-so-macht",
+        "board_frame": "новые стикеры (скриншот Алины 2026-11-13)"
+      }
     ],
     "added": "2026-11-13"
   }
