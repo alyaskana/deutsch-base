@@ -15,6 +15,6 @@
 4. `python3 scripts/hoer/render.py <сценка.json> <out>` — один файл на сценку. Делает запись (ElevenLabs text-to-dialogue, `eleven_v3`), фон, сводит и проверяет распознаванием: `<id>.check.txt`. Если голос сказал иначе (например, `hab` вместо `habe`), поправить текст сценки под запись или перезаписать.
 5. `python3 scripts/hoer/build.py data/hoeren/scenes.json <out> <db> [id…]` → `db/lessons/<id>.json` и `db/audio/scene.<id>.<k>.json`.
 6. Записать в базу «Mein Deutsch»: сначала `audio/scene.*`, потом урок в `lessons`. Отдельные фразы и слова урока озвучить обычным порядком (`scripts/tts/README.md`), имена и междометия не озвучивать.
-7. Добавить этапы в `data/mein-deutsch-grammar.json` (этапы 2 и 3), прогнать `npm run check` и `npm run smoke`.
+7. Добавить этапы в `data/mein-deutsch-grammar.json` (этапы 2 и 3), прогнать `npm run check` и `LESSON=id npm run smoke` по новому уроку.
 
 Расход: сценка около 600 символов плюс фон. Когда подписка ElevenLabs закончится, новые сценки сделать нельзя (у OpenAI нет диалогов несколькими голосами), готовые остаются в базе.
