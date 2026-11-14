@@ -409,6 +409,27 @@ if (!only) {
   }
 }
 
+// 7б. Иконки как в Safari. 14.11.2026 у Алины на iPhone стрелки в карте книги раздулись на всю строку:
+// svg без размера в CSS Safari рисует 300×150, а Chromium сжимает, и прогон этого не видел.
+// Здесь svg без атрибута width получают 300×150 с нулевой специфичностью (любое правило CSS важнее), как в Safari.
+{
+  const { page, errs } = await open();
+  await page.addStyleTag({ content: ':where(svg:not([width])){width:300px;height:150px}' });
+  const screens = ['showHome()', 'showLessons()', 'showBook()', 'showBookLesson(15)', 'showBookLesson(3)', 'showVocab()', 'showDict()', 'showRod()', 'showStats()', 'showGrammar()'];
+  let fat = 0;
+  for (const js of screens) {
+    const r = await page.evaluate(js => { try { (0, eval)(js); } catch (e) { return { err: String(e.message) }; }
+      return { big: [...document.querySelectorAll('#app svg, #dock svg')].filter(e => { const r = e.getBoundingClientRect(); return Math.round(r.width) === 300 && Math.round(r.height) === 150; })
+        .map(e => (e.getAttribute('class') || e.parentElement.className || e.parentElement.tagName).toString().slice(0, 30)) }; }, js);
+    await page.waitForTimeout(150);
+    if (r.err) { if (!/is not defined/.test(r.err)) bad(`иконки (${js}): ошибка ${r.err}`); continue; }
+    if (r.big.length) { fat++; bad(`иконки (${js}): ${r.big.length} svg без размера раздуются в Safari (${[...new Set(r.big)].slice(0, 3).join(', ')})`); }
+  }
+  for (const e of [...new Set(errs)]) bad(`иконки: ошибка JS: ${e}`);
+  console.log(`  ${fat ? '✗' : '✓'} иконки с размером (как в Safari)`);
+  await page.close();
+}
+
 // 8. Порядок слов. 13.11.2026 Алина собрала «ich habe im Supermarkt Proviant eingekauft», а засчитали ошибку:
 // повтор принимал один порядок, и заглавная «Im» на плашке подсказывала начало. Плюс кнопка «Оспорить».
 {
