@@ -1,0 +1,164 @@
+{
+ "id": "book-07-4",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Hallo, Alina! Hier ist Jonas. Am Sonntag gibt es eine Führung. Kommst du?",
+   "ru": "Привет, Алина! Это Йонас. В воскресенье будет экскурсия. Придёшь?",
+   "tag": "[am Telefon]"
+  },
+  {
+   "who": "Alina",
+   "voice": "4yZGYlR0JpmqiCxBgPi5",
+   "de": "Am Sonntag? Hm…",
+   "ru": "В воскресенье? Хм…"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Hast du am Sonntag keine Zeit?",
+   "ru": "У тебя в воскресенье нет времени?"
+  },
+  {
+   "who": "Alina",
+   "voice": "4yZGYlR0JpmqiCxBgPi5",
+   "de": "Doch, ich habe Zeit! Wann ist die Führung?",
+   "ru": "Есть, у меня есть время! Когда экскурсия?"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Um zwölf. Ich treffe dich um halb zwölf, ne?",
+   "ru": "В двенадцать. Встречу тебя в половине двенадцатого, ладно?"
+  },
+  {
+   "who": "Alina",
+   "voice": "4yZGYlR0JpmqiCxBgPi5",
+   "de": "Gut. Mit wem gehen wir?",
+   "ru": "Хорошо. С кем мы идём?"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Mit Paul.",
+   "ru": "С Паулем."
+  },
+  {
+   "who": "Alina",
+   "voice": "4yZGYlR0JpmqiCxBgPi5",
+   "de": "Super! Wie viel kostet der Eintritt?",
+   "ru": "Супер! Сколько стоит вход?"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Acht Euro.",
+   "ru": "Восемь евро."
+  },
+  {
+   "who": "Alina",
+   "voice": "4yZGYlR0JpmqiCxBgPi5",
+   "de": "Und wie ist das Wetter am Sonntag?",
+   "ru": "А какая погода в воскресенье?"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Am Sonntag scheint die Sonne.",
+   "ru": "В воскресенье светит солнце."
+  },
+  {
+   "who": "Alina",
+   "voice": "4yZGYlR0JpmqiCxBgPi5",
+   "de": "Schön! Dann komme ich. Tschüss, Jonas!",
+   "ru": "Здорово! Тогда приду. Пока, Йонас!"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Tschüss!",
+   "ru": "Пока!"
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 07.4",
+  "scene": "Am Telefon",
+  "cap": "Йонас зовёт Алину на экскурсию",
+  "sub": "Через неделю Йонас звонит Алине: в воскресенье в старом городе Кёльна будет экскурсия.",
+  "speakers": {
+   "Jonas": "Германия",
+   "Alina": "Швейцария"
+  },
+  "qs": [
+   [
+    "Что Йонас предлагает на воскресенье?",
+    [
+     "eine Führung",
+     "ein Konzert",
+     "ein Picknick"
+    ],
+    "Am Sonntag gibt es <b>eine Führung</b>",
+    "Это экскурсия с гидом."
+   ],
+   [
+    "Во сколько Йонас встретит Алину?",
+    [
+     "11:30",
+     "12:30",
+     "12:00"
+    ],
+    "Ich treffe dich um <b>halb zwölf</b>",
+    "<b>Halb zwölf</b> означает 11:30, а не 12:30. Сама экскурсия начинается в двенадцать."
+   ],
+   [
+    "С кем ещё они идут?",
+    [
+     "Paul",
+     "Lea",
+     "Frau Schmitz"
+    ],
+    "<b>Mit Paul</b>",
+    "На вопрос <b>Mit wem gehen wir?</b> Йонас отвечает <b>Mit Paul</b>."
+   ],
+   [
+    "Сколько евро стоит вход?",
+    [
+     "8",
+     "18",
+     "80"
+    ],
+    "<b>Acht Euro</b>",
+    "В записи звучит <b>acht Euro</b>."
+   ],
+   [
+    "Какая погода будет в воскресенье?",
+    [
+     "die Sonne",
+     "der Regen",
+     "der Wind"
+    ],
+    "scheint <b>die Sonne</b>",
+    "<b>Am Sonntag scheint die Sonne.</b>"
+   ],
+   [
+    "Как Алина отвечает на отрицательный вопрос Йонаса?",
+    [
+     "Doch",
+     "Ja",
+     "Nein"
+    ],
+    "<b>Doch</b>, ich habe Zeit",
+    "Время у неё есть: <b>Doch, ich habe Zeit!</b> опровергает отрицание."
+   ]
+  ],
+  "gloss": {
+   "führung": "экскурсия с гидом (die Führung)",
+   "treffe": "встречу (treffen)",
+   "eintritt": "вход, плата за вход (der Eintritt)",
+   "scheint": "светит (scheinen)",
+   "ne": "разг. да? ладно?"
+  }
+ }
+}

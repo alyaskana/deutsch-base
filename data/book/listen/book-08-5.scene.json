@@ -1,0 +1,174 @@
+{
+ "id": "book-08-5",
+ "bg": "quiet restaurant ambience, soft cutlery and plates clinking, low murmur far away, no music, no clear voices",
+ "bg_gain": 1.5,
+ "lines": [
+  {
+   "who": "Kellner",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Guten Abend! Was nehmen Sie?",
+   "ru": "Добрый вечер! Что будете?"
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Ich esse kein Fleisch und keinen Fisch. Ist die Suppe vegetarisch?",
+   "ru": "Я не ем мясо и рыбу. Суп вегетарианский?"
+  },
+  {
+   "who": "Kellner",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Leider haben wir keine Suppe mehr. Der Salat ist nicht vegetarisch.",
+   "ru": "К сожалению, супа больше нет. Салат не вегетарианский."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Dann nehme ich Gemüse. Und ein Bier, bitte.",
+   "ru": "Тогда я возьму овощи. И пиво, пожалуйста."
+  },
+  {
+   "who": "Kellner",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Gut. Und Sie?",
+   "ru": "Хорошо. А вы?"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Ich nehme den Salat und einen Kaffee, bitte.",
+   "ru": "Я возьму салат и кофе, пожалуйста."
+  },
+  {
+   "who": "Kellner",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Mit Milch?",
+   "ru": "С молоком?"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Nein, ohne Milch. Ich trinke nie Milch.",
+   "ru": "Нет, без молока. Я никогда не пью молоко."
+  },
+  {
+   "who": "Kellner",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Und für Sie?",
+   "ru": "А вам?"
+  },
+  {
+   "who": "Alina",
+   "voice": "4yZGYlR0JpmqiCxBgPi5",
+   "de": "Ein Hähnchen, bitte.",
+   "ru": "Курицу, пожалуйста."
+  },
+  {
+   "who": "Kellner",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Auch ein Bier?",
+   "ru": "Тоже пиво?"
+  },
+  {
+   "who": "Alina",
+   "voice": "4yZGYlR0JpmqiCxBgPi5",
+   "de": "Ich trinke kein Bier und keinen Wein. Ein Wasser, bitte.",
+   "ru": "Я не пью пиво и вино. Воду, пожалуйста."
+  },
+  {
+   "who": "Kellner",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Klar. Zahlen Sie zusammen?",
+   "ru": "Конечно. Платите вместе?"
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Ja, wir zahlen zusammen.",
+   "ru": "Да, мы платим вместе."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 08.5",
+  "scene": "Im Restaurant",
+  "cap": "Трое друзей заказывают ужин",
+  "sub": "Послушайте заказы троих друзей и ответьте по пунктам книги.",
+  "speakers": {
+   "Kellner": "Австрия",
+   "Paul": "Бавария",
+   "Jonas": "Германия",
+   "Alina": "Швейцария"
+  },
+  "qs": [
+   [
+    "Что заказывает Пауль (блюдо)?",
+    [
+     "Gemüse",
+     "Suppe",
+     "Salat"
+    ],
+    "Dann nehme ich <b>Gemüse</b>",
+    "После вопроса о супе Пауль заказывает овощи."
+   ],
+   [
+    "Что заказывает Йонас (блюдо)?",
+    [
+     "Salat",
+     "Gemüse",
+     "Hähnchen"
+    ],
+    "Ich nehme den <b>Salat</b>",
+    "Йонас выбирает салат; пожелание без молока относится к кофе."
+   ],
+   [
+    "Что заказывает Алина (блюдо)?",
+    [
+     "Hähnchen",
+     "Fisch",
+     "Salat"
+    ],
+    "Ein <b>Hähnchen</b>, bitte",
+    "Алина заказывает курицу."
+   ],
+   [
+    "Чего на кухне больше нет?",
+    [
+     "Suppe",
+     "Salat",
+     "Bier"
+    ],
+    "haben wir <b>keine Suppe mehr</b>",
+    "Официант сообщает, что суп закончился."
+   ],
+   [
+    "Что Йонас никогда не пьёт?",
+    [
+     "Milch",
+     "Bier",
+     "Kaffee"
+    ],
+    "Ich trinke <b>nie Milch</b>",
+    "Йонас прямо называет молоко после <b>nie</b>."
+   ],
+   [
+    "Они платят вместе?",
+    [
+     "Ja, zusammen",
+     "Nein, getrennt",
+     "Paul zahlt allein"
+    ],
+    "Ja, wir zahlen <b>zusammen</b>",
+    "В конце Пауль подтверждает совместную оплату."
+   ]
+  ],
+  "gloss": {
+   "vegetarisch": "вегетарианский",
+   "leider": "к сожалению",
+   "hähnchen": "курица (das Hähnchen)",
+   "zusammen": "вместе",
+   "zahlen": "платить",
+   "nie": "никогда",
+   "klar": "конечно"
+  }
+ }
+}

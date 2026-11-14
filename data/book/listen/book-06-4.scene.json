@@ -1,1 +1,132 @@
-{"id": "book-06-4", "bg": "small butcher and deli shop ambience, quiet fridge hum, paper rustling, door bell far away, no music, no voices", "bg_gain": 1.5, "lines": [{"who": "Kundin", "voice": "x5q1BXyLc7tegNqnOvnx", "de": "Guten Tag. Dreihundert Gramm Schinken, bitte. Der Schinken ist für die Kinder.", "ru": "Добрый день. Триста грамм ветчины, пожалуйста. Ветчина для детей."}, {"who": "Verkäufer", "voice": "sbJf8opzqSGRyRJzCVjD", "de": "Ja, gern. Brauchen Sie eine Tüte?", "ru": "Да, конечно. Вам нужен пакет?"}, {"who": "Kundin", "voice": "x5q1BXyLc7tegNqnOvnx", "de": "Nein, danke. Ohne Tüte, bitte. Haben Sie auch Fisch?", "ru": "Нет, спасибо. Без пакета, пожалуйста. А рыба у вас есть?"}, {"who": "Verkäufer", "voice": "sbJf8opzqSGRyRJzCVjD", "de": "Nein, wir haben keinen Fisch. Der Laden gleich um die Ecke verkauft Fisch.", "ru": "Нет, рыбы у нас нет. Магазин прямо за углом продаёт рыбу.", "tag": "[deutlich]"}, {"who": "Kundin", "voice": "x5q1BXyLc7tegNqnOvnx", "de": "Danke. Was kostet der Schinken?", "ru": "Спасибо. Сколько стоит ветчина?"}, {"who": "Verkäufer", "voice": "sbJf8opzqSGRyRJzCVjD", "de": "Sechs Euro.", "ru": "Шесть евро."}, {"who": "Kundin", "voice": "x5q1BXyLc7tegNqnOvnx", "de": "Ich zahle bar.", "ru": "Я плачу наличными."}]}
+{
+ "id": "book-06-4",
+ "bg": "small butcher and deli shop ambience, quiet fridge hum, paper rustling, door bell far away, no music, no voices",
+ "bg_gain": 1.5,
+ "lines": [
+  {
+   "who": "Kundin",
+   "voice": "x5q1BXyLc7tegNqnOvnx",
+   "de": "Guten Tag. Dreihundert Gramm Schinken, bitte. Der Schinken ist für die Kinder.",
+   "ru": "Добрый день. Триста грамм ветчины, пожалуйста. Ветчина для детей."
+  },
+  {
+   "who": "Verkäufer",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Ja, gern. Brauchen Sie eine Tüte?",
+   "ru": "Да, конечно. Вам нужен пакет?"
+  },
+  {
+   "who": "Kundin",
+   "voice": "x5q1BXyLc7tegNqnOvnx",
+   "de": "Nein, danke. Ohne Tüte, bitte. Haben Sie auch Fisch?",
+   "ru": "Нет, спасибо. Без пакета, пожалуйста. А рыба у вас есть?"
+  },
+  {
+   "who": "Verkäufer",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Nein, wir haben keinen Fisch. Der Laden gleich um die Ecke verkauft Fisch.",
+   "ru": "Нет, рыбы у нас нет. Магазин прямо за углом продаёт рыбу.",
+   "tag": "[deutlich]"
+  },
+  {
+   "who": "Kundin",
+   "voice": "x5q1BXyLc7tegNqnOvnx",
+   "de": "Danke. Was kostet der Schinken?",
+   "ru": "Спасибо. Сколько стоит ветчина?"
+  },
+  {
+   "who": "Verkäufer",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Sechs Euro.",
+   "ru": "Шесть евро."
+  },
+  {
+   "who": "Kundin",
+   "voice": "x5q1BXyLc7tegNqnOvnx",
+   "de": "Ich zahle bar.",
+   "ru": "Я плачу наличными."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 06.4",
+  "scene": "Im Laden",
+  "cap": "Покупательница в мясной лавке",
+  "sub": "Послушайте другую покупательницу и отвечайте по пунктам книги.",
+  "speakers": {
+   "Kundin": "Австрия",
+   "Verkäufer": "Саксония"
+  },
+  "gloss": {
+   "schinken": "ветчина (der Schinken)",
+   "gramm": "грамм (das Gramm)",
+   "tüte": "пакет (die Tüte)",
+   "laden": "магазин, лавка (der Laden)",
+   "ecke": "угол (die Ecke)",
+   "bar": "наличными",
+   "kostet": "стоит (kosten)",
+   "verkauft": "продаёт (verkaufen)"
+  },
+  "qs": [
+   [
+    "Что она покупает?",
+    [
+     "Schinken",
+     "Käse",
+     "Wurst"
+    ],
+    "<b>Schinken</b>, bitte.",
+    "Покупательница заказывает ветчину."
+   ],
+   [
+    "Сколько?",
+    [
+     "300 Gramm",
+     "3 Kilo",
+     "200 Gramm"
+    ],
+    "<b>Dreihundert Gramm</b> Schinken",
+    "После числа мера остаётся <b>Gramm</b>."
+   ],
+   [
+    "Для кого покупка?",
+    [
+     "für die Kinder",
+     "für den Mann",
+     "für Paul"
+    ],
+    "ist <b>für die Kinder</b>",
+    "Получатель назван после <b>für</b>."
+   ],
+   [
+    "Без чего она просит покупку?",
+    [
+     "ohne Tüte",
+     "ohne Brot",
+     "ohne Fett"
+    ],
+    "<b>Ohne Tüte</b>, bitte",
+    "В записи звучит сочетание <b>ohne Tüte</b>."
+   ],
+   [
+    "Чего у продавца нет?",
+    [
+     "Fisch",
+     "Schinken",
+     "Tüten"
+    ],
+    "wir haben <b>keinen Fisch</b>",
+    "Отсутствие рыбы выражено через <b>keinen Fisch</b>."
+   ],
+   [
+    "Где находится другой магазин?",
+    [
+     "gleich um die Ecke",
+     "gegenüber vom Markt",
+     "durch den Park"
+    ],
+    "gleich <b>um die Ecke</b>",
+    "Сочетание означает «прямо за углом»."
+   ]
+  ]
+ }
+}

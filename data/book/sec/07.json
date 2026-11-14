@@ -1,0 +1,65 @@
+{
+"7.1": [
+ {"type":"build","title":"Глагол второй","sub":"Перед личной формой — один смысловой блок","items":[
+  {"ru":"В пятницу я звоню. (Начни с am Freitag.)","w":["Am","Freitag","telefoniere","ich."],"ok":["Am Freitag telefoniere ich."],"n":"<b>am Freitag</b> — один блок, глагол второй."},
+  {"ru":"Я звоню в пятницу.","w":["Ich","telefoniere","am","Freitag."],"ok":["Ich telefoniere am Freitag."],"n":"Начали с себя — глагол всё равно второй."},
+  {"ru":"В пятницу в восемь я звоню.","w":["Am","Freitag","um","acht","telefoniere","ich."],"ok":["Am Freitag um acht telefoniere ich."],"n":"<b>am Freitag um acht</b> отвечает на один вопрос «когда?» — один блок."}]},
+ {"type":"choice","title":"Где ошибка?","sub":"Выбери верную фразу","items":[
+  {"s":"___","ru":"Я звоню в пятницу.","o":["Ich telefoniere am Freitag.","Ich am Freitag telefoniere."],"a":"Ich telefoniere am Freitag.","n":"В ошибочной фразе глагол пропустил вперёд два блока."},
+  {"s":"___","ru":"Я работаю.","o":["Ich arbeite.","Ich arbeiten."],"a":"Ich arbeite.","n":"На второе место встаёт личная форма, а не словарная."}]}
+],
+"7.2": [
+ {"type":"build","title":"Начали со времени","sub":"Время, сразу глагол, потом подлежащее","items":[
+  {"ru":"В субботу у меня есть время.","w":["Am","Samstag","habe","ich","Zeit."],"ok":["Am Samstag habe ich Zeit."],"n":"Не <s>Am Samstag ich habe Zeit</s>: глагол сразу после времени."},
+  {"ru":"Сегодня идёт дождь. (Начни с heute.)","w":["Heute","regnet","es."],"ok":["Heute regnet es."],"n":"<b>es</b> переходит за глагол."},
+  {"ru":"Здесь я ночую.","w":["Hier","übernachte","ich."],"ok":["Hier übernachte ich."],"n":"Место работает так же, как время."},
+  {"ru":"Этот сыр я покупаю.","w":["Den","Käse","kaufe","ich."],"ok":["Den Käse kaufe ich."],"n":"Akkusativ при перестановке сохраняется: <b>den Käse</b>."},
+  {"ru":"Я сегодня еду в Бонн.","w":["Ich","fahre","heute","nach","Bonn."],"ok":["Ich fahre heute nach Bonn.","Heute fahre ich nach Bonn."],"n":"Глагол не уходит в конец обычного утверждения."}]}
+],
+"7.3": [
+ {"type":"choice","title":"Один блок или два?","sub":"Перед глаголом — только один","items":[
+  {"s":"___ kochen.","ru":"Мы с Паулем готовим.","o":["Paul und ich","Wir mit Paul"],"a":"Paul und ich","n":"«Мы с Паулем» по-немецки — перечисление: <b>Paul und ich</b>."},
+  {"s":"Ich ___ mit Paul.","ru":"Я готовлю с Паулем.","o":["koche","kochen"],"a":"koche","n":"Подлежащее только <b>ich</b>: <b>koche</b>."},
+  {"s":"Paul und ich ___.","ru":"Пауль и я готовим.","o":["kochen","koche"],"a":"kochen","n":"Двое — множественное число: <b>kochen</b>."},
+  {"s":"___","ru":"В воскресенье мы плаваем в Бонне.","o":["Am Sonntag schwimmen wir in Bonn.","Am Sonntag in Bonn schwimmen wir."],"a":"Am Sonntag schwimmen wir in Bonn.","n":"Время и место — разные блоки, перед глаголом встаёт один."}]},
+ {"type":"build","title":"Целый блок впереди","sub":"","items":[
+  {"ru":"Вечером мы с папой жарим гриль на улице. (Начни с am Abend.)","w":["Am","Abend","grillen","mein","Vater","und","ich","draußen."],"ok":["Am Abend grillen mein Vater und ich draußen."],"n":"Людей двое, блок один; себя называем последним."}]}
+],
+"7.4": [
+ {"type":"build","title":"Союз у порога","sub":"und, aber, oder и ja/nein не занимают места","items":[
+  {"ru":"Но во вторник я работаю.","w":["Aber","am","Dienstag","arbeite","ich."],"ok":["Aber am Dienstag arbeite ich."],"n":"Отсчёт начинается после <b>aber</b>."},
+  {"ru":"А в среду я учусь.","w":["Und","am","Mittwoch","lerne","ich."],"ok":["Und am Mittwoch lerne ich."],"n":"<b>und</b> на нулевом месте."},
+  {"ru":"Да, сегодня у меня есть время.","w":["Ja,","heute","habe","ich","Zeit."],"ok":["Ja, heute habe ich Zeit."],"n":"После ответа запятая, затем обычный порядок."},
+  {"ru":"Пауль, сегодня готовлю я.","w":["Paul,","heute","koche","ich."],"ok":["Paul, heute koche ich."],"n":"Обращение стоит вне счёта мест."}]}
+],
+"7.5": [
+ {"type":"build","title":"Вопрос «да/нет»","sub":"Личная форма первой, подлежащее сразу за ней","items":[
+  {"ru":"Ты завтра свободен?","w":["Bist","du","morgen","frei?"],"ok":["Bist du morgen frei?"],"n":"Глагол прыгает вперёд."},
+  {"ru":"Пауль завтра работает?","w":["Arbeitet","Paul","morgen?"],"ok":["Arbeitet Paul morgen?"],"n":"Сначала глагол, затем подлежащее."},
+  {"ru":"Ты разговариваешь по телефону?","w":["Telefonierst","du?"],"ok":["Telefonierst du?"],"n":"Вопросительного знака мало — нужна перестановка."},
+  {"ru":"Ты остаёшься здесь, да?","w":["Du","bleibst","hier,","oder?"],"ok":["Du bleibst hier, oder?"],"n":"Приписка <b>oder?</b> не перестраивает фразу."}]}
+],
+"7.6": [
+ {"type":"choice","title":"Какой вопрос?","sub":"Вопросительный блок первым, глагол вторым","items":[
+  {"s":"___ dauert die Führung?","ru":"Как долго длится экскурсия?","o":["Wie lange","Wann"],"a":"Wie lange","n":"Продолжительность — <b>wie lange</b>."},
+  {"s":"___ ist die Führung?","ru":"Когда экскурсия?","o":["Wann","Wie lange"],"a":"Wann","n":"Момент события — <b>wann</b>."},
+  {"s":"___ telefonierst du?","ru":"С кем ты разговариваешь по телефону?","o":["Mit wem","Wer mit"],"a":"Mit wem","n":"Предлог едет вместе со словом: <b>Mit wem</b>."},
+  {"s":"___ kennt Alina?","ru":"Кого знает Алина?","o":["Wen","Wer"],"a":"Wen","n":"Спрашиваем о дополнении: <b>wen</b>."},
+  {"s":"___ kennt Alina?","ru":"Кто знает Алину?","o":["Wer","Wen"],"a":"Wer","n":"Спрашиваем о подлежащем: <b>wer</b>."},
+  {"s":"___ fährst du?","ru":"Куда ты едешь?","o":["Wohin","Wo"],"a":"Wohin","n":"Цель поездки — <b>wohin</b>."},
+  {"s":"Was für ___ Zug nehmen wir?","ru":"Какой поезд мы берём?","o":["einen","ein"],"a":"einen","n":"Поезд берут — дополнение: <b>einen Zug</b>. für здесь падеж не назначает."},
+  {"s":"Was für ___ Zug ist das?","ru":"Что это за поезд?","o":["ein","einen"],"a":"ein","n":"После <b>ist</b> — Nominativ: <b>ein Zug</b>."}]},
+ {"type":"build","title":"Длинный вопросительный блок","sub":"","items":[
+  {"ru":"Во сколько занятие?","w":["Um","wie","viel","Uhr","ist","der","Kurs?"],"ok":["Um wie viel Uhr ist der Kurs?"],"n":"Четыре слова — один запрос, глагол после всей группы."},
+  {"ru":"Для кого ты покупаешь пирог?","w":["Für","wen","kaufst","du","den","Kuchen?"],"ok":["Für wen kaufst du den Kuchen?"],"n":"<b>Für wen</b> целиком перед глаголом."}]}
+],
+"7.7": [
+ {"type":"choice","title":"Ja, nein или doch?","sub":"Сначала решите, что правда, потом выберите слово","items":[
+  {"s":"Hast du keine Zeit? — ___, ich habe Zeit.","ru":"Время есть.","o":["Doch","Ja","Nein"],"a":"Doch","n":"Опровергаем отрицание — <b>doch</b>."},
+  {"s":"Hast du keine Zeit? — ___, ich habe keine Zeit.","ru":"Времени нет.","o":["Nein","Doch","Ja"],"a":"Nein","n":"Отрицание верно — <b>nein</b>."},
+  {"s":"Hast du Zeit? — ___, ich habe Zeit.","ru":"Время есть.","o":["Ja","Doch","Nein"],"a":"Ja","n":"Вопрос без отрицания, ответ совпадает — <b>ja</b>."},
+  {"s":"Kommst du nicht? — ___, ich komme.","ru":"Ты не приедешь? — Нет, приеду.","o":["Doch","Ja","Nein"],"a":"Doch","n":"Русское «нет» отвергает предположение; по-немецки — <b>doch</b>."},
+  {"s":"Kommst du nicht? — ___, ich komme nicht.","ru":"Да, не приду.","o":["Nein","Ja","Doch"],"a":"Nein","n":"Русское «да, не приду» по-немецки: <b>Nein, ich komme nicht.</b>"},
+  {"s":"Du hast kein Telefon. — ___, ich habe ein Telefon.","ru":"Нет, телефон у меня есть.","o":["Doch","Nein","Ja"],"a":"Doch","n":"<b>doch</b> возражает и отрицательному утверждению."}]}
+]
+}

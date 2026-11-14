@@ -1,0 +1,566 @@
+{
+ "6.1": [
+  {
+   "type": "choice",
+   "title": "ein или der?",
+   "sub": "Знает ли собеседник, о каком предмете речь?",
+   "items": [
+    {
+     "s": "У прилавка, любое яблоко: ___ Apfel, bitte.",
+     "ru": "Одно яблоко, пожалуйста.",
+     "o": [
+      "Einen",
+      "Den"
+     ],
+     "a": "Einen",
+     "n": "Яблоко ещё не выбрано: неопределённый артикль, в заказе <b>einen</b>."
+    },
+    {
+     "s": "Показываете на конкретное: ___ Apfel hier, bitte.",
+     "ru": "Вот это яблоко, пожалуйста.",
+     "o": [
+      "Den",
+      "Einen"
+     ],
+     "a": "Den",
+     "n": "Вы оба указали бы на одно яблоко: <b>den</b>."
+    },
+    {
+     "s": "Das ist ___ Birne.",
+     "ru": "Показываете грушу, о которой ещё не говорили.",
+     "o": [
+      "eine",
+      "die"
+     ],
+     "a": "eine",
+     "n": "Предмет новый для собеседника: <b>eine</b>."
+    },
+    {
+     "s": "Das ist ___ Birne.",
+     "ru": "Это та груша, которую вместе выбрали.",
+     "o": [
+      "die",
+      "eine"
+     ],
+     "a": "die",
+     "n": "Выбранная груша известна обоим: <b>die</b>."
+    },
+    {
+     "s": "Wo ist ___ Kasse?",
+     "ru": "Где касса? (касса в магазине одна)",
+     "o": [
+      "die",
+      "eine"
+     ],
+     "a": "die",
+     "n": "О кассе не говорили, но она здесь одна, и оба понимают, где платить: <b>die Kasse</b>."
+    },
+    {
+     "s": "Ich kaufe ___ Birnen.",
+     "ru": "Я покупаю груши (какие-то, сколько — неважно).",
+     "o": [
+      "–",
+      "eine"
+     ],
+     "a": "–",
+     "n": "У <b>ein</b> нет множественного числа: <b>Ich kaufe Birnen.</b>"
+    }
+   ]
+  },
+  {
+   "type": "type",
+   "title": "Артикль в заказе",
+   "sub": "Впиши артикль. Если он не нужен, впиши «-».",
+   "items": [
+    {
+     "s": "Ich kaufe ___ Apfel.",
+     "ru": "Я покупаю яблоко.",
+     "a": [
+      "einen"
+     ],
+     "hint": "ein",
+     "n": "Голое <s>Ich kaufe Apfel</s> звучит как ошибка: нужен <b>einen Apfel</b>."
+    },
+    {
+     "s": "Ich nehme ___ Birnen hier.",
+     "ru": "Я беру вот эти груши.",
+     "a": [
+      "die"
+     ],
+     "hint": "der/die/das",
+     "n": "Несколько знакомых предметов: <b>die Birnen hier</b>."
+    },
+    {
+     "s": "Das ist ___ Birne. Sie ist sehr gut.",
+     "ru": "Это (та самая) груша. Она очень хорошая.",
+     "a": [
+      "die"
+     ],
+     "hint": "der/die/das",
+     "n": "Знакомая обоим груша: <b>die Birne</b>."
+    }
+   ]
+  }
+ ],
+ "6.2": [
+  {
+   "type": "choice",
+   "title": "Нужен ли артикль?",
+   "sub": "Вещество, порция или знакомый товар",
+   "items": [
+    {
+     "s": "Ich kaufe ___ Reis.",
+     "ru": "Я покупаю рис.",
+     "o": [
+      "–",
+      "einen"
+     ],
+     "a": "–",
+     "n": "Рис здесь продукт, его не считают поштучно: <b>Ich kaufe Reis.</b>"
+    },
+    {
+     "s": "Wir brauchen ___ Milch.",
+     "ru": "Нам нужно молоко.",
+     "o": [
+      "–",
+      "eine"
+     ],
+     "a": "–",
+     "n": "Вещество без количества — без артикля."
+    },
+    {
+     "s": "Im Café: ___ Kaffee, bitte.",
+     "ru": "В кафе: кофе, пожалуйста (чашку).",
+     "o": [
+      "Einen",
+      "–"
+     ],
+     "a": "Einen",
+     "n": "<b>Einen Kaffee</b> в кафе — порция, чашка кофе."
+    },
+    {
+     "s": "Fünfhundert Gramm ___ Käse, bitte.",
+     "ru": "Пятьсот граммов сыра, пожалуйста.",
+     "o": [
+      "–",
+      "von"
+     ],
+     "a": "–",
+     "n": "После меры продукт идёт сразу, без <b>von</b> и артикля."
+    },
+    {
+     "s": "___ Kilo Tomaten, bitte.",
+     "ru": "Килограмм помидоров, пожалуйста.",
+     "o": [
+      "Ein",
+      "Eins"
+     ],
+     "a": "Ein",
+     "n": "Перед существительным «один» — <b>ein</b>; <s>eins Kilo</s> — ошибка."
+    },
+    {
+     "s": "Zwei ___ Milch, bitte.",
+     "ru": "Две бутылки молока, пожалуйста.",
+     "o": [
+      "Flaschen",
+      "Flasche"
+     ],
+     "a": "Flaschen",
+     "n": "У бутылок обычное множественное: <b>zwei Flaschen</b>. А Kilo, Gramm, Stück не меняются."
+    }
+   ]
+  },
+  {
+   "type": "build",
+   "title": "Заказ у весов",
+   "sub": "Собери заказ: число, мера, продукт",
+   "items": [
+    {
+     "ru": "Три килограмма картофеля, пожалуйста.",
+     "w": [
+      "Drei",
+      "Kilo",
+      "Kartoffeln,",
+      "bitte."
+     ],
+     "ok": [
+      "Drei Kilo Kartoffeln, bitte."
+     ],
+     "n": "Kilo после числа не меняется; Kartoffeln во множественном."
+    },
+    {
+     "ru": "Бутылку растительного масла, пожалуйста.",
+     "w": [
+      "Eine",
+      "Flasche",
+      "Öl,",
+      "bitte."
+     ],
+     "ok": [
+      "Eine Flasche Öl, bitte."
+     ],
+     "n": "После меры — сразу продукт."
+    },
+    {
+     "ru": "Пауль покупает бананы.",
+     "w": [
+      "Paul",
+      "kauft",
+      "Bananen."
+     ],
+     "ok": [
+      "Paul kauft Bananen."
+     ],
+     "n": "Неопределённое множество — без артикля."
+    }
+   ]
+  }
+ ],
+ "6.3": [
+  {
+   "type": "choice",
+   "title": "Кто делает, что покупают",
+   "sub": "Nominativ — подлежащее, Akkusativ — что берут, ищут, видят",
+   "items": [
+    {
+     "s": "___ Verkäufer nimmt den Apfel.",
+     "ru": "Продавец берёт яблоко.",
+     "o": [
+      "Der",
+      "Den"
+     ],
+     "a": "Der",
+     "n": "Продавец действует: подлежащее, <b>der</b>."
+    },
+    {
+     "s": "Den Apfel nimmt ___ Verkäufer.",
+     "ru": "Яблоко берёт продавец.",
+     "o": [
+      "der",
+      "den"
+     ],
+     "a": "der",
+     "n": "Продавец в конце, но всё равно подлежащее: <b>der Verkäufer</b>."
+    },
+    {
+     "s": "___ Käse ist teuer.",
+     "ru": "Сыр дорогой.",
+     "o": [
+      "Der",
+      "Den"
+     ],
+     "a": "Der",
+     "n": "Сыр описывают, а не покупают: <b>der Käse</b>."
+    },
+    {
+     "s": "Alina kauft ___ Käse.",
+     "ru": "Алина покупает сыр.",
+     "o": [
+      "den",
+      "der"
+     ],
+     "a": "den",
+     "n": "Сыр покупают: Akkusativ, <b>den Käse</b>."
+    },
+    {
+     "s": "Das ist ___ Verkäufer.",
+     "ru": "Это продавец.",
+     "o": [
+      "ein",
+      "einen"
+     ],
+     "a": "ein",
+     "n": "После <b>ist</b> — тот же человек, Nominativ: <b>ein Verkäufer</b>."
+    },
+    {
+     "s": "Alina kennt ___ Verkäufer.",
+     "ru": "Алина знает продавца.",
+     "o": [
+      "den",
+      "der"
+     ],
+     "a": "den",
+     "n": "Того, кого знают, ставим в Akkusativ: <b>den Verkäufer</b>."
+    }
+   ]
+  }
+ ],
+ "6.4": [
+  {
+   "type": "type",
+   "title": "Меняется только мужской род",
+   "sub": "Впиши артикль в Akkusativ",
+   "items": [
+    {
+     "s": "Paul braucht ___ Schrank.",
+     "ru": "Паулю нужен шкаф.",
+     "a": [
+      "einen"
+     ],
+     "hint": "ein",
+     "n": "der Schrank — мужской род: <b>einen</b>."
+    },
+    {
+     "s": "Paul braucht ___ Flasche.",
+     "ru": "Паулю нужна бутылка.",
+     "a": [
+      "eine"
+     ],
+     "hint": "ein",
+     "n": "Женский род не меняется: <b>eine</b>."
+    },
+    {
+     "s": "Paul braucht ___ Glas.",
+     "ru": "Паулю нужен стакан.",
+     "a": [
+      "ein"
+     ],
+     "hint": "ein",
+     "n": "Средний род не меняется: <b>ein Glas</b>."
+    },
+    {
+     "s": "Ich brauche ___ Fisch.",
+     "ru": "Мне не нужна рыба.",
+     "a": [
+      "keinen"
+     ],
+     "hint": "kein",
+     "n": "der Fisch: <b>keinen</b>."
+    },
+    {
+     "s": "Wir haben ___ Äpfel.",
+     "ru": "У нас нет яблок.",
+     "a": [
+      "keine"
+     ],
+     "hint": "kein",
+     "n": "У <b>kein</b> есть множественное число: <b>keine</b>."
+    },
+    {
+     "s": "Ich nehme ___ Apfel hier.",
+     "ru": "Я беру вот это яблоко.",
+     "a": [
+      "den"
+     ],
+     "hint": "der",
+     "n": "<b>der → den</b>."
+    }
+   ]
+  },
+  {
+   "type": "choice",
+   "title": "Вежливый заказ",
+   "sub": "Ich möchte и Ich hätte gern — тоже с Akkusativ",
+   "items": [
+    {
+     "s": "Ich möchte ___ Kaffee.",
+     "ru": "Я бы выпил(а) кофе.",
+     "o": [
+      "einen",
+      "ein"
+     ],
+     "a": "einen",
+     "n": "После <b>Ich möchte</b> предмет в Akkusativ: <b>einen Kaffee</b>."
+    },
+    {
+     "s": "Ich hätte gern ___ Tüte.",
+     "ru": "Мне, пожалуйста, пакет.",
+     "o": [
+      "eine",
+      "einen"
+     ],
+     "a": "eine",
+     "n": "die Tüte — женский род, форма не меняется."
+    },
+    {
+     "s": "___ ein Kilo Tomaten.",
+     "ru": "Мне, пожалуйста, килограмм помидоров (мягко).",
+     "o": [
+      "Ich hätte gern",
+      "Geben Sie mir"
+     ],
+     "a": "Ich hätte gern",
+     "n": "<b>Geben Sie mir</b> звучит прямолинейнее; у прилавка привычнее <b>Ich hätte gern …</b>"
+    }
+   ]
+  }
+ ],
+ "6.5": [
+  {
+   "type": "choice",
+   "title": "Есть, нужен, имеется",
+   "sub": "После haben, brauchen и es gibt — Akkusativ",
+   "items": [
+    {
+     "s": "Alina hat ___ Schlüssel.",
+     "ru": "У Алины есть ключ.",
+     "o": [
+      "einen",
+      "ein"
+     ],
+     "a": "einen",
+     "n": "При <b>haben</b> подлежащее — владелец, ключ — дополнение: <b>einen Schlüssel</b>."
+    },
+    {
+     "s": "Ich brauche ___ Koffer!",
+     "ru": "Мне нужен чемодан!",
+     "o": [
+      "einen",
+      "ein"
+     ],
+     "a": "einen",
+     "n": "Ошибка Алины: <s>ein Koffer</s>. При brauchen чемодан — дополнение."
+    },
+    {
+     "s": "Gibt es hier auch ___ Markt?",
+     "ru": "Здесь есть рынок?",
+     "o": [
+      "einen",
+      "ein"
+     ],
+     "a": "einen",
+     "n": "После <b>es gibt</b> — Akkusativ: <b>einen Markt</b>."
+    },
+    {
+     "s": "Alina hat ___ Schlüssel.",
+     "ru": "У Алины нет ключа.",
+     "o": [
+      "keinen",
+      "kein"
+     ],
+     "a": "keinen",
+     "n": "Отрицание падеж не меняет: <b>keinen Schlüssel</b>."
+    },
+    {
+     "s": "Der Käse riecht gut. Alina riecht ___ Käse.",
+     "ru": "Сыр хорошо пахнет. Алина чувствует запах сыра.",
+     "o": [
+      "den",
+      "der"
+     ],
+     "a": "den",
+     "n": "Во второй фразе сыр — дополнение: <b>den Käse</b>."
+    }
+   ]
+  },
+  {
+   "type": "build",
+   "title": "Перестрой фразу",
+   "sub": "Сначала глагол, потом предмет в Akkusativ",
+   "items": [
+    {
+     "ru": "Здесь есть рынок.",
+     "w": [
+      "Hier",
+      "gibt",
+      "es",
+      "einen",
+      "Markt."
+     ],
+     "ok": [
+      "Hier gibt es einen Markt."
+     ],
+     "n": "<b>es gibt</b> + Akkusativ."
+    },
+    {
+     "ru": "Алине нужен чемодан.",
+     "w": [
+      "Alina",
+      "braucht",
+      "einen",
+      "Koffer."
+     ],
+     "ok": [
+      "Alina braucht einen Koffer."
+     ],
+     "n": "Подлежащее — тот, кто нуждается."
+    },
+    {
+     "ru": "Пауль сходит за молоком.",
+     "w": [
+      "Paul",
+      "holt",
+      "die",
+      "Milch."
+     ],
+     "ok": [
+      "Paul holt die Milch."
+     ],
+     "n": "<b>holen</b> + Akkusativ."
+    }
+   ]
+  }
+ ],
+ "6.6": [
+  {
+   "type": "type",
+   "title": "Помидор становится sie",
+   "sub": "Замени предмет местоимением по немецкому роду",
+   "items": [
+    {
+     "s": "Die Tomate? Ich nehme ___.",
+     "ru": "Помидор? Возьму его.",
+     "a": [
+      "sie"
+     ],
+     "hint": "",
+     "n": "die Tomate — женский род: <b>sie</b>."
+    },
+    {
+     "s": "Das Hähnchen? Ich nehme ___.",
+     "ru": "Курицу? Возьму её.",
+     "a": [
+      "es"
+     ],
+     "hint": "",
+     "n": "das Hähnchen — средний род: <b>es</b>."
+    },
+    {
+     "s": "Der Käse? Ich nehme ___.",
+     "ru": "Сыр? Возьму его.",
+     "a": [
+      "ihn"
+     ],
+     "hint": "",
+     "n": "der Käse: <b>ihn</b>."
+    },
+    {
+     "s": "Paul sieht ___.",
+     "ru": "Пауль видит меня.",
+     "a": [
+      "mich"
+     ],
+     "hint": "ich",
+     "n": "<b>ich → mich</b>."
+    },
+    {
+     "s": "Alina kennt ___.",
+     "ru": "Алина нас знает.",
+     "a": [
+      "uns"
+     ],
+     "hint": "wir",
+     "n": "<b>wir → uns</b>."
+    },
+    {
+     "s": "Ich sehe ___.",
+     "ru": "Я вас вижу (вежливо).",
+     "a": [
+      "Sie"
+     ],
+     "hint": "Sie",
+     "n": "Вежливое <b>Sie</b> не меняется и пишется с заглавной."
+    },
+    {
+     "s": "Ich kenne ___ nicht.",
+     "ru": "Я тебя не знаю.",
+     "a": [
+      "dich"
+     ],
+     "hint": "du",
+     "n": "<b>du → dich</b>."
+    }
+   ]
+  }
+ ]
+}

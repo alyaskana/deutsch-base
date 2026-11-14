@@ -121,7 +121,7 @@ async function playLesson(l) {
   } else
   await page.evaluate(id => { const l = S.lessons.find(x => x.id === id) || findLesson(id); showIntro(l); startRun(); }, l.id);
   let steps = 0, stuck = 0, last = '', done = false;
-  while (steps++ < 400 && Date.now() - t0 < 120000) {
+  while (steps++ < 1000 && Date.now() - t0 < 300000) { // «Практика урока» книги длинная: 60+ заданий
     await page.waitForTimeout(30);
     const { o0, fb0, w0 } = await page.evaluate(() => ({ o0: __smoke.osc, fb0: document.getElementById('dock').classList.contains('fb'), w0: document.querySelector('#word')?.className || '' }));
     const r = await page.evaluate(STEP).catch(e => ({ act: 'err', e: String(e) }));

@@ -1,0 +1,575 @@
+{
+ "l": 8,
+ "words": [
+  {
+   "de": "das Restaurant",
+   "lemma": "Restaurant",
+   "art": "das",
+   "pl": "die Restaurants",
+   "forms": "",
+   "ipa": "[ʁɛstoˈʁãː]",
+   "ru": "ресторан",
+   "pos": "noun"
+  },
+  {
+   "de": "das Lokal",
+   "lemma": "Lokal",
+   "art": "das",
+   "pl": "die Lokale",
+   "forms": "",
+   "ipa": "[loˈkaːl]",
+   "ru": "заведение, кафе",
+   "pos": "noun"
+  },
+  {
+   "de": "die Speisekarte",
+   "lemma": "Speisekarte",
+   "art": "die",
+   "pl": "die Speisekarten",
+   "forms": "",
+   "ipa": "[ˈʃpaɪ̯zəˌkaʁtə]",
+   "ru": "меню",
+   "pos": "noun"
+  },
+  {
+   "de": "bestellen",
+   "lemma": "bestellen",
+   "art": "",
+   "pl": "",
+   "forms": "bestellt, hat bestellt",
+   "ipa": "[bəˈʃtɛlən]",
+   "ru": "заказывать",
+   "pos": "verb"
+  },
+  {
+   "de": "empfehlen",
+   "lemma": "empfehlen",
+   "art": "",
+   "pl": "",
+   "forms": "empfiehlt, hat empfohlen",
+   "ipa": "[ɛmˈpfeːlən]",
+   "ru": "рекомендовать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Appetit",
+   "lemma": "Appetit",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[apeˈtiːt]",
+   "ru": "аппетит",
+   "pos": "noun"
+  },
+  {
+   "de": "das Getränk",
+   "lemma": "Getränk",
+   "art": "das",
+   "pl": "die Getränke",
+   "forms": "",
+   "ipa": "[ɡəˈtʁɛŋk]",
+   "ru": "напиток",
+   "pos": "noun"
+  },
+  {
+   "de": "das Wasser",
+   "lemma": "Wasser",
+   "art": "das",
+   "pl": "",
+   "forms": "здесь без множественного",
+   "ipa": "[ˈvasɐ]",
+   "ru": "вода",
+   "pos": "noun"
+  },
+  {
+   "de": "der Saft",
+   "lemma": "Saft",
+   "art": "der",
+   "pl": "die Säfte",
+   "forms": "",
+   "ipa": "[zaft]",
+   "ru": "сок",
+   "pos": "noun"
+  },
+  {
+   "de": "der Tee",
+   "lemma": "Tee",
+   "art": "der",
+   "pl": "die Tees",
+   "forms": "",
+   "ipa": "[teː]",
+   "ru": "чай",
+   "pos": "noun"
+  },
+  {
+   "de": "das Bier",
+   "lemma": "Bier",
+   "art": "das",
+   "pl": "die Biere; после чисел: zwei Bier",
+   "forms": "",
+   "ipa": "[biːɐ̯]",
+   "ru": "пиво",
+   "pos": "noun"
+  },
+  {
+   "de": "der Wein",
+   "lemma": "Wein",
+   "art": "der",
+   "pl": "die Weine",
+   "forms": "",
+   "ipa": "[vaɪ̯n]",
+   "ru": "вино",
+   "pos": "noun"
+  },
+  {
+   "de": "der Salat",
+   "lemma": "Salat",
+   "art": "der",
+   "pl": "die Salate",
+   "forms": "",
+   "ipa": "[zaˈlaːt]",
+   "ru": "салат",
+   "pos": "noun"
+  },
+  {
+   "de": "die Suppe",
+   "lemma": "Suppe",
+   "art": "die",
+   "pl": "die Suppen",
+   "forms": "",
+   "ipa": "[ˈzʊpə]",
+   "ru": "суп",
+   "pos": "noun"
+  },
+  {
+   "de": "die Pommes frites",
+   "lemma": "Pommes frites",
+   "art": "die",
+   "pl": "",
+   "forms": "только множественное число",
+   "ipa": "[pɔmˈfʁɪt]",
+   "ru": "картофель фри",
+   "pos": "noun"
+  },
+  {
+   "de": "die Rechnung",
+   "lemma": "Rechnung",
+   "art": "die",
+   "pl": "die Rechnungen",
+   "forms": "",
+   "ipa": "[ˈʁɛçnʊŋ]",
+   "ru": "счёт",
+   "pos": "noun"
+  },
+  {
+   "de": "der Gast",
+   "lemma": "Gast",
+   "art": "der",
+   "pl": "die Gäste",
+   "forms": "",
+   "ipa": "[ɡast]",
+   "ru": "гость, посетитель",
+   "pos": "noun"
+  },
+  {
+   "de": "der Platz",
+   "lemma": "Platz",
+   "art": "der",
+   "pl": "die Plätze",
+   "forms": "",
+   "ipa": "[plats]",
+   "ru": "место",
+   "pos": "noun"
+  },
+  {
+   "de": "sitzen",
+   "lemma": "sitzen",
+   "art": "",
+   "pl": "",
+   "forms": "sitzt, hat gesessen",
+   "ipa": "[ˈzɪtsən]",
+   "ru": "сидеть",
+   "pos": "verb"
+  },
+  {
+   "de": "der Kellner",
+   "lemma": "Kellner",
+   "art": "der",
+   "pl": "die Kellner",
+   "forms": "",
+   "ipa": "[ˈkɛlnɐ]",
+   "ru": "официант",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kellnerin",
+   "lemma": "Kellnerin",
+   "art": "die",
+   "pl": "die Kellnerinnen",
+   "forms": "",
+   "ipa": "[ˈkɛlnəʁɪn]",
+   "ru": "официантка",
+   "pos": "noun"
+  },
+  {
+   "de": "schmecken",
+   "lemma": "schmecken",
+   "art": "",
+   "pl": "",
+   "forms": "schmeckt",
+   "ipa": "[ˈʃmɛkən]",
+   "ru": "быть вкусным",
+   "pos": "verb"
+  },
+  {
+   "de": "bitter",
+   "lemma": "bitter",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈbɪtɐ]",
+   "ru": "горький",
+   "pos": "adj"
+  },
+  {
+   "de": "vegetarisch",
+   "lemma": "vegetarisch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[veɡeˈtaːʁɪʃ]",
+   "ru": "вегетарианский",
+   "pos": "adj"
+  },
+  {
+   "de": "nicht",
+   "lemma": "nicht",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[nɪçt]",
+   "ru": "не",
+   "pos": "adv"
+  },
+  {
+   "de": "nichts",
+   "lemma": "nichts",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[nɪçts]",
+   "ru": "ничего",
+   "pos": "adv"
+  },
+  {
+   "de": "nie",
+   "lemma": "nie",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[niː]",
+   "ru": "никогда",
+   "pos": "adv"
+  },
+  {
+   "de": "niemand",
+   "lemma": "niemand",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈniːmant]",
+   "ru": "никто",
+   "pos": "adv"
+  },
+  {
+   "de": "etwas",
+   "lemma": "etwas",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɛtvas]",
+   "ru": "что-нибудь, что-то",
+   "pos": "adv"
+  },
+  {
+   "de": "schon",
+   "lemma": "schon",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃoːn]",
+   "ru": "уже",
+   "pos": "adv"
+  },
+  {
+   "de": "mehr (nicht mehr)",
+   "lemma": "mehr (nicht mehr)",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[meːɐ̯]",
+   "ru": "больше (уже не)",
+   "pos": "phrase"
+  },
+  {
+   "de": "nur",
+   "lemma": "nur",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[nuːɐ̯]",
+   "ru": "только",
+   "pos": "adv"
+  },
+  {
+   "de": "sondern",
+   "lemma": "sondern",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈzɔndɐn]",
+   "ru": "а (после «не»)",
+   "pos": "adv"
+  },
+  {
+   "de": "leider",
+   "lemma": "leider",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈlaɪ̯dɐ]",
+   "ru": "к сожалению",
+   "pos": "adv"
+  },
+  {
+   "de": "allein",
+   "lemma": "allein",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[aˈlaɪ̯n]",
+   "ru": "один, в одиночку",
+   "pos": "adv"
+  },
+  {
+   "de": "normal",
+   "lemma": "normal",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[nɔʁˈmaːl]",
+   "ru": "обычный",
+   "pos": "adj"
+  },
+  {
+   "de": "klar",
+   "lemma": "klar",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[klaːɐ̯]",
+   "ru": "ясно, конечно",
+   "pos": "adv"
+  },
+  {
+   "de": "zufrieden",
+   "lemma": "zufrieden",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[tsuˈfʁiːdən]",
+   "ru": "довольный",
+   "pos": "adj"
+  },
+  {
+   "de": "einfach",
+   "lemma": "einfach",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nfax]",
+   "ru": "простой, просто",
+   "pos": "adj"
+  },
+  {
+   "de": "der Fehler",
+   "lemma": "Fehler",
+   "art": "der",
+   "pl": "die Fehler",
+   "forms": "",
+   "ipa": "[ˈfeːlɐ]",
+   "ru": "ошибка",
+   "pos": "noun"
+  },
+  {
+   "de": "fehlen",
+   "lemma": "fehlen",
+   "art": "",
+   "pl": "",
+   "forms": "fehlt",
+   "ipa": "[ˈfeːlən]",
+   "ru": "не хватать",
+   "pos": "verb"
+  },
+  {
+   "de": "das Café",
+   "lemma": "Café",
+   "art": "das",
+   "pl": "die Cafés",
+   "forms": "",
+   "ipa": "[kaˈfeː]",
+   "ru": "кафе",
+   "pos": "noun"
+  },
+  {
+   "de": "beide",
+   "lemma": "beide",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈbaɪ̯də]",
+   "ru": "оба, обе",
+   "pos": "adv"
+  },
+  {
+   "de": "das Abendessen",
+   "lemma": "Abendessen",
+   "art": "das",
+   "pl": "die Abendessen",
+   "forms": "",
+   "ipa": "[ˈaːbəntˌʔɛsən]",
+   "ru": "ужин",
+   "pos": "noun"
+  },
+  {
+   "de": "also",
+   "lemma": "also",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈalzo]",
+   "ru": "итак, значит",
+   "pos": "adv"
+  },
+  {
+   "de": "der Glühwein",
+   "lemma": "Glühwein",
+   "art": "der",
+   "pl": "die Glühweine",
+   "forms": "",
+   "ipa": "[ˈɡlyːˌvaɪ̯n]",
+   "ru": "глинтвейн",
+   "pos": "noun"
+  },
+  {
+   "de": "glühen",
+   "lemma": "glühen",
+   "art": "",
+   "pl": "",
+   "forms": "glüht, hat geglüht",
+   "ipa": "[ˈɡlyːən]",
+   "ru": "раскаляться, пылать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Schnaps",
+   "lemma": "Schnaps",
+   "art": "der",
+   "pl": "die Schnäpse",
+   "forms": "",
+   "ipa": "[ʃnaps]",
+   "ru": "шнапс, водка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Schnitzel",
+   "lemma": "Schnitzel",
+   "art": "das",
+   "pl": "die Schnitzel",
+   "forms": "",
+   "ipa": "[ˈʃnɪtsəl]",
+   "ru": "шницель",
+   "pos": "noun"
+  },
+  {
+   "de": "das Huhn",
+   "lemma": "Huhn",
+   "art": "das",
+   "pl": "die Hühner",
+   "forms": "",
+   "ipa": "[huːn]",
+   "ru": "курица",
+   "pos": "noun"
+  },
+  {
+   "de": "jemand",
+   "lemma": "jemand",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈjeːmant]",
+   "ru": "кто-то",
+   "pos": "adv"
+  },
+  {
+   "de": "das Kompott",
+   "lemma": "Kompott",
+   "art": "das",
+   "pl": "die Kompotte",
+   "forms": "",
+   "ipa": "[kɔmˈpɔt]",
+   "ru": "десерт из варёных фруктов",
+   "pos": "noun"
+  },
+  {
+   "de": "das Menü",
+   "lemma": "Menü",
+   "art": "das",
+   "pl": "die Menüs",
+   "forms": "",
+   "ipa": "[meˈnyː]",
+   "ru": "комплексный обед",
+   "pos": "noun"
+  },
+  {
+   "de": "das Müsli",
+   "lemma": "Müsli",
+   "art": "das",
+   "pl": "die Müslis",
+   "forms": "",
+   "ipa": "[ˈmyːsli]",
+   "ru": "мюсли",
+   "pos": "noun"
+  },
+  {
+   "de": "der Orangensaft",
+   "lemma": "Orangensaft",
+   "art": "der",
+   "pl": "die Orangensäfte",
+   "forms": "",
+   "ipa": "[oˈʁãːʒənˌzaft]",
+   "ru": "апельсиновый сок",
+   "pos": "noun"
+  },
+  {
+   "de": "schlecht",
+   "lemma": "schlecht",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃlɛçt]",
+   "ru": "плохой, плохо",
+   "pos": "adj"
+  },
+  {
+   "de": "das Spanisch",
+   "lemma": "Spanisch",
+   "art": "das",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃpaːnɪʃ]",
+   "ru": "испанский язык",
+   "pos": "noun"
+  }
+ ]
+}

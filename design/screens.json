@@ -309,5 +309,17 @@
     "js": [
       "showIntro(findLesson('book-06-7'))"
     ]
+  },
+  {
+    "id": "39-book-read",
+    "js": [
+      "showIntro(findLesson('book-01-4'))"
+    ]
+  },
+  {
+    "id": "40-book-lesson-1",
+    "js": [
+      "showBookLesson(1)"
+    ]
   }
 ]
