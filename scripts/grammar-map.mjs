@@ -13,6 +13,9 @@ const modules = read("data/modules.json");
 const lessons = read("data/lessons.json");
 const status = read("build/status.json");
 const mdg = read("data/mein-deutsch-grammar.json");
+// Связь с книгой «От А до Ja» (14.11.2026): разделы книги по теме и оставленные конспекты с репетитором.
+const bookLink = read("data/book/grammar-link.json").link;
+const tutorNotes = read("data/book/tutor-notes.json").notes;
 
 // Разделы таблицы: несколько категорий схемы сводятся в одну строку.
 const CATS = [
@@ -66,6 +69,7 @@ const topics = tops
       kids: kids(g.id).map((k) => ({ ru: k.title_ru, rule: k.rule_ru ?? "", st: st.get(k.id)?.status ?? "new" })),
       rel: [...new Set((g.related ?? []).map(top).filter((r) => r && r !== g.id))],
       mods, stg: stagesFor(g.id),
+      bk: bookLink[g.id] ?? [], ...(tutorNotes[g.id] ? { kon: tutorNotes[g.id] } : {}),
     };
   });
 
