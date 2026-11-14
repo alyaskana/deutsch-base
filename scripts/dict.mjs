@@ -5,7 +5,7 @@
 // Формат слова: [лемма, артикль, мн.ч., перевод, часть речи, темы, статус, пример, формы, откуда, уровень]
 //   темы — буквы из TOPICS ("a".."n"); статус: "s" сложно, "l" было трудным, "" — нет;
 //   откуда: "" — с уроков, "c" — общий список A1–A2; уровень: "A1" | "A2" | "".
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -86,6 +86,37 @@ for (const [k, c] of cat) {
   added++;
 }
 
-const out = { v: 2, at: new Date().toISOString().slice(0, 16) + "Z", topics: TOPICS.map(([k, n, color, shape]) => [L[TOPICS.findIndex((x) => x[0] === k)], n, color, shape]), d };
+// 3. Словарь уроков книги «Немецкий от А до Ja!» (data/book/vocab/NN.json): своя тема-плитка на каждый урок.
+//    Ключ темы — один символ вне a–z (U+0100 + номер урока), чтобы e.t.includes(k) не пересекался с обычными темами.
+//    Слово, которое уже есть в словаре, получает тему урока; новое добавляется с откуда = "b".
+const bookTopics = [];
+const vdir = join(root, "data/book/vocab");
+const rowKey = (r) => fold((r[1] ? r[1] + " " : "") + r[0]);
+const byKey = new Map(d.map((r) => [rowKey(r), r]));
+for (const f of (existsSync(vdir) ? readdirSync(vdir) : []).filter((x) => /^\d+\.json$/.test(x)).sort()) {
+  const { l, words: bw } = JSON.parse(readFileSync(join(vdir, f), "utf8"));
+  const tk = String.fromCodePoint(0x100 + l);
+  bookTopics.push([tk, `Книга · урок ${l}`, "#7444E6", "square"]);
+  const lvl = l <= 10 ? "A1" : l <= 20 ? "A2" : l <= 30 ? "B1" : "";
+  for (const w of bw) {
+    const k = fold(w.de);
+    const r = byKey.get(k);
+    if (r) {
+      while (r.length < 6) r.push("");
+      if (!r[5].includes(tk)) r[5] += tk;
+      if (!r[3] && w.ru) r[3] = w.ru;
+      if (!r[2] && /^die \S+$/.test(w.pl || "")) r[2] = w.pl.slice(4);
+      continue;
+    }
+    const pl = /^die \S+$/.test(w.pl || "") && w.pl !== w.de ? w.pl.slice(4) : "";
+    const fm = w.art ? "" : w.pos === "verb" && w.forms ? "er " + w.forms.replace(", ", " · ") : w.forms || "";
+    const row = trim([w.lemma, w.art, pl, w.ru, w.pos || "", tk + (w.pos === "verb" ? T.verbs : ""), "", "", fm, "b", lvl]);
+    d.push(row);
+    byKey.set(k, row);
+  }
+}
+
+const out = { v: 2, at: new Date().toISOString().slice(0, 16) + "Z", topics: TOPICS.map(([k, n, color, shape]) => [L[TOPICS.findIndex((x) => x[0] === k)], n, color, shape]).concat(bookTopics), d };
 writeFileSync(join(root, "build/dict.json"), JSON.stringify(out));
-console.log(`build/dict.json: ${d.length} слов (${d.length - added} с уроков, ${added} из общего списка A1–A2), ${Math.round(JSON.stringify(out).length / 1024)} КБ`);
+const fromBook = d.filter((r) => r[9] === "b").length;
+console.log(`build/dict.json: ${d.length} слов (${d.length - added - fromBook} с уроков, ${added} из общего списка A1–A2, ${fromBook} из книги), ${Math.round(JSON.stringify(out).length / 1024)} КБ`);

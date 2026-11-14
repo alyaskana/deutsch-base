@@ -1,0 +1,575 @@
+{
+ "l": 6,
+ "words": [
+  {
+   "de": "der Markt",
+   "lemma": "Markt",
+   "art": "der",
+   "pl": "die Märkte",
+   "forms": "",
+   "ipa": "[maʁkt]",
+   "ru": "рынок",
+   "pos": "noun"
+  },
+  {
+   "de": "die Lebensmittel",
+   "lemma": "Lebensmittel",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно во множественном числе",
+   "ipa": "[ˈleːbənsˌmɪtəl]",
+   "ru": "продукты питания",
+   "pos": "noun"
+  },
+  {
+   "de": "das Obst",
+   "lemma": "Obst",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[oːpst]",
+   "ru": "фрукты",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gemüse",
+   "lemma": "Gemüse",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ɡəˈmyːzə]",
+   "ru": "овощи",
+   "pos": "noun"
+  },
+  {
+   "de": "der Apfel",
+   "lemma": "Apfel",
+   "art": "der",
+   "pl": "die Äpfel",
+   "forms": "",
+   "ipa": "[ˈapfəl]",
+   "ru": "яблоко",
+   "pos": "noun"
+  },
+  {
+   "de": "die Birne",
+   "lemma": "Birne",
+   "art": "die",
+   "pl": "die Birnen",
+   "forms": "",
+   "ipa": "[ˈbɪʁnə]",
+   "ru": "груша",
+   "pos": "noun"
+  },
+  {
+   "de": "die Banane",
+   "lemma": "Banane",
+   "art": "die",
+   "pl": "die Bananen",
+   "forms": "",
+   "ipa": "[baˈnaːnə]",
+   "ru": "банан",
+   "pos": "noun"
+  },
+  {
+   "de": "die Tomate",
+   "lemma": "Tomate",
+   "art": "die",
+   "pl": "die Tomaten",
+   "forms": "",
+   "ipa": "[toˈmaːtə]",
+   "ru": "помидор",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kartoffel",
+   "lemma": "Kartoffel",
+   "art": "die",
+   "pl": "die Kartoffeln",
+   "forms": "",
+   "ipa": "[kaʁˈtɔfəl]",
+   "ru": "картофель",
+   "pos": "noun"
+  },
+  {
+   "de": "das Fleisch",
+   "lemma": "Fleisch",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[flaɪ̯ʃ]",
+   "ru": "мясо",
+   "pos": "noun"
+  },
+  {
+   "de": "das Hähnchen",
+   "lemma": "Hähnchen",
+   "art": "das",
+   "pl": "die Hähnchen",
+   "forms": "",
+   "ipa": "[ˈhɛːnçən]",
+   "ru": "курица (еда)",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schinken",
+   "lemma": "Schinken",
+   "art": "der",
+   "pl": "die Schinken",
+   "forms": "",
+   "ipa": "[ˈʃɪŋkən]",
+   "ru": "ветчина",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fisch",
+   "lemma": "Fisch",
+   "art": "der",
+   "pl": "die Fische",
+   "forms": "",
+   "ipa": "[fɪʃ]",
+   "ru": "рыба",
+   "pos": "noun"
+  },
+  {
+   "de": "der Käse",
+   "lemma": "Käse",
+   "art": "der",
+   "pl": "die Käse (сорта)",
+   "forms": "",
+   "ipa": "[ˈkɛːzə]",
+   "ru": "сыр",
+   "pos": "noun"
+  },
+  {
+   "de": "das Ei",
+   "lemma": "Ei",
+   "art": "das",
+   "pl": "die Eier",
+   "forms": "",
+   "ipa": "[aɪ̯]",
+   "ru": "яйцо",
+   "pos": "noun"
+  },
+  {
+   "de": "die Milch",
+   "lemma": "Milch",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[mɪlç]",
+   "ru": "молоко",
+   "pos": "noun"
+  },
+  {
+   "de": "die Butter",
+   "lemma": "Butter",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈbʊtɐ]",
+   "ru": "сливочное масло",
+   "pos": "noun"
+  },
+  {
+   "de": "der Reis",
+   "lemma": "Reis",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ʁaɪ̯s]",
+   "ru": "рис",
+   "pos": "noun"
+  },
+  {
+   "de": "das Salz",
+   "lemma": "Salz",
+   "art": "das",
+   "pl": "die Salze (виды)",
+   "forms": "",
+   "ipa": "[zalts]",
+   "ru": "соль",
+   "pos": "noun"
+  },
+  {
+   "de": "das Öl",
+   "lemma": "Öl",
+   "art": "das",
+   "pl": "die Öle",
+   "forms": "",
+   "ipa": "[øːl]",
+   "ru": "растительное масло",
+   "pos": "noun"
+  },
+  {
+   "de": "das Kilo",
+   "lemma": "Kilo",
+   "art": "das",
+   "pl": "die Kilo, die Kilos; после чисел: zwei Kilo",
+   "forms": "",
+   "ipa": "[ˈkiːlo]",
+   "ru": "килограмм",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gramm",
+   "lemma": "Gramm",
+   "art": "das",
+   "pl": "после чисел: zweihundert Gramm",
+   "forms": "",
+   "ipa": "[ɡʁam]",
+   "ru": "грамм",
+   "pos": "noun"
+  },
+  {
+   "de": "der Verkäufer",
+   "lemma": "Verkäufer",
+   "art": "der",
+   "pl": "die Verkäufer",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈkɔʏ̯fɐ]",
+   "ru": "продавец",
+   "pos": "noun"
+  },
+  {
+   "de": "die Verkäuferin",
+   "lemma": "Verkäuferin",
+   "art": "die",
+   "pl": "die Verkäuferinnen",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈkɔʏ̯fəʁɪn]",
+   "ru": "продавщица",
+   "pos": "noun"
+  },
+  {
+   "de": "der Kunde",
+   "lemma": "Kunde",
+   "art": "der",
+   "pl": "die Kunden; Akkusativ: den Kunden",
+   "forms": "",
+   "ipa": "[ˈkʊndə]",
+   "ru": "покупатель",
+   "pos": "noun"
+  },
+  {
+   "de": "der Laden",
+   "lemma": "Laden",
+   "art": "der",
+   "pl": "die Läden",
+   "forms": "",
+   "ipa": "[ˈlaːdən]",
+   "ru": "лавка, магазин",
+   "pos": "noun"
+  },
+  {
+   "de": "das Geschäft",
+   "lemma": "Geschäft",
+   "art": "das",
+   "pl": "die Geschäfte",
+   "forms": "",
+   "ipa": "[ɡəˈʃɛft]",
+   "ru": "магазин",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ecke",
+   "lemma": "Ecke",
+   "art": "die",
+   "pl": "die Ecken",
+   "forms": "",
+   "ipa": "[ˈɛkə]",
+   "ru": "угол",
+   "pos": "noun"
+  },
+  {
+   "de": "der Kiosk",
+   "lemma": "Kiosk",
+   "art": "der",
+   "pl": "die Kioske",
+   "forms": "",
+   "ipa": "[ˈkiːɔsk]",
+   "ru": "киоск",
+   "pos": "noun"
+  },
+  {
+   "de": "verkaufen",
+   "lemma": "verkaufen",
+   "art": "",
+   "pl": "",
+   "forms": "verkauft",
+   "ipa": "[fɛɐ̯ˈkaʊ̯fən]",
+   "ru": "продавать",
+   "pos": "verb"
+  },
+  {
+   "de": "suchen",
+   "lemma": "suchen",
+   "art": "",
+   "pl": "",
+   "forms": "sucht",
+   "ipa": "[ˈzuːxən]",
+   "ru": "искать",
+   "pos": "verb"
+  },
+  {
+   "de": "bekommen",
+   "lemma": "bekommen",
+   "art": "",
+   "pl": "",
+   "forms": "bekommt, hat bekommen",
+   "ipa": "[bəˈkɔmən]",
+   "ru": "получать",
+   "pos": "verb"
+  },
+  {
+   "de": "riechen",
+   "lemma": "riechen",
+   "art": "",
+   "pl": "",
+   "forms": "riecht, hat gerochen",
+   "ipa": "[ˈʁiːçən]",
+   "ru": "пахнуть, чувствовать запах",
+   "pos": "verb"
+  },
+  {
+   "de": "holen",
+   "lemma": "holen",
+   "art": "",
+   "pl": "",
+   "forms": "holt",
+   "ipa": "[ˈhoːlən]",
+   "ru": "сходить за",
+   "pos": "verb"
+  },
+  {
+   "de": "frisch",
+   "lemma": "frisch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fʁɪʃ]",
+   "ru": "свежий",
+   "pos": "adj"
+  },
+  {
+   "de": "für",
+   "lemma": "für",
+   "art": "",
+   "pl": "",
+   "forms": "+ Akkusativ",
+   "ipa": "[fyːɐ̯]",
+   "ru": "для, за",
+   "pos": "prep"
+  },
+  {
+   "de": "ohne",
+   "lemma": "ohne",
+   "art": "",
+   "pl": "",
+   "forms": "+ Akkusativ",
+   "ipa": "[ˈoːnə]",
+   "ru": "без",
+   "pos": "prep"
+  },
+  {
+   "de": "durch",
+   "lemma": "durch",
+   "art": "",
+   "pl": "",
+   "forms": "+ Akkusativ",
+   "ipa": "[dʊʁç]",
+   "ru": "через, сквозь",
+   "pos": "prep"
+  },
+  {
+   "de": "gegen",
+   "lemma": "gegen",
+   "art": "",
+   "pl": "",
+   "forms": "+ Akkusativ",
+   "ipa": "[ˈɡeːɡən]",
+   "ru": "против",
+   "pos": "prep"
+  },
+  {
+   "de": "um",
+   "lemma": "um",
+   "art": "",
+   "pl": "",
+   "forms": "+ Akkusativ",
+   "ipa": "[ʊm]",
+   "ru": "вокруг, за (угол)",
+   "pos": "prep"
+  },
+  {
+   "de": "kein",
+   "lemma": "kein",
+   "art": "",
+   "pl": "",
+   "forms": "Akkusativ: keinen, keine, kein; Plural: keine",
+   "ipa": "[kaɪ̯n]",
+   "ru": "никакой, не",
+   "pos": "pron"
+  },
+  {
+   "de": "mich",
+   "lemma": "mich",
+   "art": "",
+   "pl": "",
+   "forms": "Akkusativ от ich",
+   "ipa": "[mɪç]",
+   "ru": "меня",
+   "pos": "pron"
+  },
+  {
+   "de": "dich",
+   "lemma": "dich",
+   "art": "",
+   "pl": "",
+   "forms": "Akkusativ от du",
+   "ipa": "[dɪç]",
+   "ru": "тебя",
+   "pos": "pron"
+  },
+  {
+   "de": "ihn",
+   "lemma": "ihn",
+   "art": "",
+   "pl": "",
+   "forms": "Akkusativ от er",
+   "ipa": "[iːn]",
+   "ru": "его (м. р.)",
+   "pos": "pron"
+  },
+  {
+   "de": "uns",
+   "lemma": "uns",
+   "art": "",
+   "pl": "",
+   "forms": "Akkusativ от wir",
+   "ipa": "[ʊns]",
+   "ru": "нас",
+   "pos": "pron"
+  },
+  {
+   "de": "euch",
+   "lemma": "euch",
+   "art": "",
+   "pl": "",
+   "forms": "Akkusativ от ihr",
+   "ipa": "[ɔʏ̯ç]",
+   "ru": "вас (нескольких, с кем вы на «ты»)",
+   "pos": "pron"
+  },
+  {
+   "de": "der Blumenkohl",
+   "lemma": "Blumenkohl",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈbluːmənˌkoːl]",
+   "ru": "цветная капуста",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fahrstuhl",
+   "lemma": "Fahrstuhl",
+   "art": "der",
+   "pl": "die Fahrstühle",
+   "forms": "",
+   "ipa": "[ˈfaːɐ̯ʃtuːl]",
+   "ru": "лифт",
+   "pos": "noun"
+  },
+  {
+   "de": "ich hätte gern",
+   "lemma": "ich hätte gern",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɪç ˈhɛtə ˈɡɛʁn]",
+   "ru": "мне, пожалуйста",
+   "pos": "phrase"
+  },
+  {
+   "de": "ich möchte",
+   "lemma": "ich möchte",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɪç ˈmœçtə]",
+   "ru": "я бы хотел(а)",
+   "pos": "phrase"
+  },
+  {
+   "de": "der Jahrmarkt",
+   "lemma": "Jahrmarkt",
+   "art": "der",
+   "pl": "die Jahrmärkte",
+   "forms": "",
+   "ipa": "[ˈjaːɐ̯maʁkt]",
+   "ru": "ярмарка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Karotte",
+   "lemma": "Karotte",
+   "art": "die",
+   "pl": "die Karotten",
+   "forms": "",
+   "ipa": "[kaˈʁɔtə]",
+   "ru": "морковь",
+   "pos": "noun"
+  },
+  {
+   "de": "die Paprika",
+   "lemma": "Paprika",
+   "art": "die",
+   "pl": "die Paprikas",
+   "forms": "",
+   "ipa": "[ˈpapʁika]",
+   "ru": "сладкий перец",
+   "pos": "noun"
+  },
+  {
+   "de": "das Pfund",
+   "lemma": "Pfund",
+   "art": "das",
+   "pl": "die Pfunde (после чисел: Pfund)",
+   "forms": "",
+   "ipa": "[pfʊnt]",
+   "ru": "фунт (полкило)",
+   "pos": "noun"
+  },
+  {
+   "de": "das Produkt",
+   "lemma": "Produkt",
+   "art": "das",
+   "pl": "die Produkte",
+   "forms": "",
+   "ipa": "[pʁoˈdʊkt]",
+   "ru": "продукт, товар",
+   "pos": "noun"
+  },
+  {
+   "de": "der Speck",
+   "lemma": "Speck",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ʃpɛk]",
+   "ru": "сало, бекон",
+   "pos": "noun"
+  },
+  {
+   "de": "die Tüte",
+   "lemma": "Tüte",
+   "art": "die",
+   "pl": "die Tüten",
+   "forms": "",
+   "ipa": "[ˈtyːtə]",
+   "ru": "пакет",
+   "pos": "noun"
+  }
+ ]
+}
