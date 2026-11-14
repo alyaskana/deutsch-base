@@ -178,12 +178,12 @@
      "n": "<b>Wehtun</b> сочетается с Dativ и без отдельно названной части тела."
     },
     {
-     "s": "Ich stelle mir die Party vor.",
-     "ru": "Ich stelle ___ vor. (Я представляюсь); сравните",
+     "s": "Ich stelle ___ vor.",
+     "ru": "Я представляюсь. Сравните: Ich stelle mir die Party vor — я представляю себе вечеринку.",
      "a": [
       "mich"
      ],
-     "hint": "Я представляю себе вечеринку.",
+     "hint": "sich vorstellen",
      "n": "Представляюсь сам: Akkusativ. В готовой фразе о воображении <b>die Party</b> в Akkusativ, поэтому <b>mir</b>."
     }
    ],
