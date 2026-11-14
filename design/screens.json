@@ -339,5 +339,29 @@
     "js": [
       "showVocab()"
     ]
+  },
+  {
+    "id": "44-grammar-tab",
+    "js": [
+      "showBook()"
+    ]
+  },
+  {
+    "id": "45-sec-12-1",
+    "js": [
+      "bkGo('12.1')"
+    ]
+  },
+  {
+    "id": "46-sec-7-1",
+    "js": [
+      "bkGo('7.1')"
+    ]
+  },
+  {
+    "id": "47-lessons",
+    "js": [
+      "showLessons()"
+    ]
   }
 ]

@@ -1,0 +1,620 @@
+{
+ "_": "Конспекты с репетитором, оставленные Алиной 14.11.2026. Части привязаны к разделам книги (bk), alias — как это называет Егор.",
+ "notes": {
+  "possessive-pronouns": [
+   {
+    "ex": [
+     [
+      "ich mein · du dein · er/es sein · sie ihr",
+      "wir unser · ihr euer · sie/Sie ihr/Ihr"
+     ],
+     [
+      "Er sucht <b>seinen</b> Schlüssel.",
+      "der Schlüssel, Akk → seinen"
+     ]
+    ],
+    "p": [
+     "Сначала выбери слово по владельцу (ich → mein, er → sein, sie → ihr…).",
+     "Потом окончание — как у <b>ein/eine</b>: смотри на род и падеж <b>вещи</b>, а не владельца."
+    ],
+    "t": "Притяжательные в падежах",
+    "tab": [
+     [
+      "",
+      "м. р.",
+      "ж. р.",
+      "ср. р.",
+      "мн. ч."
+     ],
+     [
+      "Nom",
+      "mein",
+      "meine",
+      "mein",
+      "meine"
+     ],
+     [
+      "Akk",
+      "mein<b>en</b>",
+      "meine",
+      "mein",
+      "meine"
+     ],
+     [
+      "Dat",
+      "mein<b>em</b>",
+      "mein<b>er</b>",
+      "mein<b>em</b>",
+      "mein<b>en</b>"
+     ]
+    ],
+    "bk": [
+     "12.1"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "ich mein · du dein · er/es sein · sie ihr",
+      "wir unser · ihr euer · sie ihr · Sie Ihr"
+     ],
+     [
+      "Tom sucht <b>seine</b> Tasche.",
+      "Пример: свою = его (Tom) → seine"
+     ]
+    ],
+    "p": [
+     "Русское <b>свой</b> по-немецки всегда меняется по тому, <b>чьё</b>: его → <b>sein</b>, её → <b>ihr</b>, их → <b>ihr</b>, наш → <b>unser</b>.",
+     "Окончание в этом шаге у всех вариантов одинаковое, думай только о владельце."
+    ],
+    "t": "Чьё: по владельцу",
+    "bk": [
+     "12.2",
+     "12.4"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "die Schwester → <b>meine</b> Schwester",
+      "Пример: женский род → -e"
+     ],
+     [
+      "die Ferien → <b>meine</b> Ferien",
+      "мн. ч. → -e"
+     ]
+    ],
+    "p": [
+     "Окончание смотрим по <b>вещи</b>, а не по владельцу.",
+     "В Nominativ <b>-e</b> только у женского рода и у множественного. Мужской и средний род — без окончания."
+    ],
+    "t": "Окончание -e",
+    "tab": [
+     [
+      "",
+      "м. р.",
+      "ж. р.",
+      "ср. р.",
+      "мн. ч."
+     ],
+     [
+      "Nom",
+      "mein",
+      "mein<b>e</b>",
+      "mein",
+      "mein<b>e</b>"
+     ]
+    ],
+    "bk": [
+     "12.1"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "der Kaffee → Ich trinke <b>meinen</b> Kaffee.",
+      "Пример: м. р. → meinen"
+     ],
+     [
+      "die Tasse → Ich nehme <b>meine</b> Tasse.",
+      "ж. р. → как в Nom"
+     ]
+    ],
+    "p": [
+     "В Akkusativ меняется только мужской род: mein → mein<b>en</b>.",
+     "Женский, средний и мн. ч. остаются как в Nominativ: meine, mein, meine."
+    ],
+    "t": "Akkusativ: только он",
+    "tab": [
+     [
+      "",
+      "м. р.",
+      "ж. р.",
+      "ср. р.",
+      "мн. ч."
+     ],
+     [
+      "Nom",
+      "mein",
+      "meine",
+      "mein",
+      "meine"
+     ],
+     [
+      "Akk",
+      "mein<b>en</b>",
+      "meine",
+      "mein",
+      "meine"
+     ]
+    ],
+    "bk": [
+     "12.1",
+     "6.4"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "Er hilft <b>seiner</b> Schwester.",
+      "Пример: helfen + Dat, die Schwester → seiner"
+     ],
+     [
+      "Sie fährt mit <b>ihrem</b> Bruder.",
+      "mit + Dat, der Bruder → ihrem"
+     ]
+    ],
+    "p": [
+     "В Dativ окончание есть всегда: м. р. и ср. р. → <b>-em</b>, ж. р. → <b>-er</b>, мн. ч. → <b>-en</b>.",
+     "Это те же окончания, что у артикля: dem → mein<b>em</b>, der → mein<b>er</b>, den → mein<b>en</b>."
+    ],
+    "t": "Притяжательные: Dativ",
+    "tab": [
+     [
+      "",
+      "м. р.",
+      "ж. р.",
+      "ср. р.",
+      "мн. ч."
+     ],
+     [
+      "Nom",
+      "mein",
+      "mein<b>e</b>",
+      "mein",
+      "mein<b>e</b>"
+     ],
+     [
+      "Akk",
+      "mein<b>en</b>",
+      "mein<b>e</b>",
+      "mein",
+      "mein<b>e</b>"
+     ],
+     [
+      "Dat",
+      "mein<b>em</b>",
+      "mein<b>er</b>",
+      "mein<b>em</b>",
+      "mein<b>en</b>"
+     ]
+    ],
+    "bk": [
+     "12.1",
+     "11.2"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "ich mein · du dein · er/es sein · sie ihr",
+      "wir unser · ihr euer · sie ihr · Sie Ihr"
+     ],
+     [
+      "Wir danken <b>unserer</b> Lehrerin.",
+      "Пример: danken → Dat, die Lehrerin → unserer"
+     ]
+    ],
+    "p": [
+     "1) Чьё? → mein, sein, ihr, unser…",
+     "2) Какой падеж? Глагол или предлог (in/auf: где? → Dat, куда? → Akk).",
+     "3) Окончание по роду вещи — по таблице."
+    ],
+    "t": "Притяжательные: все падежи",
+    "tab": [
+     [
+      "",
+      "м. р.",
+      "ж. р.",
+      "ср. р.",
+      "мн. ч."
+     ],
+     [
+      "Nom",
+      "mein",
+      "mein<b>e</b>",
+      "mein",
+      "mein<b>e</b>"
+     ],
+     [
+      "Akk",
+      "mein<b>en</b>",
+      "mein<b>e</b>",
+      "mein",
+      "mein<b>e</b>"
+     ],
+     [
+      "Dat",
+      "mein<b>em</b>",
+      "mein<b>er</b>",
+      "mein<b>em</b>",
+      "mein<b>en</b>"
+     ]
+    ],
+    "bk": [
+     "12.1",
+     "12.3"
+    ]
+   }
+  ],
+  "case-choice": [
+   {
+    "ex": [
+     [
+      "Das ist <b>mein</b> Tee.",
+      "Пример: что это? → Nom"
+     ],
+     [
+      "Ich trinke <b>meinen</b> Tee.",
+      "пью что? → Akk, der Tee → meinen"
+     ]
+    ],
+    "p": [
+     "Кто? Что? (подлежащее; das ist …) → <b>Nominativ</b>.",
+     "Кого? Что? (дополнение: machen, trinken, suchen …) → <b>Akkusativ</b>.",
+     "В Akkusativ меняется только мужской род: mein → mein<b>en</b>."
+    ],
+    "t": "Nominativ или Akkusativ",
+    "bk": [
+     "6.3",
+     "6.4"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "Er hilft <b>seinem</b> Bruder.",
+      "Пример: helfen → Dativ"
+     ],
+     [
+      "Er besucht <b>seinen</b> Bruder.",
+      "besuchen → Akkusativ"
+     ]
+    ],
+    "p": [
+     "<b>Dativ</b>: helfen, danken, schenken (кому), mit, bei, aus, zu, а также in/auf, когда <b>где?</b>",
+     "<b>Akkusativ</b>: besuchen, fragen, anrufen, für, ohne, а также in/auf, когда <b>куда?</b>",
+     "Осторожно: <b>anrufen</b> — Akkusativ (а по-русски «звонить кому»), <b>danken</b> — Dativ (а по-русски «благодарить кого»)."
+    ],
+    "t": "Что решает падеж",
+    "bk": [
+     "6.3",
+     "11.1",
+     "15.2"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "Ich schenke <b>meiner</b> Mutter <b>einen</b> Becher.",
+      "Я дарю маме кружку."
+     ]
+    ],
+    "p": [
+     "У глаголов <b>schenken, geben, zeigen</b> два дополнения: <b>кому?</b> → Dativ, <b>что?</b> → Akkusativ.",
+     "Кто делает действие (подлежащее) → <b>Nominativ</b>.",
+     "Обычно сначала идёт Dativ (кому), потом Akkusativ (что)."
+    ],
+    "t": "Кто, что, кому",
+    "tab": [
+     [
+      "",
+      "Пример"
+     ],
+     [
+      "Nom (кто?)",
+      "<b>Ich</b> schenke …"
+     ],
+     [
+      "Dat (кому?)",
+      "… <b>meinem Bruder</b> …"
+     ],
+     [
+      "Akk (что?)",
+      "… <b>eine Schüssel</b>."
+     ]
+    ],
+    "bk": [
+     "11.1",
+     "11.6"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "Er <b>hat</b> seiner Freundin Blumen <b>geschenkt</b>.",
+      "Он подарил своей девушке цветы."
+     ]
+    ],
+    "p": [
+     "<b>Кому</b> дарю → Dativ: meinem Vater, meiner Mutter, meinen Freunden.",
+     "<b>Что</b> дарю → Akkusativ: einen Becher, eine Schüssel, ein Buch.",
+     "Perfekt: Ich <b>habe</b> … <b>geschenkt</b>."
+    ],
+    "t": "schenken + Dat + Akk",
+    "tab": [
+     [
+      "",
+      "Пример"
+     ],
+     [
+      "Präsens",
+      "Ich schenke meiner Oma eine Vase."
+     ],
+     [
+      "Perfekt",
+      "Ich habe meiner Oma eine Vase geschenkt."
+     ]
+    ],
+    "bk": [
+     "11.6"
+    ]
+   }
+  ],
+  "prepositions-by-case": [
+   {
+    "t": "Все предлоги по падежам",
+    "p": [
+     "Сводка по книге: в каких уроках какой падеж выбирает сам предлог. Двойные предлоги смотрят на вопрос: <b>где?</b> → Dativ, <b>куда?</b> → Akkusativ."
+    ],
+    "tab": [
+     [
+      "Падеж",
+      "Предлоги",
+      "В книге"
+     ],
+     [
+      "Akkusativ",
+      "für, ohne, durch, gegen, um",
+      "6.7"
+     ],
+     [
+      "Dativ",
+      "mit, nach, aus, zu, von, bei, seit, gegenüber",
+      "11.7, 14.5"
+     ],
+     [
+      "где? Dat / куда? Akk",
+      "in, an, auf, über, unter, vor, hinter, neben, zwischen",
+      "15.1, 15.2"
+     ],
+     [
+      "Genitiv",
+      "wegen, trotz, während, statt",
+      "24.5"
+     ]
+    ],
+    "bk": [
+     "6.7",
+     "11.7",
+     "14.2",
+     "15.1",
+     "24.5"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "Ich komme gerade <b>aus dem</b> Supermarkt.",
+      "Я как раз иду из супермаркета."
+     ],
+     [
+      "Ich fahre <b>mit meinem</b> Roller.",
+      "Я еду на своём самокате."
+     ]
+    ],
+    "p": [
+     "<b>mit, nach, aus, zu, von, bei, seit</b> — всегда Dativ, даже когда есть движение: aus dem Büro.",
+     "<b>auf, in, an</b> — двусторонние: где? → Dativ, куда? → Akkusativ.",
+     "Притяжательные в Dativ: м. и ср. р. — mein<b>em</b>, ж. р. — mein<b>er</b>, мн. ч. — mein<b>en</b>."
+    ],
+    "t": "Предлоги с Dativ",
+    "tab": [
+     [
+      "",
+      "der",
+      "die",
+      "das"
+     ],
+     [
+      "Dat",
+      "dem / meinem",
+      "der / meiner",
+      "dem / meinem"
+     ]
+    ],
+    "bk": [
+     "11.7",
+     "15.2"
+    ]
+   }
+  ],
+  "word-order": [
+   {
+    "p": [
+     "Если фраза начинается не с <b>ich</b>, а со слова времени (<b>als Erstes, dann, danach, um sieben, abends</b>), глагол всё равно стоит <b>вторым</b>.",
+     "Подлежащее <b>ich</b> уходит сразу за глагол."
+    ],
+    "t": "Глагол на 2-м месте",
+    "tab": [
+     [
+      "1",
+      "2",
+      "3",
+      ""
+     ],
+     [
+      "Ich",
+      "schaue",
+      "als Erstes",
+      "aufs Handy."
+     ],
+     [
+      "Als Erstes",
+      "schaue",
+      "ich",
+      "aufs Handy."
+     ],
+     [
+      "Dann",
+      "gehe",
+      "ich",
+      "unter die Dusche."
+     ]
+    ],
+    "bk": [
+     "7.1",
+     "7.2"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "Ich bleibe zu Hause, <b>denn</b> ich <b>bin</b> müde.",
+      "…потому что я устала."
+     ],
+     [
+      "Ich bin müde, <b>deshalb bleibe</b> ich zu Hause.",
+      "…поэтому я остаюсь дома."
+     ]
+    ],
+    "p": [
+     "<b>aber, denn, und, sondern, oder</b> стоят на «нулевом» месте: после них прямой порядок, подлежащее и потом глагол.",
+     "<b>deshalb</b> (поэтому) занимает 1-е место сам — значит, глагол идёт сразу за ним.",
+     "<b>denn</b> — причина, <b>deshalb</b> — следствие. <b>sondern</b> — «а» только после nicht/kein."
+    ],
+    "t": "ADUSO и deshalb",
+    "tab": [
+     [
+      "0",
+      "1",
+      "2",
+      "…"
+     ],
+     [
+      "denn",
+      "ich",
+      "liebe",
+      "das Meer"
+     ],
+     [
+      "",
+      "deshalb",
+      "sind",
+      "wir ins Museum gegangen"
+     ]
+    ],
+    "bk": [
+     "7.4",
+     "18.1",
+     "18.5"
+    ],
+    "alias": "У Егора это «нулевое место» (7.4): aber, denn, und, sondern, oder не занимают место, deshalb занимает первое."
+   },
+   {
+    "ex": [
+     [
+      "Gestern <b>habe</b> ich viel <b>gearbeitet</b>.",
+      "Вчера я много работала."
+     ]
+    ],
+    "p": [
+     "Глагол-помощник (<b>haben/sein</b>) всегда на 2-м месте. <b>Partizip II</b> уходит в самый конец.",
+     "На 1-м месте может стоять не подлежащее, а время или место — тогда подлежащее идёт сразу после помощника."
+    ],
+    "t": "Порядок слов в Perfekt",
+    "tab": [
+     [
+      "1",
+      "2",
+      "…",
+      "конец"
+     ],
+     [
+      "Wir",
+      "sind",
+      "drei Tage",
+      "gesegelt"
+     ],
+     [
+      "Drei Tage",
+      "sind",
+      "wir",
+      "gesegelt"
+     ]
+    ],
+    "bk": [
+     "13.2",
+     "13.8"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "Um sieben <b>stehe</b> ich <b>auf</b>.",
+      "В семь я встаю."
+     ],
+     [
+      "Abends <b>schlafe</b> ich vor dem Fernseher <b>ein</b>.",
+      "Вечером я засыпаю перед телевизором."
+     ]
+    ],
+    "p": [
+     "В главном предложении отделяемая приставка (auf, an, aus, ein) уходит в самый конец.",
+     "Глагол остаётся на 2-м месте, даже если фраза начинается со слова времени."
+    ],
+    "t": "Приставка в конце",
+    "bk": [
+     "10.1"
+    ]
+   },
+   {
+    "ex": [
+     [
+      "Danach <b>setze ich mich</b> an den Schreibtisch.",
+      "После этого я сажусь за стол."
+     ]
+    ],
+    "p": [
+     "Глагол на 2-м месте, потом ich, потом sich: Dann <b>ziehe ich mich</b> an.",
+     "Отделяемая приставка всё равно в самом конце."
+    ],
+    "t": "sich в предложении",
+    "bk": [
+     "16.6"
+    ]
+   },
+   {
+    "p": [
+     "После <b>wie, warum, wann, was</b> внутри длинной фразы спрягаемый глагол уходит <b>в конец</b>.",
+     "Комик говорит «wie kann man über nichts denken». Правильно: wie man an nichts denken <b>kann</b>."
+    ],
+    "t": "Глагол в конце",
+    "bk": [
+     "18.3",
+     "27.1"
+    ]
+   }
+  ]
+ }
+}
