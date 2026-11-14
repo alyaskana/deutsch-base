@@ -1,7 +1,7 @@
 {
  "title": "Perfekt: второй инфинитив решает",
  "topic": "Книга · 30.8",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -81,5 +81,55 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "lassen в Perfekt",
+   "sub": "gelassen или lassen",
+   "items": [
+    {
+     "s": "Ich habe meine Uhr im Büro ___.",
+     "ru": "Я оставил часы в офисе.",
+     "o": [
+      "gelassen",
+      "lassen"
+     ],
+     "a": "gelassen",
+     "n": "Один глагол — <b>gelassen</b>."
+    },
+    {
+     "s": "Ich habe meine Uhr reparieren ___.",
+     "ru": "Я отдал часы в ремонт.",
+     "o": [
+      "lassen",
+      "gelassen"
+     ],
+     "a": "lassen",
+     "n": "С инфинитивом — <b>lassen</b>."
+    },
+    {
+     "s": "Sie hat sich die Haare schneiden ___.",
+     "ru": "Она подстриглась (в салоне).",
+     "o": [
+      "lassen",
+      "gelassen"
+     ],
+     "a": "lassen",
+     "n": "<b>schneiden lassen</b>."
+    },
+    {
+     "s": "Wir haben den Hund zu Hause ___.",
+     "ru": "Мы оставили собаку дома.",
+     "o": [
+      "gelassen",
+      "lassen"
+     ],
+     "a": "gelassen",
+     "n": "<b>gelassen</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

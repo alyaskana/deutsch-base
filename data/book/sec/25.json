@@ -1,0 +1,72 @@
+{
+"25.1": [
+ {"type":"choice","title":"Глагол + предлог","sub":"Учим вместе с падежом","items":[
+  {"s":"Ich warte ___ eine E-Mail.","ru":"Я жду письма.","o":["auf","für"],"a":"auf","n":"<b>warten auf</b> + Akk."},
+  {"s":"Sie interessiert sich ___ Kunst.","ru":"Она интересуется искусством.","o":["für","an"],"a":"für","n":"<b>sich interessieren für</b>."},
+  {"s":"Ich denke ___ dich.","ru":"Я думаю о тебе.","o":["an","über"],"a":"an","n":"<b>denken an</b> + Akk."},
+  {"s":"Wir sprechen ___ den Film.","ru":"Мы говорим о фильме.","o":["über","von"],"a":"über","n":"<b>sprechen über</b>."},
+  {"s":"Paul kümmert sich ___ die Katze.","ru":"Пауль заботится о кошке.","o":["um","für"],"a":"um","n":"<b>sich kümmern um</b>."},
+  {"s":"Ich träume ___ einem Haus.","ru":"Я мечтаю о доме.","o":["von","über"],"a":"von","n":"<b>träumen von</b> + Dat."}
+ ]}
+],
+"25.2": [
+ {"type":"choice","title":"Падеж после предлога","sub":"auf/über — обычно Akk; von/mit/zu — Dat","items":[
+  {"s":"Paul wartet auf ___ Bus.","ru":"Пауль ждёт автобус.","o":["den","dem"],"a":"den","n":"auf + Akk."},
+  {"s":"Ich habe Angst vor ___ Termin.","ru":"Я боюсь приёма.","o":["dem","den"],"a":"dem","n":"Angst vor + Dat."},
+  {"s":"Ich denke oft an ___ Kurs.","ru":"Я часто вспоминаю этот курс.","o":["diesen","diesem"],"a":"diesen","n":"denken an + Akk."},
+  {"s":"Ich nehme an ___ Kurs teil.","ru":"Я участвую в этом курсе.","o":["diesem","diesen"],"a":"diesem","n":"teilnehmen an + Dat."},
+  {"s":"Ich frage nach ___ Weg.","ru":"Я спрашиваю дорогу.","o":["dem","den"],"a":"dem","n":"nach + Dat."}
+ ]}
+],
+"25.3": [
+ {"type":"choice","title":"Переводим мысль","sub":"Русский предлог не подсказка","items":[
+  {"s":"Sie wartet ___ ihre Schwester.","ru":"Она ждёт сестру.","o":["auf","—"],"a":"auf","n":"«Ждать кого» — <b>warten auf</b>."},
+  {"s":"Lea antwortet ___ meine Frage.","ru":"Леа отвечает на мой вопрос.","o":["auf","an"],"a":"auf","n":"<b>antworten auf</b>."},
+  {"s":"Lea ___ meine Frage.","ru":"Леа отвечает на мой вопрос.","o":["beantwortet","antwortet"],"a":"beantwortet","n":"beantworten — без предлога."},
+  {"s":"Ich vermisse ___.","ru":"Я скучаю по тебе.","o":["dich","nach dir"],"a":"dich","n":"<b>vermissen</b> + Akk."},
+  {"s":"Ich stimme ___ zu.","ru":"Я согласна с тобой.","o":["dir","mit dir"],"a":"dir","n":"<b>zustimmen</b> + Dat."},
+  {"s":"Er hat Angst ___ Hunden.","ru":"Он боится собак.","o":["vor","von"],"a":"vor","n":"<b>Angst vor</b>."}
+ ]}
+],
+"25.4": [
+ {"type":"choice","title":"Разные предлоги — разный смысл","sub":"auf/über, denken an/nachdenken über, sorgen für/sich sorgen um","items":[
+  {"s":"Ich freue mich ___ das Konzert.","ru":"Я с радостью жду концерта.","o":["auf","über"],"a":"auf","n":"Будущее — <b>auf</b>."},
+  {"s":"Ich freue mich ___ das Geschenk.","ru":"Я рада подарку.","o":["über","auf"],"a":"über","n":"Уже есть — <b>über</b>."},
+  {"s":"Ich denke ___ das Angebot nach.","ru":"Я обдумываю предложение.","o":["über","an"],"a":"über","n":"<b>nachdenken über</b>."},
+  {"s":"Er sorgt ___ seine Mutter.","ru":"Он заботится о своей маме.","o":["für","um"],"a":"für","n":"<b>sorgen für</b>."},
+  {"s":"Er sorgt sich ___ seine Mutter.","ru":"Он беспокоится за маму.","o":["um","für"],"a":"um","n":"<b>sich sorgen um</b>."},
+  {"s":"Der Roman handelt ___ einer Familie.","ru":"Роман рассказывает об одной семье.","o":["von","um"],"a":"von","n":"<b>handeln von</b>."},
+  {"s":"Es geht ___ eine Familie.","ru":"Речь идёт об одной семье.","o":["um","von"],"a":"um","n":"<b>es geht um</b>."}
+ ]}
+],
+"25.5": [
+ {"type":"type","title":"Вопрос: вещь или человек","sub":"wo(r)- для вещей, предлог + wen/wem для людей","items":[
+  {"s":"___ wartest du? — Auf den Bus.","ru":"Чего ты ждёшь? — Автобуса.","a":["Worauf"],"hint":"auf + was","n":"Вещь — <b>worauf</b>."},
+  {"s":"Auf ___ wartest du? — Auf Lea.","ru":"Кого ты ждёшь? — Лею.","a":["wen"],"hint":"auf + кого","n":"Человек — <b>auf wen</b>."},
+  {"s":"___ interessierst du dich?","ru":"Чем ты интересуешься?","a":["Wofür"],"hint":"für + was","n":"<b>wofür</b>."},
+  {"s":"Mit ___ telefonierst du?","ru":"С кем ты говоришь по телефону?","a":["wem"],"hint":"mit + кем","n":"<b>mit wem</b>."},
+  {"s":"___ denkst du?","ru":"О чём ты думаешь?","a":["Woran"],"hint":"an + was","n":"<b>woran</b>."},
+  {"s":"Vor ___ hast du Angst?","ru":"Кого ты боишься?","a":["wem"],"hint":"vor + кем","n":"<b>vor wem</b>."}
+ ]}
+],
+"25.6": [
+ {"type":"type","title":"Короткий ответ","sub":"da(r)- для вещей, предлог + местоимение для людей","items":[
+  {"s":"Denkst du noch an unser Gespräch? Ja, ich denke ___.","ru":"Да, думаю об этом.","a":["daran"],"hint":"an + это","n":"<b>daran</b>."},
+  {"s":"Denkst du noch an Lea? Ja, ich denke an ___.","ru":"Да, думаю о ней.","a":["sie"],"hint":"an + она","n":"О человеке — <b>an sie</b>."},
+  {"s":"Ich freue mich ___, dass Lea wieder in Köln arbeitet.","ru":"Я рада, что Леа снова работает в Кёльне. (жду с радостью)","a":["darauf"],"hint":"auf + это","n":"<b>darauf, dass</b>."},
+  {"s":"Es hängt ___ ab, ob Paul Zeit hat.","ru":"Это зависит от того, есть ли у Пауля время.","a":["davon"],"hint":"von + это","n":"<b>davon ab</b>."},
+  {"s":"Hast du Angst vor dem Test? Ja, ich habe Angst ___.","ru":"Да, боюсь его.","a":["davor"],"hint":"vor + это","n":"<b>davor</b>."}
+ ]}
+],
+"25.7": [
+ {"type":"choice","title":"Прилагательные и существительные","sub":"Предлог часто как у глагола","items":[
+  {"s":"Ich bin stolz ___ meine Tochter.","ru":"Я горжусь дочерью.","o":["auf","über"],"a":"auf","n":"<b>stolz auf</b>."},
+  {"s":"Wir sind begeistert ___ dem Film.","ru":"Мы в восторге от фильма.","o":["von","über"],"a":"von","n":"<b>begeistert von</b>."},
+  {"s":"Lea ist für das Programm ___.","ru":"Леа отвечает за программу.","o":["verantwortlich","bereit"],"a":"verantwortlich","n":"<b>verantwortlich für</b>."},
+  {"s":"Jonas ist bereit ___ einem Kompromiss.","ru":"Йонас готов к компромиссу.","o":["zu","für"],"a":"zu","n":"<b>bereit zu</b>."},
+  {"s":"Ich habe Lust ___ Pizza.","ru":"Мне хочется пиццы.","o":["auf","für"],"a":"auf","n":"<b>Lust auf</b>."},
+  {"s":"Ich habe Zweifel ___ diesem Plan.","ru":"Я сомневаюсь в этом плане.","o":["an","über"],"a":"an","n":"<b>Zweifel an</b> + Dat."},
+  {"s":"Sie hat eine gute Beziehung ___ ihrer Schwester.","ru":"У неё хорошие отношения с сестрой.","o":["zu","mit"],"a":"zu","n":"<b>Beziehung zu</b>."}
+ ]}
+]
+}

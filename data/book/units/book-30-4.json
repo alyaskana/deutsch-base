@@ -1,7 +1,7 @@
 {
  "title": "Nicht: отрицаем поездку или её причину",
  "topic": "Книга · 30.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -86,5 +86,55 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Где стоит nicht",
+   "sub": "всё предложение или одна часть",
+   "items": [
+    {
+     "s": "Wir sind wegen des Nebels ___ auf den Hügel gestiegen.",
+     "ru": "Из-за тумана мы не поднялись на холм.",
+     "o": [
+      "nicht",
+      "kein"
+     ],
+     "a": "nicht",
+     "n": "Отрицаем всё действие: <b>nicht</b> перед местом и концом рамки."
+    },
+    {
+     "s": "Wir sind ___ wegen des Nebels zu Hause geblieben, sondern weil wir müde waren.",
+     "ru": "Мы остались дома не из-за тумана, а потому что устали.",
+     "o": [
+      "nicht",
+      "kein"
+     ],
+     "a": "nicht",
+     "n": "Отрицаем одну часть: <b>nicht</b> прямо перед ней, дальше <b>sondern</b>."
+    },
+    {
+     "s": "Ich komme heute ___.",
+     "ru": "Я сегодня не приду.",
+     "o": [
+      "nicht",
+      "kein"
+     ],
+     "a": "nicht",
+     "n": "<b>nicht</b> в конце."
+    },
+    {
+     "s": "Er arbeitet nicht am Montag, ___ am Dienstag.",
+     "ru": "Он работает не в понедельник, а во вторник.",
+     "o": [
+      "sondern",
+      "aber"
+     ],
+     "a": "sondern",
+     "n": "После отрицания — <b>sondern</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "Als, während, seit, bis: смотрим на границы",
  "topic": "Книга · 21.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -180,5 +180,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Als, während, seit, bis",
+   "sub": "Границы времени",
+   "items": [
+    {
+     "s": "___ Paul ein Kind war, wohnte er in Köln.",
+     "ru": "Когда Пауль был ребёнком, он жил в Кёльне.",
+     "o": [
+      "Als",
+      "Wenn"
+     ],
+     "a": "Als",
+     "n": "Один период в прошлом — <b>als</b>."
+    },
+    {
+     "s": "___ Alina erzählte, kochte Paul.",
+     "ru": "Пока Алина рассказывала, Пауль готовил.",
+     "o": [
+      "Während",
+      "Bis"
+     ],
+     "a": "Während",
+     "n": "Одновременно — <b>während</b>."
+    },
+    {
+     "s": "___ Paul hier wohnt, kocht er öfter.",
+     "ru": "С тех пор как Пауль здесь живёт, он чаще готовит.",
+     "o": [
+      "Seit",
+      "Als"
+     ],
+     "a": "Seit",
+     "n": "Отсчёт идёт — <b>seit</b>."
+    },
+    {
+     "s": "Lea wartete, ___ das Geschäft öffnete.",
+     "ru": "Леа ждала, пока магазин не открылся.",
+     "o": [
+      "bis",
+      "während"
+     ],
+     "a": "bis",
+     "n": "До события — <b>bis</b>."
+    },
+    {
+     "s": "Seit ich in Köln ___, bin ich glücklich.",
+     "ru": "С тех пор как живу в Кёльне, я счастлива.",
+     "o": [
+      "wohne",
+      "wohnte"
+     ],
+     "a": "wohne",
+     "n": "Продолжается — Präsens."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

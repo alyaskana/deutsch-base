@@ -1,7 +1,7 @@
 {
  "title": "Вежливое начало: тот же вопрос, другой собеседник",
  "topic": "Книга · 27.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -80,5 +80,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Вежливое начало",
+   "sub": "Könnten Sie mir sagen…? / Ich wüsste gern…",
+   "items": [
+    {
+     "ru": "Не могли бы вы сказать, сколько стоит тариф?",
+     "w": [
+      "Könnten",
+      "Sie",
+      "mir",
+      "sagen,",
+      "wie",
+      "viel",
+      "der",
+      "Tarif",
+      "kostet?"
+     ],
+     "ok": [
+      "Könnten Sie mir sagen, wie viel der Tarif kostet?"
+     ],
+     "n": "Вопрос по началу фразы."
+    },
+    {
+     "ru": "Хотелось бы узнать, сколько стоит тариф.",
+     "w": [
+      "Ich",
+      "wüsste",
+      "gern,",
+      "wie",
+      "viel",
+      "der",
+      "Tarif",
+      "kostet."
+     ],
+     "ok": [
+      "Ich wüsste gern, wie viel der Tarif kostet."
+     ],
+     "n": "Утверждение — точка."
+    },
+    {
+     "ru": "Вы не знаете, работает ли лифт?",
+     "w": [
+      "Wissen",
+      "Sie,",
+      "ob",
+      "der",
+      "Aufzug",
+      "funktioniert?"
+     ],
+     "ok": [
+      "Wissen Sie, ob der Aufzug funktioniert?"
+     ],
+     "n": "<b>ob</b> + глагол в конце."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "Nachdem и bevor: что случилось первым",
  "topic": "Книга · 21.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -148,5 +148,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Nachdem, bevor, nach",
+   "sub": "Что случилось первым",
+   "items": [
+    {
+     "s": "Nachdem Lea das Foto gemacht ___, schickte sie es Paul.",
+     "ru": "После того как Леа сделала фото, она отправила его Паулю.",
+     "o": [
+      "hatte",
+      "hat"
+     ],
+     "a": "hatte",
+     "n": "С nachdem о прошлом — Plusquamperfekt."
+    },
+    {
+     "s": "Nachdem ich gegessen habe, ___ ich weiter.",
+     "ru": "После того как поем, продолжу работать.",
+     "o": [
+      "arbeite",
+      "arbeitete"
+     ],
+     "a": "arbeite",
+     "n": "Perfekt + Präsens."
+    },
+    {
+     "s": "___ Jonas die Wohnung mietete, sprach er mit der Vermieterin.",
+     "ru": "Прежде чем снять квартиру, Йонас поговорил с хозяйкой.",
+     "o": [
+      "Bevor",
+      "Nachdem"
+     ],
+     "a": "Bevor",
+     "n": "<b>bevor</b> — прежде чем."
+    },
+    {
+     "s": "___ dem Studium ging sie nach Berlin.",
+     "ru": "После учёбы она уехала в Берлин.",
+     "o": [
+      "Nach",
+      "Nachdem"
+     ],
+     "a": "Nach",
+     "n": "Без глагола — предлог <b>nach</b>."
+    },
+    {
+     "s": "___ dem Essen wasche ich die Hände.",
+     "ru": "Перед едой я мою руки.",
+     "o": [
+      "Vor",
+      "Bevor"
+     ],
+     "a": "Vor",
+     "n": "Предлог <b>vor</b> + Dativ."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

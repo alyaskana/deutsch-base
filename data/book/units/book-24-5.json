@@ -1,7 +1,7 @@
 {
  "title": "Предлоги: причина, помеха и срок",
  "topic": "Книга · 24.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -147,5 +147,69 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Предлоги с Genitiv",
+   "sub": "wegen, trotz, statt, während, innerhalb",
+   "items": [
+    {
+     "s": "Wegen ___ Schnupfens bleibt Jonas zu Hause.",
+     "ru": "Из-за насморка Йонас остаётся дома.",
+     "a": [
+      "des"
+     ],
+     "hint": "der Schnupfen",
+     "n": "wegen + Genitiv."
+    },
+    {
+     "s": "Trotz ___ Regens gehen wir spazieren.",
+     "ru": "Несмотря на дождь, мы гуляем.",
+     "a": [
+      "des"
+     ],
+     "hint": "der Regen",
+     "n": "Не <s>den Regen</s>."
+    },
+    {
+     "s": "Statt ___ Anrufs schreibe ich eine E-Mail.",
+     "ru": "Вместо звонка я пишу письмо.",
+     "a": [
+      "eines"
+     ],
+     "hint": "ein Anruf",
+     "n": "<b>statt eines Anrufs</b>."
+    },
+    {
+     "s": "Während ___ Pause trinke ich Kaffee.",
+     "ru": "Во время перерыва я пью кофе.",
+     "a": [
+      "der"
+     ],
+     "hint": "die Pause",
+     "n": "<b>während der Pause</b>."
+    },
+    {
+     "s": "Bitte antworten Sie innerhalb ___ Woche.",
+     "ru": "Ответьте, пожалуйста, в течение недели.",
+     "a": [
+      "einer"
+     ],
+     "hint": "eine Woche",
+     "n": "<b>innerhalb einer Woche</b>."
+    },
+    {
+     "s": "___ komme ich.",
+     "ru": "Я всё же приду.",
+     "a": [
+      "Trotzdem"
+     ],
+     "hint": "всё же",
+     "n": "<b>trotzdem</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

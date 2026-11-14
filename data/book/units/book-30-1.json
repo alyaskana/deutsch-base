@@ -1,7 +1,7 @@
 {
  "title": "Предложение целиком: знакомая рамка",
  "topic": "Книга · 30.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -188,5 +188,63 @@
    "Весь порядок в нейтральном главном предложении: предполье (один член предложения), спрягаемый глагол, безударные местоимения, существительные в Dativ и Akkusativ, затем обстоятельства Te, Ka, <b>nicht</b>, Mo, Lo, правая рамка и послеполье. Новая вещь с <b>ein</b> обычно встаёт после времени."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Рамка предложения",
+   "sub": "глагол на втором месте, вторая часть в конце",
+   "items": [
+    {
+     "ru": "Я вчера позвонил подруге.",
+     "w": [
+      "Ich",
+      "habe",
+      "gestern",
+      "meine",
+      "Freundin",
+      "angerufen"
+     ],
+     "ok": [
+      "Ich habe gestern meine Freundin angerufen",
+      "Gestern habe ich meine Freundin angerufen"
+     ],
+     "n": "<b>habe … angerufen</b> — рамка."
+    },
+    {
+     "ru": "Мы хотим завтра поехать в Вену.",
+     "w": [
+      "Wir",
+      "wollen",
+      "morgen",
+      "nach",
+      "Wien",
+      "fahren"
+     ],
+     "ok": [
+      "Wir wollen morgen nach Wien fahren",
+      "Morgen wollen wir nach Wien fahren"
+     ],
+     "n": "<b>wollen … fahren</b>."
+    },
+    {
+     "ru": "Поезд прибывает в восемь.",
+     "w": [
+      "Der",
+      "Zug",
+      "kommt",
+      "um",
+      "acht",
+      "an"
+     ],
+     "ok": [
+      "Der Zug kommt um acht an",
+      "Um acht kommt der Zug an"
+     ],
+     "n": "Приставка <b>an</b> уходит в конец."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

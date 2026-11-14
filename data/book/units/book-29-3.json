@@ -1,7 +1,7 @@
 {
  "title": "Был построен: событие или состояние к тому моменту",
  "topic": "Книга · 29.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -71,5 +71,45 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Событие или состояние",
+   "sub": "wurde gebaut / war gebaut",
+   "items": [
+    {
+     "s": "Das Haus ___ 1911 gebaut.",
+     "ru": "Дом построили в 1911 году.",
+     "o": [
+      "wurde",
+      "war"
+     ],
+     "a": "wurde",
+     "n": "Событие — <b>wurde</b>."
+    },
+    {
+     "s": "1911 ___ das Haus schon gebaut.",
+     "ru": "В 1911 году дом уже был построен.",
+     "o": [
+      "war",
+      "wurde"
+     ],
+     "a": "war",
+     "n": "Состояние — <b>war</b>."
+    },
+    {
+     "s": "Die Brücke ___ letztes Jahr eröffnet.",
+     "ru": "Мост открыли в прошлом году.",
+     "o": [
+      "wurde",
+      "war"
+     ],
+     "a": "wurde",
+     "n": "Событие."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

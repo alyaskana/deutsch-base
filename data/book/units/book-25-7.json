@@ -1,7 +1,7 @@
 {
  "title": "Прилагательные и существительные: проверяем родню",
  "topic": "Книга · 25.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -163,5 +163,85 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Прилагательные и существительные",
+   "sub": "Предлог часто как у глагола",
+   "items": [
+    {
+     "s": "Ich bin stolz ___ meine Tochter.",
+     "ru": "Я горжусь дочерью.",
+     "o": [
+      "auf",
+      "über"
+     ],
+     "a": "auf",
+     "n": "<b>stolz auf</b>."
+    },
+    {
+     "s": "Wir sind begeistert ___ dem Film.",
+     "ru": "Мы в восторге от фильма.",
+     "o": [
+      "von",
+      "über"
+     ],
+     "a": "von",
+     "n": "<b>begeistert von</b>."
+    },
+    {
+     "s": "Lea ist für das Programm ___.",
+     "ru": "Леа отвечает за программу.",
+     "o": [
+      "verantwortlich",
+      "bereit"
+     ],
+     "a": "verantwortlich",
+     "n": "<b>verantwortlich für</b>."
+    },
+    {
+     "s": "Jonas ist bereit ___ einem Kompromiss.",
+     "ru": "Йонас готов к компромиссу.",
+     "o": [
+      "zu",
+      "für"
+     ],
+     "a": "zu",
+     "n": "<b>bereit zu</b>."
+    },
+    {
+     "s": "Ich habe Lust ___ Pizza.",
+     "ru": "Мне хочется пиццы.",
+     "o": [
+      "auf",
+      "für"
+     ],
+     "a": "auf",
+     "n": "<b>Lust auf</b>."
+    },
+    {
+     "s": "Ich habe Zweifel ___ diesem Plan.",
+     "ru": "Я сомневаюсь в этом плане.",
+     "o": [
+      "an",
+      "über"
+     ],
+     "a": "an",
+     "n": "<b>Zweifel an</b> + Dat."
+    },
+    {
+     "s": "Sie hat eine gute Beziehung ___ ihrer Schwester.",
+     "ru": "У неё хорошие отношения с сестрой.",
+     "o": [
+      "zu",
+      "mit"
+     ],
+     "a": "zu",
+     "n": "<b>Beziehung zu</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

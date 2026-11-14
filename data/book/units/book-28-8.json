@@ -1,7 +1,7 @@
 {
  "title": "Запятые: найдите границы группы",
  "topic": "Книга · 28.8",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -89,5 +89,52 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Запятые",
+   "sub": "Границы инфинитивной группы",
+   "items": [
+    {
+     "ru": "Наша преподавательница собирается снова вести занятия в сентябре.",
+     "w": [
+      "Unsere",
+      "Lehrerin",
+      "hat",
+      "die",
+      "Absicht,",
+      "im",
+      "September",
+      "wieder",
+      "zu",
+      "unterrichten."
+     ],
+     "ok": [
+      "Unsere Lehrerin hat die Absicht, im September wieder zu unterrichten."
+     ],
+     "n": "Запятая перед группой."
+    },
+    {
+     "ru": "Для меня важно каждый день говорить по-немецки.",
+     "w": [
+      "Jeden",
+      "Tag",
+      "Deutsch",
+      "zu",
+      "sprechen,",
+      "ist",
+      "für",
+      "mich",
+      "wichtig."
+     ],
+     "ok": [
+      "Jeden Tag Deutsch zu sprechen, ist für mich wichtig."
+     ],
+     "n": "Группа в начале — запятая после неё."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

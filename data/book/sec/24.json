@@ -1,0 +1,77 @@
+{
+"24.1": [
+ {"type":"type","title":"Genitiv: чей, чего","sub":"des / der после главного слова","items":[
+  {"s":"Das ist die Adresse ___ Firma.","ru":"Это адрес фирмы.","a":["der"],"hint":"die Firma","n":"Женский род в Genitiv — <b>der</b>."},
+  {"s":"Das ist das Fahrrad ___ Mutter.","ru":"Это велосипед моей мамы.","a":["meiner"],"hint":"meine","n":"<b>meiner Mutter</b>."},
+  {"s":"Das ist das Auto ___ Bruders.","ru":"Это машина брата.","a":["des"],"hint":"der Bruder","n":"Мужской — <b>des …-s</b>."},
+  {"s":"Die Farbe ___ Hauses gefällt mir.","ru":"Мне нравится цвет дома.","a":["des"],"hint":"das Haus","n":"Средний — <b>des Hauses</b>."},
+  {"s":"Das sind die Fotos ___ Kinder.","ru":"Это фотографии детей.","a":["der"],"hint":"die Kinder","n":"Множественное — <b>der</b>."}
+ ]}
+],
+"24.2": [
+ {"type":"choice","title":"Где Genitiv не нужен","sub":"Русское «нет», количество, число","items":[
+  {"s":"Ich habe ___ Zeit.","ru":"У меня нет времени.","o":["keine","keiner"],"a":"keine","n":"После haben — Akkusativ."},
+  {"s":"Ich trinke ein Glas ___.","ru":"Я пью стакан воды.","o":["Wasser","des Wassers"],"a":"Wasser","n":"Количество — без Genitiv."},
+  {"s":"Ich kaufe fünf ___.","ru":"Я покупаю пять книг.","o":["Bücher","Bücher der"],"a":"Bücher","n":"После числа — обычное множественное."},
+  {"s":"Ich habe ___ Kaffee.","ru":"У меня нет кофе.","o":["keinen","keines"],"a":"keinen","n":"<b>keinen Kaffee</b> — Akkusativ."},
+  {"s":"Hier gibt es viel ___.","ru":"Здесь много воды.","o":["Wasser","Wassers"],"a":"Wasser","n":"viel + существительное без окончания."}
+ ]}
+],
+"24.3": [
+ {"type":"type","title":"Окончание -s / -es","sub":"У мужского и среднего — и у артикля, и у существительного","items":[
+  {"s":"Das Zimmer meines ___ ist klein.","ru":"Комната моего брата маленькая.","a":["Bruders"],"hint":"der Bruder","n":"<b>meines Bruders</b>."},
+  {"s":"Die Tür des ___ ist offen.","ru":"Дверь дома открыта.","a":["Hauses"],"hint":"das Haus","n":"Односложное — часто <b>-es</b>."},
+  {"s":"Der Name eines ___ fehlt.","ru":"Не хватает имени одного ребёнка.","a":["Kindes"],"hint":"das Kind","n":"<b>eines Kindes</b>."},
+  {"s":"Die Mitte ___ Woche.","ru":"Середина недели.","a":["der"],"hint":"die Woche","n":"Женский — без окончания у существительного."},
+  {"s":"Das Ende des ___.","ru":"Конец фильма.","a":["Films"],"hint":"der Film","n":"<b>des Films</b>."}
+ ]}
+],
+"24.4": [
+ {"type":"choice","title":"Прилагательное в Genitiv","sub":"После артикля — всегда -en","items":[
+  {"s":"Am Ende eines ___ Tages.","ru":"В конце долгого дня.","o":["langen","langes"],"a":"langen","n":"После артикля — <b>-en</b>."},
+  {"s":"Die Wohnung meiner ___ Schwester.","ru":"Квартира моей старшей сестры.","o":["älteren","ältere"],"a":"älteren","n":"<b>-en</b>."},
+  {"s":"Trotz ___ Regens.","ru":"Несмотря на сильный дождь.","o":["starken","starkes"],"a":"starken","n":"Без артикля у мужского тоже <b>-en</b>."},
+  {"s":"Die Fotos der ___ Kollegen.","ru":"Фото новых коллег.","o":["neuen","neue"],"a":"neuen","n":"<b>-en</b>."}
+ ]}
+],
+"24.5": [
+ {"type":"type","title":"Предлоги с Genitiv","sub":"wegen, trotz, statt, während, innerhalb","items":[
+  {"s":"Wegen ___ Schnupfens bleibt Jonas zu Hause.","ru":"Из-за насморка Йонас остаётся дома.","a":["des"],"hint":"der Schnupfen","n":"wegen + Genitiv."},
+  {"s":"Trotz ___ Regens gehen wir spazieren.","ru":"Несмотря на дождь, мы гуляем.","a":["des"],"hint":"der Regen","n":"Не <s>den Regen</s>."},
+  {"s":"Statt ___ Anrufs schreibe ich eine E-Mail.","ru":"Вместо звонка я пишу письмо.","a":["eines"],"hint":"ein Anruf","n":"<b>statt eines Anrufs</b>."},
+  {"s":"Während ___ Pause trinke ich Kaffee.","ru":"Во время перерыва я пью кофе.","a":["der"],"hint":"die Pause","n":"<b>während der Pause</b>."},
+  {"s":"Bitte antworten Sie innerhalb ___ Woche.","ru":"Ответьте, пожалуйста, в течение недели.","a":["einer"],"hint":"eine Woche","n":"<b>innerhalb einer Woche</b>."},
+  {"s":"___ komme ich.","ru":"Я всё же приду.","a":["Trotzdem"],"hint":"всё же","n":"<b>trotzdem</b>."}
+ ]}
+],
+"24.6": [
+ {"type":"choice","title":"Имена и von","sub":"Alinas Büro, Jonas’ Computer, von + Dativ","items":[
+  {"s":"Das ist ___ Büro.","ru":"Это офис Алины.","o":["Alinas","Alina’s"],"a":"Alinas","n":"Без апострофа: <b>Alinas</b>."},
+  {"s":"Am Samstag grillen wir in ___ Garten.","ru":"В субботу жарим гриль в саду Сабины.","o":["Sabines","Sabine’s"],"a":"Sabines","n":"<b>Sabines Garten</b>."},
+  {"s":"Das ist ___ Computer.","ru":"Это компьютер Йонаса.","o":["Jonas’","Jonass"],"a":"Jonas’","n":"Имя на s — только апостроф."},
+  {"s":"Das ist der Computer von ___.","ru":"Это компьютер Йонаса. (разговорно)","o":["Jonas","Jonas’"],"a":"Jonas","n":"<b>von Jonas</b>."},
+  {"s":"Sie ist eine Kollegin von ___.","ru":"Она моя коллега.","o":["mir","mich"],"a":"mir","n":"von + Dativ."},
+  {"s":"Das ist einer ___ Kollegen.","ru":"Это один из моих коллег.","o":["meiner","meinen"],"a":"meiner","n":"Genitiv мн.: <b>einer meiner Kollegen</b>."}
+ ]}
+],
+"24.7": [
+ {"type":"type","title":"Слабые существительные","sub":"-n / -en во всех падежах, кроме Nominativ","items":[
+  {"s":"Ich kenne den ___.","ru":"Я знаю клиента.","a":["Kunden"],"hint":"der Kunde","n":"<b>den Kunden</b>."},
+  {"s":"Ich spreche mit dem ___.","ru":"Я говорю с практикантом.","a":["Praktikanten"],"hint":"der Praktikant","n":"<b>dem Praktikanten</b>."},
+  {"s":"Der Arzt hilft dem ___.","ru":"Врач помогает пациенту.","a":["Patienten"],"hint":"der Patient","n":"<b>dem Patienten</b>."},
+  {"s":"Ich frage meinen ___.","ru":"Я спрашиваю коллегу.","a":["Kollegen"],"hint":"der Kollege","n":"<b>meinen Kollegen</b>."},
+  {"s":"Ich wohne mit einem ___ zusammen.","ru":"Я живу с одним студентом.","a":["Studenten"],"hint":"der Student","n":"<b>einem Studenten</b>."},
+  {"s":"Das ist ein ___.","ru":"Это немец.","a":["Deutscher"],"hint":"deutsch","n":"Как прилагательное: <b>ein Deutscher</b>."},
+  {"s":"Wie ist Ihr ___?","ru":"Как ваше имя?","a":["Name"],"hint":"der Name","n":"Nominativ — <b>Name</b>."}
+ ]}
+],
+"24.8": [
+ {"type":"choice","title":"Письмо","sub":"Herrn на конверте, Herr в обращении","items":[
+  {"s":"На конверте: ___ Krüger","ru":"Господину Крюгеру","o":["Herrn","Herr"],"a":"Herrn","n":"В адресе — <b>Herrn</b>."},
+  {"s":"Sehr ___ Herr Krüger,","ru":"Уважаемый господин Крюгер,","o":["geehrter","geehrte"],"a":"geehrter","n":"Мужской — <b>geehrter</b>."},
+  {"s":"Sehr ___ Frau Schmitz,","ru":"Уважаемая госпожа Шмитц,","o":["geehrte","geehrter"],"a":"geehrte","n":"Женский — <b>geehrte</b>."},
+  {"s":"Sehr geehrte Damen und ___,","ru":"Уважаемые дамы и господа,","o":["Herren","Herrn"],"a":"Herren","n":"Множественное — <b>Herren</b>."},
+  {"s":"Mit freundlichen ___","ru":"С уважением","o":["Grüßen","Grüße"],"a":"Grüßen","n":"<b>Mit freundlichen Grüßen</b>, без запятой."}
+ ]}
+]
+}

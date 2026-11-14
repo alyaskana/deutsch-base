@@ -1,7 +1,7 @@
 {
  "title": "Слабые существительные: сначала проверим список",
  "topic": "Книга · 24.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -253,5 +253,78 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Слабые существительные",
+   "sub": "-n / -en во всех падежах, кроме Nominativ",
+   "items": [
+    {
+     "s": "Ich kenne den ___.",
+     "ru": "Я знаю клиента.",
+     "a": [
+      "Kunden"
+     ],
+     "hint": "der Kunde",
+     "n": "<b>den Kunden</b>."
+    },
+    {
+     "s": "Ich spreche mit dem ___.",
+     "ru": "Я говорю с практикантом.",
+     "a": [
+      "Praktikanten"
+     ],
+     "hint": "der Praktikant",
+     "n": "<b>dem Praktikanten</b>."
+    },
+    {
+     "s": "Der Arzt hilft dem ___.",
+     "ru": "Врач помогает пациенту.",
+     "a": [
+      "Patienten"
+     ],
+     "hint": "der Patient",
+     "n": "<b>dem Patienten</b>."
+    },
+    {
+     "s": "Ich frage meinen ___.",
+     "ru": "Я спрашиваю коллегу.",
+     "a": [
+      "Kollegen"
+     ],
+     "hint": "der Kollege",
+     "n": "<b>meinen Kollegen</b>."
+    },
+    {
+     "s": "Ich wohne mit einem ___ zusammen.",
+     "ru": "Я живу с одним студентом.",
+     "a": [
+      "Studenten"
+     ],
+     "hint": "der Student",
+     "n": "<b>einem Studenten</b>."
+    },
+    {
+     "s": "Das ist ein ___.",
+     "ru": "Это немец.",
+     "a": [
+      "Deutscher"
+     ],
+     "hint": "deutsch",
+     "n": "Как прилагательное: <b>ein Deutscher</b>."
+    },
+    {
+     "s": "Wie ist Ihr ___?",
+     "ru": "Как ваше имя?",
+     "a": [
+      "Name"
+     ],
+     "hint": "der Name",
+     "n": "Nominativ — <b>Name</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

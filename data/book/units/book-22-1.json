@@ -1,7 +1,7 @@
 {
  "title": "Будущее без Futur: завтра уже написано",
  "topic": "Книга · 22.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -84,5 +84,55 @@
    "Срок от сегодняшнего дня выражаем через <b>in</b> с <b>Dativ</b>. В прогнозе различаем <b>auf</b> (до) и <b>um</b> (на)."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Будущее через Präsens",
+   "sub": "Время в словах — werden не нужен",
+   "items": [
+    {
+     "s": "Ich ___ übermorgen um neun.",
+     "ru": "Я приду послезавтра в девять.",
+     "o": [
+      "komme",
+      "kam"
+     ],
+     "a": "komme",
+     "n": "Präsens + слово времени."
+    },
+    {
+     "s": "Nächste Woche ___ wir in Köln.",
+     "ru": "На следующей неделе мы будем работать в Кёльне.",
+     "o": [
+      "arbeiten",
+      "arbeiteten"
+     ],
+     "a": "arbeiten",
+     "n": "<b>arbeiten</b> — уже будущее."
+    },
+    {
+     "s": "Was machst du am Wochenende? Ich ___ meine Schwester.",
+     "ru": "Что делаешь на выходных? Навещу сестру.",
+     "o": [
+      "besuche",
+      "besuchte"
+     ],
+     "a": "besuche",
+     "n": "Договорённость — Präsens."
+    },
+    {
+     "s": "Am Donnerstag ___ ich zu Hause.",
+     "ru": "В четверг я работаю дома.",
+     "o": [
+      "arbeite",
+      "werde"
+     ],
+     "a": "arbeite",
+     "n": "Достаточно Präsens."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

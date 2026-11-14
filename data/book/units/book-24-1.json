@@ -1,7 +1,7 @@
 {
  "title": "Genitiv: подпись чья, копия чего",
  "topic": "Книга · 24.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -62,5 +62,60 @@
    "Имя обычно ставим впереди: <b>Leas Brief</b> (письмо Леи). В адресной строке мужчины пишем <b>Herrn</b>, в обращении <b>Herr</b>."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Genitiv: чей, чего",
+   "sub": "des / der после главного слова",
+   "items": [
+    {
+     "s": "Das ist die Adresse ___ Firma.",
+     "ru": "Это адрес фирмы.",
+     "a": [
+      "der"
+     ],
+     "hint": "die Firma",
+     "n": "Женский род в Genitiv — <b>der</b>."
+    },
+    {
+     "s": "Das ist das Fahrrad ___ Mutter.",
+     "ru": "Это велосипед моей мамы.",
+     "a": [
+      "meiner"
+     ],
+     "hint": "meine",
+     "n": "<b>meiner Mutter</b>."
+    },
+    {
+     "s": "Das ist das Auto ___ Bruders.",
+     "ru": "Это машина брата.",
+     "a": [
+      "des"
+     ],
+     "hint": "der Bruder",
+     "n": "Мужской — <b>des …-s</b>."
+    },
+    {
+     "s": "Die Farbe ___ Hauses gefällt mir.",
+     "ru": "Мне нравится цвет дома.",
+     "a": [
+      "des"
+     ],
+     "hint": "das Haus",
+     "n": "Средний — <b>des Hauses</b>."
+    },
+    {
+     "s": "Das sind die Fotos ___ Kinder.",
+     "ru": "Это фотографии детей.",
+     "a": [
+      "der"
+     ],
+     "hint": "die Kinder",
+     "n": "Множественное — <b>der</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

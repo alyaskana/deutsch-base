@@ -1,7 +1,7 @@
 {
  "title": "Пассив: крыша важнее имени мастера",
  "topic": "Книга · 29.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -112,5 +112,60 @@
    "Исполнителя можно назвать через <b>von</b>. Разговорное <b>man</b> возвращает активную конструкцию и её падежи."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Пассив: werden + Partizip II",
+   "sub": "Akkusativ становится подлежащим",
+   "items": [
+    {
+     "s": "Das Dach ___ repariert.",
+     "ru": "Крышу ремонтируют.",
+     "a": [
+      "wird"
+     ],
+     "hint": "werden",
+     "n": "<b>wird repariert</b>."
+    },
+    {
+     "s": "Die Böden ___ gereinigt.",
+     "ru": "Полы чистят.",
+     "a": [
+      "werden"
+     ],
+     "hint": "werden",
+     "n": "Мн. — <b>werden</b>."
+    },
+    {
+     "s": "Der Boden wird ___.",
+     "ru": "Пол чистят.",
+     "a": [
+      "gereinigt"
+     ],
+     "hint": "reinigen",
+     "n": "<b>gereinigt</b>."
+    },
+    {
+     "s": "Die Fenster werden ___.",
+     "ru": "Окна моют.",
+     "a": [
+      "geputzt"
+     ],
+     "hint": "putzen",
+     "n": "<b>geputzt</b>."
+    },
+    {
+     "s": "Der Brief ___ geschrieben.",
+     "ru": "Письмо пишут.",
+     "a": [
+      "wird"
+     ],
+     "hint": "werden",
+     "n": "<b>wird</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

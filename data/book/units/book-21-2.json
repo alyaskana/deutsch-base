@@ -1,7 +1,7 @@
 {
  "title": "Слабые глаголы: прошлое с -te",
  "topic": "Книга · 21.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -128,5 +128,69 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Слабые глаголы: -te",
+   "sub": "После t и d — -ete",
+   "items": [
+    {
+     "s": "Ich ___ die Bühne.",
+     "ru": "Я фотографировал сцену.",
+     "a": [
+      "fotografierte"
+     ],
+     "hint": "fotografieren",
+     "n": "<b>fotografierte</b>."
+    },
+    {
+     "s": "Wir ___ zusammen.",
+     "ru": "Мы учились вместе.",
+     "a": [
+      "lernten"
+     ],
+     "hint": "lernen",
+     "n": "wir → <b>lernten</b>."
+    },
+    {
+     "s": "Er ___ viel.",
+     "ru": "Он много работал.",
+     "a": [
+      "arbeitete"
+     ],
+     "hint": "arbeiten",
+     "n": "Основа на t → <b>arbeitete</b>."
+    },
+    {
+     "s": "Du ___ Kaffee.",
+     "ru": "Ты варил кофе.",
+     "a": [
+      "kochtest"
+     ],
+     "hint": "kochen",
+     "n": "du → <b>kochtest</b>."
+    },
+    {
+     "s": "Paul ___ am Freitag ein.",
+     "ru": "Пауль делал покупки в пятницу.",
+     "a": [
+      "kaufte"
+     ],
+     "hint": "einkaufen",
+     "n": "Приставка в конце."
+    },
+    {
+     "s": "Ich weiß, dass Paul am Freitag ___.",
+     "ru": "Я знаю, что Пауль делал покупки в пятницу.",
+     "a": [
+      "einkaufte"
+     ],
+     "hint": "einkaufen",
+     "n": "В придаточном слитно: <b>einkaufte</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

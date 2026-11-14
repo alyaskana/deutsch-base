@@ -1,7 +1,7 @@
 {
  "title": "Прилагательные: после артикля спокойно ставим -en",
  "topic": "Книга · 24.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -80,5 +80,55 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Прилагательное в Genitiv",
+   "sub": "После артикля — всегда -en",
+   "items": [
+    {
+     "s": "Am Ende eines ___ Tages.",
+     "ru": "В конце долгого дня.",
+     "o": [
+      "langen",
+      "langes"
+     ],
+     "a": "langen",
+     "n": "После артикля — <b>-en</b>."
+    },
+    {
+     "s": "Die Wohnung meiner ___ Schwester.",
+     "ru": "Квартира моей старшей сестры.",
+     "o": [
+      "älteren",
+      "ältere"
+     ],
+     "a": "älteren",
+     "n": "<b>-en</b>."
+    },
+    {
+     "s": "Trotz ___ Regens.",
+     "ru": "Несмотря на сильный дождь.",
+     "o": [
+      "starken",
+      "starkes"
+     ],
+     "a": "starken",
+     "n": "Без артикля у мужского тоже <b>-en</b>."
+    },
+    {
+     "s": "Die Fotos der ___ Kollegen.",
+     "ru": "Фото новых коллег.",
+     "o": [
+      "neuen",
+      "neue"
+     ],
+     "a": "neuen",
+     "n": "<b>-en</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

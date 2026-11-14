@@ -1,7 +1,7 @@
 {
  "title": "«Ли»: маленькое слово ob",
  "topic": "Книга · 27.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -107,5 +107,69 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Ob, dass, wenn",
+   "sub": "«Ли» — только ob",
+   "items": [
+    {
+     "s": "Ich weiß nicht, ___ der Bildschirm funktioniert.",
+     "ru": "Я не знаю, работает ли экран.",
+     "o": [
+      "ob",
+      "dass",
+      "wenn"
+     ],
+     "a": "ob",
+     "n": "«Ли» — <b>ob</b>."
+    },
+    {
+     "s": "Ich weiß, ___ Paul heute kocht.",
+     "ru": "Я знаю, что Пауль сегодня готовит.",
+     "o": [
+      "dass",
+      "ob",
+      "wenn"
+     ],
+     "a": "dass",
+     "n": "Факт — <b>dass</b>."
+    },
+    {
+     "s": "___ Paul Zeit hat, hilft er.",
+     "ru": "Если у Пауля есть время, он помогает.",
+     "o": [
+      "Wenn",
+      "Ob",
+      "Dass"
+     ],
+     "a": "Wenn",
+     "n": "Условие — <b>wenn</b>."
+    },
+    {
+     "s": "Es ist unklar, ___ der Termin passt.",
+     "ru": "Неясно, подходит ли это время.",
+     "o": [
+      "ob",
+      "dass",
+      "wenn"
+     ],
+     "a": "ob",
+     "n": "<b>ob</b>."
+    },
+    {
+     "s": "Sie fragt, ___ die Hotline heute erreichbar ist.",
+     "ru": "Она спрашивает, в какое время сегодня работает горячая линия.",
+     "o": [
+      "wann",
+      "ob"
+     ],
+     "a": "wann",
+     "n": "Время — <b>wann</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "Первое место: кто его занял",
  "topic": "Книга · 27.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -124,5 +124,85 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Кто занял первое место",
+   "sub": "weder, entweder, zwar — порядок слов",
+   "items": [
+    {
+     "ru": "Либо я позвоню, либо Пауль напишет.",
+     "w": [
+      "Entweder",
+      "rufe",
+      "ich",
+      "an,",
+      "oder",
+      "Paul",
+      "schreibt."
+     ],
+     "ok": [
+      "Entweder rufe ich an, oder Paul schreibt."
+     ],
+     "n": "entweder на первом месте → глагол вторым."
+    },
+    {
+     "ru": "Тариф хоть и выгодный, но не подходит.",
+     "w": [
+      "Der",
+      "Tarif",
+      "ist",
+      "zwar",
+      "günstig,",
+      "aber",
+      "er",
+      "passt",
+      "nicht."
+     ],
+     "ok": [
+      "Der Tarif ist zwar günstig, aber er passt nicht."
+     ],
+     "n": "<b>zwar</b> в середине."
+    },
+    {
+     "ru": "С одной стороны, нам нужна помощь, с другой — мы не хотим ждать.",
+     "w": [
+      "Einerseits",
+      "brauchen",
+      "wir",
+      "Hilfe,",
+      "andererseits",
+      "wollen",
+      "wir",
+      "nicht",
+      "warten."
+     ],
+     "ok": [
+      "Einerseits brauchen wir Hilfe, andererseits wollen wir nicht warten."
+     ],
+     "n": "После einerseits/andererseits — глагол."
+    },
+    {
+     "ru": "Роутер новый, но кабель сломан.",
+     "w": [
+      "Der",
+      "Router",
+      "ist",
+      "neu,",
+      "aber",
+      "das",
+      "Kabel",
+      "ist",
+      "kaputt."
+     ],
+     "ok": [
+      "Der Router ist neu, aber das Kabel ist kaputt."
+     ],
+     "n": "aber вне счёта."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

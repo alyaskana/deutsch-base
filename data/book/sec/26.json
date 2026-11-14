@@ -1,0 +1,71 @@
+{
+"26.1": [
+ {"type":"build","title":"Два предложения в одно","sub":"Относительное местоимение, глагол в конце","items":[
+  {"ru":"Я фотографирую дом, который мне нравится.","w":["Ich","fotografiere","das","Haus,","das","mir","gefällt."],"ok":["Ich fotografiere das Haus, das mir gefällt."],"n":"das Haus → <b>das</b>."},
+  {"ru":"Это двор, который мне нравится.","w":["Das","ist","der","Hof,","der","mir","gefällt."],"ok":["Das ist der Hof, der mir gefällt."],"n":"Подлежащее → <b>der</b>."},
+  {"ru":"Это двор, который я фотографирую.","w":["Das","ist","der","Hof,","den","ich","fotografiere."],"ok":["Das ist der Hof, den ich fotografiere."],"n":"Дополнение → <b>den</b>."},
+  {"ru":"Я знаю жильца, который нам помогает.","w":["Ich","kenne","den","Bewohner,","der","uns","hilft."],"ok":["Ich kenne den Bewohner, der uns hilft."],"n":"<b>der</b> — подлежащее придаточного."}
+ ]}
+],
+"26.2": [
+ {"type":"choice","title":"Который: падеж по роли","sub":"Род от слова, падеж от придаточного","items":[
+  {"s":"der Hof, ___ Paul gefällt","ru":"двор, который нравится Паулю","o":["der","den","dem"],"a":"der","n":"Подлежащее — <b>der</b>."},
+  {"s":"das Haus, in ___ ich wohne","ru":"дом, в котором я живу","o":["dem","das","den"],"a":"dem","n":"in + Dat — <b>dem</b>."},
+  {"s":"die Nachbarin, mit ___ ich spreche","ru":"соседка, с которой я говорю","o":["der","die","den"],"a":"der","n":"mit + Dat, жен. — <b>der</b>."},
+  {"s":"der Nachbar, ___ ich danke","ru":"сосед, которого я благодарю","o":["dem","den","der"],"a":"dem","n":"danken + Dat — <b>dem</b>."},
+  {"s":"die Wohnung, ___ ich suche","ru":"квартира, которую я ищу","o":["die","der","den"],"a":"die","n":"Akk жен. — <b>die</b>."}
+ ]}
+],
+"26.3": [
+ {"type":"type","title":"Длинные формы","sub":"dessen, deren, denen","items":[
+  {"s":"Das sind die Nachbarn, bei ___ ich heute esse.","ru":"Это соседи, у которых я сегодня ужинаю.","a":["denen"],"hint":"Dat мн.","n":"Dativ мн. — <b>denen</b>."},
+  {"s":"die Bewohner, ___ Paul hilft","ru":"жильцы, которым Пауль помогает","a":["denen"],"hint":"helfen + Dat","n":"<b>denen</b>."},
+  {"s":"der Hof, ___ ich fotografiere","ru":"двор, который я фотографирую","a":["den"],"hint":"Akk м.р.","n":"<b>den</b>."},
+  {"s":"die Zimmer, ___ frei sind","ru":"комнаты, которые свободны","a":["die"],"hint":"Nom мн.","n":"<b>die</b>."},
+  {"s":"das Kind, ___ ich ein Buch gebe","ru":"ребёнок, которому я даю книгу","a":["dem"],"hint":"Dat ср.р.","n":"<b>dem</b>."}
+ ]}
+],
+"26.4": [
+ {"type":"choice","title":"Dessen и deren","sub":"Смотрим назад, на владельца","items":[
+  {"s":"Ruf den Vermieter an, ___ Nummer hier steht.","ru":"Позвони хозяину, чей номер здесь указан.","o":["dessen","deren"],"a":"dessen","n":"Владелец м.р. — <b>dessen</b>."},
+  {"s":"Das ist die Firma, ___ Büro unten ist.","ru":"Это фирма, чей офис внизу.","o":["deren","dessen"],"a":"deren","n":"Владелец ж.р. — <b>deren</b>."},
+  {"s":"Ich kenne den Mann, dessen ___ Wohnung zentral liegt.","ru":"Я знаю мужчину, чья новая квартира в центре.","o":["neue","die neue"],"a":"neue","n":"После dessen артикль не ставим."},
+  {"s":"Das ist die Firma, mit deren ___ Computer ich arbeite.","ru":"Это фирма, на новом компьютере которой я работаю.","o":["neuem","neuen"],"a":"neuem","n":"Без артикля: <b>neuem</b>."},
+  {"s":"Das sind die Nachbarn, ___ Kinder laut sind.","ru":"Это соседи, чьи дети шумные.","o":["deren","dessen"],"a":"deren","n":"Мн. — <b>deren</b>."}
+ ]}
+],
+"26.5": [
+ {"type":"choice","title":"Предлог перед «которым»","sub":"Предлог в начале придаточного","items":[
+  {"s":"Ich kenne die Kollegin, mit ___ Paul spricht.","ru":"Я знаю коллегу, с которой разговаривает Пауль.","o":["der","die"],"a":"der","n":"mit + Dat — <b>der</b>."},
+  {"s":"Das ist die Party, für ___ wir kochen.","ru":"Это вечеринка, для которой мы готовим.","o":["die","der"],"a":"die","n":"für + Akk — <b>die</b>."},
+  {"s":"Das ist der Umzug, auf ___ ich mich freue.","ru":"Это переезд, которого я жду.","o":["den","dem"],"a":"den","n":"sich freuen auf + Akk."},
+  {"s":"Das ist das Gebäude, in ___ Jonas wohnt.","ru":"Это здание, в котором живёт Йонас.","o":["dem","das"],"a":"dem","n":"Где — Dat."},
+  {"s":"Das ist das Gebäude, in ___ Jonas einzieht.","ru":"Это здание, в которое въезжает Йонас.","o":["das","dem"],"a":"das","n":"Куда — Akk."}
+ ]}
+],
+"26.6": [
+ {"type":"choice","title":"Was после alles, nichts, das Beste","sub":"Или после целого предложения","items":[
+  {"s":"Ich habe alles, ___ für die Bewerbung wichtig ist.","ru":"У меня есть всё, что важно для заявки.","o":["was","das"],"a":"was","n":"После alles — <b>was</b>."},
+  {"s":"Das ist das Beste, ___ wir anbieten können.","ru":"Это лучшее, что мы можем предложить.","o":["was","das"],"a":"was","n":"После превосходной — <b>was</b>."},
+  {"s":"Die Firma zahlt pünktlich, ___ mich freut.","ru":"Фирма платит вовремя, и это меня радует.","o":["was","das"],"a":"was","n":"О целом предложении — <b>was</b>."},
+  {"s":"Das Haus, ___ an der Ecke steht, ist alt.","ru":"Дом, что стоит на углу, старый.","o":["das","was"],"a":"das","n":"Конкретная вещь — <b>das</b>."},
+  {"s":"Die Miete steigt, ___ sich Paul ärgert.","ru":"Аренда растёт, и Пауль из-за этого злится.","o":["worüber","über was"],"a":"worüber","n":"<b>wo(r)</b> + предлог."}
+ ]}
+],
+"26.7": [
+ {"type":"choice","title":"Wo, wohin, woher","sub":"Место, куда, откуда","items":[
+  {"s":"Köln, ___ Paul wohnt","ru":"Кёльн, где живёт Пауль","o":["wo","wohin"],"a":"wo","n":"Место — <b>wo</b>."},
+  {"s":"Köln, ___ Lea fährt","ru":"Кёльн, куда едет Леа","o":["wohin","wo"],"a":"wohin","n":"Куда — <b>wohin</b>."},
+  {"s":"die Stadt, ___ Jonas kommt","ru":"город, откуда Йонас","o":["woher","wo"],"a":"woher","n":"Откуда — <b>woher</b>."}
+ ]}
+],
+"26.8": [
+ {"type":"build","title":"Место придаточного","sub":"Глагол в конце; wer и was без названного человека","items":[
+  {"ru":"Терраса, которая относится к кафе, маленькая.","w":["Die","Terrasse,","die","zum","Café","gehört,","ist","klein."],"ok":["Die Terrasse, die zum Café gehört, ist klein."],"n":"Придаточное внутри."},
+  {"ru":"Это квартира, которую обставил Пауль.","w":["Das","ist","die","Wohnung,","die","Paul","eingerichtet","hat."],"ok":["Das ist die Wohnung, die Paul eingerichtet hat."],"n":"<b>eingerichtet hat</b>."},
+  {"ru":"Это квартира, которую Пауль сейчас обставляет.","w":["Das","ist","die","Wohnung,","die","Paul","jetzt","einrichtet."],"ok":["Das ist die Wohnung, die Paul jetzt einrichtet."],"n":"Приставка срастается."},
+  {"ru":"Я сфотографировал дом, который стоит рядом со школой.","w":["Ich","habe","das","Haus","fotografiert,","das","neben","der","Schule","steht."],"ok":["Ich habe das Haus fotografiert, das neben der Schule steht.","Ich habe das Haus, das neben der Schule steht, fotografiert."],"n":"Причастие не оставляем ждать."},
+  {"ru":"Тому, кто живёт на первом этаже, лифт не нужен.","w":["Wer","im","Erdgeschoss","wohnt,","braucht","keinen","Aufzug."],"ok":["Wer im Erdgeschoss wohnt, braucht keinen Aufzug."],"n":"<b>wer</b> — тот, кто."}
+ ]}
+]
+}

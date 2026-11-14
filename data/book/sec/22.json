@@ -1,0 +1,63 @@
+{
+"22.1": [
+ {"type":"choice","title":"Будущее через Präsens","sub":"Время в словах — werden не нужен","items":[
+  {"s":"Ich ___ übermorgen um neun.","ru":"Я приду послезавтра в девять.","o":["komme","kam"],"a":"komme","n":"Präsens + слово времени."},
+  {"s":"Nächste Woche ___ wir in Köln.","ru":"На следующей неделе мы будем работать в Кёльне.","o":["arbeiten","arbeiteten"],"a":"arbeiten","n":"<b>arbeiten</b> — уже будущее."},
+  {"s":"Was machst du am Wochenende? Ich ___ meine Schwester.","ru":"Что делаешь на выходных? Навещу сестру.","o":["besuche","besuchte"],"a":"besuche","n":"Договорённость — Präsens."},
+  {"s":"Am Donnerstag ___ ich zu Hause.","ru":"В четверг я работаю дома.","o":["arbeite","werde"],"a":"arbeite","n":"Достаточно Präsens."}
+ ]}
+],
+"22.2": [
+ {"type":"build","title":"Futur I","sub":"werden вторым, инфинитив в конце","items":[
+  {"ru":"Я обязательно позвоню тебе после курса.","w":["Ich","werde","dich","nach","dem","Kurs","anrufen."],"ok":["Ich werde dich nach dem Kurs anrufen."],"n":"<b>werde … anrufen</b>."},
+  {"ru":"Цены вырастут.","w":["Die","Preise","werden","steigen."],"ok":["Die Preise werden steigen."],"n":"Прогноз — Futur."},
+  {"ru":"После еды мы уберёмся.","w":["Nach","dem","Essen","werden","wir","aufräumen."],"ok":["Nach dem Essen werden wir aufräumen."],"n":"werden вторым."},
+  {"ru":"Ты будешь больше читать.","w":["Du","wirst","mehr","lesen."],"ok":["Du wirst mehr lesen."],"n":"du → <b>wirst</b>."},
+  {"ru":"Думаю, Леа скоро вернётся.","w":["Ich","glaube,","dass","Lea","bald","zurückkommen","wird."],"ok":["Ich glaube, dass Lea bald zurückkommen wird."],"n":"В придаточном <b>wird</b> последним."}
+ ]}
+],
+"22.3": [
+ {"type":"choice","title":"Werden — становиться","sub":"Профессия без артикля, wurde, ist geworden","items":[
+  {"s":"Jonas ___ müde.","ru":"Йонас начинает уставать.","o":["wird","ist"],"a":"wird","n":"Изменение — <b>wird</b>."},
+  {"s":"Sie wird ___.","ru":"Она станет инженером.","o":["Ingenieurin","eine Ingenieurin"],"a":"Ingenieurin","n":"Профессия без артикля."},
+  {"s":"Sie wird ___ Ingenieurin.","ru":"Она станет хорошим инженером.","o":["eine gute","gute"],"a":"eine gute","n":"С оценкой — артикль."},
+  {"s":"Das Gespräch ___ interessant.","ru":"Разговор стал интересным.","o":["wurde","wird"],"a":"wurde","n":"Präteritum: <b>wurde</b>."},
+  {"s":"Das Gespräch ist interessant ___.","ru":"Разговор стал интересным. (Perfekt)","o":["geworden","gewordet"],"a":"geworden","n":"<b>ist geworden</b>."},
+  {"s":"Ich ___ Designerin werden.","ru":"Я хочу стать дизайнером.","o":["will","werde"],"a":"will","n":"Хочу — <b>will</b>."}
+ ]}
+],
+"22.4": [
+ {"type":"build","title":"Предположение","sub":"werden + wohl о настоящем","items":[
+  {"ru":"Это, наверное, Йонас.","w":["Das","wird","wohl","Jonas","sein."],"ok":["Das wird wohl Jonas sein."],"n":"<b>wird wohl … sein</b>."},
+  {"ru":"Пауль, наверное, ещё в ванной.","w":["Paul","wird","wohl","noch","im","Bad","sein."],"ok":["Paul wird wohl noch im Bad sein."],"n":"Предположение о сейчас."},
+  {"ru":"Гости, наверное, стоят в пробке.","w":["Die","Gäste","werden","wohl","im","Stau","stehen."],"ok":["Die Gäste werden wohl im Stau stehen."],"n":"<b>werden wohl … stehen</b>."}
+ ]}
+],
+"22.5": [
+ {"type":"choice","title":"Три работы werden","sub":"Смотрим в конец предложения","items":[
+  {"s":"Die Wohnung wird warm. — это…","ru":"В квартире теплеет.","o":["изменение","будущее","предположение"],"a":"изменение","n":"werden + прилагательное — становится."},
+  {"s":"Paul wird kochen. — это…","ru":"Пауль будет готовить.","o":["будущее","изменение","предположение"],"a":"будущее","n":"werden + инфинитив."},
+  {"s":"Paul wird wohl kochen. — это…","ru":"Пауль, наверное, готовит.","o":["предположение","изменение","будущее"],"a":"предположение","n":"wohl — предположение."},
+  {"s":"Sie wird Ärztin. — это…","ru":"Она станет врачом.","o":["изменение","будущее","предположение"],"a":"изменение","n":"werden + профессия."}
+ ]}
+],
+"22.6": [
+ {"type":"choice","title":"In, nach, sobald","sub":"Откуда считаем","items":[
+  {"s":"___ einem Monat beginnt mein Kurs.","ru":"Через месяц начинается мой курс.","o":["In","Nach"],"a":"In","n":"От сегодня — <b>in</b>."},
+  {"s":"Ich begann eine Ausbildung. ___ zwei Jahren wechselte ich den Betrieb.","ru":"Через два года я сменил предприятие.","o":["Nach","In"],"a":"Nach","n":"Внутри прошлого — <b>nach</b>."},
+  {"s":"___ der Regen aufhört, gehen wir spazieren.","ru":"Как только дождь закончится, пойдём гулять.","o":["Sobald","Bald"],"a":"Sobald","n":"<b>sobald</b> — как только."},
+  {"s":"Ich komme ___ zwei Tagen zurück.","ru":"Я вернусь через два дня.","o":["in","nach"],"a":"in","n":"<b>in zwei Tagen</b>."},
+  {"s":"Der Zug kommt ___ um acht an.","ru":"Поезд прибудет предположительно в восемь.","o":["voraussichtlich","sobald"],"a":"voraussichtlich","n":"<b>voraussichtlich</b>."}
+ ]}
+],
+"22.7": [
+ {"type":"type","title":"Погода","sub":"es не теряем; auf — до, um — на","items":[
+  {"s":"Morgen regnet ___.","ru":"Завтра будет дождь.","a":["es"],"hint":"es","n":"Без es нельзя."},
+  {"s":"___ schneit.","ru":"Идёт снег.","a":["Es"],"hint":"es","n":"<b>Es schneit</b>."},
+  {"s":"Die Temperatur steigt ___ elf Grad.","ru":"Температура повышается до одиннадцати градусов.","a":["auf"],"hint":"до","n":"До — <b>auf</b>."},
+  {"s":"Die Temperatur steigt ___ vier Grad.","ru":"Температура повышается на четыре градуса.","a":["um"],"hint":"на","n":"На — <b>um</b>."},
+  {"s":"Morgen bleibt es ___.","ru":"Завтра осадков не будет.","a":["trocken"],"hint":"сухо","n":"<b>trocken</b>."},
+  {"s":"Es wird ___.","ru":"Будет дождь.","a":["regnen"],"hint":"regnen","n":"<b>Es wird regnen</b>."}
+ ]}
+]
+}

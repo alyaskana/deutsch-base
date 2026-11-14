@@ -1,7 +1,7 @@
 {
  "title": "Глагол с предлогом: записываем вместе",
  "topic": "Книга · 25.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -117,5 +117,75 @@
    "Русский предлог не переносим автоматически. У глагола и родственного существительного тоже бывают разные сочетания."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Глагол + предлог",
+   "sub": "Учим вместе с падежом",
+   "items": [
+    {
+     "s": "Ich warte ___ eine E-Mail.",
+     "ru": "Я жду письма.",
+     "o": [
+      "auf",
+      "für"
+     ],
+     "a": "auf",
+     "n": "<b>warten auf</b> + Akk."
+    },
+    {
+     "s": "Sie interessiert sich ___ Kunst.",
+     "ru": "Она интересуется искусством.",
+     "o": [
+      "für",
+      "an"
+     ],
+     "a": "für",
+     "n": "<b>sich interessieren für</b>."
+    },
+    {
+     "s": "Ich denke ___ dich.",
+     "ru": "Я думаю о тебе.",
+     "o": [
+      "an",
+      "über"
+     ],
+     "a": "an",
+     "n": "<b>denken an</b> + Akk."
+    },
+    {
+     "s": "Wir sprechen ___ den Film.",
+     "ru": "Мы говорим о фильме.",
+     "o": [
+      "über",
+      "von"
+     ],
+     "a": "über",
+     "n": "<b>sprechen über</b>."
+    },
+    {
+     "s": "Paul kümmert sich ___ die Katze.",
+     "ru": "Пауль заботится о кошке.",
+     "o": [
+      "um",
+      "für"
+     ],
+     "a": "um",
+     "n": "<b>sich kümmern um</b>."
+    },
+    {
+     "s": "Ich träume ___ einem Haus.",
+     "ru": "Я мечтаю о доме.",
+     "o": [
+      "von",
+      "über"
+     ],
+     "a": "von",
+     "n": "<b>träumen von</b> + Dat."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

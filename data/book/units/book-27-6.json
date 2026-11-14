@@ -1,7 +1,7 @@
 {
  "title": "Чем дольше музыка, тем труднее ждать",
  "topic": "Книга · 27.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -97,5 +97,70 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Je … desto",
+   "sub": "После je глагол в конце, после desto — сразу",
+   "items": [
+    {
+     "ru": "Чем дольше играет музыка, тем злее я становлюсь.",
+     "w": [
+      "Je",
+      "länger",
+      "die",
+      "Musik",
+      "spielt,",
+      "desto",
+      "saurer",
+      "werde",
+      "ich."
+     ],
+     "ok": [
+      "Je länger die Musik spielt, desto saurer werde ich."
+     ],
+     "n": "<b>desto saurer werde ich</b>."
+    },
+    {
+     "ru": "Чем меньше у нас времени, тем быстрее мы работаем.",
+     "w": [
+      "Je",
+      "weniger",
+      "Zeit",
+      "wir",
+      "haben,",
+      "desto",
+      "schneller",
+      "arbeiten",
+      "wir."
+     ],
+     "ok": [
+      "Je weniger Zeit wir haben, desto schneller arbeiten wir."
+     ],
+     "n": "Не <s>desto wir arbeiten</s>."
+    },
+    {
+     "ru": "Чем больше телефонов мы заряжаем, тем больше электричества нужно.",
+     "w": [
+      "Je",
+      "mehr",
+      "Handys",
+      "wir",
+      "aufladen,",
+      "umso",
+      "mehr",
+      "Strom",
+      "brauchen",
+      "wir."
+     ],
+     "ok": [
+      "Je mehr Handys wir aufladen, umso mehr Strom brauchen wir."
+     ],
+     "n": "<b>umso</b> = desto."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

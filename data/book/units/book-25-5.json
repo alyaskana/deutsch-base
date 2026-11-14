@@ -1,7 +1,7 @@
 {
  "title": "Вопрос: вещь или человек?",
  "topic": "Книга · 25.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -107,5 +107,69 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Вопрос: вещь или человек",
+   "sub": "wo(r)- для вещей, предлог + wen/wem для людей",
+   "items": [
+    {
+     "s": "___ wartest du? — Auf den Bus.",
+     "ru": "Чего ты ждёшь? — Автобуса.",
+     "a": [
+      "Worauf"
+     ],
+     "hint": "auf + was",
+     "n": "Вещь — <b>worauf</b>."
+    },
+    {
+     "s": "Auf ___ wartest du? — Auf Lea.",
+     "ru": "Кого ты ждёшь? — Лею.",
+     "a": [
+      "wen"
+     ],
+     "hint": "auf + кого",
+     "n": "Человек — <b>auf wen</b>."
+    },
+    {
+     "s": "___ interessierst du dich?",
+     "ru": "Чем ты интересуешься?",
+     "a": [
+      "Wofür"
+     ],
+     "hint": "für + was",
+     "n": "<b>wofür</b>."
+    },
+    {
+     "s": "Mit ___ telefonierst du?",
+     "ru": "С кем ты говоришь по телефону?",
+     "a": [
+      "wem"
+     ],
+     "hint": "mit + кем",
+     "n": "<b>mit wem</b>."
+    },
+    {
+     "s": "___ denkst du?",
+     "ru": "О чём ты думаешь?",
+     "a": [
+      "Woran"
+     ],
+     "hint": "an + was",
+     "n": "<b>woran</b>."
+    },
+    {
+     "s": "Vor ___ hast du Angst?",
+     "ru": "Кого ты боишься?",
+     "a": [
+      "wem"
+     ],
+     "hint": "vor + кем",
+     "n": "<b>vor wem</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

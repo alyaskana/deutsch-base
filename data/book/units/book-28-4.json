@@ -1,7 +1,7 @@
 {
  "title": "Возвратное местоимение: кто записывается",
  "topic": "Книга · 28.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -127,5 +127,60 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Кто записывается",
+   "sub": "Местоимение по подлежащему действия",
+   "items": [
+    {
+     "s": "Ich habe vergessen, ___ anzumelden.",
+     "ru": "Я забыла записаться.",
+     "a": [
+      "mich"
+     ],
+     "hint": "ich",
+     "n": "Не sich: <b>mich</b>."
+    },
+    {
+     "s": "Ich bitte dich, ___ anzumelden.",
+     "ru": "Я прошу тебя записаться.",
+     "a": [
+      "dich"
+     ],
+     "hint": "du",
+     "n": "Записывается ты → <b>dich</b>."
+    },
+    {
+     "s": "Ich verspreche dir, ___ anzumelden.",
+     "ru": "Я обещаю тебе записаться.",
+     "a": [
+      "mich"
+     ],
+     "hint": "ich",
+     "n": "Записываюсь я → <b>mich</b>."
+    },
+    {
+     "s": "Die Lehrerin rät uns, ___ besser vorzubereiten.",
+     "ru": "Преподавательница советует нам лучше подготовиться.",
+     "a": [
+      "uns"
+     ],
+     "hint": "wir",
+     "n": "<b>uns</b>."
+    },
+    {
+     "s": "Er hat vergessen, ___ anzumelden.",
+     "ru": "Он забыл записаться.",
+     "a": [
+      "sich"
+     ],
+     "hint": "er",
+     "n": "<b>sich</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "Brauchen: диплом можно оставить дома",
  "topic": "Книга · 28.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -181,5 +181,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Brauchen, haben/sein zu",
+   "sub": "nicht brauchen zu — не нужно",
+   "items": [
+    {
+     "s": "Sie brauchen das Diplom nicht ___.",
+     "ru": "Диплом вам приносить не нужно.",
+     "o": [
+      "mitzubringen",
+      "mitbringen"
+     ],
+     "a": "mitzubringen",
+     "n": "<b>nicht brauchen … zu</b>."
+    },
+    {
+     "s": "Du ___ morgen kommen.",
+     "ru": "Тебе нужно завтра прийти.",
+     "o": [
+      "musst",
+      "brauchst"
+     ],
+     "a": "musst",
+     "n": "Положительная обязанность — <b>müssen</b>."
+    },
+    {
+     "s": "Du brauchst keinen Test zu ___.",
+     "ru": "Никакого теста проходить не нужно.",
+     "o": [
+      "machen",
+      "gemacht"
+     ],
+     "a": "machen",
+     "n": "<b>zu machen</b>."
+    },
+    {
+     "s": "Die Gebühr ist bis Donnerstag zu ___.",
+     "ru": "Сбор нужно оплатить до четверга.",
+     "o": [
+      "bezahlen",
+      "bezahlt"
+     ],
+     "a": "bezahlen",
+     "n": "<b>ist … zu bezahlen</b>."
+    },
+    {
+     "s": "Die Anleitung ist leicht zu ___.",
+     "ru": "Инструкцию легко понять.",
+     "o": [
+      "verstehen",
+      "verstanden"
+     ],
+     "a": "verstehen",
+     "n": "<b>leicht zu verstehen</b>."
+    },
+    {
+     "s": "Der Kurs scheint interessant zu ___.",
+     "ru": "Кажется, курс интересный.",
+     "o": [
+      "sein",
+      "ist"
+     ],
+     "a": "sein",
+     "n": "<b>scheint … zu sein</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "Прогноз погоды: не потеряйте es",
  "topic": "Книга · 22.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -144,5 +144,69 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Погода",
+   "sub": "es не теряем; auf — до, um — на",
+   "items": [
+    {
+     "s": "Morgen regnet ___.",
+     "ru": "Завтра будет дождь.",
+     "a": [
+      "es"
+     ],
+     "hint": "es",
+     "n": "Без es нельзя."
+    },
+    {
+     "s": "___ schneit.",
+     "ru": "Идёт снег.",
+     "a": [
+      "Es"
+     ],
+     "hint": "es",
+     "n": "<b>Es schneit</b>."
+    },
+    {
+     "s": "Die Temperatur steigt ___ elf Grad.",
+     "ru": "Температура повышается до одиннадцати градусов.",
+     "a": [
+      "auf"
+     ],
+     "hint": "до",
+     "n": "До — <b>auf</b>."
+    },
+    {
+     "s": "Die Temperatur steigt ___ vier Grad.",
+     "ru": "Температура повышается на четыре градуса.",
+     "a": [
+      "um"
+     ],
+     "hint": "на",
+     "n": "На — <b>um</b>."
+    },
+    {
+     "s": "Morgen bleibt es ___.",
+     "ru": "Завтра осадков не будет.",
+     "a": [
+      "trocken"
+     ],
+     "hint": "сухо",
+     "n": "<b>trocken</b>."
+    },
+    {
+     "s": "Es wird ___.",
+     "ru": "Будет дождь.",
+     "a": [
+      "regnen"
+     ],
+     "hint": "regnen",
+     "n": "<b>Es wird regnen</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

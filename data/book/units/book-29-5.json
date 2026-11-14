@@ -1,7 +1,7 @@
 {
  "title": "Dativ: «мне» остаётся «мне»",
  "topic": "Книга · 29.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -119,5 +119,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Dativ в пассиве",
+   "sub": "«Мне» остаётся mir; подлежащего может не быть",
+   "items": [
+    {
+     "s": "___ wird geholfen.",
+     "ru": "Мне помогают.",
+     "o": [
+      "Mir",
+      "Ich"
+     ],
+     "a": "Mir",
+     "n": "helfen + Dat → <b>mir</b>."
+    },
+    {
+     "s": "Der Nachbarin ___ geholfen.",
+     "ru": "Соседке помогли.",
+     "o": [
+      "wurde",
+      "wurden"
+     ],
+     "a": "wurde",
+     "n": "Подлежащего нет — ед. ч."
+    },
+    {
+     "s": "Den Nachbarn ___ geholfen.",
+     "ru": "Соседям помогли.",
+     "o": [
+      "wurde",
+      "wurden"
+     ],
+     "a": "wurde",
+     "n": "Dativ мн. не подлежащее → <b>wurde</b>."
+    },
+    {
+     "s": "Dem Mieter ___ zwei Pakete geschickt.",
+     "ru": "Жильцу отправили две посылки.",
+     "o": [
+      "wurden",
+      "wurde"
+     ],
+     "a": "wurden",
+     "n": "Подлежащее — zwei Pakete → <b>wurden</b>."
+    },
+    {
+     "s": "Die Böden werden jeden Abend ___.",
+     "ru": "Полы моются каждый вечер.",
+     "o": [
+      "geputzt",
+      "sich geputzt"
+     ],
+     "a": "geputzt",
+     "n": "Без sich."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "Sich lassen: когда рюкзак не открывается",
  "topic": "Книга · 30.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -154,5 +154,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "sich lassen и родственники",
+   "sub": "«можно», Lass dir Zeit, verlassen",
+   "items": [
+    {
+     "s": "Der Koffer lässt ___ leicht öffnen.",
+     "ru": "Чемодан легко открывается.",
+     "o": [
+      "sich",
+      "ihn"
+     ],
+     "a": "sich",
+     "n": "<b>lässt sich</b> = можно."
+    },
+    {
+     "s": "Diese Fehler lassen sich nicht ___.",
+     "ru": "Эти ошибки невозможно исправить.",
+     "o": [
+      "korrigieren",
+      "korrigiert"
+     ],
+     "a": "korrigieren",
+     "n": "Инфинитив в конце: <b>korrigieren</b>."
+    },
+    {
+     "s": "Lass ___ Zeit!",
+     "ru": "Не торопись!",
+     "o": [
+      "dir",
+      "dich"
+     ],
+     "a": "dir",
+     "n": "<b>Lass dir Zeit</b>."
+    },
+    {
+     "s": "Er ___ um acht das Haus.",
+     "ru": "Он выходит из дома в восемь.",
+     "o": [
+      "verlässt",
+      "entlässt"
+     ],
+     "a": "verlässt",
+     "n": "<b>verlassen</b> — покидать."
+    },
+    {
+     "s": "Die Firma ___ zehn Mitarbeiter.",
+     "ru": "Фирма увольняет десять сотрудников.",
+     "o": [
+      "entlässt",
+      "verlässt"
+     ],
+     "a": "entlässt",
+     "n": "<b>entlassen</b> — увольнять."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

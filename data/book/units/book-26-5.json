@@ -1,7 +1,7 @@
 {
  "title": "Предлог: ставим перед «которым»",
  "topic": "Книга · 26.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -98,5 +98,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Предлог перед «которым»",
+   "sub": "Предлог в начале придаточного",
+   "items": [
+    {
+     "s": "Ich kenne die Kollegin, mit ___ Paul spricht.",
+     "ru": "Я знаю коллегу, с которой разговаривает Пауль.",
+     "o": [
+      "der",
+      "die"
+     ],
+     "a": "der",
+     "n": "mit + Dat — <b>der</b>."
+    },
+    {
+     "s": "Das ist die Party, für ___ wir kochen.",
+     "ru": "Это вечеринка, для которой мы готовим.",
+     "o": [
+      "die",
+      "der"
+     ],
+     "a": "die",
+     "n": "für + Akk — <b>die</b>."
+    },
+    {
+     "s": "Das ist der Umzug, auf ___ ich mich freue.",
+     "ru": "Это переезд, которого я жду.",
+     "o": [
+      "den",
+      "dem"
+     ],
+     "a": "den",
+     "n": "sich freuen auf + Akk."
+    },
+    {
+     "s": "Das ist das Gebäude, in ___ Jonas wohnt.",
+     "ru": "Это здание, в котором живёт Йонас.",
+     "o": [
+      "dem",
+      "das"
+     ],
+     "a": "dem",
+     "n": "Где — Dat."
+    },
+    {
+     "s": "Das ist das Gebäude, in ___ Jonas einzieht.",
+     "ru": "Это здание, в которое въезжает Йонас.",
+     "o": [
+      "das",
+      "dem"
+     ],
+     "a": "das",
+     "n": "Куда — Akk."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

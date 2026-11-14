@@ -1,7 +1,7 @@
 {
  "title": "Вежливая просьба: оставляем человеку выбор",
  "topic": "Книга · 23.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -125,5 +125,55 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Вежливая просьба",
+   "sub": "Könnten / Würden / Hätten",
+   "items": [
+    {
+     "s": "___ du die Zahlen überprüfen?",
+     "ru": "Ты мог бы проверить цифры?",
+     "o": [
+      "Könntest",
+      "Kannst nicht"
+     ],
+     "a": "Könntest",
+     "n": "Мягко — <b>Könntest du</b>."
+    },
+    {
+     "s": "___ Sie bitte hier unterschreiben?",
+     "ru": "Подпишите, пожалуйста, вот здесь.",
+     "o": [
+      "Würden",
+      "Werden"
+     ],
+     "a": "Würden",
+     "n": "<b>Würden Sie</b>."
+    },
+    {
+     "s": "___ du kurz Zeit?",
+     "ru": "У тебя найдётся минутка?",
+     "o": [
+      "Hättest",
+      "Hast nicht"
+     ],
+     "a": "Hättest",
+     "n": "<b>Hättest du</b>."
+    },
+    {
+     "s": "___ Sie die Tür öffnen?",
+     "ru": "Вы не могли бы открыть дверь?",
+     "o": [
+      "Könnten",
+      "Könnten nicht"
+     ],
+     "a": "Könnten",
+     "n": "Без nicht — иначе звучит упрёком."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

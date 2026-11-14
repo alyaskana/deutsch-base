@@ -1,7 +1,7 @@
 {
  "title": "Место придаточного: не оставляем глагол ждать",
  "topic": "Книга · 26.8",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -156,5 +156,102 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Место придаточного",
+   "sub": "Глагол в конце; wer и was без названного человека",
+   "items": [
+    {
+     "ru": "Терраса, которая относится к кафе, маленькая.",
+     "w": [
+      "Die",
+      "Terrasse,",
+      "die",
+      "zum",
+      "Café",
+      "gehört,",
+      "ist",
+      "klein."
+     ],
+     "ok": [
+      "Die Terrasse, die zum Café gehört, ist klein."
+     ],
+     "n": "Придаточное внутри."
+    },
+    {
+     "ru": "Это квартира, которую обставил Пауль.",
+     "w": [
+      "Das",
+      "ist",
+      "die",
+      "Wohnung,",
+      "die",
+      "Paul",
+      "eingerichtet",
+      "hat."
+     ],
+     "ok": [
+      "Das ist die Wohnung, die Paul eingerichtet hat."
+     ],
+     "n": "<b>eingerichtet hat</b>."
+    },
+    {
+     "ru": "Это квартира, которую Пауль сейчас обставляет.",
+     "w": [
+      "Das",
+      "ist",
+      "die",
+      "Wohnung,",
+      "die",
+      "Paul",
+      "jetzt",
+      "einrichtet."
+     ],
+     "ok": [
+      "Das ist die Wohnung, die Paul jetzt einrichtet."
+     ],
+     "n": "Приставка срастается."
+    },
+    {
+     "ru": "Я сфотографировал дом, который стоит рядом со школой.",
+     "w": [
+      "Ich",
+      "habe",
+      "das",
+      "Haus",
+      "fotografiert,",
+      "das",
+      "neben",
+      "der",
+      "Schule",
+      "steht."
+     ],
+     "ok": [
+      "Ich habe das Haus fotografiert, das neben der Schule steht.",
+      "Ich habe das Haus, das neben der Schule steht, fotografiert."
+     ],
+     "n": "Причастие не оставляем ждать."
+    },
+    {
+     "ru": "Тому, кто живёт на первом этаже, лифт не нужен.",
+     "w": [
+      "Wer",
+      "im",
+      "Erdgeschoss",
+      "wohnt,",
+      "braucht",
+      "keinen",
+      "Aufzug."
+     ],
+     "ok": [
+      "Wer im Erdgeschoss wohnt, braucht keinen Aufzug."
+     ],
+     "n": "<b>wer</b> — тот, кто."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

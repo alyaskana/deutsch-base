@@ -1,7 +1,7 @@
 {
  "title": "Шесть пар: выбираем смысл",
  "topic": "Книга · 27.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -116,5 +116,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Парные союзы",
+   "sub": "sowohl … als auch, nicht nur … sondern auch, weder … noch, entweder … oder, zwar … aber",
+   "items": [
+    {
+     "s": "Ich vergleiche sowohl Tarif A ___ Tarif B.",
+     "ru": "Сравниваю и тариф А, и тариф Б.",
+     "o": [
+      "als auch",
+      "noch"
+     ],
+     "a": "als auch",
+     "n": "<b>sowohl … als auch</b>."
+    },
+    {
+     "s": "Ich finde weder den Stecker ___ die Quittung.",
+     "ru": "Не могу найти ни вилку, ни чек.",
+     "o": [
+      "noch",
+      "oder"
+     ],
+     "a": "noch",
+     "n": "<b>weder … noch</b>, без nicht."
+    },
+    {
+     "s": "Der Tarif ist zwar teuer, ___ wir wählen ihn.",
+     "ru": "Тариф хоть и дорогой, но мы его выбираем.",
+     "o": [
+      "aber",
+      "sondern"
+     ],
+     "a": "aber",
+     "n": "<b>zwar … aber</b>."
+    },
+    {
+     "s": "Entweder rufe ich an, ___ Paul schreibt.",
+     "ru": "Либо я позвоню, либо Пауль напишет.",
+     "o": [
+      "oder",
+      "noch"
+     ],
+     "a": "oder",
+     "n": "<b>entweder … oder</b>."
+    },
+    {
+     "s": "Alina hat nicht nur angerufen, ___ sie hat auch geschrieben.",
+     "ru": "Алина не только позвонила, но и написала.",
+     "o": [
+      "sondern",
+      "aber"
+     ],
+     "a": "sondern",
+     "n": "<b>nicht nur … sondern auch</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

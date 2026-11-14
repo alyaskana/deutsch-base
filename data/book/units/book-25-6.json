@@ -1,7 +1,7 @@
 {
  "title": "Короткий ответ: не повторяем целое название",
  "topic": "Книга · 25.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -146,5 +146,60 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Короткий ответ",
+   "sub": "da(r)- для вещей, предлог + местоимение для людей",
+   "items": [
+    {
+     "s": "Denkst du noch an unser Gespräch? Ja, ich denke ___.",
+     "ru": "Да, думаю об этом.",
+     "a": [
+      "daran"
+     ],
+     "hint": "an + это",
+     "n": "<b>daran</b>."
+    },
+    {
+     "s": "Denkst du noch an Lea? Ja, ich denke an ___.",
+     "ru": "Да, думаю о ней.",
+     "a": [
+      "sie"
+     ],
+     "hint": "an + она",
+     "n": "О человеке — <b>an sie</b>."
+    },
+    {
+     "s": "Ich freue mich ___, dass Lea wieder in Köln arbeitet.",
+     "ru": "Я рада, что Леа снова работает в Кёльне. (жду с радостью)",
+     "a": [
+      "darauf"
+     ],
+     "hint": "auf + это",
+     "n": "<b>darauf, dass</b>."
+    },
+    {
+     "s": "Es hängt ___ ab, ob Paul Zeit hat.",
+     "ru": "Это зависит от того, есть ли у Пауля время.",
+     "a": [
+      "davon"
+     ],
+     "hint": "von + это",
+     "n": "<b>davon ab</b>."
+    },
+    {
+     "s": "Hast du Angst vor dem Test? Ja, ich habe Angst ___.",
+     "ru": "Да, боюсь его.",
+     "a": [
+      "davor"
+     ],
+     "hint": "vor + это",
+     "n": "<b>davor</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

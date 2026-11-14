@@ -1,7 +1,7 @@
 {
  "title": "Konjunktiv I: по словам компании",
  "topic": "Книга · 27.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -152,5 +152,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Konjunktiv I",
+   "sub": "Чужие слова: sei, habe, werde, könne",
+   "items": [
+    {
+     "s": "Der Anbieter sagt, das Kabel ___ kaputt.",
+     "ru": "По словам провайдера, кабель повреждён.",
+     "o": [
+      "sei",
+      "ist"
+     ],
+     "a": "sei",
+     "n": "Чужая речь — <b>sei</b>."
+    },
+    {
+     "s": "Der Techniker sagt, er ___ einen neuen Router installiert.",
+     "ru": "Мастер говорит, что установил новый роутер.",
+     "o": [
+      "habe",
+      "hat"
+     ],
+     "a": "habe",
+     "n": "<b>habe installiert</b>."
+    },
+    {
+     "s": "Alina sagt, sie ___ nach Hause gefahren.",
+     "ru": "Алина говорит, что поехала домой.",
+     "o": [
+      "sei",
+      "habe"
+     ],
+     "a": "sei",
+     "n": "fahren → <b>sei gefahren</b>."
+    },
+    {
+     "s": "Die Firma sagt, sie ___ das Netz heute reparieren.",
+     "ru": "Фирма говорит, что может починить сеть сегодня.",
+     "o": [
+      "könne",
+      "kann"
+     ],
+     "a": "könne",
+     "n": "<b>könne</b>."
+    },
+    {
+     "s": "Er sagt, er ___ morgen kommen.",
+     "ru": "Он говорит, что придёт завтра.",
+     "o": [
+      "werde",
+      "wird"
+     ],
+     "a": "werde",
+     "n": "<b>werde</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

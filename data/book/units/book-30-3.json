@@ -1,7 +1,7 @@
 {
  "title": "TeKaMoLo: рассказ по четырём вопросам",
  "topic": "Книга · 30.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -116,5 +116,56 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "TeKaMoLo",
+   "sub": "когда — почему — как — где",
+   "items": [
+    {
+     "ru": "Мы во вторник из-за поломки поехали домой на такси.",
+     "w": [
+      "Wir",
+      "sind",
+      "am",
+      "Dienstag",
+      "wegen",
+      "einer",
+      "Panne",
+      "mit",
+      "dem",
+      "Taxi",
+      "nach",
+      "Hause",
+      "gefahren"
+     ],
+     "ok": [
+      "Wir sind am Dienstag wegen einer Panne mit dem Taxi nach Hause gefahren"
+     ],
+     "n": "Te — <b>am Dienstag</b>, Ka — <b>wegen einer Panne</b>, Mo — <b>mit dem Taxi</b>, Lo — <b>nach Hause</b>."
+    },
+    {
+     "ru": "Я сегодня из-за дождя иду на работу пешком.",
+     "w": [
+      "Ich",
+      "gehe",
+      "heute",
+      "wegen",
+      "des",
+      "Regens",
+      "zu",
+      "Fuß",
+      "zur",
+      "Arbeit"
+     ],
+     "ok": [
+      "Ich gehe heute wegen des Regens zu Fuß zur Arbeit"
+     ],
+     "n": "<b>heute</b> → <b>wegen des Regens</b> → <b>zu Fuß</b> → <b>zur Arbeit</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

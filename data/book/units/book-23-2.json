@@ -1,7 +1,7 @@
 {
  "title": "Hätte, wäre, würde: с чего начать",
  "topic": "Книга · 23.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -140,5 +140,69 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Hätte, wäre, würde",
+   "sub": "Для действия — würde + инфинитив",
+   "items": [
+    {
+     "s": "Ich ___ gern einen freien Nachmittag.",
+     "ru": "Мне бы хотелось свободную вторую половину дня.",
+     "a": [
+      "hätte"
+     ],
+     "hint": "haben",
+     "n": "<b>hätte</b>."
+    },
+    {
+     "s": "Ich ___ gern rechtzeitig fertig.",
+     "ru": "Я бы хотел закончить вовремя.",
+     "a": [
+      "wäre"
+     ],
+     "hint": "sein",
+     "n": "<b>wäre</b>."
+    },
+    {
+     "s": "Ich ___ einen Drucker kaufen.",
+     "ru": "Я бы купил принтер.",
+     "a": [
+      "würde"
+     ],
+     "hint": "werden",
+     "n": "<b>würde … kaufen</b>."
+    },
+    {
+     "s": "Du ___ mehr Zeit.",
+     "ru": "У тебя было бы больше времени.",
+     "a": [
+      "hättest"
+     ],
+     "hint": "haben",
+     "n": "du → <b>hättest</b>."
+    },
+    {
+     "s": "Wir ___ gern in Wien.",
+     "ru": "Мы бы хотели быть в Вене.",
+     "a": [
+      "wären"
+     ],
+     "hint": "sein",
+     "n": "<b>wären</b>."
+    },
+    {
+     "s": "Paul weiß, dass ich gern weniger arbeiten ___.",
+     "ru": "Пауль знает, что я бы охотно работала меньше.",
+     "a": [
+      "würde"
+     ],
+     "hint": "werden",
+     "n": "В придаточном — в конце."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

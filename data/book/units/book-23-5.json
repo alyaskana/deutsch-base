@@ -1,7 +1,7 @@
 {
  "title": "Совет: что бы я сделал на вашем месте",
  "topic": "Книга · 23.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -92,5 +92,78 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Совет",
+   "sub": "An deiner Stelle würde ich…, du solltest…",
+   "items": [
+    {
+     "ru": "На твоём месте я бы позвонил клиенту.",
+     "w": [
+      "An",
+      "deiner",
+      "Stelle",
+      "würde",
+      "ich",
+      "den",
+      "Kunden",
+      "anrufen."
+     ],
+     "ok": [
+      "An deiner Stelle würde ich den Kunden anrufen."
+     ],
+     "n": "<b>würde ich … anrufen</b>."
+    },
+    {
+     "ru": "Ты мог бы спросить коллегу.",
+     "w": [
+      "Du",
+      "könntest",
+      "den",
+      "Kollegen",
+      "fragen."
+     ],
+     "ok": [
+      "Du könntest den Kollegen fragen."
+     ],
+     "n": "<b>könntest … fragen</b>."
+    },
+    {
+     "ru": "Тебе стоит сейчас пойти домой.",
+     "w": [
+      "Du",
+      "solltest",
+      "jetzt",
+      "nach",
+      "Hause",
+      "gehen."
+     ],
+     "ok": [
+      "Du solltest jetzt nach Hause gehen."
+     ],
+     "n": "Совет — <b>solltest</b>."
+    },
+    {
+     "ru": "Было бы лучше, если бы ты отдохнул.",
+     "w": [
+      "Es",
+      "wäre",
+      "besser,",
+      "wenn",
+      "du",
+      "dich",
+      "ausruhen",
+      "würdest."
+     ],
+     "ok": [
+      "Es wäre besser, wenn du dich ausruhen würdest."
+     ],
+     "n": "<b>würdest</b> в конце."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

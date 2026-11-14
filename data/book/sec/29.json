@@ -1,0 +1,62 @@
+{
+"29.1": [
+ {"type":"type","title":"Пассив: werden + Partizip II","sub":"Akkusativ становится подлежащим","items":[
+  {"s":"Das Dach ___ repariert.","ru":"Крышу ремонтируют.","a":["wird"],"hint":"werden","n":"<b>wird repariert</b>."},
+  {"s":"Die Böden ___ gereinigt.","ru":"Полы чистят.","a":["werden"],"hint":"werden","n":"Мн. — <b>werden</b>."},
+  {"s":"Der Boden wird ___.","ru":"Пол чистят.","a":["gereinigt"],"hint":"reinigen","n":"<b>gereinigt</b>."},
+  {"s":"Die Fenster werden ___.","ru":"Окна моют.","a":["geputzt"],"hint":"putzen","n":"<b>geputzt</b>."},
+  {"s":"Der Brief ___ geschrieben.","ru":"Письмо пишут.","a":["wird"],"hint":"werden","n":"<b>wird</b>."}
+ ]}
+],
+"29.2": [
+ {"type":"choice","title":"Времена пассива","sub":"wurde, ist … worden","items":[
+  {"s":"Die Wand ___ repariert.","ru":"Стену отремонтировали. (Präteritum)","o":["wurde","wird"],"a":"wurde","n":"<b>wurde repariert</b>."},
+  {"s":"Der Raum ist renoviert ___.","ru":"Помещение отремонтировали.","o":["worden","geworden"],"a":"worden","n":"В пассиве — <b>worden</b>."},
+  {"s":"Der Raum ist heller ___.","ru":"Помещение стало светлее.","o":["geworden","worden"],"a":"geworden","n":"«Стать» — <b>geworden</b>."},
+  {"s":"Die Wände ___ repariert.","ru":"Стены отремонтировали. (Präteritum)","o":["wurden","wurde"],"a":"wurden","n":"Мн. — <b>wurden</b>."},
+  {"s":"Wir warten, weil die Wand repariert ___.","ru":"Мы ждём, потому что стену ремонтируют.","o":["wird","worden"],"a":"wird","n":"В придаточном — в конце."},
+  {"s":"Das Kind ___ ruhig.","ru":"Ребёнок успокаивается.","o":["wird","ist geworden"],"a":"wird","n":"werden + прилагательное — становиться."}
+ ]}
+],
+"29.3": [
+ {"type":"choice","title":"Событие или состояние","sub":"wurde gebaut / war gebaut","items":[
+  {"s":"Das Haus ___ 1911 gebaut.","ru":"Дом построили в 1911 году.","o":["wurde","war"],"a":"wurde","n":"Событие — <b>wurde</b>."},
+  {"s":"1911 ___ das Haus schon gebaut.","ru":"В 1911 году дом уже был построен.","o":["war","wurde"],"a":"war","n":"Состояние — <b>war</b>."},
+  {"s":"Die Brücke ___ letztes Jahr eröffnet.","ru":"Мост открыли в прошлом году.","o":["wurde","war"],"a":"wurde","n":"Событие."}
+ ]}
+],
+"29.4": [
+ {"type":"build","title":"Модальный пассив","sub":"Модальный + Partizip II + werden","items":[
+  {"ru":"Лифт собираются модернизировать.","w":["Der","Aufzug","soll","modernisiert","werden."],"ok":["Der Aufzug soll modernisiert werden."],"n":"<b>soll … werden</b>."},
+  {"ru":"Счёт нужно оплатить.","w":["Die","Rechnung","muss","bezahlt","werden."],"ok":["Die Rechnung muss bezahlt werden."],"n":"<b>muss bezahlt werden</b>."},
+  {"ru":"Устройство можно починить.","w":["Das","Gerät","kann","repariert","werden."],"ok":["Das Gerät kann repariert werden."],"n":"<b>kann repariert werden</b>."},
+  {"ru":"Машину пришлось заменить.","w":["Die","Maschine","musste","ersetzt","werden."],"ok":["Die Maschine musste ersetzt werden."],"n":"<b>musste … werden</b>."},
+  {"ru":"Я знаю, что машину нужно заменить.","w":["Ich","weiß,","dass","die","Maschine","ersetzt","werden","muss."],"ok":["Ich weiß, dass die Maschine ersetzt werden muss."],"n":"В придаточном модальный последним."}
+ ]}
+],
+"29.5": [
+ {"type":"choice","title":"Dativ в пассиве","sub":"«Мне» остаётся mir; подлежащего может не быть","items":[
+  {"s":"___ wird geholfen.","ru":"Мне помогают.","o":["Mir","Ich"],"a":"Mir","n":"helfen + Dat → <b>mir</b>."},
+  {"s":"Der Nachbarin ___ geholfen.","ru":"Соседке помогли.","o":["wurde","wurden"],"a":"wurde","n":"Подлежащего нет — ед. ч."},
+  {"s":"Den Nachbarn ___ geholfen.","ru":"Соседям помогли.","o":["wurde","wurden"],"a":"wurde","n":"Dativ мн. не подлежащее → <b>wurde</b>."},
+  {"s":"Dem Mieter ___ zwei Pakete geschickt.","ru":"Жильцу отправили две посылки.","o":["wurden","wurde"],"a":"wurden","n":"Подлежащее — zwei Pakete → <b>wurden</b>."},
+  {"s":"Die Böden werden jeden Abend ___.","ru":"Полы моются каждый вечер.","o":["geputzt","sich geputzt"],"a":"geputzt","n":"Без sich."}
+ ]}
+],
+"29.6": [
+ {"type":"choice","title":"Процесс или результат","sub":"wird geschlossen / ist geschlossen","items":[
+  {"s":"Um 18:00: Die Tür ___ geschlossen.","ru":"Дверь закрывают.","o":["wird","ist"],"a":"wird","n":"Действие — <b>wird</b>."},
+  {"s":"Um 18:05: Die Tür ___ geschlossen.","ru":"Дверь закрыта.","o":["ist","wird"],"a":"ist","n":"Результат — <b>ist</b>."},
+  {"s":"Die Garage ___ geöffnet.","ru":"Гараж был открыт.","o":["war","wurde"],"a":"war","n":"Состояние — <b>war</b>."},
+  {"s":"Die Tür ___ schon abgeschlossen.","ru":"Дверь уже заперта.","o":["ist","wird"],"a":"ist","n":"<b>ist</b>."}
+ ]}
+],
+"29.7": [
+ {"type":"choice","title":"Von, durch, man","sub":"Кто или что вызвало действие","items":[
+  {"s":"Die Rechnung wird ___ der Hausverwaltung überprüft.","ru":"Счёт проверяет управляющая компания.","o":["von","durch"],"a":"von","n":"Деятель — <b>von</b>."},
+  {"s":"Die Wand wurde ___ Wasser beschädigt.","ru":"Стену повредила вода.","o":["durch","von"],"a":"durch","n":"Причина, средство — <b>durch</b>."},
+  {"s":"___ repariert den Aufzug.","ru":"Лифт ремонтируют.","o":["Man","Es"],"a":"Man","n":"Актив с <b>man</b>."},
+  {"s":"Man repariert ___ Aufzug.","ru":"Лифт ремонтируют.","o":["den","der"],"a":"den","n":"В активе снова Akkusativ."}
+ ]}
+]
+}

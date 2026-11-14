@@ -1,7 +1,7 @@
 {
  "title": "Plusquamperfekt: что было до этого",
  "topic": "Книга · 21.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -124,5 +124,60 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Plusquamperfekt",
+   "sub": "hatte/war + Partizip II — раньше другого прошлого",
+   "items": [
+    {
+     "s": "Frau Schmitz ___ ihr Geschäft längst verkauft.",
+     "ru": "Фрау Шмитц к тому времени давно продала своё дело.",
+     "a": [
+      "hatte"
+     ],
+     "hint": "haben",
+     "n": "<b>hatte verkauft</b>."
+    },
+    {
+     "s": "Paul kam nach Hause. Alina ___ schon gegangen.",
+     "ru": "Пауль пришёл домой. Алина уже ушла.",
+     "a": [
+      "war"
+     ],
+     "hint": "sein",
+     "n": "gehen → <b>war gegangen</b>."
+    },
+    {
+     "s": "Er war schon nach Leipzig ___.",
+     "ru": "Он уже переехал в Лейпциг.",
+     "a": [
+      "umgezogen"
+     ],
+     "hint": "umziehen",
+     "n": "<b>umgezogen</b>."
+    },
+    {
+     "s": "Was ___ passiert?",
+     "ru": "Что случилось (до этого)?",
+     "a": [
+      "war"
+     ],
+     "hint": "sein",
+     "n": "<b>war passiert</b>."
+    },
+    {
+     "s": "Wir hatten vorher lange ___.",
+     "ru": "До этого мы долго работали.",
+     "a": [
+      "gearbeitet"
+     ],
+     "hint": "arbeiten",
+     "n": "<b>hatten gearbeitet</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "In, nach, sobald: откуда считать",
  "topic": "Книга · 22.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -151,5 +151,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "In, nach, sobald",
+   "sub": "Откуда считаем",
+   "items": [
+    {
+     "s": "___ einem Monat beginnt mein Kurs.",
+     "ru": "Через месяц начинается мой курс.",
+     "o": [
+      "In",
+      "Nach"
+     ],
+     "a": "In",
+     "n": "От сегодня — <b>in</b>."
+    },
+    {
+     "s": "Ich begann eine Ausbildung. ___ zwei Jahren wechselte ich den Betrieb.",
+     "ru": "Через два года я сменил предприятие.",
+     "o": [
+      "Nach",
+      "In"
+     ],
+     "a": "Nach",
+     "n": "Внутри прошлого — <b>nach</b>."
+    },
+    {
+     "s": "___ der Regen aufhört, gehen wir spazieren.",
+     "ru": "Как только дождь закончится, пойдём гулять.",
+     "o": [
+      "Sobald",
+      "Bald"
+     ],
+     "a": "Sobald",
+     "n": "<b>sobald</b> — как только."
+    },
+    {
+     "s": "Ich komme ___ zwei Tagen zurück.",
+     "ru": "Я вернусь через два дня.",
+     "o": [
+      "in",
+      "nach"
+     ],
+     "a": "in",
+     "n": "<b>in zwei Tagen</b>."
+    },
+    {
+     "s": "Der Zug kommt ___ um acht an.",
+     "ru": "Поезд прибудет предположительно в восемь.",
+     "o": [
+      "voraussichtlich",
+      "sobald"
+     ],
+     "a": "voraussichtlich",
+     "n": "<b>voraussichtlich</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

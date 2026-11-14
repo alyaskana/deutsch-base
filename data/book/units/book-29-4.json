@@ -1,7 +1,7 @@
 {
  "title": "Модальный пассив: лифт ничего не хочет",
  "topic": "Книга · 29.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -122,5 +122,88 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Модальный пассив",
+   "sub": "Модальный + Partizip II + werden",
+   "items": [
+    {
+     "ru": "Лифт собираются модернизировать.",
+     "w": [
+      "Der",
+      "Aufzug",
+      "soll",
+      "modernisiert",
+      "werden."
+     ],
+     "ok": [
+      "Der Aufzug soll modernisiert werden."
+     ],
+     "n": "<b>soll … werden</b>."
+    },
+    {
+     "ru": "Счёт нужно оплатить.",
+     "w": [
+      "Die",
+      "Rechnung",
+      "muss",
+      "bezahlt",
+      "werden."
+     ],
+     "ok": [
+      "Die Rechnung muss bezahlt werden."
+     ],
+     "n": "<b>muss bezahlt werden</b>."
+    },
+    {
+     "ru": "Устройство можно починить.",
+     "w": [
+      "Das",
+      "Gerät",
+      "kann",
+      "repariert",
+      "werden."
+     ],
+     "ok": [
+      "Das Gerät kann repariert werden."
+     ],
+     "n": "<b>kann repariert werden</b>."
+    },
+    {
+     "ru": "Машину пришлось заменить.",
+     "w": [
+      "Die",
+      "Maschine",
+      "musste",
+      "ersetzt",
+      "werden."
+     ],
+     "ok": [
+      "Die Maschine musste ersetzt werden."
+     ],
+     "n": "<b>musste … werden</b>."
+    },
+    {
+     "ru": "Я знаю, что машину нужно заменить.",
+     "w": [
+      "Ich",
+      "weiß,",
+      "dass",
+      "die",
+      "Maschine",
+      "ersetzt",
+      "werden",
+      "muss."
+     ],
+     "ok": [
+      "Ich weiß, dass die Maschine ersetzt werden muss."
+     ],
+     "n": "В придаточном модальный последним."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "Цель: чтобы кто именно это сделал",
  "topic": "Книга · 28.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -129,5 +129,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Um … zu или damit",
+   "sub": "Тот же человек или другой",
+   "items": [
+    {
+     "s": "Ich schreibe Paul, ___ Hilfe zu bekommen.",
+     "ru": "Я пишу Паулю, чтобы получить помощь.",
+     "o": [
+      "um",
+      "damit"
+     ],
+     "a": "um",
+     "n": "Тот же человек — <b>um … zu</b>."
+    },
+    {
+     "s": "Ich schreibe Paul, ___ er Hilfe bekommt.",
+     "ru": "Я пишу Паулю, чтобы он получил помощь.",
+     "o": [
+      "damit",
+      "um"
+     ],
+     "a": "damit",
+     "n": "Другой — <b>damit</b>."
+    },
+    {
+     "s": "Ich bin zu nervös, um ruhig zu ___.",
+     "ru": "Я слишком волнуюсь, чтобы говорить спокойно.",
+     "o": [
+      "sprechen",
+      "spreche"
+     ],
+     "a": "sprechen",
+     "n": "<b>zu … um … zu</b>."
+    },
+    {
+     "s": "Ich bin ruhig ___, um das Gespräch zu führen.",
+     "ru": "Я достаточно спокойна, чтобы вести разговор.",
+     "o": [
+      "genug",
+      "zu"
+     ],
+     "a": "genug",
+     "n": "<b>genug, um … zu</b>."
+    },
+    {
+     "s": "Ich möchte, ___ ihr antwortet.",
+     "ru": "Я хочу, чтобы вы ответили.",
+     "o": [
+      "dass",
+      "damit"
+     ],
+     "a": "dass",
+     "n": "Желание, не цель — <b>dass</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }
