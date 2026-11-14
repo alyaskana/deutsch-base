@@ -28,10 +28,11 @@ def stages(l):
     for st in l.get('stages') or []:yield st
     for ch in l.get('chapters') or []:
         for st in ch.get('stages') or []:yield st
-SKIP={'color','shape','type','id','pic','icon','cover','kind','createdAt','order','partner','tr','trf','ru','n','sub','title','topic','hint','note','bins','skill','theory','ask','pin','ph','check','q'}
+SKIP={'src','k','c','alt','color','shape','type','id','pic','icon','cover','kind','createdAt','order','partner','tr','trf','ru','n','sub','title','topic','hint','note','bins','skill','theory','ask','pin','ph','check','q'}
 def german_strings(o,k=None):
     if isinstance(o,str):
-        if k not in SKIP and not CYR.search(o) and WORD.search(o):yield o
+        # картинки в уроках книги лежат как data:-URI в base64: это не текст
+        if k not in SKIP and not o.startswith('data:') and not CYR.search(o) and WORD.search(o):yield o
     elif isinstance(o,list):
         for x in o:yield from german_strings(x,k)
     elif isinstance(o,dict):
@@ -41,7 +42,7 @@ def german_strings(o,k=None):
 groups=[];seen=set()
 STOP={'ie','ei','akk','dat','nom','gen','acc','sg','pl'}
 def add(g,t,kind):
-    if kind=='t' and t.lower() in STOP:return
+    if kind=='t' and (t.lower() in STOP or len(t)<2):return  # отдельные буквы не озвучиваем
     t=plain(t).replace('___','…').strip(' —')
     k=key(t)
     if not k or k in seen or len(t)>240 or CYR.search(t):return
@@ -67,7 +68,10 @@ for f in sorted(glob.glob(DB+'/lessons/*.json')):
     for s in german_strings(l_words):
         for w in WORD.findall(plain(re.sub(r'\{\{([^|}]+)\|[^}]*\}\}',r'\1',s))):add(g,w,'t')
     groups.append([lid,g])
-d=json.load(open(DB+'/lessons/_dict.json'));j=json.loads(d['j']) if isinstance(d['j'],str) else d['j']
+# _dict: до 2026-11-14 строки лежали в d['j'] (строка JSON или объект с 'd'), с 2026-11-14 прямо в d['d']
+d=json.load(open(DB+'/lessons/_dict.json'))
+if 'j' in d:j=json.loads(d['j']) if isinstance(d['j'],str) else d['j']
+else:j={'d':d.get('d') or []}
 g=[]
 for r in j['d']:
     lemma=r[0];art=r[1] if len(r)>1 else ''
