@@ -1,0 +1,145 @@
+{
+ "id": "book-25-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Interviewer",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Entschuldigung, worauf freuen Sie sich?",
+   "ru": "Извините, чего вы с радостью ждёте?",
+   "tag": "[Straßeninterview, Köln]"
+  },
+  {
+   "who": "Passantin 1",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Auf das Konzert am Sonntag. Es ist draußen, am Rhein. Aber ich habe Angst vor einem Sturm.",
+   "ru": "Концерта в воскресенье. Он на улице, на Рейне. Но я боюсь бури."
+  },
+  {
+   "who": "Interviewer",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Und was machen Sie selbst gern?",
+   "ru": "А что вы сами любите делать?"
+  },
+  {
+   "who": "Passantin 1",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Ich tanze gern.",
+   "ru": "Я люблю танцевать."
+  },
+  {
+   "who": "Interviewer",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Worüber freuen Sie sich heute?",
+   "ru": "Чему вы сегодня радуетесь?",
+   "tag": "[Hamburg]"
+  },
+  {
+   "who": "Passant 2",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Über die Kamera von meiner Schwester. Sie hat sie mir geschenkt. Jetzt fotografiere ich die Stadt.",
+   "ru": "Фотоаппарату от сестры. Она мне его подарила. Теперь я фотографирую город."
+  },
+  {
+   "who": "Interviewer",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Was macht Ihre Tochter am Wochenende?",
+   "ru": "Что делает ваша дочь на выходных?",
+   "tag": "[Zürich]"
+  },
+  {
+   "who": "Passantin 3",
+   "voice": "rf6om1hG105SScFBBLVW",
+   "de": "Sie klettert. Ich bin stolz auf meine Tochter. Aber ich mache mir auch Sorgen um sie. Ich sage ihr immer: Trag Sorge zu dir!",
+   "ru": "Она лазает по скалам. Я горжусь дочерью. Но я и волнуюсь за неё. Я ей всегда говорю: береги себя!"
+  },
+  {
+   "who": "Interviewer",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Worauf freuen Sie sich?",
+   "ru": "Чего вы с радостью ждёте?",
+   "tag": "[Hamburg]"
+  },
+  {
+   "who": "Passant 4",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Auf morgen. Meine Schwester kommt nach Hamburg. Wir interessieren uns beide für Kunst und gehen ins Museum.",
+   "ru": "Завтрашнего дня. Моя сестра приезжает в Гамбург. Мы оба интересуемся искусством и пойдём в музей."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 25.5",
+  "scene": "Straßeninterviews",
+  "cap": "Четыре уличных интервью",
+  "sub": "Кёльн, Гамбург, Цюрих, снова Гамбург. Чего ждут, чему радуются, чем гордятся?",
+  "speakers": {
+   "Interviewer": "Германия",
+   "Passantin 1": "Германия",
+   "Passant 2": "Германия",
+   "Passantin 3": "Швейцария",
+   "Passant 4": "Германия"
+  },
+  "qs": [
+   [
+    "Чего с радостью ждёт первая собеседница?",
+    [
+     "концерта",
+     "поездки",
+     "письма"
+    ],
+    "<b>Auf das Konzert</b> am Sonntag",
+    "sich freuen auf — о будущем."
+   ],
+   [
+    "Чего боится первая собеседница?",
+    [
+     "бури",
+     "болезни",
+     "разговора"
+    ],
+    "ich habe <b>Angst vor einem Sturm</b>",
+    "Angst vor + Dativ."
+   ],
+   [
+    "Чему радуется второй собеседник?",
+    [
+     "уже полученному подарку",
+     "предстоящему отпуску",
+     "новому контракту"
+    ],
+    "<b>Über die Kamera</b> von meiner Schwester. Sie hat sie mir geschenkt",
+    "sich freuen über — о том, что уже есть."
+   ],
+   [
+    "Чем гордится третья собеседница?",
+    [
+     "дочерью",
+     "зарплатой",
+     "квартирой"
+    ],
+    "Ich bin <b>stolz auf meine Tochter</b>",
+    "stolz auf + Akkusativ."
+   ],
+   [
+    "Чего ждёт четвёртый собеседник?",
+    [
+     "приезда сестры",
+     "экзамена",
+     "работы"
+    ],
+    "<b>Auf morgen</b>. Meine Schwester kommt nach Hamburg",
+    "Завтра приедет сестра."
+   ],
+   [
+    "Кто использует региональное сочетание?",
+    [
+     "третья собеседница",
+     "четвёртый собеседник",
+     "второй собеседник"
+    ],
+    "<b>Trag Sorge zu dir!</b>",
+    "Швейцарское «береги себя»."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 30",
+ "sub": "Пять заданий в конце урока 30: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 30,
+  "s": "30.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "build",
+   "title": "Проверь себя 30.C: переведи",
+   "sub": "Ответьте без таблиц. В заданиях с готовым началом сохраните его.",
+   "items": [
+    {
+     "ru": "Ich leihe …: поставьте рядом ihm / es.",
+     "w": [
+      "Ich",
+      "leihe",
+      "es",
+      "ihm"
+     ],
+     "ok": [
+      "Ich leihe es ihm"
+     ],
+     "n": "Akkusativ-местоимение перед Dativ-местоимением."
+    },
+    {
+     "ru": "Соберите: [mit dem Fahrrad / morgen / ins Büro / ich / wegen der Umleitung / fahre].",
+     "w": [
+      "Ich",
+      "fahre",
+      "morgen",
+      "wegen",
+      "der",
+      "Umleitung",
+      "mit",
+      "dem",
+      "Fahrrad",
+      "ins",
+      "Büro"
+     ],
+     "ok": [
+      "Ich fahre morgen wegen der Umleitung mit dem Fahrrad ins Büro"
+     ],
+     "n": "При любом начале оставшиеся обстоятельства сохраняют нейтральный порядок."
+    },
+    {
+     "ru": "Поездки не было. Вставьте nicht: Wir sind am Freitag wegen des Staus nach Düsseldorf gefahren.",
+     "w": [
+      "Wir",
+      "sind",
+      "am",
+      "Freitag",
+      "wegen",
+      "des",
+      "Staus",
+      "nicht",
+      "nach",
+      "Düsseldorf",
+      "gefahren"
+     ],
+     "ok": [
+      "Wir sind am Freitag wegen des Staus nicht nach Düsseldorf gefahren"
+     ],
+     "n": "Время и причина предшествуют общему отрицанию."
+    },
+    {
+     "ru": "Скажите с lassen: «Дверь не закрывается». Начните с Die Tür.",
+     "w": [
+      "Die",
+      "Tür",
+      "lässt",
+      "sich",
+      "nicht",
+      "zumachen"
+     ],
+     "ok": [
+      "Die Tür lässt sich nicht zumachen"
+     ],
+     "n": "Sich lassen говорит о возможности выполнить действие."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  },
+  {
+   "type": "type",
+   "title": "Проверь себя 30.C: впиши",
+   "sub": "Ответьте без таблиц. В заданиях с готовым началом сохраните его.",
+   "items": [
+    {
+     "s": "Ich lasse ___ die Haare ….",
+     "ru": "Парикмахер стрижёт вам волосы. Дополните от своего лица",
+     "a": [
+      "mir"
+     ],
+     "hint": "",
+     "n": "Волосы уже занимают Akkusativ, получатель услуги в Dativ."
+    },
+    {
+     "s": "Ich lasse mir die Haare ___.",
+     "ru": "Парикмахер стрижёт вам волосы. Дополните от своего лица",
+     "a": [
+      "schneiden"
+     ],
+     "hint": "",
+     "n": "Волосы уже занимают Akkusativ, получатель услуги в Dativ."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  }
+ ]
+}

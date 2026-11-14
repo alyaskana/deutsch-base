@@ -1,0 +1,723 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 22",
+ "sub": "Упражнения урока 22 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 22,
+  "s": "22.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 22.1",
+   "sub": "Отнесите фразы к группам; пассив пока только узнаём. Слова времени и ситуация помогают отличить будущее от настоящего.",
+   "items": [
+    {
+     "s": "Der Tee wird kalt. ___",
+     "ru": "",
+     "a": [
+      "a"
+     ],
+     "hint": "",
+     "n": "Прилагательное показывает изменение температуры."
+    },
+    {
+     "s": "Ab morgen werde ich Strom sparen. ___",
+     "ru": "",
+     "a": [
+      "b"
+     ],
+     "hint": "",
+     "n": "Инфинитив и срок показывают будущее намерение."
+    },
+    {
+     "s": "Er wird wohl duschen. ___",
+     "ru": "Телефон Пауля не отвечает",
+     "a": [
+      "c"
+     ],
+     "hint": "",
+     "n": "Догадка о занятии Пауля сейчас."
+    },
+    {
+     "s": "Die Tür wird geöffnet. ___",
+     "ru": "",
+     "a": [
+      "d"
+     ],
+     "hint": "",
+     "n": "Пассив: дверь открывают. Подробно в уроке 29."
+    },
+    {
+     "s": "Meine Schwester wird Ärztin. ___",
+     "ru": "",
+     "a": [
+      "a"
+     ],
+     "hint": "",
+     "n": "Профессия без артикля; значение «становиться»."
+    },
+    {
+     "s": "Nächsten Januar wird es hier oft schneien. ___",
+     "ru": "",
+     "a": [
+      "b"
+     ],
+     "hint": "",
+     "n": "Прогноз на январь с инфинитивом."
+    },
+    {
+     "s": "Vor dem Test werde ich immer nervös. ___",
+     "ru": "",
+     "a": [
+      "a"
+     ],
+     "hint": "",
+     "n": "Прилагательное называет новое состояние."
+    },
+    {
+     "s": "Das Paket wird abgeholt. ___",
+     "ru": "",
+     "a": [
+      "d"
+     ],
+     "hint": "",
+     "n": "Пассив: посылку забирают. Подробно в уроке 29."
+    },
+    {
+     "s": "Sie wird wohl arbeiten. ___",
+     "ru": "Леа сейчас не отвечает на сообщения",
+     "a": [
+      "c"
+     ],
+     "hint": "",
+     "n": "Ситуация показывает предположение о настоящем."
+    },
+    {
+     "s": "Ich werde dir das Geld morgen schicken. ___",
+     "ru": "",
+     "a": [
+      "b"
+     ],
+     "hint": "",
+     "n": "Инфинитив называет будущее действие."
+    },
+    {
+     "s": "Mein Bruder wird Ingenieur. ___",
+     "ru": "",
+     "a": [
+      "a"
+     ],
+     "hint": "",
+     "n": "Профессия после смыслового <b>werden</b>."
+    },
+    {
+     "s": "Die Firma wird nächstes Jahr eine neue Abteilung eröffnen. ___",
+     "ru": "",
+     "a": [
+      "b"
+     ],
+     "hint": "",
+     "n": "План компании на следующий год."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 22.2",
+   "sub": "В пунктах 1–4 поставьте werden в настоящем времени, в пункте 5 в Präteritum. В пунктах 6–8 вставьте название профессии или должности с нужным артиклем или без него. В пунктах 9–10 постройте Perfekt.",
+   "items": [
+    {
+     "s": "Du ___ bald mehr verdienen.",
+     "ru": "",
+     "a": [
+      "wirst"
+     ],
+     "hint": "",
+     "n": "Форма для <b>du</b> без буквы <b>d</b>."
+    },
+    {
+     "s": "Er ___ morgen anfangen.",
+     "ru": "",
+     "a": [
+      "wird"
+     ],
+     "hint": "",
+     "n": "После конечной <b>d</b> дополнительная <b>t</b> не нужна."
+    },
+    {
+     "s": "Ihr ___ nächste Woche in Köln arbeiten.",
+     "ru": "",
+     "a": [
+      "werdet"
+     ],
+     "hint": "",
+     "n": "У <b>ihr</b> форма с окончанием <b>-et</b>."
+    },
+    {
+     "s": "Wir ___ am Samstag die Wohnung putzen.",
+     "ru": "",
+     "a": [
+      "werden"
+     ],
+     "hint": "",
+     "n": "Форма для <b>wir</b> совпадает с инфинитивом."
+    },
+    {
+     "s": "Nach dem Gespräch ___ ich ruhig.",
+     "ru": "",
+     "a": [
+      "wurde"
+     ],
+     "hint": "",
+     "n": "Первое лицо единственного числа в <b>Präteritum</b>."
+    },
+    {
+     "s": "Mein Sohn wird ___.",
+     "ru": "",
+     "a": [
+      "Ingenieur"
+     ],
+     "hint": "Ingenieur",
+     "n": "Обычное название профессии после <b>werden</b> без артикля."
+    },
+    {
+     "s": "Meine Kollegin wird ___.",
+     "ru": "",
+     "a": [
+      "eine gute Chefin"
+     ],
+     "hint": "gute Chefin",
+     "n": "Прилагательное перед существительным; вся группа стоит в <b>Nominativ</b>."
+    },
+    {
+     "s": "Meine Freundin wird ___.",
+     "ru": "",
+     "a": [
+      "Lehrerin"
+     ],
+     "hint": "Lehrerin",
+     "n": "Название профессии без определения не нуждается в артикле."
+    },
+    {
+     "s": "Der Wind ___ stärker ….",
+     "ru": "",
+     "a": [
+      "ist"
+     ],
+     "hint": "werden",
+     "n": "Изменение состояния: <b>Perfekt</b> с <b>sein</b>."
+    },
+    {
+     "s": "Der Wind ist stärker ___.",
+     "ru": "",
+     "a": [
+      "geworden"
+     ],
+     "hint": "werden",
+     "n": "Изменение состояния: <b>Perfekt</b> с <b>sein</b>."
+    },
+    {
+     "s": "Mein Bruder ___ Arzt ….",
+     "ru": "",
+     "a": [
+      "ist"
+     ],
+     "hint": "werden",
+     "n": "Смысловое <b>werden</b> даёт причастие <b>geworden</b>."
+    },
+    {
+     "s": "Mein Bruder ist Arzt ___.",
+     "ru": "",
+     "a": [
+      "geworden"
+     ],
+     "hint": "werden",
+     "n": "Смысловое <b>werden</b> даёт причастие <b>geworden</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 22.3",
+   "sub": "В пунктах 1–6 замените будущее время настоящим, сохранив остальные слова. Начните с подлежащего или срока. В пунктах 7–10 используйте werden и wohl; начинайте с выделенного слова. Для большей уверенности допустимы также sicher и bestimmt.",
+   "items": [
+    {
+     "ru": "Morgen wird es schneien.",
+     "w": [
+      "Morgen",
+      "schneit",
+      "es"
+     ],
+     "ok": [
+      "Morgen schneit es"
+     ],
+     "n": "Будущее уже видно по слову <b>morgen</b>."
+    },
+    {
+     "ru": "Die Ausstellung wird im Juni beginnen.",
+     "w": [
+      "Die",
+      "Ausstellung",
+      "beginnt",
+      "im",
+      "Juni"
+     ],
+     "ok": [
+      "Die Ausstellung beginnt im Juni"
+     ],
+     "n": "Для объявленного события достаточно <b>Präsens</b> и срока."
+    },
+    {
+     "ru": "Nächsten Monat werden wir umziehen.",
+     "w": [
+      "Nächsten",
+      "Monat",
+      "ziehen",
+      "wir",
+      "um"
+     ],
+     "ok": [
+      "Nächsten Monat ziehen wir um"
+     ],
+     "n": "В главном предложении отделяемая приставка снова стоит в конце."
+    },
+    {
+     "ru": "Am Freitag wird Jonas einkaufen.",
+     "w": [
+      "Am",
+      "Freitag",
+      "kauft",
+      "Jonas",
+      "ein"
+     ],
+     "ok": [
+      "Am Freitag kauft Jonas ein"
+     ],
+     "n": "Приставка <b>ein</b> отделяется от спрягаемого глагола."
+    },
+    {
+     "ru": "Im August werde ich verreisen.",
+     "w": [
+      "Im",
+      "August",
+      "verreise",
+      "ich"
+     ],
+     "ok": [
+      "Im August verreise ich"
+     ],
+     "n": "У <b>verreisen</b> приставка не отделяется."
+    },
+    {
+     "ru": "Die Preise werden steigen. Добавьте im Januar.",
+     "w": [
+      "Die",
+      "Preise",
+      "steigen",
+      "im",
+      "Januar"
+     ],
+     "ok": [
+      "Die Preise steigen im Januar"
+     ],
+     "n": "Указание времени делает прогноз будущим даже в <b>Präsens</b>."
+    },
+    {
+     "ru": "Wahrscheinlich schläft Jonas.",
+     "w": [
+      "Jonas",
+      "wird",
+      "wohl",
+      "schlafen"
+     ],
+     "ok": [
+      "Jonas wird wohl schlafen"
+     ],
+     "n": "Догадка о настоящем; после <b>wird</b> нужен инфинитив."
+    },
+    {
+     "ru": "Wahrscheinlich kocht er.",
+     "w": [
+      "Er",
+      "wird",
+      "wohl",
+      "kochen"
+     ],
+     "ok": [
+      "Er wird wohl kochen"
+     ],
+     "n": "Меняется способ выразить предположение, действие остаётся тем же."
+    },
+    {
+     "ru": "Wahrscheinlich liest sie.",
+     "w": [
+      "Sie",
+      "wird",
+      "wohl",
+      "lesen"
+     ],
+     "ok": [
+      "Sie wird wohl lesen"
+     ],
+     "n": "Личную форму <b>liest</b> заменяем инфинитивом <b>lesen</b>."
+    },
+    {
+     "ru": "Wahrscheinlich wartet Lea.",
+     "w": [
+      "Lea",
+      "wird",
+      "wohl",
+      "warten"
+     ],
+     "ok": [
+      "Lea wird wohl warten"
+     ],
+     "n": "В конце стоит инфинитив <b>warten</b>."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 22.4",
+   "scene": "Wetterbericht",
+   "cap": "Прогноз на три дня",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Вымышленный прогноз на вторник, среду и четверг, потом фрагмент из Австрии.",
+   "audio": {
+    "id": "book-22-4",
+    "n": 3,
+    "dur": 57.73,
+    "t": [
+     [
+      0.8,
+      6.64
+     ],
+     [
+      6.64,
+      16.08
+     ],
+     [
+      16.08,
+      27.12
+     ],
+     [
+      27.12,
+      32.64
+     ],
+     [
+      32.64,
+      45.2
+     ],
+     [
+      45.2,
+      52.72
+     ],
+     [
+      52.72,
+      57.12
+     ]
+    ]
+   },
+   "speakers": {
+    "Wetter": "Германия",
+    "Wienerin": "Австрия"
+   },
+   "lines": [
+    {
+     "who": "Wetter",
+     "de": "Hamburg. Am Dienstag regnet es am Vormittag. Die Temperatur liegt bei zwölf Grad.",
+     "ru": "Гамбург. Во вторник утром идёт дождь. Температура около двенадцати градусов."
+    },
+    {
+     "who": "Wetter",
+     "de": "Am Mittwoch bleibt es bewölkt. Die Temperatur sinkt um zwei Grad auf zehn Grad. Am Donnerstag scheint die Sonne. Es bleibt bei zehn Grad.",
+     "ru": "В среду остаётся облачно. Температура падает на два градуса, до десяти. В четверг светит солнце. Остаётся десять градусов."
+    },
+    {
+     "who": "Wetter",
+     "de": "Köln. Am Dienstag ist es bewölkt, aber trocken. Es sind vierzehn Grad. Am Mittwoch wird es in Köln neblig. Die Temperatur sinkt auf dreizehn Grad.",
+     "ru": "Кёльн. Во вторник облачно, но сухо. Четырнадцать градусов. В среду в Кёльне туман. Температура падает до тринадцати."
+    },
+    {
+     "who": "Wetter",
+     "de": "Am Donnerstag scheint die Sonne, und die Temperatur steigt auf sechzehn Grad.",
+     "ru": "В четверг светит солнце, температура поднимается до шестнадцати."
+    },
+    {
+     "who": "Wetter",
+     "de": "Zürich. Am Dienstag ist es bewölkt, bei dreizehn Grad. Am Mittwoch kommt der Föhn. Dieser Wind ist warm und trocken. Die Temperatur steigt um vier Grad auf siebzehn Grad.",
+     "ru": "Цюрих. Во вторник облачно, тринадцать. В среду приходит фён. Этот ветер тёплый и сухой. Температура поднимается на четыре градуса, до семнадцати."
+    },
+    {
+     "who": "Wetter",
+     "de": "Am Donnerstag gibt es ein Gewitter. Es donnert und blitzt. Die Temperatur sinkt auf fünfzehn Grad.",
+     "ru": "В четверг гроза. Гремит гром, сверкает молния. Температура падает до пятнадцати."
+    },
+    {
+     "who": "Wienerin",
+     "de": "Heuer war der Jänner mild. Es hat nicht oft geschneit.",
+     "ru": "В этом году январь был мягкий. Снег шёл нечасто."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Где во вторник утром идёт дождь?",
+     "o": [
+      "Hamburg",
+      "Köln",
+      "Zürich"
+     ],
+     "a": "Hamburg",
+     "n": "Hamburg. Am Dienstag <b>regnet es</b> am Vormittag. Дождь — в Гамбурге.",
+     "k": 0
+    },
+    {
+     "q": "Температура в Гамбурге между вторником и средой…",
+     "o": [
+      "снизится на два градуса",
+      "повысится на два градуса",
+      "снизится до двух градусов"
+     ],
+     "a": "снизится на два градуса",
+     "n": "Die Temperatur <b>sinkt um zwei Grad</b> auf zehn Grad. sinken um — на столько-то.",
+     "k": 1
+    },
+    {
+     "q": "Когда в Кёльне будет туман?",
+     "o": [
+      "в среду",
+      "во вторник",
+      "в четверг"
+     ],
+     "a": "в среду",
+     "n": "Am Mittwoch wird es in Köln <b>neblig</b>. neblig — туманно.",
+     "k": 2
+    },
+    {
+     "q": "До какой температуры потеплеет в Кёльне в четверг?",
+     "o": [
+      "sechzehn Grad",
+      "vierzehn Grad",
+      "dreizehn Grad"
+     ],
+     "a": "sechzehn Grad",
+     "n": "die Temperatur <b>steigt auf sechzehn Grad</b>. steigen auf — до.",
+     "k": 3
+    },
+    {
+     "q": "Фён в Цюрихе — это ветер…",
+     "o": [
+      "тёплый и сухой",
+      "холодный и влажный",
+      "слабый и холодный"
+     ],
+     "a": "тёплый и сухой",
+     "n": "Dieser Wind ist <b>warm und trocken</b>. ",
+     "k": 4
+    },
+    {
+     "q": "Температура в Цюрихе в среду…",
+     "o": [
+      "повысится на четыре градуса",
+      "повысится до четырёх градусов",
+      "снизится на четыре градуса"
+     ],
+     "a": "повысится на четыре градуса",
+     "n": "Die Temperatur <b>steigt um vier Grad</b>. um — на; auf — до.",
+     "k": 4
+    },
+    {
+     "q": "Где и когда гроза?",
+     "o": [
+      "Цюрих, четверг",
+      "Гамбург, среда",
+      "Кёльн, вторник"
+     ],
+     "a": "Цюрих, четверг",
+     "n": "Am Donnerstag gibt es ein <b>Gewitter</b>. В Цюрихе в четверг.",
+     "k": 5
+    },
+    {
+     "q": "Австрийское heuer — это…",
+     "o": [
+      "в этом году",
+      "в прошлом году",
+      "на следующей неделе"
+     ],
+     "a": "в этом году",
+     "n": "<b>Heuer</b> war der Jänner mild. heuer = dieses Jahr; Jänner — январь.",
+     "k": 6
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 22.4",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 22.5",
+   "sub": "Переведите. В пунктах 1, 2 и 8 можно начать с указания времени или подлежащего; другие пункты начинайте с подлежащего. Синонимы с тем же смыслом допустимы.",
+   "items": [
+    {
+     "ru": "Через год мы откроем кафе.",
+     "w": [
+      "In",
+      "einem",
+      "Jahr",
+      "eröffnen",
+      "wir",
+      "ein",
+      "Café"
+     ],
+     "ok": [
+      "In einem Jahr eröffnen wir ein Café"
+     ],
+     "n": "<b>In</b> со сроком от сегодняшнего дня и <b>Dativ</b>; оба времени возможны."
+    },
+    {
+     "ru": "Через две недели он станет инженером.",
+     "w": [
+      "In",
+      "zwei",
+      "Wochen",
+      "wird",
+      "er",
+      "Ingenieur"
+     ],
+     "ok": [
+      "In zwei Wochen wird er Ingenieur"
+     ],
+     "n": "Профессия без артикля; короткая форма уже обозначает будущее изменение."
+    },
+    {
+     "ru": "Я начинаю нервничать. Используйте werden.",
+     "w": [
+      "Ich",
+      "werde",
+      "nervös"
+     ],
+     "ok": [
+      "Ich werde nervös"
+     ],
+     "n": "Прилагательное после <b>werden</b> остаётся без окончания; <b>langsam</b> подчёркивает постепенное появление нервозности."
+    },
+    {
+     "ru": "Темнеет. Холодает. Используйте werden в обеих фразах.",
+     "w": [
+      "Es",
+      "wird",
+      "dunkel.",
+      "Es",
+      "wird",
+      "kalt"
+     ],
+     "ok": [
+      "Es wird dunkel. Es wird kalt"
+     ],
+     "n": "Для погоды сохраняем <b>es</b>; <b>kälter</b> подчёркивает дальнейшее похолодание."
+    },
+    {
+     "ru": "Он, наверное, сейчас стоит в пробке. Используйте werden.",
+     "w": [
+      "Er",
+      "wird",
+      "jetzt",
+      "wohl",
+      "im",
+      "Stau",
+      "stehen"
+     ],
+     "ok": [
+      "Er wird jetzt wohl im Stau stehen"
+     ],
+     "n": "По ситуации речь о настоящем; <b>sicher</b> и <b>bestimmt</b> передают более уверенную догадку."
+    },
+    {
+     "ru": "Я тебе напишу, обещаю. Передайте обещание через Futur I.",
+     "w": [
+      "Ich",
+      "werde",
+      "dir",
+      "schreiben,",
+      "versprochen"
+     ],
+     "ok": [
+      "Ich werde dir schreiben, versprochen"
+     ],
+     "n": "У <b>schreiben</b> дополнение <b>dir</b>; инфинитив стоит в конце своей части, а после <b>dass</b> форма <b>werde</b> уходит в конец."
+    },
+    {
+     "ru": "Я хочу стать врачом. Я стану врачом. Говорит женщина; во второй фразе используйте смысловое werden.",
+     "w": [
+      "Ich",
+      "will",
+      "Ärztin",
+      "werden.",
+      "Ich",
+      "werde",
+      "Ärztin"
+     ],
+     "ok": [
+      "Ich will Ärztin werden. Ich werde Ärztin"
+     ],
+     "n": "<b>Will</b> выражает желание; <b>möchte</b> делает его мягче. Во второй фразе возможно и <b>Futur I</b>: <b>werde … werden</b>. Профессия везде без артикля."
+    },
+    {
+     "ru": "Завтра вечером я еду в Бонн.",
+     "w": [
+      "Morgen",
+      "Abend",
+      "fahre",
+      "ich",
+      "nach",
+      "Bonn"
+     ],
+     "ok": [
+      "Morgen Abend fahre ich nach Bonn"
+     ],
+     "n": "Для обычного плана естественно настоящее время; будущее тоже грамматически возможно."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 22.6",
+   "sub": "Напишите другу сообщение о планах на следующий год: 60–80 слов. Обращайтесь на du.",
+   "items": [
+    {
+     "q": "Напишите другу сообщение о планах на следующий год: 60–80 слов. Обращайтесь на du.",
+     "hint": "Включите четыре плана в Präsens со сроками, обещание с werden, изменение состояния или профессию с werden, догадку с wohl и придаточное с sobald.",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Hallo! Nächstes Jahr habe ich viele Pläne. Im Februar beginne ich einen Kurs. Im April fahre ich nach Hamburg. Im Juni besuche ich meine Eltern. Im Oktober suche ich eine neue Wohnung. Vor dem Kurs werde ich sicher nervös. Ich werde dir aus Hamburg eine Postkarte schicken, versprochen. Im April wird es dort wohl noch kalt und feucht sein. Sobald ich eine Wohnung finde, feiern wir zusammen. Hast du im Februar Zeit?"
+     ],
+     "check": [
+      "Проверка: четыре плана в Präsens со сроками (Im Februar, Im April, Im Juni, Im Oktober); обещание werde … schicken, versprochen; изменение werde … nervös; догадка о погоде wird … wohl … sein; после sobald глагол finde в конце. Допустим любой собственный текст по этим условиям."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

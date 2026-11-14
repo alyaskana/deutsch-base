@@ -1,0 +1,635 @@
+{
+ "l": 14,
+ "words": [
+  {
+   "de": "die Ampel",
+   "lemma": "Ampel",
+   "art": "die",
+   "pl": "die Ampeln",
+   "forms": "",
+   "ipa": "[ˈampəl]",
+   "ru": "светофор",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kreuzung",
+   "lemma": "Kreuzung",
+   "art": "die",
+   "pl": "die Kreuzungen",
+   "forms": "",
+   "ipa": "[ˈkʁɔʏ̯tsʊŋ]",
+   "ru": "перекрёсток",
+   "pos": "noun"
+  },
+  {
+   "de": "die Brücke",
+   "lemma": "Brücke",
+   "art": "die",
+   "pl": "die Brücken",
+   "forms": "",
+   "ipa": "[ˈbʁʏkə]",
+   "ru": "мост",
+   "pos": "noun"
+  },
+  {
+   "de": "die Baustelle",
+   "lemma": "Baustelle",
+   "art": "die",
+   "pl": "die Baustellen",
+   "forms": "",
+   "ipa": "[ˈbaʊ̯ˌʃtɛlə]",
+   "ru": "стройка, ремонт дороги",
+   "pos": "noun"
+  },
+  {
+   "de": "der Verkehr",
+   "lemma": "Verkehr",
+   "art": "der",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈkeːɐ̯]",
+   "ru": "движение транспорта",
+   "pos": "noun"
+  },
+  {
+   "de": "das Verkehrsmittel",
+   "lemma": "Verkehrsmittel",
+   "art": "das",
+   "pl": "die Verkehrsmittel",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈkeːɐ̯sˌmɪtəl]",
+   "ru": "вид транспорта",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fahrplan",
+   "lemma": "Fahrplan",
+   "art": "der",
+   "pl": "die Fahrpläne",
+   "forms": "",
+   "ipa": "[ˈfaːɐ̯ˌplaːn]",
+   "ru": "расписание",
+   "pos": "noun"
+  },
+  {
+   "de": "umsteigen",
+   "lemma": "umsteigen",
+   "art": "",
+   "pl": "",
+   "forms": "steigt um, ist umgestiegen",
+   "ipa": "[ˈʊmˌʃtaɪ̯ɡən]",
+   "ru": "пересаживаться",
+   "pos": "verb"
+  },
+  {
+   "de": "die Verspätung",
+   "lemma": "Verspätung",
+   "art": "die",
+   "pl": "die Verspätungen",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈʃpɛːtʊŋ]",
+   "ru": "опоздание",
+   "pos": "noun"
+  },
+  {
+   "de": "verpassen",
+   "lemma": "verpassen",
+   "art": "",
+   "pl": "",
+   "forms": "verpasst, hat verpasst",
+   "ipa": "[fɛɐ̯ˈpasən]",
+   "ru": "пропустить, опоздать на",
+   "pos": "verb"
+  },
+  {
+   "de": "der Stadtplan",
+   "lemma": "Stadtplan",
+   "art": "der",
+   "pl": "die Stadtpläne",
+   "forms": "",
+   "ipa": "[ˈʃtatˌplaːn]",
+   "ru": "карта города",
+   "pos": "noun"
+  },
+  {
+   "de": "das Zentrum",
+   "lemma": "Zentrum",
+   "art": "das",
+   "pl": "die Zentren",
+   "forms": "",
+   "ipa": "[ˈtsɛntʁʊm]",
+   "ru": "центр",
+   "pos": "noun"
+  },
+  {
+   "de": "das Rathaus",
+   "lemma": "Rathaus",
+   "art": "das",
+   "pl": "die Rathäuser",
+   "forms": "",
+   "ipa": "[ˈʁaːtˌhaʊ̯s]",
+   "ru": "ратуша",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kirche",
+   "lemma": "Kirche",
+   "art": "die",
+   "pl": "die Kirchen",
+   "forms": "",
+   "ipa": "[ˈkɪʁçə]",
+   "ru": "церковь",
+   "pos": "noun"
+  },
+  {
+   "de": "das Einkaufszentrum",
+   "lemma": "Einkaufszentrum",
+   "art": "das",
+   "pl": "die Einkaufszentren",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nkaʊ̯fsˌtsɛntʁʊm]",
+   "ru": "торговый центр",
+   "pos": "noun"
+  },
+  {
+   "de": "das Kaufhaus",
+   "lemma": "Kaufhaus",
+   "art": "das",
+   "pl": "die Kaufhäuser",
+   "forms": "",
+   "ipa": "[ˈkaʊ̯fˌhaʊ̯s]",
+   "ru": "универмаг",
+   "pos": "noun"
+  },
+  {
+   "de": "der Supermarkt",
+   "lemma": "Supermarkt",
+   "art": "der",
+   "pl": "die Supermärkte",
+   "forms": "",
+   "ipa": "[ˈzuːpɐˌmaʁkt]",
+   "ru": "супермаркет",
+   "pos": "noun"
+  },
+  {
+   "de": "die Bibliothek",
+   "lemma": "Bibliothek",
+   "art": "die",
+   "pl": "die Bibliotheken",
+   "forms": "",
+   "ipa": "[biblioˈteːk]",
+   "ru": "библиотека",
+   "pos": "noun"
+  },
+  {
+   "de": "das Krankenhaus",
+   "lemma": "Krankenhaus",
+   "art": "das",
+   "pl": "die Krankenhäuser",
+   "forms": "",
+   "ipa": "[ˈkʁaŋkənˌhaʊ̯s]",
+   "ru": "больница",
+   "pos": "noun"
+  },
+  {
+   "de": "der Park",
+   "lemma": "Park",
+   "art": "der",
+   "pl": "die Parks",
+   "forms": "",
+   "ipa": "[paʁk]",
+   "ru": "парк",
+   "pos": "noun"
+  },
+  {
+   "de": "der Sportplatz",
+   "lemma": "Sportplatz",
+   "art": "der",
+   "pl": "die Sportplätze",
+   "forms": "",
+   "ipa": "[ˈʃpɔʁtˌplats]",
+   "ru": "спортплощадка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Werkstatt",
+   "lemma": "Werkstatt",
+   "art": "die",
+   "pl": "die Werkstätten",
+   "forms": "",
+   "ipa": "[ˈvɛʁkˌʃtat]",
+   "ru": "мастерская",
+   "pos": "noun"
+  },
+  {
+   "de": "die Reinigung",
+   "lemma": "Reinigung",
+   "art": "die",
+   "pl": "die Reinigungen",
+   "forms": "",
+   "ipa": "[ˈʁaɪ̯nɪɡʊŋ]",
+   "ru": "химчистка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Hauptstadt",
+   "lemma": "Hauptstadt",
+   "art": "die",
+   "pl": "die Hauptstädte",
+   "forms": "",
+   "ipa": "[ˈhaʊ̯ptˌʃtat]",
+   "ru": "столица",
+   "pos": "noun"
+  },
+  {
+   "de": "parken",
+   "lemma": "parken",
+   "art": "",
+   "pl": "",
+   "forms": "parkt, hat geparkt",
+   "ipa": "[ˈpaʁkən]",
+   "ru": "парковать, парковаться",
+   "pos": "verb"
+  },
+  {
+   "de": "der Führerschein",
+   "lemma": "Führerschein",
+   "art": "der",
+   "pl": "die Führerscheine",
+   "forms": "",
+   "ipa": "[ˈfyːʁɐˌʃaɪ̯n]",
+   "ru": "водительские права",
+   "pos": "noun"
+  },
+  {
+   "de": "gegenüber",
+   "lemma": "gegenüber",
+   "art": "",
+   "pl": "",
+   "forms": "+ Dativ",
+   "ipa": "[ɡeːɡənˈʔyːbɐ]",
+   "ru": "напротив",
+   "pos": "prep"
+  },
+  {
+   "de": "drüben",
+   "lemma": "drüben",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈdʁyːbən]",
+   "ru": "на той стороне",
+   "pos": "adv"
+  },
+  {
+   "de": "überall",
+   "lemma": "überall",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[yːbɐˈʔal]",
+   "ru": "везде",
+   "pos": "adv"
+  },
+  {
+   "de": "nirgends",
+   "lemma": "nirgends",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈnɪʁɡənts]",
+   "ru": "нигде",
+   "pos": "adv"
+  },
+  {
+   "de": "vorn(e)",
+   "lemma": "vorn(e)",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fɔʁn, ˈfɔʁnə]",
+   "ru": "впереди",
+   "pos": "adv"
+  },
+  {
+   "de": "der Weg",
+   "lemma": "Weg",
+   "art": "der",
+   "pl": "die Wege",
+   "forms": "",
+   "ipa": "[veːk]",
+   "ru": "путь, дорога",
+   "pos": "noun"
+  },
+  {
+   "de": "die Nähe",
+   "lemma": "Nähe",
+   "art": "die",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈnɛːə]",
+   "ru": "близость",
+   "pos": "noun"
+  },
+  {
+   "de": "direkt",
+   "lemma": "direkt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[diˈʁɛkt]",
+   "ru": "прямо, напрямую",
+   "pos": "adv"
+  },
+  {
+   "de": "vorher",
+   "lemma": "vorher",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯heːɐ̯]",
+   "ru": "до этого, заранее",
+   "pos": "adv"
+  },
+  {
+   "de": "mindestens",
+   "lemma": "mindestens",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈmɪndəstəns]",
+   "ru": "по меньшей мере",
+   "pos": "adv"
+  },
+  {
+   "de": "übermorgen",
+   "lemma": "übermorgen",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈyːbɐˌmɔʁɡən]",
+   "ru": "послезавтра",
+   "pos": "adv"
+  },
+  {
+   "de": "der Anfang",
+   "lemma": "Anfang",
+   "art": "der",
+   "pl": "die Anfänge",
+   "forms": "",
+   "ipa": "[ˈanfaŋ]",
+   "ru": "начало",
+   "pos": "noun"
+  },
+  {
+   "de": "das Ende",
+   "lemma": "Ende",
+   "art": "das",
+   "pl": "die Enden",
+   "forms": "",
+   "ipa": "[ˈɛndə]",
+   "ru": "конец",
+   "pos": "noun"
+  },
+  {
+   "de": "die Sprechstunde",
+   "lemma": "Sprechstunde",
+   "art": "die",
+   "pl": "die Sprechstunden",
+   "forms": "",
+   "ipa": "[ˈʃpʁɛçˌʃtʊndə]",
+   "ru": "приёмные часы",
+   "pos": "noun"
+  },
+  {
+   "de": "vereinbaren",
+   "lemma": "vereinbaren",
+   "art": "",
+   "pl": "",
+   "forms": "vereinbart, hat vereinbart",
+   "ipa": "[fɛɐ̯ˈʔaɪ̯nbaːʁən]",
+   "ru": "договариваться",
+   "pos": "verb"
+  },
+  {
+   "de": "verschieben",
+   "lemma": "verschieben",
+   "art": "",
+   "pl": "",
+   "forms": "verschiebt, hat verschoben",
+   "ipa": "[fɛɐ̯ˈʃiːbən]",
+   "ru": "переносить",
+   "pos": "verb"
+  },
+  {
+   "de": "erreichen",
+   "lemma": "erreichen",
+   "art": "",
+   "pl": "",
+   "forms": "erreicht, hat erreicht",
+   "ipa": "[ɛɐ̯ˈʁaɪ̯çən]",
+   "ru": "успеть на, дозвониться",
+   "pos": "verb"
+  },
+  {
+   "de": "unterwegs sein",
+   "lemma": "unterwegs sein",
+   "art": "",
+   "pl": "",
+   "forms": "ist unterwegs, ist unterwegs gewesen",
+   "ipa": "[ʊntɐˈveːks zaɪ̯n]",
+   "ru": "быть в пути",
+   "pos": "phrase"
+  },
+  {
+   "de": "vorbei",
+   "lemma": "vorbei",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[foːɐ̯ˈbaɪ̯]",
+   "ru": "мимо, позади",
+   "pos": "adv"
+  },
+  {
+   "de": "der Motorroller",
+   "lemma": "Motorroller",
+   "art": "der",
+   "pl": "die Motorroller",
+   "forms": "",
+   "ipa": "[ˈmoːtoːɐ̯ˌʁɔlɐ]",
+   "ru": "мотороллер",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ermäßigung",
+   "lemma": "Ermäßigung",
+   "art": "die",
+   "pl": "die Ermäßigungen",
+   "forms": "",
+   "ipa": "[ɛɐ̯ˈmɛːsɪɡʊŋ]",
+   "ru": "скидка, льгота",
+   "pos": "noun"
+  },
+  {
+   "de": "die Linie",
+   "lemma": "Linie",
+   "art": "die",
+   "pl": "die Linien",
+   "forms": "",
+   "ipa": "[ˈliːni̯ə]",
+   "ru": "линия, маршрут",
+   "pos": "noun"
+  },
+  {
+   "de": "die Richtung",
+   "lemma": "Richtung",
+   "art": "die",
+   "pl": "die Richtungen",
+   "forms": "",
+   "ipa": "[ˈʁɪçtʊŋ]",
+   "ru": "направление",
+   "pos": "noun"
+  },
+  {
+   "de": "die Station",
+   "lemma": "Station",
+   "art": "die",
+   "pl": "die Stationen",
+   "forms": "",
+   "ipa": "[ʃtaˈtsi̯oːn]",
+   "ru": "станция, остановка",
+   "pos": "noun"
+  },
+  {
+   "de": "die U-Bahn",
+   "lemma": "U-Bahn",
+   "art": "die",
+   "pl": "die U-Bahnen",
+   "forms": "",
+   "ipa": "[ˈuːˌbaːn]",
+   "ru": "метро",
+   "pos": "noun"
+  },
+  {
+   "de": "die Mitte",
+   "lemma": "Mitte",
+   "art": "die",
+   "pl": "без множественного; Mitte Juni = в середине июня",
+   "forms": "",
+   "ipa": "[ˈmɪtə]",
+   "ru": "середина",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ansage",
+   "lemma": "Ansage",
+   "art": "die",
+   "pl": "die Ansagen",
+   "forms": "",
+   "ipa": "[ˈanˌzaːɡə]",
+   "ru": "объявление (по громкой связи)",
+   "pos": "noun"
+  },
+  {
+   "de": "der Dom",
+   "lemma": "Dom",
+   "art": "der",
+   "pl": "die Dome",
+   "forms": "",
+   "ipa": "[doːm]",
+   "ru": "собор",
+   "pos": "noun"
+  },
+  {
+   "de": "geradeaus",
+   "lemma": "geradeaus",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəʁaːdəˈʔaʊ̯s]",
+   "ru": "прямо",
+   "pos": "adv"
+  },
+  {
+   "de": "das Kino",
+   "lemma": "Kino",
+   "art": "das",
+   "pl": "die Kinos",
+   "forms": "",
+   "ipa": "[ˈkiːno]",
+   "ru": "кино, кинотеатр",
+   "pos": "noun"
+  },
+  {
+   "de": "letzte",
+   "lemma": "letzte",
+   "art": "",
+   "pl": "",
+   "forms": "letzte Woche = на прошлой неделе",
+   "ipa": "[ˈlɛtstə]",
+   "ru": "последний, прошлый",
+   "pos": "adj"
+  },
+  {
+   "de": "das Mittagessen",
+   "lemma": "Mittagessen",
+   "art": "das",
+   "pl": "die Mittagessen",
+   "forms": "",
+   "ipa": "[ˈmɪtaːkˌʔɛsən]",
+   "ru": "обед",
+   "pos": "noun"
+  },
+  {
+   "de": "Ostern",
+   "lemma": "Ostern",
+   "art": "",
+   "pl": "",
+   "forms": "обычно без артикля",
+   "ipa": "[ˈoːstɐn]",
+   "ru": "Пасха",
+   "pos": "adv"
+  },
+  {
+   "de": "der Passant",
+   "lemma": "Passant",
+   "art": "der",
+   "pl": "die Passanten",
+   "forms": "",
+   "ipa": "[paˈsant]",
+   "ru": "прохожий",
+   "pos": "noun"
+  },
+  {
+   "de": "die Post",
+   "lemma": "Post",
+   "art": "die",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[pɔst]",
+   "ru": "почта",
+   "pos": "noun"
+  },
+  {
+   "de": "der Winter",
+   "lemma": "Winter",
+   "art": "der",
+   "pl": "die Winter",
+   "forms": "",
+   "ipa": "[ˈvɪntɐ]",
+   "ru": "зима",
+   "pos": "noun"
+  },
+  {
+   "de": "die Fahrt",
+   "lemma": "Fahrt",
+   "art": "die",
+   "pl": "die Fahrten",
+   "forms": "",
+   "ipa": "[faːɐ̯t]",
+   "ru": "поездка, дорога",
+   "pos": "noun"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 {
  "title": "Nicht: перед последней частью глагола",
  "topic": "Книга · 10.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -52,5 +52,105 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Nicht перед концом рамки",
+   "sub": "Найди приставку и поставь nicht перед ней",
+   "items": [
+    {
+     "ru": "Йонас сегодня не включает компьютер.",
+     "w": [
+      "Jonas",
+      "macht",
+      "den",
+      "Computer",
+      "heute",
+      "nicht",
+      "an."
+     ],
+     "ok": [
+      "Jonas macht den Computer heute nicht an."
+     ],
+     "n": "<b>nicht an</b> в конце."
+    },
+    {
+     "ru": "Йонас сегодня не может включить компьютер.",
+     "w": [
+      "Jonas",
+      "kann",
+      "den",
+      "Computer",
+      "heute",
+      "nicht",
+      "anmachen."
+     ],
+     "ok": [
+      "Jonas kann den Computer heute nicht anmachen."
+     ],
+     "n": "<b>nicht anmachen</b> в конце."
+    },
+    {
+     "ru": "Я сегодня не встаю рано.",
+     "w": [
+      "Ich",
+      "stehe",
+      "heute",
+      "nicht",
+      "früh",
+      "auf."
+     ],
+     "ok": [
+      "Ich stehe heute nicht früh auf."
+     ],
+     "n": "nicht перед früh … auf, обычный порядок урока 8."
+    },
+    {
+     "ru": "Пауль мне не звонит.",
+     "w": [
+      "Paul",
+      "ruft",
+      "mich",
+      "nicht",
+      "an."
+     ],
+     "ok": [
+      "Paul ruft mich nicht an."
+     ],
+     "n": "Местоимение раньше, <b>nicht an</b> в конце."
+    },
+    {
+     "ru": "Леа не берёт с собой ключ.",
+     "w": [
+      "Lea",
+      "nimmt",
+      "den",
+      "Schlüssel",
+      "nicht",
+      "mit."
+     ],
+     "ok": [
+      "Lea nimmt den Schlüssel nicht mit."
+     ],
+     "n": "<b>nicht mit</b>."
+    },
+    {
+     "ru": "Мы не можем сегодня пойти с вами.",
+     "w": [
+      "Wir",
+      "können",
+      "heute",
+      "nicht",
+      "mitkommen."
+     ],
+     "ok": [
+      "Wir können heute nicht mitkommen."
+     ],
+     "n": "<b>nicht mitkommen</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

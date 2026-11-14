@@ -1,0 +1,120 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 23",
+ "sub": "Пять заданий в конце урока 23: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 23,
+  "s": "23.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 23.C: впиши",
+   "sub": "Ответьте без таблиц. Правильные варианты с сохранением смысла принимаются.",
+   "items": [
+    {
+     "s": "Mit mehr Ruhe ___ du bessere Laune.",
+     "ru": "Дополните форму haben",
+     "a": [
+      "hättest"
+     ],
+     "hint": "du",
+     "n": "У <b>du</b> форма <b>hättest</b>; без умлаута получилось бы прошедшее <b>hattest</b>."
+    },
+    {
+     "s": "An deiner Stelle ___ … den Termin ….",
+     "ru": "Закончите совет от первого лица единственного числа с würde + Infinitiv (absagen). В каждый пропуск вставьте одно слово",
+     "a": [
+      "würde"
+     ],
+     "hint": "",
+     "n": "После первой группы слов сразу стоит <b>würde</b>, затем подлежащее <b>ich</b>."
+    },
+    {
+     "s": "An deiner Stelle würde ___ den Termin ….",
+     "ru": "Закончите совет от первого лица единственного числа с würde + Infinitiv (absagen). В каждый пропуск вставьте одно слово",
+     "a": [
+      "ich"
+     ],
+     "hint": "",
+     "n": "После первой группы слов сразу стоит <b>würde</b>, затем подлежащее <b>ich</b>."
+    },
+    {
+     "s": "An deiner Stelle würde ich den Termin ___.",
+     "ru": "Закончите совет от первого лица единственного числа с würde + Infinitiv (absagen). В каждый пропуск вставьте одно слово",
+     "a": [
+      "absagen"
+     ],
+     "hint": "",
+     "n": "После первой группы слов сразу стоит <b>würde</b>, затем подлежащее <b>ich</b>."
+    },
+    {
+     "s": "Wenn ich ein Fahrrad ___, … ich schneller im Büro.",
+     "ru": "У вас нет велосипеда; представьте обратное",
+     "a": [
+      "hätte"
+     ],
+     "hint": "haben; sein",
+     "n": "Обе части говорят о воображаемой ситуации, поэтому <b>Konjunktiv II</b> стоит в обеих."
+    },
+    {
+     "s": "Wenn ich ein Fahrrad hätte, ___ ich schneller im Büro.",
+     "ru": "У вас нет велосипеда; представьте обратное",
+     "a": [
+      "wäre"
+     ],
+     "hint": "haben; sein",
+     "n": "Обе части говорят о воображаемой ситуации, поэтому <b>Konjunktiv II</b> стоит в обеих."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  },
+  {
+   "type": "build",
+   "title": "Проверь себя 23.C: переведи",
+   "sub": "Ответьте без таблиц. Правильные варианты с сохранением смысла принимаются.",
+   "items": [
+    {
+     "ru": "Сделайте Gib mir den Stift (Дай мне ручку) вежливой просьбой к незнакомому человеку. (Sie)",
+     "w": [
+      "Könnten",
+      "Sie",
+      "mir",
+      "den",
+      "Stift",
+      "geben?"
+     ],
+     "ok": [
+      "Könnten Sie mir den Stift geben?"
+     ],
+     "n": "Меняются форма обращения и тон просьбы; <b>bitte</b> можно добавить."
+    },
+    {
+     "ru": "Представьте противоположное прошлое: Der Zug ist spät abgefahren, deshalb ist er spät angekommen.",
+     "w": [
+      "Wenn",
+      "der",
+      "Zug",
+      "pünktlich",
+      "abgefahren",
+      "wäre,",
+      "wäre",
+      "er",
+      "pünktlich",
+      "angekommen"
+     ],
+     "ok": [
+      "Wenn der Zug pünktlich abgefahren wäre, wäre er pünktlich angekommen"
+     ],
+     "n": "Оба глагола движения здесь выбирают <b>sein</b>."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  }
+ ]
+}

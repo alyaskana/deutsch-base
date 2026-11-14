@@ -1,0 +1,61 @@
+{
+"15.1": [
+ {"type":"choice","title":"Девять предлогов","sub":"an, auf, hinter, in, neben, über, unter, vor, zwischen","items":[
+  {"s":"Der Spiegel hängt ___ der Wand.","ru":"Зеркало висит на стене.","o":["an","auf"],"a":"an","n":"На вертикальной поверхности — <b>an</b>."},
+  {"s":"Die Flasche steht ___ der Kiste.","ru":"Бутылка стоит на ящике.","o":["auf","an"],"a":"auf","n":"Сверху с опорой — <b>auf</b>."},
+  {"s":"Die Katze sitzt ___ der Kiste.","ru":"Кошка сидит за ящиком.","o":["hinter","vor"],"a":"hinter","n":"Позади — <b>hinter</b>."},
+  {"s":"Die Lampe hängt ___ dem Tisch.","ru":"Лампа висит над столом.","o":["über","auf"],"a":"über","n":"Над, без касания — <b>über</b>."},
+  {"s":"Der Stuhl steht ___ der Tür und dem Regal.","ru":"Стул стоит между дверью и стеллажом.","o":["zwischen","neben"],"a":"zwischen","n":"<b>zwischen</b>."},
+  {"s":"Mama ist ___ der Küche.","ru":"Мама на кухне.","o":["in","auf"],"a":"in","n":"<b>in der Küche</b>, не auf."}
+ ]}
+],
+"15.3": [
+ {"type":"type","title":"Куда или где","sub":"Akkusativ для цели, Dativ для места","items":[
+  {"s":"Ich lege das Handy in ___ Tasche.","ru":"Я кладу телефон в сумку.","a":["die"],"hint":"die Tasche","n":"Куда → Akkusativ: <b>die</b>."},
+  {"s":"Das Handy ist in ___ Tasche.","ru":"Телефон в сумке.","a":["der"],"hint":"die Tasche","n":"Где → Dativ: <b>der</b>."},
+  {"s":"Ich setze mich auf ___ Stuhl.","ru":"Я сажусь на стул.","a":["den"],"hint":"der Stuhl","n":"Куда → <b>den</b>."},
+  {"s":"Ich sitze auf ___ Stuhl.","ru":"Я сижу на стуле.","a":["dem"],"hint":"der Stuhl","n":"Где → <b>dem</b>."},
+  {"s":"Die Katze läuft unter ___ Bett.","ru":"Кошка бежит под кровать.","a":["das"],"hint":"das Bett","n":"Куда → <b>das</b>."},
+  {"s":"Die Katze schläft unter ___ Bett.","ru":"Кошка спит под кроватью.","a":["dem"],"hint":"das Bett","n":"Где → <b>dem</b>."}
+ ]}
+],
+"15.4": [
+ {"type":"choice","title":"Ставит или стоит","sub":"stellen/stehen, legen/liegen, hängen","items":[
+  {"s":"Ich ___ die Lampe neben das Sofa.","ru":"Я ставлю лампу рядом с диваном.","o":["stelle","stehe"],"a":"stelle","n":"Кто-то ставит → <b>stellen</b> + Akkusativ."},
+  {"s":"Die Lampe ___ neben dem Sofa.","ru":"Лампа стоит рядом с диваном.","o":["steht","stellt"],"a":"steht","n":"Положение → <b>stehen</b> + Dativ."},
+  {"s":"Ich ___ das Buch auf den Tisch.","ru":"Я кладу книгу на стол.","o":["lege","liege"],"a":"lege","n":"<b>legen</b>."},
+  {"s":"Das Buch ___ auf dem Tisch.","ru":"Книга лежит на столе.","o":["liegt","legt"],"a":"liegt","n":"<b>liegen</b>."},
+  {"s":"Jonas hängt das Poster über ___ Bett.","ru":"Йонас вешает постер над кроватью.","o":["das","dem"],"a":"das","n":"Вешает (куда) → <b>das</b>."},
+  {"s":"Das Poster hängt über ___ Bett.","ru":"Постер висит над кроватью.","o":["dem","das"],"a":"dem","n":"Висит (где) → <b>dem</b>."},
+  {"s":"Die Lampe hat dort ___.","ru":"Лампа стояла там.","o":["gestanden","gestellt"],"a":"gestanden","n":"stehen → <b>hat gestanden</b>."}
+ ]}
+],
+"15.5": [
+ {"type":"choice","title":"Стоит или лежит","sub":"Смотрим на положение вещи","items":[
+  {"s":"Die Flasche ___ auf der Kiste.","ru":"Бутылка стоит на ящике (вертикально).","o":["steht","liegt"],"a":"steht","n":"Вертикально — <b>steht</b>."},
+  {"s":"Die Flasche ___ auf der Kiste.","ru":"Бутылка лежит на ящике (на боку).","o":["liegt","steht"],"a":"liegt","n":"Плашмя — <b>liegt</b>."},
+  {"s":"Ich ___ die Milch in den Kühlschrank.","ru":"Я ставлю молоко в холодильник.","o":["stelle","lege"],"a":"stelle","n":"Упаковка вертикально → <b>stellen</b>."},
+  {"s":"Das Handy ___ auf dem Tisch.","ru":"Телефон лежит на столе.","o":["liegt","steht"],"a":"liegt","n":"Плашмя — <b>liegt</b>."},
+  {"s":"Der Teller ___ auf dem Tisch.","ru":"Тарелка стоит на столе.","o":["steht","liegt"],"a":"steht","n":"Посуда на столе обычно <b>steht</b>."}
+ ]}
+],
+"15.6": [
+ {"type":"choice","title":"Наверху или наверх","sub":"Где и куда без существительного","items":[
+  {"s":"Die Kisten stehen ___.","ru":"Ящики стоят внизу.","o":["unten","nach unten"],"a":"unten","n":"Где — <b>unten</b>."},
+  {"s":"Wir tragen die Kisten ___.","ru":"Мы несём ящики вниз.","o":["nach unten","unten"],"a":"nach unten","n":"Куда — <b>nach unten</b>."},
+  {"s":"Komm ___!","ru":"Иди сюда!","o":["hierher","hier"],"a":"hierher","n":"Куда — <b>hierher</b>."},
+  {"s":"Die Kinder spielen ___.","ru":"Дети играют на улице (снаружи).","o":["draußen","raus"],"a":"draußen","n":"Где — <b>draußen</b>."},
+  {"s":"Geh bitte ___.","ru":"Выйди, пожалуйста, наружу.","o":["raus","draußen"],"a":"raus","n":"Куда — <b>raus</b>."},
+  {"s":"Das Bad ist ___.","ru":"Ванная наверху.","o":["oben","nach oben"],"a":"oben","n":"Где — <b>oben</b>."}
+ ]}
+],
+"15.7": [
+ {"type":"build","title":"Переезд","sub":"umziehen, einziehen, ausziehen","items":[
+  {"ru":"Йонас завтра переезжает.","w":["Jonas","zieht","morgen","um."],"ok":["Jonas zieht morgen um."],"n":"<b>umziehen</b>."},
+  {"ru":"Йонас въезжает в квартиру.","w":["Jonas","zieht","in","die","Wohnung","ein."],"ok":["Jonas zieht in die Wohnung ein."],"n":"in + Akkusativ, <b>ein</b> в конце."},
+  {"ru":"Алина съезжает из квартиры.","w":["Alina","zieht","aus","der","Wohnung","aus."],"ok":["Alina zieht aus der Wohnung aus."],"n":"aus + Dativ, <b>aus</b> в конце."},
+  {"ru":"Мы въехали в квартиру.","w":["Wir","sind","in","die","Wohnung","eingezogen."],"ok":["Wir sind in die Wohnung eingezogen."],"n":"<b>sind eingezogen</b>."},
+  {"ru":"Мы съехали из квартиры.","w":["Wir","sind","aus","der","Wohnung","ausgezogen."],"ok":["Wir sind aus der Wohnung ausgezogen."],"n":"<b>sind ausgezogen</b>."}
+ ]}
+]
+}

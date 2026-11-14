@@ -1,0 +1,922 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 25",
+ "sub": "Упражнения урока 25 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 25,
+  "s": "25.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 25.1",
+   "sub": "Вставьте предлог и определённый артикль: два пропуска, два слова. Если подходят два предлога, запишите оба варианта. Сочетания, которых нет в объяснении, смотрите в «Словаре урока».",
+   "items": [
+    {
+     "s": "Lea regt sich ___ … Preis auf.",
+     "ru": "",
+     "a": [
+      "über"
+     ],
+     "hint": "",
+     "n": "<b>Sich aufregen über + Akk</b>: мужской род, <b>den Preis</b>."
+    },
+    {
+     "s": "Lea regt sich über ___ Preis auf.",
+     "ru": "",
+     "a": [
+      "den"
+     ],
+     "hint": "",
+     "n": "<b>Sich aufregen über + Akk</b>: мужской род, <b>den Preis</b>."
+    },
+    {
+     "s": "Ich wundere mich ___ … Rechnung.",
+     "ru": "",
+     "a": [
+      "über"
+     ],
+     "hint": "",
+     "n": "У <b>sich wundern über Akkusativ</b>; женский артикль остаётся <b>die</b>."
+    },
+    {
+     "s": "Ich wundere mich über ___ Rechnung.",
+     "ru": "",
+     "a": [
+      "die"
+     ],
+     "hint": "",
+     "n": "У <b>sich wundern über Akkusativ</b>; женский артикль остаётся <b>die</b>."
+    },
+    {
+     "s": "Wir einigen uns ___ … neuen Plan.",
+     "ru": "",
+     "a": [
+      "auf"
+     ],
+     "hint": "",
+     "n": "Можно договориться о плане с <b>auf</b> или <b>über</b>; оба варианта идут с <b>Akkusativ</b>."
+    },
+    {
+     "s": "Wir einigen uns auf ___ neuen Plan.",
+     "ru": "",
+     "a": [
+      "den"
+     ],
+     "hint": "",
+     "n": "Можно договориться о плане с <b>auf</b> или <b>über</b>; оба варианта идут с <b>Akkusativ</b>."
+    },
+    {
+     "s": "Jonas achtet ___ … Qualität.",
+     "ru": "",
+     "a": [
+      "auf"
+     ],
+     "hint": "",
+     "n": "<b>Achten auf + Akk</b>: обращать внимание на качество."
+    },
+    {
+     "s": "Jonas achtet auf ___ Qualität.",
+     "ru": "",
+     "a": [
+      "die"
+     ],
+     "hint": "",
+     "n": "<b>Achten auf + Akk</b>: обращать внимание на качество."
+    },
+    {
+     "s": "Die Ärztin warnt ___ … Infektion.",
+     "ru": "",
+     "a": [
+      "vor"
+     ],
+     "hint": "",
+     "n": "<b>Warnen vor + Dat</b>: у женского рода здесь <b>der</b>."
+    },
+    {
+     "s": "Die Ärztin warnt vor ___ Infektion.",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "",
+     "n": "<b>Warnen vor + Dat</b>: у женского рода здесь <b>der</b>."
+    },
+    {
+     "s": "Das Kind fürchtet sich ___ … Gewitter.",
+     "ru": "",
+     "a": [
+      "vor"
+     ],
+     "hint": "",
+     "n": "<b>Sich fürchten vor + Dat</b>: <b>dem Gewitter</b>."
+    },
+    {
+     "s": "Das Kind fürchtet sich vor ___ Gewitter.",
+     "ru": "",
+     "a": [
+      "dem"
+     ],
+     "hint": "",
+     "n": "<b>Sich fürchten vor + Dat</b>: <b>dem Gewitter</b>."
+    },
+    {
+     "s": "Die Kinder haben Respekt ___ … Lehrerin.",
+     "ru": "",
+     "a": [
+      "vor"
+     ],
+     "hint": "",
+     "n": "<b>Respekt vor + Dat</b>: у женского рода здесь <b>der</b>."
+    },
+    {
+     "s": "Die Kinder haben Respekt vor ___ Lehrerin.",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "",
+     "n": "<b>Respekt vor + Dat</b>: у женского рода здесь <b>der</b>."
+    },
+    {
+     "s": "Ich zweifle ___ … Idee.",
+     "ru": "",
+     "a": [
+      "an"
+     ],
+     "hint": "",
+     "n": "<b>Zweifeln an + Dat</b>: <b>der Idee</b>."
+    },
+    {
+     "s": "Ich zweifle an ___ Idee.",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "",
+     "n": "<b>Zweifeln an + Dat</b>: <b>der Idee</b>."
+    },
+    {
+     "s": "Sie leidet ___ … Krankheit.",
+     "ru": "",
+     "a": [
+      "an"
+     ],
+     "hint": "",
+     "n": "<b>An</b> называет заболевание, <b>unter</b> подчёркивает страдание от него; оба предлога здесь с <b>Dativ</b>."
+    },
+    {
+     "s": "Sie leidet an ___ Krankheit.",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "",
+     "n": "<b>An</b> называет заболевание, <b>unter</b> подчёркивает страдание от него; оба предлога здесь с <b>Dativ</b>."
+    },
+    {
+     "s": "Die Katze gewöhnt sich ___ … neue Wohnung.",
+     "ru": "",
+     "a": [
+      "an"
+     ],
+     "hint": "",
+     "n": "<b>Sich gewöhnen an + Akk</b>: привыкать к квартире."
+    },
+    {
+     "s": "Die Katze gewöhnt sich an ___ neue Wohnung.",
+     "ru": "",
+     "a": [
+      "die"
+     ],
+     "hint": "",
+     "n": "<b>Sich gewöhnen an + Akk</b>: привыкать к квартире."
+    },
+    {
+     "s": "Jonas beschäftigt sich ___ … Frage.",
+     "ru": "",
+     "a": [
+      "mit"
+     ],
+     "hint": "",
+     "n": "<b>Mit</b> идёт с <b>Dativ</b>: <b>der Frage</b>."
+    },
+    {
+     "s": "Jonas beschäftigt sich mit ___ Frage.",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "",
+     "n": "<b>Mit</b> идёт с <b>Dativ</b>: <b>der Frage</b>."
+    },
+    {
+     "s": "Paul ist ___ … Küche verantwortlich.",
+     "ru": "",
+     "a": [
+      "für"
+     ],
+     "hint": "",
+     "n": "<b>Verantwortlich für + Akk</b>: отвечать за кухню."
+    },
+    {
+     "s": "Paul ist für ___ Küche verantwortlich.",
+     "ru": "",
+     "a": [
+      "die"
+     ],
+     "hint": "",
+     "n": "<b>Verantwortlich für + Akk</b>: отвечать за кухню."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 25.2",
+   "sub": "Соедините слово с предлогом для указанного русского значения. Каждый предлог используется дважды.",
+   "items": [
+    {
+     "s": "sich erinnern (помнить что-то) ___",
+     "ru": "",
+     "a": [
+      "d"
+     ],
+     "hint": "",
+     "n": "Помнить что-то: <b>sich erinnern an + Akk</b>."
+    },
+    {
+     "s": "zufrieden (довольный чем-то) ___",
+     "ru": "",
+     "a": [
+      "b"
+     ],
+     "hint": "",
+     "n": "<b>Zufrieden mit + Dat</b>."
+    },
+    {
+     "s": "warten (ждать кого-то) ___",
+     "ru": "",
+     "a": [
+      "f"
+     ],
+     "hint": "",
+     "n": "Русский обходится без предлога, немецкий использует <b>auf + Akk</b>."
+    },
+    {
+     "s": "träumen (мечтать о чём-то) ___",
+     "ru": "",
+     "a": [
+      "c"
+     ],
+     "hint": "",
+     "n": "<b>Träumen von + Dat</b>."
+    },
+    {
+     "s": "sich interessieren (интересоваться чем-то) ___",
+     "ru": "",
+     "a": [
+      "a"
+     ],
+     "hint": "",
+     "n": "<b>Sich interessieren für + Akk</b>."
+    },
+    {
+     "s": "Angst haben (бояться чего-то) ___",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "<b>Angst haben vor + Dat</b>."
+    },
+    {
+     "s": "sich beschäftigen (заниматься чем-то) ___",
+     "ru": "",
+     "a": [
+      "b"
+     ],
+     "hint": "",
+     "n": "<b>Sich beschäftigen mit + Dat</b>."
+    },
+    {
+     "s": "stolz sein (гордиться кем-то) ___",
+     "ru": "",
+     "a": [
+      "f"
+     ],
+     "hint": "",
+     "n": "<b>Stolz sein auf + Akk</b>."
+    },
+    {
+     "s": "sich verabschieden (прощаться с кем-то) ___",
+     "ru": "",
+     "a": [
+      "c"
+     ],
+     "hint": "",
+     "n": "<b>Sich verabschieden von + Dat</b>."
+    },
+    {
+     "s": "teilnehmen (участвовать в чём-то) ___",
+     "ru": "",
+     "a": [
+      "d"
+     ],
+     "hint": "",
+     "n": "У <b>teilnehmen an Dativ</b>."
+    },
+    {
+     "s": "sich fürchten (бояться чего-то) ___",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "У <b>sich fürchten vor Dativ</b>."
+    },
+    {
+     "s": "verantwortlich sein (отвечать за что-то) ___",
+     "ru": "",
+     "a": [
+      "a"
+     ],
+     "hint": "",
+     "n": "<b>Verantwortlich sein für + Akk</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 25.3",
+   "sub": "Запишите два предложения. Сначала переспросите на du о выделенной части, как будто не расслышали её: вопросительное слово ставьте в начало. Затем запишите, как говорящий коротко подтверждает сказанное в ответ на ваше «Правда?»: Ja, ich …, а вместо выделенной части слово с da(r)- или предлог с местоимением.",
+   "items": [
+    {
+     "ru": "Ich achte auf die Zeit.",
+     "w": [
+      "Worauf",
+      "achtest",
+      "du?",
+      "Ja,",
+      "ich",
+      "achte",
+      "darauf"
+     ],
+     "ok": [
+      "Worauf achtest du? Ja, ich achte darauf"
+     ],
+     "n": "Вопрос о вещи; <b>auf was</b> допускается в разговоре, письменно предпочтительно <b>worauf</b>."
+    },
+    {
+     "ru": "Ich erinnere mich an die Reise.",
+     "w": [
+      "Woran",
+      "erinnerst",
+      "du",
+      "dich?",
+      "Ja,",
+      "ich",
+      "erinnere",
+      "mich",
+      "daran"
+     ],
+     "ok": [
+      "Woran erinnerst du dich? Ja, ich erinnere mich daran"
+     ],
+     "n": "Речь о поездке; разговорное <b>an was</b> тоже возможно."
+    },
+    {
+     "ru": "Ich beschäftige mich mit dem Antrag.",
+     "w": [
+      "Womit",
+      "beschäftigst",
+      "du",
+      "dich?",
+      "Ja,",
+      "ich",
+      "beschäftige",
+      "mich",
+      "damit"
+     ],
+     "ok": [
+      "Womit beschäftigst du dich? Ja, ich beschäftige mich damit"
+     ],
+     "n": "Речь о заявлении; разговорный вариант <b>mit was</b> допустим."
+    },
+    {
+     "ru": "Ich spreche über das Wetter.",
+     "w": [
+      "Worüber",
+      "sprichst",
+      "du?",
+      "Ja,",
+      "ich",
+      "spreche",
+      "darüber"
+     ],
+     "ok": [
+      "Worüber sprichst du? Ja, ich spreche darüber"
+     ],
+     "n": "Тему разговора заменяет <b>darüber</b>; <b>über was</b> встречается в разговоре."
+    },
+    {
+     "ru": "Ich warne vor dem Sturm.",
+     "w": [
+      "Wovor",
+      "warnst",
+      "du?",
+      "Ja,",
+      "ich",
+      "warne",
+      "davor"
+     ],
+     "ok": [
+      "Wovor warnst du? Ja, ich warne davor"
+     ],
+     "n": "<b>Warnen vor + Dat</b>; разговорное <b>vor was</b> допустимо."
+    },
+    {
+     "ru": "Ich kümmere mich um meine Nachbarin.",
+     "w": [
+      "Um",
+      "wen",
+      "kümmerst",
+      "du",
+      "dich?",
+      "Ja,",
+      "ich",
+      "kümmere",
+      "mich",
+      "um",
+      "sie"
+     ],
+     "ok": [
+      "Um wen kümmerst du dich? Ja, ich kümmere mich um sie"
+     ],
+     "n": "Человек и <b>Akkusativ</b>: <b>wen</b>, затем <b>sie</b>."
+    },
+    {
+     "ru": "Ich bin stolz auf meinen Vater.",
+     "w": [
+      "Auf",
+      "wen",
+      "bist",
+      "du",
+      "stolz?",
+      "Ja,",
+      "ich",
+      "bin",
+      "stolz",
+      "auf",
+      "ihn"
+     ],
+     "ok": [
+      "Auf wen bist du stolz? Ja, ich bin stolz auf ihn"
+     ],
+     "n": "<b>Stolz auf + Akk</b>: для отца местоимение <b>ihn</b>."
+    },
+    {
+     "ru": "Ich koche mit meiner Schwester.",
+     "w": [
+      "Mit",
+      "wem",
+      "kochst",
+      "du?",
+      "Ja,",
+      "ich",
+      "koche",
+      "mit",
+      "ihr"
+     ],
+     "ok": [
+      "Mit wem kochst du? Ja, ich koche mit ihr"
+     ],
+     "n": "<b>Mit + Dat</b>: для сестры <b>ihr</b>."
+    },
+    {
+     "ru": "Ich erzähle von meinem Bruder.",
+     "w": [
+      "Von",
+      "wem",
+      "erzählst",
+      "du?",
+      "Ja,",
+      "ich",
+      "erzähle",
+      "von",
+      "ihm"
+     ],
+     "ok": [
+      "Von wem erzählst du? Ja, ich erzähle von ihm"
+     ],
+     "n": "Человек и <b>Dativ</b>: <b>wem</b>, затем <b>ihm</b>."
+    },
+    {
+     "ru": "Ich fürchte mich vor dem Chef.",
+     "w": [
+      "Vor",
+      "wem",
+      "fürchtest",
+      "du",
+      "dich?",
+      "Ja,",
+      "ich",
+      "fürchte",
+      "mich",
+      "vor",
+      "ihm"
+     ],
+     "ok": [
+      "Vor wem fürchtest du dich? Ja, ich fürchte mich vor ihm"
+     ],
+     "n": "<b>Vor + Dat</b>; <b>davor</b> не заменяет начальника как человека."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 25.4",
+   "sub": "Переведите с указанными словами, начиная каждое предложение с подлежащего. Если нет притяжательного или указательного слова, используйте определённый артикль; с названием искусства допустим нулевой. Дополнительных слов не добавляйте, переводите оба предложения внутри пункта.",
+   "items": [
+    {
+     "ru": "Я жду открытку. (warten, die Postkarte)",
+     "w": [
+      "Ich",
+      "warte",
+      "auf",
+      "die",
+      "Postkarte"
+     ],
+     "ok": [
+      "Ich warte auf die Postkarte"
+     ],
+     "n": "<b>Warten auf + Akk</b>; женский артикль <b>die</b>."
+    },
+    {
+     "ru": "Она боится лошади. (Angst haben или sich fürchten, das Pferd)",
+     "w": [
+      "Sie",
+      "hat",
+      "Angst",
+      "vor",
+      "dem",
+      "Pferd"
+     ],
+     "ok": [
+      "Sie hat Angst vor dem Pferd"
+     ],
+     "n": "Оба сочетания используют <b>vor + Dat</b>."
+    },
+    {
+     "ru": "Вы интересуетесь театром и гордитесь своим проектом. (Sie) (sich interessieren, stolz sein, das Projekt)",
+     "w": [
+      "Sie",
+      "interessieren",
+      "sich",
+      "für",
+      "Theater",
+      "und",
+      "sind",
+      "stolz",
+      "auf",
+      "Ihr",
+      "Projekt"
+     ],
+     "ok": [
+      "Sie interessieren sich für Theater und sind stolz auf Ihr Projekt"
+     ],
+     "n": "Театр как искусство допускает вариант с артиклем; <b>für</b> и <b>auf</b> здесь с <b>Akkusativ</b>."
+    },
+    {
+     "ru": "Мы помним о встрече. Мы обдумываем вопрос. (der Termin, die Frage; denken, nachdenken или sich Gedanken machen)",
+     "w": [
+      "Wir",
+      "denken",
+      "an",
+      "den",
+      "Termin.",
+      "Wir",
+      "denken",
+      "über",
+      "die",
+      "Frage",
+      "nach"
+     ],
+     "ok": [
+      "Wir denken an den Termin. Wir denken über die Frage nach"
+     ],
+     "n": "<b>Denken an</b> обозначает мысль о встрече; обдумывание передают оба варианта с <b>über</b>."
+    },
+    {
+     "ru": "Мы скучаем по нашей дочери. (vermissen)",
+     "w": [
+      "Wir",
+      "vermissen",
+      "unsere",
+      "Tochter"
+     ],
+     "ok": [
+      "Wir vermissen unsere Tochter"
+     ],
+     "n": "<b>Akkusativ</b> без русского предлога «по»."
+    },
+    {
+     "ru": "Моя подруга выходит замуж за своего коллегу. (heiraten, der Kollege)",
+     "w": [
+      "Meine",
+      "Freundin",
+      "heiratet",
+      "ihren",
+      "Kollegen"
+     ],
+     "ok": [
+      "Meine Freundin heiratet ihren Kollegen"
+     ],
+     "n": "<b>Heiraten + Akk</b>: предлога нет; <b>Kollege</b> в <b>Akkusativ</b> получает <b>-n</b>."
+    },
+    {
+     "ru": "Я согласен с вами. (ihr) (zustimmen)",
+     "w": [
+      "Ich",
+      "stimme",
+      "euch",
+      "zu"
+     ],
+     "ok": [
+      "Ich stimme euch zu"
+     ],
+     "n": "<b>Zustimmen + Dat</b>; предлог не нужен, приставка <b>zu</b> стоит в конце."
+    },
+    {
+     "ru": "Он занимается этим проектом. (sich beschäftigen)",
+     "w": [
+      "Er",
+      "beschäftigt",
+      "sich",
+      "mit",
+      "diesem",
+      "Projekt"
+     ],
+     "ok": [
+      "Er beschäftigt sich mit diesem Projekt"
+     ],
+     "n": "<b>Mit + Dat</b>: <b>diesem Projekt</b>."
+    },
+    {
+     "ru": "Я с радостью жду твоего звонка. (sich freuen, der Anruf)",
+     "w": [
+      "Ich",
+      "freue",
+      "mich",
+      "auf",
+      "deinen",
+      "Anruf"
+     ],
+     "ok": [
+      "Ich freue mich auf deinen Anruf"
+     ],
+     "n": "Ожидаемое событие: <b>auf + Akk</b>."
+    },
+    {
+     "ru": "Я рад хорошей погоде: сегодня тепло. Переведите только слова до двоеточия. (sich freuen, das Wetter)",
+     "w": [
+      "Ich",
+      "freue",
+      "mich",
+      "über",
+      "das",
+      "gute",
+      "Wetter"
+     ],
+     "ok": [
+      "Ich freue mich über das gute Wetter"
+     ],
+     "n": "Погода уже хорошая, это факт: <b>über + Akk</b>."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 25.5",
+   "scene": "Straßeninterviews",
+   "cap": "Четыре уличных интервью",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Кёльн, Гамбург, Цюрих, снова Гамбург. Чего ждут, чему радуются, чем гордятся?",
+   "audio": {
+    "id": "book-25-5",
+    "n": 2,
+    "dur": 42.68,
+    "t": [
+     [
+      0.8,
+      3.12
+     ],
+     [
+      3.12,
+      9.04
+     ],
+     [
+      9.04,
+      10.88
+     ],
+     [
+      10.88,
+      12.32
+     ],
+     [
+      12.32,
+      15.12
+     ],
+     [
+      15.12,
+      21.28
+     ],
+     [
+      21.28,
+      23.76
+     ],
+     [
+      23.76,
+      34.16
+     ],
+     [
+      34.16,
+      36.16
+     ],
+     [
+      36.16,
+      42.64
+     ]
+    ]
+   },
+   "speakers": {
+    "Interviewer": "Германия",
+    "Passantin 1": "Германия",
+    "Passant 2": "Германия",
+    "Passantin 3": "Швейцария",
+    "Passant 4": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Interviewer",
+     "de": "Entschuldigung, worauf freuen Sie sich?",
+     "ru": "Извините, чего вы с радостью ждёте?"
+    },
+    {
+     "who": "Passantin 1",
+     "de": "Auf das Konzert am Sonntag. Es ist draußen, am Rhein. Aber ich habe Angst vor einem Sturm.",
+     "ru": "Концерта в воскресенье. Он на улице, на Рейне. Но я боюсь бури."
+    },
+    {
+     "who": "Interviewer",
+     "de": "Und was machen Sie selbst gern?",
+     "ru": "А что вы сами любите делать?"
+    },
+    {
+     "who": "Passantin 1",
+     "de": "Ich tanze gern.",
+     "ru": "Я люблю танцевать."
+    },
+    {
+     "who": "Interviewer",
+     "de": "Worüber freuen Sie sich heute?",
+     "ru": "Чему вы сегодня радуетесь?"
+    },
+    {
+     "who": "Passant 2",
+     "de": "Über die Kamera von meiner Schwester. Sie hat sie mir geschenkt. Jetzt fotografiere ich die Stadt.",
+     "ru": "Фотоаппарату от сестры. Она мне его подарила. Теперь я фотографирую город."
+    },
+    {
+     "who": "Interviewer",
+     "de": "Was macht Ihre Tochter am Wochenende?",
+     "ru": "Что делает ваша дочь на выходных?"
+    },
+    {
+     "who": "Passantin 3",
+     "de": "Sie klettert. Ich bin stolz auf meine Tochter. Aber ich mache mir auch Sorgen um sie. Ich sage ihr immer: Trag Sorge zu dir!",
+     "ru": "Она лазает по скалам. Я горжусь дочерью. Но я и волнуюсь за неё. Я ей всегда говорю: береги себя!"
+    },
+    {
+     "who": "Interviewer",
+     "de": "Worauf freuen Sie sich?",
+     "ru": "Чего вы с радостью ждёте?"
+    },
+    {
+     "who": "Passant 4",
+     "de": "Auf morgen. Meine Schwester kommt nach Hamburg. Wir interessieren uns beide für Kunst und gehen ins Museum.",
+     "ru": "Завтрашнего дня. Моя сестра приезжает в Гамбург. Мы оба интересуемся искусством и пойдём в музей."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Чего с радостью ждёт первая собеседница?",
+     "o": [
+      "концерта",
+      "поездки",
+      "письма"
+     ],
+     "a": "концерта",
+     "n": "<b>Auf das Konzert</b> am Sonntag. sich freuen auf — о будущем.",
+     "k": 1
+    },
+    {
+     "q": "Чего боится первая собеседница?",
+     "o": [
+      "бури",
+      "болезни",
+      "разговора"
+     ],
+     "a": "бури",
+     "n": "ich habe <b>Angst vor einem Sturm</b>. Angst vor + Dativ.",
+     "k": 1
+    },
+    {
+     "q": "Чему радуется второй собеседник?",
+     "o": [
+      "уже полученному подарку",
+      "предстоящему отпуску",
+      "новому контракту"
+     ],
+     "a": "уже полученному подарку",
+     "n": "<b>Über die Kamera</b> von meiner Schwester. Sie hat sie mir geschenkt. sich freuen über — о том, что уже есть.",
+     "k": 5
+    },
+    {
+     "q": "Чем гордится третья собеседница?",
+     "o": [
+      "дочерью",
+      "зарплатой",
+      "квартирой"
+     ],
+     "a": "дочерью",
+     "n": "Ich bin <b>stolz auf meine Tochter</b>. stolz auf + Akkusativ.",
+     "k": 7
+    },
+    {
+     "q": "Чего ждёт четвёртый собеседник?",
+     "o": [
+      "приезда сестры",
+      "экзамена",
+      "работы"
+     ],
+     "a": "приезда сестры",
+     "n": "<b>Auf morgen</b>. Meine Schwester kommt nach Hamburg. Завтра приедет сестра.",
+     "k": 9
+    },
+    {
+     "q": "Кто использует региональное сочетание?",
+     "o": [
+      "третья собеседница",
+      "четвёртый собеседник",
+      "второй собеседник"
+     ],
+     "a": "третья собеседница",
+     "n": "<b>Trag Sorge zu dir!</b>. Швейцарское «береги себя».",
+     "k": 7
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 25.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 25.6",
+   "sub": "Напишите по-немецки 80–100 слов на тему «Что меня радует, что беспокоит и чего я жду». Можно придумать обстоятельства.",
+   "items": [
+    {
+     "q": "Напишите по-немецки 80–100 слов на тему «Что меня радует, что беспокоит и чего я жду». Можно придумать обстоятельства.",
+     "hint": "Перечитайте текст: набралось ли в нём восемь сочетаний глагола, прилагательного или существительного с предлогом? Встречаются ли и sich freuen auf, и sich freuen über? Есть ли указатель с da(r)- перед dass и вопрос к читателю с wo(r)-? Стоит ли где-то vermissen или zustimmen без предлога?",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Ich interessiere mich für Kunst und beschäftige mich mit Fotos. Heute freue ich mich über meine neue Kamera. Ich bin stolz auf meine Bilder und zufrieden mit meinem Kurs. Die Stimmung dort ist gut, und ich konzentriere mich auf Porträts. Oft denke ich an meine Familie. Ich vermisse meine Eltern. Ich freue mich darauf, dass sie im Oktober zu mir kommen. Wir freuen uns auf einen Ausflug. Ich habe Angst vor einem Sturm, aber darauf haben wir keinen Einfluss. Worauf freust du dich jetzt? Vielleicht hast du Lust auf ein Gespräch über deine Pläne."
+     ],
+     "check": [
+      "Проверка: 94 слова; больше восьми сочетаний; есть обе формы радости, darauf, dass, вопрос Worauf, vermissen + Akk. Проверьте падежи и глагол в конце части с dass."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

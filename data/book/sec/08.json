@@ -1,0 +1,60 @@
+{
+"8.1": [
+ {"type":"choice","title":"kein или nicht?","sub":"Скажите фразу утвердительно и посмотрите на артикль","items":[
+  {"s":"Ich esse ___ Reis.","ru":"Я не ем рис.","o":["keinen","nicht"],"a":"keinen","n":"Перед Reis нет артикля → <b>kein</b>; der Reis в Akkusativ → <b>keinen</b>."},
+  {"s":"Ich bestelle den Tee ___.","ru":"Я не заказываю этот чай.","o":["nicht","keinen"],"a":"nicht","n":"Определённый артикль → <b>nicht</b>."},
+  {"s":"Der Tee ist ___ bitter.","ru":"Чай не горький.","o":["nicht","kein"],"a":"nicht","n":"Отрицаем качество → <b>nicht</b>."},
+  {"s":"Das ist ___ Jonas.","ru":"Это не Йонас.","o":["nicht","kein"],"a":"nicht","n":"С именем → <b>nicht</b>."},
+  {"s":"Wir haben ___ Tisch.","ru":"У нас нет стола.","o":["keinen","kein"],"a":"keinen","n":"Отрицание не меняет падеж: после haben Akkusativ, <b>keinen Tisch</b>."},
+  {"s":"Ich habe ___ Zeit.","ru":"У меня нет времени.","o":["keine","nicht"],"a":"keine","n":"die Zeit без артикля → <b>keine Zeit</b>."},
+  {"s":"Das ist ___ mein Pass.","ru":"Это не мой паспорт.","o":["nicht","kein"],"a":"nicht","n":"Перед притяжательным словом → <b>nicht</b>."},
+  {"s":"Bitte ___ viel Salz.","ru":"Пожалуйста, немного соли (не много).","o":["nicht","kein"],"a":"nicht","n":"<b>nicht viel</b> — «мало», а <b>kein Salz</b> — «совсем нет»."}]}
+],
+"8.2": [
+ {"type":"build","title":"Место nicht","sub":"В конце, но перед «служебным вагоном»","items":[
+  {"ru":"Я не понимаю счёт.","w":["Ich","verstehe","die","Rechnung","nicht."],"ok":["Ich verstehe die Rechnung nicht."],"n":"Служебного вагона нет — <b>nicht</b> в конце."},
+  {"ru":"Завтра мы не работаем. (Начни с morgen.)","w":["Morgen","arbeiten","wir","nicht."],"ok":["Morgen arbeiten wir nicht."],"n":"Глагол второй, отрицание его не сдвигает."},
+  {"ru":"Вода не дорогая.","w":["Das","Wasser","ist","nicht","teuer."],"ok":["Das Wasser ist nicht teuer."],"n":"Качество — служебный вагон: <b>nicht teuer</b>."},
+  {"ru":"Мы не остаёмся здесь.","w":["Wir","bleiben","nicht","hier."],"ok":["Wir bleiben nicht hier."],"n":"Место при bleiben — вагон: <b>nicht hier</b>."},
+  {"ru":"Пауль не едет в Гамбург.","w":["Paul","fährt","nicht","nach","Hamburg."],"ok":["Paul fährt nicht nach Hamburg."],"n":"Направление целиком после <b>nicht</b>."},
+  {"ru":"Я не люблю готовить.","w":["Ich","koche","nicht","gern."],"ok":["Ich koche nicht gern."],"n":"<b>nicht gern</b>."},
+  {"ru":"Я не знаю этого официанта.","w":["Ich","kenne","den","Kellner","nicht."],"ok":["Ich kenne den Kellner nicht."],"n":"Не <s>Ich nicht kenne</s>: глагол второй, nicht в конце."}]}
+],
+"8.3": [
+ {"type":"build","title":"Не это, а то","sub":"nicht перед неверной деталью, запятая перед sondern","items":[
+  {"ru":"Я возьму не вино, а воду.","w":["Ich","nehme","nicht","den","Wein,","sondern","das","Wasser."],"ok":["Ich nehme nicht den Wein, sondern das Wasser."],"n":"<b>nicht den Wein, sondern …</b>"},
+  {"ru":"Мы придём не сегодня, а завтра.","w":["Wir","kommen","nicht","heute,","sondern","morgen."],"ok":["Wir kommen nicht heute, sondern morgen."],"n":"nicht стоит перед исправляемой деталью."},
+  {"ru":"Платит не Леа, а Йонас.","w":["Nicht","Lea,","sondern","Jonas","zahlt."],"ok":["Nicht Lea, sondern Jonas zahlt."],"n":"Вся группа на первом месте, глагол после неё."},
+  {"ru":"Это не чай, а кофе.","w":["Das","ist","kein","Tee,","sondern","Kaffee."],"ok":["Das ist kein Tee, sondern Kaffee."],"n":"Без артикля — <b>kein</b>, и тоже можно с sondern."}]},
+ {"type":"choice","title":"sondern или und?","sub":"sondern — только когда исправляем отвергнутое","items":[
+  {"s":"Paul trinkt Bier, ___ Alina trinkt Saft.","ru":"Пауль пьёт пиво, а Алина — сок.","o":["und","sondern"],"a":"und","n":"Это сопоставление, не исправление: <b>und</b>."},
+  {"s":"Ich nehme nicht den Fisch, ___ das Hähnchen.","ru":"Я возьму не рыбу, а курицу.","o":["sondern","und"],"a":"sondern","n":"Исправляем выбор: <b>sondern</b>."}]}
+],
+"8.4": [
+ {"type":"choice","title":"Одного отрицания достаточно","sub":"nie, nichts, niemand — без второго «не»","items":[
+  {"s":"Ich trinke ___ Wein.","ru":"Я никогда не пью вино.","o":["nie","nicht nie"],"a":"nie","n":"<b>nie</b> — «никогда», второе отрицание не нужно."},
+  {"s":"Ich bestelle ___.","ru":"Я ничего не заказываю.","o":["nichts","nicht nichts"],"a":"nichts","n":"<b>nichts</b> заменяет предмет."},
+  {"s":"Hier wartet ___.","ru":"Здесь никто не ждёт.","o":["niemand","nicht jemand"],"a":"niemand","n":"<b>niemand</b> заменяет человека."},
+  {"s":"Niemand nimmt ___.","ru":"Никто ничего не берёт.","o":["etwas","nichts"],"a":"etwas","n":"Отрицание уже в <b>niemand</b>; рядом — <b>etwas</b>."},
+  {"s":"Lea fragt nie ___.","ru":"Леа никогда ничего не спрашивает.","o":["etwas","nichts"],"a":"etwas","n":"<b>nie etwas</b>, а не <s>nie nichts</s>."},
+  {"s":"Ich esse nie ___ mit Tomaten.","ru":"Я никогда ничего не ем с помидорами.","o":["etwas","nichts"],"a":"etwas","n":"Поправка Алины: <b>nie etwas</b>."}]}
+],
+"8.5": [
+ {"type":"choice","title":"Ещё не или уже не?","sub":"Было ли это раньше?","items":[
+  {"s":"Die Suppe ist ___ da.","ru":"Супа ещё нет (его ждут).","o":["noch nicht","nicht mehr"],"a":"noch nicht","n":"Ещё не появился → <b>noch nicht</b>."},
+  {"s":"Die Suppe ist ___ da.","ru":"Супа больше нет (его съели).","o":["nicht mehr","noch nicht"],"a":"nicht mehr","n":"Был и закончился → <b>nicht mehr</b>."},
+  {"s":"Ich arbeite ___.","ru":"Я больше не работаю.","o":["nicht mehr","schon nicht"],"a":"nicht mehr","n":"Русское «уже не» = <b>nicht mehr</b>."},
+  {"s":"Ich habe ___ Kaffee.","ru":"У меня ещё нет кофе.","o":["noch keinen","keinen mehr"],"a":"noch keinen","n":"<b>noch</b> перед kein: <b>noch keinen Kaffee</b>."},
+  {"s":"Ich habe keinen Kaffee ___.","ru":"У меня больше нет кофе.","o":["mehr","noch"],"a":"mehr","n":"<b>kein … mehr</b>: mehr после существительного."},
+  {"s":"Kommt Jonas schon? — ___.","ru":"Йонас уже идёт? — Ещё нет.","o":["Noch nicht","Nicht mehr"],"a":"Noch nicht","n":"Короткий ответ — одна пара: <b>Noch nicht</b>."},
+  {"s":"Noch einen Kaffee? — Nein, danke, ___.","ru":"Ещё кофе? — Нет, спасибо, больше ничего.","o":["nichts mehr","noch nichts"],"a":"nichts mehr","n":"<b>nichts mehr</b> — «больше ничего»."}]}
+],
+"8.6": [
+ {"type":"choice","title":"Я тоже / а я да","sub":"Сохраните смысл чужой реплики","items":[
+  {"s":"Ich trinke keinen Wein. — ___.","ru":"Я тоже не пью.","o":["Ich auch nicht","Ich auch","Nein"],"a":"Ich auch nicht","n":"Поддерживаем отрицание: <b>Ich auch nicht</b>."},
+  {"s":"Ich trinke keinen Wein. — ___.","ru":"А я пью.","o":["Ich schon","Doch","Ich auch"],"a":"Ich schon","n":"Противопоставляем свой случай: <b>Ich schon</b>."},
+  {"s":"Ich nehme Tee. — ___.","ru":"Я тоже.","o":["Ich auch","Ich auch nicht","Ich schon"],"a":"Ich auch","n":"Реплика положительная — отрицание не нужно."},
+  {"s":"Trinkst du keinen Kaffee? — ___.","ru":"Пью.","o":["Doch","Ich schon","Ja"],"a":"Doch","n":"Возражаем на отрицательный вопрос о себе: <b>Doch</b>."},
+  {"s":"Ich esse auch ___ Fisch.","ru":"Я тоже не ем рыбу.","o":["keinen","kein"],"a":"keinen","n":"der Fisch в Akkusativ: <b>auch keinen Fisch</b>."}]}
+]
+}

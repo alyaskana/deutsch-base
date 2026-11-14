@@ -1,7 +1,7 @@
 {
  "title": "Модальный глагол: приставка возвращается к основе",
  "topic": "Книга · 10.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -60,5 +60,153 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Приставка возвращается",
+   "sub": "После модального целый инфинитив в конце",
+   "items": [
+    {
+     "ru": "Мне нужно вставать в шесть.",
+     "w": [
+      "Ich",
+      "muss",
+      "um",
+      "sechs",
+      "aufstehen."
+     ],
+     "ok": [
+      "Ich muss um sechs aufstehen."
+     ],
+     "n": "Личную форму взял muss, <b>aufstehen</b> целиком."
+    },
+    {
+     "ru": "В воскресенье мне необязательно рано вставать.",
+     "w": [
+      "Am",
+      "Sonntag",
+      "muss",
+      "ich",
+      "nicht",
+      "früh",
+      "aufstehen."
+     ],
+     "ok": [
+      "Am Sonntag muss ich nicht früh aufstehen."
+     ],
+     "n": "<b>muss nicht</b> снимает необходимость."
+    },
+    {
+     "ru": "Сможешь пойти с нами в три?",
+     "w": [
+      "Kannst",
+      "du",
+      "um",
+      "drei",
+      "mitkommen?"
+     ],
+     "ok": [
+      "Kannst du um drei mitkommen?"
+     ],
+     "n": "kannst первый, <b>mitkommen</b> последний."
+    },
+    {
+     "ru": "Я умею ездить на велосипеде.",
+     "w": [
+      "Ich",
+      "kann",
+      "Rad",
+      "fahren."
+     ],
+     "ok": [
+      "Ich kann Rad fahren."
+     ],
+     "n": "Rad fahren остаётся раздельно."
+    },
+    {
+     "ru": "Леа хочет взять с собой ключ.",
+     "w": [
+      "Lea",
+      "will",
+      "den",
+      "Schlüssel",
+      "mitnehmen."
+     ],
+     "ok": [
+      "Lea will den Schlüssel mitnehmen."
+     ],
+     "n": "will … <b>mitnehmen</b>."
+    },
+    {
+     "ru": "Нам нужно сегодня сделать покупки.",
+     "w": [
+      "Wir",
+      "müssen",
+      "heute",
+      "einkaufen."
+     ],
+     "ok": [
+      "Wir müssen heute einkaufen."
+     ],
+     "n": "einkaufen в конце слитно."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Добавь модальный глагол",
+   "sub": "Впиши инфинитив в конец",
+   "items": [
+    {
+     "s": "Ich stehe um sechs auf. → Ich muss um sechs ___.",
+     "ru": "Мне нужно вставать в шесть.",
+     "a": [
+      "aufstehen"
+     ],
+     "hint": "aufstehen",
+     "n": "Приставка снова слитно: <b>aufstehen</b>."
+    },
+    {
+     "s": "Paul ruft mich an. → Paul will mich ___.",
+     "ru": "Пауль хочет мне позвонить.",
+     "a": [
+      "anrufen"
+     ],
+     "hint": "anrufen",
+     "n": "<b>anrufen</b> целиком в конце."
+    },
+    {
+     "s": "Der Zug fährt ab. → Der Zug soll um neun ___.",
+     "ru": "Поезд должен отправиться в девять.",
+     "a": [
+      "abfahren"
+     ],
+     "hint": "abfahren",
+     "n": "<b>abfahren</b>."
+    },
+    {
+     "s": "Wir lernen die Nachbarn kennen. → Wir möchten die Nachbarn ___.",
+     "ru": "Мы хотели бы познакомиться с соседями.",
+     "a": [
+      "kennenlernen"
+     ],
+     "hint": "kennenlernen",
+     "n": "<b>kennenlernen</b> пишется слитно."
+    },
+    {
+     "s": "Sie sieht fern. → Sie darf heute ___.",
+     "ru": "Ей сегодня можно смотреть телевизор.",
+     "a": [
+      "fernsehen"
+     ],
+     "hint": "fernsehen",
+     "n": "<b>fernsehen</b>."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  }
+ ]
 }

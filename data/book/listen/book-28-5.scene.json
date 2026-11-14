@@ -1,0 +1,97 @@
+{
+ "id": "book-28-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Kursbüro",
+   "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+   "de": "Guten Tag, hier ist das Kursbüro des Instituts. Diese Nachricht ist für alle Teilnehmer des Abendkurses.",
+   "ru": "Добрый день, это учебная часть института. Это сообщение для всех участников вечернего курса.",
+   "tag": "[Anrufbeantworter]"
+  },
+  {
+   "who": "Kursbüro",
+   "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+   "de": "Sie brauchen am Montag nicht ins Büro zu kommen. Sie brauchen nur das Formular zu unterschreiben und uns zu schicken. Das Formular ist bis Mittwoch zu unterschreiben.",
+   "ru": "В понедельник приходить в офис не нужно. Нужно только подписать бланк и прислать нам. Бланк нужно подписать до среды."
+  },
+  {
+   "who": "Kursbüro",
+   "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+   "de": "Die Gebühr haben Sie bis Freitag zu bezahlen. Bringen Sie am ersten Kurstag Ihren Ausweis mit. Sie brauchen kein Zeugnis mitzubringen.",
+   "ru": "Сбор нужно оплатить до пятницы. В первый день курса принесите удостоверение. Свидетельство приносить не нужно."
+  },
+  {
+   "who": "Kursbüro",
+   "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+   "de": "Mit einem Zertifikat brauchen Sie keinen Einstufungstest zu machen. Das Zertifikat reicht aus. Wenn Sie Fragen haben, rufen Sie uns bitte an. Auf Wiederhören!",
+   "ru": "С сертификатом тест на уровень проходить не нужно. Сертификата достаточно. Если есть вопросы, позвоните нам. До свидания!"
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 28.5",
+  "scene": "Kursbüro",
+  "cap": "Сообщение учебного центра",
+  "sub": "Сообщение учебного центра для участников вечернего курса.",
+  "speakers": {
+   "Kursbüro": "Бавария"
+  },
+  "qs": [
+   [
+    "Am Montag brauchen die Teilnehmer nicht ins Büro zu kommen.",
+    [
+     "richtig",
+     "falsch"
+    ],
+    "Sie <b>brauchen</b> am Montag <b>nicht</b> ins Büro <b>zu</b> kommen",
+    "nicht brauchen zu — не нужно."
+   ],
+   [
+    "Den Ausweis brauchen sie nicht mitzubringen.",
+    [
+     "falsch",
+     "richtig"
+    ],
+    "<b>Bringen Sie</b> am ersten Kurstag Ihren Ausweis <b>mit</b>",
+    "Удостоверение нужно."
+   ],
+   [
+    "Das Formular ist bis Dienstag zu unterschreiben.",
+    [
+     "falsch",
+     "richtig"
+    ],
+    "Das Formular ist <b>bis Mittwoch</b> zu unterschreiben",
+    "До среды."
+   ],
+   [
+    "Die Gebühr ist bis Freitag zu bezahlen.",
+    [
+     "richtig",
+     "falsch"
+    ],
+    "Die Gebühr <b>haben</b> Sie bis Freitag <b>zu bezahlen</b>",
+    "haben zu — нужно."
+   ],
+   [
+    "Mit einem Zertifikat ist kein Einstufungstest nötig.",
+    [
+     "richtig",
+     "falsch"
+    ],
+    "brauchen Sie <b>keinen Einstufungstest zu machen</b>",
+    ""
+   ],
+   [
+    "Какой документ не нужно приносить?",
+    [
+     "das Zeugnis",
+     "den Ausweis",
+     "das Formular"
+    ],
+    "Sie brauchen <b>kein Zeugnis</b> mitzubringen",
+    ""
+   ]
+  ]
+ }
+}

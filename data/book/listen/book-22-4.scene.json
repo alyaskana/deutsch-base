@@ -1,0 +1,141 @@
+{
+ "id": "book-22-4",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Wetter",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Hamburg. Am Dienstag regnet es am Vormittag. Die Temperatur liegt bei zwölf Grad.",
+   "ru": "Гамбург. Во вторник утром идёт дождь. Температура около двенадцати градусов.",
+   "tag": "[Wetterbericht]"
+  },
+  {
+   "who": "Wetter",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Am Mittwoch bleibt es bewölkt. Die Temperatur sinkt um zwei Grad auf zehn Grad. Am Donnerstag scheint die Sonne. Es bleibt bei zehn Grad.",
+   "ru": "В среду остаётся облачно. Температура падает на два градуса, до десяти. В четверг светит солнце. Остаётся десять градусов."
+  },
+  {
+   "who": "Wetter",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Köln. Am Dienstag ist es bewölkt, aber trocken. Es sind vierzehn Grad. Am Mittwoch wird es in Köln neblig. Die Temperatur sinkt auf dreizehn Grad.",
+   "ru": "Кёльн. Во вторник облачно, но сухо. Четырнадцать градусов. В среду в Кёльне туман. Температура падает до тринадцати."
+  },
+  {
+   "who": "Wetter",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Am Donnerstag scheint die Sonne, und die Temperatur steigt auf sechzehn Grad.",
+   "ru": "В четверг светит солнце, температура поднимается до шестнадцати."
+  },
+  {
+   "who": "Wetter",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Zürich. Am Dienstag ist es bewölkt, bei dreizehn Grad. Am Mittwoch kommt der Föhn. Dieser Wind ist warm und trocken. Die Temperatur steigt um vier Grad auf siebzehn Grad.",
+   "ru": "Цюрих. Во вторник облачно, тринадцать. В среду приходит фён. Этот ветер тёплый и сухой. Температура поднимается на четыре градуса, до семнадцати."
+  },
+  {
+   "who": "Wetter",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Am Donnerstag gibt es ein Gewitter. Es donnert und blitzt. Die Temperatur sinkt auf fünfzehn Grad.",
+   "ru": "В четверг гроза. Гремит гром, сверкает молния. Температура падает до пятнадцати."
+  },
+  {
+   "who": "Wienerin",
+   "voice": "x5q1BXyLc7tegNqnOvnx",
+   "de": "Heuer war der Jänner mild. Es hat nicht oft geschneit.",
+   "ru": "В этом году январь был мягкий. Снег шёл нечасто."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 22.4",
+  "scene": "Wetterbericht",
+  "cap": "Прогноз на три дня",
+  "sub": "Вымышленный прогноз на вторник, среду и четверг, потом фрагмент из Австрии.",
+  "speakers": {
+   "Wetter": "Германия",
+   "Wienerin": "Австрия"
+  },
+  "qs": [
+   [
+    "Где во вторник утром идёт дождь?",
+    [
+     "Hamburg",
+     "Köln",
+     "Zürich"
+    ],
+    "Hamburg. Am Dienstag <b>regnet es</b> am Vormittag",
+    "Дождь — в Гамбурге."
+   ],
+   [
+    "Температура в Гамбурге между вторником и средой…",
+    [
+     "снизится на два градуса",
+     "повысится на два градуса",
+     "снизится до двух градусов"
+    ],
+    "Die Temperatur <b>sinkt um zwei Grad</b> auf zehn Grad",
+    "sinken um — на столько-то."
+   ],
+   [
+    "Когда в Кёльне будет туман?",
+    [
+     "в среду",
+     "во вторник",
+     "в четверг"
+    ],
+    "Am Mittwoch wird es in Köln <b>neblig</b>",
+    "neblig — туманно."
+   ],
+   [
+    "До какой температуры потеплеет в Кёльне в четверг?",
+    [
+     "sechzehn Grad",
+     "vierzehn Grad",
+     "dreizehn Grad"
+    ],
+    "die Temperatur <b>steigt auf sechzehn Grad</b>",
+    "steigen auf — до."
+   ],
+   [
+    "Фён в Цюрихе — это ветер…",
+    [
+     "тёплый и сухой",
+     "холодный и влажный",
+     "слабый и холодный"
+    ],
+    "Dieser Wind ist <b>warm und trocken</b>",
+    ""
+   ],
+   [
+    "Температура в Цюрихе в среду…",
+    [
+     "повысится на четыре градуса",
+     "повысится до четырёх градусов",
+     "снизится на четыре градуса"
+    ],
+    "Die Temperatur <b>steigt um vier Grad</b>",
+    "um — на; auf — до."
+   ],
+   [
+    "Где и когда гроза?",
+    [
+     "Цюрих, четверг",
+     "Гамбург, среда",
+     "Кёльн, вторник"
+    ],
+    "Am Donnerstag gibt es ein <b>Gewitter</b>",
+    "В Цюрихе в четверг."
+   ],
+   [
+    "Австрийское heuer — это…",
+    [
+     "в этом году",
+     "в прошлом году",
+     "на следующей неделе"
+    ],
+    "<b>Heuer</b> war der Jänner mild",
+    "heuer = dieses Jahr; Jänner — январь."
+   ]
+  ]
+ }
+}

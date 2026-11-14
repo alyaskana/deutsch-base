@@ -1,0 +1,575 @@
+{
+ "l": 17,
+ "words": [
+  {
+   "de": "erkältet sein",
+   "lemma": "erkältet sein",
+   "art": "",
+   "pl": "",
+   "forms": "ist erkältet, ist erkältet gewesen",
+   "ipa": "[ɛɐ̯ˈkɛltət zaɪ̯n]",
+   "ru": "быть простуженным",
+   "pos": "phrase"
+  },
+  {
+   "de": "die Grippe",
+   "lemma": "Grippe",
+   "art": "die",
+   "pl": "die Grippen",
+   "forms": "",
+   "ipa": "[ˈɡʁɪpə]",
+   "ru": "грипп",
+   "pos": "noun"
+  },
+  {
+   "de": "husten",
+   "lemma": "husten",
+   "art": "",
+   "pl": "",
+   "forms": "hustet, hat gehustet",
+   "ipa": "[ˈhuːstən]",
+   "ru": "кашлять",
+   "pos": "verb"
+  },
+  {
+   "de": "der Hals",
+   "lemma": "Hals",
+   "art": "der",
+   "pl": "die Hälse",
+   "forms": "",
+   "ipa": "[hals]",
+   "ru": "горло, шея",
+   "pos": "noun"
+  },
+  {
+   "de": "der Magen",
+   "lemma": "Magen",
+   "art": "der",
+   "pl": "die Mägen, die Magen",
+   "forms": "",
+   "ipa": "[ˈmaːɡən]",
+   "ru": "желудок",
+   "pos": "noun"
+  },
+  {
+   "de": "der Rücken",
+   "lemma": "Rücken",
+   "art": "der",
+   "pl": "die Rücken",
+   "forms": "",
+   "ipa": "[ˈʁʏkən]",
+   "ru": "спина",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schmerz",
+   "lemma": "Schmerz",
+   "art": "der",
+   "pl": "die Schmerzen",
+   "forms": "",
+   "ipa": "[ʃmɛʁts]",
+   "ru": "боль",
+   "pos": "noun"
+  },
+  {
+   "de": "das Medikament",
+   "lemma": "Medikament",
+   "art": "das",
+   "pl": "die Medikamente",
+   "forms": "",
+   "ipa": "[medikaˈmɛnt]",
+   "ru": "лекарство",
+   "pos": "noun"
+  },
+  {
+   "de": "die Tablette",
+   "lemma": "Tablette",
+   "art": "die",
+   "pl": "die Tabletten",
+   "forms": "",
+   "ipa": "[taˈblɛtə]",
+   "ru": "таблетка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Mittel",
+   "lemma": "Mittel",
+   "art": "das",
+   "pl": "die Mittel",
+   "forms": "",
+   "ipa": "[ˈmɪtəl]",
+   "ru": "средство",
+   "pos": "noun"
+  },
+  {
+   "de": "die Krankheit",
+   "lemma": "Krankheit",
+   "art": "die",
+   "pl": "die Krankheiten",
+   "forms": "",
+   "ipa": "[ˈkʁaŋkhaɪ̯t]",
+   "ru": "болезнь",
+   "pos": "noun"
+  },
+  {
+   "de": "die Krankenkasse",
+   "lemma": "Krankenkasse",
+   "art": "die",
+   "pl": "die Krankenkassen",
+   "forms": "",
+   "ipa": "[ˈkʁaŋkənˌkasə]",
+   "ru": "больничная касса",
+   "pos": "noun"
+  },
+  {
+   "de": "untersuchen",
+   "lemma": "untersuchen",
+   "art": "",
+   "pl": "",
+   "forms": "untersucht, hat untersucht",
+   "ipa": "[ʊntɐˈzuːxən]",
+   "ru": "обследовать",
+   "pos": "verb"
+  },
+  {
+   "de": "gesund",
+   "lemma": "gesund",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəˈzʊnt]",
+   "ru": "здоровый",
+   "pos": "adj"
+  },
+  {
+   "de": "die Gesundheit",
+   "lemma": "Gesundheit",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ɡəˈzʊnthaɪ̯t]",
+   "ru": "здоровье",
+   "pos": "noun"
+  },
+  {
+   "de": "das Ohr",
+   "lemma": "Ohr",
+   "art": "das",
+   "pl": "die Ohren",
+   "forms": "",
+   "ipa": "[oːɐ̯]",
+   "ru": "ухо",
+   "pos": "noun"
+  },
+  {
+   "de": "der Körper",
+   "lemma": "Körper",
+   "art": "der",
+   "pl": "die Körper",
+   "forms": "",
+   "ipa": "[ˈkœʁpɐ]",
+   "ru": "тело",
+   "pos": "noun"
+  },
+  {
+   "de": "dringend",
+   "lemma": "dringend",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈdʁɪŋənt]",
+   "ru": "срочно",
+   "pos": "adv"
+  },
+  {
+   "de": "schlimm",
+   "lemma": "schlimm",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃlɪm]",
+   "ru": "плохой, тяжёлый",
+   "pos": "adj"
+  },
+  {
+   "de": "vorsichtig",
+   "lemma": "vorsichtig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯ˌzɪçtɪç]",
+   "ru": "осторожный",
+   "pos": "adj"
+  },
+  {
+   "de": "backen",
+   "lemma": "backen",
+   "art": "",
+   "pl": "",
+   "forms": "backt / bäckt, hat gebacken",
+   "ipa": "[ˈbakən]",
+   "ru": "печь",
+   "pos": "verb"
+  },
+  {
+   "de": "braten",
+   "lemma": "braten",
+   "art": "",
+   "pl": "",
+   "forms": "brät, hat gebraten",
+   "ipa": "[ˈbʁaːtən]",
+   "ru": "жарить",
+   "pos": "verb"
+  },
+  {
+   "de": "schneiden",
+   "lemma": "schneiden",
+   "art": "",
+   "pl": "",
+   "forms": "schneidet, hat geschnitten",
+   "ipa": "[ˈʃnaɪ̯dən]",
+   "ru": "резать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Zucker",
+   "lemma": "Zucker",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈtsʊkɐ]",
+   "ru": "сахар",
+   "pos": "noun"
+  },
+  {
+   "de": "die Zitrone",
+   "lemma": "Zitrone",
+   "art": "die",
+   "pl": "die Zitronen",
+   "forms": "",
+   "ipa": "[tsiˈtʁoːnə]",
+   "ru": "лимон",
+   "pos": "noun"
+  },
+  {
+   "de": "die Nudel",
+   "lemma": "Nudel",
+   "art": "die",
+   "pl": "die Nudeln",
+   "forms": "",
+   "ipa": "[ˈnuːdəl]",
+   "ru": "лапша, макароны",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gericht",
+   "lemma": "Gericht",
+   "art": "das",
+   "pl": "die Gerichte",
+   "forms": "",
+   "ipa": "[ɡəˈʁɪçt]",
+   "ru": "блюдо",
+   "pos": "noun"
+  },
+  {
+   "de": "die Portion",
+   "lemma": "Portion",
+   "art": "die",
+   "pl": "die Portionen",
+   "forms": "",
+   "ipa": "[pɔʁˈtsi̯oːn]",
+   "ru": "порция",
+   "pos": "noun"
+  },
+  {
+   "de": "scharf",
+   "lemma": "scharf",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃaʁf]",
+   "ru": "острый",
+   "pos": "adj"
+  },
+  {
+   "de": "süß",
+   "lemma": "süß",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[zyːs]",
+   "ru": "сладкий",
+   "pos": "adj"
+  },
+  {
+   "de": "das Rezept",
+   "lemma": "Rezept",
+   "art": "das",
+   "pl": "die Rezepte",
+   "forms": "",
+   "ipa": "[ʁeˈtsɛpt]",
+   "ru": "рецепт",
+   "pos": "noun"
+  },
+  {
+   "de": "aufmachen",
+   "lemma": "aufmachen",
+   "art": "",
+   "pl": "",
+   "forms": "macht auf, hat aufgemacht",
+   "ipa": "[ˈaʊ̯fˌmaxən]",
+   "ru": "открывать",
+   "pos": "verb"
+  },
+  {
+   "de": "zumachen",
+   "lemma": "zumachen",
+   "art": "",
+   "pl": "",
+   "forms": "macht zu, hat zugemacht",
+   "ipa": "[ˈtsuːˌmaxən]",
+   "ru": "закрывать",
+   "pos": "verb"
+  },
+  {
+   "de": "aufpassen",
+   "lemma": "aufpassen",
+   "art": "",
+   "pl": "",
+   "forms": "passt auf, hat aufgepasst",
+   "ipa": "[ˈaʊ̯fˌpasən]",
+   "ru": "быть внимательным",
+   "pos": "verb"
+  },
+  {
+   "de": "rufen",
+   "lemma": "rufen",
+   "art": "",
+   "pl": "",
+   "forms": "ruft, hat gerufen",
+   "ipa": "[ˈʁuːfən]",
+   "ru": "звать, вызывать",
+   "pos": "verb"
+  },
+  {
+   "de": "probieren",
+   "lemma": "probieren",
+   "art": "",
+   "pl": "",
+   "forms": "probiert, hat probiert",
+   "ipa": "[pʁoˈbiːʁən]",
+   "ru": "пробовать",
+   "pos": "verb"
+  },
+  {
+   "de": "lassen",
+   "lemma": "lassen",
+   "art": "",
+   "pl": "",
+   "forms": "lässt, hat gelassen",
+   "ipa": "[ˈlasən]",
+   "ru": "позволять",
+   "pos": "verb"
+  },
+  {
+   "de": "mal",
+   "lemma": "mal",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[maːl]",
+   "ru": "-ка (частица)",
+   "pos": "adv"
+  },
+  {
+   "de": "unbedingt",
+   "lemma": "unbedingt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʊnbəˌdɪŋt]",
+   "ru": "обязательно",
+   "pos": "adv"
+  },
+  {
+   "de": "die Anmeldung",
+   "lemma": "Anmeldung",
+   "art": "die",
+   "pl": "die Anmeldungen",
+   "forms": "",
+   "ipa": "[ˈanˌmɛldʊŋ]",
+   "ru": "регистрация; регистратура",
+   "pos": "noun"
+  },
+  {
+   "de": "die Binde",
+   "lemma": "Binde",
+   "art": "die",
+   "pl": "die Binden",
+   "forms": "",
+   "ipa": "[ˈbɪndə]",
+   "ru": "повязка, бинт",
+   "pos": "noun"
+  },
+  {
+   "de": "der Durchschlag",
+   "lemma": "Durchschlag",
+   "art": "der",
+   "pl": "die Durchschläge",
+   "forms": "",
+   "ipa": "[ˈdʊʁçˌʃlaːk]",
+   "ru": "дуршлаг",
+   "pos": "noun"
+  },
+  {
+   "de": "das Fruchtgummi",
+   "lemma": "Fruchtgummi",
+   "art": "das",
+   "pl": "die Fruchtgummis",
+   "forms": "",
+   "ipa": "[ˈfʁʊxtˌɡʊmi]",
+   "ru": "жевательный мармелад",
+   "pos": "noun"
+  },
+  {
+   "de": "hereinkommen",
+   "lemma": "hereinkommen",
+   "art": "",
+   "pl": "",
+   "forms": "kommt herein, ist hereingekommen",
+   "ipa": "[hɛˈʁaɪ̯nˌkɔmən]",
+   "ru": "входить",
+   "pos": "verb"
+  },
+  {
+   "de": "der Keks",
+   "lemma": "Keks",
+   "art": "der",
+   "pl": "die Kekse",
+   "forms": "",
+   "ipa": "[keːks]",
+   "ru": "печенье",
+   "pos": "noun"
+  },
+  {
+   "de": "der Rührkuchen",
+   "lemma": "Rührkuchen",
+   "art": "der",
+   "pl": "die Rührkuchen",
+   "forms": "",
+   "ipa": "[ˈʁyːɐ̯ˌkuːxən]",
+   "ru": "кекс",
+   "pos": "noun"
+  },
+  {
+   "de": "krankgeschrieben sein",
+   "lemma": "krankgeschrieben sein",
+   "art": "",
+   "pl": "",
+   "forms": "ist krankgeschrieben, ist krankgeschrieben gewesen",
+   "ipa": "[ˈkʁaŋkɡəˌʃʁiːbən zaɪ̯n]",
+   "ru": "быть на больничном",
+   "pos": "phrase"
+  },
+  {
+   "de": "die Marmelade",
+   "lemma": "Marmelade",
+   "art": "die",
+   "pl": "die Marmeladen",
+   "forms": "",
+   "ipa": "[maʁməˈlaːdə]",
+   "ru": "варенье, джем",
+   "pos": "noun"
+  },
+  {
+   "de": "der Mund",
+   "lemma": "Mund",
+   "art": "der",
+   "pl": "die Münder",
+   "forms": "",
+   "ipa": "[mʊnt]",
+   "ru": "рот",
+   "pos": "noun"
+  },
+  {
+   "de": "sammeln",
+   "lemma": "sammeln",
+   "art": "",
+   "pl": "",
+   "forms": "sammelt, hat gesammelt",
+   "ipa": "[ˈzaməln]",
+   "ru": "собирать",
+   "pos": "verb"
+  },
+  {
+   "de": "schauen",
+   "lemma": "schauen",
+   "art": "",
+   "pl": "",
+   "forms": "schaut, hat geschaut; Schauen wir mal ! = посмотрим",
+   "ipa": "[ˈʃaʊ̯ən]",
+   "ru": "смотреть",
+   "pos": "verb"
+  },
+  {
+   "de": "die Schürze",
+   "lemma": "Schürze",
+   "art": "die",
+   "pl": "die Schürzen",
+   "forms": "",
+   "ipa": "[ˈʃʏʁtsə]",
+   "ru": "фартук",
+   "pos": "noun"
+  },
+  {
+   "de": "die Seite",
+   "lemma": "Seite",
+   "art": "die",
+   "pl": "die Seiten",
+   "forms": "",
+   "ipa": "[ˈzaɪ̯tə]",
+   "ru": "страница; сторона",
+   "pos": "noun"
+  },
+  {
+   "de": "zurückrufen",
+   "lemma": "zurückrufen",
+   "art": "",
+   "pl": "",
+   "forms": "ruft zurück, hat zurückgerufen",
+   "ipa": "[tsuˈʁʏkˌʁuːfən]",
+   "ru": "перезванивать",
+   "pos": "verb"
+  },
+  {
+   "de": "zweimal",
+   "lemma": "zweimal",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈtsvaɪ̯maːl]",
+   "ru": "два раза",
+   "pos": "adv"
+  },
+  {
+   "de": "der Schluss",
+   "lemma": "Schluss",
+   "art": "der",
+   "pl": "die Schlüsse; zum Schluss = в конце",
+   "forms": "",
+   "ipa": "[ʃlʊs]",
+   "ru": "конец",
+   "pos": "noun"
+  },
+  {
+   "de": "zeichnen",
+   "lemma": "zeichnen",
+   "art": "",
+   "pl": "",
+   "forms": "zeichnet, hat gezeichnet",
+   "ipa": "[ˈtsaɪ̯çnən]",
+   "ru": "рисовать",
+   "pos": "verb"
+  }
+ ]
+}

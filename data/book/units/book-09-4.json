@@ -1,7 +1,7 @@
 {
  "title": "Muss nicht и darf nicht: свобода или запрет",
  "topic": "Книга · 9.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -101,5 +101,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Не обязательно или нельзя?",
+   "sub": "Сначала замените «не должен» на «не обязательно» или «нельзя»",
+   "items": [
+    {
+     "s": "Du ___ nicht bezahlen. Das ist gratis.",
+     "ru": "Тебе не нужно платить: это бесплатно.",
+     "o": [
+      "musst",
+      "darfst"
+     ],
+     "a": "musst",
+     "n": "Нет необходимости — <b>nicht müssen</b>."
+    },
+    {
+     "s": "Du ___ hier nicht rauchen.",
+     "ru": "Здесь нельзя курить.",
+     "o": [
+      "darfst",
+      "musst"
+     ],
+     "a": "darfst",
+     "n": "Запрет — <b>nicht dürfen</b>."
+    },
+    {
+     "s": "Du ___ die Maschine nicht benutzen. Sie ist kaputt.",
+     "ru": "Пользоваться запрещено: она сломана.",
+     "o": [
+      "darfst",
+      "musst"
+     ],
+     "a": "darfst",
+     "n": "Запрет."
+    },
+    {
+     "s": "Du ___ die Maschine nicht benutzen. Da ist noch eine.",
+     "ru": "Пользоваться не обязательно: рядом есть другая.",
+     "o": [
+      "musst",
+      "darfst"
+     ],
+     "a": "musst",
+     "n": "Выбор остаётся — <b>musst nicht</b>."
+    },
+    {
+     "s": "Sie ___ das Papier nicht bezahlen.",
+     "ru": "За бумагу платить не нужно.",
+     "o": [
+      "müssen",
+      "dürfen"
+     ],
+     "a": "müssen",
+     "n": "Это не запрет: <b>müssen nicht</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

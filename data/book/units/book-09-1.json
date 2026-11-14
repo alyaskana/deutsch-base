@@ -1,7 +1,7 @@
 {
  "title": "Формы: у «я» и «он» одна рубашка",
  "topic": "Книга · 9.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -204,5 +204,87 @@
    "Сочетания <b>Deutsch können</b>, <b>Tee mögen</b> и <b>einen Kaffee möchten</b> обходятся без второго глагола. Для любимого действия берём обычный глагол и <b>gern</b>."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Одинаковые рубашки",
+   "sub": "У ich и er одна форма, без -t",
+   "items": [
+    {
+     "s": "Er ___ gut kochen.",
+     "ru": "Он хорошо умеет готовить.",
+     "a": [
+      "kann"
+     ],
+     "hint": "können",
+     "n": "<b>er kann</b>, без <s>-t</s>."
+    },
+    {
+     "s": "Ich ___ hier parken.",
+     "ru": "Мне можно здесь парковаться.",
+     "a": [
+      "darf"
+     ],
+     "hint": "dürfen",
+     "n": "<b>ich darf</b> — как у er."
+    },
+    {
+     "s": "Du ___ heute arbeiten.",
+     "ru": "Тебе нужно сегодня работать.",
+     "a": [
+      "musst"
+     ],
+     "hint": "müssen",
+     "n": "У du окончание остаётся: <b>musst</b>."
+    },
+    {
+     "s": "Sie ___ Kaffee.",
+     "ru": "Она любит кофе.",
+     "a": [
+      "mag"
+     ],
+     "hint": "mögen",
+     "n": "<b>sie mag</b>."
+    },
+    {
+     "s": "Wir ___ am Sonntag grillen.",
+     "ru": "Мы хотим в воскресенье пожарить гриль.",
+     "a": [
+      "wollen"
+     ],
+     "hint": "wollen",
+     "n": "С wir форма как инфинитив."
+    },
+    {
+     "s": "Ihr ___ hier warten.",
+     "ru": "Вы можете здесь подождать.",
+     "a": [
+      "könnt"
+     ],
+     "hint": "können",
+     "n": "У ihr знакомое -t и гласная инфинитива: <b>könnt</b>."
+    },
+    {
+     "s": "Er ___ einen Tee.",
+     "ru": "Он хотел бы чаю.",
+     "a": [
+      "möchte"
+     ],
+     "hint": "möchte",
+     "n": "<b>er möchte</b>; <s>möchtet</s> — только для ihr."
+    },
+    {
+     "s": "Herr Krüger ___ das lesen.",
+     "ru": "Господину Крюгеру велено это прочитать.",
+     "a": [
+      "soll"
+     ],
+     "hint": "sollen",
+     "n": "У sollen гласная не меняется: <b>soll</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

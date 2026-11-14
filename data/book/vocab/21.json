@@ -1,0 +1,745 @@
+{
+ "l": 21,
+ "words": [
+  {
+   "de": "das Abenteuer",
+   "lemma": "Abenteuer",
+   "art": "das",
+   "pl": "die Abenteuer",
+   "forms": "",
+   "ipa": "[ˈaːbəntɔʏ̯ɐ]",
+   "ru": "приключение",
+   "pos": "noun"
+  },
+  {
+   "de": "der Abschluss",
+   "lemma": "Abschluss",
+   "art": "der",
+   "pl": "die Abschlüsse",
+   "forms": "",
+   "ipa": "[ˈapʃlʊs]",
+   "ru": "окончание учёбы, диплом",
+   "pos": "noun"
+  },
+  {
+   "de": "die Lehre",
+   "lemma": "Lehre",
+   "art": "die",
+   "pl": "die Lehren",
+   "forms": "",
+   "ipa": "[ˈleːʁə]",
+   "ru": "профобучение, ученичество",
+   "pos": "noun"
+  },
+  {
+   "de": "der Meister",
+   "lemma": "Meister",
+   "art": "der",
+   "pl": "die Meister",
+   "forms": "",
+   "ipa": "[ˈmaɪ̯stɐ]",
+   "ru": "мастер",
+   "pos": "noun"
+  },
+  {
+   "de": "die Karriere",
+   "lemma": "Karriere",
+   "art": "die",
+   "pl": "die Karrieren",
+   "forms": "",
+   "ipa": "[kaˈʁi̯eːʁə]",
+   "ru": "карьера",
+   "pos": "noun"
+  },
+  {
+   "de": "der Erfolg",
+   "lemma": "Erfolg",
+   "art": "der",
+   "pl": "die Erfolge",
+   "forms": "",
+   "ipa": "[ɛɐ̯ˈfɔlk]",
+   "ru": "успех",
+   "pos": "noun"
+  },
+  {
+   "de": "die Erfindung",
+   "lemma": "Erfindung",
+   "art": "die",
+   "pl": "die Erfindungen",
+   "forms": "",
+   "ipa": "[ɛɐ̯ˈfɪndʊŋ]",
+   "ru": "изобретение",
+   "pos": "noun"
+  },
+  {
+   "de": "das Ereignis",
+   "lemma": "Ereignis",
+   "art": "das",
+   "pl": "die Ereignisse",
+   "forms": "",
+   "ipa": "[ɛɐ̯ˈʔaɪ̯knɪs]",
+   "ru": "событие",
+   "pos": "noun"
+  },
+  {
+   "de": "die Vergangenheit",
+   "lemma": "Vergangenheit",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[fɛɐ̯ˈɡaŋənhaɪ̯t]",
+   "ru": "прошлое",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kindheit",
+   "lemma": "Kindheit",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈkɪnthaɪ̯t]",
+   "ru": "детство",
+   "pos": "noun"
+  },
+  {
+   "de": "die Jugend",
+   "lemma": "Jugend",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈjuːɡənt]",
+   "ru": "юность",
+   "pos": "noun"
+  },
+  {
+   "de": "die Geburt",
+   "lemma": "Geburt",
+   "art": "die",
+   "pl": "die Geburten",
+   "forms": "",
+   "ipa": "[ɡəˈbuːɐ̯t]",
+   "ru": "рождение",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ehe",
+   "lemma": "Ehe",
+   "art": "die",
+   "pl": "die Ehen",
+   "forms": "",
+   "ipa": "[ˈeːə]",
+   "ru": "брак",
+   "pos": "noun"
+  },
+  {
+   "de": "die Herkunft",
+   "lemma": "Herkunft",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈheːɐ̯kʊnft]",
+   "ru": "происхождение",
+   "pos": "noun"
+  },
+  {
+   "de": "das Heimweh",
+   "lemma": "Heimweh",
+   "art": "das",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈhaɪ̯mveː]",
+   "ru": "тоска по дому",
+   "pos": "noun"
+  },
+  {
+   "de": "der Krieg",
+   "lemma": "Krieg",
+   "art": "der",
+   "pl": "die Kriege",
+   "forms": "",
+   "ipa": "[kʁiːk]",
+   "ru": "война",
+   "pos": "noun"
+  },
+  {
+   "de": "der Frieden",
+   "lemma": "Frieden",
+   "art": "der",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfʁiːdən]",
+   "ru": "мир (не война)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Grenze",
+   "lemma": "Grenze",
+   "art": "die",
+   "pl": "die Grenzen",
+   "forms": "",
+   "ipa": "[ˈɡʁɛntsə]",
+   "ru": "граница",
+   "pos": "noun"
+  },
+  {
+   "de": "das Denkmal",
+   "lemma": "Denkmal",
+   "art": "das",
+   "pl": "die Denkmäler, die Denkmale",
+   "forms": "",
+   "ipa": "[ˈdɛŋkmaːl]",
+   "ru": "памятник",
+   "pos": "noun"
+  },
+  {
+   "de": "das Werk",
+   "lemma": "Werk",
+   "art": "das",
+   "pl": "die Werke",
+   "forms": "",
+   "ipa": "[vɛʁk]",
+   "ru": "произведение, завод",
+   "pos": "noun"
+  },
+  {
+   "de": "der Roman",
+   "lemma": "Roman",
+   "art": "der",
+   "pl": "die Romane",
+   "forms": "",
+   "ipa": "[ʁoˈmaːn]",
+   "ru": "роман (книга)",
+   "pos": "noun"
+  },
+  {
+   "de": "das Magazin",
+   "lemma": "Magazin",
+   "art": "das",
+   "pl": "die Magazine",
+   "forms": "",
+   "ipa": "[maɡaˈtsiːn]",
+   "ru": "журнал",
+   "pos": "noun"
+  },
+  {
+   "de": "die Bühne",
+   "lemma": "Bühne",
+   "art": "die",
+   "pl": "die Bühnen",
+   "forms": "",
+   "ipa": "[ˈbyːnə]",
+   "ru": "сцена",
+   "pos": "noun"
+  },
+  {
+   "de": "das Publikum",
+   "lemma": "Publikum",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈpuːblikʊm]",
+   "ru": "публика",
+   "pos": "noun"
+  },
+  {
+   "de": "der Zufall",
+   "lemma": "Zufall",
+   "art": "der",
+   "pl": "die Zufälle",
+   "forms": "",
+   "ipa": "[ˈtsuːfal]",
+   "ru": "случайность",
+   "pos": "noun"
+  },
+  {
+   "de": "die Erinnerung",
+   "lemma": "Erinnerung",
+   "art": "die",
+   "pl": "die Erinnerungen",
+   "forms": "",
+   "ipa": "[ɛɐ̯ˈʔɪnəʁʊŋ]",
+   "ru": "воспоминание",
+   "pos": "noun"
+  },
+  {
+   "de": "aufwachsen",
+   "lemma": "aufwachsen",
+   "art": "",
+   "pl": "",
+   "forms": "wächst auf, wuchs auf, ist aufgewachsen",
+   "ipa": "[ˈaʊ̯fvaksən]",
+   "ru": "вырасти",
+   "pos": "verb"
+  },
+  {
+   "de": "stammen",
+   "lemma": "stammen",
+   "art": "",
+   "pl": "",
+   "forms": "stammte, hat gestammt",
+   "ipa": "[ˈʃtamən]",
+   "ru": "происходить (из)",
+   "pos": "verb"
+  },
+  {
+   "de": "gründen",
+   "lemma": "gründen",
+   "art": "",
+   "pl": "",
+   "forms": "gründete, hat gegründet",
+   "ipa": "[ˈɡʁʏndən]",
+   "ru": "основать",
+   "pos": "verb"
+  },
+  {
+   "de": "eröffnen",
+   "lemma": "eröffnen",
+   "art": "",
+   "pl": "",
+   "forms": "eröffnete, hat eröffnet",
+   "ipa": "[ɛɐ̯ˈʔœfnən]",
+   "ru": "открыть (дело)",
+   "pos": "verb"
+  },
+  {
+   "de": "erfinden",
+   "lemma": "erfinden",
+   "art": "",
+   "pl": "",
+   "forms": "erfindet, erfand, hat erfunden",
+   "ipa": "[ɛɐ̯ˈfɪndən]",
+   "ru": "изобрести, выдумать",
+   "pos": "verb"
+  },
+  {
+   "de": "entdecken",
+   "lemma": "entdecken",
+   "art": "",
+   "pl": "",
+   "forms": "entdeckte, hat entdeckt",
+   "ipa": "[ɛntˈdɛkən]",
+   "ru": "открыть, обнаружить",
+   "pos": "verb"
+  },
+  {
+   "de": "entstehen",
+   "lemma": "entstehen",
+   "art": "",
+   "pl": "",
+   "forms": "entsteht, entstand, ist entstanden",
+   "ipa": "[ɛntˈʃteːən]",
+   "ru": "возникнуть",
+   "pos": "verb"
+  },
+  {
+   "de": "geschehen",
+   "lemma": "geschehen",
+   "art": "",
+   "pl": "",
+   "forms": "geschieht, geschah, ist geschehen",
+   "ipa": "[ɡəˈʃeːən]",
+   "ru": "случаться",
+   "pos": "verb"
+  },
+  {
+   "de": "erleben",
+   "lemma": "erleben",
+   "art": "",
+   "pl": "",
+   "forms": "erlebte, hat erlebt",
+   "ipa": "[ɛɐ̯ˈleːbən]",
+   "ru": "пережить, испытать",
+   "pos": "verb"
+  },
+  {
+   "de": "erfahren",
+   "lemma": "erfahren",
+   "art": "",
+   "pl": "",
+   "forms": "erfährt, erfuhr, hat erfahren",
+   "ipa": "[ɛɐ̯ˈfaːʁən]",
+   "ru": "узнать (новость)",
+   "pos": "verb"
+  },
+  {
+   "de": "verlassen",
+   "lemma": "verlassen",
+   "art": "",
+   "pl": "",
+   "forms": "verlässt, verließ, hat verlassen",
+   "ipa": "[fɛɐ̯ˈlasən]",
+   "ru": "покинуть",
+   "pos": "verb"
+  },
+  {
+   "de": "fliehen",
+   "lemma": "fliehen",
+   "art": "",
+   "pl": "",
+   "forms": "flieht, floh, ist geflohen",
+   "ipa": "[ˈfliːən]",
+   "ru": "бежать, спасаться",
+   "pos": "verb"
+  },
+  {
+   "de": "gelingen",
+   "lemma": "gelingen",
+   "art": "",
+   "pl": "",
+   "forms": "gelingt, gelang, ist gelungen; + Dat: mir gelingt",
+   "ipa": "[ɡəˈlɪŋən]",
+   "ru": "удаваться",
+   "pos": "verb"
+  },
+  {
+   "de": "verschwinden",
+   "lemma": "verschwinden",
+   "art": "",
+   "pl": "",
+   "forms": "verschwindet, verschwand, ist verschwunden",
+   "ipa": "[fɛɐ̯ˈʃvɪndən]",
+   "ru": "исчезнуть",
+   "pos": "verb"
+  },
+  {
+   "de": "wachsen",
+   "lemma": "wachsen",
+   "art": "",
+   "pl": "",
+   "forms": "wächst, wuchs, ist gewachsen",
+   "ipa": "[ˈvaksən]",
+   "ru": "расти",
+   "pos": "verb"
+  },
+  {
+   "de": "verbringen",
+   "lemma": "verbringen",
+   "art": "",
+   "pl": "",
+   "forms": "verbringt, verbrachte, hat verbracht",
+   "ipa": "[fɛɐ̯ˈbʁɪŋən]",
+   "ru": "проводить (время)",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) entschließen",
+   "lemma": "(sich) entschließen",
+   "art": "",
+   "pl": "",
+   "forms": "entschließt sich, entschloss sich, hat sich entschlossen",
+   "ipa": "[ɛntˈʃliːsən]",
+   "ru": "решиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "begegnen",
+   "lemma": "begegnen",
+   "art": "",
+   "pl": "",
+   "forms": "begegnete, ist begegnet; + Dat",
+   "ipa": "[bəˈɡeːɡnən]",
+   "ru": "встретить случайно",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) scheiden lassen",
+   "lemma": "(sich) scheiden lassen",
+   "art": "",
+   "pl": "",
+   "forms": "lässt sich scheiden, ließ sich scheiden, hat sich scheiden lassen",
+   "ipa": "[ˈʃaɪ̯dən ˌlasən]",
+   "ru": "развестись",
+   "pos": "phrase"
+  },
+  {
+   "de": "geschieden",
+   "lemma": "geschieden",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəˈʃiːdən]",
+   "ru": "разведённый",
+   "pos": "adj"
+  },
+  {
+   "de": "brennen",
+   "lemma": "brennen",
+   "art": "",
+   "pl": "",
+   "forms": "brennt, brannte, hat gebrannt",
+   "ipa": "[ˈbʁɛnən]",
+   "ru": "гореть",
+   "pos": "verb"
+  },
+  {
+   "de": "rennen",
+   "lemma": "rennen",
+   "art": "",
+   "pl": "",
+   "forms": "rennt, rannte, ist gerannt",
+   "ipa": "[ˈʁɛnən]",
+   "ru": "мчаться, бежать",
+   "pos": "verb"
+  },
+  {
+   "de": "historisch",
+   "lemma": "historisch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[hɪsˈtoːʁɪʃ]",
+   "ru": "исторический",
+   "pos": "adj"
+  },
+  {
+   "de": "inzwischen",
+   "lemma": "inzwischen",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɪnˈtsvɪʃən]",
+   "ru": "тем временем, теперь уже",
+   "pos": "adv"
+  },
+  {
+   "de": "bisher",
+   "lemma": "bisher",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bɪsˈheːɐ̯]",
+   "ru": "до сих пор",
+   "pos": "adv"
+  },
+  {
+   "de": "längst",
+   "lemma": "längst",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[lɛŋst]",
+   "ru": "давно уже",
+   "pos": "adv"
+  },
+  {
+   "de": "nachdem",
+   "lemma": "nachdem",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[naːxˈdeːm]",
+   "ru": "после того как",
+   "pos": "adv"
+  },
+  {
+   "de": "bevor",
+   "lemma": "bevor",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bəˈfoːɐ̯]",
+   "ru": "прежде чем",
+   "pos": "adv"
+  },
+  {
+   "de": "während",
+   "lemma": "während",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈvɛːʁənt]",
+   "ru": "пока, в то время как",
+   "pos": "adv"
+  },
+  {
+   "de": "seitdem",
+   "lemma": "seitdem",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[zaɪ̯tˈdeːm]",
+   "ru": "с тех пор (как)",
+   "pos": "adv"
+  },
+  {
+   "de": "schließlich",
+   "lemma": "schließlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃliːslɪç]",
+   "ru": "в конце концов",
+   "pos": "adv"
+  },
+  {
+   "de": "zunächst",
+   "lemma": "zunächst",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[tsuˈnɛːçst]",
+   "ru": "сначала",
+   "pos": "adv"
+  },
+  {
+   "de": "ursprünglich",
+   "lemma": "ursprünglich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈuːɐ̯ʃpʁʏŋlɪç]",
+   "ru": "первоначально",
+   "pos": "adv"
+  },
+  {
+   "de": "die Affäre",
+   "lemma": "Affäre",
+   "art": "die",
+   "pl": "die Affären",
+   "forms": "",
+   "ipa": "[aˈfɛːʁə]",
+   "ru": "любовная связь; скандал",
+   "pos": "noun"
+  },
+  {
+   "de": "das Ausland",
+   "lemma": "Ausland",
+   "art": "das",
+   "pl": "без множественного; im Ausland = за границей",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sˌlant]",
+   "ru": "заграница",
+   "pos": "noun"
+  },
+  {
+   "de": "der/die Auszubildende",
+   "lemma": "der/die Auszubildende",
+   "art": "",
+   "pl": "",
+   "forms": "die Auszubildenden; ein Auszubildender, eine Auszubildende",
+   "ipa": "[ˈaʊ̯stsuˌbɪldəndə]",
+   "ru": "ученик на профобучении",
+   "pos": "phrase"
+  },
+  {
+   "de": "das Auto",
+   "lemma": "Auto",
+   "art": "das",
+   "pl": "die Autos",
+   "forms": "",
+   "ipa": "[ˈaʊ̯to]",
+   "ru": "машина, автомобиль",
+   "pos": "noun"
+  },
+  {
+   "de": "feierlich",
+   "lemma": "feierlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfaɪ̯ɐlɪç]",
+   "ru": "торжественный, торжественно",
+   "pos": "adj"
+  },
+  {
+   "de": "der Gastarbeiter",
+   "lemma": "Gastarbeiter",
+   "art": "der",
+   "pl": "die Gastarbeiter",
+   "forms": "",
+   "ipa": "[ˈɡastˌʔaʁbaɪ̯tɐ]",
+   "ru": "иностранный рабочий (истор.)",
+   "pos": "noun"
+  },
+  {
+   "de": "das Leitmotiv",
+   "lemma": "Leitmotiv",
+   "art": "das",
+   "pl": "die Leitmotive",
+   "forms": "",
+   "ipa": "[ˈlaɪ̯tmoˌtiːf]",
+   "ru": "лейтмотив",
+   "pos": "noun"
+  },
+  {
+   "de": "das Porträt",
+   "lemma": "Porträt",
+   "art": "das",
+   "pl": "die Porträts",
+   "forms": "",
+   "ipa": "[pɔʁˈtʁɛː]",
+   "ru": "портрет",
+   "pos": "noun"
+  },
+  {
+   "de": "die Schneiderin",
+   "lemma": "Schneiderin",
+   "art": "die",
+   "pl": "die Schneiderinnen",
+   "forms": "",
+   "ipa": "[ˈʃnaɪ̯dəʁɪn]",
+   "ru": "портниха",
+   "pos": "noun"
+  },
+  {
+   "de": "senden",
+   "lemma": "senden",
+   "art": "",
+   "pl": "",
+   "forms": "sendet, sandte / sendete, hat gesandt / gesendet",
+   "ipa": "[ˈzɛndən]",
+   "ru": "посылать; передавать (по радио)",
+   "pos": "verb"
+  },
+  {
+   "de": "singen",
+   "lemma": "singen",
+   "art": "",
+   "pl": "",
+   "forms": "singt, sang, hat gesungen",
+   "ipa": "[ˈzɪŋən]",
+   "ru": "петь",
+   "pos": "verb"
+  },
+  {
+   "de": "solange",
+   "lemma": "solange",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[zoˈlaŋə]",
+   "ru": "пока, до тех пор пока",
+   "pos": "adv"
+  },
+  {
+   "de": "trennen",
+   "lemma": "trennen",
+   "art": "",
+   "pl": "",
+   "forms": "trennt, trennte, hat getrennt",
+   "ipa": "[ˈtʁɛnən]",
+   "ru": "разделять",
+   "pos": "verb"
+  },
+  {
+   "de": "weiter",
+   "lemma": "weiter",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈvaɪ̯tɐ]",
+   "ru": "дальше",
+   "pos": "adv"
+  },
+  {
+   "de": "wenden",
+   "lemma": "wenden",
+   "art": "",
+   "pl": "",
+   "forms": "wendet, wandte / wendete, hat gewandt / gewendet; sich wenden an + Akk = обращаться",
+   "ipa": "[ˈvɛndən]",
+   "ru": "поворачивать",
+   "pos": "verb"
+  }
+ ]
+}

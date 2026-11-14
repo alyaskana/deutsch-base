@@ -1,0 +1,600 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 20",
+ "sub": "Упражнения урока 20 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 20,
+  "s": "20.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 20.1",
+   "sub": "Поставьте слово в скобках в сравнительную или превосходную степень. В каждом пропуске одна форма; am уже напечатано.",
+   "items": [
+    {
+     "s": "Der Balkon ist ___ als die Küche.",
+     "ru": "",
+     "a": [
+      "kleiner"
+     ],
+     "hint": "klein",
+     "n": "Перед <b>als</b> нужна сравнительная степень с <b>-er</b>."
+    },
+    {
+     "s": "Von diesen drei Zimmern ist dieses am ___.",
+     "ru": "",
+     "a": [
+      "ruhigsten"
+     ],
+     "hint": "ruhig",
+     "n": "Выбираем самую тихую комнату: после <b>am</b> нужна форма на <b>-sten</b>."
+    },
+    {
+     "s": "Die Stadt ist ___ als das Dorf.",
+     "ru": "",
+     "a": [
+      "interessanter"
+     ],
+     "hint": "interessant",
+     "n": "Длинное слово тоже получает <b>-er</b>, без <b>mehr</b>."
+    },
+    {
+     "s": "Das Fahrrad ist hier ___ als die Straßenbahn.",
+     "ru": "",
+     "a": [
+      "praktischer"
+     ],
+     "hint": "praktisch",
+     "n": "Сравнительная степень строится с <b>-er</b> независимо от длины слова."
+    },
+    {
+     "s": "Heute ist es ___ als vorgestern.",
+     "ru": "",
+     "a": [
+      "kälter"
+     ],
+     "hint": "kalt",
+     "n": "У <b>kalt</b> в сравнительной степени появляется умлаут."
+    },
+    {
+     "s": "Das Bad ist ___ als die Küche.",
+     "ru": "",
+     "a": [
+      "größer"
+     ],
+     "hint": "groß",
+     "n": "У <b>groß</b> гласная меняется на <b>ö</b>."
+    },
+    {
+     "s": "Paul ist ___ als Alina.",
+     "ru": "",
+     "a": [
+      "jünger"
+     ],
+     "hint": "jung",
+     "n": "Сравнительная форма от <b>jung</b> содержит <b>ü</b>."
+    },
+    {
+     "s": "Dieses Brot schmeckt ___ als das Brot dort.",
+     "ru": "",
+     "a": [
+      "besser"
+     ],
+     "hint": "gut",
+     "n": "Для качества берём особую сравнительную форму от <b>gut</b>."
+    },
+    {
+     "s": "Für die Garage bezahlen wir ___ als für den Keller.",
+     "ru": "",
+     "a": [
+      "mehr"
+     ],
+     "hint": "viel",
+     "n": "Сумму сравниваем особой формой от <b>viel</b>."
+    },
+    {
+     "s": "Die Miete ist hier ___ als dort.",
+     "ru": "",
+     "a": [
+      "höher"
+     ],
+     "hint": "hoch",
+     "n": "В сравнительной форме от <b>hoch</b> нет буквы <b>c</b>."
+    },
+    {
+     "s": "Von diesen drei Getränken ist der Tee am ___.",
+     "ru": "",
+     "a": [
+      "heißesten"
+     ],
+     "hint": "heiß",
+     "n": "После <b>ß</b> у односложного <b>heiß</b> добавляется <b>-est-</b>."
+    },
+    {
+     "s": "Von den drei Büchern finde ich dieses am ___.",
+     "ru": "",
+     "a": [
+      "spannendsten"
+     ],
+     "hint": "spannend",
+     "n": "После безударного <b>-end</b> нужна форма с <b>-st-</b>, без дополнительной <b>e</b>."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 20.2",
+   "sub": "В пунктах 1–6 вставьте als или wie. В пунктах 7–8 заполните обе позиции: связку и местоимение.",
+   "items": [
+    {
+     "s": "Die Küche ist genauso modern ___ das Bad.",
+     "ru": "",
+     "a": [
+      "wie"
+     ],
+     "hint": "",
+     "n": "Маркер <b>genauso</b> соединяется с <b>wie</b>."
+    },
+    {
+     "s": "Die Garage ist kleiner ___ das Wohnzimmer.",
+     "ru": "",
+     "a": [
+      "als"
+     ],
+     "hint": "",
+     "n": "Сравнительная степень <b>kleiner</b> соединяется с <b>als</b>."
+    },
+    {
+     "s": "Das Leben in Berlin ist anders ___ in Köln.",
+     "ru": "",
+     "a": [
+      "als"
+     ],
+     "hint": "",
+     "n": "Слово <b>anders</b> образует сочетание с <b>als</b>."
+    },
+    {
+     "s": "Das Schlafzimmer ist nicht so warm ___ die Küche.",
+     "ru": "",
+     "a": [
+      "wie"
+     ],
+     "hint": "",
+     "n": "Отрицание не меняет связку <b>so … wie</b>."
+    },
+    {
+     "s": "Das Wasser ist kühler ___ der Saft.",
+     "ru": "",
+     "a": [
+      "als"
+     ],
+     "hint": "",
+     "n": "После сравнительной формы <b>kühler</b> ставим <b>als</b>."
+    },
+    {
+     "s": "Маленькая комната стоит 300 евро в месяц, большая 600 евро. Das große Zimmer kostet doppelt so viel ___ das kleine.",
+     "ru": "",
+     "a": [
+      "wie"
+     ],
+     "hint": "",
+     "n": "«Вдвое больше» передаём через <b>doppelt so … wie</b>."
+    },
+    {
+     "s": "Paul kocht besser ___ ….",
+     "ru": "",
+     "a": [
+      "als"
+     ],
+     "hint": "меня",
+     "n": "Сравниваем подлежащие: Пауль готовит лучше, чем я (готовлю); поэтому Nominativ."
+    },
+    {
+     "s": "Paul kocht besser als ___.",
+     "ru": "",
+     "a": [
+      "ich"
+     ],
+     "hint": "меня",
+     "n": "Сравниваем подлежащие: Пауль готовит лучше, чем я (готовлю); поэтому Nominativ."
+    },
+    {
+     "s": "Lea spricht schneller ___ ….",
+     "ru": "",
+     "a": [
+      "als"
+     ],
+     "hint": "его",
+     "n": "Сравниваем, как говорят двое: Леа говорит быстрее, чем он (говорит); он тоже подлежащее."
+    },
+    {
+     "s": "Lea spricht schneller als ___.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "его",
+     "n": "Сравниваем, как говорят двое: Леа говорит быстрее, чем он (говорит); он тоже подлежащее."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 20.3",
+   "sub": "Вставьте целое прилагательное с окончанием. К — сравнительная степень; П — превосходная степень.",
+   "items": [
+    {
+     "s": "Alina möchte eine ___ Küche.",
+     "ru": "",
+     "a": [
+      "größere"
+     ],
+     "hint": "groß, К",
+     "n": "После <b>eine</b> в Akkusativ женского рода добавляем <b>-e</b> к <b>größer</b>."
+    },
+    {
+     "s": "Hier ist ein ___ Schlafzimmer.",
+     "ru": "",
+     "a": [
+      "helleres"
+     ],
+     "hint": "hell, К",
+     "n": "У <b>ein</b> в Nominativ среднего рода нет окончания; прилагательное получает <b>-es</b>."
+    },
+    {
+     "s": "Wir suchen einen ___ Arbeitsplatz.",
+     "ru": "",
+     "a": [
+      "ruhigeren"
+     ],
+     "hint": "ruhig, К",
+     "n": "После <b>einen</b> в Akkusativ мужского рода нужно окончание <b>-en</b>."
+    },
+    {
+     "s": "Ich nehme die ___ Kamera.",
+     "ru": "",
+     "a": [
+      "teurere",
+      "teuerere"
+     ],
+     "hint": "teuer, К",
+     "n": "Сравнительная основа <b>teurer</b> получает <b>-e</b> после <b>die</b> в Akkusativ женского рода. Редкий вариант без выпадения <b>e</b> — <b>teuerere</b> — тоже допустим; для собственной речи выбирайте <b>teurere</b>."
+    },
+    {
+     "s": "Paul fährt mit dem ___ Schiff.",
+     "ru": "",
+     "a": [
+      "kleineren"
+     ],
+     "hint": "klein, К",
+     "n": "После <b>mit dem</b> стоит Dativ; добавляем <b>-en</b> к сравнительной форме."
+    },
+    {
+     "s": "Unsere Freunde wohnen im ___ Haus in der Straße.",
+     "ru": "",
+     "a": [
+      "größten"
+     ],
+     "hint": "groß, П",
+     "n": "<b>Im</b> содержит <b>dem</b>: Dativ даёт <b>-en</b>, а превосходная основа у <b>groß</b> без дополнительной <b>e</b>."
+    },
+    {
+     "s": "Das ist die ___ Brücke hier.",
+     "ru": "",
+     "a": [
+      "schönste"
+     ],
+     "hint": "schön, П",
+     "n": "Перед существительным женского рода после <b>die</b> в Nominativ нужна форма на <b>-ste</b>."
+    },
+    {
+     "s": "Wir kaufen den ___ Käse.",
+     "ru": "",
+     "a": [
+      "besten"
+     ],
+     "hint": "gut, П",
+     "n": "Особая основа <b>best-</b> получает <b>-en</b> после <b>den</b> в Akkusativ мужского рода."
+    },
+    {
+     "s": "Mein ___ Freund wohnt in Bonn.",
+     "ru": "",
+     "a": [
+      "bester"
+     ],
+     "hint": "gut, П",
+     "n": "После <b>mein</b> без окончания прилагательное показывает мужской род в Nominativ через <b>-er</b>."
+    },
+    {
+     "s": "Das ___ Kleid gefällt mir besser.",
+     "ru": "",
+     "a": [
+      "dunklere"
+     ],
+     "hint": "dunkel, К",
+     "n": "В сравнительной основе выпадает <b>e</b> из <b>-el</b>; затем добавляем согласовательное <b>-e</b>."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 20.4",
+   "sub": "Выберите полный ответ для указанного смысла. Если подходят обе формы, отмечайте вариант «обе формы».",
+   "items": [
+    {
+     "s": "Das ist ___ Zimmer.",
+     "ru": "Из трёх комнат называем самую тёмную",
+     "o": [
+      "am dunkelsten",
+      "das dunkelste",
+      "обе формы"
+     ],
+     "a": "das dunkelste",
+     "n": "Перед существительным нужна форма с артиклем и окончанием."
+    },
+    {
+     "s": "Die Wohnung rechts ist ___.",
+     "ru": "Сравниваем три квартиры",
+     "o": [
+      "die größte",
+      "обе формы",
+      "am größten"
+     ],
+     "a": "обе формы",
+     "n": "После <b>sein</b> при выборе среди квартир верны обе формы; во второй подразумевается квартира."
+    },
+    {
+     "s": "Die Küche ist am Morgen ___.",
+     "ru": "Сравниваем одну кухню в разное время суток",
+     "o": [
+      "обе формы",
+      "die hellste",
+      "am hellsten"
+     ],
+     "a": "am hellsten",
+     "n": "Сравниваем одну кухню с ней же в другое время; нужен вариант с <b>am</b>."
+    },
+    {
+     "s": "Lea spricht ___.",
+     "ru": "Сравниваем, как быстро три человека говорят",
+     "o": [
+      "am schnellsten",
+      "die schnellste",
+      "обе формы"
+     ],
+     "a": "am schnellsten",
+     "n": "Оцениваем действие <b>spricht</b>, поэтому нужна неизменяемая форма с <b>am</b>."
+    },
+    {
+     "s": "Diese Wohnung ist ___.",
+     "ru": "Среди трёх квартир выбираем самую современную",
+     "o": [
+      "am modernsten",
+      "die modernste",
+      "обе формы"
+     ],
+     "a": "обе формы",
+     "n": "Сравниваем разные квартиры после <b>sein</b>; существительное можно подразумевать."
+    },
+    {
+     "s": "Der Park ist im Oktober ___.",
+     "ru": "Сравниваем один и тот же парк по месяцам",
+     "o": [
+      "am buntesten",
+      "обе формы",
+      "der bunteste"
+     ],
+     "a": "am buntesten",
+     "n": "Парк сравнивается с самим собой в другие месяцы, а не с другими парками."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 20.5",
+   "scene": "Am Telefon",
+   "cap": "Две квартиры в Кёльне",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Лена, сестра Пауля, посмотрела две квартиры, A и B, и звонит брату.",
+   "audio": {
+    "id": "book-20-5",
+    "n": 2,
+    "dur": 40.05,
+    "t": [
+     [
+      0.8,
+      4.16
+     ],
+     [
+      4.16,
+      10.8
+     ],
+     [
+      10.8,
+      13.36
+     ],
+     [
+      13.36,
+      18.72
+     ],
+     [
+      18.72,
+      21.36
+     ],
+     [
+      21.36,
+      26.56
+     ],
+     [
+      26.56,
+      29.04
+     ],
+     [
+      29.04,
+      33.84
+     ],
+     [
+      33.84,
+      37.92
+     ]
+    ]
+   },
+   "speakers": {
+    "Paul": "Бавария",
+    "Lena": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Paul",
+     "de": "Hallo, Lena! Du hast heute zwei Wohnungen besichtigt, oder?",
+     "ru": "Привет, Лена! Ты сегодня смотрела две квартиры, да?"
+    },
+    {
+     "who": "Lena",
+     "de": "Ja. Ich schicke dir gleich die Fotos: A und B. Wohnung B ist billiger als Wohnung A.",
+     "ru": "Да. Сейчас пришлю фото: A и B. Квартира B дешевле квартиры A."
+    },
+    {
+     "who": "Paul",
+     "de": "Und der Weg zur U-Bahn?",
+     "ru": "А дорога до метро?"
+    },
+    {
+     "who": "Lena",
+     "de": "Wohnung A ist näher an der U-Bahn. Sie hat auch das größte Zimmer.",
+     "ru": "Квартира A ближе к метро. И в ней самая большая комната."
+    },
+    {
+     "who": "Paul",
+     "de": "Sind beide Wohnungen hell?",
+     "ru": "Обе квартиры светлые?"
+    },
+    {
+     "who": "Lena",
+     "de": "B ist nicht so hell wie A. Aber in B ist es ruhiger. Ich möchte lieber in B wohnen.",
+     "ru": "B не такая светлая, как A. Но в B тише. Я бы лучше жила в B."
+    },
+    {
+     "who": "Paul",
+     "de": "Ist das große Zimmer in A nicht wichtig?",
+     "ru": "А большая комната в A не важна?"
+    },
+    {
+     "who": "Lena",
+     "de": "Doch. Aber Ruhe ist mir am wichtigsten. Ich arbeite auch oft zu Hause.",
+     "ru": "Важна. Но тишина для меня важнее всего. Я ещё и часто работаю дома."
+    },
+    {
+     "who": "Paul",
+     "de": "Dann passt B besser. Ruf die Vermieterin an!",
+     "ru": "Тогда B подходит лучше. Звони хозяйке!"
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Какая квартира дешевле?",
+     "o": [
+      "B",
+      "A"
+     ],
+     "a": "B",
+     "n": "Wohnung B ist <b>billiger als</b> Wohnung A. billiger als — дешевле, чем.",
+     "k": 1
+    },
+    {
+     "q": "Какая ближе к метро?",
+     "o": [
+      "A",
+      "B"
+     ],
+     "a": "A",
+     "n": "Wohnung A ist <b>näher</b> an der U-Bahn. nah → näher.",
+     "k": 3
+    },
+    {
+     "q": "Где самая большая комната?",
+     "o": [
+      "A",
+      "B"
+     ],
+     "a": "A",
+     "n": "Sie hat auch <b>das größte Zimmer</b>. groß → größer → das größte.",
+     "k": 3
+    },
+    {
+     "q": "B такая же светлая, как A?",
+     "o": [
+      "нет",
+      "да"
+     ],
+     "a": "нет",
+     "n": "B ist <b>nicht so hell wie</b> A. nicht so … wie — не такая, как.",
+     "k": 5
+    },
+    {
+     "q": "Где Лена предпочитает жить?",
+     "o": [
+      "B",
+      "A"
+     ],
+     "a": "B",
+     "n": "Ich möchte <b>lieber</b> in B wohnen. gern → lieber.",
+     "k": 5
+    },
+    {
+     "q": "Что для Лены важнее всего?",
+     "o": [
+      "тишина",
+      "размер комнаты"
+     ],
+     "a": "тишина",
+     "n": "Ruhe ist mir <b>am wichtigsten</b>. am wichtigsten — важнее всего.",
+     "k": 7
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 20.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 20.6",
+   "sub": "Напишите 80–100 слов: сравните свой город с Кёльном, Берлином или Цюрихом либо две квартиры, где вы жили. Можно придумать две квартиры. Используйте знакомые слова; численность населения не нужна.",
+   "items": [
+    {
+     "q": "Напишите 80–100 слов: сравните свой город с Кёльном, Берлином или Цюрихом либо две квартиры, где вы жили. Можно придумать две квартиры. Используйте знакомые слова; численность населения не нужна.",
+     "hint": "Перечитайте текст: есть ли в нём три сравнения с als, среди них одно с умлаутом и одно с особой формой? Есть ли so … wie или nicht so … wie? Встречается ли превосходная степень дважды, с am и перед существительным, а сравнительная форма перед существительным хотя бы раз? Выразили ли вы предпочтение через lieber или am liebsten?",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Ich vergleiche meine alte und meine neue Wohnung in Köln. Die neue Wohnung ist größer und heller als die alte, aber die Miete ist höher. Die alte Wohnung war nicht so teuer wie die neue. Dort hatte ich nur ein kleines Zimmer. Jetzt habe ich ein größeres Schlafzimmer und sogar einen Balkon. Das neue Viertel gefällt mir auch besser als das alte. Der Park ist ganz nah, und im Mai ist er am schönsten. An der Ecke ist die beste Bäckerei im Viertel. Ich wohne lieber hier als dort."
+     ],
+     "check": [
+      "Проверьте свой текст: 80–100 слов; три сравнения с als; умлаут; особая форма; сравнение с wie; две разные превосходные конструкции; предпочтение; сравнительное прилагательное с окончанием. Свои факты и другой порядок слов допустимы."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

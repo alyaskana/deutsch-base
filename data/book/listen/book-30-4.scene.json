@@ -1,0 +1,188 @@
+{
+ "id": "book-30-4",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Sprecherin",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Die Kollegin lässt mich ihren Stuhl benutzen, weil sie ihn heute nicht braucht.",
+   "ru": "Коллега даёт мне воспользоваться своим стулом, потому что он ей сегодня не нужен."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Die Mutter lässt das Kind spielen, weil es heute keine Schule hat.",
+   "ru": "Мама позволяет ребёнку играть, потому что сегодня нет школы."
+  },
+  {
+   "who": "Sprecherin",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Ich habe meinen Chef gefragt, ob ich heute von zu Hause arbeiten darf. Er ist einverstanden und lässt mich heute von zu Hause arbeiten.",
+   "ru": "Я спросила шефа, можно ли мне сегодня работать из дома. Он согласен и разрешает."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Heute lasse ich meine Tasche im Büro und nehme nur mein Handy mit.",
+   "ru": "Сегодня я оставляю сумку в офисе и беру только телефон."
+  },
+  {
+   "who": "Sprecherin",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Ich lasse meinen Schirm heute zu Hause, denn es regnet nicht.",
+   "ru": "Сегодня я оставляю зонт дома: дождя нет."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Im Salon lasse ich mir den Bart rasieren.",
+   "ru": "В салоне мне бреют бороду."
+  },
+  {
+   "who": "Sprecherin",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Beim Arzt lasse ich mich gründlich untersuchen.",
+   "ru": "У врача я прохожу тщательное обследование."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Ich lasse mein Fahrrad vom Mechaniker reparieren.",
+   "ru": "Я отдаю велосипед в ремонт механику."
+  },
+  {
+   "who": "Sprecherin",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Dieser Fleck lässt sich leicht entfernen.",
+   "ru": "Это пятно легко выводится."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Die Heizung lässt sich leider nicht ausmachen.",
+   "ru": "Отопление, к сожалению, не выключается."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 30.4",
+  "scene": "Zehn Situationen",
+  "cap": "Десять фраз с lassen",
+  "sub": "Десять ситуаций. Что значит lassen в каждой?",
+  "speakers": {
+   "Sprecherin": "Германия",
+   "Sprecher": "Саксония"
+  },
+  "qs": [
+   [
+    "Ситуация 1: lassen значит…",
+    [
+     "разрешить",
+     "оставить",
+     "поручить",
+     "можно сделать"
+    ],
+    "Die Kollegin <b>lässt</b> mich ihren Stuhl benutzen, weil sie ihn heute nicht braucht.",
+    "Коллега позволяет взять стул."
+   ],
+   [
+    "Ситуация 2: lassen значит…",
+    [
+     "разрешить",
+     "оставить",
+     "поручить",
+     "можно сделать"
+    ],
+    "Die Mutter <b>lässt</b> das Kind spielen, weil es heute keine Schule hat.",
+    "Мать не возражает против игры."
+   ],
+   [
+    "Ситуация 3: lassen значит…",
+    [
+     "разрешить",
+     "оставить",
+     "поручить",
+     "можно сделать"
+    ],
+    "Ich habe meinen Chef gefragt, ob ich heute von zu Hause arbeiten darf. Er ist einverstanden und <b>lässt</b> mich heute von zu Hause arbeiten.",
+    "Шеф разрешает работать из дома."
+   ],
+   [
+    "Ситуация 4: lassen значит…",
+    [
+     "оставить",
+     "разрешить",
+     "поручить",
+     "можно сделать"
+    ],
+    "Heute <b>lasse</b> ich meine Tasche im Büro und nehme nur mein Handy mit.",
+    "Сумку не берут с собой."
+   ],
+   [
+    "Ситуация 5: lassen значит…",
+    [
+     "оставить",
+     "разрешить",
+     "поручить",
+     "можно сделать"
+    ],
+    "Ich <b>lasse</b> meinen Schirm heute zu Hause, denn es regnet nicht.",
+    "Зонт остаётся дома."
+   ],
+   [
+    "Ситуация 6: lassen значит…",
+    [
+     "поручить",
+     "разрешить",
+     "оставить",
+     "можно сделать"
+    ],
+    "Im Salon <b>lasse</b> ich mir den Bart rasieren.",
+    "Услугу делает другой: mir den Bart rasieren."
+   ],
+   [
+    "Ситуация 7: lassen значит…",
+    [
+     "поручить",
+     "разрешить",
+     "оставить",
+     "можно сделать"
+    ],
+    "Beim Arzt <b>lasse</b> ich mich gründlich untersuchen.",
+    "Обследуют меня: Akkusativ mich."
+   ],
+   [
+    "Ситуация 8: lassen значит…",
+    [
+     "поручить",
+     "разрешить",
+     "оставить",
+     "можно сделать"
+    ],
+    "Ich <b>lasse</b> mein Fahrrad vom Mechaniker reparieren.",
+    "Велосипед чинит механик."
+   ],
+   [
+    "Ситуация 9: lassen значит…",
+    [
+     "можно сделать",
+     "разрешить",
+     "оставить",
+     "поручить"
+    ],
+    "Dieser Fleck <b>lässt</b> sich leicht entfernen.",
+    "sich lassen + инфинитив — можно сделать."
+   ],
+   [
+    "Ситуация 10: lassen значит…",
+    [
+     "можно сделать",
+     "разрешить",
+     "оставить",
+     "поручить"
+    ],
+    "Die Heizung <b>lässt</b> sich leider nicht ausmachen.",
+    "Отопление невозможно выключить."
+   ]
+  ]
+ }
+}

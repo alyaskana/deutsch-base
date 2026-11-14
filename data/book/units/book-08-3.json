@@ -1,7 +1,7 @@
 {
  "title": "Nicht …, sondern: исправляем конкретную деталь",
  "topic": "Книга · 8.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -99,5 +99,105 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Не это, а то",
+   "sub": "nicht перед неверной деталью, запятая перед sondern",
+   "items": [
+    {
+     "ru": "Я возьму не вино, а воду.",
+     "w": [
+      "Ich",
+      "nehme",
+      "nicht",
+      "den",
+      "Wein,",
+      "sondern",
+      "das",
+      "Wasser."
+     ],
+     "ok": [
+      "Ich nehme nicht den Wein, sondern das Wasser."
+     ],
+     "n": "<b>nicht den Wein, sondern …</b>"
+    },
+    {
+     "ru": "Мы придём не сегодня, а завтра.",
+     "w": [
+      "Wir",
+      "kommen",
+      "nicht",
+      "heute,",
+      "sondern",
+      "morgen."
+     ],
+     "ok": [
+      "Wir kommen nicht heute, sondern morgen."
+     ],
+     "n": "nicht стоит перед исправляемой деталью."
+    },
+    {
+     "ru": "Платит не Леа, а Йонас.",
+     "w": [
+      "Nicht",
+      "Lea,",
+      "sondern",
+      "Jonas",
+      "zahlt."
+     ],
+     "ok": [
+      "Nicht Lea, sondern Jonas zahlt."
+     ],
+     "n": "Вся группа на первом месте, глагол после неё."
+    },
+    {
+     "ru": "Это не чай, а кофе.",
+     "w": [
+      "Das",
+      "ist",
+      "kein",
+      "Tee,",
+      "sondern",
+      "Kaffee."
+     ],
+     "ok": [
+      "Das ist kein Tee, sondern Kaffee."
+     ],
+     "n": "Без артикля — <b>kein</b>, и тоже можно с sondern."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  },
+  {
+   "type": "choice",
+   "title": "sondern или und?",
+   "sub": "sondern — только когда исправляем отвергнутое",
+   "items": [
+    {
+     "s": "Paul trinkt Bier, ___ Alina trinkt Saft.",
+     "ru": "Пауль пьёт пиво, а Алина — сок.",
+     "o": [
+      "und",
+      "sondern"
+     ],
+     "a": "und",
+     "n": "Это сопоставление, не исправление: <b>und</b>."
+    },
+    {
+     "s": "Ich nehme nicht den Fisch, ___ das Hähnchen.",
+     "ru": "Я возьму не рыбу, а курицу.",
+     "o": [
+      "sondern",
+      "und"
+     ],
+     "a": "sondern",
+     "n": "Исправляем выбор: <b>sondern</b>."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  }
+ ]
 }

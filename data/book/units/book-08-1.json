@@ -1,7 +1,7 @@
 {
  "title": "Kein или nicht: сначала скажите «да»",
  "topic": "Книга · 8.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -154,5 +154,95 @@
    "Различайте <b>noch nicht</b> (ещё не) и <b>nicht mehr</b> (уже не); с существительным используйте <b>noch kein</b> и <b>kein … mehr</b>."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "kein или nicht?",
+   "sub": "Скажите фразу утвердительно и посмотрите на артикль",
+   "items": [
+    {
+     "s": "Ich esse ___ Reis.",
+     "ru": "Я не ем рис.",
+     "o": [
+      "keinen",
+      "nicht"
+     ],
+     "a": "keinen",
+     "n": "Перед Reis нет артикля → <b>kein</b>; der Reis в Akkusativ → <b>keinen</b>."
+    },
+    {
+     "s": "Ich bestelle den Tee ___.",
+     "ru": "Я не заказываю этот чай.",
+     "o": [
+      "nicht",
+      "keinen"
+     ],
+     "a": "nicht",
+     "n": "Определённый артикль → <b>nicht</b>."
+    },
+    {
+     "s": "Der Tee ist ___ bitter.",
+     "ru": "Чай не горький.",
+     "o": [
+      "nicht",
+      "kein"
+     ],
+     "a": "nicht",
+     "n": "Отрицаем качество → <b>nicht</b>."
+    },
+    {
+     "s": "Das ist ___ Jonas.",
+     "ru": "Это не Йонас.",
+     "o": [
+      "nicht",
+      "kein"
+     ],
+     "a": "nicht",
+     "n": "С именем → <b>nicht</b>."
+    },
+    {
+     "s": "Wir haben ___ Tisch.",
+     "ru": "У нас нет стола.",
+     "o": [
+      "keinen",
+      "kein"
+     ],
+     "a": "keinen",
+     "n": "Отрицание не меняет падеж: после haben Akkusativ, <b>keinen Tisch</b>."
+    },
+    {
+     "s": "Ich habe ___ Zeit.",
+     "ru": "У меня нет времени.",
+     "o": [
+      "keine",
+      "nicht"
+     ],
+     "a": "keine",
+     "n": "die Zeit без артикля → <b>keine Zeit</b>."
+    },
+    {
+     "s": "Das ist ___ mein Pass.",
+     "ru": "Это не мой паспорт.",
+     "o": [
+      "nicht",
+      "kein"
+     ],
+     "a": "nicht",
+     "n": "Перед притяжательным словом → <b>nicht</b>."
+    },
+    {
+     "s": "Bitte ___ viel Salz.",
+     "ru": "Пожалуйста, немного соли (не много).",
+     "o": [
+      "nicht",
+      "kein"
+     ],
+     "a": "nicht",
+     "n": "<b>nicht viel</b> — «мало», а <b>kein Salz</b> — «совсем нет»."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

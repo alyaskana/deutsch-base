@@ -1,0 +1,683 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 26",
+ "sub": "Упражнения урока 26 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 26,
+  "s": "26.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 26.1",
+   "sub": "Вставьте одну форму относительного местоимения из таблицы der, die, das. Варианты с welcher здесь не используйте.",
+   "items": [
+    {
+     "s": "Wir mögen den Balkon, ___ zum Hof liegt.",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "",
+     "n": "В главной части балкон в <b>Akkusativ</b>, но в придаточном он подлежащее: мужской род, <b>Nominativ</b>."
+    },
+    {
+     "s": "Ich brauche eine Wohnung, ___ eine Terrasse hat.",
+     "ru": "",
+     "a": [
+      "die"
+     ],
+     "hint": "",
+     "n": "Квартира имеет террасу: подлежащее женского рода."
+    },
+    {
+     "s": "Das Haus hat Fenster, ___ sehr groß sind.",
+     "ru": "",
+     "a": [
+      "die"
+     ],
+     "hint": "",
+     "n": "Окна служат подлежащим во множественном числе."
+    },
+    {
+     "s": "Der Schrank, ___ wir heute verkaufen, ist alt.",
+     "ru": "",
+     "a": [
+      "den"
+     ],
+     "hint": "",
+     "n": "В главной части шкаф в <b>Nominativ</b>, но внутри придаточного мы продаём его: <b>Akkusativ</b>."
+    },
+    {
+     "s": "Das ist die Küche, ___ Paul fotografiert hat.",
+     "ru": "",
+     "a": [
+      "die"
+     ],
+     "hint": "",
+     "n": "Пауль сфотографировал её: кухня здесь объект, женский род, <b>Akkusativ</b>."
+    },
+    {
+     "s": "Das Sofa, ___ wir gekauft haben, ist sehr bequem.",
+     "ru": "",
+     "a": [
+      "das"
+     ],
+     "hint": "",
+     "n": "Мы купили его: объект среднего рода, <b>Akkusativ</b>, форма <b>das</b>."
+    },
+    {
+     "s": "Das Kind, ___ das Fahrrad gehört, wohnt oben.",
+     "ru": "",
+     "a": [
+      "dem"
+     ],
+     "hint": "",
+     "n": "Велосипед принадлежит ребёнку; <b>gehören</b> сочетается с <b>Dativ</b>, средний род: <b>dem</b>."
+    },
+    {
+     "s": "Die Gäste, ___ der Garten gefällt, bleiben gern lange.",
+     "ru": "",
+     "a": [
+      "denen"
+     ],
+     "hint": "",
+     "n": "Сад нравится им; <b>Dativ</b> множественного числа."
+    },
+    {
+     "s": "Die Bewohnerin, ___ wir helfen, zieht morgen ein.",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "",
+     "n": "Мы помогаем ей; после <b>helfen</b> нужен <b>Dativ</b>, женский род: <b>der</b>."
+    },
+    {
+     "s": "Die Freunde, ___ wir zur neuen Wohnung gratulieren, feiern am Samstag.",
+     "ru": "",
+     "a": [
+      "denen"
+     ],
+     "hint": "",
+     "n": "Поздравляем их: <b>gratulieren</b> сочетается с <b>Dativ</b>; во множественном числе <b>denen</b>."
+    },
+    {
+     "s": "Das Gebäude, ___ Dach kaputt ist, steht leer.",
+     "ru": "",
+     "a": [
+      "dessen"
+     ],
+     "hint": "",
+     "n": "Владелец крыши, <b>Gebäude</b>, среднего рода."
+    },
+    {
+     "s": "Die Nachbarin, ___ Katze oft zu uns kommt, ist sehr nett.",
+     "ru": "",
+     "a": [
+      "deren"
+     ],
+     "hint": "",
+     "n": "Кошка принадлежит соседке: владелица женского рода."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 26.2",
+   "sub": "Выберите форму по владельцу. В каждом пункте подходит только один вариант.",
+   "items": [
+    {
+     "s": "Der Bewohner, ___ Küche klein ist, sucht eine größere Wohnung.",
+     "ru": "",
+     "o": [
+      "deren",
+      "dessen",
+      "dem"
+     ],
+     "a": "dessen",
+     "n": "Владелец кухни мужчина; род кухни не меняет <b>dessen</b>."
+    },
+    {
+     "s": "Das Haus, ___ Fenster dunkel sind, steht neben dem Park.",
+     "ru": "",
+     "o": [
+      "dessen",
+      "denen",
+      "deren"
+     ],
+     "a": "dessen",
+     "n": "Окна принадлежат дому среднего рода."
+    },
+    {
+     "s": "Der Lehrer, ___ Garage leer ist, hilft uns beim Umzug.",
+     "ru": "",
+     "o": [
+      "denen",
+      "deren",
+      "dessen"
+     ],
+     "a": "dessen",
+     "n": "<b>Garage</b> женского рода, но владелец гаража — учитель, мужской род."
+    },
+    {
+     "s": "Das Hotel, ___ Terrasse zum Rhein liegt, sucht Personal.",
+     "ru": "",
+     "o": [
+      "deren",
+      "dessen",
+      "der"
+     ],
+     "a": "dessen",
+     "n": "<b>Hotel</b> среднего рода; форма относится к отелю, не к террасе."
+    },
+    {
+     "s": "Die Firma, ___ Chef ich kenne, bietet gute Bedingungen.",
+     "ru": "",
+     "o": [
+      "deren",
+      "dessen",
+      "die"
+     ],
+     "a": "deren",
+     "n": "Начальник относится к фирме женского рода."
+    },
+    {
+     "s": "Die Ärztin, ___ Fahrrad vor dem Haus steht, wohnt im dritten Stock.",
+     "ru": "",
+     "o": [
+      "der",
+      "dessen",
+      "deren"
+     ],
+     "a": "deren",
+     "n": "Велосипед принадлежит врачу-женщине; средний род <b>Fahrrad</b> на выбор не влияет."
+    },
+    {
+     "s": "Die Nachbarn, ___ Kinder im Hof spielen, kennen sich gut.",
+     "ru": "",
+     "o": [
+      "deren",
+      "denen",
+      "dessen"
+     ],
+     "a": "deren",
+     "n": "Родители названы во множественном числе: <b>deren</b>."
+    },
+    {
+     "s": "Die Firmen, ___ Personal am Wochenende arbeitet, suchen Aushilfen.",
+     "ru": "",
+     "o": [
+      "dessen",
+      "denen",
+      "deren"
+     ],
+     "a": "deren",
+     "n": "Фирм несколько, поэтому <b>deren</b> независимо от рода <b>Personal</b>."
+    },
+    {
+     "s": "Die Kollegin, mit ___ Bruder ich studiere, wohnt hier.",
+     "ru": "",
+     "o": [
+      "der",
+      "deren",
+      "dessen"
+     ],
+     "a": "deren",
+     "n": "Я учусь с её братом; <b>deren</b> обозначает владелицу отношения, предлог относится к брату."
+    },
+    {
+     "s": "Der Nachbar, mit ___ Kindern ich spreche, ist Lehrer.",
+     "ru": "",
+     "o": [
+      "dessen",
+      "dem",
+      "deren"
+     ],
+     "a": "dessen",
+     "n": "Разговариваю с его детьми; <b>dessen</b> относится к соседу, а <b>Kindern</b> стоит в <b>Dativ</b> после <b>mit</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 26.3",
+   "sub": "Присоедините вторую фразу к выделенному существительному. Сохраните начало и порядок слов первой главной части. Используйте формы таблицы der, die, das; для места допустимы также wo и wohin. Придаточное может стоять после существительного или последней части глагола. Не меняйте лексику.",
+   "items": [
+    {
+     "ru": "Ich kenne den Architekten. Jonas arbeitet mit ihm.",
+     "w": [
+      "Ich",
+      "kenne",
+      "den",
+      "Architekten,",
+      "mit",
+      "dem",
+      "Jonas",
+      "arbeitet"
+     ],
+     "ok": [
+      "Ich kenne den Architekten, mit dem Jonas arbeitet"
+     ],
+     "n": "<b>Mit ihm</b> даёт <b>mit dem</b>; архитектор мужского рода."
+    },
+    {
+     "ru": "Ich habe die Lehrerin angerufen. Mein Sohn lernt bei ihr.",
+     "w": [
+      "Ich",
+      "habe",
+      "die",
+      "Lehrerin,",
+      "bei",
+      "der",
+      "mein",
+      "Sohn",
+      "lernt,",
+      "angerufen"
+     ],
+     "ok": [
+      "Ich habe die Lehrerin, bei der mein Sohn lernt, angerufen"
+     ],
+     "n": "После <b>bei</b> нужен <b>Dativ</b>; оба положения придаточного правильны."
+    },
+    {
+     "ru": "Wir haben die Gäste eingeladen. Alina kocht für sie.",
+     "w": [
+      "Wir",
+      "haben",
+      "die",
+      "Gäste,",
+      "für",
+      "die",
+      "Alina",
+      "kocht,",
+      "eingeladen"
+     ],
+     "ok": [
+      "Wir haben die Gäste, für die Alina kocht, eingeladen"
+     ],
+     "n": "<b>Für</b> сочетается с <b>Akkusativ</b>; во множественном числе <b>die</b>."
+    },
+    {
+     "ru": "Jonas beschreibt die Wohnung. Er wohnt in der Wohnung.",
+     "w": [
+      "Jonas",
+      "beschreibt",
+      "die",
+      "Wohnung,",
+      "in",
+      "der",
+      "er",
+      "wohnt"
+     ],
+     "ok": [
+      "Jonas beschreibt die Wohnung, in der er wohnt"
+     ],
+     "n": "Местонахождение: <b>in</b> с <b>Dativ</b>; после названия места допустимо и <b>wo</b>."
+    },
+    {
+     "ru": "Unser Nachbar hat die Wohnung besichtigt. Er zieht bald in die Wohnung ein.",
+     "w": [
+      "Unser",
+      "Nachbar",
+      "hat",
+      "die",
+      "Wohnung,",
+      "in",
+      "die",
+      "er",
+      "bald",
+      "einzieht,",
+      "besichtigt"
+     ],
+     "ok": [
+      "Unser Nachbar hat die Wohnung, in die er bald einzieht, besichtigt"
+     ],
+     "n": "Въезд внутрь: <b>in</b> с <b>Akkusativ</b>; допустимы направление через <b>wohin</b> и оба положения придаточного."
+    },
+    {
+     "ru": "Paul hat den Ausflug organisiert. Er freut sich auf den Ausflug.",
+     "w": [
+      "Paul",
+      "hat",
+      "den",
+      "Ausflug,",
+      "auf",
+      "den",
+      "er",
+      "sich",
+      "freut,",
+      "organisiert"
+     ],
+     "ok": [
+      "Paul hat den Ausflug, auf den er sich freut, organisiert"
+     ],
+     "n": "<b>Sich freuen auf</b> сохраняет <b>auf</b> с <b>Akkusativ</b>; <b>den</b> относится к поездке."
+    },
+    {
+     "ru": "Ich kenne die Bewohnerin. Frau Schmitz kümmert sich um sie.",
+     "w": [
+      "Ich",
+      "kenne",
+      "die",
+      "Bewohnerin,",
+      "um",
+      "die",
+      "sich",
+      "Frau",
+      "Schmitz",
+      "kümmert"
+     ],
+     "ok": [
+      "Ich kenne die Bewohnerin, um die sich Frau Schmitz kümmert",
+      "Ich kenne die Bewohnerin, um die Frau Schmitz sich kümmert"
+     ],
+     "n": "После <b>sich kümmern um</b> нужен <b>Akkusativ</b>; оба положения <b>sich</b> допустимы."
+    },
+    {
+     "ru": "Paul hat die Rechnung bezahlt. Er ärgert sich über die Rechnung.",
+     "w": [
+      "Paul",
+      "hat",
+      "die",
+      "Rechnung,",
+      "über",
+      "die",
+      "er",
+      "sich",
+      "ärgert,",
+      "bezahlt"
+     ],
+     "ok": [
+      "Paul hat die Rechnung, über die er sich ärgert, bezahlt"
+     ],
+     "n": "Счёт женского рода; <b>sich ärgern über</b> сочетается с <b>Akkusativ</b>: <b>über die</b>. Оба положения придаточного правильны."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 26.4",
+   "sub": "Заполните пропуски формами was, wo, woher, worüber, die, das. В пунктах 4 и 7 запишите также второй стандартный вариант, если знаете; в пункте 7 он может быть сочетанием предлога с местоимением. В пункте 8 нужно одно слово.",
+   "items": [
+    {
+     "s": "Alles, ___ im Vertrag steht, ist klar.",
+     "ru": "",
+     "a": [
+      "was"
+     ],
+     "hint": "",
+     "n": "Описание относится к обобщению <b>alles</b>."
+    },
+    {
+     "s": "In der Wohnung gibt es nichts, ___ ich ändern möchte.",
+     "ru": "",
+     "a": [
+      "was"
+     ],
+     "hint": "",
+     "n": "После <b>nichts</b> используем <b>was</b>."
+    },
+    {
+     "s": "Das Einzige, ___ mir hier nicht gefällt, ist der Lärm.",
+     "ru": "",
+     "a": [
+      "was"
+     ],
+     "hint": "",
+     "n": "После <b>das Einzige</b>, как после <b>das Beste</b>, ставим <b>was</b>."
+    },
+    {
+     "s": "Ich suche etwas, ___ nicht viel kostet.",
+     "ru": "",
+     "a": [
+      "was",
+      "das"
+     ],
+     "hint": "",
+     "n": "После <b>etwas</b> оба варианта стандартны."
+    },
+    {
+     "s": "Jonas zieht bald aus, ___ Frau Schmitz traurig macht.",
+     "ru": "",
+     "a": [
+      "was"
+     ],
+     "hint": "",
+     "n": "Фрау Шмитц огорчает весь факт: Йонас скоро съезжает."
+    },
+    {
+     "s": "Meine Schwester hat endlich eine Wohnung gefunden, ___ sie sich sehr freut.",
+     "ru": "",
+     "a": [
+      "worüber"
+     ],
+     "hint": "",
+     "n": "Радость относится ко всему событию, и оно уже произошло: <b>sich freuen über</b>, поэтому <b>worüber</b>."
+    },
+    {
+     "s": "Nippes ist ein Viertel, ___ viele Familien wohnen.",
+     "ru": "",
+     "a": [
+      "wo",
+      "in dem"
+     ],
+     "hint": "",
+     "n": "После существительного места <b>Viertel</b> возможны и местное <b>wo</b>, и <b>in dem</b>."
+    },
+    {
+     "s": "Jonas denkt oft an Hamburg, ___ er kommt.",
+     "ru": "",
+     "a": [
+      "woher"
+     ],
+     "hint": "",
+     "n": "Нужно одно слово со значением «откуда»: Йонас родом из Гамбурга."
+    },
+    {
+     "s": "Die Bewerbung, ___ ich heute geschrieben habe, ist fertig.",
+     "ru": "",
+     "a": [
+      "die"
+     ],
+     "hint": "",
+     "n": "Есть существительное женского рода, прямое дополнение: <b>die</b>."
+    },
+    {
+     "s": "Das Grundstück, ___ wir kaufen möchten, ist klein.",
+     "ru": "",
+     "a": [
+      "das"
+     ],
+     "hint": "",
+     "n": "Есть существительное среднего рода, прямое дополнение: <b>das</b>, не <b>was</b>."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 26.5",
+   "scene": "Nachrichten",
+   "cap": "Комната, квартира, работа",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Три сообщения: комната, квартира, работа в кафе.",
+   "audio": {
+    "id": "book-26-5",
+    "n": 4,
+    "dur": 70.35,
+    "t": [
+     [
+      0.8,
+      7.92
+     ],
+     [
+      7.92,
+      20.16
+     ],
+     [
+      20.16,
+      32.56
+     ],
+     [
+      32.56,
+      46.08
+     ],
+     [
+      46.08,
+      56.16
+     ],
+     [
+      56.16,
+      69.6
+     ]
+    ]
+   },
+   "speakers": {
+    "Sprecherin": "Германия",
+    "Sprecher": "Австрия"
+   },
+   "lines": [
+    {
+     "who": "Sprecherin",
+     "de": "Hallo! Ich biete ein Zimmer an, das ab Mai frei ist. Es liegt in einer WG. Alle Bewohner benutzen die Küche zusammen.",
+     "ru": "Привет! Предлагаю комнату, которая свободна с мая. Она в квартире на несколько жильцов. Все жильцы пользуются кухней вместе."
+    },
+    {
+     "who": "Sprecherin",
+     "de": "Unsere Vermieterin, deren Büro unten ist, wohnt auch im Haus. Die Miete ist vierhundertachtzig Euro einschließlich Nebenkosten. Das Zimmer hat ein Bett und einen Schrank. Wenn du Fragen hast, ruf mich an.",
+     "ru": "Наша хозяйка, чей офис внизу, тоже живёт в доме. Аренда — четыреста восемьдесят евро вместе с коммунальными. В комнате кровать и шкаф. Если есть вопросы, позвони."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Hallo! Ich habe eine Wohnung besichtigt, die zu dir passen könnte. Sie liegt in Köln, in einem ruhigen Vorort. Es gibt zwei Zimmer und einen Balkon.",
+     "ru": "Привет! Я посмотрел квартиру, которая могла бы тебе подойти. Она в Кёльне, в тихом пригороде. Две комнаты и балкон."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Der Vermieter, dessen Tochter noch dort wohnt, hat mit mir gesprochen. Seine Tochter zieht bald aus. Ihre Küche kannst du kostenlos übernehmen. Die Wohnung kostet siebenhundert Euro ohne Nebenkosten.",
+     "ru": "Хозяин, чья дочь ещё там живёт, поговорил со мной. Его дочь скоро съезжает. Её кухню можно забрать бесплатно. Квартира стоит семьсот евро без коммунальных."
+    },
+    {
+     "who": "Sprecherin",
+     "de": "Hallo, Paul! Ich habe ein Inserat gefunden, das für dich interessant sein könnte. Ein Café in Deutz sucht eine Aushilfe für Samstag.",
+     "ru": "Привет, Пауль! Я нашла объявление, которое может быть тебе интересно. Кафе в Дойце ищет помощника на субботу."
+    },
+    {
+     "who": "Sprecherin",
+     "de": "Die Chefin, deren Nummer im Inserat steht, ist sehr nett. Wer Kaffee kochen kann, kann sich bewerben. Du brauchst keine Erfahrung im Café. Du kannst am Freitag mit der Chefin sprechen. Schick ihr vorher deinen Lebenslauf.",
+     "ru": "Начальница, чей номер в объявлении, очень милая. Кто умеет варить кофе, может подать заявку. Опыт в кафе не нужен. В пятницу можно поговорить с начальницей. Пришли ей заранее резюме."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Где квартира с кухней, которую можно получить бесплатно?",
+     "o": [
+      "второе",
+      "первое",
+      "третье"
+     ],
+     "a": "второе",
+     "n": "Ihre Küche kannst du <b>kostenlos</b> übernehmen. Во втором сообщении.",
+     "k": 3
+    },
+    {
+     "q": "Где начальница, с которой можно встретиться в пятницу?",
+     "o": [
+      "третье",
+      "первое",
+      "второе"
+     ],
+     "a": "третье",
+     "n": "Du kannst <b>am Freitag mit der Chefin</b> sprechen. В третьем.",
+     "k": 5
+    },
+    {
+     "q": "Где жильцы пользуются общей кухней?",
+     "o": [
+      "первое",
+      "второе",
+      "третье"
+     ],
+     "a": "первое",
+     "n": "<b>Alle Bewohner</b> benutzen die Küche zusammen. В первом.",
+     "k": 0
+    },
+    {
+     "q": "Где: тот, кто умеет варить кофе, может подать заявку?",
+     "o": [
+      "третье",
+      "первое",
+      "второе"
+     ],
+     "a": "третье",
+     "n": "<b>Wer</b> Kaffee kochen kann, kann sich bewerben. wer … — тот, кто.",
+     "k": 5
+    },
+    {
+     "q": "Сколько стоит комната с коммунальными?",
+     "o": [
+      "480 евро",
+      "700 евро",
+      "418 евро"
+     ],
+     "a": "480 евро",
+     "n": "<b>vierhundertachtzig Euro</b> einschließlich Nebenkosten. Уже вместе с Nebenkosten.",
+     "k": 1
+    },
+    {
+     "q": "На какой день кафе ищет помощника?",
+     "o": [
+      "на субботу",
+      "на пятницу",
+      "на воскресенье"
+     ],
+     "a": "на субботу",
+     "n": "eine Aushilfe <b>für Samstag</b>. Пятница — день разговора.",
+     "k": 4
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 26.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 26.6",
+   "sub": "Напишите объявление на 60–80 слов. Факты можно придумать; реальные адреса и телефоны не нужны.",
+   "items": [
+    {
+     "q": "Напишите объявление на 60–80 слов. Факты можно придумать; реальные адреса и телефоны не нужны.",
+     "hint": "Предложите комнату в субаренду или работу в знакомом вам месте. Потом перечитайте объявление: набралось ли в нём хотя бы пять относительных придаточных? Есть ли среди них придаточное с предлогом перед местоимением и придаточное с dessen или deren? Нашлось ли место для was и для wo?",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Wir suchen eine Person, die gern mit Menschen arbeitet. Unser Café liegt in Köln, wo viele Studenten wohnen. Wir brauchen jemanden, mit dem unsere Gäste gern sprechen. Unser Chef, dessen Familie das Café seit 1990 hat, erklärt Ihnen alles. Erfahrung ist nicht alles, was wir suchen. Wir bieten ein Team, in dem Sie schnell Freunde finden. Schreiben Sie uns bitte eine E-Mail mit Ihrem Lebenslauf."
+     ],
+     "check": [
+      "Проверка: 60–80 слов; минимум пять придаточных; нужные четыре конструкции; правильный падеж; глагол в конце; все запятые. В образце 65 слов и шесть придаточных. Содержание может быть другим."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "id": "book-26-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Sprecherin",
+   "voice": "uvysWDLbKpA4XvpD3GI6",
+   "de": "Hallo! Ich biete ein Zimmer an, das ab Mai frei ist. Es liegt in einer WG. Alle Bewohner benutzen die Küche zusammen.",
+   "ru": "Привет! Предлагаю комнату, которая свободна с мая. Она в квартире на несколько жильцов. Все жильцы пользуются кухней вместе.",
+   "tag": "[Nachricht eins]"
+  },
+  {
+   "who": "Sprecherin",
+   "voice": "uvysWDLbKpA4XvpD3GI6",
+   "de": "Unsere Vermieterin, deren Büro unten ist, wohnt auch im Haus. Die Miete ist vierhundertachtzig Euro einschließlich Nebenkosten. Das Zimmer hat ein Bett und einen Schrank. Wenn du Fragen hast, ruf mich an.",
+   "ru": "Наша хозяйка, чей офис внизу, тоже живёт в доме. Аренда — четыреста восемьдесят евро вместе с коммунальными. В комнате кровать и шкаф. Если есть вопросы, позвони."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Hallo! Ich habe eine Wohnung besichtigt, die zu dir passen könnte. Sie liegt in Köln, in einem ruhigen Vorort. Es gibt zwei Zimmer und einen Balkon.",
+   "ru": "Привет! Я посмотрел квартиру, которая могла бы тебе подойти. Она в Кёльне, в тихом пригороде. Две комнаты и балкон.",
+   "tag": "[Nachricht zwei]"
+  },
+  {
+   "who": "Sprecher",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Der Vermieter, dessen Tochter noch dort wohnt, hat mit mir gesprochen. Seine Tochter zieht bald aus. Ihre Küche kannst du kostenlos übernehmen. Die Wohnung kostet siebenhundert Euro ohne Nebenkosten.",
+   "ru": "Хозяин, чья дочь ещё там живёт, поговорил со мной. Его дочь скоро съезжает. Её кухню можно забрать бесплатно. Квартира стоит семьсот евро без коммунальных."
+  },
+  {
+   "who": "Sprecherin",
+   "voice": "K75lPKuh15SyVhQC1LrE",
+   "de": "Hallo, Paul! Ich habe ein Inserat gefunden, das für dich interessant sein könnte. Ein Café in Deutz sucht eine Aushilfe für Samstag.",
+   "ru": "Привет, Пауль! Я нашла объявление, которое может быть тебе интересно. Кафе в Дойце ищет помощника на субботу.",
+   "tag": "[Nachricht drei]"
+  },
+  {
+   "who": "Sprecherin",
+   "voice": "K75lPKuh15SyVhQC1LrE",
+   "de": "Die Chefin, deren Nummer im Inserat steht, ist sehr nett. Wer Kaffee kochen kann, kann sich bewerben. Du brauchst keine Erfahrung im Café. Du kannst am Freitag mit der Chefin sprechen. Schick ihr vorher deinen Lebenslauf.",
+   "ru": "Начальница, чей номер в объявлении, очень милая. Кто умеет варить кофе, может подать заявку. Опыт в кафе не нужен. В пятницу можно поговорить с начальницей. Пришли ей заранее резюме."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 26.5",
+  "scene": "Nachrichten",
+  "cap": "Комната, квартира, работа",
+  "sub": "Три сообщения: комната, квартира, работа в кафе.",
+  "speakers": {
+   "Sprecherin": "Германия",
+   "Sprecher": "Австрия"
+  },
+  "qs": [
+   [
+    "Где квартира с кухней, которую можно получить бесплатно?",
+    [
+     "второе",
+     "первое",
+     "третье"
+    ],
+    "Ihre Küche kannst du <b>kostenlos</b> übernehmen",
+    "Во втором сообщении."
+   ],
+   [
+    "Где начальница, с которой можно встретиться в пятницу?",
+    [
+     "третье",
+     "первое",
+     "второе"
+    ],
+    "Du kannst <b>am Freitag mit der Chefin</b> sprechen",
+    "В третьем."
+   ],
+   [
+    "Где жильцы пользуются общей кухней?",
+    [
+     "первое",
+     "второе",
+     "третье"
+    ],
+    "<b>Alle Bewohner</b> benutzen die Küche zusammen",
+    "В первом."
+   ],
+   [
+    "Где: тот, кто умеет варить кофе, может подать заявку?",
+    [
+     "третье",
+     "первое",
+     "второе"
+    ],
+    "<b>Wer</b> Kaffee kochen kann, kann sich bewerben",
+    "wer … — тот, кто."
+   ],
+   [
+    "Сколько стоит комната с коммунальными?",
+    [
+     "480 евро",
+     "700 евро",
+     "418 евро"
+    ],
+    "<b>vierhundertachtzig Euro</b> einschließlich Nebenkosten",
+    "Уже вместе с Nebenkosten."
+   ],
+   [
+    "На какой день кафе ищет помощника?",
+    [
+     "на субботу",
+     "на пятницу",
+     "на воскресенье"
+    ],
+    "eine Aushilfe <b>für Samstag</b>",
+    "Пятница — день разговора."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,883 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 11",
+ "sub": "Упражнения урока 11 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 11,
+  "s": "11.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 11.1",
+   "sub": "Поставьте артикль и существительное в Dativ: каждый в свой пропуск. В скобках начальные формы.",
+   "items": [
+    {
+     "s": "Die Postkarte ist von ___ ….",
+     "ru": "",
+     "a": [
+      "einem"
+     ],
+     "hint": "ein Lehrer",
+     "n": "После <b>von</b> нужен <b>Dativ</b>: мужское <b>ein</b> становится <b>einem</b>."
+    },
+    {
+     "s": "Die Postkarte ist von einem ___.",
+     "ru": "",
+     "a": [
+      "Lehrer"
+     ],
+     "hint": "ein Lehrer",
+     "n": "После <b>von</b> нужен <b>Dativ</b>: мужское <b>ein</b> становится <b>einem</b>."
+    },
+    {
+     "s": "Paul fährt mit ___ ….",
+     "ru": "",
+     "a": [
+      "dem"
+     ],
+     "hint": "das Fahrrad",
+     "n": "После <b>mit</b> средний род даёт <b>dem</b>."
+    },
+    {
+     "s": "Paul fährt mit dem ___.",
+     "ru": "",
+     "a": [
+      "Fahrrad"
+     ],
+     "hint": "das Fahrrad",
+     "n": "После <b>mit</b> средний род даёт <b>dem</b>."
+    },
+    {
+     "s": "Der Koffer gehört ___ ….",
+     "ru": "",
+     "a": [
+      "dem"
+     ],
+     "hint": "der Vater",
+     "n": "Владелец после <b>gehören</b> стоит в <b>Dativ</b>."
+    },
+    {
+     "s": "Der Koffer gehört dem ___.",
+     "ru": "",
+     "a": [
+      "Vater"
+     ],
+     "hint": "der Vater",
+     "n": "Владелец после <b>gehören</b> стоит в <b>Dativ</b>."
+    },
+    {
+     "s": "Paul hilft ___ ….",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "die Lehrerin",
+     "n": "После <b>helfen</b> нужен <b>Dativ</b>; <b>der</b> здесь женского рода, это не подлежащее."
+    },
+    {
+     "s": "Paul hilft der ___.",
+     "ru": "",
+     "a": [
+      "Lehrerin"
+     ],
+     "hint": "die Lehrerin",
+     "n": "После <b>helfen</b> нужен <b>Dativ</b>; <b>der</b> здесь женского рода, это не подлежащее."
+    },
+    {
+     "s": "Der Student wohnt bei ___ ….",
+     "ru": "",
+     "a": [
+      "einer"
+     ],
+     "hint": "eine Familie",
+     "n": "После <b>bei</b> женское <b>eine</b> становится <b>einer</b>."
+    },
+    {
+     "s": "Der Student wohnt bei einer ___.",
+     "ru": "",
+     "a": [
+      "Familie"
+     ],
+     "hint": "eine Familie",
+     "n": "После <b>bei</b> женское <b>eine</b> становится <b>einer</b>."
+    },
+    {
+     "s": "Die Verkäuferin antwortet ___ ….",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "die Mutter",
+     "n": "Получатель ответа стоит в <b>Dativ</b>: <b>der Mutter</b>."
+    },
+    {
+     "s": "Die Verkäuferin antwortet der ___.",
+     "ru": "",
+     "a": [
+      "Mutter"
+     ],
+     "hint": "die Mutter",
+     "n": "Получатель ответа стоит в <b>Dativ</b>: <b>der Mutter</b>."
+    },
+    {
+     "s": "Die Kinder danken ___ ….",
+     "ru": "",
+     "a": [
+      "den"
+     ],
+     "hint": "die Lehrer",
+     "n": "Дательный множественного: <b>den</b> и дополнительное <b>-n</b>."
+    },
+    {
+     "s": "Die Kinder danken den ___.",
+     "ru": "",
+     "a": [
+      "Lehrern"
+     ],
+     "hint": "die Lehrer",
+     "n": "Дательный множественного: <b>den</b> и дополнительное <b>-n</b>."
+    },
+    {
+     "s": "Was machen wir mit ___ …?",
+     "ru": "",
+     "a": [
+      "den"
+     ],
+     "hint": "die Handys",
+     "n": "Множественное на <b>-s</b> не получает <b>-n</b>."
+    },
+    {
+     "s": "Was machen wir mit den ___?",
+     "ru": "",
+     "a": [
+      "Handys"
+     ],
+     "hint": "die Handys",
+     "n": "Множественное на <b>-s</b> не получает <b>-n</b>."
+    },
+    {
+     "s": "Paul telefoniert oft mit ___ ….",
+     "ru": "",
+     "a": [
+      "den"
+     ],
+     "hint": "die Schwestern",
+     "n": "В <b>Schwestern</b> конечное <b>-n</b> уже есть."
+    },
+    {
+     "s": "Paul telefoniert oft mit den ___.",
+     "ru": "",
+     "a": [
+      "Schwestern"
+     ],
+     "hint": "die Schwestern",
+     "n": "В <b>Schwestern</b> конечное <b>-n</b> уже есть."
+    },
+    {
+     "s": "Paul glaubt ___ ….",
+     "ru": "",
+     "a": [
+      "keinen"
+     ],
+     "hint": "keine Verkäufer, множественное число",
+     "n": "Человеку верят в <b>Dativ</b>: <b>keinen</b> и <b>Verkäufern</b>."
+    },
+    {
+     "s": "Paul glaubt keinen ___.",
+     "ru": "",
+     "a": [
+      "Verkäufern"
+     ],
+     "hint": "keine Verkäufer, множественное число",
+     "n": "Человеку верят в <b>Dativ</b>: <b>keinen</b> и <b>Verkäufern</b>."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 11.2",
+   "sub": "Поставьте местоимение из скобок в Dativ или Akkusativ, как принято в Германии. В пунктах 1 и 10 местоимение общее для нескольких глаголов. Приставки уже напечатаны.",
+   "items": [
+    {
+     "s": "Heute hast du Geburtstag: Wir wollen ___ gratulieren, danken und zuhören.",
+     "ru": "",
+     "a": [
+      "dir"
+     ],
+     "hint": "du",
+     "n": "Все три глагола соединяются с <b>Dativ</b>, вопреки русскому «кого»."
+    },
+    {
+     "s": "Rufst du ___ heute an?",
+     "ru": "",
+     "a": [
+      "ihn"
+     ],
+     "hint": "er",
+     "n": "При <b>anrufen</b> человек стоит в <b>Akkusativ</b>."
+    },
+    {
+     "s": "Paul, das Handy ist laut. Es stört ___.",
+     "ru": "",
+     "a": [
+      "mich"
+     ],
+     "hint": "ich",
+     "n": "При <b>stören</b> нужен <b>Akkusativ</b>, вопреки русскому «кому»."
+    },
+    {
+     "s": "Ich rufe ___ morgen an.",
+     "ru": "",
+     "a": [
+      "Sie"
+     ],
+     "hint": "Sie",
+     "n": "Вежливое местоимение в <b>Akkusativ</b> сохраняет форму <b>Sie</b>."
+    },
+    {
+     "s": "Paul hilft ___ gern.",
+     "ru": "",
+     "a": [
+      "ihm"
+     ],
+     "hint": "er",
+     "n": "После <b>helfen</b> нужен <b>Dativ</b>: <b>er</b> становится <b>ihm</b>."
+    },
+    {
+     "s": "Paul antwortet ___ nicht.",
+     "ru": "",
+     "a": [
+      "mir"
+     ],
+     "hint": "ich",
+     "n": "Адресат ответа стоит в <b>Dativ</b>: <b>mir</b>."
+    },
+    {
+     "s": "Paul glaubt ___.",
+     "ru": "",
+     "a": [
+      "ihr"
+     ],
+     "hint": "sie, она",
+     "n": "Если верят человеку, нужен <b>Dativ</b>: <b>ihr</b>."
+    },
+    {
+     "s": "Die Verkäuferin weiß das. Alina fragt ___.",
+     "ru": "",
+     "a": [
+      "sie"
+     ],
+     "hint": "sie, она",
+     "n": "После <b>fragen</b> нужен <b>Akkusativ</b>: <b>sie</b>."
+    },
+    {
+     "s": "Am Sonntag besuche ich ___.",
+     "ru": "",
+     "a": [
+      "dich"
+     ],
+     "hint": "du",
+     "n": "После <b>besuchen</b> нужен <b>Akkusativ</b>: <b>dich</b>."
+    },
+    {
+     "s": "Die Ringe gefallen und passen ___.",
+     "ru": "",
+     "a": [
+      "ihr"
+     ],
+     "hint": "sie, она",
+     "n": "Оба глагола называют человека в <b>Dativ</b>; подлежащее здесь <b>die Ringe</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 11.3",
+   "sub": "Замените указанные дополнения местоимениями. Сохраняйте начало предложения; внутри используйте нейтральный порядок без выделительного ударения.",
+   "items": [
+    {
+     "ru": "Jonas zeigt der Mutter den Gutschein. Замените der Mutter.",
+     "w": [
+      "Jonas",
+      "zeigt",
+      "ihr",
+      "den",
+      "Gutschein"
+     ],
+     "ok": [
+      "Jonas zeigt ihr den Gutschein"
+     ],
+     "n": "Дательное местоимение ставим перед винительным существительным."
+    },
+    {
+     "ru": "Paul erklärt den Kindern die Aufgabe. Замените den Kindern.",
+     "w": [
+      "Paul",
+      "erklärt",
+      "ihnen",
+      "die",
+      "Aufgabe"
+     ],
+     "ok": [
+      "Paul erklärt ihnen die Aufgabe"
+     ],
+     "n": "Получателей во множественном числе заменяем на <b>ihnen</b>."
+    },
+    {
+     "ru": "Paul schreibt dem Vater eine Postkarte. Замените dem Vater.",
+     "w": [
+      "Paul",
+      "schreibt",
+      "ihm",
+      "eine",
+      "Postkarte"
+     ],
+     "ok": [
+      "Paul schreibt ihm eine Postkarte"
+     ],
+     "n": "Мужской получатель в <b>Dativ</b> заменяется на <b>ihm</b>."
+    },
+    {
+     "ru": "Frau Schmitz leiht der Freundin den Koffer. Замените den Koffer.",
+     "w": [
+      "Frau",
+      "Schmitz",
+      "leiht",
+      "ihn",
+      "der",
+      "Freundin"
+     ],
+     "ok": [
+      "Frau Schmitz leiht ihn der Freundin"
+     ],
+     "n": "Винительное <b>ihn</b> заменяет мужское <b>Koffer</b> и опережает существительное."
+    },
+    {
+     "ru": "Jonas schickt den Eltern die Fotos. Замените die Fotos.",
+     "w": [
+      "Jonas",
+      "schickt",
+      "sie",
+      "den",
+      "Eltern"
+     ],
+     "ok": [
+      "Jonas schickt sie den Eltern"
+     ],
+     "n": "Винительное множественного <b>sie</b> ставим раньше получателя."
+    },
+    {
+     "ru": "Paul bringt der Lehrerin das Paket. Замените das Paket.",
+     "w": [
+      "Paul",
+      "bringt",
+      "es",
+      "der",
+      "Lehrerin"
+     ],
+     "ok": [
+      "Paul bringt es der Lehrerin"
+     ],
+     "n": "Средний род даёт <b>es</b>; местоимение идёт раньше."
+    },
+    {
+     "ru": "Alina gibt dem Freund das Handy. Замените оба дополнения.",
+     "w": [
+      "Alina",
+      "gibt",
+      "es",
+      "ihm"
+     ],
+     "ok": [
+      "Alina gibt es ihm"
+     ],
+     "n": "Сначала <b>Akkusativ</b> вещи, затем <b>Dativ</b> получателя: <b>es ihm</b>."
+    },
+    {
+     "ru": "Paul schenkt der Schwester die Rosen. Замените оба дополнения.",
+     "w": [
+      "Paul",
+      "schenkt",
+      "sie",
+      "ihr"
+     ],
+     "ok": [
+      "Paul schenkt sie ihr"
+     ],
+     "n": "Розы дают множественное <b>sie</b>, сестра даёт дательное <b>ihr</b>."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 11.4",
+   "scene": "Im Geschäft",
+   "cap": "Три подарка",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Три разговора в магазине. Вопросы 1–2 к первому, 3–4 ко второму, 5–6 к третьему.",
+   "audio": {
+    "id": "book-11-4",
+    "n": 4,
+    "dur": 70.19,
+    "t": [
+     [
+      0.8,
+      1.84
+     ],
+     [
+      1.84,
+      3.68
+     ],
+     [
+      3.68,
+      8.72
+     ],
+     [
+      8.72,
+      10.16
+     ],
+     [
+      10.16,
+      14.96
+     ],
+     [
+      14.96,
+      17.44
+     ],
+     [
+      17.44,
+      19.44
+     ],
+     [
+      19.44,
+      21.92
+     ],
+     [
+      21.92,
+      23.84
+     ],
+     [
+      23.84,
+      28.0
+     ],
+     [
+      28.0,
+      31.44
+     ],
+     [
+      31.44,
+      35.28
+     ],
+     [
+      35.28,
+      36.56
+     ],
+     [
+      36.56,
+      39.92
+     ],
+     [
+      39.92,
+      41.84
+     ],
+     [
+      41.84,
+      43.44
+     ],
+     [
+      43.44,
+      45.6
+     ],
+     [
+      45.6,
+      46.56
+     ],
+     [
+      46.56,
+      51.84
+     ],
+     [
+      51.84,
+      52.88
+     ],
+     [
+      52.88,
+      56.16
+     ],
+     [
+      56.16,
+      57.68
+     ],
+     [
+      57.68,
+      62.24
+     ],
+     [
+      62.24,
+      63.76
+     ],
+     [
+      63.76,
+      66.16
+     ]
+    ]
+   },
+   "speakers": {
+    "Verkäuferin": "Берлин",
+    "Kundin": "Бавария / Швейцария",
+    "Kunde": "Австрия",
+    "Sprecher": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Sprecher",
+     "de": "Gespräch eins.",
+     "ru": "Разговор первый."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Guten Tag! Kann ich Ihnen helfen?",
+     "ru": "Добрый день! Чем могу помочь?"
+    },
+    {
+     "who": "Kundin",
+     "de": "Ja, ich suche ein Geschenk für die Lehrerin. Sie hat am Freitag Geburtstag.",
+     "ru": "Да, я ищу подарок для учительницы. У неё в пятницу день рождения."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Gefallen ihr Rosen?",
+     "ru": "Ей нравятся розы?"
+    },
+    {
+     "who": "Kundin",
+     "de": "Nein, Rosen gefallen ihr nicht. Aber Pflanzen gefallen ihr sehr.",
+     "ru": "Нет, розы ей не нравятся. Но растения ей очень нравятся."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Die Pflanze hier kostet acht Euro.",
+     "ru": "Вот это растение стоит восемь евро."
+    },
+    {
+     "who": "Kundin",
+     "de": "Gut, die nehme ich.",
+     "ru": "Хорошо, его я возьму."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Gespräch zwei.",
+     "ru": "Разговор второй."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Und was suchen Sie?",
+     "ru": "А что ищете вы?"
+    },
+    {
+     "who": "Kunde",
+     "de": "Ein Geschenk für die Chefin. Sie hat am Mittwoch Geburtstag.",
+     "ru": "Подарок для начальницы. У неё в среду день рождения."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Hier ist ein Ring. Er ist sehr schön.",
+     "ru": "Вот кольцо. Оно очень красивое."
+    },
+    {
+     "who": "Kunde",
+     "de": "Ja, aber er ist zu klein. Der Ring passt ihr nicht.",
+     "ru": "Да, но оно слишком маленькое. Кольцо ей не подходит."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Und die Kette?",
+     "ru": "А цепочка?"
+    },
+    {
+     "who": "Kunde",
+     "de": "Die Kette ist schön. Was kostet sie?",
+     "ru": "Цепочка красивая. Сколько она стоит?"
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Zwölf Euro.",
+     "ru": "Двенадцать евро."
+    },
+    {
+     "who": "Kunde",
+     "de": "Gut, die nehme ich.",
+     "ru": "Хорошо, её я возьму."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Gespräch drei.",
+     "ru": "Разговор третий."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Kann ich Ihnen helfen?",
+     "ru": "Чем могу помочь?"
+    },
+    {
+     "who": "Kundin",
+     "de": "Ich suche ein Geschenk für das Kind. Es hat am Samstag Geburtstag.",
+     "ru": "Я ищу подарок для ребёнка. У него в субботу день рождения."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Wie alt ist es?",
+     "ru": "Сколько ему лет?"
+    },
+    {
+     "who": "Kundin",
+     "de": "Sieben. Es fährt sehr gern Rad.",
+     "ru": "Семь. Он очень любит кататься на велосипеде."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Hier ist ein Fahrrad für Kinder.",
+     "ru": "Вот детский велосипед."
+    },
+    {
+     "who": "Kundin",
+     "de": "Oh ja, das Fahrrad gefällt ihm! Was kostet es?",
+     "ru": "О да, велосипед ему понравится! Сколько он стоит?"
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Neunzig Euro.",
+     "ru": "Девяносто евро."
+    },
+    {
+     "who": "Kundin",
+     "de": "Gut, ich nehme es.",
+     "ru": "Хорошо, беру."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Разговор 1: Sie sucht ein Geschenk für ___.",
+     "o": [
+      "die Lehrerin",
+      "der Lehrerin",
+      "den Lehrer"
+     ],
+     "a": "die Lehrerin",
+     "n": "ein Geschenk <b>für die Lehrerin</b>. После für нужен Akkusativ: <b>die Lehrerin</b>. Без für был бы Dativ: der Lehrerin.",
+     "k": 2
+    },
+    {
+     "q": "Разговор 1: ___ gefallen ihr.",
+     "o": [
+      "Pflanzen",
+      "Rosen",
+      "Ketten"
+     ],
+     "a": "Pflanzen",
+     "n": "<b>Pflanzen</b> gefallen ihr sehr. Розы ей не нравятся, растения нравятся. Несколько растений → <b>gefallen</b>.",
+     "k": 4
+    },
+    {
+     "q": "Разговор 2: Er sucht ein Geschenk für ___.",
+     "o": [
+      "die Chefin",
+      "der Chefin",
+      "den Chef"
+     ],
+     "a": "die Chefin",
+     "n": "Ein Geschenk <b>für die Chefin</b>. für + Akkusativ: <b>die Chefin</b>.",
+     "k": 9
+    },
+    {
+     "q": "Разговор 2: Was passt ihr nicht?",
+     "o": [
+      "der Ring",
+      "die Kette",
+      "die Pflanze"
+     ],
+     "a": "der Ring",
+     "n": "<b>Der Ring passt ihr nicht</b>. Кольцо слишком маленькое; цепочку он покупает.",
+     "k": 11
+    },
+    {
+     "q": "Разговор 3: Das Geschenk ist für ___.",
+     "o": [
+      "das Kind",
+      "dem Kind",
+      "den Kind"
+     ],
+     "a": "das Kind",
+     "n": "ein Geschenk <b>für das Kind</b>. Средний род после für: <b>das Kind</b>. В Dativ было бы dem Kind.",
+     "k": 18
+    },
+    {
+     "q": "Разговор 3: Das Fahrrad gefällt ___.",
+     "o": [
+      "ihm",
+      "ihr",
+      "ihnen"
+     ],
+     "a": "ihm",
+     "n": "das Fahrrad gefällt <b>ihm</b>. das Kind среднего рода, в Dativ <b>ihm</b>.",
+     "k": 22
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 11.4",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 11.5",
+   "sub": "Переведите на немецкий. Если в скобках указан глагол, используйте его. Для запланированного звонка достаточно настоящего времени.",
+   "items": [
+    {
+     "ru": "Мне холодно. (с mir)",
+     "w": [
+      "Mir",
+      "ist",
+      "kalt"
+     ],
+     "ok": [
+      "Mir ist kalt"
+     ],
+     "n": "Человек стоит в <b>Dativ</b>. С <b>es</b> в начале тоже правильно, но обычно говорят короче; <b>Kalt ist mir</b> выделяет ощущение."
+    },
+    {
+     "ru": "Цепочка тебе идёт. (stehen; du)",
+     "w": [
+      "Die",
+      "Kette",
+      "steht",
+      "dir"
+     ],
+     "ok": [
+      "Die Kette steht dir"
+     ],
+     "n": "Вещь служит подлежащим; человек получает <b>Dativ</b>. Добавление <b>gut</b> допустимо."
+    },
+    {
+     "ru": "Тебе нравятся розы? (gefallen; du)",
+     "w": [
+      "Gefallen",
+      "dir",
+      "Rosen?"
+     ],
+     "ok": [
+      "Gefallen dir Rosen?"
+     ],
+     "n": "У множественного <b>Rosen</b> форма <b>gefallen</b>; артикль возможен, если говорим о конкретных розах."
+    },
+    {
+     "ru": "Мне всё равно.",
+     "w": [
+      "Das",
+      "ist",
+      "mir",
+      "egal"
+     ],
+     "ok": [
+      "Das ist mir egal"
+     ],
+     "n": "Человек в <b>Dativ</b>; <b>das</b> или <b>es</b> обозначает ситуацию. Без контекста возможен и общий смысл «мне всё безразлично»: <b>Mir ist alles egal</b>."
+    },
+    {
+     "ru": "Вечером я ему позвоню. (anrufen)",
+     "w": [
+      "Ich",
+      "rufe",
+      "ihn",
+      "heute",
+      "Abend",
+      "an"
+     ],
+     "ok": [
+      "Ich rufe ihn heute Abend an"
+     ],
+     "n": "<b>Anrufen</b> соединяется с <b>Akkusativ</b>; приставка <b>an</b> остаётся в конце. Порядок с поздним <b>ihn</b> выделяет человека."
+    },
+    {
+     "ru": "Поздравляю тебя с днём рождения. (gratulieren; du)",
+     "w": [
+      "Ich",
+      "gratuliere",
+      "dir",
+      "zum",
+      "Geburtstag"
+     ],
+     "ok": [
+      "Ich gratuliere dir zum Geburtstag"
+     ],
+     "n": "Человек в <b>Dativ</b>, повод через <b>zum</b>."
+    },
+    {
+     "ru": "Ты можешь мне помочь? (du)",
+     "w": [
+      "Kannst",
+      "du",
+      "mir",
+      "helfen?"
+     ],
+     "ok": [
+      "Kannst du mir helfen?"
+     ],
+     "n": "После модального глагола <b>helfen</b> остаётся в инфинитиве; <b>mir</b> в <b>Dativ</b>. Безударное <b>mal</b> смягчает просьбу."
+    },
+    {
+     "ru": "Я живу у друзей.",
+     "w": [
+      "Ich",
+      "wohne",
+      "bei",
+      "Freunden"
+     ],
+     "ok": [
+      "Ich wohne bei Freunden"
+     ],
+     "n": "После <b>bei</b> нужен <b>Dativ</b>, поэтому <b>Freunden</b>; артикль допустим для уже известных друзей."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 11.6",
+   "sub": "Напишите поздравление другу или подруге: 40–60 слов. Добавьте короткий ответ с благодарностью за подарок. Перечитайте оба текста: есть ли в них три разных глагола с дательным и два предлога с дательным? В каких двух предложениях рядом стоят получатель и вещь? Всё ли написано в настоящем времени и есть ли модальный глагол?",
+   "items": [
+    {
+     "q": "Напишите поздравление другу или подруге: 40–60 слов. Добавьте короткий ответ с благодарностью за подарок. Перечитайте оба текста: есть ли в них три разных глагола с дательным и два предлога с дательным? В каких двух предложениях рядом стоят получатель и вещь? Всё ли написано в настоящем времени и есть ли модальный глагол?",
+     "hint": "Напишите, что вы дарите, почему выбрали этот подарок и что можно делать вместе. В ответе поблагодарите за подарок и скажите, нравится ли он.",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Hallo Tom! Ich gratuliere dir zum Geburtstag. Ich schenke dir einen Krimi. Krimis gefallen dir sehr, oder? Ich wünsche dir viel Spaß mit dem Buch. Am Samstag können wir bei mir feiern. Ich bringe dir auch eine Torte mit. Hast du Zeit? Bis dann, Anna. Ответ: Hallo Anna! Ich danke dir für den Krimi. Er gefällt mir sehr. Am Samstag habe ich Zeit. Bis Samstag! Tom."
+     ],
+     "check": [
+      "В поздравлении 45 слов. Дательные глаголы: gratulieren, gefallen, danken. Получатель и вещь: dir einen Krimi, dir viel Spaß, dir eine Torte. Предлоги: zu в zum, mit, bei."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

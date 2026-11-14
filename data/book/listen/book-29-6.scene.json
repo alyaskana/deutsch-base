@@ -1,0 +1,112 @@
+{
+ "id": "book-29-6",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Amt",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "So wird Ihr Antrag bearbeitet. Sie müssen das Formular selbst ausfüllen und unterschreiben. Dann schicken Sie es mit den Unterlagen an uns.",
+   "ru": "Так обрабатывают ваше заявление. Бланк нужно самому заполнить и подписать. Потом отправьте его нам вместе с документами.",
+   "tag": "[Ansage]"
+  },
+  {
+   "who": "Amt",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "Zuerst wird Ihr Brief geöffnet. Danach werden die Unterlagen überprüft. Dann wird die Gebühr berechnet.",
+   "ru": "Сначала открывают ваше письмо. Потом проверяют документы. Затем рассчитывают сбор."
+  },
+  {
+   "who": "Amt",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "In unserem Beispiel ist der Antrag in Ordnung. Er wird genehmigt. Dann wird das Dokument unterschrieben. Zuletzt wird es Ihnen geschickt.",
+   "ru": "В нашем примере заявление в порядке. Его одобряют. Потом документ подписывают. Наконец его отправляют вам."
+  },
+  {
+   "who": "Amt",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "Wenn Sie das Dokument bekommen haben, müssen Sie die Gebühr bezahlen. Sie brauchen nicht selbst zu kommen.",
+   "ru": "Когда вы получите документ, нужно оплатить сбор. Приходить самому не нужно."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 29.6",
+  "scene": "Ansage",
+  "cap": "Как обрабатывают заявление",
+  "sub": "Сообщение городского ведомства: этапы обработки заявления.",
+  "speakers": {
+   "Amt": "Германия"
+  },
+  "qs": [
+   [
+    "Что делают первым?",
+    [
+     "открывают письмо",
+     "проверяют документы",
+     "рассчитывают сбор"
+    ],
+    "<b>Zuerst</b> wird Ihr Brief geöffnet",
+    ""
+   ],
+   [
+    "Что вторым?",
+    [
+     "проверяют документы",
+     "рассчитывают сбор",
+     "одобряют заявление"
+    ],
+    "<b>Danach</b> werden die Unterlagen überprüft",
+    "Unterlagen — мн. число → werden."
+   ],
+   [
+    "Что третьим?",
+    [
+     "рассчитывают сбор",
+     "подписывают документ",
+     "открывают письмо"
+    ],
+    "<b>Dann</b> wird die Gebühr berechnet",
+    ""
+   ],
+   [
+    "Что сразу после одобрения?",
+    [
+     "документ подписывают",
+     "документ отправляют",
+     "письмо открывают"
+    ],
+    "Er wird genehmigt. Dann wird das Dokument <b>unterschrieben</b>",
+    ""
+   ],
+   [
+    "Что последним?",
+    [
+     "документ отправляют",
+     "сбор рассчитывают",
+     "документ подписывают"
+    ],
+    "<b>Zuletzt</b> wird es Ihnen geschickt",
+    ""
+   ],
+   [
+    "Что заявитель делает до отправки?",
+    [
+     "заполняет и подписывает бланк",
+     "оплачивает сбор",
+     "приходит лично"
+    ],
+    "Sie müssen das Formular selbst <b>ausfüllen und unterschreiben</b>",
+    ""
+   ],
+   [
+    "Что сделать, когда пришёл документ?",
+    [
+     "оплатить сбор",
+     "прийти лично",
+     "подписать бланк"
+    ],
+    "müssen Sie <b>die Gebühr bezahlen</b>",
+    "Приходить не нужно."
+   ]
+  ]
+ }
+}

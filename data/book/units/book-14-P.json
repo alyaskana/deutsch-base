@@ -1,0 +1,784 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 14",
+ "sub": "Упражнения урока 14 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 14,
+  "s": "14.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Упражнение 14.1",
+   "sub": "Выберите один вариант для каждого пункта. В первом пункте выбирайте пару по порядку; тире означает отсутствие предлога.",
+   "items": [
+    {
+     "s": "___ sieben Uhr; ___ November.",
+     "ru": "Поезд в 7:00; поездка в ноябре",
+     "o": [
+      "am … um",
+      "im … am",
+      "um … im",
+      "um … am"
+     ],
+     "a": "um … im",
+     "n": "У часа <b>um</b>, у месяца <b>im</b>."
+    },
+    {
+     "s": "___ Mittwoch.",
+     "ru": "В среду",
+     "o": [
+      "am",
+      "im",
+      "um",
+      "für"
+     ],
+     "a": "am",
+     "n": "С названием дня используем <b>am</b>."
+    },
+    {
+     "s": "___ der Nacht.",
+     "ru": "Ночью",
+     "o": [
+      "am",
+      "um",
+      "im",
+      "in"
+     ],
+     "a": "in",
+     "n": "Готовое сочетание <b>in der Nacht</b>."
+    },
+    {
+     "s": "___ 2026.",
+     "ru": "В 2026 году",
+     "o": [
+      "am",
+      "–",
+      "um",
+      "für"
+     ],
+     "a": "–",
+     "n": "Год можно назвать без предлога."
+    },
+    {
+     "s": "___ vier Tagen.",
+     "ru": "Четыре дня назад",
+     "o": [
+      "nach",
+      "vor",
+      "in",
+      "für"
+     ],
+     "a": "vor",
+     "n": "<b>vor</b> ставит событие раньше настоящего момента."
+    },
+    {
+     "s": "___ fünf Minuten.",
+     "ru": "Через пять минут, считая от сейчас",
+     "o": [
+      "für",
+      "vor",
+      "nach",
+      "in"
+     ],
+     "a": "in",
+     "n": "Для будущего срока от сейчас используем <b>in</b>."
+    },
+    {
+     "s": "___ drei Tagen.",
+     "ru": "В рассказе о прошлом, через три дня после приезда",
+     "o": [
+      "nach",
+      "in",
+      "vor",
+      "seit"
+     ],
+     "a": "nach",
+     "n": "<b>nach</b> отсчитывает срок после события внутри рассказа."
+    },
+    {
+     "s": "___ zwei Wochen.",
+     "ru": "Две недели назад",
+     "o": [
+      "für",
+      "in",
+      "vor",
+      "nach"
+     ],
+     "a": "vor",
+     "n": "Для «назад» нужен <b>vor</b> перед сроком."
+    },
+    {
+     "s": "Ich arbeite ___ einem Monat hier.",
+     "ru": "Работаю здесь уже месяц и продолжаю сейчас",
+     "o": [
+      "ab",
+      "für",
+      "um",
+      "seit"
+     ],
+     "a": "seit",
+     "n": "<b>seit einem Monat</b>: весь прошедший месяц вплоть до сейчас."
+    },
+    {
+     "s": "Ich arbeite ___ Mittwoch hier.",
+     "ru": "Сегодня вторник, начинаю завтра",
+     "o": [
+      "seit",
+      "ab",
+      "vor",
+      "nach"
+     ],
+     "a": "ab",
+     "n": "<b>ab</b> обозначает начало; <b>nach Mittwoch</b> было бы после среды."
+    },
+    {
+     "s": "Ich bleibe ___ Samstag.",
+     "ru": "Остаюсь вплоть до субботы",
+     "o": [
+      "bis",
+      "für",
+      "seit",
+      "nach"
+     ],
+     "a": "bis",
+     "n": "<b>bis</b> называет конечную границу."
+    },
+    {
+     "s": "Paul leiht mir sein Fahrrad ___ eine Woche.",
+     "ru": "Пауль одалживает мне велосипед на неделю",
+     "o": [
+      "bis",
+      "seit",
+      "für",
+      "in"
+     ],
+     "a": "für",
+     "n": "<b>für</b> указывает запланированную длительность."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 14.2",
+   "sub": "Вставьте артикль или окончание. В пункте 6 допишите сокращение; в пункте 4 два пропуска.",
+   "items": [
+    {
+     "s": "Vor ___ Monat war ich in Bonn.",
+     "ru": "",
+     "a": [
+      "einem"
+     ],
+     "hint": "ein",
+     "n": "После временного <b>vor</b> нужен Dativ: <b>vor einem Monat</b>."
+    },
+    {
+     "s": "Seit ___ Umzug wohne ich hier.",
+     "ru": "",
+     "a": [
+      "dem"
+     ],
+     "hint": "der Umzug: переезд",
+     "n": "<b>Umzug</b> мужского рода; после <b>seit</b> выбираем <b>dem</b>."
+    },
+    {
+     "s": "Nach ___ Arbeit gehe ich einkaufen.",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "die",
+     "n": "После <b>nach</b> женский артикль имеет форму <b>der</b>."
+    },
+    {
+     "s": "Zwischen ___ Termine… trinke ich einen Kaffee.",
+     "ru": "",
+     "a": [
+      "den"
+     ],
+     "hint": "die, множественное число",
+     "n": "Dativ множественного числа: <b>den Terminen</b>, с окончанием существительного."
+    },
+    {
+     "s": "Zwischen den Termine___ trinke ich einen Kaffee.",
+     "ru": "",
+     "a": [
+      "n"
+     ],
+     "hint": "die, множественное число",
+     "n": "Dativ множественного числа: <b>den Terminen</b>, с окончанием существительного."
+    },
+    {
+     "s": "Ich bin nur für ___ Abend in Hamburg.",
+     "ru": "",
+     "a": [
+      "einen"
+     ],
+     "hint": "ein",
+     "n": "После <b>für</b> Akkusativ: мужское <b>einen</b>."
+    },
+    {
+     "s": "Wir fahren über___ Wochenende nach Bonn.",
+     "ru": "",
+     "a": [
+      "s"
+     ],
+     "hint": "über + das",
+     "n": "Сокращение <b>über das</b> пишется <b>übers</b>."
+    },
+    {
+     "s": "Ich bleibe bis nächst___ Montag.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Без второго предлога <b>bis</b> сочетается с Akkusativ: <b>nächsten Montag</b>."
+    },
+    {
+     "s": "Nächst___ Sommer fahren wir nach Berlin.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Указание времени без предлога: <b>nächsten Sommer</b>, Akkusativ."
+    },
+    {
+     "s": "Ich lese jed___ Abend.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Мужское <b>Abend</b> в Akkusativ: <b>jeden Abend</b>."
+    },
+    {
+     "s": "Ab ___ achten Juni arbeite ich hier.",
+     "ru": "",
+     "a": [
+      "dem"
+     ],
+     "hint": "der",
+     "n": "После <b>ab</b> с артиклем нужен Dativ: <b>ab dem achten Juni</b>. Без артикля встречаются оба варианта: <b>ab nächstem Montag</b> и <b>ab nächsten Montag</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 14.3",
+   "sub": "Подберите немецкое сочетание к каждой русской фразе. Два варианта лишние: это дословные кальки с русского, по-немецки так не говорят.",
+   "items": [
+    {
+     "s": "в Кёльн ___",
+     "ru": "",
+     "a": [
+      "h"
+     ],
+     "hint": "",
+     "n": "Направление к городу без артикля: <b>nach Köln</b>."
+    },
+    {
+     "s": "в Кёльне ___",
+     "ru": "",
+     "a": [
+      "d"
+     ],
+     "hint": "",
+     "n": "Место в городе: <b>in Köln</b>."
+    },
+    {
+     "s": "из Кёльна ___",
+     "ru": "",
+     "a": [
+      "k"
+     ],
+     "hint": "",
+     "n": "Происхождение или отправление из города: <b>aus Köln</b>."
+    },
+    {
+     "s": "к врачу ___",
+     "ru": "",
+     "a": [
+      "b"
+     ],
+     "hint": "",
+     "n": "Цель посещения: <b>zum Arzt</b>."
+    },
+    {
+     "s": "у врача ___",
+     "ru": "",
+     "a": [
+      "j"
+     ],
+     "hint": "",
+     "n": "Место у специалиста: <b>beim Arzt</b>."
+    },
+    {
+     "s": "от врача ___",
+     "ru": "",
+     "a": [
+      "f"
+     ],
+     "hint": "",
+     "n": "После посещения: <b>vom Arzt</b>."
+    },
+    {
+     "s": "домой ___",
+     "ru": "",
+     "a": [
+      "l"
+     ],
+     "hint": "",
+     "n": "Направление к дому: <b>nach Hause</b>."
+    },
+    {
+     "s": "дома ___",
+     "ru": "",
+     "a": [
+      "c"
+     ],
+     "hint": "",
+     "n": "Место: <b>zu Hause</b>."
+    },
+    {
+     "s": "из дома ___",
+     "ru": "",
+     "a": [
+      "i"
+     ],
+     "hint": "",
+     "n": "Отправная точка: <b>von zu Hause</b>."
+    },
+    {
+     "s": "на вокзал ___",
+     "ru": "",
+     "a": [
+      "a"
+     ],
+     "hint": "",
+     "n": "Пункт назначения: <b>zum Bahnhof</b>."
+    },
+    {
+     "s": "на работу ___",
+     "ru": "",
+     "a": [
+      "g"
+     ],
+     "hint": "",
+     "n": "Готовое сочетание направления: <b>zur Arbeit</b>."
+    },
+    {
+     "s": "в Швейцарию ___",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "У страны есть артикль: <b>in die Schweiz</b>."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 14.4",
+   "sub": "Заполните пропуски по русской подсказке; добавьте артикль, где он нужен. В пунктах 9–10 вставьте один предлог.",
+   "items": [
+    {
+     "s": "Ich gehe ___ Jonas.",
+     "ru": "Иду к Йонасу",
+     "a": [
+      "zu"
+     ],
+     "hint": "",
+     "n": "<b>zu</b> называет человека, к которому направляемся."
+    },
+    {
+     "s": "Ich bin ___ Jonas.",
+     "ru": "Сейчас у Йонаса",
+     "a": [
+      "bei"
+     ],
+     "hint": "",
+     "n": "<b>bei</b> обозначает пребывание у человека."
+    },
+    {
+     "s": "Ich komme ___ Jonas.",
+     "ru": "Иду от Йонаса",
+     "a": [
+      "von"
+     ],
+     "hint": "",
+     "n": "<b>von</b> обозначает отправление от человека."
+    },
+    {
+     "s": "Ich gehe ___ Arzt.",
+     "ru": "Иду к врачу",
+     "a": [
+      "zum",
+      "zu dem"
+     ],
+     "hint": "",
+     "n": "<b>zu</b> с Dativ: <b>zu dem Arzt</b>, обычно <b>zum Arzt</b>."
+    },
+    {
+     "s": "Ich gehe ___ Reinigung.",
+     "ru": "Иду в химчистку",
+     "a": [
+      "zur",
+      "zu der",
+      "in die"
+     ],
+     "hint": "",
+     "n": "<b>zur</b> называет цель; <b>in die</b> уточняет вход внутрь."
+    },
+    {
+     "s": "Ich komme ___ Supermarkt.",
+     "ru": "Иду из супермаркета",
+     "a": [
+      "vom",
+      "von dem",
+      "aus dem"
+     ],
+     "hint": "",
+     "n": "<b>von</b> называет отправной пункт, <b>aus</b> подчёркивает выход изнутри."
+    },
+    {
+     "s": "Ich fahre ___ Zürich.",
+     "ru": "Еду в Цюрих",
+     "a": [
+      "nach"
+     ],
+     "hint": "",
+     "n": "С городом без артикля для направления используем <b>nach</b>."
+    },
+    {
+     "s": "Ich komme ___ Schweiz.",
+     "ru": "Еду из Швейцарии",
+     "a": [
+      "aus der"
+     ],
+     "hint": "",
+     "n": "У <b>die Schweiz</b> после <b>aus</b> форма Dativ: <b>der Schweiz</b>."
+    },
+    {
+     "s": "Ich gehe ___ Hause.",
+     "ru": "Иду домой",
+     "a": [
+      "nach"
+     ],
+     "hint": "",
+     "n": "Для направления берём <b>nach Hause</b>."
+    },
+    {
+     "s": "Ich arbeite ___ Hause.",
+     "ru": "Работаю дома",
+     "a": [
+      "zu"
+     ],
+     "hint": "",
+     "n": "Для места берём <b>zu Hause</b>."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 14.5",
+   "scene": "Am Bahnhof",
+   "cap": "Объявление и сообщение Йонаса",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Объявление на вокзале, затем Йонас объясняет дорогу. Маршрут вымышленный.",
+   "audio": {
+    "id": "book-14-5",
+    "n": 2,
+    "dur": 33.07,
+    "t": [
+     [
+      0.8,
+      5.36
+     ],
+     [
+      5.36,
+      9.12
+     ],
+     [
+      9.12,
+      14.88
+     ],
+     [
+      14.88,
+      21.2
+     ],
+     [
+      21.2,
+      28.96
+     ],
+     [
+      28.96,
+      33.04
+     ]
+    ]
+   },
+   "speakers": {
+    "Ansage": "Германия",
+    "Jonas": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Ansage",
+     "de": "Achtung! Der Zug nach Hamburg hat fünfzehn Minuten Verspätung.",
+     "ru": "Внимание! Поезд на Гамбург опаздывает на пятнадцать минут."
+    },
+    {
+     "who": "Ansage",
+     "de": "Er fährt heute von Gleis sieben ab, nicht von Gleis fünf.",
+     "ru": "Сегодня он отправляется с седьмого пути, а не с пятого."
+    },
+    {
+     "who": "Jonas",
+     "de": "Hallo, Alina! Vom Bahnhof nimmst du die U-Bahn, Linie sechs, in Richtung Zentrum.",
+     "ru": "Привет, Алина! От вокзала едешь на метро, шестая линия, в сторону центра."
+    },
+    {
+     "who": "Jonas",
+     "de": "An der Station Rathaus steigst du um. Dann nimmst du die Linie zwei, bis zur Haltestelle Kirche.",
+     "ru": "На станции «Ратуша» пересаживаешься. Потом линия два до остановки «Церковь»."
+    },
+    {
+     "who": "Jonas",
+     "de": "Gegenüber der Haltestelle ist die Bibliothek. Du gehst an der Bibliothek vorbei und dann nach rechts. Dort ist unser Hotel.",
+     "ru": "Напротив остановки библиотека. Проходишь мимо библиотеки и потом направо. Там наша гостиница."
+    },
+    {
+     "who": "Jonas",
+     "de": "Ich komme um achtzehn Uhr zwanzig am Hotel an. Bis später!",
+     "ru": "Я буду у гостиницы в восемнадцать двадцать. До встречи!"
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Поезд опаздывает на ___.",
+     "o": [
+      "15 минут",
+      "50 минут",
+      "5 минут"
+     ],
+     "a": "15 минут",
+     "n": "<b>fünfzehn Minuten</b> Verspätung. fünfzehn — 15, не fünfzig.",
+     "k": 0
+    },
+    {
+     "q": "Он отправляется с пути ___.",
+     "o": [
+      "7",
+      "5",
+      "6"
+     ],
+     "a": "7",
+     "n": "von <b>Gleis sieben</b> ab, nicht von Gleis fünf. Путь сменился с пятого на седьмой.",
+     "k": 1
+    },
+    {
+     "q": "Сначала нужна линия метро ___.",
+     "o": [
+      "6",
+      "2",
+      "7"
+     ],
+     "a": "6",
+     "n": "die U-Bahn, <b>Linie sechs</b>. Линия шесть, потом пересадка на вторую.",
+     "k": 2
+    },
+    {
+     "q": "Пересадка ___.",
+     "o": [
+      "на станции «Ратуша»",
+      "на остановке «Церковь»",
+      "у библиотеки"
+     ],
+     "a": "на станции «Ратуша»",
+     "n": "<b>An der Station Rathaus</b> steigst du um. umsteigen — пересаживаться.",
+     "k": 3
+    },
+    {
+     "q": "Напротив остановки ___.",
+     "o": [
+      "библиотека",
+      "гостиница",
+      "ратуша"
+     ],
+     "a": "библиотека",
+     "n": "<b>Gegenüber der Haltestelle</b> ist die Bibliothek. gegenüber + Dativ: напротив остановки.",
+     "k": 4
+    },
+    {
+     "q": "Йонас будет у гостиницы в ___.",
+     "o": [
+      "18:20",
+      "8:20",
+      "18:02"
+     ],
+     "a": "18:20",
+     "n": "um <b>achtzehn Uhr zwanzig</b>. achtzehn Uhr zwanzig — 18:20.",
+     "k": 5
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 14.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 14.6",
+   "sub": "Переведите нейтральными фразами без добавочных сведений. В пункте 1 используйте seit или schon без их сочетания. Для «жить» используйте wohnen, для «встреча» сочетание der Termin с sein, для «отпуск» der Urlaub, для «дорога» die Fahrt.",
+   "items": [
+    {
+     "ru": "Я живу в Цюрихе уже два года.",
+     "w": [
+      "Ich",
+      "wohne",
+      "seit",
+      "zwei",
+      "Jahren",
+      "in",
+      "Zürich"
+     ],
+     "ok": [
+      "Ich wohne seit zwei Jahren in Zürich"
+     ],
+     "n": "Проживание продолжается: настоящее время; с <b>seit</b> Dativ, без предлога Akkusativ."
+    },
+    {
+     "ru": "Встреча через неделю.",
+     "w": [
+      "Der",
+      "Termin",
+      "ist",
+      "in",
+      "einer",
+      "Woche"
+     ],
+     "ok": [
+      "Der Termin ist in einer Woche"
+     ],
+     "n": "Срок от настоящего момента: <b>in</b> с Dativ."
+    },
+    {
+     "ru": "Я был там неделю назад.",
+     "w": [
+      "Ich",
+      "war",
+      "vor",
+      "einer",
+      "Woche",
+      "dort"
+     ],
+     "ok": [
+      "Ich war vor einer Woche dort"
+     ],
+     "n": "<b>vor einer Woche</b> значит «неделю назад»; допустимы <b>war</b> и Perfekt с <b>gewesen</b>."
+    },
+    {
+     "ru": "С понедельника у меня отпуск. Сейчас пятница, отпуск впереди.",
+     "w": [
+      "Ab",
+      "Montag",
+      "habe",
+      "ich",
+      "Urlaub"
+     ],
+     "ok": [
+      "Ab Montag habe ich Urlaub"
+     ],
+     "n": "Начало отпуска впереди, поэтому <b>ab</b>; допустимо также <b>von Montag an</b>. Для «у меня отпуск» подходят <b>Urlaub haben</b> и <b>im Urlaub sein</b>."
+    },
+    {
+     "ru": "Ты можешь подождать до пятницы? (du)",
+     "w": [
+      "Kannst",
+      "du",
+      "bis",
+      "Freitag",
+      "warten?"
+     ],
+     "ok": [
+      "Kannst du bis Freitag warten?"
+     ],
+     "n": "<b>bis Freitag</b> без артикля; вариант с артиклем использует <b>bis zu</b> и Dativ."
+    },
+    {
+     "ru": "Я еду в Швейцарию на три дня.",
+     "w": [
+      "Ich",
+      "fahre",
+      "für",
+      "drei",
+      "Tage",
+      "in",
+      "die",
+      "Schweiz"
+     ],
+     "ok": [
+      "Ich fahre für drei Tage in die Schweiz",
+      "Ich fahre in die Schweiz für drei Tage"
+     ],
+     "n": "У направления форма <b>in die Schweiz</b>, у запланированного срока <b>für drei Tage</b>."
+    },
+    {
+     "ru": "Сколько длится дорога?",
+     "w": [
+      "Wie",
+      "lange",
+      "dauert",
+      "die",
+      "Fahrt?"
+     ],
+     "ok": [
+      "Wie lange dauert die Fahrt?"
+     ],
+     "n": "О длительности поездки спрашиваем с <b>dauern</b>."
+    },
+    {
+     "ru": "У светофора вы идёте налево, потом через мост. (Sie; можно «едете»; начните с An der Ampel или Sie, используйте один глагол и dann.)",
+     "w": [
+      "An",
+      "der",
+      "Ampel",
+      "gehen",
+      "Sie",
+      "links,",
+      "dann",
+      "über",
+      "die",
+      "Brücke"
+     ],
+     "ok": [
+      "An der Ampel gehen Sie links, dann über die Brücke"
+     ],
+     "n": "Используем готовые сочетания; глагол в каждой полной повествовательной части стоит вторым."
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

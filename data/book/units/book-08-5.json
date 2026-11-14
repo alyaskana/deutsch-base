@@ -1,7 +1,7 @@
 {
  "title": "Ещё не и уже не: проверьте, что было раньше",
  "topic": "Книга · 8.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -104,5 +104,85 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Ещё не или уже не?",
+   "sub": "Было ли это раньше?",
+   "items": [
+    {
+     "s": "Die Suppe ist ___ da.",
+     "ru": "Супа ещё нет (его ждут).",
+     "o": [
+      "noch nicht",
+      "nicht mehr"
+     ],
+     "a": "noch nicht",
+     "n": "Ещё не появился → <b>noch nicht</b>."
+    },
+    {
+     "s": "Die Suppe ist ___ da.",
+     "ru": "Супа больше нет (его съели).",
+     "o": [
+      "nicht mehr",
+      "noch nicht"
+     ],
+     "a": "nicht mehr",
+     "n": "Был и закончился → <b>nicht mehr</b>."
+    },
+    {
+     "s": "Ich arbeite ___.",
+     "ru": "Я больше не работаю.",
+     "o": [
+      "nicht mehr",
+      "schon nicht"
+     ],
+     "a": "nicht mehr",
+     "n": "Русское «уже не» = <b>nicht mehr</b>."
+    },
+    {
+     "s": "Ich habe ___ Kaffee.",
+     "ru": "У меня ещё нет кофе.",
+     "o": [
+      "noch keinen",
+      "keinen mehr"
+     ],
+     "a": "noch keinen",
+     "n": "<b>noch</b> перед kein: <b>noch keinen Kaffee</b>."
+    },
+    {
+     "s": "Ich habe keinen Kaffee ___.",
+     "ru": "У меня больше нет кофе.",
+     "o": [
+      "mehr",
+      "noch"
+     ],
+     "a": "mehr",
+     "n": "<b>kein … mehr</b>: mehr после существительного."
+    },
+    {
+     "s": "Kommt Jonas schon? — ___.",
+     "ru": "Йонас уже идёт? — Ещё нет.",
+     "o": [
+      "Noch nicht",
+      "Nicht mehr"
+     ],
+     "a": "Noch nicht",
+     "n": "Короткий ответ — одна пара: <b>Noch nicht</b>."
+    },
+    {
+     "s": "Noch einen Kaffee? — Nein, danke, ___.",
+     "ru": "Ещё кофе? — Нет, спасибо, больше ничего.",
+     "o": [
+      "nichts mehr",
+      "noch nichts"
+     ],
+     "a": "nichts mehr",
+     "n": "<b>nichts mehr</b> — «больше ничего»."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,0 +1,99 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 13",
+ "sub": "Пять заданий в конце урока 13: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 13,
+  "s": "13.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 13.C: впиши",
+   "sub": "Ответьте без таблиц; там, где нужно два причастия, заполните оба пропуска.",
+   "items": [
+    {
+     "s": "«Я писал» и «Я написал»: вставьте общую форму без уточнения результата. Ich habe ___.",
+     "ru": "",
+     "a": [
+      "geschrieben"
+     ],
+     "hint": "schreiben",
+     "n": "Русский вид не меняет немецкий Perfekt; результат можно уточнить другими словами."
+    },
+    {
+     "s": "Wir haben Tee ___. Ich habe die Adresse ….",
+     "ru": "Вставьте причастия",
+     "a": [
+      "getrunken"
+     ],
+     "hint": "trinken, wissen",
+     "n": "У сильного глагола окончание <b>-en</b>, у смешанного <b>-t</b>; основы обоих меняются."
+    },
+    {
+     "s": "Wir haben Tee getrunken. Ich habe die Adresse ___.",
+     "ru": "Вставьте причастия",
+     "a": [
+      "gewusst"
+     ],
+     "hint": "trinken, wissen",
+     "n": "У сильного глагола окончание <b>-en</b>, у смешанного <b>-t</b>; основы обоих меняются."
+    },
+    {
+     "s": "Paul hat die Lampe ___. Alina hat das Wort ….",
+     "ru": "Вставьте причастия",
+     "a": [
+      "angemacht"
+     ],
+     "hint": "anmachen, verstehen",
+     "n": "У отделяемой приставки <b>ge-</b> внутри; после неотделяемой <b>ver-</b> его нет."
+    },
+    {
+     "s": "Paul hat die Lampe angemacht. Alina hat das Wort ___.",
+     "ru": "Вставьте причастия",
+     "a": [
+      "verstanden"
+     ],
+     "hint": "anmachen, verstehen",
+     "n": "У отделяемой приставки <b>ge-</b> внутри; после неотделяемой <b>ver-</b> его нет."
+    },
+    {
+     "s": "Jonas ___ Alina nach Hause gefahren. Вставьте hat или ist.",
+     "ru": "",
+     "a": [
+      "hat"
+     ],
+     "hint": "",
+     "n": "Йонас вёз Алину: прямое дополнение <b>Alina</b> означает выбор <b>haben</b>."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  },
+  {
+   "type": "build",
+   "title": "Проверь себя 13.C: переведи",
+   "sub": "Ответьте без таблиц; там, где нужно два причастия, заполните оба пропуска.",
+   "items": [
+    {
+     "ru": "Соберите фразу, начав с danach: [ich / telefoniert / habe / danach].",
+     "w": [
+      "Danach",
+      "habe",
+      "ich",
+      "telefoniert"
+     ],
+     "ok": [
+      "Danach habe ich telefoniert"
+     ],
+     "n": "После начального наречия помощник занимает вторую позицию."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  }
+ ]
+}

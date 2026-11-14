@@ -1,0 +1,68 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 26",
+ "sub": "Пять заданий в конце урока 26: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 26,
+  "s": "26.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 26.C",
+   "sub": "Вставьте формы из урока; в пункте 3 нужно сочетание, в остальных по одному слову. Объясните свой выбор.",
+   "items": [
+    {
+     "s": "Das sind die Kollegen, ___ ich danke.",
+     "ru": "",
+     "a": [
+      "denen"
+     ],
+     "hint": "",
+     "n": "<b>Danken</b> сочетается с <b>Dativ</b>; коллег несколько."
+    },
+    {
+     "s": "Ich suche den Kollegen, ___ Tasche hier liegt.",
+     "ru": "",
+     "a": [
+      "dessen"
+     ],
+     "hint": "",
+     "n": "Владелец сумки — коллега, мужской род; женский род <b>Tasche</b> не влияет на форму."
+    },
+    {
+     "s": "Das ist das Projekt, ___ sich Jonas interessiert.",
+     "ru": "",
+     "a": [
+      "für das"
+     ],
+     "hint": "",
+     "n": "<b>Sich interessieren für</b> сохраняет <b>für</b> с <b>Akkusativ</b>; <b>Projekt</b> среднего рода."
+    },
+    {
+     "s": "Alles, ___ du hier siehst, gehört zum Café.",
+     "ru": "",
+     "a": [
+      "was"
+     ],
+     "hint": "",
+     "n": "После обобщения <b>alles</b> используем <b>was</b>."
+    },
+    {
+     "s": "Lea lebt in Zürich, ___ sie auch geboren ist.",
+     "ru": "",
+     "a": [
+      "wo"
+     ],
+     "hint": "",
+     "n": "После названия города без артикля естественно местное <b>wo</b>; <b>in dem</b> здесь звучит тяжело."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  }
+ ]
+}

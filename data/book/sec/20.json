@@ -1,0 +1,80 @@
+{
+"20.1": [
+ {"type":"type","title":"Сравнительная: -er","sub":"И длинным словам хватает -er","items":[
+  {"s":"Das Wohnzimmer ist ___.","ru":"Гостиная светлее.","a":["heller"],"hint":"hell","n":"hell → <b>heller</b>."},
+  {"s":"Das Sofa ist ___.","ru":"Диван удобнее.","a":["bequemer"],"hint":"bequem","n":"<b>bequemer</b>."},
+  {"s":"Die Küche ist ___.","ru":"Кухня современнее.","a":["moderner"],"hint":"modern","n":"<b>moderner</b>."},
+  {"s":"Die Wohnungen werden immer ___.","ru":"Квартиры становятся всё дороже.","a":["teurer"],"hint":"teuer","n":"<b>immer teurer</b> — всё дороже; e пропадает."},
+  {"s":"Diese Lösung ist ___.","ru":"Это решение практичнее.","a":["praktischer"],"hint":"praktisch","n":"<b>praktischer</b>."},
+  {"s":"Hier ist es ___.","ru":"Здесь тише.","a":["ruhiger"],"hint":"ruhig","n":"<b>ruhiger</b>."}
+ ]}
+],
+"20.2": [
+ {"type":"type","title":"Умлаут","sub":"Короткие слова с a, o, u","items":[
+  {"s":"Heute ist es ___.","ru":"Сегодня холоднее.","a":["kälter"],"hint":"kalt","n":"<b>kälter</b>."},
+  {"s":"Lea ist ___.","ru":"Леа старше.","a":["älter"],"hint":"alt","n":"<b>älter</b>."},
+  {"s":"Paul ist ___.","ru":"Пауль моложе.","a":["jünger"],"hint":"jung","n":"<b>jünger</b>."},
+  {"s":"Das Bad ist ___.","ru":"Ванная больше.","a":["größer"],"hint":"groß","n":"<b>größer</b>."},
+  {"s":"Im Juni ist es ___.","ru":"В июне теплее.","a":["wärmer"],"hint":"warm","n":"<b>wärmer</b>."},
+  {"s":"Der Weg ist ___.","ru":"Дорога короче.","a":["kürzer"],"hint":"kurz","n":"<b>kürzer</b>."}
+ ]}
+],
+"20.3": [
+ {"type":"choice","title":"Особые ряды","sub":"gut, viel, gern, hoch, nah","items":[
+  {"s":"Das neue Fenster ist ___.","ru":"Новое окно лучше.","o":["besser","guter"],"a":"besser","n":"gut → <b>besser</b>."},
+  {"s":"Hier haben wir ___ Platz.","ru":"Здесь у нас больше места.","o":["mehr","vieler"],"a":"mehr","n":"viel → <b>mehr</b>."},
+  {"s":"Die ___ Leute wohnen zur Miete.","ru":"Большинство людей снимает жильё.","o":["meisten","meiste"],"a":"meisten","n":"<b>die meisten Leute</b>."},
+  {"s":"Der Turm ist ___.","ru":"Башня выше.","o":["höher","hocher"],"a":"höher","n":"hoch → <b>höher</b>."},
+  {"s":"Die U-Bahn ist ___.","ru":"Метро ближе.","o":["näher","naher"],"a":"näher","n":"nah → <b>näher</b>."},
+  {"s":"Das schmeckt ___.","ru":"Это вкуснее всего.","o":["am besten","am gutesten"],"a":"am besten","n":"<b>am besten</b>."}
+ ]}
+],
+"20.4": [
+ {"type":"choice","title":"Als или wie","sub":"Разница — als, равенство — wie","items":[
+  {"s":"Das Hemd ist billiger ___ die Bluse.","ru":"Рубашка дешевле блузки.","o":["als","wie"],"a":"als","n":"Сравнительная → <b>als</b>."},
+  {"s":"Das Hemd ist genauso teuer ___ die Bluse.","ru":"Рубашка стоит столько же, сколько блузка.","o":["wie","als"],"a":"wie","n":"genauso → <b>wie</b>."},
+  {"s":"Lea ist älter als ___.","ru":"Леа старше меня.","o":["ich","mich"],"a":"ich","n":"Сравниваем с подлежащим → <b>ich</b>."},
+  {"s":"Du verdienst mehr als ___.","ru":"Ты зарабатываешь больше него.","o":["er","ihn"],"a":"er","n":"<b>als er</b>."},
+  {"s":"Es ist heute anders ___ vorher.","ru":"Сегодня всё иначе, чем раньше.","o":["als","wie"],"a":"als","n":"anders → <b>als</b>."},
+  {"s":"B ist nicht so hell ___ A.","ru":"B не такая светлая, как A.","o":["wie","als"],"a":"wie","n":"nicht so … <b>wie</b>."}
+ ]}
+],
+"20.5": [
+ {"type":"build","title":"Самый","sub":"am …-sten или der/die/das …-ste","items":[
+  {"ru":"Это самая светлая квартира.","w":["Das","ist","die","hellste","Wohnung."],"ok":["Das ist die hellste Wohnung."],"n":"<b>die hellste</b>."},
+  {"ru":"Эта квартира светлее всего.","w":["Diese","Wohnung","ist","am","hellsten."],"ok":["Diese Wohnung ist am hellsten.","Diese Wohnung ist die hellste."],"n":"<b>am hellsten</b>."},
+  {"ru":"Кёльн красивее всего в мае.","w":["Köln","ist","im","Mai","am","schönsten."],"ok":["Köln ist im Mai am schönsten."],"n":"Один и тот же город в разное время → <b>am</b>."},
+  {"ru":"Это самый интересный разговор.","w":["Das","ist","das","interessanteste","Gespräch."],"ok":["Das ist das interessanteste Gespräch."],"n":"Не <s>meist interessante</s>."}
+ ]}
+],
+"20.6": [
+ {"type":"type","title":"-sten или -esten","sub":"После s, ß, z, t, d — -esten","items":[
+  {"s":"Opa ist am ___.","ru":"Дедушка старше всех.","a":["ältesten"],"hint":"alt","n":"После t → <b>ältesten</b>."},
+  {"s":"Dieser Weg ist am ___.","ru":"Эта дорога короче всего.","a":["kürzesten"],"hint":"kurz","n":"После z → <b>kürzesten</b>."},
+  {"s":"Im August ist es am ___.","ru":"В августе жарче всего.","a":["heißesten"],"hint":"heiß","n":"После ß → <b>heißesten</b>."},
+  {"s":"Dieses Buch ist am ___.","ru":"Эта книга интереснее всего.","a":["interessantesten"],"hint":"interessant","n":"<b>interessantesten</b>."},
+  {"s":"Hier ist es am ___.","ru":"Здесь тише всего.","a":["ruhigsten"],"hint":"ruhig","n":"Просто <b>-sten</b>."},
+  {"s":"Der Zug ist am ___.","ru":"Поезд быстрее всего.","a":["schnellsten"],"hint":"schnell","n":"<b>schnellsten</b>."}
+ ]}
+],
+"20.7": [
+ {"type":"choice","title":"Gern, lieber, am liebsten","sub":"Что выбирает Пауль","items":[
+  {"s":"Ich fahre ___ nach Berlin.","ru":"Я люблю ездить в Берлин.","o":["gern","lieber"],"a":"gern","n":"<b>gern</b> — охотно."},
+  {"s":"Aber ich wohne ___ hier als dort.","ru":"Но жить предпочитаю здесь, а не там.","o":["lieber","mehr"],"a":"lieber","n":"Предпочтение — <b>lieber</b>."},
+  {"s":"___ bleibe ich in Köln.","ru":"Больше всего мне хочется остаться в Кёльне.","o":["Am liebsten","Am meisten"],"a":"Am liebsten","n":"<b>am liebsten</b>."},
+  {"s":"Mir gefällt Köln ___.","ru":"Мне больше нравится Кёльн.","o":["besser","mehr gern"],"a":"besser","n":"С gefallen — <b>besser</b>."},
+  {"s":"Ich mag Köln ___.","ru":"Мне больше нравится Кёльн.","o":["lieber","mehr"],"a":"lieber","n":"С mögen — <b>lieber</b>."},
+  {"s":"Heute gehe ich ___ zu Fuß.","ru":"Сегодня я лучше пойду пешком.","o":["lieber","besser"],"a":"lieber","n":"Предпочтение — <b>lieber</b>."}
+ ]}
+],
+"20.8": [
+ {"type":"type","title":"Сравнение перед существительным","sub":"-er- плюс обычное окончание","items":[
+  {"s":"Wir suchen eine ___ Straße.","ru":"Мы ищем более тихую улицу.","a":["ruhigere"],"hint":"ruhig","n":"<b>ruhiger</b> + -e."},
+  {"s":"Wir brauchen ein ___ Bad.","ru":"Нам нужна ванная побольше.","a":["größeres"],"hint":"groß","n":"<b>größer</b> + -es."},
+  {"s":"Ich fahre mit dem ___ Zug.","ru":"Я еду на более быстром поезде.","a":["schnelleren"],"hint":"schnell","n":"Dativ → <b>-en</b>."},
+  {"s":"Wir wohnen jetzt in der ___ Wohnung.","ru":"Теперь мы живём в более дорогой квартире.","a":["teureren"],"hint":"teuer","n":"<b>teureren</b>."},
+  {"s":"Lea trägt einen ___ Mantel.","ru":"На Лее пальто потемнее.","a":["dunkleren"],"hint":"dunkel","n":"<b>dunkleren</b>."},
+  {"s":"Die Wohnung ist im ersten ___.","ru":"Квартира на втором этаже (по-русски).","a":["Stock"],"hint":"der Stock","n":"im ersten Stock — второй этаж по русскому счёту."}
+ ]}
+]
+}

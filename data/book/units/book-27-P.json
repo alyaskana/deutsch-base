@@ -1,0 +1,927 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 27",
+ "sub": "Упражнения урока 27 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 27,
+  "s": "27.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "build",
+   "title": "Упражнение 27.1",
+   "sub": "Превратите прямой вопрос в косвенный после указанного начала. Сохраните остальные слова и выберите конечный знак.",
+   "items": [
+    {
+     "ru": "Wo liegt die Anleitung? Начало: Können Sie mir sagen,",
+     "w": [
+      "Können",
+      "Sie",
+      "mir",
+      "sagen,",
+      "wo",
+      "die",
+      "Anleitung",
+      "liegt?"
+     ],
+     "ok": [
+      "Können Sie mir sagen, wo die Anleitung liegt?"
+     ],
+     "n": "Вопросительное начало сохраняет вопросительный знак; <b>liegt</b> уходит в конец."
+    },
+    {
+     "ru": "Was kostet das Kabel? Начало: Ich möchte wissen,",
+     "w": [
+      "Ich",
+      "möchte",
+      "wissen,",
+      "was",
+      "das",
+      "Kabel",
+      "kostet"
+     ],
+     "ok": [
+      "Ich möchte wissen, was das Kabel kostet"
+     ],
+     "n": "После сообщения ставим точку."
+    },
+    {
+     "ru": "Wann fällt der Kurs aus? Начало: Sie fragt,",
+     "w": [
+      "Sie",
+      "fragt,",
+      "wann",
+      "der",
+      "Kurs",
+      "ausfällt"
+     ],
+     "ok": [
+      "Sie fragt, wann der Kurs ausfällt"
+     ],
+     "n": "Отделяемая приставка возвращается к глаголу."
+    },
+    {
+     "ru": "Wie kann Paul die Daten löschen? Начало: Erklären Sie mir bitte,",
+     "w": [
+      "Erklären",
+      "Sie",
+      "mir",
+      "bitte,",
+      "wie",
+      "Paul",
+      "die",
+      "Daten",
+      "löschen",
+      "kann"
+     ],
+     "ok": [
+      "Erklären Sie mir bitte, wie Paul die Daten löschen kann"
+     ],
+     "n": "В конце стоят инфинитив и спрягаемый модальный глагол; главная часть содержит просьбу."
+    },
+    {
+     "ru": "Wer hat den Bildschirm bestellt? Начало: Ich weiß nicht,",
+     "w": [
+      "Ich",
+      "weiß",
+      "nicht,",
+      "wer",
+      "den",
+      "Bildschirm",
+      "bestellt",
+      "hat"
+     ],
+     "ok": [
+      "Ich weiß nicht, wer den Bildschirm bestellt hat"
+     ],
+     "n": "В <b>Perfekt</b> вспомогательный глагол стоит после причастия."
+    },
+    {
+     "ru": "Mit wem spricht die Technikerin? Начало: Paul will wissen,",
+     "w": [
+      "Paul",
+      "will",
+      "wissen,",
+      "mit",
+      "wem",
+      "die",
+      "Technikerin",
+      "spricht"
+     ],
+     "ok": [
+      "Paul will wissen, mit wem die Technikerin spricht"
+     ],
+     "n": "Предлог и местоимение остаются вместе."
+    },
+    {
+     "ru": "Wie lange dauert der Termin? Начало: Könnten Sie mir sagen,",
+     "w": [
+      "Könnten",
+      "Sie",
+      "mir",
+      "sagen,",
+      "wie",
+      "lange",
+      "der",
+      "Termin",
+      "dauert?"
+     ],
+     "ok": [
+      "Könnten Sie mir sagen, wie lange der Termin dauert?"
+     ],
+     "n": "Группа <b>wie lange</b> не разрывается."
+    },
+    {
+     "ru": "Was für einen Router braucht Jonas? Начало: Alina fragt,",
+     "w": [
+      "Alina",
+      "fragt,",
+      "was",
+      "für",
+      "einen",
+      "Router",
+      "Jonas",
+      "braucht"
+     ],
+     "ok": [
+      "Alina fragt, was für einen Router Jonas braucht"
+     ],
+     "n": "Вопросительная группа сохраняет <b>Akkusativ</b>: роутер нужен Йонасу."
+    },
+    {
+     "ru": "Funktioniert die Steckdose? Начало: Ich bin nicht sicher,",
+     "w": [
+      "Ich",
+      "bin",
+      "nicht",
+      "sicher,",
+      "ob",
+      "die",
+      "Steckdose",
+      "funktioniert"
+     ],
+     "ok": [
+      "Ich bin nicht sicher, ob die Steckdose funktioniert"
+     ],
+     "n": "Вопрос «да или нет» вводит <b>ob</b>."
+    },
+    {
+     "ru": "Hat Lea den Rabatt bekommen? Начало: Wissen Sie,",
+     "w": [
+      "Wissen",
+      "Sie,",
+      "ob",
+      "Lea",
+      "den",
+      "Rabatt",
+      "bekommen",
+      "hat?"
+     ],
+     "ok": [
+      "Wissen Sie, ob Lea den Rabatt bekommen hat?"
+     ],
+     "n": "После <b>ob</b> группа <b>bekommen hat</b> завершает придаточное."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 27.2",
+   "sub": "Выберите слово или пару слов, которые подходят по смыслу. Если грамматически возможны два слова, решает вся фраза.",
+   "items": [
+    {
+     "s": "Ich weiß nicht, ___ der Computer an ist.",
+     "ru": "",
+     "o": [
+      "wenn",
+      "ob",
+      "dass"
+     ],
+     "a": "ob",
+     "n": "Ответ «да или нет» неизвестен, поэтому нужен <b>ob</b>."
+    },
+    {
+     "s": "___ die Miete günstig ist, nehmen wir die Wohnung.",
+     "ru": "",
+     "o": [
+      "Ob",
+      "Dass",
+      "Wenn"
+     ],
+     "a": "Wenn",
+     "n": "Это условие: квартиру берём при низкой цене."
+    },
+    {
+     "s": "Sie fragt, ___ wir ein neues Kabel brauchen.",
+     "ru": "",
+     "o": [
+      "ob",
+      "wenn",
+      "dass"
+     ],
+     "a": "ob",
+     "n": "Вопрос «нужен ли кабель» передаём через <b>ob</b>."
+    },
+    {
+     "s": "Wir rufen an, ___ der Bildschirm ausfällt.",
+     "ru": "",
+     "o": [
+      "dass",
+      "wenn",
+      "ob"
+     ],
+     "a": "wenn",
+     "n": "Условие: позвоним в случае сбоя."
+    },
+    {
+     "s": "___ Paul nach Hause kommt, schaltet er immer zuerst den Computer ein.",
+     "ru": "",
+     "o": [
+      "Wenn",
+      "Wann",
+      "Ob"
+     ],
+     "a": "Wenn",
+     "n": "Ситуация повторяется («каждый раз, когда»), поэтому <b>wenn</b>."
+    },
+    {
+     "s": "Ich frage mich, ___ die Technikerin kommt. Um zehn? Um zwölf?",
+     "ru": "",
+     "o": [
+      "wann",
+      "wenn",
+      "ob"
+     ],
+     "a": "wann",
+     "n": "Спрашиваем о времени прихода, а не о самом факте."
+    },
+    {
+     "s": "Wir wissen genau, ___ dieser Tarif billiger ist. Das steht auf der Rechnung.",
+     "ru": "Передайте утверждение «Мы точно знаем, что этот тариф дешевле», а не ответ на вопрос «дешевле ли»",
+     "o": [
+      "ob",
+      "wenn",
+      "dass"
+     ],
+     "a": "dass",
+     "n": "Точно известный факт вводит <b>dass</b>."
+    },
+    {
+     "s": "Sie ist sicher, ___ sie die Rechnung bezahlt hat.",
+     "ru": "",
+     "o": [
+      "wenn",
+      "dass",
+      "ob"
+     ],
+     "a": "dass",
+     "n": "Уверенность сообщает факт, поэтому <b>dass</b>."
+    },
+    {
+     "s": "«Hilft der Anbieter?» Er will also wissen, ___ der Anbieter hilft.",
+     "ru": "Er fragt",
+     "o": [
+      "wann",
+      "dass",
+      "ob"
+     ],
+     "a": "ob",
+     "n": "Прямой вопрос без вопросительного слова становится придаточным с <b>ob</b>."
+    },
+    {
+     "s": "Ich zweifle nicht daran, ___ der Techniker heute kommt.",
+     "ru": "",
+     "o": [
+      "dass",
+      "wenn",
+      "ob"
+     ],
+     "a": "dass",
+     "n": "Сомнения нет, значит, это уверенное утверждение: <b>dass</b>."
+    },
+    {
+     "s": "В одних комнатах интернет работает быстро, в других медленно. Das Internet ist ___ schnell, ___ langsam.",
+     "ru": "",
+     "o": [
+      "weder … noch",
+      "entweder … oder",
+      "teils … teils"
+     ],
+     "a": "teils … teils",
+     "n": "Частью так, частью иначе: <b>teils … teils</b> (частью…, частью…)."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 27.3",
+   "sub": "Вставьте обе части пары. Смысл уточнён в каждом пункте; при добавлении различайте нейтральное «оба» и «не только».",
+   "items": [
+    {
+     "s": "Wir machen ___ Kurs A … Kurs B.",
+     "ru": "Можем пройти только один курс",
+     "a": [
+      "entweder"
+     ],
+     "hint": "",
+     "n": "Выбор одного из двух."
+    },
+    {
+     "s": "Wir machen entweder Kurs A ___ Kurs B.",
+     "ru": "Можем пройти только один курс",
+     "a": [
+      "oder"
+     ],
+     "hint": "",
+     "n": "Выбор одного из двух."
+    },
+    {
+     "s": "Beide Wohnungen haben ___ einen Balkon … eine Garage.",
+     "ru": "У обеих квартир нет нужных удобств",
+     "a": [
+      "weder"
+     ],
+     "hint": "",
+     "n": "Оба удобства отрицаются без добавочного <b>nicht</b>."
+    },
+    {
+     "s": "Beide Wohnungen haben weder einen Balkon ___ eine Garage.",
+     "ru": "У обеих квартир нет нужных удобств",
+     "a": [
+      "noch"
+     ],
+     "hint": "",
+     "n": "Оба удобства отрицаются без добавочного <b>nicht</b>."
+    },
+    {
+     "s": "Wir besichtigen ___ Wohnung A … Wohnung B.",
+     "ru": "Смотрим обе квартиры на равных",
+     "a": [
+      "sowohl"
+     ],
+     "hint": "",
+     "n": "Оба дополнения включены без особого усиления второго."
+    },
+    {
+     "s": "Wir besichtigen sowohl Wohnung A ___ Wohnung B.",
+     "ru": "Смотрим обе квартиры на равных",
+     "a": [
+      "als auch"
+     ],
+     "hint": "",
+     "n": "Оба дополнения включены без особого усиления второго."
+    },
+    {
+     "s": "Wohnung A ist ___ größer, … heller als Wohnung B.",
+     "ru": "Второе преимущество квартиры А добавьте через «не только»",
+     "a": [
+      "nicht nur"
+     ],
+     "hint": "",
+     "n": "Второй признак дополняет первый; запятая стоит перед <b>sondern</b>."
+    },
+    {
+     "s": "Wohnung A ist nicht nur größer, ___ heller als Wohnung B.",
+     "ru": "Второе преимущество квартиры А добавьте через «не только»",
+     "a": [
+      "sondern auch"
+     ],
+     "hint": "",
+     "n": "Второй признак дополняет первый; запятая стоит перед <b>sondern</b>."
+    },
+    {
+     "s": "Wohnung A ist ___ billiger, … Wohnung B ist ruhiger.",
+     "ru": "Признаём плюс квартиры А, затем называем плюс квартиры Б",
+     "a": [
+      "zwar"
+     ],
+     "hint": "",
+     "n": "Сначала уступка, затем возражение."
+    },
+    {
+     "s": "Wohnung A ist zwar billiger, ___ Wohnung B ist ruhiger.",
+     "ru": "Признаём плюс квартиры А, затем называем плюс квартиры Б",
+     "a": [
+      "aber"
+     ],
+     "hint": "",
+     "n": "Сначала уступка, затем возражение."
+    },
+    {
+     "s": "Не подходит ни один курс: ___ passt mir Kurs A, … möchte ich Kurs B machen.",
+     "ru": "",
+     "a": [
+      "Weder"
+     ],
+     "hint": "",
+     "n": "После обеих частей пары стоит глагол."
+    },
+    {
+     "s": "Не подходит ни один курс: Weder passt mir Kurs A, ___ möchte ich Kurs B machen.",
+     "ru": "",
+     "a": [
+      "noch"
+     ],
+     "hint": "",
+     "n": "После обеих частей пары стоит глагол."
+    },
+    {
+     "s": "Только одна квартира: ___ wir mieten Wohnung A, … wir nehmen Wohnung B.",
+     "ru": "",
+     "a": [
+      "Entweder"
+     ],
+     "hint": "",
+     "n": "Здесь <b>entweder</b> стоит перед первым местом."
+    },
+    {
+     "s": "Только одна квартира: Entweder wir mieten Wohnung A, ___ wir nehmen Wohnung B.",
+     "ru": "",
+     "a": [
+      "oder"
+     ],
+     "hint": "",
+     "n": "Здесь <b>entweder</b> стоит перед первым местом."
+    },
+    {
+     "s": "Mir gefallen ___ Wohnung A … Wohnung B.",
+     "ru": "Две квартиры нравятся одинаково",
+     "a": [
+      "sowohl"
+     ],
+     "hint": "",
+     "n": "Два подлежащих связаны парой; глагол уже стоит во множественном числе."
+    },
+    {
+     "s": "Mir gefallen sowohl Wohnung A ___ Wohnung B.",
+     "ru": "Две квартиры нравятся одинаково",
+     "a": [
+      "als auch"
+     ],
+     "hint": "",
+     "n": "Два подлежащих связаны парой; глагол уже стоит во множественном числе."
+    },
+    {
+     "s": "Kurs B bietet ___ guten Unterricht, … kleine Gruppen.",
+     "ru": "Второе достоинство курса Б подчеркните через «не только»",
+     "a": [
+      "nicht nur"
+     ],
+     "hint": "",
+     "n": "Хорошие занятия и маленькие группы есть одновременно."
+    },
+    {
+     "s": "Kurs B bietet nicht nur guten Unterricht, ___ kleine Gruppen.",
+     "ru": "Второе достоинство курса Б подчеркните через «не только»",
+     "a": [
+      "sondern auch"
+     ],
+     "hint": "",
+     "n": "Хорошие занятия и маленькие группы есть одновременно."
+    },
+    {
+     "s": "Kurs A ist ___ interessant, … wir brauchen Kurs B.",
+     "ru": "Признаём достоинство курса А, но выбираем Б",
+     "a": [
+      "zwar"
+     ],
+     "hint": "",
+     "n": "Уступка не отменяет последующего выбора."
+    },
+    {
+     "s": "Kurs A ist zwar interessant, ___ wir brauchen Kurs B.",
+     "ru": "Признаём достоинство курса А, но выбираем Б",
+     "a": [
+      "aber"
+     ],
+     "hint": "",
+     "n": "Уступка не отменяет последующего выбора."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 27.4",
+   "sub": "Соберите предложения из блоков. Слова внутри блока не переставляйте, две смысловые части не меняйте местами. В пунктах 6–8 допустима замена desto на umso и наоборот.",
+   "items": [
+    {
+     "ru": "[antwortet / noch / weder hilft die Anleitung / die Hotline / ,]",
+     "w": [
+      "Weder",
+      "hilft",
+      "die",
+      "Anleitung,",
+      "noch",
+      "antwortet",
+      "die",
+      "Hotline"
+     ],
+     "ok": [
+      "Weder hilft die Anleitung, noch antwortet die Hotline"
+     ],
+     "n": "После <b>noch</b> стоит глагол, затем подлежащее."
+    },
+    {
+     "ru": "[noch / kommt sie / sie / , / schreibt / weder]",
+     "w": [
+      "Weder",
+      "schreibt",
+      "sie,",
+      "noch",
+      "kommt",
+      "sie"
+     ],
+     "ok": [
+      "Weder schreibt sie, noch kommt sie",
+      "Weder kommt sie, noch schreibt sie"
+     ],
+     "n": "В первой части <b>weder</b> допускает первое место или середину; блоки не задают, какое действие назвать первым."
+    },
+    {
+     "ru": "[ist / sie teuer / andererseits / , / Wohnung A hell / einerseits / ist]",
+     "w": [
+      "Einerseits",
+      "ist",
+      "Wohnung",
+      "A",
+      "hell,",
+      "andererseits",
+      "ist",
+      "sie",
+      "teuer"
+     ],
+     "ok": [
+      "Einerseits ist Wohnung A hell, andererseits ist sie teuer"
+     ],
+     "n": "Наречие заняло первое место, сразу за ним глагол."
+    },
+    {
+     "ru": "Сначала назовите ожидание, затем уход домой. [wir gehen nach Hause / warten / , / entweder / oder / wir]",
+     "w": [
+      "Entweder",
+      "wir",
+      "warten,",
+      "oder",
+      "wir",
+      "gehen",
+      "nach",
+      "Hause"
+     ],
+     "ok": [
+      "Entweder wir warten, oder wir gehen nach Hause"
+     ],
+     "n": "<b>Entweder</b> допускает оба начала; <b>oder</b> стоит перед первым местом."
+    },
+    {
+     "ru": "Начните с Die Wohnung ist, Zwar ist или Klein ist. [klein / , aber sie gefällt uns / ist / die Wohnung / zwar]",
+     "w": [
+      "Die",
+      "Wohnung",
+      "ist",
+      "zwar",
+      "klein,",
+      "aber",
+      "sie",
+      "gefällt",
+      "uns"
+     ],
+     "ok": [
+      "Die Wohnung ist zwar klein, aber sie gefällt uns"
+     ],
+     "n": "<b>Zwar</b> можно поставить в середину или в начало; возможно и выделение признака <b>klein</b>."
+    },
+    {
+     "ru": "[wird / desto eher / , / Paul arbeitet / er fertig / je schneller]",
+     "w": [
+      "Je",
+      "schneller",
+      "Paul",
+      "arbeitet,",
+      "desto",
+      "eher",
+      "wird",
+      "er",
+      "fertig"
+     ],
+     "ok": [
+      "Je schneller Paul arbeitet, desto eher wird er fertig"
+     ],
+     "n": "Первая часть заканчивается глаголом, вторая начинается сравнительной группой."
+    },
+    {
+     "ru": "[wir aus / umso mehr Geld / , / wir kaufen / je mehr Computer / geben]",
+     "w": [
+      "Je",
+      "mehr",
+      "Computer",
+      "wir",
+      "kaufen,",
+      "umso",
+      "mehr",
+      "Geld",
+      "geben",
+      "wir",
+      "aus"
+     ],
+     "ok": [
+      "Je mehr Computer wir kaufen, umso mehr Geld geben wir aus"
+     ],
+     "n": "Существительные остаются внутри групп с <b>mehr</b>."
+    },
+    {
+     "ru": "[lernen / der Kurs dauert / wir / desto mehr / , / je länger]",
+     "w": [
+      "Je",
+      "länger",
+      "der",
+      "Kurs",
+      "dauert,",
+      "desto",
+      "mehr",
+      "lernen",
+      "wir"
+     ],
+     "ok": [
+      "Je länger der Kurs dauert, desto mehr lernen wir"
+     ],
+     "n": "После всей группы <b>desto mehr</b> сразу стоит <b>lernen</b>."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 27.5",
+   "scene": "Nachrichten",
+   "cap": "Сбой интернета в Кёльне",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Новость по радио, затем горячая линия. Где факт редакции, а где слова компании?",
+   "audio": {
+    "id": "book-27-5",
+    "n": 2,
+    "dur": 34.93,
+    "t": [
+     [
+      0.8,
+      8.0
+     ],
+     [
+      8.0,
+      18.08
+     ],
+     [
+      18.08,
+      23.28
+     ],
+     [
+      23.28,
+      29.4
+     ],
+     [
+      29.4,
+      34.88
+     ]
+    ]
+   },
+   "speakers": {
+    "Nachrichten": "Германия",
+    "Hotline": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Nachrichten",
+     "de": "In Köln gibt es seit Donnerstag eine Störung im Netz. Unser Radio hat heute Morgen mit dem Anbieter gesprochen.",
+     "ru": "В Кёльне с четверга сбой в сети. Наше радио сегодня утром поговорило с провайдером."
+    },
+    {
+     "who": "Nachrichten",
+     "de": "Der Anbieter erklärt, das Problem sei ein Kabel. Ein Techniker habe den Fehler schon gefunden. Die Firma könne das Netz heute noch reparieren.",
+     "ru": "Провайдер объясняет, что проблема якобы в кабеле. Техник уже нашёл ошибку. Фирма может починить сеть ещё сегодня."
+    },
+    {
+     "who": "Nachrichten",
+     "de": "Man solle den Router einschalten. Außerdem solle man keine Daten löschen.",
+     "ru": "Роутер следует включить. Кроме того, не нужно удалять данные."
+    },
+    {
+     "who": "Hotline",
+     "de": "Guten Tag! Hier ist die Hotline. Bitte sagen Sie uns, wann Ihr Internet ausgefallen ist.",
+     "ru": "Добрый день! Это горячая линия. Скажите, пожалуйста, когда у вас пропал интернет."
+    },
+    {
+     "who": "Hotline",
+     "de": "Unser Mitarbeiter fragt Sie dann, ob Sie das Kabel schon überprüft haben. Vielen Dank für Ihre Geduld.",
+     "ru": "Наш сотрудник затем спросит, проверили ли вы уже кабель. Спасибо за терпение."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "«Причина — кабель» —",
+     "o": [
+      "так утверждает компания",
+      "редакция сообщает как факт",
+      "запись этого не подтверждает"
+     ],
+     "a": "так утверждает компания",
+     "n": "das Problem <b>sei</b> ein Kabel. sei — передаём чужие слова.",
+     "k": 1
+    },
+    {
+     "q": "«Радио утром поговорило с провайдером» —",
+     "o": [
+      "редакция сообщает как факт",
+      "так утверждает компания",
+      "запись этого не подтверждает"
+     ],
+     "a": "редакция сообщает как факт",
+     "n": "Unser Radio <b>hat</b> heute Morgen mit dem Anbieter <b>gesprochen</b>. Обычный индикатив — факт редакции.",
+     "k": 0
+    },
+    {
+     "q": "«Сеть починят сегодня» —",
+     "o": [
+      "так утверждает компания",
+      "редакция сообщает как факт",
+      "запись этого не подтверждает"
+     ],
+     "a": "так утверждает компания",
+     "n": "Die Firma <b>könne</b> das Netz heute noch reparieren. könne — заявление фирмы.",
+     "k": 1
+    },
+    {
+     "q": "Что просят сделать с роутером?",
+     "o": [
+      "включить",
+      "продать",
+      "отнести в магазин"
+     ],
+     "a": "включить",
+     "n": "Man solle den Router <b>einschalten</b>. ",
+     "k": 2
+    },
+    {
+     "q": "Что просят делать с данными?",
+     "o": [
+      "ничего не удалять",
+      "удалить всё",
+      "отправить Паулю"
+     ],
+     "a": "ничего не удалять",
+     "n": "Außerdem solle man <b>keine Daten löschen</b>. ",
+     "k": 2
+    },
+    {
+     "q": "Что сотрудник спросит о кабеле?",
+     "o": [
+      "проверили ли его",
+      "где его купили",
+      "сколько он стоил"
+     ],
+     "a": "проверили ли его",
+     "n": "<b>ob</b> Sie das Kabel schon überprüft haben. ob — «ли».",
+     "k": 4
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 27.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 27.6",
+   "sub": "Используйте указанные начала и глаголы и сохраните порядок частей. В пунктах 2–5 нужны пары урока, а в пункте 4 подойдёт и придаточное с obwohl.",
+   "items": [
+    {
+     "ru": "Я не знаю, работает ли интернет. Начните с Ich weiß nicht; используйте funktionieren.",
+     "w": [
+      "Ich",
+      "weiß",
+      "nicht,",
+      "ob",
+      "das",
+      "Internet",
+      "funktioniert"
+     ],
+     "ok": [
+      "Ich weiß nicht, ob das Internet funktioniert"
+     ],
+     "n": "Русское «ли» вводит вопрос «да или нет»."
+    },
+    {
+     "ru": "Мы не выбираем ни первый курс, ни второй. Начните с Wir wählen.",
+     "w": [
+      "Wir",
+      "wählen",
+      "weder",
+      "den",
+      "ersten",
+      "Kurs",
+      "noch",
+      "den",
+      "zweiten"
+     ],
+     "ok": [
+      "Wir wählen weder den ersten Kurs noch den zweiten",
+      "Wir wählen weder den ersten noch den zweiten Kurs"
+     ],
+     "n": "<b>Nicht</b> не добавляем: оба курса уже отрицает пара."
+    },
+    {
+     "ru": "Чем быстрее он работает, тем больше денег зарабатывает. Начните с Je; используйте arbeiten, verdienen.",
+     "w": [
+      "Je",
+      "schneller",
+      "er",
+      "arbeitet,",
+      "desto",
+      "mehr",
+      "Geld",
+      "verdient",
+      "er"
+     ],
+     "ok": [
+      "Je schneller er arbeitet, desto mehr Geld verdient er"
+     ],
+     "n": "Группа <b>mehr Geld</b> остаётся перед глаголом."
+    },
+    {
+     "ru": "Квартира хоть и тёмная, но мы хотим её снять. Начните с Die Wohnung или Obwohl. Используйте sein, wollen, mieten; во второй главной части не выносите дополнение вперёд.",
+     "w": [
+      "Die",
+      "Wohnung",
+      "ist",
+      "zwar",
+      "dunkel,",
+      "aber",
+      "wir",
+      "wollen",
+      "sie",
+      "mieten"
+     ],
+     "ok": [
+      "Die Wohnung ist zwar dunkel, aber wir wollen sie mieten",
+      "Die Wohnung ist zwar dunkel, wir wollen sie aber mieten",
+      "Die Wohnung ist zwar dunkel, wir aber wollen sie mieten"
+     ],
+     "n": "После <b>obwohl</b> не добавляем <b>aber</b>; у <b>zwar … aber</b> обе части главные."
+    },
+    {
+     "ru": "Мы платим не только за курс, но и за книги. Начните с Wir bezahlen.",
+     "w": [
+      "Wir",
+      "bezahlen",
+      "nicht",
+      "nur",
+      "den",
+      "Kurs,",
+      "sondern",
+      "auch",
+      "die",
+      "Bücher"
+     ],
+     "ok": [
+      "Wir bezahlen nicht nur den Kurs, sondern auch die Bücher"
+     ],
+     "n": "Оба дополнения сохраняются, второе добавлено с акцентом."
+    },
+    {
+     "ru": "Не могли бы вы сказать мне, когда начинается курс? (Sie) Начните с Könnten Sie mir sagen; используйте anfangen.",
+     "w": [
+      "Könnten",
+      "Sie",
+      "mir",
+      "sagen,",
+      "wann",
+      "der",
+      "Kurs",
+      "anfängt?"
+     ],
+     "ok": [
+      "Könnten Sie mir sagen, wann der Kurs anfängt?"
+     ],
+     "n": "Вежливое начало не меняет конечного места глагола; приставка соединяется с ним."
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

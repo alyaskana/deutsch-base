@@ -1,0 +1,753 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 12",
+ "sub": "Упражнения урока 12 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 12,
+  "s": "12.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 12.1",
+   "sub": "Впишите только окончание. Владелец указан в скобках; если окончания нет, поставьте длинное тире: «—». В пунктах 10–12 проверьте также окончания существительных.",
+   "items": [
+    {
+     "s": "Mein___ Eltern sind freundlich.",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "ich",
+     "n": "Родители во множественном числе, именительный падеж: <b>meine Eltern</b>."
+    },
+    {
+     "s": "Dein___ Kind ist müde.",
+     "ru": "",
+     "a": [
+      "—"
+     ],
+     "hint": "du",
+     "n": "Средний род в именительном падеже оставляет <b>dein</b> без окончания."
+    },
+    {
+     "s": "Sein___ Tante arbeitet heute.",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "er",
+     "n": "Тётя выступает подлежащим; женскому роду нужно <b>-e</b>."
+    },
+    {
+     "s": "Ich kenne dein___ Onkel.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "du",
+     "n": "После <b>kennen</b> прямое дополнение в винительном падеже: <b>deinen Onkel</b>."
+    },
+    {
+     "s": "Wir rufen unser___ Vater an.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "wir",
+     "n": "После <b>anrufen</b> отец стоит в винительном падеже; мужской род получает <b>-en</b>."
+    },
+    {
+     "s": "Frau Schmitz, ich sehe Ihr___ Enkel.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "Sie; один внук",
+     "n": "Внук стоит в винительном падеже; вежливая прописная сохраняется."
+    },
+    {
+     "s": "Lea kommt mit ihr___ Schwester.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "sie, Леа",
+     "n": "После <b>mit</b> дательный падеж; женский род даёт <b>ihrer</b>."
+    },
+    {
+     "s": "Ich bin bei mein___ Onkel.",
+     "ru": "",
+     "a": [
+      "em"
+     ],
+     "hint": "ich",
+     "n": "После <b>bei</b> нужен дательный мужского рода: <b>meinem</b>."
+    },
+    {
+     "s": "Das Foto ist von sein___ Kind.",
+     "ru": "",
+     "a": [
+      "em"
+     ],
+     "hint": "er",
+     "n": "Предлог <b>von</b> ставит существительное среднего рода в дательный падеж."
+    },
+    {
+     "s": "Ich spreche mit eur___ Kinder….",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "ihr; die Kinder",
+     "n": "Дательный множественного: <b>euren Kindern</b>; <b>euer</b> перед окончанием сокращаем до <b>eur-</b>."
+    },
+    {
+     "s": "Ich spreche mit euren Kinder___.",
+     "ru": "",
+     "a": [
+      "n"
+     ],
+     "hint": "ihr; die Kinder",
+     "n": "Дательный множественного: <b>euren Kindern</b>; <b>euer</b> перед окончанием сокращаем до <b>eur-</b>."
+    },
+    {
+     "s": "Wir wohnen bei unser___ Freunde….",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "wir; die Freunde",
+     "n": "После <b>bei</b> получаем <b>unseren Freunden</b>: окончание есть и у притяжательного слова, и у существительного."
+    },
+    {
+     "s": "Wir wohnen bei unseren Freunde___.",
+     "ru": "",
+     "a": [
+      "n"
+     ],
+     "hint": "wir; die Freunde",
+     "n": "После <b>bei</b> получаем <b>unseren Freunden</b>: окончание есть и у притяжательного слова, и у существительного."
+    },
+    {
+     "s": "Die Kameras gehören ihr___ Brüder….",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "sie, она; die Brüder",
+     "n": "<b>gehören</b> соединяется с дательным: <b>ihren Brüdern</b>; владельцы камер здесь её братья."
+    },
+    {
+     "s": "Die Kameras gehören ihren Brüder___.",
+     "ru": "",
+     "a": [
+      "n"
+     ],
+     "hint": "sie, она; die Brüder",
+     "n": "<b>gehören</b> соединяется с дательным: <b>ihren Brüdern</b>; владельцы камер здесь её братья."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 12.2",
+   "sub": "Выберите одну форму. Подлежащее каждой фразы обозначает владельца; у das Mädchen выбирайте согласование по грамматическому роду.",
+   "items": [
+    {
+     "s": "Paul sucht ___ Brille.",
+     "ru": "",
+     "o": [
+      "ihre",
+      "seine",
+      "seinen"
+     ],
+     "a": "seine",
+     "n": "Пауль даёт <b>sein-</b>, а <b>die Brille</b> в винительном даёт <b>-e</b>."
+    },
+    {
+     "s": "Alina sucht ___ Brille.",
+     "ru": "",
+     "o": [
+      "ihre",
+      "seine",
+      "ihren"
+     ],
+     "a": "ihre",
+     "n": "Алина даёт <b>ihr-</b>; окончание у <b>Brille</b> остаётся <b>-e</b>."
+    },
+    {
+     "s": "Jonas sucht ___ Brille.",
+     "ru": "",
+     "o": [
+      "seinem",
+      "ihre",
+      "seine"
+     ],
+     "a": "seine",
+     "n": "Владелец Йонас: <b>sein-</b>; прямое дополнение женского рода: <b>-e</b>."
+    },
+    {
+     "s": "Das Kind nimmt ___ Tasche mit.",
+     "ru": "",
+     "o": [
+      "seinen",
+      "seine",
+      "ihre"
+     ],
+     "a": "seine",
+     "n": "Средний род владельца <b>das Kind</b> даёт <b>sein-</b>, сумка даёт <b>-e</b>."
+    },
+    {
+     "s": "Das Mädchen findet ___ Schlüssel.",
+     "ru": "",
+     "o": [
+      "ihren",
+      "seinem",
+      "seinen"
+     ],
+     "a": "seinen",
+     "n": "В этом задании ориентируемся на <b>das Mädchen</b>; ключ стоит в винительном мужского рода."
+    },
+    {
+     "s": "Die Eltern verkaufen ___ Sofa.",
+     "ru": "",
+     "o": [
+      "ihr",
+      "sein",
+      "ihren"
+     ],
+     "a": "ihr",
+     "n": "Несколько владельцев дают <b>ihr-</b>; средний род в винительном без окончания."
+    },
+    {
+     "s": "Paul und Alina zeigen ___ Fotos.",
+     "ru": "",
+     "o": [
+      "seine",
+      "ihre",
+      "ihren"
+     ],
+     "a": "ihre",
+     "n": "Два владельца: <b>ihr-</b>; фотографии как прямое дополнение дают <b>-e</b>."
+    },
+    {
+     "s": "Lea spricht mit ___ Vater.",
+     "ru": "",
+     "o": [
+      "seinem",
+      "ihren",
+      "ihrem"
+     ],
+     "a": "ihrem",
+     "n": "Леа даёт <b>ihr-</b>; <b>mit</b> и мужской род дают окончание <b>-em</b>."
+    },
+    {
+     "s": "Paul hilft ___ Schwester.",
+     "ru": "",
+     "o": [
+      "seiner",
+      "seine",
+      "ihrer"
+     ],
+     "a": "seiner",
+     "n": "Помогает Пауль, поэтому <b>sein-</b>; после <b>helfen</b> женский дательный: <b>-er</b>."
+    },
+    {
+     "s": "Die Eltern sprechen mit ___ Kindern.",
+     "ru": "",
+     "o": [
+      "seinen",
+      "ihren",
+      "ihrem"
+     ],
+     "a": "ihren",
+     "n": "Родители дают <b>ihr-</b>, дательный множественного после <b>mit</b> даёт <b>-en</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 12.3",
+   "sub": "Допишите окончания в вопросах и ответах. В каждой паре сохраняются существительное, число и падеж.",
+   "items": [
+    {
+     "s": "Welch___ Onkel kommt? Dies… Onkel kommt.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "",
+     "n": "Дядя выступает подлежащим: мужской именительный, образец <b>der</b>."
+    },
+    {
+     "s": "Welcher Onkel kommt? Dies___ Onkel kommt.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "",
+     "n": "Дядя выступает подлежащим: мужской именительный, образец <b>der</b>."
+    },
+    {
+     "s": "Welch___ Brille ist kaputt? Dies… Brille ist kaputt.",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "Очки по-немецки здесь единственное число женского рода: <b>die Brille</b>."
+    },
+    {
+     "s": "Welche Brille ist kaputt? Dies___ Brille ist kaputt.",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "Очки по-немецки здесь единственное число женского рода: <b>die Brille</b>."
+    },
+    {
+     "s": "Welch___ Handy nimmst du? Ich nehme dies… Handy.",
+     "ru": "",
+     "a": [
+      "es"
+     ],
+     "hint": "",
+     "n": "Телефон среднего рода в винительном: <b>welches</b>, <b>dieses</b>."
+    },
+    {
+     "s": "Welches Handy nimmst du? Ich nehme dies___ Handy.",
+     "ru": "",
+     "a": [
+      "es"
+     ],
+     "hint": "",
+     "n": "Телефон среднего рода в винительном: <b>welches</b>, <b>dieses</b>."
+    },
+    {
+     "s": "Welch___ Vogel siehst du? Ich sehe dies… Vogel.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Прямое дополнение мужского рода получает <b>-en</b>."
+    },
+    {
+     "s": "Welchen Vogel siehst du? Ich sehe dies___ Vogel.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Прямое дополнение мужского рода получает <b>-en</b>."
+    },
+    {
+     "s": "Mit welch___ Schüler spricht die Lehrerin? Mit dies… Schüler.",
+     "ru": "",
+     "a": [
+      "em"
+     ],
+     "hint": "",
+     "n": "После <b>mit</b> мужской род стоит в дательном: <b>-em</b>."
+    },
+    {
+     "s": "Mit welchem Schüler spricht die Lehrerin? Mit dies___ Schüler.",
+     "ru": "",
+     "a": [
+      "em"
+     ],
+     "hint": "",
+     "n": "После <b>mit</b> мужской род стоит в дательном: <b>-em</b>."
+    },
+    {
+     "s": "Bei welch___ Familie wohnt dein Cousin? Bei dies… Familie.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "",
+     "n": "После <b>bei</b> женский дательный: <b>welcher</b>, <b>dieser</b>."
+    },
+    {
+     "s": "Bei welcher Familie wohnt dein Cousin? Bei dies___ Familie.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "",
+     "n": "После <b>bei</b> женский дательный: <b>welcher</b>, <b>dieser</b>."
+    },
+    {
+     "s": "Mit welch___ Kindern spielt Alina? Mit dies… Kindern.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "После <b>mit</b> дательный множественного; у <b>Kindern</b> добавлено <b>-n</b>."
+    },
+    {
+     "s": "Mit welchen Kindern spielt Alina? Mit dies___ Kindern.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "После <b>mit</b> дательный множественного; у <b>Kindern</b> добавлено <b>-n</b>."
+    },
+    {
+     "s": "Jed___ Sonntag rufe ich meine Schwester an.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "<b>jeden Sonntag</b> означает «каждое воскресенье»; это винительный падеж в обозначении повторяемости."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 12.4",
+   "sub": "Дайте короткий ответ с самостоятельной формой, не повторяя существительного; только в 11 существительное нужно. Сохраните указанное начало; в пунктах 4, 5 и 8 допустимо вынести местоимение вперёд. Не меняйте смысл подсказки.",
+   "items": [
+    {
+     "ru": "Ist das dein Schlüssel? Ответьте утвердительно, начиная с Ja, das ist.",
+     "w": [
+      "Ja,",
+      "das",
+      "ist",
+      "meiner"
+     ],
+     "ok": [
+      "Ja, das ist meiner"
+     ],
+     "n": "Подразумеваем <b>der Schlüssel</b>: самостоятельная форма мужского именительного получает <b>-er</b>."
+    },
+    {
+     "ru": "Ist das deine Kamera? Ответьте утвердительно, начиная с Ja, das ist.",
+     "w": [
+      "Ja,",
+      "das",
+      "ist",
+      "meine"
+     ],
+     "ok": [
+      "Ja, das ist meine"
+     ],
+     "n": "Женский род: самостоятельное <b>meine</b> совпадает с формой перед существительным."
+    },
+    {
+     "ru": "Ist das dein Handy? Ответьте утвердительно, начиная с Ja, das ist.",
+     "w": [
+      "Ja,",
+      "das",
+      "ist",
+      "meins"
+     ],
+     "ok": [
+      "Ja, das ist meins"
+     ],
+     "n": "Средний род допускает короткое <b>meins</b> и полное <b>meines</b>."
+    },
+    {
+     "ru": "Hast du meinen Koffer? Ответьте: «Нет, твоего у меня нет», начиная с Nein.",
+     "w": [
+      "Nein,",
+      "ich",
+      "habe",
+      "deinen",
+      "nicht"
+     ],
+     "ok": [
+      "Nein, ich habe deinen nicht",
+      "Nein, deinen habe ich nicht"
+     ],
+     "n": "Обращаемся к владельцу: <b>dein-</b>; после <b>haben</b> мужской винительный: <b>deinen</b>."
+    },
+    {
+     "ru": "Hast du meine Kamera? Ответьте: «Нет, твоей у меня нет», начиная с Nein.",
+     "w": [
+      "Nein,",
+      "ich",
+      "habe",
+      "deine",
+      "nicht"
+     ],
+     "ok": [
+      "Nein, ich habe deine nicht",
+      "Nein, deine habe ich nicht"
+     ],
+     "n": "Камера женского рода в винительном, поэтому самостоятельное <b>deine</b>."
+    },
+    {
+     "ru": "Hast du einen Kugelschreiber? Дайте оба ответа: сначала с Ja, ich habe, затем с Nein, ich habe.",
+     "w": [
+      "Ja,",
+      "ich",
+      "habe",
+      "einen.",
+      "Nein,",
+      "ich",
+      "habe",
+      "keinen"
+     ],
+     "ok": [
+      "Ja, ich habe einen. Nein, ich habe keinen"
+     ],
+     "n": "После <b>haben</b> мужской винительный: <b>einen</b> при наличии, <b>keinen</b> при отсутствии."
+    },
+    {
+     "ru": "Hast du ein Foto? Ответьте утвердительно, начиная с Ja, ich habe.",
+     "w": [
+      "Ja,",
+      "ich",
+      "habe",
+      "eins"
+     ],
+     "ok": [
+      "Ja, ich habe eins"
+     ],
+     "n": "<b>Foto</b> среднего рода; самостоятельные формы <b>eins</b> и <b>eines</b> равноправны."
+    },
+    {
+     "ru": "Ist das dein Kaffee? Кофе Пауля. Ответьте: «Нет, это не мой, это Пауля», начиная с Nein; имя поставьте без von.",
+     "w": [
+      "Nein,",
+      "das",
+      "ist",
+      "nicht",
+      "meiner,",
+      "das",
+      "ist",
+      "Pauls"
+     ],
+     "ok": [
+      "Nein, das ist nicht meiner, das ist Pauls"
+     ],
+     "n": "У <b>Kaffee</b> мужской род: самостоятельная форма <b>meiner</b>. К имени <b>Paul</b> добавляем <b>-s</b> без апострофа."
+    },
+    {
+     "ru": "Hast du Fotos von Köln? Ответьте утвердительно, начиная с Ja, ich habe.",
+     "w": [
+      "Ja,",
+      "ich",
+      "habe",
+      "welche"
+     ],
+     "ok": [
+      "Ja, ich habe welche"
+     ],
+     "n": "Множественное число без артикля: в ответе <b>welche</b>."
+    },
+    {
+     "ru": "Ist noch Milch da? Ответьте утвердительно, начиная с Ja, da ist noch.",
+     "w": [
+      "Ja,",
+      "da",
+      "ist",
+      "noch",
+      "welche"
+     ],
+     "ok": [
+      "Ja, da ist noch welche"
+     ],
+     "n": "Вещество без артикля, женский род: <b>welche</b>."
+    },
+    {
+     "ru": "Ist das ein Freund von Paul? Ответьте: «Да, это один из его друзей», начиная с Ja, das ist.",
+     "w": [
+      "Ja,",
+      "das",
+      "ist",
+      "einer",
+      "von",
+      "seinen",
+      "Freunden"
+     ],
+     "ok": [
+      "Ja, das ist einer von seinen Freunden"
+     ],
+     "n": "Один из многих: <b>einer von</b> + <b>Dativ</b>; у <b>Freunden</b> в <b>Dativ</b> множественного числа <b>-n</b>. Вариант <b>einer seiner Freunde</b> с <b>Genitiv</b> тоже верен, его разберём в уроке 24."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 12.5",
+   "scene": "Das Familienalbum",
+   "cap": "Старый семейный альбом",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Фрау Шмитц показывает страницу альбома. Кто есть кто? Следите, к кому относится каждое ihr, sein.",
+   "audio": {
+    "id": "book-12-5",
+    "n": 1,
+    "dur": 20.61,
+    "t": [
+     [
+      0.8,
+      4.4
+     ],
+     [
+      4.4,
+      7.92
+     ],
+     [
+      7.92,
+      10.4
+     ],
+     [
+      10.4,
+      14.4
+     ],
+     [
+      14.4,
+      20.56
+     ]
+    ]
+   },
+   "speakers": {
+    "Frau Schmitz": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Frau Schmitz",
+     "de": "Hier ist meine Familie. Die Frau mit der Brille ist meine Schwester.",
+     "ru": "Вот моя семья. Женщина в очках — моя сестра."
+    },
+    {
+     "who": "Frau Schmitz",
+     "de": "Ihr Mann hat eine Kamera. Seine Schwester trinkt Kaffee.",
+     "ru": "У её мужа камера. Его сестра пьёт кофе."
+    },
+    {
+     "who": "Frau Schmitz",
+     "de": "Ihre Tochter liest ein Buch.",
+     "ru": "Её дочь читает книгу."
+    },
+    {
+     "who": "Frau Schmitz",
+     "de": "Die Frau mit dem Kaffee ist verheiratet. Ihr Mann liest eine Zeitung.",
+     "ru": "Женщина с кофе замужем. Её муж читает газету."
+    },
+    {
+     "who": "Frau Schmitz",
+     "de": "Die Frau mit dem Kaffee und der Mann mit der Zeitung sind ein Paar. Ihr Sohn hat ein Fahrrad.",
+     "ru": "Женщина с кофе и мужчина с газетой — пара. У их сына велосипед."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Сестра фрау Шмитц — это ___.",
+     "o": [
+      "женщина в очках",
+      "женщина с кофе",
+      "девочка с книгой"
+     ],
+     "a": "женщина в очках",
+     "n": "Die Frau mit der Brille ist <b>meine Schwester</b>. Сестра прямо названа: женщина в очках.",
+     "k": 0
+    },
+    {
+     "q": "Муж сестры — это ___.",
+     "o": [
+      "мужчина с камерой",
+      "мужчина с газетой",
+      "мальчик с мячом"
+     ],
+     "a": "мужчина с камерой",
+     "n": "<b>Ihr Mann</b> hat eine Kamera. ihr относится к сестре: её муж с камерой.",
+     "k": 1
+    },
+    {
+     "q": "Сестра этого мужа — это ___.",
+     "o": [
+      "женщина с кофе",
+      "женщина в очках",
+      "девочка с книгой"
+     ],
+     "a": "женщина с кофе",
+     "n": "<b>Seine Schwester</b> trinkt Kaffee. seine — его (мужчины с камерой) сестра.",
+     "k": 1
+    },
+    {
+     "q": "Дочь женщины с кофе — это ___.",
+     "o": [
+      "девочка с книгой",
+      "мальчик с велосипедом",
+      "женщина в очках"
+     ],
+     "a": "девочка с книгой",
+     "n": "<b>Ihre Tochter</b> liest ein Buch. ihre — её (женщины с кофе) дочь.",
+     "k": 2
+    },
+    {
+     "q": "Муж женщины с кофе — это ___.",
+     "o": [
+      "мужчина с газетой",
+      "мужчина с камерой",
+      "мальчик с мячом"
+     ],
+     "a": "мужчина с газетой",
+     "n": "<b>Ihr Mann</b> liest eine Zeitung. Снова ihr: муж женщины с кофе.",
+     "k": 3
+    },
+    {
+     "q": "Сын пары — это ___.",
+     "o": [
+      "мальчик с велосипедом",
+      "мальчик с мячом",
+      "девочка с книгой"
+     ],
+     "a": "мальчик с велосипедом",
+     "n": "<b>Ihr Sohn</b> hat ein Fahrrad. Владельцев двое, поэтому ihr — «их».",
+     "k": 4
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 12.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 12.6",
+   "sub": "Опишите настоящую или вымышленную семейную фотографию: 60–80 слов, настоящее время. Прилагательные ставьте после глагола sein, без окончаний перед существительными.",
+   "items": [
+    {
+     "q": "Назовите хотя бы четырёх родственников и опишите характер двух из них прилагательными из словаря урока, например fleißig, faul, streng, lieb. Потом перечитайте текст: есть ли в нём по две фразы с sein- и с ihr- и одно притяжательное сочетание в дательном падеже? Задали ли вы вопрос с welcher? Назвали ли хотя бы одну профессию после глагола sein, без артикля?",
+     "hint": "",
+     "ph": "Ответ…",
+     "ex": [
+      "Образец: Das ist meine Familie. Links ist meine Tante. Sie ist Lehrerin. Sie ist streng, aber lieb. Ihr Mann ist Arzt, er ist sehr nett. Ihre Tochter ist Schülerin. Sie ist ihrer Mutter sehr ähnlich. Rechts ist mein Onkel. Seine Frau ist nicht hier. Sein Sohn ist mein Cousin. Er ist blond, klug und fleißig. Ich telefoniere oft mit meinem Cousin. Und welcher Mann ist mein Vater? Der Mann mit der Kamera!"
+     ],
+     "check": [
+      "71 слово. Проверка: шесть родственников на фото; характер двух из них: <b>streng, aber lieb</b>, <b>klug und fleißig</b>; две фразы с <b>sein-</b> (<b>Seine Frau</b>, <b>Sein Sohn</b>), две с <b>ihr-</b> (<b>Ihr Mann</b>, <b>Ihre Tochter</b>); дательный <b>mit meinem Cousin</b> и <b>ihrer Mutter</b>; вопрос <b>welcher Mann</b>; профессии без артикля: <b>Lehrerin</b>, <b>Arzt</b>, <b>Schülerin</b>. Другой рассказ по условиям тоже верен."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

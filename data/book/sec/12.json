@@ -1,0 +1,76 @@
+{
+"12.1": [
+ {"type":"type","title":"Окончания как у ein","sub":"mein-, dein-, unser- по падежам","items":[
+  {"s":"Ich nehme ___ Koffer.","ru":"Я беру свой чемодан.","a":["meinen"],"hint":"mein","n":"Akkusativ мужского: <b>meinen</b>, как einen."},
+  {"s":"Ich komme mit ___ Koffer.","ru":"Я приду со своим чемоданом.","a":["meinem"],"hint":"mein","n":"mit + Dativ: <b>meinem</b>."},
+  {"s":"___ Tante wohnt in Wien.","ru":"Моя тётя живёт в Вене.","a":["Meine"],"hint":"mein","n":"die Tante → <b>meine</b>."},
+  {"s":"Ich spreche mit ___ Eltern.","ru":"Я разговариваю со своими родителями.","a":["meinen"],"hint":"mein","n":"Dativ множественного: <b>meinen Eltern</b>."},
+  {"s":"Ist das ___ Haus?","ru":"Это твой дом?","a":["dein"],"hint":"du","n":"das Haus → <b>dein</b>."},
+  {"s":"Das ist ___ Wohnung.","ru":"Это наша квартира.","a":["unsere"],"hint":"wir","n":"die Wohnung → <b>unsere</b>."},
+  {"s":"Herr Krüger, ist das ___ Schlüssel?","ru":"Господин Крюгер, это ваш ключ?","a":["Ihr"],"hint":"Sie","n":"Вежливое <b>Ihr</b> с большой буквы."},
+  {"s":"Ich fahre mit ___ Brüdern.","ru":"Я еду со своими братьями.","a":["meinen"],"hint":"mein","n":"И -n у Brüdern."}
+ ]}
+],
+"12.2": [
+ {"type":"choice","title":"Sein или ihr","sub":"Начало выбирает владелец, конец — сама вещь","items":[
+  {"s":"Paul ist hier. ___ Frau ist auch hier.","ru":"Пауль здесь. Его жена тоже здесь.","o":["Seine","Ihre"],"a":"Seine","n":"Владелец Пауль → sein-; жена → -e."},
+  {"s":"Alina ist hier. ___ Mann ist auch hier.","ru":"Алина здесь. Её муж тоже здесь.","o":["Ihr","Sein"],"a":"Ihr","n":"Владелица Алина → <b>ihr</b>."},
+  {"s":"Lea kommt mit ___ Eltern.","ru":"Леа придёт со своими родителями.","o":["ihren","seinen"],"a":"ihren","n":"Lea → ihr-, Dativ мн. → <b>ihren</b>."},
+  {"s":"Die Katze ist klein. ___ Kopf ist auch klein.","ru":"Кошка маленькая. Её голова тоже маленькая.","o":["Ihr","Sein"],"a":"Ihr","n":"die Katze → <b>ihr</b>."},
+  {"s":"Das Pferd ist groß. ___ Kopf ist auch groß.","ru":"Лошадь большая. Её голова тоже большая.","o":["Sein","Ihr"],"a":"Sein","n":"das Pferd среднего рода → <b>sein</b>."},
+  {"s":"Jonas sucht ___ Tasche.","ru":"Йонас ищет свою сумку.","o":["seine","ihre"],"a":"seine","n":"Jonas → sein-, die Tasche → <b>seine</b>."}
+ ]}
+],
+"12.3": [
+ {"type":"type","title":"Немецкий конец тоже меняется","sub":"ihr-, sein-, euer- с окончаниями","items":[
+  {"s":"Ich kenne ___ Mann.","ru":"Я знаю её мужа.","a":["ihren"],"hint":"ihr","n":"Akkusativ мужского: <b>ihren</b>."},
+  {"s":"Ich spreche mit ___ Mann.","ru":"Я разговариваю с её мужем.","a":["ihrem"],"hint":"ihr","n":"mit + Dativ: <b>ihrem</b>."},
+  {"s":"Das Geschenk ist für ___ Vater.","ru":"Подарок для его отца.","a":["seinen"],"hint":"sein","n":"für + Akkusativ: <b>seinen</b>."},
+  {"s":"Alina und Paul, ich kenne ___ Wohnung.","ru":"Алина и Пауль, я знаю вашу квартиру.","a":["eure"],"hint":"euer","n":"euer теряет e: <b>eure</b>."},
+  {"s":"Wir sind bei ___ Tante.","ru":"Мы у вашей тёти.","a":["eurer"],"hint":"euer","n":"bei + Dativ: <b>eurer</b>."},
+  {"s":"Frau Schmitz, ich kenne ___ Tochter.","ru":"Фрау Шмитц, я знаю вашу дочь.","a":["Ihre"],"hint":"Sie","n":"Вежливое <b>Ihre</b>."},
+  {"s":"Ich rufe ___ Mutter an.","ru":"Я звоню маме.","a":["meine"],"hint":"mein","n":"С названием родственника — притяжательное."}
+ ]}
+],
+"12.4": [
+ {"type":"choice","title":"Свой","sub":"Отдельного слова нет: выбираем по владельцу","items":[
+  {"s":"Sie nimmt ___ Kamera.","ru":"Она берёт свою камеру.","o":["ihre","seine","meine"],"a":"ihre","n":"Владелица sie → <b>ihre</b>."},
+  {"s":"Er nimmt ___ Kamera.","ru":"Он берёт свою камеру.","o":["seine","ihre","sich"],"a":"seine","n":"er → <b>seine</b>."},
+  {"s":"Ich nehme ___ Kamera.","ru":"Я беру свою камеру.","o":["meine","seine","ihre"],"a":"meine","n":"«Свою» у ich — <b>meine</b>."},
+  {"s":"Wir besuchen ___ Eltern.","ru":"Мы навещаем своих родителей.","o":["unsere","ihre","seine"],"a":"unsere","n":"wir → <b>unsere</b>."},
+  {"s":"Du vergisst immer ___ Schlüssel.","ru":"Ты всегда забываешь свой ключ.","o":["deinen","seinen","meinen"],"a":"deinen","n":"du → <b>deinen</b>."},
+  {"s":"Die Kinder suchen ___ Ball.","ru":"Дети ищут свой мяч.","o":["ihren","seinen","euren"],"a":"ihren","n":"Владельцы sie (мн.) → <b>ihren</b>."}
+ ]}
+],
+"12.5": [
+ {"type":"type","title":"Dieser, welcher, jeder","sub":"Окончания как у der","items":[
+  {"s":"___ Kamera nimmst du?","ru":"Какую камеру ты берёшь?","a":["Welche"],"hint":"welch-","n":"die Kamera → <b>welche</b>."},
+  {"s":"Ich nehme ___ Kamera.","ru":"Я беру эту камеру.","a":["diese"],"hint":"dies-","n":"<b>diese</b>."},
+  {"s":"___ Koffer nimmst du?","ru":"Какой чемодан ты берёшь?","a":["Welchen"],"hint":"welch-","n":"den Koffer → <b>welchen</b>."},
+  {"s":"Mit ___ Freunden kommst du?","ru":"С какими друзьями ты придёшь?","a":["welchen"],"hint":"welch-","n":"den Freunden → <b>welchen</b>."},
+  {"s":"Ich spreche mit ___ Onkel.","ru":"Я разговариваю с этим дядей.","a":["diesem"],"hint":"dies-","n":"dem → <b>diesem</b>."},
+  {"s":"___ Fenster ist offen?","ru":"Какое окно открыто?","a":["Welches"],"hint":"welch-","n":"das → <b>welches</b>."},
+  {"s":"Ich kenne ___ Onkel.","ru":"Я знаю каждого дядю.","a":["jeden"],"hint":"jed-","n":"den → <b>jeden</b>."},
+  {"s":"___ Tante kommt.","ru":"Каждая тётя придёт.","a":["Jede"],"hint":"jed-","n":"<b>jede</b>."}
+ ]}
+],
+"12.6": [
+ {"type":"choice","title":"Без существительного","sub":"meiner, meins, einer, keine, welche","items":[
+  {"s":"Ist das dein Schlüssel? Ja, das ist ___.","ru":"Это твой ключ? Да, мой.","o":["meiner","mein"],"a":"meiner","n":"Без существительного мужской род: <b>meiner</b>."},
+  {"s":"Ist das dein Foto? Ja, das ist ___.","ru":"Это твоё фото? Да, моё.","o":["meins","meiner"],"a":"meins","n":"Средний род: <b>meins</b>."},
+  {"s":"Ist hier ein Kugelschreiber? Ja, hier ist ___.","ru":"Здесь есть ручка? Да, вот одна.","o":["einer","ein"],"a":"einer","n":"der Kugelschreiber → <b>einer</b>."},
+  {"s":"Brauchst du eine Tasche? Nein, ich brauche ___.","ru":"Тебе нужна сумка? Нет, не нужна.","o":["keine","kein"],"a":"keine","n":"die Tasche → <b>keine</b>."},
+  {"s":"Brauchst du Tüten? Nein, ich habe ___.","ru":"Тебе нужны пакеты? Нет, у меня есть.","o":["welche","einer"],"a":"welche","n":"Множественное без артикля → <b>welche</b>."},
+  {"s":"Ist das deine Kamera? Ja, das ist ___.","ru":"Это твоя камера? Да, моя.","o":["meine","meiner"],"a":"meine","n":"Женский род: <b>meine</b>."}
+ ]}
+],
+"12.7": [
+ {"type":"build","title":"Имя владельца","sub":"Alinas Schwester или von Paul","items":[
+  {"ru":"Сестра Алины здесь.","w":["Alinas","Schwester","ist","hier."],"ok":["Alinas Schwester ist hier."],"n":"Имя + -s, без апострофа и артикля."},
+  {"ru":"Велосипед Леи новый.","w":["Leas","Fahrrad","ist","neu."],"ok":["Leas Fahrrad ist neu."],"n":"<b>Leas Fahrrad</b>."},
+  {"ru":"Камера Пауля новая.","w":["Die","Kamera","von","Paul","ist","neu."],"ok":["Die Kamera von Paul ist neu.","Pauls Kamera ist neu."],"n":"Разговорно: <b>von Paul</b>."},
+  {"ru":"Это муж моей двоюродной сестры.","w":["Das","ist","der","Mann","von","meiner","Cousine."],"ok":["Das ist der Mann von meiner Cousine."],"n":"von + Dativ: <b>meiner Cousine</b>."},
+  {"ru":"Это посылка Пауля.","w":["Das","ist","Pauls","Paket."],"ok":["Das ist Pauls Paket."],"n":"<b>Pauls Paket</b>."}
+ ]}
+]
+}

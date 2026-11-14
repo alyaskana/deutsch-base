@@ -1,0 +1,619 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 19",
+ "sub": "Упражнения урока 19 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 19,
+  "s": "19.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 19.1",
+   "sub": "Впишите только окончание после определённого артикля или похожего слова. В последнем пункте отдельно дополните существительное.",
+   "items": [
+    {
+     "s": "Der weich___ Pullover gefällt Paul.",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "Мужской <b>Nominativ</b> после <b>der</b> входит в пять клеток с <b>-e</b>."
+    },
+    {
+     "s": "Diese bunt___ Mütze ist für Lea.",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "Женский <b>Nominativ</b> после <b>diese</b>: <b>-e</b>."
+    },
+    {
+     "s": "Welches weiß___ Hemd gehört Jonas?",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "Средний <b>Nominativ</b> после <b>welches</b>: <b>-e</b>; рубашка служит подлежащим."
+    },
+    {
+     "s": "Alina kauft die grün___ Bluse.",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "Женский <b>Akkusativ</b> после <b>die</b> сохраняет <b>-e</b>."
+    },
+    {
+     "s": "Lea nimmt das rot___ Kleid.",
+     "ru": "",
+     "a": [
+      "e"
+     ],
+     "hint": "",
+     "n": "Средний <b>Akkusativ</b> после <b>das</b> входит в пять клеток с <b>-e</b>."
+    },
+    {
+     "s": "Paul sucht den schwarz___ Schirm.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Мужской <b>Akkusativ</b> после <b>den</b> находится вне пяти клеток с <b>-e</b>."
+    },
+    {
+     "s": "Ich finde diesen grau___ Anzug schön.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "<b>Anzug</b> мужского рода; после <b>diesen</b> в <b>Akkusativ</b> нужно <b>-en</b>."
+    },
+    {
+     "s": "Der Mann mit dem blau___ Pullover ist Jonas.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "После <b>mit</b> нужен <b>Dativ</b>; у прилагательного после <b>dem</b> окончание <b>-en</b>."
+    },
+    {
+     "s": "Mit jeder neu___ Kundin spricht Lea lange.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "После <b>jeder</b> в женском <b>Dativ</b> ставим <b>-en</b>."
+    },
+    {
+     "s": "Mit dem frisch___ Brot schmeckt der Käse gut.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Средний <b>Dativ</b> после <b>dem</b>: <b>-en</b>."
+    },
+    {
+     "s": "Alle klein___ T-Shirts sind im Angebot.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "После <b>alle</b> во множественном числе нужно слабое <b>-en</b>."
+    },
+    {
+     "s": "Alina kommt mit den neu___ Stiefel… ins Büro.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "У прилагательного <b>-en</b>; множественное <b>Stiefel</b> в <b>Dativ</b> получает ещё <b>-n</b>."
+    },
+    {
+     "s": "Alina kommt mit den neuen Stiefel___ ins Büro.",
+     "ru": "",
+     "a": [
+      "n"
+     ],
+     "hint": "",
+     "n": "У прилагательного <b>-en</b>; множественное <b>Stiefel</b> в <b>Dativ</b> получает ещё <b>-n</b>."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 19.2",
+   "sub": "Впишите окончание после ein, kein или притяжательного слова. Определите падеж по всей фразе.",
+   "items": [
+    {
+     "s": "Ein rund___ Tisch steht in der Küche.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "",
+     "n": "Мужской <b>Nominativ</b>: у <b>ein</b> нет окончания, поэтому прилагательному нужно <b>-er</b>."
+    },
+    {
+     "s": "Mein neu___ Pullover ist sehr weich.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "",
+     "n": "Мужской <b>Nominativ</b> после <b>mein</b> без окончания: <b>-er</b>."
+    },
+    {
+     "s": "Kein sauber___ Hemd liegt im Schrank.",
+     "ru": "",
+     "a": [
+      "es"
+     ],
+     "hint": "",
+     "n": "Средний <b>Nominativ</b> после <b>kein</b> без окончания: <b>-es</b>."
+    },
+    {
+     "s": "Ich suche ein sportlich___ Kleid.",
+     "ru": "",
+     "a": [
+      "es"
+     ],
+     "hint": "",
+     "n": "По <b>ein Kleid</b> падеж не виден; его показывает глагол: <b>Kleid</b> служит прямым дополнением к <b>suche</b>. Средний <b>Akkusativ</b>, окончание <b>-es</b>."
+    },
+    {
+     "s": "Lea trägt ihr weiß___ T-Shirt.",
+     "ru": "",
+     "a": [
+      "es"
+     ],
+     "hint": "",
+     "n": "Средний <b>Akkusativ</b> после <b>ihr</b> без окончания: <b>-es</b>."
+    },
+    {
+     "s": "Paul braucht einen dick___ Mantel.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "У <b>einen</b> уже есть окончание; мужской <b>Akkusativ</b> даёт <b>-en</b>."
+    },
+    {
+     "s": "Ich nehme meinen klein___ Schirm mit.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Мужской <b>Akkusativ</b> после <b>meinen</b>: <b>-en</b>."
+    },
+    {
+     "s": "Die Frau mit einer blau___ Brille ist nett.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Женский <b>Dativ</b> после <b>einer</b>: <b>-en</b>."
+    },
+    {
+     "s": "Mit meinem schwarz___ Mantel gehe ich nach draußen.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Мужской <b>Dativ</b> после <b>meinem</b>: <b>-en</b>."
+    },
+    {
+     "s": "Die Kundin steht in einem hell___ Kleid vor dem Spiegel.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "Средний <b>Dativ</b> после <b>einem</b>: <b>-en</b>; описывается одежда на человеке."
+    },
+    {
+     "s": "Wir kaufen keine weich___ Stiefel.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "После <b>keine</b> во множественном числе прилагательное получает <b>-en</b>."
+    },
+    {
+     "s": "Meine grau___ Hosen sind sauber.",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "",
+     "n": "После <b>meine</b> во множественном числе нужно <b>-en</b>; <b>Hosen</b> обозначает несколько пар."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 19.3",
+   "sub": "Сначала ответьте на три вопроса, потом впишите прилагательное из скобок в нужной форме.",
+   "items": [
+    {
+     "s": "Alina nimmt den ___ Mantel.",
+     "ru": "",
+     "a": [
+      "grauen"
+     ],
+     "hint": "grau",
+     "n": "Перед существительным стоит <b>den</b>, у него есть окончание. Мужской <b>Akkusativ</b> вне пяти клеток с <b>-e</b>, поэтому <b>-en</b>."
+    },
+    {
+     "s": "Paul kauft ___ Käse.",
+     "ru": "",
+     "a": [
+      "frischen"
+     ],
+     "hint": "frisch",
+     "n": "Определителя нет: окончание сильное, как у <b>den</b>. <b>Käse</b> мужского рода, <b>Akkusativ</b>."
+    },
+    {
+     "s": "Ein ___ Kleid hängt im Schrank.",
+     "ru": "",
+     "a": [
+      "kurzes"
+     ],
+     "hint": "kurz",
+     "n": "У <b>ein</b> нет окончания, <b>Kleid</b> среднего рода в <b>Nominativ</b>: прилагательное добавляет <b>-es</b>."
+    },
+    {
+     "s": "Im November geht Alina nur in ___ Kleidung nach draußen.",
+     "ru": "",
+     "a": [
+      "warmer"
+     ],
+     "hint": "warm",
+     "n": "<b>In</b> здесь не показывает направление: речь о том, в чём Алина выходит. Поэтому <b>Dativ</b>; <b>Kleidung</b> женского рода, определителя нет: <b>-er</b>, как у <b>der</b>."
+    },
+    {
+     "s": "Die Stiefel sind sehr ___.",
+     "ru": "",
+     "a": [
+      "bequem"
+     ],
+     "hint": "bequem",
+     "n": "После <b>sind</b> прилагательное описывает сапоги и стоит отдельно: окончания нет."
+    },
+    {
+     "s": "Diese ___ Hemden sind im Angebot.",
+     "ru": "",
+     "a": [
+      "weißen"
+     ],
+     "hint": "weiß",
+     "n": "<b>Diese</b> работает как <b>die</b>, у него есть окончание. Во множественном числе после такого слова нужно <b>-en</b>."
+    },
+    {
+     "s": "Paul kommt mit ___ Schuhen in die Küche.",
+     "ru": "",
+     "a": [
+      "schmutzigen"
+     ],
+     "hint": "schmutzig",
+     "n": "Определителя нет, <b>mit</b> даёт <b>Dativ</b> множественного числа: <b>-en</b>. У <b>Schuhen</b> уже есть нужное <b>-n</b>."
+    },
+    {
+     "s": "Ich kaufe drei ___ Blusen.",
+     "ru": "",
+     "a": [
+      "gelbe"
+     ],
+     "hint": "gelb",
+     "n": "Число не считается определителем: окончание сильное, множественный <b>Akkusativ</b> даёт <b>-e</b>."
+    },
+    {
+     "s": "Dein ___ Rock gefällt mir.",
+     "ru": "",
+     "a": [
+      "neuer"
+     ],
+     "hint": "neu",
+     "n": "У <b>dein</b> нет окончания, а <b>der Rock</b> мужского рода в <b>Nominativ</b>: нужно <b>-er</b>."
+    },
+    {
+     "s": "Обращение к Йонасу в письме: ___ Jonas,",
+     "ru": "",
+     "a": [
+      "Lieber"
+     ],
+     "hint": "lieb",
+     "n": "В обращении по имени артикля нет, поэтому окончание сильное: мужской род, <b>-er</b>."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 19.4",
+   "sub": "Выберите один вариант; учитывайте всю конструкцию.",
+   "items": [
+    {
+     "s": "Ich finde den Rock ___ .",
+     "ru": "",
+     "o": [
+      "schöne",
+      "schön",
+      "schönen"
+     ],
+     "a": "schön",
+     "n": "После <b>finden</b> при оценке предмета прилагательное стоит без окончания."
+    },
+    {
+     "s": "Der Pullover ist zu ___ .",
+     "ru": "",
+     "o": [
+      "kleine",
+      "kleinen",
+      "klein"
+     ],
+     "a": "klein",
+     "n": "После <b>ist</b> прилагательное в роли сказуемого не склоняется; <b>zu</b> этого не меняет."
+    },
+    {
+     "s": "Lea kauft eine ___ Mütze.",
+     "ru": "",
+     "o": [
+      "lila",
+      "lilen",
+      "lilas"
+     ],
+     "a": "lila",
+     "n": "По норме <b>lila</b> не получает окончания ни в одной клетке."
+    },
+    {
+     "s": "Paul trinkt gern ___ Bier.",
+     "ru": "",
+     "o": [
+      "Kölner",
+      "Kölneres",
+      "Kölnerem"
+     ],
+     "a": "Kölner",
+     "n": "Городская форма на <b>-er</b> не склоняется и пишется с заглавной, даже без артикля."
+    },
+    {
+     "s": "Die ___ Bluse gefällt Alina.",
+     "ru": "",
+     "o": [
+      "dunkelen",
+      "dunkle",
+      "dunkler"
+     ],
+     "a": "dunkle",
+     "n": "У <b>dunkel</b> перед окончанием исчезает <b>e</b>; женский <b>Nominativ</b> после <b>die</b> даёт <b>dunkle</b>."
+    },
+    {
+     "s": "Lea möchte die ___ Mütze umtauschen.",
+     "ru": "",
+     "o": [
+      "teure",
+      "teures",
+      "teuren"
+     ],
+     "a": "teure",
+     "n": "У <b>teuer</b> убираем <b>e</b> перед <b>r</b>; женский <b>Akkusativ</b> после <b>die</b> даёт <b>teure</b>."
+    },
+    {
+     "s": "Paul sucht ___ .",
+     "ru": "Одни чёрные брюки",
+     "o": [
+      "schwarze Hosen",
+      "eine schwarze Hose",
+      "einen schwarzen Hose"
+     ],
+     "a": "eine schwarze Hose",
+     "n": "Одни брюки по-немецки в единственном числе: <b>die Hose</b>. После <b>eine</b> в <b>Akkusativ</b> нужно <b>-e</b>; <b>Hosen</b> означало бы несколько пар."
+    },
+    {
+     "s": "Alina kauft ___ neue Schuhe.",
+     "ru": "Одна пара обуви",
+     "o": [
+      "ein paar",
+      "eine Paar",
+      "ein Paar"
+     ],
+     "a": "ein Paar",
+     "n": "<b>Paar</b> с заглавной называет пару; строчное <b>ein paar</b> означало бы «несколько». Слово <b>Paar</b> среднего рода, поэтому <b>ein</b>."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 19.5",
+   "scene": "Im Kaufhaus",
+   "cap": "Девочка у кассы",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Объявление в магазине и две покупательницы. a — длинные волосы, пальто, две шапки в руке; b — короткие волосы, платье, шапка; c — длинные волосы, пальто, шапка на голове.",
+   "audio": {
+    "id": "book-19-5",
+    "n": 2,
+    "dur": 36.75,
+    "t": [
+     [
+      0.8,
+      6.04
+     ],
+     [
+      6.04,
+      15.04
+     ],
+     [
+      15.04,
+      25.68
+     ],
+     [
+      25.68,
+      32.08
+     ],
+     [
+      32.08,
+      36.72
+     ]
+    ]
+   },
+   "speakers": {
+    "Ansage": "Германия",
+    "Kundin 1": "Бавария",
+    "Kundin 2": "Австрия"
+   },
+   "lines": [
+    {
+     "who": "Ansage",
+     "de": "Achtung, bitte. Ein Mädchen sucht seine Mutter. Es wartet an der Kasse.",
+     "ru": "Внимание, пожалуйста. Девочка ищет маму. Она ждёт у кассы."
+    },
+    {
+     "who": "Ansage",
+     "de": "Das Mädchen mit einer grünen Mütze trägt einen langen Mantel. Es hat lange blonde Haare. Die Mutter kann jetzt zur Kasse kommen.",
+     "ru": "Девочка в зелёной шапке, на ней длинное пальто. У неё длинные светлые волосы. Мама может подойти к кассе."
+    },
+    {
+     "who": "Kundin 1",
+     "de": "Meine Tochter kommt gleich. Sie hat kurze blonde Haare. Sie trägt ein langes Kleid und eine grüne Mütze. Dann gehen wir zusammen ins Café.",
+     "ru": "Моя дочь сейчас придёт. У неё короткие светлые волосы. На ней длинное платье и зелёная шапка. Потом мы вместе пойдём в кафе."
+    },
+    {
+     "who": "Kundin 2",
+     "de": "Meine Tochter kommt auch gleich. Sie hat lange blonde Haare und trägt einen langen Mantel.",
+     "ru": "Моя дочь тоже сейчас придёт. У неё длинные светлые волосы и длинное пальто."
+    },
+    {
+     "who": "Kundin 2",
+     "de": "Sie kommt mit grünen Mützen: eine für sie und eine für ihren Bruder.",
+     "ru": "Она придёт с зелёными шапками: одна для неё, одна для брата."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Какую девочку описывают в объявлении?",
+     "o": [
+      "c",
+      "a",
+      "b"
+     ],
+     "a": "c",
+     "n": "Das Mädchen <b>mit einer grünen Mütze</b> trägt einen langen Mantel. Одна шапка и длинное пальто — c.",
+     "k": 1
+    },
+    {
+     "q": "Кого ждёт первая покупательница?",
+     "o": [
+      "b",
+      "a",
+      "c"
+     ],
+     "a": "b",
+     "n": "Sie hat <b>kurze</b> blonde Haare. Sie trägt ein langes <b>Kleid</b>. Короткие волосы и платье — b.",
+     "k": 2
+    },
+    {
+     "q": "Кого ждёт вторая покупательница?",
+     "o": [
+      "a",
+      "b",
+      "c"
+     ],
+     "a": "a",
+     "n": "Sie kommt mit <b>grünen Mützen</b>. Две шапки в руке — a.",
+     "k": 4
+    },
+    {
+     "q": "Сколько шапок у девочки из объявления?",
+     "o": [
+      "одна",
+      "две",
+      "ни одной"
+     ],
+     "a": "одна",
+     "n": "mit <b>einer</b> grünen Mütze. einer grünen Mütze — одна; grünen Mützen было бы множественным.",
+     "k": 1
+    },
+    {
+     "q": "Дочь первой покупательницы носит ein langes ___.",
+     "o": [
+      "Kleid",
+      "Mantel",
+      "Hemd"
+     ],
+     "a": "Kleid",
+     "n": "ein langes <b>Kleid</b>. -es подтверждает средний род; пальто — einen langen Mantel.",
+     "k": 2
+    },
+    {
+     "q": "Первая покупательница: Sie hat ___ Haare.",
+     "o": [
+      "kurze blonde",
+      "lange blonde",
+      "kurzen blonden"
+     ],
+     "a": "kurze blonde",
+     "n": "Sie hat <b>kurze blonde</b> Haare. Без артикля во множественном Akkusativ — окончание -e.",
+     "k": 2
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 19.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 19.6",
+   "sub": "Напишите 70–90 слов: опишите одежду для свадьбы, собеседования или зимней прогулки в Кёльне. Другой вариант: опишите человека для встречи на вокзале.",
+   "items": [
+    {
+     "q": "Напишите 70–90 слов: опишите одежду для свадьбы, собеседования или зимней прогулки в Кёльне. Другой вариант: опишите человека для встречи на вокзале.",
+     "hint": "Перечитайте текст: есть ли в нём по два прилагательных с окончанием после слов типа der, после слов типа ein и без определителя? Есть ли среди прилагательных после слов типа ein окончание -er или -es? А прилагательное без окончания и сочетание с mit в Dativ?",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Hallo! Mein Bruder kommt morgen um zehn mit dem Zug nach Köln. Kannst du ihn am Bahnhof abholen? Er ist groß und hat kurze blonde Haare. Er trägt einen grauen Mantel und eine blaue Mütze. Der graue Mantel ist lang, und die blaue Mütze ist neu. Sein alter Rucksack ist rot. Er kommt mit einem großen Koffer. Er trinkt gern heißen Tee. Im Bahnhof gibt es ein kleines Café. Vielen Dank und bis morgen!"
+     ],
+     "check": [
+      "В модели 74 слова. После слов типа der: der graue Mantel, die blaue Mütze. После слов типа ein: einen grauen Mantel, eine blaue Mütze, sein alter Rucksack, einem großen Koffer, ein kleines Café; -er и -es стоят у sein alter и ein kleines. Без определителя: kurze blonde Haare, heißen Tee. Без окончания: groß, lang, neu, rot. Dativ с mit: mit dem Zug, mit einem großen Koffer. Другие тексты с этими признаками тоже подходят."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

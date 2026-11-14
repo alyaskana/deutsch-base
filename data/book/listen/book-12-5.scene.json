@@ -1,0 +1,107 @@
+{
+ "id": "book-12-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Frau Schmitz",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "Hier ist meine Familie. Die Frau mit der Brille ist meine Schwester.",
+   "ru": "Вот моя семья. Женщина в очках — моя сестра."
+  },
+  {
+   "who": "Frau Schmitz",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "Ihr Mann hat eine Kamera. Seine Schwester trinkt Kaffee.",
+   "ru": "У её мужа камера. Его сестра пьёт кофе."
+  },
+  {
+   "who": "Frau Schmitz",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "Ihre Tochter liest ein Buch.",
+   "ru": "Её дочь читает книгу."
+  },
+  {
+   "who": "Frau Schmitz",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "Die Frau mit dem Kaffee ist verheiratet. Ihr Mann liest eine Zeitung.",
+   "ru": "Женщина с кофе замужем. Её муж читает газету."
+  },
+  {
+   "who": "Frau Schmitz",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "Die Frau mit dem Kaffee und der Mann mit der Zeitung sind ein Paar. Ihr Sohn hat ein Fahrrad.",
+   "ru": "Женщина с кофе и мужчина с газетой — пара. У их сына велосипед."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 12.5",
+  "scene": "Das Familienalbum",
+  "cap": "Старый семейный альбом",
+  "sub": "Фрау Шмитц показывает страницу альбома. Кто есть кто? Следите, к кому относится каждое ihr, sein.",
+  "speakers": {
+   "Frau Schmitz": "Германия"
+  },
+  "qs": [
+   [
+    "Сестра фрау Шмитц — это ___.",
+    [
+     "женщина в очках",
+     "женщина с кофе",
+     "девочка с книгой"
+    ],
+    "Die Frau mit der Brille ist <b>meine Schwester</b>",
+    "Сестра прямо названа: женщина в очках."
+   ],
+   [
+    "Муж сестры — это ___.",
+    [
+     "мужчина с камерой",
+     "мужчина с газетой",
+     "мальчик с мячом"
+    ],
+    "<b>Ihr Mann</b> hat eine Kamera",
+    "ihr относится к сестре: её муж с камерой."
+   ],
+   [
+    "Сестра этого мужа — это ___.",
+    [
+     "женщина с кофе",
+     "женщина в очках",
+     "девочка с книгой"
+    ],
+    "<b>Seine Schwester</b> trinkt Kaffee",
+    "seine — его (мужчины с камерой) сестра."
+   ],
+   [
+    "Дочь женщины с кофе — это ___.",
+    [
+     "девочка с книгой",
+     "мальчик с велосипедом",
+     "женщина в очках"
+    ],
+    "<b>Ihre Tochter</b> liest ein Buch",
+    "ihre — её (женщины с кофе) дочь."
+   ],
+   [
+    "Муж женщины с кофе — это ___.",
+    [
+     "мужчина с газетой",
+     "мужчина с камерой",
+     "мальчик с мячом"
+    ],
+    "<b>Ihr Mann</b> liest eine Zeitung",
+    "Снова ihr: муж женщины с кофе."
+   ],
+   [
+    "Сын пары — это ___.",
+    [
+     "мальчик с велосипедом",
+     "мальчик с мячом",
+     "девочка с книгой"
+    ],
+    "<b>Ihr Sohn</b> hat ein Fahrrad",
+    "Владельцев двое, поэтому ihr — «их»."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "book-16-4",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Lea",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Hallo, Paul! Wie geht es dir?",
+   "ru": "Привет, Пауль! Как дела?",
+   "tag": "[am Telefon]"
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Jetzt gut. Mein Morgen war furchtbar. Zuerst bin ich spät aufgestanden. Dann war ich im Bad.",
+   "ru": "Сейчас хорошо. Утро было ужасное. Сначала я поздно встал. Потом был в ванной."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Ich habe mir die Haare gewaschen. Der Boden war nass, und ich bin gefallen. Ich habe mich verletzt. Meine Hand hat wehgetan.",
+   "ru": "Я мыл голову. Пол был мокрый, и я упал. Я поранился. Рука болела."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Danach habe ich Alina gesehen. Wir haben uns in der Küche getroffen, und sie hat mir geholfen.",
+   "ru": "Потом я увидел Алину. Мы встретились на кухне, и она мне помогла."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Mein Zug ist um neun gefahren. Ich habe auf die Uhr gesehen: halb neun! Morgens muss ich mich immer beeilen.",
+   "ru": "Мой поезд уходил в девять. Я посмотрел на часы: половина девятого! По утрам мне всегда приходится торопиться."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Vor dem Haus habe ich einen Lehrer kennengelernt. Er hat ein Taxi bestellt, und wir sind zusammen zum Bahnhof gefahren.",
+   "ru": "Перед домом я познакомился с учителем. Он заказал такси, и мы вместе поехали на вокзал."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Ich habe den Zug noch erreicht. Jetzt bin ich froh.",
+   "ru": "Я ещё успел на поезд. Теперь я рад."
+  },
+  {
+   "who": "Lea",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Und deine Hand?",
+   "ru": "А рука?"
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Sie tut nicht mehr weh.",
+   "ru": "Больше не болит."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 16.4",
+  "scene": "Am Telefon",
+  "cap": "Ужасное утро Пауля",
+  "sub": "Пауль звонит Лее и рассказывает про утро.",
+  "speakers": {
+   "Lea": "Германия",
+   "Paul": "Бавария"
+  },
+  "qs": [
+   [
+    "Ich habe ___ die Haare gewaschen.",
+    [
+     "mir",
+     "mich",
+     "sich"
+    ],
+    "Ich habe <b>mir</b> die Haare gewaschen",
+    "Волосы — отдельное дополнение в Akkusativ, поэтому <b>mir</b>."
+   ],
+   [
+    "Что произошло после падения?",
+    [
+     "Пауль поранился",
+     "Пауль отдохнул",
+     "Пауль вызвал врача"
+    ],
+    "Ich habe <b>mich verletzt</b>",
+    "sich verletzen — пораниться."
+   ],
+   [
+    "Wir haben ___ in der Küche getroffen.",
+    [
+     "uns",
+     "euch",
+     "sich"
+    ],
+    "Wir haben <b>uns</b> in der Küche getroffen",
+    "Встретились друг с другом: <b>uns</b>."
+   ],
+   [
+    "Что Паулю приходится делать по утрам?",
+    [
+     "торопиться",
+     "сесть",
+     "долго спать"
+    ],
+    "Morgens muss ich <b>mich</b> immer <b>beeilen</b>",
+    "sich beeilen — торопиться."
+   ],
+   [
+    "С кем он познакомился?",
+    [
+     "с учителем",
+     "с Йонасом",
+     "с таксистом"
+    ],
+    "habe ich <b>einen Lehrer kennengelernt</b>",
+    "kennenlernen без sich: человек в Akkusativ."
+   ],
+   [
+    "Почему Пауль в конце доволен?",
+    [
+     "он успел на поезд",
+     "он поехал домой",
+     "рука прошла сразу"
+    ],
+    "Ich habe den Zug <b>noch erreicht</b>",
+    "Он всё-таки успел."
+   ]
+  ]
+ }
+}

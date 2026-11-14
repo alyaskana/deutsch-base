@@ -1,0 +1,552 @@
+{
+ "16.1": [
+  {
+   "type": "type",
+   "title": "Себя: mich, dich, sich",
+   "sub": "Действие возвращается к подлежащему",
+   "items": [
+    {
+     "s": "Ich wasche ___.",
+     "ru": "Я умываюсь.",
+     "a": [
+      "mich"
+     ],
+     "hint": "ich",
+     "n": "ich → <b>mich</b>."
+    },
+    {
+     "s": "Du wäschst ___.",
+     "ru": "Ты умываешься.",
+     "a": [
+      "dich"
+     ],
+     "hint": "du",
+     "n": "du → <b>dich</b>."
+    },
+    {
+     "s": "Alina wäscht ___.",
+     "ru": "Алина моется.",
+     "a": [
+      "sich"
+     ],
+     "hint": "sie",
+     "n": "er/sie/es → <b>sich</b>."
+    },
+    {
+     "s": "Wir waschen ___.",
+     "ru": "Мы моемся.",
+     "a": [
+      "uns"
+     ],
+     "hint": "wir",
+     "n": "wir → <b>uns</b>."
+    },
+    {
+     "s": "Ihr wascht ___.",
+     "ru": "Вы моетесь.",
+     "a": [
+      "euch"
+     ],
+     "hint": "ihr",
+     "n": "ihr → <b>euch</b>."
+    },
+    {
+     "s": "Haben Sie ___ verletzt?",
+     "ru": "Вы поранились?",
+     "a": [
+      "sich"
+     ],
+     "hint": "Sie",
+     "n": "Вежливое Sie → <b>sich</b> со строчной."
+    },
+    {
+     "s": "Die Kinder waschen ___.",
+     "ru": "Дети моются.",
+     "a": [
+      "sich"
+     ],
+     "hint": "sie (мн.)",
+     "n": "<b>sich</b>."
+    }
+   ]
+  }
+ ],
+ "16.2": [
+  {
+   "type": "choice",
+   "title": "Mich или mir",
+   "sub": "Если часть тела или одежда названа — Dativ",
+   "items": [
+    {
+     "s": "Ich wasche ___.",
+     "ru": "Я моюсь.",
+     "o": [
+      "mich",
+      "mir"
+     ],
+     "a": "mich",
+     "n": "Других дополнений нет → <b>mich</b>."
+    },
+    {
+     "s": "Ich wasche ___ die Haare.",
+     "ru": "Я мою голову.",
+     "o": [
+      "mir",
+      "mich"
+     ],
+     "a": "mir",
+     "n": "Волосы в Akkusativ, поэтому <b>mir</b>."
+    },
+    {
+     "s": "Du ziehst ___ an.",
+     "ru": "Ты одеваешься.",
+     "o": [
+      "dich",
+      "dir"
+     ],
+     "a": "dich",
+     "n": "<b>dich</b>."
+    },
+    {
+     "s": "Du ziehst ___ die Jacke an.",
+     "ru": "Ты надеваешь куртку.",
+     "o": [
+      "dir",
+      "dich"
+     ],
+     "a": "dir",
+     "n": "Куртка названа → <b>dir</b>."
+    },
+    {
+     "s": "Du hast ___ die Hand verletzt.",
+     "ru": "Ты поранил руку.",
+     "o": [
+      "dir",
+      "dich"
+     ],
+     "a": "dir",
+     "n": "Рука названа → <b>dir</b>."
+    },
+    {
+     "s": "Ich merke ___ die Adresse.",
+     "ru": "Я запоминаю адрес.",
+     "o": [
+      "mir",
+      "mich"
+     ],
+     "a": "mir",
+     "n": "sich etwas merken → <b>mir</b>."
+    },
+    {
+     "s": "Du siehst ___ das Foto an.",
+     "ru": "Ты рассматриваешь фотографию.",
+     "o": [
+      "dir",
+      "dich"
+     ],
+     "a": "dir",
+     "n": "sich etwas ansehen → <b>dir</b>."
+    }
+   ]
+  }
+ ],
+ "16.3": [
+  {
+   "type": "choice",
+   "title": "Обязательное sich и предлоги",
+   "sub": "Сочетание учим целиком",
+   "items": [
+    {
+     "s": "Ich interessiere mich ___ Sprachen.",
+     "ru": "Я интересуюсь языками.",
+     "o": [
+      "für",
+      "an",
+      "über"
+     ],
+     "a": "für",
+     "n": "sich interessieren <b>für</b>."
+    },
+    {
+     "s": "Paul ärgert sich ___ den Stress.",
+     "ru": "Пауль злится из-за стресса.",
+     "o": [
+      "über",
+      "für",
+      "um"
+     ],
+     "a": "über",
+     "n": "sich ärgern <b>über</b>."
+    },
+    {
+     "s": "Lea erinnert sich ___ die Party.",
+     "ru": "Леа помнит вечеринку.",
+     "o": [
+      "an",
+      "für",
+      "über"
+     ],
+     "a": "an",
+     "n": "sich erinnern <b>an</b>."
+    },
+    {
+     "s": "Paul kümmert sich ___ die Katze.",
+     "ru": "Пауль заботится о кошке.",
+     "o": [
+      "um",
+      "an",
+      "für"
+     ],
+     "a": "um",
+     "n": "sich kümmern <b>um</b>."
+    },
+    {
+     "s": "Das freut ___.",
+     "ru": "Это радует Лею.",
+     "o": [
+      "Lea",
+      "sich"
+     ],
+     "a": "Lea",
+     "n": "Радует кого-то — без sich."
+    },
+    {
+     "s": "Lea freut ___.",
+     "ru": "Леа радуется.",
+     "o": [
+      "sich",
+      "Lea"
+     ],
+     "a": "sich",
+     "n": "Сама радуется → <b>sich</b>."
+    },
+    {
+     "s": "Alina bedankt sich ___ das Geschenk.",
+     "ru": "Алина благодарит за подарок.",
+     "o": [
+      "für",
+      "über"
+     ],
+     "a": "für",
+     "n": "sich bedanken <b>für</b>."
+    }
+   ]
+  }
+ ],
+ "16.4": [
+  {
+   "type": "choice",
+   "title": "С sich и без",
+   "sub": "setzen / sitzen, vorstellen, fühlen",
+   "items": [
+    {
+     "s": "Paul setzt ___ auf den Stuhl.",
+     "ru": "Пауль садится на стул.",
+     "o": [
+      "sich",
+      "mich"
+     ],
+     "a": "sich",
+     "n": "Садиться — <b>sich setzen</b>."
+    },
+    {
+     "s": "Paul ___ auf dem Stuhl.",
+     "ru": "Пауль сидит на стуле.",
+     "o": [
+      "sitzt",
+      "setzt sich"
+     ],
+     "a": "sitzt",
+     "n": "Состояние — <b>sitzen</b>."
+    },
+    {
+     "s": "Paul setzt ___ auf den Stuhl.",
+     "ru": "Пауль сажает кошку на стул.",
+     "o": [
+      "die Katze",
+      "sich"
+     ],
+     "a": "die Katze",
+     "n": "Сажает кого-то — без sich."
+    },
+    {
+     "s": "Paul stellt ___ vor.",
+     "ru": "Пауль представляется.",
+     "o": [
+      "sich",
+      "sich die"
+     ],
+     "a": "sich",
+     "n": "<b>sich vorstellen</b> (Akkusativ)."
+    },
+    {
+     "s": "Ich stelle ___ die Wohnung vor.",
+     "ru": "Я представляю себе квартиру.",
+     "o": [
+      "mir",
+      "mich"
+     ],
+     "a": "mir",
+     "n": "Вообразить — <b>sich (Dativ) etwas vorstellen</b>."
+    },
+    {
+     "s": "Ich fühle ___ nervös.",
+     "ru": "Я чувствую, что волнуюсь.",
+     "o": [
+      "mich",
+      "mir"
+     ],
+     "a": "mich",
+     "n": "<b>sich fühlen</b>."
+    }
+   ]
+  }
+ ],
+ "16.5": [
+  {
+   "type": "choice",
+   "title": "Русское «-ся»",
+   "sub": "Переводим глагол целиком",
+   "items": [
+    {
+     "s": "Der Film fängt ___ an.",
+     "ru": "Фильм начинается.",
+     "o": [
+      "um acht",
+      "sich"
+     ],
+     "a": "um acht",
+     "n": "anfangen без sich."
+    },
+    {
+     "s": "Ich ___ Deutsch.",
+     "ru": "Я учусь немецкому.",
+     "o": [
+      "lerne",
+      "lerne mich"
+     ],
+     "a": "lerne",
+     "n": "lernen без sich."
+    },
+    {
+     "s": "Wir ___ viel.",
+     "ru": "Мы много смеёмся.",
+     "o": [
+      "lachen",
+      "lachen uns"
+     ],
+     "a": "lachen",
+     "n": "lachen без sich."
+    },
+    {
+     "s": "Ich ruhe ___ aus.",
+     "ru": "Я отдыхаю.",
+     "o": [
+      "mich",
+      "sich"
+     ],
+     "a": "mich",
+     "n": "sich ausruhen — по-русски без «-ся»."
+    },
+    {
+     "s": "Lea hat Alina ___.",
+     "ru": "Леа познакомилась с Алиной.",
+     "o": [
+      "kennengelernt",
+      "sich kennengelernt"
+     ],
+     "a": "kennengelernt",
+     "n": "Человек в Akkusativ, sich не нужен."
+    },
+    {
+     "s": "Was ___ passiert?",
+     "ru": "Что случилось?",
+     "o": [
+      "ist",
+      "hat sich"
+     ],
+     "a": "ist",
+     "n": "passieren без sich, с sein."
+    },
+    {
+     "s": "Ich mache das ___.",
+     "ru": "Я делаю это сам.",
+     "o": [
+      "selbst",
+      "sich"
+     ],
+     "a": "selbst",
+     "n": "«Сам» — <b>selbst</b>."
+    }
+   ]
+  }
+ ],
+ "16.6": [
+  {
+   "type": "build",
+   "title": "Местоимение идёт вперёд",
+   "sub": "Сразу после глагола или рядом с подлежащим",
+   "items": [
+    {
+     "ru": "Мы отдыхаем.",
+     "w": [
+      "Wir",
+      "ruhen",
+      "uns",
+      "aus."
+     ],
+     "ok": [
+      "Wir ruhen uns aus."
+     ],
+     "n": "<b>uns</b> сразу после глагола."
+    },
+    {
+     "ru": "После работы мы отдыхаем.",
+     "w": [
+      "Nach",
+      "der",
+      "Arbeit",
+      "ruhen",
+      "wir",
+      "uns",
+      "aus."
+     ],
+     "ok": [
+      "Nach der Arbeit ruhen wir uns aus."
+     ],
+     "n": "Местоимение подлежащего, потом <b>uns</b>."
+    },
+    {
+     "ru": "Сегодня я хорошо себя чувствую.",
+     "w": [
+      "Heute",
+      "fühle",
+      "ich",
+      "mich",
+      "gut."
+     ],
+     "ok": [
+      "Heute fühle ich mich gut."
+     ],
+     "n": "ich mich."
+    },
+    {
+     "ru": "Мне нужно поторопиться.",
+     "w": [
+      "Ich",
+      "muss",
+      "mich",
+      "beeilen."
+     ],
+     "ok": [
+      "Ich muss mich beeilen."
+     ],
+     "n": "mich до инфинитива."
+    },
+    {
+     "ru": "Ты можешь здесь сесть.",
+     "w": [
+      "Du",
+      "kannst",
+      "dich",
+      "hier",
+      "setzen."
+     ],
+     "ok": [
+      "Du kannst dich hier setzen."
+     ],
+     "n": "<b>dich</b> рано."
+    },
+    {
+     "ru": "После работы Пауль отдыхает.",
+     "w": [
+      "Nach",
+      "der",
+      "Arbeit",
+      "ruht",
+      "sich",
+      "Paul",
+      "aus."
+     ],
+     "ok": [
+      "Nach der Arbeit ruht sich Paul aus.",
+      "Nach der Arbeit ruht Paul sich aus."
+     ],
+     "n": "Оба порядка возможны."
+    }
+   ]
+  }
+ ],
+ "16.7": [
+  {
+   "type": "type",
+   "title": "Друг друга и Perfekt",
+   "sub": "Местоимение остаётся, помощник haben",
+   "items": [
+    {
+     "s": "Wir treffen ___ am Bahnhof.",
+     "ru": "Мы встречаемся на вокзале.",
+     "a": [
+      "uns"
+     ],
+     "hint": "wir",
+     "n": "Друг с другом — <b>uns</b>."
+    },
+    {
+     "s": "Ihr kennt ___ schon.",
+     "ru": "Вы уже знаете друг друга.",
+     "a": [
+      "euch"
+     ],
+     "hint": "ihr",
+     "n": "<b>euch</b>."
+    },
+    {
+     "s": "Die Kollegen unterhalten ___.",
+     "ru": "Коллеги разговаривают.",
+     "a": [
+      "sich"
+     ],
+     "hint": "sie",
+     "n": "<b>sich</b>."
+    },
+    {
+     "s": "Ich habe mich ___.",
+     "ru": "Я отдохнул.",
+     "a": [
+      "ausgeruht"
+     ],
+     "hint": "ausruhen",
+     "n": "<b>ausgeruht</b>, помощник haben."
+    },
+    {
+     "s": "Du hast dir die Zähne ___.",
+     "ru": "Ты почистил зубы.",
+     "a": [
+      "geputzt"
+     ],
+     "hint": "putzen",
+     "n": "<b>geputzt</b>."
+    },
+    {
+     "s": "Wir ___ uns getroffen.",
+     "ru": "Мы встретились.",
+     "a": [
+      "haben"
+     ],
+     "hint": "haben / sein",
+     "n": "Возвратные — с <b>haben</b>."
+    },
+    {
+     "s": "Paul hat sich ___.",
+     "ru": "Пауль переоделся.",
+     "a": [
+      "umgezogen"
+     ],
+     "hint": "umziehen",
+     "n": "<b>umgezogen</b>."
+    }
+   ]
+  }
+ ]
+}

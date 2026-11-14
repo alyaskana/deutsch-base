@@ -1,0 +1,672 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 13",
+ "sub": "Упражнения урока 13 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 13,
+  "s": "13.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 13.1",
+   "sub": "Вставьте Partizip II глагола в скобках. Все предложения относятся к одной поездке.",
+   "items": [
+    {
+     "s": "Wir haben am Freitag unsere Koffer ___.",
+     "ru": "",
+     "a": [
+      "gepackt"
+     ],
+     "hint": "packen",
+     "n": "У правильного глагола добавляем <b>ge-</b> и <b>-t</b>."
+    },
+    {
+     "s": "Ich habe noch Wasser ___.",
+     "ru": "",
+     "a": [
+      "gekauft"
+     ],
+     "hint": "kaufen",
+     "n": "Основа <b>kauf-</b> не меняется, окончание <b>-t</b>."
+    },
+    {
+     "s": "Am Bahnhof haben wir lange ___.",
+     "ru": "",
+     "a": [
+      "gewartet"
+     ],
+     "hint": "warten",
+     "n": "После основы на <b>-t</b> нужно окончание <b>-et</b>."
+    },
+    {
+     "s": "Meine Schwester hat eine E-Mail ___.",
+     "ru": "",
+     "a": [
+      "geschrieben"
+     ],
+     "hint": "schreiben",
+     "n": "Сильный глагол: <b>ei</b> меняется на долгое <b>ie</b>, в конце <b>-en</b>."
+    },
+    {
+     "s": "Ich habe Kaffee ___.",
+     "ru": "",
+     "a": [
+      "getrunken"
+     ],
+     "hint": "trinken",
+     "n": "У сильного <b>trinken</b> в причастии гласный <b>u</b>."
+    },
+    {
+     "s": "Im Zug haben wir mit Paul ___.",
+     "ru": "",
+     "a": [
+      "gesprochen"
+     ],
+     "hint": "sprechen",
+     "n": "У <b>sprechen</b> сильное причастие с <b>o</b> и окончанием <b>-en</b>."
+    },
+    {
+     "s": "Niemand hat die Nummer vom Hotel ___.",
+     "ru": "",
+     "a": [
+      "gewusst"
+     ],
+     "hint": "wissen",
+     "n": "Смешанный глагол меняет основу и сохраняет окончание <b>-t</b>."
+    },
+    {
+     "s": "Meine Schwester hat den Reiseführer ___.",
+     "ru": "",
+     "a": [
+      "gebracht"
+     ],
+     "hint": "bringen",
+     "n": "У смешанного <b>bringen</b> меняется основа, но остаётся окончание <b>-t</b>."
+    },
+    {
+     "s": "Wir sind um zwei ___.",
+     "ru": "",
+     "a": [
+      "angekommen"
+     ],
+     "hint": "ankommen",
+     "n": "Отделяемая приставка стоит перед <b>ge-</b>."
+    },
+    {
+     "s": "Danach haben wir die Koffer ___.",
+     "ru": "",
+     "a": [
+      "ausgepackt"
+     ],
+     "hint": "auspacken",
+     "n": "У правильного <b>packen</b> окончание <b>-t</b>; <b>ge-</b> вставляем после <b>aus-</b>."
+    },
+    {
+     "s": "Am Samstag haben wir das Schloss ___.",
+     "ru": "",
+     "a": [
+      "besichtigt"
+     ],
+     "hint": "besichtigen",
+     "n": "Неотделяемая приставка <b>be-</b> не допускает дополнительного <b>ge-</b>."
+    },
+    {
+     "s": "Meine Schwester hat den Fluss ___.",
+     "ru": "",
+     "a": [
+      "fotografiert"
+     ],
+     "hint": "fotografieren",
+     "n": "Суффикс <b>-ieren</b>: причастие без <b>ge-</b>, с окончанием <b>-t</b>."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 13.2",
+   "sub": "Вставьте личную форму haben или sein. Читайте всю фразу, особенно дополнения.",
+   "items": [
+    {
+     "s": "Ihr ___ nach Hamburg gefahren.",
+     "ru": "",
+     "a": [
+      "seid"
+     ],
+     "hint": "",
+     "n": "Вы переместились в другой город; прямого дополнения нет."
+    },
+    {
+     "s": "Paul ___ seine Schwester nach Hamburg gefahren.",
+     "ru": "",
+     "a": [
+      "hat"
+     ],
+     "hint": "",
+     "n": "<b>Seine Schwester</b> обозначает пассажирку, прямое дополнение в Akkusativ."
+    },
+    {
+     "s": "Wir ___ auf der Party getanzt.",
+     "ru": "",
+     "a": [
+      "haben"
+     ],
+     "hint": "",
+     "n": "Обычное занятие без направления: <b>tanzen</b> с <b>haben</b>."
+    },
+    {
+     "s": "Du ___ heute früh aufgestanden.",
+     "ru": "",
+     "a": [
+      "bist"
+     ],
+     "hint": "",
+     "n": "Подъём обозначает смену состояния; <b>aufstehen</b> берёт <b>sein</b>."
+    },
+    {
+     "s": "Ich ___ lange geschlafen.",
+     "ru": "",
+     "a": [
+      "habe"
+     ],
+     "hint": "",
+     "n": "Сон как состояние: <b>schlafen</b> с <b>haben</b>."
+    },
+    {
+     "s": "Die Kinder ___ zu Hause geblieben.",
+     "ru": "",
+     "a": [
+      "sind"
+     ],
+     "hint": "",
+     "n": "<b>Bleiben</b> всегда учим с <b>sein</b>."
+    },
+    {
+     "s": "Was ___ vorgestern passiert?",
+     "ru": "",
+     "a": [
+      "ist"
+     ],
+     "hint": "",
+     "n": "В значении «случиться» <b>passieren</b> берёт <b>sein</b>."
+    },
+    {
+     "s": "Der Rundgang ___ mir gefallen.",
+     "ru": "",
+     "a": [
+      "hat"
+     ],
+     "hint": "",
+     "n": "Здесь <b>gefallen</b> значит «нравиться»; человек стоит в Dativ."
+    },
+    {
+     "s": "Meine Eltern ___ im Mai geheiratet.",
+     "ru": "",
+     "a": [
+      "haben"
+     ],
+     "hint": "",
+     "n": "<b>Heiraten</b> сохраняет <b>haben</b>, даже когда партнёр не назван дополнением."
+    },
+    {
+     "s": "Lea ___ durch den Wald geritten.",
+     "ru": "",
+     "a": [
+      "ist"
+     ],
+     "hint": "",
+     "n": "Названо, где проходит путь верхом, поэтому выбираем <b>sein</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 13.3",
+   "sub": "Соберите предложения; причастие оставьте в конце. В 1–2 начните со времени; в 3–4 задайте вопрос. В 5–6 сохраните нейтральное отрицание. В 7–8 используйте обычный порядок без ударения на местоимениях. Ключ также принимает другие допустимые начала утверждений.",
+   "items": [
+    {
+     "ru": "[geregnet / es / vorgestern / hat]",
+     "w": [
+      "Vorgestern",
+      "hat",
+      "es",
+      "geregnet"
+     ],
+     "ok": [
+      "Vorgestern hat es geregnet"
+     ],
+     "n": "При начале со времени помощник остаётся вторым, подлежащее идёт после него."
+    },
+    {
+     "ru": "[wir / angekommen / sind / am Freitag]",
+     "w": [
+      "Am",
+      "Freitag",
+      "sind",
+      "wir",
+      "angekommen"
+     ],
+     "ok": [
+      "Am Freitag sind wir angekommen"
+     ],
+     "n": "<b>Am Freitag</b> занимает одну позицию; причастие закрывает рамку."
+    },
+    {
+     "ru": "[du / gefunden / die Geldbörse / hast]",
+     "w": [
+      "Hast",
+      "du",
+      "die",
+      "Geldbörse",
+      "gefunden?"
+     ],
+     "ok": [
+      "Hast du die Geldbörse gefunden?"
+     ],
+     "n": "Вопрос без вопросительного слова начинается с помощника."
+    },
+    {
+     "ru": "[habt / übernachtet / wo / ihr]",
+     "w": [
+      "Wo",
+      "habt",
+      "ihr",
+      "übernachtet?"
+     ],
+     "ok": [
+      "Wo habt ihr übernachtet?"
+     ],
+     "n": "После <b>wo</b> стоит личная форма, причастие остаётся в конце."
+    },
+    {
+     "ru": "[nicht / bezahlt / Alina / hat]",
+     "w": [
+      "Alina",
+      "hat",
+      "nicht",
+      "bezahlt"
+     ],
+     "ok": [
+      "Alina hat nicht bezahlt"
+     ],
+     "n": "Нейтральное отрицание действия стоит перед причастием."
+    },
+    {
+     "ru": "[wir / eingekauft / haben / nicht]",
+     "w": [
+      "Wir",
+      "haben",
+      "nicht",
+      "eingekauft"
+     ],
+     "ok": [
+      "Wir haben nicht eingekauft"
+     ],
+     "n": "Приставку не отделяем от причастия; <b>nicht</b> стоит перед всем словом."
+    },
+    {
+     "ru": "[sie / gezeigt / hat / mir / das Foto]",
+     "w": [
+      "Sie",
+      "hat",
+      "mir",
+      "das",
+      "Foto",
+      "gezeigt"
+     ],
+     "ok": [
+      "Sie hat mir das Foto gezeigt"
+     ],
+     "n": "Внутри рамки безударное местоимение идёт перед существительным; дополнение можно вынести в начало."
+    },
+    {
+     "ru": "[er / gegeben / hat / es / ihr]",
+     "w": [
+      "Er",
+      "hat",
+      "es",
+      "ihr",
+      "gegeben"
+     ],
+     "ok": [
+      "Er hat es ihr gegeben"
+     ],
+     "n": "Два безударных местоимения внутри рамки идут в порядке Akkusativ, затем Dativ; дополнение <b>es</b> не выносим в начало."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 13.4",
+   "sub": "Переведите. В 1–4 и 7–8 используйте Perfekt, оставляя причастие в конце. Сохраните подсказки в скобках. Другой порядок слов допустим, если смысл сохраняется. В 9–10 нужен модальный глагол в Präteritum.",
+   "items": [
+    {
+     "ru": "Мы весь вечер читали. (den ganzen Abend)",
+     "w": [
+      "Wir",
+      "haben",
+      "den",
+      "ganzen",
+      "Abend",
+      "gelesen"
+     ],
+     "ok": [
+      "Wir haben den ganzen Abend gelesen"
+     ],
+     "n": "Длительность чтения не мешает использовать Perfekt."
+    },
+    {
+     "ru": "Пауль наконец дочитал книгу. (endlich, zu Ende)",
+     "w": [
+      "Paul",
+      "hat",
+      "das",
+      "Buch",
+      "endlich",
+      "zu",
+      "Ende",
+      "gelesen"
+     ],
+     "ok": [
+      "Paul hat das Buch endlich zu Ende gelesen",
+      "Paul hat endlich das Buch zu Ende gelesen"
+     ],
+     "n": "Завершённость передаёт <b>zu Ende</b>; время остаётся тем же, что в первом пункте."
+    },
+    {
+     "ru": "Я встала в семь.",
+     "w": [
+      "Ich",
+      "bin",
+      "um",
+      "sieben",
+      "aufgestanden"
+     ],
+     "ok": [
+      "Ich bin um sieben aufgestanden"
+     ],
+     "n": "<b>Aufstehen</b> берёт <b>sein</b>; <b>ge-</b> стоит внутри причастия."
+    },
+    {
+     "ru": "Мы поженились в мае.",
+     "w": [
+      "Wir",
+      "haben",
+      "im",
+      "Mai",
+      "geheiratet"
+     ],
+     "ok": [
+      "Wir haben im Mai geheiratet"
+     ],
+     "n": "У <b>heiraten</b> помощник <b>haben</b>; после основы на <b>-t</b> стоит <b>-et</b>."
+    },
+    {
+     "ru": "Я была в Бонне. (Bonn)",
+     "w": [
+      "Ich",
+      "war",
+      "in",
+      "Bonn"
+     ],
+     "ok": [
+      "Ich war in Bonn"
+     ],
+     "n": "Короткая форма и Perfekt правильны; вспомогательный глагол у <b>sein</b> тоже <b>sein</b>."
+    },
+    {
+     "ru": "У нас не было времени.",
+     "w": [
+      "Wir",
+      "hatten",
+      "keine",
+      "Zeit"
+     ],
+     "ok": [
+      "Wir hatten keine Zeit"
+     ],
+     "n": "Отрицаем существительное с помощью <b>kein</b>; возможны обе формы прошлого."
+    },
+    {
+     "ru": "Что случилось?",
+     "w": [
+      "Was",
+      "ist",
+      "passiert?"
+     ],
+     "ok": [
+      "Was ist passiert?"
+     ],
+     "n": "Для изученного <b>passieren</b> нужен <b>sein</b>; синоним <b>geschehen</b> тоже употребляется с <b>sein</b>."
+    },
+    {
+     "ru": "Моя сестра отвезла нас на вокзал. (zum Bahnhof)",
+     "w": [
+      "Meine",
+      "Schwester",
+      "hat",
+      "uns",
+      "zum",
+      "Bahnhof",
+      "gefahren"
+     ],
+     "ok": [
+      "Meine Schwester hat uns zum Bahnhof gefahren"
+     ],
+     "n": "<b>Uns</b> служит прямым дополнением; и <b>fahren</b>, и <b>bringen</b> здесь берут <b>haben</b>. Направление подсказано: <b>zum Bahnhof</b>; вариант <b>an den Bahnhof</b> тоже верен."
+    },
+    {
+     "ru": "Нам пришлось долго ждать.",
+     "w": [
+      "Wir",
+      "mussten",
+      "lange",
+      "warten"
+     ],
+     "ok": [
+      "Wir mussten lange warten"
+     ],
+     "n": "«Нам пришлось» по-немецки строим с подлежащим <b>wir</b>; модальный глагол в Präteritum, инфинитив в конце."
+    },
+    {
+     "ru": "Вчера я не смогла прийти.",
+     "w": [
+      "Gestern",
+      "konnte",
+      "ich",
+      "nicht",
+      "kommen"
+     ],
+     "ok": [
+      "Gestern konnte ich nicht kommen"
+     ],
+     "n": "<b>Konnte</b> без умлаута; <b>nicht</b> стоит перед инфинитивом."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 13.5",
+   "scene": "Sprachnachricht",
+   "cap": "Суббота Пауля в Бонне",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Пауль оставил Алине голосовое сообщение о субботе в Бонне.",
+   "audio": {
+    "id": "book-13-5",
+    "n": 2,
+    "dur": 39.24,
+    "t": [
+     [
+      0.8,
+      7.04
+     ],
+     [
+      7.04,
+      11.52
+     ],
+     [
+      11.52,
+      16.76
+     ],
+     [
+      16.76,
+      25.76
+     ],
+     [
+      25.76,
+      30.96
+     ],
+     [
+      30.96,
+      39.2
+     ]
+    ]
+   },
+   "speakers": {
+    "Paul": "Бавария"
+   },
+   "lines": [
+    {
+     "who": "Paul",
+     "de": "Hallo Alina! Am Samstag war ich in Bonn. Zuerst bin ich mit dem Zug angekommen.",
+     "ru": "Привет, Алина! В субботу я был в Бонне. Сначала я приехал на поезде."
+    },
+    {
+     "who": "Paul",
+     "de": "Vom Bahnhof bin ich zu Fuß gegangen. Dann habe ich Kaffee getrunken.",
+     "ru": "От вокзала я пошёл пешком. Потом выпил кофе."
+    },
+    {
+     "who": "Paul",
+     "de": "Danach habe ich den Fluss fotografiert. Ich hatte kein Geld.",
+     "ru": "После этого я фотографировал реку. Денег у меня не было."
+    },
+    {
+     "who": "Paul",
+     "de": "Meine Geldbörse habe ich nicht verloren. Ich habe sie zu Hause vergessen. Ein Freund aus Bonn hat den Kaffee bezahlt.",
+     "ru": "Кошелёк я не потерял. Я забыл его дома. Друг из Бонна заплатил за кофе."
+    },
+    {
+     "who": "Paul",
+     "de": "Im Café habe ich am Fenster gesessen. Neben mir war ein Mann aus Österreich.",
+     "ru": "В кафе я сидел у окна. Рядом со мной был мужчина из Австрии."
+    },
+    {
+     "who": "Paul",
+     "de": "Er hat erzählt: Ich bin vorgestern auch hier gesessen. In Österreich ist das normal. Bis morgen!",
+     "ru": "Он рассказал: «Я позавчера тоже здесь сидел». В Австрии это нормально. До завтра!"
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Что было первым?",
+     "o": [
+      "Пауль приехал на поезде",
+      "Пауль выпил кофе",
+      "Пауль фотографировал реку"
+     ],
+     "a": "Пауль приехал на поезде",
+     "n": "<b>Zuerst</b> bin ich mit dem Zug angekommen. zuerst — сначала.",
+     "k": 0
+    },
+    {
+     "q": "Что было после кофе?",
+     "o": [
+      "Пауль фотографировал реку",
+      "Пауль приехал в Бонн",
+      "Пауль пошёл на вокзал"
+     ],
+     "a": "Пауль фотографировал реку",
+     "n": "<b>Danach</b> habe ich den Fluss fotografiert. danach — после этого.",
+     "k": 2
+    },
+    {
+     "q": "Пауль потерял кошелёк?",
+     "o": [
+      "нет, забыл дома",
+      "да, в кафе",
+      "да, на вокзале"
+     ],
+     "a": "нет, забыл дома",
+     "n": "Ich habe sie zu Hause <b>vergessen</b>. nicht verloren, а vergessen — забыл.",
+     "k": 3
+    },
+    {
+     "q": "Как Пауль добрался от вокзала?",
+     "o": [
+      "пешком",
+      "на автобусе",
+      "на такси"
+     ],
+     "a": "пешком",
+     "n": "Vom Bahnhof bin ich <b>zu Fuß gegangen</b>. zu Fuß gehen — идти пешком, Perfekt с sein.",
+     "k": 1
+    },
+    {
+     "q": "Кто заплатил за кофе?",
+     "o": [
+      "друг из Бонна",
+      "мужчина из Австрии",
+      "сам Пауль"
+     ],
+     "a": "друг из Бонна",
+     "n": "Ein Freund aus Bonn <b>hat</b> den Kaffee <b>bezahlt</b>. Денег у Пауля не было.",
+     "k": 3
+    },
+    {
+     "q": "Австриец: Ich ___ vorgestern auch hier gesessen.",
+     "o": [
+      "bin",
+      "habe",
+      "war"
+     ],
+     "a": "bin",
+     "n": "Ich <b>bin</b> vorgestern auch hier gesessen. В Австрии sitzen образует Perfekt с <b>sein</b>; Пауль говорит habe gesessen.",
+     "k": 5
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 13.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 13.6",
+   "sub": "Напишите другу сообщение о выходных или поездке: 60–80 слов.",
+   "items": [
+    {
+     "q": "Напишите другу сообщение о выходных или поездке: 60–80 слов.",
+     "hint": "Расскажите и об одной неприятности. Потом перечитайте сообщение: есть ли в нём шесть глаголов в Perfekt, из них два с sein? Есть ли глагол с отделяемой приставкой и глагол с неотделяемой приставкой или на -ieren? Нашлись ли две формы war или hatte? Верно ли выбран помощник и стоит ли причастие в конце?",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Hallo Jonas! Ich war am Wochenende in Mainz. Meine Schwester ist auch mitgekommen. Wir hatten viel Zeit. Zuerst haben wir das Museum besichtigt. Danach haben wir Kaffee getrunken. Ich habe meine Brille im Café vergessen. Das war schrecklich! Aber meine Schwester hat sie gefunden. Am Sonntag sind wir früh aufgestanden und nach Köln gefahren. Ich habe dir eine Postkarte mitgebracht. Bis morgen!"
+     ],
+     "check": [
+      "В модели 62 слова и восемь глаголов в Perfekt, три с sein; есть mitgekommen, besichtigt, war, hatten и забытые очки. Проверьте эти признаки, длину своего текста и место причастия."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

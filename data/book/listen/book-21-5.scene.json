@@ -1,0 +1,97 @@
+{
+ "id": "book-21-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Radio",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Heute im Porträt: ein Mann mit einer guten Idee. Er erfand eine kleine Maschine für die Küche. Die Maschine schneidet Gemüse.",
+   "ru": "Сегодня в портрете: человек с хорошей идеей. Он изобрёл маленькую машину для кухни. Машина режет овощи.",
+   "tag": "[Radiosprecher]"
+  },
+  {
+   "who": "Radio",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Er hatte seine Ausbildung gemacht, bevor er eine Arbeit fand. Später eröffnete er eine Werkstatt. Er war schon nach Leipzig umgezogen.",
+   "ru": "Он закончил обучение до того, как нашёл работу. Позже он открыл мастерскую. Он уже переехал в Лейпциг."
+  },
+  {
+   "who": "Radio",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Bevor er die Werkstatt eröffnete, kaufte er einen Computer. Er zeigte seine Erfindung auf einer Ausstellung. Er hatte die Maschine in seiner Werkstatt gebaut.",
+   "ru": "Перед тем как открыть мастерскую, он купил компьютер. Он показал изобретение на выставке. Машину он построил в своей мастерской."
+  },
+  {
+   "who": "Radio",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Seitdem er in Leipzig wohnt, arbeitet er mit seiner Tochter. Sie macht die Fotos und schreibt die E-Mails.",
+   "ru": "С тех пор как он живёт в Лейпциге, он работает с дочерью. Она делает фото и пишет письма."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 21.5",
+  "scene": "Radioporträt",
+  "cap": "Изобретатель из Лейпцига",
+  "sub": "Радиопортрет вымышленного изобретателя. Что было раньше?",
+  "speakers": {
+   "Radio": "Германия"
+  },
+  "qs": [
+   [
+    "Что произошло раньше?",
+    [
+     "он закончил обучение",
+     "он нашёл работу"
+    ],
+    "Er <b>hatte</b> seine Ausbildung <b>gemacht</b>, bevor er eine Arbeit fand",
+    "Plusquamperfekt — более раннее событие."
+   ],
+   [
+    "Что произошло раньше?",
+    [
+     "он переехал в Лейпциг",
+     "он открыл мастерскую"
+    ],
+    "Er <b>war</b> schon nach Leipzig <b>umgezogen</b>",
+    "war … umgezogen — раньше открытия."
+   ],
+   [
+    "Что произошло раньше?",
+    [
+     "он построил машину",
+     "он показал изобретение"
+    ],
+    "Er <b>hatte</b> die Maschine in seiner Werkstatt <b>gebaut</b>",
+    "hatte … gebaut — до показа."
+   ],
+   [
+    "Перед открытием мастерской он купил компьютер?",
+    [
+     "верно",
+     "неверно"
+    ],
+    "<b>Bevor</b> er die Werkstatt eröffnete, <b>kaufte</b> er einen Computer",
+    "Сначала покупка."
+   ],
+   [
+    "В Лейпциге он работает один?",
+    [
+     "неверно",
+     "верно"
+    ],
+    "arbeitet er <b>mit seiner Tochter</b>",
+    "Вместе с дочерью."
+   ],
+   [
+    "Как он скажет знакомому «я изобрёл машину»?",
+    [
+     "Ich habe eine kleine Maschine erfunden.",
+     "Ich erfand eine kleine Maschine.",
+     "Ich hatte eine kleine Maschine erfunden."
+    ],
+    "Er <b>erfand</b> eine kleine Maschine",
+    "В разговоре обычно Perfekt; Präteritum звучит повествовательно."
+   ]
+  ]
+ }
+}

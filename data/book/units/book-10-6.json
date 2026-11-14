@@ -1,7 +1,7 @@
 {
  "title": "Man: кто-то конкретный не нужен",
  "topic": "Книга · 10.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -90,5 +90,78 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Man как er",
+   "sub": "Глагол в форме для er, sie, es",
+   "items": [
+    {
+     "s": "Hier ___ man bar.",
+     "ru": "Здесь платят наличными.",
+     "a": [
+      "zahlt"
+     ],
+     "hint": "zahlen",
+     "n": "man → <b>zahlt</b>."
+    },
+    {
+     "s": "Hier ___ man leise.",
+     "ru": "Здесь говорят тихо.",
+     "a": [
+      "spricht"
+     ],
+     "hint": "sprechen",
+     "n": "Как er spricht: <b>man spricht</b>."
+    },
+    {
+     "s": "Wie ___ man das?",
+     "ru": "Как это пишется?",
+     "a": [
+      "schreibt"
+     ],
+     "hint": "schreiben",
+     "n": "<b>schreibt man</b>."
+    },
+    {
+     "s": "Das ___ man so.",
+     "ru": "Так говорят.",
+     "a": [
+      "sagt"
+     ],
+     "hint": "sagen",
+     "n": "<b>man sagt</b>, не man sagen."
+    },
+    {
+     "s": "Hier ___ man ein.",
+     "ru": "Здесь делают покупки.",
+     "a": [
+      "kauft"
+     ],
+     "hint": "einkaufen",
+     "n": "<b>kauft … ein</b>."
+    },
+    {
+     "s": "In Österreich ___ man Deutsch.",
+     "ru": "В Австрии говорят по-немецки.",
+     "a": [
+      "spricht"
+     ],
+     "hint": "sprechen",
+     "n": "<b>spricht</b>, как у er."
+    },
+    {
+     "s": "Hier ___ man gut.",
+     "ru": "Здесь хорошо едят.",
+     "a": [
+      "isst"
+     ],
+     "hint": "essen",
+     "n": "essen → er isst → <b>man isst</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

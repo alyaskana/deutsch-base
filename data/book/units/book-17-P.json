@@ -1,0 +1,646 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 17",
+ "sub": "Упражнения урока 17 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 17,
+  "s": "17.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "build",
+   "title": "Упражнение 17.1",
+   "sub": "Превратите сочетания в просьбы, начиная с глагола. Сохраните данные слова и адресата, частицы не добавляйте. После основ на t, d используйте полную форму с -e.",
+   "items": [
+    {
+     "ru": "den Spiegel putzen (du).",
+     "w": [
+      "Putz",
+      "den",
+      "Spiegel"
+     ],
+     "ok": [
+      "Putz den Spiegel"
+     ],
+     "n": "У обычной основы допустимы формы без <b>-e</b> и с ним."
+    },
+    {
+     "ru": "den Fernseher ausmachen (du).",
+     "w": [
+      "Mach",
+      "den",
+      "Fernseher",
+      "aus"
+     ],
+     "ok": [
+      "Mach den Fernseher aus"
+     ],
+     "n": "Приставка <b>aus</b> стоит в конце; окончание <b>-e</b> необязательно."
+    },
+    {
+     "ru": "das Medikament nehmen (du).",
+     "w": [
+      "Nimm",
+      "das",
+      "Medikament"
+     ],
+     "ok": [
+      "Nimm das Medikament"
+     ],
+     "n": "Изменённая основа сохраняется, окончания <b>-e</b> нет."
+    },
+    {
+     "ru": "die E-Mail lesen (du).",
+     "w": [
+      "Lies",
+      "die",
+      "E-Mail"
+     ],
+     "ok": [
+      "Lies die E-Mail"
+     ],
+     "n": "Сохраняем <b>ie</b> и конечную <b>s</b> основы."
+    },
+    {
+     "ru": "nach Hause fahren (du).",
+     "w": [
+      "Fahr",
+      "nach",
+      "Hause"
+     ],
+     "ok": [
+      "Fahr nach Hause"
+     ],
+     "n": "Умлаут из <b>fährst</b> не переносится; <b>-e</b> допустимо."
+    },
+    {
+     "ru": "lange schlafen (du).",
+     "w": [
+      "Schlaf",
+      "lange"
+     ],
+     "ok": [
+      "Schlaf lange"
+     ],
+     "n": "В императиве нет умлаута, окончание <b>-e</b> возможно."
+    },
+    {
+     "ru": "am Eingang warten (du).",
+     "w": [
+      "Warte",
+      "am",
+      "Eingang"
+     ],
+     "ok": [
+      "Warte am Eingang"
+     ],
+     "n": "Для этого задания берём полную форму после <b>t</b>."
+    },
+    {
+     "ru": "das Brot schneiden (du).",
+     "w": [
+      "Schneide",
+      "das",
+      "Brot"
+     ],
+     "ok": [
+      "Schneide das Brot"
+     ],
+     "n": "После основы на <b>d</b> здесь сохраняем <b>-e</b>."
+    },
+    {
+     "ru": "die Zeitung lesen (ihr).",
+     "w": [
+      "Lest",
+      "die",
+      "Zeitung"
+     ],
+     "ok": [
+      "Lest die Zeitung"
+     ],
+     "n": "Берём <b>ihr lest</b> без <b>ihr</b>; гласная не меняется на <b>ie</b>."
+    },
+    {
+     "ru": "pünktlich sein (Sie).",
+     "w": [
+      "Seien",
+      "Sie",
+      "pünktlich"
+     ],
+     "ok": [
+      "Seien Sie pünktlich"
+     ],
+     "n": "У <b>sein</b> особая вежливая форма <b>seien Sie</b>."
+    },
+    {
+     "ru": "sich ausruhen (Sie).",
+     "w": [
+      "Ruhen",
+      "Sie",
+      "sich",
+      "aus"
+     ],
+     "ok": [
+      "Ruhen Sie sich aus"
+     ],
+     "n": "<b>Sie</b> и <b>sich</b> сохраняются, приставка уходит в конец."
+    },
+    {
+     "ru": "zusammen frühstücken (wir).",
+     "w": [
+      "Frühstücken",
+      "wir",
+      "zusammen"
+     ],
+     "ok": [
+      "Frühstücken wir zusammen"
+     ],
+     "n": "Форма для <b>wir</b> стоит перед местоимением."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 17.2",
+   "sub": "Вставьте mal, doch или ja по намерению говорящего. Один пропуск означает одно слово. Где возможны разные оттенки, ключ принимает несколько вариантов.",
+   "items": [
+    {
+     "s": "Hilf mir ___.",
+     "ru": "Между делом просите друга помочь",
+     "a": [
+      "mal",
+      "doch"
+     ],
+     "hint": "",
+     "n": "<b>Mal</b> подаёт просьбу как небольшую и между делом; <b>doch</b> сильнее подталкивает."
+    },
+    {
+     "s": "Zeig mir ___ das Foto.",
+     "ru": "Просите друга показать фотографию",
+     "a": [
+      "mal",
+      "doch"
+     ],
+     "hint": "",
+     "n": "Для повседневной просьбы подходит <b>mal</b>; <b>doch</b> добавляет побуждение."
+    },
+    {
+     "s": "Mach ___ die Tür auf.",
+     "ru": "Просите ненадолго открыть дверь",
+     "a": [
+      "mal",
+      "doch"
+     ],
+     "hint": "",
+     "n": "<b>Mal</b> подчёркивает небольшую просьбу, <b>doch</b> может дружески подтолкнуть."
+    },
+    {
+     "s": "Nimm ___ noch ein Stück Brot.",
+     "ru": "Друг сомневается, брать ли ещё хлеб; вы подбадриваете",
+     "a": [
+      "doch",
+      "mal"
+     ],
+     "hint": "",
+     "n": "<b>Doch</b> естественно снимает сомнение; <b>mal</b> предлагает попробовать."
+    },
+    {
+     "s": "Komm ___ mit.",
+     "ru": "Зовёте Пауля присоединиться",
+     "a": [
+      "doch",
+      "mal"
+     ],
+     "hint": "",
+     "n": "<b>Doch</b> побуждает пойти вместе; <b>mal</b> делает приглашение непринуждённым."
+    },
+    {
+     "s": "Mach das ___ nicht!",
+     "ru": "Сильное предупреждение, частицу произносите с ударением",
+     "a": [
+      "ja"
+     ],
+     "hint": "",
+     "n": "Ударное <b>ja</b> усиливает предупреждение «смотри не…»."
+    },
+    {
+     "s": "Ruf Jonas ___ … an.",
+     "ru": "Вставьте обе частицы mal и doch в обычном порядке",
+     "a": [
+      "doch"
+     ],
+     "hint": "",
+     "n": "В этой паре сначала идёт <b>doch</b>, затем <b>mal</b>; приставка остаётся в конце."
+    },
+    {
+     "s": "Ruf Jonas doch ___ an.",
+     "ru": "Вставьте обе частицы mal и doch в обычном порядке",
+     "a": [
+      "mal"
+     ],
+     "hint": "",
+     "n": "В этой паре сначала идёт <b>doch</b>, затем <b>mal</b>; приставка остаётся в конце."
+    },
+    {
+     "s": "Setz dich ___ auf das Sofa.",
+     "ru": "Мягко предлагаете уставшему другу сесть",
+     "a": [
+      "doch",
+      "mal"
+     ],
+     "hint": "",
+     "n": "Возвратное <b>dich</b> стоит перед частицей; <b>doch</b> приглашает, <b>mal</b> звучит непринуждённо."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 17.3",
+   "sub": "Выберите просьбу, которая лучше всего подходит к ситуации. Иногда подходят две: ключ примет обе и объяснит разницу. С Паулем, Йонасом и другими друзьями вы на «ты», с врачом, сотрудниками администрации и незнакомцами на «вы».",
+   "items": [
+    {
+     "s": "Ваш ключ у соседа по квартире. Спокойно просите его отдать. — ___",
+     "ru": "",
+     "o": [
+      "Gib mir den Schlüssel.",
+      "Geben Sie mir bitte den Schlüssel.",
+      "Kannst du mir den Schlüssel geben?",
+      "Könnten Sie mir den Schlüssel geben?"
+     ],
+     "a": "Kannst du mir den Schlüssel geben?",
+     "n": "Вопрос c мягче; прямая просьба a с другом тоже уместна."
+    },
+    {
+     "s": "Два друга собираются уходить. Просите обоих подождать. — ___",
+     "ru": "",
+     "o": [
+      "Könnten Sie noch warten?",
+      "Wartet noch.",
+      "Kannst du noch warten?",
+      "Warten Sie bitte noch."
+     ],
+     "a": "Wartet noch.",
+     "n": "Обращение к обоим друзьям выражает форма <b>ihr</b>; <b>du</b> относится только к одному."
+    },
+    {
+     "s": "Врач произнёс незнакомое слово. Просите его повторить. — ___",
+     "ru": "",
+     "o": [
+      "Könnten Sie das Wort wiederholen?",
+      "Wiederhole das Wort.",
+      "Wiederholen Sie bitte das Wort.",
+      "Kannst du das Wort wiederholen?"
+     ],
+     "a": "Könnten Sie das Wort wiederholen?",
+     "n": "Вопрос a особенно удобен; вежливая просьба c также правильна."
+    },
+    {
+     "s": "Незнакомец в трамвае стоит у открытого окна. Просите закрыть окно. — ___",
+     "ru": "",
+     "o": [
+      "Kannst du das Fenster zumachen?",
+      "Mach das Fenster zu.",
+      "Machen Sie bitte das Fenster zu.",
+      "Könnten Sie das Fenster zumachen?"
+     ],
+     "a": "Könnten Sie das Fenster zumachen?",
+     "n": "Предпочтителен осторожный вопрос d; c тоже сохраняет вежливое обращение."
+    },
+    {
+     "s": "Пауль собирается готовить. Вы просите сначала купить молоко. — ___",
+     "ru": "",
+     "o": [
+      "Kannst du zuerst Milch kaufen?",
+      "Könnten Sie zuerst Milch kaufen?",
+      "Kaufen Sie bitte zuerst Milch.",
+      "Kauf zuerst Milch."
+     ],
+     "a": "Kannst du zuerst Milch kaufen?",
+     "n": "Вопрос a оставляет выбор; обычная просьба d подходит между друзьями."
+    },
+    {
+     "s": "Йонас принёс документы. Просите показать вам бланк. — ___",
+     "ru": "",
+     "o": [
+      "Zeig mir das Formular.",
+      "Zeigen Sie mir bitte das Formular.",
+      "Könnten Sie mir das Formular zeigen?",
+      "Kannst du mir das Formular zeigen?"
+     ],
+     "a": "Kannst du mir das Formular zeigen?",
+     "n": "Вы с Йонасом на <b>du</b>: d мягче, a прямее; оба обращения подходят."
+    },
+    {
+     "s": "Просите сотрудника городской администрации объяснить вопрос в анкете. — ___",
+     "ru": "",
+     "o": [
+      "Erklär mir die Frage.",
+      "Könnten Sie mir die Frage erklären?",
+      "Kannst du mir die Frage erklären?",
+      "Erklären Sie mir bitte die Frage."
+     ],
+     "a": "Könnten Sie mir die Frage erklären?",
+     "n": "Вопрос b предпочтителен при обращении к незнакомому сотруднику; d тоже вежливо."
+    },
+    {
+     "s": "Врач говорит слишком быстро. Просите говорить медленнее. — ___",
+     "ru": "",
+     "o": [
+      "Kannst du langsamer sprechen?",
+      "Sprechen Sie bitte langsamer.",
+      "Könnten Sie langsamer sprechen?",
+      "Sprich langsamer."
+     ],
+     "a": "Könnten Sie langsamer sprechen?",
+     "n": "<b>Langsamer</b> означает «медленнее». Вопрос c осторожнее; просьба b с <b>bitte</b> тоже допустима."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 17.4",
+   "scene": "Anrufbeantworter",
+   "cap": "Сообщение из приёмной",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Сообщение из приёмной о повторном осмотре до завтрака. die Anmeldung — регистратура, zurückrufen — перезвонить.",
+   "audio": {
+    "id": "book-17-4",
+    "n": 2,
+    "dur": 25.47,
+    "t": [
+     [
+      0.8,
+      4.16
+     ],
+     [
+      4.16,
+      10.4
+     ],
+     [
+      10.4,
+      14.0
+     ],
+     [
+      14.0,
+      18.88
+     ],
+     [
+      18.88,
+      25.44
+     ]
+    ]
+   },
+   "speakers": {
+    "Praxis": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Praxis",
+     "de": "Guten Tag, Frau Kozyreva. Hier ist die Praxis Dr. Eder.",
+     "ru": "Добрый день, госпожа Козырева. Это практика доктора Эдер."
+    },
+    {
+     "who": "Praxis",
+     "de": "Wir möchten Sie übermorgen noch einmal untersuchen. Kommen Sie bitte um Viertel vor acht.",
+     "ru": "Мы хотим послезавтра ещё раз вас осмотреть. Приходите, пожалуйста, без четверти восемь."
+    },
+    {
+     "who": "Praxis",
+     "de": "Essen Sie vorher nichts. Sie können nach dem Termin frühstücken.",
+     "ru": "Перед этим ничего не ешьте. Позавтракать можно после приёма."
+    },
+    {
+     "who": "Praxis",
+     "de": "Bringen Sie Ihre Medikamente mit. Rufen Sie uns bitte heute zurück.",
+     "ru": "Возьмите с собой ваши лекарства. Перезвоните нам, пожалуйста, сегодня."
+    },
+    {
+     "who": "Praxis",
+     "de": "Melden Sie sich an der Anmeldung an. Seien Sie bitte pünktlich. Danke. Auf Wiederhören.",
+     "ru": "Отметьтесь в регистратуре. Приходите, пожалуйста, вовремя. Спасибо. До свидания."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Во сколько нужно прийти?",
+     "o": [
+      "в 7:45",
+      "в 8:15",
+      "в 8:45"
+     ],
+     "a": "в 7:45",
+     "n": "um <b>Viertel vor acht</b>. Viertel vor acht — без четверти восемь.",
+     "k": 1
+    },
+    {
+     "q": "Что нельзя делать до приёма?",
+     "o": [
+      "есть",
+      "пить воду",
+      "принимать лекарства"
+     ],
+     "a": "есть",
+     "n": "<b>Essen Sie vorher nichts</b>. Завтракать можно после приёма.",
+     "k": 2
+    },
+    {
+     "q": "Что нужно принести?",
+     "o": [
+      "свои лекарства",
+      "анализы",
+      "страховую карту"
+     ],
+     "a": "свои лекарства",
+     "n": "<b>Bringen Sie</b> Ihre Medikamente <b>mit</b>. mitbringen: приставка в конце.",
+     "k": 3
+    },
+    {
+     "q": "Когда перезвонить?",
+     "o": [
+      "сегодня",
+      "завтра",
+      "послезавтра"
+     ],
+     "a": "сегодня",
+     "n": "Rufen Sie uns bitte <b>heute</b> zurück. Послезавтра — сам осмотр.",
+     "k": 3
+    },
+    {
+     "q": "Где отметиться по прибытии?",
+     "o": [
+      "в регистратуре",
+      "у врача",
+      "в лаборатории"
+     ],
+     "a": "в регистратуре",
+     "n": "<b>Melden Sie sich an der Anmeldung an</b>. sich anmelden: возвратное и с приставкой.",
+     "k": 4
+    },
+    {
+     "q": "Какой просят быть?",
+     "o": [
+      "пунктуальной",
+      "спокойной",
+      "терпеливой"
+     ],
+     "a": "пунктуальной",
+     "n": "<b>Seien Sie</b> bitte <b>pünktlich</b>. Императив от sein: Seien Sie.",
+     "k": 4
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 17.4",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 17.5",
+   "sub": "Переведите просьбы в повелительном наклонении. Начинайте с глагола или bitte. Частицы для «-ка» и «же» сохраните; остальные просьбы переведите без добавочных частиц. Разные положения bitte допустимы.",
+   "items": [
+    {
+     "ru": "Садитесь, пожалуйста. (Sie) Используйте sich setzen.",
+     "w": [
+      "Setzen",
+      "Sie",
+      "sich",
+      "bitte"
+     ],
+     "ok": [
+      "Setzen Sie sich bitte"
+     ],
+     "n": "После глагола сохраняются <b>Sie</b> и возвратное <b>sich</b>."
+    },
+    {
+     "ru": "Не забудь ключ. (du) Используйте vergessen.",
+     "w": [
+      "Vergiss",
+      "den",
+      "Schlüssel",
+      "nicht"
+     ],
+     "ok": [
+      "Vergiss den Schlüssel nicht",
+      "Vergiss nicht den Schlüssel"
+     ],
+     "n": "Изменённая основа <b>vergiss</b>, без <b>-e</b>; с <b>vergessen</b> в разговоре встречаются оба порядка, первый нейтрален."
+    },
+    {
+     "ru": "Давайте начнём. Вы предлагаете нескольким друзьям начать вместе с вами. Используйте anfangen в конструкции с lassen и uns (адресат ihr) или в форме с wir.",
+     "w": [
+      "Lasst",
+      "uns",
+      "anfangen"
+     ],
+     "ok": [
+      "Lasst uns anfangen"
+     ],
+     "n": "При обращении к нескольким друзьям <b>lasst</b>; форма с <b>wir</b> тоже предлагает общее действие."
+    },
+    {
+     "ru": "Давай поедем на трамвае. Вы предлагаете одному другу поехать вместе с вами. Используйте fahren, mit der Straßenbahn в конструкции с lassen и uns (адресат du) или в форме с wir.",
+     "w": [
+      "Lass",
+      "uns",
+      "mit",
+      "der",
+      "Straßenbahn",
+      "fahren"
+     ],
+     "ok": [
+      "Lass uns mit der Straßenbahn fahren"
+     ],
+     "n": "<b>Lass uns</b> обычно в разговоре; форма с <b>wir</b> равноправна, <b>lasse</b> допустимо, но книжно."
+    },
+    {
+     "ru": "Попробуй-ка пирог. (du) Используйте probieren, der Kuchen.",
+     "w": [
+      "Probier",
+      "mal",
+      "den",
+      "Kuchen"
+     ],
+     "ok": [
+      "Probier mal den Kuchen",
+      "Probier den Kuchen mal"
+     ],
+     "n": "Частица <b>mal</b> передаёт «-ка»; допустимы <b>-e</b> и положение <b>mal</b> после дополнения."
+    },
+    {
+     "ru": "Ну заходи же! (du) Используйте reinkommen или hereinkommen.",
+     "w": [
+      "Komm",
+      "doch",
+      "rein!"
+     ],
+     "ok": [
+      "Komm doch rein!"
+     ],
+     "n": "<b>Doch</b> передаёт побуждение; отделяемая часть стоит в конце, <b>komme</b> книжнее."
+    },
+    {
+     "ru": "Не бойтесь. (Sie) Используйте Angst haben.",
+     "w": [
+      "Haben",
+      "Sie",
+      "keine",
+      "Angst"
+     ],
+     "ok": [
+      "Haben Sie keine Angst"
+     ],
+     "n": "<b>Kein</b> отрицает существительное <b>Angst</b>; форма женского рода <b>keine</b>."
+    },
+    {
+     "ru": "Будьте осторожны. (ihr) Используйте sein.",
+     "w": [
+      "Seid",
+      "vorsichtig"
+     ],
+     "ok": [
+      "Seid vorsichtig"
+     ],
+     "n": "К нескольким друзьям обращаемся формой <b>seid</b>, без местоимения."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 17.6",
+   "sub": "Напишите соседу по квартире сообщение на 60–90 слов: рецепт простого блюда или просьбы о помощи во время болезни.",
+   "items": [
+    {
+     "q": "Напишите соседу по квартире сообщение на 60–90 слов: рецепт простого блюда или просьбы о помощи во время болезни.",
+     "hint": "Перечитайте сообщение и подчеркните императивы на du: набралось ли их от шести до восьми? Есть ли среди них глагол, где e меняется на i, отделяемый глагол и основа на t или d? Связывают ли шаги слова zuerst, dann, zum Schluss? Есть ли mal или doch и одна просьба с отрицанием?",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Hallo Paul! Ich bin krank und bleibe heute im Bett. Hilf mir bitte! Mach zuerst das Fenster zu, hier ist es kalt. Koch dann einen Tee. Schneide eine Zitrone und gib ein Stück in den Tee. Vergiss den Zucker nicht! Stell mir den Tee doch vor die Tür, ich bin erkältet. Ruf zum Schluss in der Praxis an: Ich brauche für Freitag einen Termin. Danke für deine Hilfe!"
+     ],
+     "check": [
+      "Восемь императивов: hilf, mach … zu, koch, schneide, gib, vergiss, stell, ruf … an. Есть e → i (hilf, gib, vergiss), отделяемые глаголы, основа на d с -e, связки zuerst, dann, zum Schluss, частица doch и отрицание Vergiss … nicht. Другой текст принимается по этому же списку, а не по совпадению с моделью."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

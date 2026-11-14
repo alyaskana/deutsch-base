@@ -1,0 +1,91 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 25",
+ "sub": "Пять заданий в конце урока 25: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 25,
+  "s": "25.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 25.C: впиши",
+   "sub": "Выполните без таблиц.",
+   "items": [
+    {
+     "s": "Paul freut sich auf ___ Ausflug. Определённый артикль, мужской род.",
+     "ru": "Допишите артикль",
+     "a": [
+      "den"
+     ],
+     "hint": "",
+     "n": "<b>Sich freuen auf + Akk</b>: <b>den Ausflug</b>."
+    },
+    {
+     "s": "Sie freut sich ___ das Paket.",
+     "ru": "Подруге уже принесли посылку, и она ей рада. Вставьте предлог",
+     "a": [
+      "über"
+     ],
+     "hint": "",
+     "n": "Посылка уже пришла: радость по поводу факта."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  },
+  {
+   "type": "build",
+   "title": "Проверь себя 25.C: переведи",
+   "sub": "Выполните без таблиц.",
+   "items": [
+    {
+     "ru": "Du verzichtest auf Kaffee. Задайте вопрос о кофе с wo(r)-, сохранив глагол.",
+     "w": [
+      "Worauf",
+      "verzichtest",
+      "du?"
+     ],
+     "ok": [
+      "Worauf verzichtest du?"
+     ],
+     "n": "Вопрос о предмете; перед <b>auf</b> вставляем <b>r</b>."
+    },
+    {
+     "ru": "Freust du dich auf Lea? Ответьте «да» коротким предложением и замените имя.",
+     "w": [
+      "Ja,",
+      "ich",
+      "freue",
+      "mich",
+      "auf",
+      "sie"
+     ],
+     "ok": [
+      "Ja, ich freue mich auf sie",
+      "Ja, auf sie freue ich mich"
+     ],
+     "n": "Речь о человеке: <b>auf + Akk</b>, личное местоимение <b>sie</b>, а не <b>darauf</b>."
+    },
+    {
+     "ru": "Переведите: «Она вышла за него замуж». Используйте heiraten.",
+     "w": [
+      "Sie",
+      "hat",
+      "ihn",
+      "geheiratet"
+     ],
+     "ok": [
+      "Sie hat ihn geheiratet"
+     ],
+     "n": "Прямой объект в <b>Akkusativ</b>, предлога нет."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  }
+ ]
+}

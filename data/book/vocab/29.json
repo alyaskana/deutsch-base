@@ -1,0 +1,635 @@
+{
+ "l": 29,
+ "words": [
+  {
+   "de": "die Decke",
+   "lemma": "Decke",
+   "art": "die",
+   "pl": "die Decken",
+   "forms": "",
+   "ipa": "[ˈdɛkə]",
+   "ru": "потолок, одеяло",
+   "pos": "noun"
+  },
+  {
+   "de": "das Holz",
+   "lemma": "Holz",
+   "art": "das",
+   "pl": "die Hölzer",
+   "forms": "",
+   "ipa": "[hɔlts]",
+   "ru": "дерево (материал)",
+   "pos": "noun"
+  },
+  {
+   "de": "das Material",
+   "lemma": "Material",
+   "art": "das",
+   "pl": "die Materialien",
+   "forms": "",
+   "ipa": "[mateˈʁi̯aːl]",
+   "ru": "материал",
+   "pos": "noun"
+  },
+  {
+   "de": "die Leiter",
+   "lemma": "Leiter",
+   "art": "die",
+   "pl": "die Leitern",
+   "forms": "",
+   "ipa": "[ˈlaɪ̯tɐ]",
+   "ru": "стремянка, приставная лестница",
+   "pos": "noun"
+  },
+  {
+   "de": "der Hammer",
+   "lemma": "Hammer",
+   "art": "der",
+   "pl": "die Hämmer",
+   "forms": "",
+   "ipa": "[ˈhamɐ]",
+   "ru": "молоток",
+   "pos": "noun"
+  },
+  {
+   "de": "der Nagel",
+   "lemma": "Nagel",
+   "art": "der",
+   "pl": "die Nägel",
+   "forms": "",
+   "ipa": "[ˈnaːɡəl]",
+   "ru": "гвоздь",
+   "pos": "noun"
+  },
+  {
+   "de": "das Werkzeug",
+   "lemma": "Werkzeug",
+   "art": "das",
+   "pl": "die Werkzeuge",
+   "forms": "",
+   "ipa": "[ˈvɛʁktsɔʏ̯k]",
+   "ru": "инструмент",
+   "pos": "noun"
+  },
+  {
+   "de": "kleben",
+   "lemma": "kleben",
+   "art": "",
+   "pl": "",
+   "forms": "klebte, hat geklebt",
+   "ipa": "[ˈkleːbən]",
+   "ru": "клеить",
+   "pos": "verb"
+  },
+  {
+   "de": "messen",
+   "lemma": "messen",
+   "art": "",
+   "pl": "",
+   "forms": "misst, maß, hat gemessen",
+   "ipa": "[ˈmɛsən]",
+   "ru": "измерять",
+   "pos": "verb"
+  },
+  {
+   "de": "werden",
+   "lemma": "werden",
+   "art": "",
+   "pl": "",
+   "forms": "wird, wurde, ist geworden; в пассиве: ist … worden",
+   "ipa": "[ˈveːɐ̯dən]",
+   "ru": "вспомогательный глагол пассива",
+   "pos": "verb"
+  },
+  {
+   "de": "die Fläche",
+   "lemma": "Fläche",
+   "art": "die",
+   "pl": "die Flächen",
+   "forms": "",
+   "ipa": "[ˈflɛçə]",
+   "ru": "площадь, поверхность",
+   "pos": "noun"
+  },
+  {
+   "de": "das Loch",
+   "lemma": "Loch",
+   "art": "das",
+   "pl": "die Löcher",
+   "forms": "",
+   "ipa": "[lɔx]",
+   "ru": "дыра",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fleck",
+   "lemma": "Fleck",
+   "art": "der",
+   "pl": "die Flecke, die Flecken",
+   "forms": "",
+   "ipa": "[flɛk]",
+   "ru": "пятно",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schmutz",
+   "lemma": "Schmutz",
+   "art": "der",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃmʊts]",
+   "ru": "грязь",
+   "pos": "noun"
+  },
+  {
+   "de": "der Staub",
+   "lemma": "Staub",
+   "art": "der",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃtaʊ̯p]",
+   "ru": "пыль",
+   "pos": "noun"
+  },
+  {
+   "de": "reinigen",
+   "lemma": "reinigen",
+   "art": "",
+   "pl": "",
+   "forms": "reinigte, hat gereinigt",
+   "ipa": "[ˈʁaɪ̯nɪɡən]",
+   "ru": "чистить",
+   "pos": "verb"
+  },
+  {
+   "de": "entfernen",
+   "lemma": "entfernen",
+   "art": "",
+   "pl": "",
+   "forms": "entfernte, hat entfernt",
+   "ipa": "[ɛntˈfɛʁnən]",
+   "ru": "удалять",
+   "pos": "verb"
+  },
+  {
+   "de": "entsorgen",
+   "lemma": "entsorgen",
+   "art": "",
+   "pl": "",
+   "forms": "entsorgte, hat entsorgt",
+   "ipa": "[ɛntˈzɔʁɡən]",
+   "ru": "утилизировать, вывозить",
+   "pos": "verb"
+  },
+  {
+   "de": "der Abfall",
+   "lemma": "Abfall",
+   "art": "der",
+   "pl": "die Abfälle",
+   "forms": "",
+   "ipa": "[ˈapfal]",
+   "ru": "отходы",
+   "pos": "noun"
+  },
+  {
+   "de": "beschädigen",
+   "lemma": "beschädigen",
+   "art": "",
+   "pl": "",
+   "forms": "beschädigte, hat beschädigt",
+   "ipa": "[bəˈʃɛːdɪɡən]",
+   "ru": "повреждать",
+   "pos": "verb"
+  },
+  {
+   "de": "ersetzen",
+   "lemma": "ersetzen",
+   "art": "",
+   "pl": "",
+   "forms": "ersetzte, hat ersetzt",
+   "ipa": "[ɛɐ̯ˈzɛtsən]",
+   "ru": "заменять",
+   "pos": "verb"
+  },
+  {
+   "de": "der Auftrag",
+   "lemma": "Auftrag",
+   "art": "der",
+   "pl": "die Aufträge",
+   "forms": "",
+   "ipa": "[ˈaʊ̯ftʁaːk]",
+   "ru": "заказ, поручение",
+   "pos": "noun"
+  },
+  {
+   "de": "berechnen",
+   "lemma": "berechnen",
+   "art": "",
+   "pl": "",
+   "forms": "berechnete, hat berechnet",
+   "ipa": "[bəˈʁɛçnən]",
+   "ru": "рассчитывать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Handwerker",
+   "lemma": "Handwerker",
+   "art": "der",
+   "pl": "die Handwerker",
+   "forms": "",
+   "ipa": "[ˈhantvɛʁkɐ]",
+   "ru": "мастер, рабочий",
+   "pos": "noun"
+  },
+  {
+   "de": "die Handwerkerin",
+   "lemma": "Handwerkerin",
+   "art": "die",
+   "pl": "die Handwerkerinnen",
+   "forms": "",
+   "ipa": "[ˈhantvɛʁkəʁɪn]",
+   "ru": "мастерица",
+   "pos": "noun"
+  },
+  {
+   "de": "die Hausverwaltung",
+   "lemma": "Hausverwaltung",
+   "art": "die",
+   "pl": "die Hausverwaltungen",
+   "forms": "",
+   "ipa": "[ˈhaʊ̯sfɛɐ̯ˌvaltʊŋ]",
+   "ru": "управляющая компания",
+   "pos": "noun"
+  },
+  {
+   "de": "der Mieter",
+   "lemma": "Mieter",
+   "art": "der",
+   "pl": "die Mieter",
+   "forms": "",
+   "ipa": "[ˈmiːtɐ]",
+   "ru": "жилец, арендатор",
+   "pos": "noun"
+  },
+  {
+   "de": "die Mieterin",
+   "lemma": "Mieterin",
+   "art": "die",
+   "pl": "die Mieterinnen",
+   "forms": "",
+   "ipa": "[ˈmiːtəʁɪn]",
+   "ru": "жилица, арендатор",
+   "pos": "noun"
+  },
+  {
+   "de": "der Eigentümer",
+   "lemma": "Eigentümer",
+   "art": "der",
+   "pl": "die Eigentümer",
+   "forms": "",
+   "ipa": "[ˈaɪ̯ɡəntyːmɐ]",
+   "ru": "владелец",
+   "pos": "noun"
+  },
+  {
+   "de": "die Eigentümerin",
+   "lemma": "Eigentümerin",
+   "art": "die",
+   "pl": "die Eigentümerinnen",
+   "forms": "",
+   "ipa": "[ˈaɪ̯ɡəntyːməʁɪn]",
+   "ru": "владелица",
+   "pos": "noun"
+  },
+  {
+   "de": "die Beamtin",
+   "lemma": "Beamtin",
+   "art": "die",
+   "pl": "die Beamtinnen",
+   "forms": "",
+   "ipa": "[bəˈʔamtɪn]",
+   "ru": "чиновница",
+   "pos": "noun"
+  },
+  {
+   "de": "das Dokument",
+   "lemma": "Dokument",
+   "art": "das",
+   "pl": "die Dokumente",
+   "forms": "",
+   "ipa": "[dokuˈmɛnt]",
+   "ru": "документ",
+   "pos": "noun"
+  },
+  {
+   "de": "feststellen",
+   "lemma": "feststellen",
+   "art": "",
+   "pl": "",
+   "forms": "stellt fest, stellte fest, hat festgestellt",
+   "ipa": "[ˈfɛstʃtɛlən]",
+   "ru": "устанавливать, обнаруживать",
+   "pos": "verb"
+  },
+  {
+   "de": "verbieten",
+   "lemma": "verbieten",
+   "art": "",
+   "pl": "",
+   "forms": "verbietet, verbot, hat verboten",
+   "ipa": "[fɛɐ̯ˈbiːtən]",
+   "ru": "запрещать",
+   "pos": "verb"
+  },
+  {
+   "de": "untersagt",
+   "lemma": "untersagt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʊntɐˈzaːkt]",
+   "ru": "запрещено",
+   "pos": "adv"
+  },
+  {
+   "de": "produzieren",
+   "lemma": "produzieren",
+   "art": "",
+   "pl": "",
+   "forms": "produzierte, hat produziert",
+   "ipa": "[pʁoduˈtsiːʁən]",
+   "ru": "производить",
+   "pos": "verb"
+  },
+  {
+   "de": "die Fabrik",
+   "lemma": "Fabrik",
+   "art": "die",
+   "pl": "die Fabriken",
+   "forms": "",
+   "ipa": "[faˈbʁiːk]",
+   "ru": "фабрика, завод",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ware",
+   "lemma": "Ware",
+   "art": "die",
+   "pl": "die Waren",
+   "forms": "",
+   "ipa": "[ˈvaːʁə]",
+   "ru": "товар",
+   "pos": "noun"
+  },
+  {
+   "de": "verpacken",
+   "lemma": "verpacken",
+   "art": "",
+   "pl": "",
+   "forms": "verpackte, hat verpackt",
+   "ipa": "[fɛɐ̯ˈpakən]",
+   "ru": "упаковывать",
+   "pos": "verb"
+  },
+  {
+   "de": "zerstören",
+   "lemma": "zerstören",
+   "art": "",
+   "pl": "",
+   "forms": "zerstörte, hat zerstört",
+   "ipa": "[tsɛɐ̯ˈʃtøːʁən]",
+   "ru": "разрушать",
+   "pos": "verb"
+  },
+  {
+   "de": "bestrafen",
+   "lemma": "bestrafen",
+   "art": "",
+   "pl": "",
+   "forms": "bestrafte, hat bestraft",
+   "ipa": "[bəˈʃtʁaːfən]",
+   "ru": "наказывать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Strafe",
+   "lemma": "Strafe",
+   "art": "die",
+   "pl": "die Strafen",
+   "forms": "",
+   "ipa": "[ˈʃtʁaːfə]",
+   "ru": "наказание, штраф",
+   "pos": "noun"
+  },
+  {
+   "de": "abschließen",
+   "lemma": "abschließen",
+   "art": "",
+   "pl": "",
+   "forms": "schließt ab, schloss ab, hat abgeschlossen",
+   "ipa": "[ˈapˌʃliːsən]",
+   "ru": "запирать (на ключ); завершать",
+   "pos": "verb"
+  },
+  {
+   "de": "aufschließen",
+   "lemma": "aufschließen",
+   "art": "",
+   "pl": "",
+   "forms": "schließt auf, schloss auf, hat aufgeschlossen",
+   "ipa": "[ˈaʊ̯fˌʃliːsən]",
+   "ru": "отпирать",
+   "pos": "verb"
+  },
+  {
+   "de": "absperren",
+   "lemma": "absperren",
+   "art": "",
+   "pl": "",
+   "forms": "sperrt ab, sperrte ab, hat abgesperrt",
+   "ipa": "[ˈapˌʃpɛʁən]",
+   "ru": "перекрывать, ограждать",
+   "pos": "verb"
+  },
+  {
+   "de": "abstellen",
+   "lemma": "abstellen",
+   "art": "",
+   "pl": "",
+   "forms": "stellt ab, stellte ab, hat abgestellt",
+   "ipa": "[ˈapˌʃtɛlən]",
+   "ru": "отключать (воду); ставить",
+   "pos": "verb"
+  },
+  {
+   "de": "die Apotheke",
+   "lemma": "Apotheke",
+   "art": "die",
+   "pl": "die Apotheken",
+   "forms": "",
+   "ipa": "[apoˈteːkə]",
+   "ru": "аптека",
+   "pos": "noun"
+  },
+  {
+   "de": "der Aushang",
+   "lemma": "Aushang",
+   "art": "der",
+   "pl": "die Aushänge",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sˌhaŋ]",
+   "ru": "объявление (на доске)",
+   "pos": "noun"
+  },
+  {
+   "de": "bearbeiten",
+   "lemma": "bearbeiten",
+   "art": "",
+   "pl": "",
+   "forms": "bearbeitet, bearbeitete, hat bearbeitet",
+   "ipa": "[bəˈʔaʁbaɪ̯tən]",
+   "ru": "обрабатывать, рассматривать",
+   "pos": "verb"
+  },
+  {
+   "de": "besitzen",
+   "lemma": "besitzen",
+   "art": "",
+   "pl": "",
+   "forms": "besitzt, besaß, hat besessen",
+   "ipa": "[bəˈzɪtsən]",
+   "ru": "владеть",
+   "pos": "verb"
+  },
+  {
+   "de": "die Dose",
+   "lemma": "Dose",
+   "art": "die",
+   "pl": "die Dosen",
+   "forms": "",
+   "ipa": "[ˈdoːzə]",
+   "ru": "банка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Dosis",
+   "lemma": "Dosis",
+   "art": "die",
+   "pl": "die Dosen",
+   "forms": "",
+   "ipa": "[ˈdoːzɪs]",
+   "ru": "доза",
+   "pos": "noun"
+  },
+  {
+   "de": "das Einwohnermeldeamt",
+   "lemma": "Einwohnermeldeamt",
+   "art": "das",
+   "pl": "die Einwohnermeldeämter",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nvoːnɐˌmɛldəʔamt]",
+   "ru": "отдел регистрации жителей",
+   "pos": "noun"
+  },
+  {
+   "de": "enthalten",
+   "lemma": "enthalten",
+   "art": "",
+   "pl": "",
+   "forms": "enthält, enthielt, hat enthalten",
+   "ipa": "[ɛntˈhaltən]",
+   "ru": "содержать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Installateur",
+   "lemma": "Installateur",
+   "art": "der",
+   "pl": "die Installateure",
+   "forms": "",
+   "ipa": "[ɪnstalaˈtøːɐ̯]",
+   "ru": "сантехник",
+   "pos": "noun"
+  },
+  {
+   "de": "der Klempner",
+   "lemma": "Klempner",
+   "art": "der",
+   "pl": "die Klempner",
+   "forms": "",
+   "ipa": "[ˈklɛmpnɐ]",
+   "ru": "водопроводчик",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kachel",
+   "lemma": "Kachel",
+   "art": "die",
+   "pl": "die Kacheln",
+   "forms": "",
+   "ipa": "[ˈkaxəl]",
+   "ru": "кафель, плитка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Spatel",
+   "lemma": "Spatel",
+   "art": "der",
+   "pl": "die Spatel",
+   "forms": "",
+   "ipa": "[ˈʃpaːtəl]",
+   "ru": "шпатель",
+   "pos": "noun"
+  },
+  {
+   "de": "der Maler",
+   "lemma": "Maler",
+   "art": "der",
+   "pl": "die Maler",
+   "forms": "",
+   "ipa": "[ˈmaːlɐ]",
+   "ru": "маляр; художник",
+   "pos": "noun"
+  },
+  {
+   "de": "modernisieren",
+   "lemma": "modernisieren",
+   "art": "",
+   "pl": "",
+   "forms": "modernisiert, modernisierte, hat modernisiert",
+   "ipa": "[modɛʁniˈziːʁən]",
+   "ru": "модернизировать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Renovierung",
+   "lemma": "Renovierung",
+   "art": "die",
+   "pl": "die Renovierungen",
+   "forms": "",
+   "ipa": "[ʁenoˈviːʁʊŋ]",
+   "ru": "ремонт (обновление помещения)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Reparatur",
+   "lemma": "Reparatur",
+   "art": "die",
+   "pl": "die Reparaturen",
+   "forms": "",
+   "ipa": "[ʁepaʁaˈtuːɐ̯]",
+   "ru": "починка, ремонт",
+   "pos": "noun"
+  },
+  {
+   "de": "widersprechen",
+   "lemma": "widersprechen",
+   "art": "",
+   "pl": "",
+   "forms": "widerspricht, widersprach, hat widersprochen",
+   "ipa": "[ˌviːdɐˈʃpʁɛçən]",
+   "ru": "возражать",
+   "pos": "verb"
+  }
+ ]
+}

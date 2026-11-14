@@ -1,0 +1,68 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 20",
+ "sub": "Пять заданий в конце урока 20: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 20,
+  "s": "20.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 20.C",
+   "sub": "Закройте таблицы. Впишите только недостающие формы; am в четвёртом пункте уже есть.",
+   "items": [
+    {
+     "s": "Dieses Gespräch ist ___ als das Interview.",
+     "ru": "",
+     "a": [
+      "interessanter"
+     ],
+     "hint": "interessant",
+     "n": "Длинное прилагательное тоже получает <b>-er</b>."
+    },
+    {
+     "s": "Die Wohnung in Nippes ist ___ als die in Pankow.",
+     "ru": "",
+     "a": [
+      "besser"
+     ],
+     "hint": "gut",
+     "n": "Нужна особая сравнительная форма от <b>gut</b>."
+    },
+    {
+     "s": "Der Schrank ist genauso hoch ___ die Tür.",
+     "ru": "",
+     "a": [
+      "wie"
+     ],
+     "hint": "",
+     "n": "После <b>genauso</b> используется связка с <b>wie</b>."
+    },
+    {
+     "s": "Von den drei Töpfen ist dieser am ___.",
+     "ru": "",
+     "a": [
+      "größten"
+     ],
+     "hint": "groß",
+     "n": "У <b>groß</b> превосходная форма без дополнительной <b>e</b> перед <b>st</b>."
+    },
+    {
+     "s": "Ich suche eine ___ Wohnung.",
+     "ru": "",
+     "a": [
+      "größere"
+     ],
+     "hint": "groß, сравнительная степень",
+     "n": "К <b>größer</b> добавляется <b>-e</b> после <b>eine</b> в Akkusativ женского рода."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
 {
  "title": "Man с модальным: читаем правила дома",
  "topic": "Книга · 10.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -102,5 +102,85 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Правила дома",
+   "sub": "man + модальный",
+   "items": [
+    {
+     "s": "Im Haus ___ man nicht rauchen.",
+     "ru": "В доме нельзя курить.",
+     "o": [
+      "darf",
+      "dürfen"
+     ],
+     "a": "darf",
+     "n": "er darf → <b>man darf</b>; darf nicht — запрет."
+    },
+    {
+     "s": "Man ___ die Tür schließen.",
+     "ru": "Нужно закрывать дверь.",
+     "o": [
+      "muss",
+      "müssen"
+     ],
+     "a": "muss",
+     "n": "<b>man muss</b>, не man müssen."
+    },
+    {
+     "s": "Man muss nicht bar ___.",
+     "ru": "Необязательно платить наличными.",
+     "o": [
+      "zahlen",
+      "zahlt"
+     ],
+     "a": "zahlen",
+     "n": "После модального инфинитив."
+    },
+    {
+     "s": "___ man hier einsteigen?",
+     "ru": "Здесь можно сесть в поезд?",
+     "o": [
+      "Kann",
+      "Können"
+     ],
+     "a": "Kann",
+     "n": "<b>Kann man</b> — модальный первый."
+    },
+    {
+     "s": "Hier darf man nicht ___.",
+     "ru": "Здесь нельзя парковаться.",
+     "o": [
+      "parken",
+      "parkt"
+     ],
+     "a": "parken",
+     "n": "Инфинитив в конце."
+    },
+    {
+     "s": "Der ___ wohnt hier.",
+     "ru": "Этот мужчина живёт здесь.",
+     "o": [
+      "Mann",
+      "man"
+     ],
+     "a": "Mann",
+     "n": "der <b>Mann</b> — мужчина, с двумя n и артиклем."
+    },
+    {
+     "s": "Hier ___ man leise sein.",
+     "ru": "Здесь нужно вести себя тихо.",
+     "o": [
+      "soll",
+      "sollen"
+     ],
+     "a": "soll",
+     "n": "<b>man soll</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

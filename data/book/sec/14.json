@@ -1,0 +1,76 @@
+{
+"14.1": [
+ {"type":"choice","title":"Время на календаре","sub":"um, gegen, am, im, Ende","items":[
+  {"s":"Der Kurs beginnt ___ halb neun.","ru":"Курс начинается в половине девятого.","o":["um","am"],"a":"um","n":"Время на часах — <b>um</b>."},
+  {"s":"Ich komme ___ acht.","ru":"Я приду около восьми.","o":["gegen","um"],"a":"gegen","n":"Примерно — <b>gegen</b>."},
+  {"s":"Wir sehen uns ___ Freitag.","ru":"Увидимся в пятницу.","o":["am","im"],"a":"am","n":"День — <b>am</b>."},
+  {"s":"___ Juni fahren wir nach Hamburg.","ru":"В июне мы едем в Гамбург.","o":["Im","Am"],"a":"Im","n":"Месяц — <b>im</b>."},
+  {"s":"___ Juni fahren wir nach Hamburg.","ru":"В конце июня мы едем в Гамбург.","o":["Ende","Am Ende"],"a":"Ende","n":"<b>Ende Juni</b>, без предлога."},
+  {"s":"Das war ___.","ru":"Это было в 2026 году.","o":["2026","in 2026"],"a":"2026","n":"Год просто числом или im Jahr 2026."},
+  {"s":"___ kommt meine Schwester.","ru":"Послезавтра приезжает моя сестра.","o":["Übermorgen","Vorgestern"],"a":"Übermorgen","n":"<b>übermorgen</b> — послезавтра."}
+ ]}
+],
+"14.2": [
+ {"type":"type","title":"Падеж выбирает предлог","sub":"in/an/vor/nach/seit — Dativ; um/für/über — Akkusativ","items":[
+  {"s":"Ich komme nach ___ Frühstück.","ru":"Я приду после завтрака.","a":["dem"],"hint":"das Frühstück","n":"nach + Dativ."},
+  {"s":"Ich wohne seit ___ Jahr hier.","ru":"Я живу здесь уже год.","a":["einem"],"hint":"ein Jahr","n":"seit + Dativ: <b>einem</b>."},
+  {"s":"Wir treffen uns vor ___ Kurs.","ru":"Встретимся перед курсом.","a":["dem"],"hint":"der Kurs","n":"vor + Dativ."},
+  {"s":"Das Paket kommt in ___ Woche.","ru":"Посылка придёт через неделю.","a":["einer"],"hint":"eine Woche","n":"in + Dativ: <b>einer</b>."},
+  {"s":"Ich fahre ___ Montag nach Bonn.","ru":"В следующий понедельник я еду в Бонн.","a":["nächsten"],"hint":"nächst-","n":"Без предлога — Akkusativ: <b>nächsten Montag</b>."},
+  {"s":"Ich arbeite bis ___ Abend.","ru":"Я работаю до вечера.","a":["zum"],"hint":"zu + dem","n":"bis zum."},
+  {"s":"Ab ___ ersten Juli arbeite ich hier.","ru":"С первого июля я работаю здесь.","a":["dem"],"hint":"der erste","n":"ab + Dativ."}
+ ]}
+],
+"14.3": [
+ {"type":"choice","title":"Назад, через, с, до","sub":"От какой точки считаем","items":[
+  {"s":"___ drei Tagen habe ich Paul angerufen.","ru":"Три дня назад я позвонил Паулю.","o":["Vor","In","Nach"],"a":"Vor","n":"Назад от сейчас — <b>vor</b>."},
+  {"s":"___ drei Tagen rufe ich Paul an.","ru":"Через три дня я позвоню Паулю.","o":["In","Vor","Nach"],"a":"In","n":"Вперёд от сейчас — <b>in</b>."},
+  {"s":"Ich war in Bonn. ___ zwei Tagen bin ich nach Köln gefahren.","ru":"Я был в Бонне. Через два дня поехал в Кёльн.","o":["Nach","In","Vor"],"a":"Nach","n":"Внутри прошлого рассказа — <b>nach</b>."},
+  {"s":"___ Mittwoch fahre ich mit dem Fahrrad.","ru":"Со среды я езжу на велосипеде (и сейчас тоже).","o":["Seit","Ab"],"a":"Seit","n":"Началось и продолжается — <b>seit</b>."},
+  {"s":"___ Mittwoch fahre ich mit dem Fahrrad.","ru":"Со среды я буду ездить на велосипеде.","o":["Ab","Seit"],"a":"Ab","n":"Будущий старт — <b>ab</b>."},
+  {"s":"Ich fahre ___ vier Tage nach Berlin.","ru":"Я еду в Берлин на четыре дня.","o":["für","seit"],"a":"für","n":"Запланированный срок — <b>für</b>."},
+  {"s":"Ich rufe ___ dem Mittagessen an.","ru":"Я позвоню перед обедом.","o":["vor","bis zu"],"a":"vor","n":"Раньше обеда — <b>vor</b>."}
+ ]}
+],
+"14.4": [
+ {"type":"build","title":"Seit + настоящее","sub":"Продолжается сейчас — Präsens","items":[
+  {"ru":"Я уже месяц живу в Бонне.","w":["Ich","wohne","seit","einem","Monat","in","Bonn."],"ok":["Ich wohne seit einem Monat in Bonn."],"n":"Продолжается — Präsens + seit."},
+  {"ru":"Я месяц жил в Бонне (и уехал).","w":["Ich","habe","einen","Monat","in","Bonn","gewohnt."],"ok":["Ich habe einen Monat in Bonn gewohnt."],"n":"Закончилось — Perfekt без seit."},
+  {"ru":"С какого времени ты здесь работаешь?","w":["Seit","wann","arbeitest","du","hier?"],"ok":["Seit wann arbeitest du hier?"],"n":"<b>Seit wann</b> + Präsens."},
+  {"ru":"Как давно ты живёшь в Кёльне?","w":["Wie","lange","wohnst","du","schon","in","Köln?"],"ok":["Wie lange wohnst du schon in Köln?"],"n":"<b>schon</b> подчёркивает продолжение."},
+  {"ru":"Я не видел Пауля со вторника.","w":["Ich","habe","Paul","seit","Dienstag","nicht","gesehen."],"ok":["Ich habe Paul seit Dienstag nicht gesehen."],"n":"С отрицанием возможен Perfekt."}
+ ]}
+],
+"14.5": [
+ {"type":"choice","title":"Куда, где, откуда","sub":"zu/bei/von, nach/in/aus, nach Hause/zu Hause","items":[
+  {"s":"Ich gehe heute ___ Jonas.","ru":"Я иду сегодня к Йонасу.","o":["zu","bei","nach"],"a":"zu","n":"К человеку — <b>zu</b>."},
+  {"s":"Ich bin heute ___ Jonas.","ru":"Я сегодня у Йонаса.","o":["bei","zu","in"],"a":"bei","n":"У человека — <b>bei</b>."},
+  {"s":"Ich muss ___ Arzt.","ru":"Мне нужно к врачу.","o":["zum","beim","vom"],"a":"zum","n":"Куда — <b>zum Arzt</b>."},
+  {"s":"Ich komme gerade ___ Arzt.","ru":"Я как раз от врача.","o":["vom","zum","beim"],"a":"vom","n":"Откуда — <b>vom Arzt</b>."},
+  {"s":"Ich fahre jetzt ___ Hause.","ru":"Я сейчас еду домой.","o":["nach","zu"],"a":"nach","n":"Куда — <b>nach Hause</b>."},
+  {"s":"Paul ist heute ___ Hause.","ru":"Пауль сегодня дома.","o":["zu","nach"],"a":"zu","n":"Где — <b>zu Hause</b>."},
+  {"s":"Sie kommt ___ Köln.","ru":"Она из Кёльна.","o":["aus","von","nach"],"a":"aus","n":"Город — <b>aus</b>."}
+ ]}
+],
+"14.6": [
+ {"type":"type","title":"Одно «на», разные адреса","sub":"zur Arbeit, ins Kino, in die Schweiz","items":[
+  {"s":"Ich fahre ___ Arbeit.","ru":"Я еду на работу.","a":["zur"],"hint":"zu + der","n":"<b>zur Arbeit</b>."},
+  {"s":"Wir gehen ___ Bahnhof.","ru":"Мы идём на вокзал.","a":["zum"],"hint":"zu + dem","n":"<b>zum Bahnhof</b>."},
+  {"s":"Wir gehen heute ___ Kino.","ru":"Сегодня мы идём в кино.","a":["ins"],"hint":"in + das","n":"Внутрь здания: <b>ins Kino</b>."},
+  {"s":"Sie fliegt ___ Schweiz.","ru":"Она летит в Швейцарию.","a":["in die"],"hint":"die Schweiz","n":"Страна с артиклем — <b>in die</b>."},
+  {"s":"Er fährt ___ Deutschland.","ru":"Он едет в Германию.","a":["nach"],"hint":"без артикля","n":"Страна без артикля — <b>nach</b>."},
+  {"s":"Mama ist ___ Küche.","ru":"Мама на кухне.","a":["in der"],"hint":"die Küche","n":"Не auf: <b>in der Küche</b>."},
+  {"s":"Ich bringe den Brief ___ Post.","ru":"Я несу письмо на почту.","a":["zur"],"hint":"zu + der","n":"<b>zur Post</b>."}
+ ]}
+],
+"14.7": [
+ {"type":"build","title":"Дорога и длительность","sub":"an der Kreuzung, durch den Park, dauern","items":[
+  {"ru":"На перекрёстке вы идёте направо.","w":["Sie","gehen","an","der","Kreuzung","nach","rechts."],"ok":["Sie gehen an der Kreuzung nach rechts."],"n":"<b>an der Kreuzung</b>, <b>nach rechts</b>."},
+  {"ru":"Потом идёте через парк, мимо ратуши.","w":["Dann","gehen","Sie","durch","den","Park,","am","Rathaus","vorbei."],"ok":["Dann gehen Sie durch den Park, am Rathaus vorbei."],"n":"durch + Akkusativ; am … vorbei."},
+  {"ru":"Аптека напротив ратуши.","w":["Die","Apotheke","ist","gegenüber","dem","Rathaus."],"ok":["Die Apotheke ist gegenüber dem Rathaus.","Die Apotheke ist dem Rathaus gegenüber."],"n":"gegenüber + Dativ."},
+  {"ru":"Поездка занимает двадцать пять минут.","w":["Die","Fahrt","dauert","fünfundzwanzig","Minuten."],"ok":["Die Fahrt dauert fünfundzwanzig Minuten."],"n":"<b>dauern</b> — длиться."},
+  {"ru":"Мне нужен час.","w":["Ich","brauche","eine","Stunde."],"ok":["Ich brauche eine Stunde."],"n":"<b>brauchen</b> + время."},
+  {"ru":"Идите через мост.","w":["Gehen","Sie","über","die","Brücke."],"ok":["Gehen Sie über die Brücke."],"n":"über + Akkusativ."}
+ ]}
+]
+}

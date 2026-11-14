@@ -1,0 +1,851 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 29",
+ "sub": "Упражнения урока 29 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 29,
+  "s": "29.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 29.1",
+   "sub": "Дополните объявление формами Präsens Passiv. В каждом пункте два пропуска: форма werden и Partizip II указанного глагола.",
+   "items": [
+    {
+     "s": "Ab Montag ___ der Keller ….",
+     "ru": "",
+     "a": [
+      "wird"
+     ],
+     "hint": "reinigen",
+     "n": "Подлежащее <b>der Keller</b> в единственном числе."
+    },
+    {
+     "s": "Ab Montag wird der Keller ___.",
+     "ru": "",
+     "a": [
+      "gereinigt"
+     ],
+     "hint": "reinigen",
+     "n": "Подлежащее <b>der Keller</b> в единственном числе."
+    },
+    {
+     "s": "Zuerst ___ die alten Regale ….",
+     "ru": "",
+     "a": [
+      "werden"
+     ],
+     "hint": "entfernen",
+     "n": "У <b>entfernen</b> нет <b>ge-</b>; подлежащее во множественном числе."
+    },
+    {
+     "s": "Zuerst werden die alten Regale ___.",
+     "ru": "",
+     "a": [
+      "entfernt"
+     ],
+     "hint": "entfernen",
+     "n": "У <b>entfernen</b> нет <b>ge-</b>; подлежащее во множественном числе."
+    },
+    {
+     "s": "Danach ___ der Abfall ….",
+     "ru": "",
+     "a": [
+      "wird"
+     ],
+     "hint": "entsorgen",
+     "n": "<b>Der Abfall</b> стоит в единственном числе."
+    },
+    {
+     "s": "Danach wird der Abfall ___.",
+     "ru": "",
+     "a": [
+      "entsorgt"
+     ],
+     "hint": "entsorgen",
+     "n": "<b>Der Abfall</b> стоит в единственном числе."
+    },
+    {
+     "s": "Die kaputten Lampen ___ ….",
+     "ru": "",
+     "a": [
+      "werden"
+     ],
+     "hint": "ersetzen",
+     "n": "Несколько ламп дают <b>werden</b>."
+    },
+    {
+     "s": "Die kaputten Lampen werden ___.",
+     "ru": "",
+     "a": [
+      "ersetzt"
+     ],
+     "hint": "ersetzen",
+     "n": "Несколько ламп дают <b>werden</b>."
+    },
+    {
+     "s": "Die Fläche ___ genau ….",
+     "ru": "",
+     "a": [
+      "wird"
+     ],
+     "hint": "messen",
+     "n": "У сильного глагола причастие <b>gemessen</b>."
+    },
+    {
+     "s": "Die Fläche wird genau ___.",
+     "ru": "",
+     "a": [
+      "gemessen"
+     ],
+     "hint": "messen",
+     "n": "У сильного глагола причастие <b>gemessen</b>."
+    },
+    {
+     "s": "Das Material ___ in den Hof ….",
+     "ru": "",
+     "a": [
+      "wird"
+     ],
+     "hint": "bringen",
+     "n": "Особая форма: <b>bringen</b>, но <b>gebracht</b>."
+    },
+    {
+     "s": "Das Material wird in den Hof ___.",
+     "ru": "",
+     "a": [
+      "gebracht"
+     ],
+     "hint": "bringen",
+     "n": "Особая форма: <b>bringen</b>, но <b>gebracht</b>."
+    },
+    {
+     "s": "Der neue Schrank ___ in den Keller ….",
+     "ru": "",
+     "a": [
+      "wird"
+     ],
+     "hint": "tragen",
+     "n": "Причастие от <b>tragen</b>: <b>getragen</b>."
+    },
+    {
+     "s": "Der neue Schrank wird in den Keller ___.",
+     "ru": "",
+     "a": [
+      "getragen"
+     ],
+     "hint": "tragen",
+     "n": "Причастие от <b>tragen</b>: <b>getragen</b>."
+    },
+    {
+     "s": "Der alte Schrank ___ ….",
+     "ru": "",
+     "a": [
+      "wird"
+     ],
+     "hint": "abholen",
+     "n": "<b>ge-</b> стоит между приставкой и основой."
+    },
+    {
+     "s": "Der alte Schrank wird ___.",
+     "ru": "",
+     "a": [
+      "abgeholt"
+     ],
+     "hint": "abholen",
+     "n": "<b>ge-</b> стоит между приставкой и основой."
+    },
+    {
+     "s": "Die neuen Lampen ___ ….",
+     "ru": "",
+     "a": [
+      "werden"
+     ],
+     "hint": "anschließen",
+     "n": "Множественное число и причастие отделяемого глагола."
+    },
+    {
+     "s": "Die neuen Lampen werden ___.",
+     "ru": "",
+     "a": [
+      "angeschlossen"
+     ],
+     "hint": "anschließen",
+     "n": "Множественное число и причастие отделяемого глагола."
+    },
+    {
+     "s": "Danach ___ die Tür zum Hof ….",
+     "ru": "",
+     "a": [
+      "wird"
+     ],
+     "hint": "reparieren",
+     "n": "У глаголов на <b>-ieren</b> нет <b>ge-</b>."
+    },
+    {
+     "s": "Danach wird die Tür zum Hof ___.",
+     "ru": "",
+     "a": [
+      "repariert"
+     ],
+     "hint": "reparieren",
+     "n": "У глаголов на <b>-ieren</b> нет <b>ge-</b>."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 29.2",
+   "sub": "Переведите в пассив в указанном времени. Начинайте новым подлежащим; если в предложении есть год, можно начать с него. Исполнителя и причину уберите, кроме пункта 9. В пункте 10 сохраните способ с durch.",
+   "items": [
+    {
+     "ru": "Die Handwerker verpacken das Werkzeug. Präsens.",
+     "w": [
+      "Das",
+      "Werkzeug",
+      "wird",
+      "verpackt"
+     ],
+     "ok": [
+      "Das Werkzeug wird verpackt"
+     ],
+     "n": "Вещь становится подлежащим, действие стоит в причастии."
+    },
+    {
+     "ru": "Die Firma produziert die Waren. Präsens.",
+     "w": [
+      "Die",
+      "Waren",
+      "werden",
+      "produziert"
+     ],
+     "ok": [
+      "Die Waren werden produziert"
+     ],
+     "n": "Множественное число: <b>werden</b>."
+    },
+    {
+     "ru": "Man baute das Gebäude 1926. Präteritum.",
+     "w": [
+      "Das",
+      "Gebäude",
+      "wurde",
+      "1926",
+      "gebaut"
+     ],
+     "ok": [
+      "Das Gebäude wurde 1926 gebaut"
+     ],
+     "n": "Дата события сочетается с <b>wurde</b>."
+    },
+    {
+     "ru": "Man eröffnete die Werkstatt 1978. Präteritum.",
+     "w": [
+      "Die",
+      "Werkstatt",
+      "wurde",
+      "1978",
+      "eröffnet"
+     ],
+     "ok": [
+      "Die Werkstatt wurde 1978 eröffnet"
+     ],
+     "n": "Сообщаем об открытии мастерской."
+    },
+    {
+     "ru": "Der Sturm zerstörte die Garage. Präteritum.",
+     "w": [
+      "Die",
+      "Garage",
+      "wurde",
+      "zerstört"
+     ],
+     "ok": [
+      "Die Garage wurde zerstört"
+     ],
+     "n": "Причину по условию опускаем."
+    },
+    {
+     "ru": "Die Mitarbeiterin hat die Unterlagen kopiert. Perfekt.",
+     "w": [
+      "Die",
+      "Unterlagen",
+      "sind",
+      "kopiert",
+      "worden"
+     ],
+     "ok": [
+      "Die Unterlagen sind kopiert worden"
+     ],
+     "n": "Согласуем <b>sind</b> с документами; в конце <b>worden</b>."
+    },
+    {
+     "ru": "Die Firma hat den Auftrag übernommen. Perfekt.",
+     "w": [
+      "Der",
+      "Auftrag",
+      "ist",
+      "übernommen",
+      "worden"
+     ],
+     "ok": [
+      "Der Auftrag ist übernommen worden"
+     ],
+     "n": "В пассивном Perfekt нужен <b>sein</b>."
+    },
+    {
+     "ru": "Die Handwerker haben das Loch gefunden. Perfekt.",
+     "w": [
+      "Das",
+      "Loch",
+      "ist",
+      "gefunden",
+      "worden"
+     ],
+     "ok": [
+      "Das Loch ist gefunden worden"
+     ],
+     "n": "Сильное причастие <b>gefunden</b> и вспомогательное <b>worden</b>."
+    },
+    {
+     "ru": "Die Behörde genehmigt das Projekt. Präsens; назовите исполнителя с von.",
+     "w": [
+      "Das",
+      "Projekt",
+      "wird",
+      "von",
+      "der",
+      "Behörde",
+      "genehmigt"
+     ],
+     "ok": [
+      "Das Projekt wird von der Behörde genehmigt"
+     ],
+     "n": "<b>Von</b> управляет Dativ, организация тоже может быть исполнителем."
+    },
+    {
+     "ru": "Man informiert die Nachbarn durch einen Anruf. Präsens.",
+     "w": [
+      "Die",
+      "Nachbarn",
+      "werden",
+      "durch",
+      "einen",
+      "Anruf",
+      "informiert"
+     ],
+     "ok": [
+      "Die Nachbarn werden durch einen Anruf informiert"
+     ],
+     "n": "Звонок — способ передать информацию; после <b>durch</b> стоит Akkusativ."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 29.3",
+   "sub": "Прочитайте, что происходит, и выберите форму для немецкой фразы. В каждом пункте верен один вариант.",
+   "items": [
+    {
+     "s": "Das Fenster ___ geschlossen.",
+     "ru": "Рабочий как раз закрывает окно",
+     "o": [
+      "wird",
+      "ist"
+     ],
+     "a": "wird",
+     "n": "Закрывание происходит сейчас."
+    },
+    {
+     "s": "Das Fenster ___ schon geschlossen.",
+     "ru": "Окно закрыто, можно не вставать",
+     "o": [
+      "wird",
+      "ist"
+     ],
+     "a": "ist",
+     "n": "Описываем результат, поэтому <b>ist</b>."
+    },
+    {
+     "s": "Der Drucker ___ repariert.",
+     "ru": "Мастерица сидит у принтера с отвёрткой",
+     "o": [
+      "ist",
+      "wird"
+     ],
+     "a": "wird",
+     "n": "Работа ещё идёт."
+    },
+    {
+     "s": "Der Drucker ___ schon repariert.",
+     "ru": "Принтер снова печатает",
+     "o": [
+      "ist",
+      "wird"
+     ],
+     "a": "ist",
+     "n": "Состояние техники выражаем через <b>sein</b>."
+    },
+    {
+     "s": "Das Haus ___ 1930 gebaut.",
+     "ru": "Дом построили в 1930 году",
+     "o": [
+      "war",
+      "wurde"
+     ],
+     "a": "wurde",
+     "n": "Нужна форма действия в прошлом."
+    },
+    {
+     "s": "1930 ___ das Haus schon gebaut.",
+     "ru": "В 1930 году дом уже стоял",
+     "o": [
+      "war",
+      "wurde"
+     ],
+     "a": "war",
+     "n": "Дом к тому моменту уже стоял."
+    },
+    {
+     "s": "Das Formular ___ am Montag ausgefüllt.",
+     "ru": "В понедельник сотрудница заполнила бланк",
+     "o": [
+      "wurde",
+      "war"
+     ],
+     "a": "wurde",
+     "n": "Здесь рассказываем о заполнении."
+    },
+    {
+     "s": "Das Formular ___ schon ausgefüllt.",
+     "ru": "Когда мы его проверяли, бланк уже был заполнен",
+     "o": [
+      "wurde",
+      "war"
+     ],
+     "a": "war",
+     "n": "Смотрим на готовый документ в прошлом."
+    },
+    {
+     "s": "Die Lampe ___ ersetzt.",
+     "ru": "Рабочий стоит на стремянке и меняет лампу",
+     "o": [
+      "ist",
+      "wird"
+     ],
+     "a": "wird",
+     "n": "Замена происходит в момент речи."
+    },
+    {
+     "s": "Die Tür ___ schon abgeschlossen.",
+     "ru": "Когда мы пришли, дверь уже была заперта",
+     "o": [
+      "war",
+      "wurde"
+     ],
+     "a": "war",
+     "n": "Это состояние двери к нашему приходу."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 29.4",
+   "sub": "Поставьте действие в пассив. Начинайте новым подлежащим и опускайте исполнителя. В пункте 6 сохраните Ich weiß, dass и начните придаточное новым подлежащим.",
+   "items": [
+    {
+     "ru": "Man muss den Staub entfernen.",
+     "w": [
+      "Der",
+      "Staub",
+      "muss",
+      "entfernt",
+      "werden"
+     ],
+     "ok": [
+      "Der Staub muss entfernt werden"
+     ],
+     "n": "После причастия нужен пассивный инфинитив <b>werden</b>."
+    },
+    {
+     "ru": "Man kann das Werkzeug benutzen.",
+     "w": [
+      "Das",
+      "Werkzeug",
+      "kann",
+      "benutzt",
+      "werden"
+     ],
+     "ok": [
+      "Das Werkzeug kann benutzt werden"
+     ],
+     "n": "Возможность остаётся в <b>kann</b>."
+    },
+    {
+     "ru": "Man darf die Heizung nicht einschalten.",
+     "w": [
+      "Die",
+      "Heizung",
+      "darf",
+      "nicht",
+      "eingeschaltet",
+      "werden"
+     ],
+     "ok": [
+      "Die Heizung darf nicht eingeschaltet werden"
+     ],
+     "n": "Запрет: <b>darf nicht</b>; приставка входит в причастие."
+    },
+    {
+     "ru": "Man soll die Fläche messen.",
+     "w": [
+      "Die",
+      "Fläche",
+      "soll",
+      "gemessen",
+      "werden"
+     ],
+     "ok": [
+      "Die Fläche soll gemessen werden"
+     ],
+     "n": "Поручение и сильное причастие <b>gemessen</b>."
+    },
+    {
+     "ru": "Man musste den Termin verschieben.",
+     "w": [
+      "Der",
+      "Termin",
+      "musste",
+      "verschoben",
+      "werden"
+     ],
+     "ok": [
+      "Der Termin musste verschoben werden"
+     ],
+     "n": "Прошедшее выражает <b>musste</b>."
+    },
+    {
+     "ru": "Ich weiß, dass man den Vertrag verlängern muss.",
+     "w": [
+      "Ich",
+      "weiß,",
+      "dass",
+      "der",
+      "Vertrag",
+      "verlängert",
+      "werden",
+      "muss"
+     ],
+     "ok": [
+      "Ich weiß, dass der Vertrag verlängert werden muss"
+     ],
+     "n": "В придаточном личная форма <b>muss</b> стоит после <b>werden</b>."
+    },
+    {
+     "ru": "Der Eigentümer will die Garage verkaufen.",
+     "w": [
+      "Die",
+      "Garage",
+      "soll",
+      "verkauft",
+      "werden"
+     ],
+     "ok": [
+      "Die Garage soll verkauft werden"
+     ],
+     "n": "Желание принадлежит владельцу; для гаража это чужой план, поэтому <b>soll</b>."
+    },
+    {
+     "ru": "Die Firma will die Fenster ersetzen.",
+     "w": [
+      "Die",
+      "Fenster",
+      "sollen",
+      "ersetzt",
+      "werden"
+     ],
+     "ok": [
+      "Die Fenster sollen ersetzt werden"
+     ],
+     "n": "Фирма планирует замену; окна не выражают собственного желания."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 29.5",
+   "sub": "Переведите. В пунктах 1–7 подойдёт пассив или man, в пункте 8 опишите состояние. Используйте слова в скобках и начинайте подлежащим, получателем в Dativ, временем, местом или формальным es.",
+   "items": [
+    {
+     "ru": "Мне помогли. (helfen)",
+     "w": [
+      "Mir",
+      "wurde",
+      "geholfen"
+     ],
+     "ok": [
+      "Mir wurde geholfen"
+     ],
+     "n": "Получатель помощи остаётся в Dativ."
+    },
+    {
+     "ru": "Ей ничего не сказали. (sagen)",
+     "w": [
+      "Ihr",
+      "wurde",
+      "nichts",
+      "gesagt"
+     ],
+     "ok": [
+      "Ihr wurde nichts gesagt"
+     ],
+     "n": "<b>Ihr</b> означает «ей»; <b>nichts</b> остаётся единственным числом."
+    },
+    {
+     "ru": "Жильцам прислали письмо. (schicken; жильцы с определённым артиклем, письмо с неопределённым; если письмо не стоит первым, получатель идёт перед ним)",
+     "w": [
+      "Den",
+      "Mietern",
+      "wurde",
+      "ein",
+      "Brief",
+      "geschickt"
+     ],
+     "ok": [
+      "Den Mietern wurde ein Brief geschickt"
+     ],
+     "n": "Подлежащим пассива становится письмо; жильцы остаются в Dativ с окончанием <b>-n</b>."
+    },
+    {
+     "ru": "Здесь не курят. (rauchen)",
+     "w": [
+      "Hier",
+      "wird",
+      "nicht",
+      "geraucht"
+     ],
+     "ok": [
+      "Hier wird nicht geraucht"
+     ],
+     "n": "В пассиве подлежащего нет; <b>es</b> возможно только в начале этой модели."
+    },
+    {
+     "ru": "По воскресеньям не работают. (arbeiten; am Sonntag)",
+     "w": [
+      "Am",
+      "Sonntag",
+      "wird",
+      "nicht",
+      "gearbeitet"
+     ],
+     "ok": [
+      "Am Sonntag wird nicht gearbeitet"
+     ],
+     "n": "Обычное правило: Präsens и единственное число без подлежащего."
+    },
+    {
+     "ru": "Этот дом был построен в 1948 году. (bauen; событие; dieses Haus; год без предлога)",
+     "w": [
+      "Dieses",
+      "Haus",
+      "wurde",
+      "1948",
+      "gebaut"
+     ],
+     "ok": [
+      "Dieses Haus wurde 1948 gebaut"
+     ],
+     "n": "Событию соответствует <b>wurde</b> или пассивный Perfekt; <b>war</b> описывало бы состояние."
+    },
+    {
+     "ru": "Окна моют каждую неделю. (putzen; die Fenster; jede Woche)",
+     "w": [
+      "Die",
+      "Fenster",
+      "werden",
+      "jede",
+      "Woche",
+      "geputzt"
+     ],
+     "ok": [
+      "Die Fenster werden jede Woche geputzt"
+     ],
+     "n": "Окна не моют себя; в пассиве <b>werden</b>, в активе <b>man</b>."
+    },
+    {
+     "ru": "Офис закрыт. (schließen; состояние сейчас)",
+     "w": [
+      "Das",
+      "Büro",
+      "ist",
+      "geschlossen"
+     ],
+     "ok": [
+      "Das Büro ist geschlossen"
+     ],
+     "n": "<b>Sein</b> с причастием описывает состояние офиса."
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 29.6",
+   "scene": "Ansage",
+   "cap": "Как обрабатывают заявление",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Сообщение городского ведомства: этапы обработки заявления.",
+   "audio": {
+    "id": "book-29-6",
+    "n": 2,
+    "dur": 30.51,
+    "t": [
+     [
+      0.8,
+      9.32
+     ],
+     [
+      9.32,
+      15.92
+     ],
+     [
+      15.92,
+      24.64
+     ],
+     [
+      24.64,
+      30.08
+     ]
+    ]
+   },
+   "speakers": {
+    "Amt": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Amt",
+     "de": "So wird Ihr Antrag bearbeitet. Sie müssen das Formular selbst ausfüllen und unterschreiben. Dann schicken Sie es mit den Unterlagen an uns.",
+     "ru": "Так обрабатывают ваше заявление. Бланк нужно самому заполнить и подписать. Потом отправьте его нам вместе с документами."
+    },
+    {
+     "who": "Amt",
+     "de": "Zuerst wird Ihr Brief geöffnet. Danach werden die Unterlagen überprüft. Dann wird die Gebühr berechnet.",
+     "ru": "Сначала открывают ваше письмо. Потом проверяют документы. Затем рассчитывают сбор."
+    },
+    {
+     "who": "Amt",
+     "de": "In unserem Beispiel ist der Antrag in Ordnung. Er wird genehmigt. Dann wird das Dokument unterschrieben. Zuletzt wird es Ihnen geschickt.",
+     "ru": "В нашем примере заявление в порядке. Его одобряют. Потом документ подписывают. Наконец его отправляют вам."
+    },
+    {
+     "who": "Amt",
+     "de": "Wenn Sie das Dokument bekommen haben, müssen Sie die Gebühr bezahlen. Sie brauchen nicht selbst zu kommen.",
+     "ru": "Когда вы получите документ, нужно оплатить сбор. Приходить самому не нужно."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Что делают первым?",
+     "o": [
+      "открывают письмо",
+      "проверяют документы",
+      "рассчитывают сбор"
+     ],
+     "a": "открывают письмо",
+     "n": "<b>Zuerst</b> wird Ihr Brief geöffnet. ",
+     "k": 1
+    },
+    {
+     "q": "Что вторым?",
+     "o": [
+      "проверяют документы",
+      "рассчитывают сбор",
+      "одобряют заявление"
+     ],
+     "a": "проверяют документы",
+     "n": "<b>Danach</b> werden die Unterlagen überprüft. Unterlagen — мн. число → werden.",
+     "k": 1
+    },
+    {
+     "q": "Что третьим?",
+     "o": [
+      "рассчитывают сбор",
+      "подписывают документ",
+      "открывают письмо"
+     ],
+     "a": "рассчитывают сбор",
+     "n": "<b>Dann</b> wird die Gebühr berechnet. ",
+     "k": 1
+    },
+    {
+     "q": "Что сразу после одобрения?",
+     "o": [
+      "документ подписывают",
+      "документ отправляют",
+      "письмо открывают"
+     ],
+     "a": "документ подписывают",
+     "n": "Er wird genehmigt. Dann wird das Dokument <b>unterschrieben</b>. ",
+     "k": 2
+    },
+    {
+     "q": "Что последним?",
+     "o": [
+      "документ отправляют",
+      "сбор рассчитывают",
+      "документ подписывают"
+     ],
+     "a": "документ отправляют",
+     "n": "<b>Zuletzt</b> wird es Ihnen geschickt. ",
+     "k": 2
+    },
+    {
+     "q": "Что заявитель делает до отправки?",
+     "o": [
+      "заполняет и подписывает бланк",
+      "оплачивает сбор",
+      "приходит лично"
+     ],
+     "a": "заполняет и подписывает бланк",
+     "n": "Sie müssen das Formular selbst <b>ausfüllen und unterschreiben</b>. ",
+     "k": 0
+    },
+    {
+     "q": "Что сделать, когда пришёл документ?",
+     "o": [
+      "оплатить сбор",
+      "прийти лично",
+      "подписать бланк"
+     ],
+     "a": "оплатить сбор",
+     "n": "müssen Sie <b>die Gebühr bezahlen</b>. Приходить не нужно.",
+     "k": 3
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 29.6",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  }
+ ]
+}

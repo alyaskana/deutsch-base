@@ -1,0 +1,1095 @@
+{
+ "l": 24,
+ "words": [
+  {
+   "de": "das Amt",
+   "lemma": "Amt",
+   "art": "das",
+   "pl": "die Ämter",
+   "forms": "",
+   "ipa": "[amt]",
+   "ru": "ведомство, учреждение",
+   "pos": "noun"
+  },
+  {
+   "de": "die Behörde",
+   "lemma": "Behörde",
+   "art": "die",
+   "pl": "die Behörden",
+   "forms": "",
+   "ipa": "[bəˈhøːɐ̯də]",
+   "ru": "орган власти",
+   "pos": "noun"
+  },
+  {
+   "de": "der Antrag",
+   "lemma": "Antrag",
+   "art": "der",
+   "pl": "die Anträge",
+   "forms": "",
+   "ipa": "[ˈantʁaːk]",
+   "ru": "заявление",
+   "pos": "noun"
+  },
+  {
+   "de": "beantragen",
+   "lemma": "beantragen",
+   "art": "",
+   "pl": "",
+   "forms": "beantragte, hat beantragt",
+   "ipa": "[bəˈʔantʁaːɡən]",
+   "ru": "подать заявление",
+   "pos": "verb"
+  },
+  {
+   "de": "die Urkunde",
+   "lemma": "Urkunde",
+   "art": "die",
+   "pl": "die Urkunden",
+   "forms": "",
+   "ipa": "[ˈuːɐ̯kʊndə]",
+   "ru": "свидетельство, грамота",
+   "pos": "noun"
+  },
+  {
+   "de": "der Stempel",
+   "lemma": "Stempel",
+   "art": "der",
+   "pl": "die Stempel",
+   "forms": "",
+   "ipa": "[ˈʃtɛmpəl]",
+   "ru": "печать, штамп",
+   "pos": "noun"
+  },
+  {
+   "de": "die Gebühr",
+   "lemma": "Gebühr",
+   "art": "die",
+   "pl": "die Gebühren",
+   "forms": "",
+   "ipa": "[ɡəˈbyːɐ̯]",
+   "ru": "сбор, пошлина",
+   "pos": "noun"
+  },
+  {
+   "de": "die Frist",
+   "lemma": "Frist",
+   "art": "die",
+   "pl": "die Fristen",
+   "forms": "",
+   "ipa": "[fʁɪst]",
+   "ru": "срок",
+   "pos": "noun"
+  },
+  {
+   "de": "fällig",
+   "lemma": "fällig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfɛlɪç]",
+   "ru": "подлежащий оплате",
+   "pos": "adj"
+  },
+  {
+   "de": "die Mahnung",
+   "lemma": "Mahnung",
+   "art": "die",
+   "pl": "die Mahnungen",
+   "forms": "",
+   "ipa": "[ˈmaːnʊŋ]",
+   "ru": "напоминание об оплате",
+   "pos": "noun"
+  },
+  {
+   "de": "das Einschreiben",
+   "lemma": "Einschreiben",
+   "art": "das",
+   "pl": "die Einschreiben",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nʃʁaɪ̯bən]",
+   "ru": "заказное письмо",
+   "pos": "noun"
+  },
+  {
+   "de": "die Anlage",
+   "lemma": "Anlage",
+   "art": "die",
+   "pl": "die Anlagen",
+   "forms": "",
+   "ipa": "[ˈanlaːɡə]",
+   "ru": "приложение к письму",
+   "pos": "noun"
+  },
+  {
+   "de": "der Beleg",
+   "lemma": "Beleg",
+   "art": "der",
+   "pl": "die Belege",
+   "forms": "",
+   "ipa": "[bəˈleːk]",
+   "ru": "квитанция, чек",
+   "pos": "noun"
+  },
+  {
+   "de": "der Betrag",
+   "lemma": "Betrag",
+   "art": "der",
+   "pl": "die Beträge",
+   "forms": "",
+   "ipa": "[bəˈtʁaːk]",
+   "ru": "сумма",
+   "pos": "noun"
+  },
+  {
+   "de": "die Steuer",
+   "lemma": "Steuer",
+   "art": "die",
+   "pl": "die Steuern",
+   "forms": "",
+   "ipa": "[ˈʃtɔʏ̯ɐ]",
+   "ru": "налог",
+   "pos": "noun"
+  },
+  {
+   "de": "der Aufenthalt",
+   "lemma": "Aufenthalt",
+   "art": "der",
+   "pl": "die Aufenthalte",
+   "forms": "",
+   "ipa": "[ˈaʊ̯fʔɛnthalt]",
+   "ru": "пребывание",
+   "pos": "noun"
+  },
+  {
+   "de": "das Visum",
+   "lemma": "Visum",
+   "art": "das",
+   "pl": "die Visa, die Visen",
+   "forms": "",
+   "ipa": "[ˈviːzʊm]",
+   "ru": "виза",
+   "pos": "noun"
+  },
+  {
+   "de": "der Familienstand",
+   "lemma": "Familienstand",
+   "art": "der",
+   "pl": "",
+   "forms": "",
+   "ipa": "[faˈmiːli̯ənʃtant]",
+   "ru": "семейное положение",
+   "pos": "noun"
+  },
+  {
+   "de": "die Verwaltung",
+   "lemma": "Verwaltung",
+   "art": "die",
+   "pl": "die Verwaltungen",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈvaltʊŋ]",
+   "ru": "администрация",
+   "pos": "noun"
+  },
+  {
+   "de": "der Bürger",
+   "lemma": "Bürger",
+   "art": "der",
+   "pl": "die Bürger",
+   "forms": "",
+   "ipa": "[ˈbʏʁɡɐ]",
+   "ru": "гражданин",
+   "pos": "noun"
+  },
+  {
+   "de": "die Pflicht",
+   "lemma": "Pflicht",
+   "art": "die",
+   "pl": "die Pflichten",
+   "forms": "",
+   "ipa": "[pflɪçt]",
+   "ru": "обязанность",
+   "pos": "noun"
+  },
+  {
+   "de": "das Recht",
+   "lemma": "Recht",
+   "art": "das",
+   "pl": "die Rechte",
+   "forms": "",
+   "ipa": "[ʁɛçt]",
+   "ru": "право",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gesetz",
+   "lemma": "Gesetz",
+   "art": "das",
+   "pl": "die Gesetze",
+   "forms": "",
+   "ipa": "[ɡəˈzɛts]",
+   "ru": "закон",
+   "pos": "noun"
+  },
+  {
+   "de": "die Vorschrift",
+   "lemma": "Vorschrift",
+   "art": "die",
+   "pl": "die Vorschriften",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯ʃʁɪft]",
+   "ru": "предписание",
+   "pos": "noun"
+  },
+  {
+   "de": "der Anspruch",
+   "lemma": "Anspruch",
+   "art": "der",
+   "pl": "die Ansprüche",
+   "forms": "",
+   "ipa": "[ˈanʃpʁʊx]",
+   "ru": "право, притязание",
+   "pos": "noun"
+  },
+  {
+   "de": "der Angehörige",
+   "lemma": "Angehörige",
+   "art": "der",
+   "pl": "die Angehörigen; ein Angehöriger",
+   "forms": "",
+   "ipa": "[ˈanɡəhøːʁɪɡə]",
+   "ru": "родственник",
+   "pos": "noun"
+  },
+  {
+   "de": "die Angehörige",
+   "lemma": "Angehörige",
+   "art": "die",
+   "pl": "die Angehörigen; eine Angehörige",
+   "forms": "",
+   "ipa": "[ˈanɡəhøːʁɪɡə]",
+   "ru": "родственница",
+   "pos": "noun"
+  },
+  {
+   "de": "der Kandidat",
+   "lemma": "Kandidat",
+   "art": "der",
+   "pl": "die Kandidaten; Genitiv: des Kandidaten",
+   "forms": "",
+   "ipa": "[kandiˈdaːt]",
+   "ru": "кандидат",
+   "pos": "noun"
+  },
+  {
+   "de": "der Zeuge",
+   "lemma": "Zeuge",
+   "art": "der",
+   "pl": "die Zeugen; Genitiv: des Zeugen",
+   "forms": "",
+   "ipa": "[ˈtsɔʏ̯ɡə]",
+   "ru": "свидетель",
+   "pos": "noun"
+  },
+  {
+   "de": "der Migrant",
+   "lemma": "Migrant",
+   "art": "der",
+   "pl": "die Migranten; Genitiv: des Migranten",
+   "forms": "",
+   "ipa": "[miˈɡʁant]",
+   "ru": "мигрант",
+   "pos": "noun"
+  },
+  {
+   "de": "der Experte",
+   "lemma": "Experte",
+   "art": "der",
+   "pl": "die Experten; Genitiv: des Experten",
+   "forms": "",
+   "ipa": "[ɛksˈpɛʁtə]",
+   "ru": "эксперт",
+   "pos": "noun"
+  },
+  {
+   "de": "der Neffe",
+   "lemma": "Neffe",
+   "art": "der",
+   "pl": "die Neffen; Genitiv: des Neffen",
+   "forms": "",
+   "ipa": "[ˈnɛfə]",
+   "ru": "племянник",
+   "pos": "noun"
+  },
+  {
+   "de": "der Held",
+   "lemma": "Held",
+   "art": "der",
+   "pl": "die Helden; Genitiv: des Helden",
+   "forms": "",
+   "ipa": "[hɛlt]",
+   "ru": "герой",
+   "pos": "noun"
+  },
+  {
+   "de": "der Bauer",
+   "lemma": "Bauer",
+   "art": "der",
+   "pl": "die Bauern; Genitiv: des Bauern",
+   "forms": "",
+   "ipa": "[ˈbaʊ̯ɐ]",
+   "ru": "крестьянин, фермер",
+   "pos": "noun"
+  },
+  {
+   "de": "der Journalist",
+   "lemma": "Journalist",
+   "art": "der",
+   "pl": "die Journalisten; Genitiv: des Journalisten",
+   "forms": "",
+   "ipa": "[ʒʊʁnaˈlɪst]",
+   "ru": "журналист",
+   "pos": "noun"
+  },
+  {
+   "de": "der Architekt",
+   "lemma": "Architekt",
+   "art": "der",
+   "pl": "die Architekten; Genitiv: des Architekten",
+   "forms": "",
+   "ipa": "[aʁçiˈtɛkt]",
+   "ru": "архитектор",
+   "pos": "noun"
+  },
+  {
+   "de": "der Patient",
+   "lemma": "Patient",
+   "art": "der",
+   "pl": "die Patienten; Genitiv: des Patienten",
+   "forms": "",
+   "ipa": "[paˈtsi̯ɛnt]",
+   "ru": "пациент",
+   "pos": "noun"
+  },
+  {
+   "de": "der Direktor",
+   "lemma": "Direktor",
+   "art": "der",
+   "pl": "die Direktoren; Genitiv: des Direktors",
+   "forms": "",
+   "ipa": "[diˈʁɛktoːɐ̯]",
+   "ru": "директор",
+   "pos": "noun"
+  },
+  {
+   "de": "der Professor",
+   "lemma": "Professor",
+   "art": "der",
+   "pl": "die Professoren; Genitiv: des Professors",
+   "forms": "",
+   "ipa": "[pʁoˈfɛsoːɐ̯]",
+   "ru": "профессор",
+   "pos": "noun"
+  },
+  {
+   "de": "genehmigen",
+   "lemma": "genehmigen",
+   "art": "",
+   "pl": "",
+   "forms": "genehmigte, hat genehmigt",
+   "ipa": "[ɡəˈneːmɪɡən]",
+   "ru": "разрешить, одобрить",
+   "pos": "verb"
+  },
+  {
+   "de": "anerkennen",
+   "lemma": "anerkennen",
+   "art": "",
+   "pl": "",
+   "forms": "erkennt an, erkannte an, hat anerkannt",
+   "ipa": "[ˈanʔɛɐ̯kɛnən]",
+   "ru": "признать (диплом)",
+   "pos": "verb"
+  },
+  {
+   "de": "verlängern",
+   "lemma": "verlängern",
+   "art": "",
+   "pl": "",
+   "forms": "verlängerte, hat verlängert",
+   "ipa": "[fɛɐ̯ˈlɛŋɐn]",
+   "ru": "продлить",
+   "pos": "verb"
+  },
+  {
+   "de": "angeben",
+   "lemma": "angeben",
+   "art": "",
+   "pl": "",
+   "forms": "gibt an, gab an, hat angegeben",
+   "ipa": "[ˈanɡeːbən]",
+   "ru": "указать",
+   "pos": "verb"
+  },
+  {
+   "de": "einzahlen",
+   "lemma": "einzahlen",
+   "art": "",
+   "pl": "",
+   "forms": "zahlt ein, zahlte ein, hat eingezahlt",
+   "ipa": "[ˈaɪ̯ntsaːlən]",
+   "ru": "внести деньги",
+   "pos": "verb"
+  },
+  {
+   "de": "abheben",
+   "lemma": "abheben",
+   "art": "",
+   "pl": "",
+   "forms": "hebt ab, hob ab, hat abgehoben",
+   "ipa": "[ˈapheːbən]",
+   "ru": "снять деньги",
+   "pos": "verb"
+  },
+  {
+   "de": "ablehnen",
+   "lemma": "ablehnen",
+   "art": "",
+   "pl": "",
+   "forms": "lehnt ab, lehnte ab, hat abgelehnt",
+   "ipa": "[ˈapleːnən]",
+   "ru": "отклонить",
+   "pos": "verb"
+  },
+  {
+   "de": "verlangen",
+   "lemma": "verlangen",
+   "art": "",
+   "pl": "",
+   "forms": "verlangte, hat verlangt",
+   "ipa": "[fɛɐ̯ˈlaŋən]",
+   "ru": "требовать",
+   "pos": "verb"
+  },
+  {
+   "de": "zuständig",
+   "lemma": "zuständig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈtsuːʃtɛndɪç]",
+   "ru": "ответственный (о ведомстве)",
+   "pos": "adj"
+  },
+  {
+   "de": "erforderlich",
+   "lemma": "erforderlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɛɐ̯ˈfɔʁdɐlɪç]",
+   "ru": "необходимый",
+   "pos": "adj"
+  },
+  {
+   "de": "verpflichtet",
+   "lemma": "verpflichtet",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈpflɪçtət]",
+   "ru": "обязанный",
+   "pos": "adj"
+  },
+  {
+   "de": "offiziell",
+   "lemma": "offiziell",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɔfiˈtsi̯ɛl]",
+   "ru": "официальный",
+   "pos": "adj"
+  },
+  {
+   "de": "öffentlich",
+   "lemma": "öffentlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈœfəntlɪç]",
+   "ru": "общественный, публичный",
+   "pos": "adj"
+  },
+  {
+   "de": "einschließlich",
+   "lemma": "einschließlich",
+   "art": "",
+   "pl": "",
+   "forms": "+ Genitiv",
+   "ipa": "[ˈaɪ̯nʃliːslɪç]",
+   "ru": "включая",
+   "pos": "adv"
+  },
+  {
+   "de": "geehrt",
+   "lemma": "geehrt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəˈʔeːɐ̯t]",
+   "ru": "уважаемый",
+   "pos": "adj"
+  },
+  {
+   "de": "wegen",
+   "lemma": "wegen",
+   "art": "",
+   "pl": "",
+   "forms": "+ Genitiv",
+   "ipa": "[ˈveːɡən]",
+   "ru": "из-за",
+   "pos": "adv"
+  },
+  {
+   "de": "trotz",
+   "lemma": "trotz",
+   "art": "",
+   "pl": "",
+   "forms": "+ Genitiv",
+   "ipa": "[tʁɔts]",
+   "ru": "несмотря на",
+   "pos": "adv"
+  },
+  {
+   "de": "statt",
+   "lemma": "statt",
+   "art": "",
+   "pl": "",
+   "forms": "+ Genitiv",
+   "ipa": "[ʃtat]",
+   "ru": "вместо",
+   "pos": "adv"
+  },
+  {
+   "de": "innerhalb",
+   "lemma": "innerhalb",
+   "art": "",
+   "pl": "",
+   "forms": "+ Genitiv; von + Dativ",
+   "ipa": "[ˈɪnɐhalp]",
+   "ru": "в течение, внутри",
+   "pos": "prep"
+  },
+  {
+   "de": "aufgrund",
+   "lemma": "aufgrund",
+   "art": "",
+   "pl": "",
+   "forms": "+ Genitiv",
+   "ipa": "[aʊ̯fˈɡʁʊnt]",
+   "ru": "на основании, из-за",
+   "pos": "adv"
+  },
+  {
+   "de": "meinetwegen",
+   "lemma": "meinetwegen",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˌmaɪ̯nətˈveːɡən]",
+   "ru": "из-за меня; я не против",
+   "pos": "adv"
+  },
+  {
+   "de": "der Doktor",
+   "lemma": "Doktor",
+   "art": "der",
+   "pl": "die Doktoren; Genitiv: des Doktors",
+   "forms": "",
+   "ipa": "[ˈdɔktoːɐ̯]",
+   "ru": "доктор",
+   "pos": "noun"
+  },
+  {
+   "de": "der Autor",
+   "lemma": "Autor",
+   "art": "der",
+   "pl": "die Autoren; Genitiv: des Autors",
+   "forms": "",
+   "ipa": "[ˈaʊ̯toːɐ̯]",
+   "ru": "автор",
+   "pos": "noun"
+  },
+  {
+   "de": "der Staat",
+   "lemma": "Staat",
+   "art": "der",
+   "pl": "die Staaten; Genitiv: des Staates",
+   "forms": "",
+   "ipa": "[ʃtaːt]",
+   "ru": "государство",
+   "pos": "noun"
+  },
+  {
+   "de": "der Affe",
+   "lemma": "Affe",
+   "art": "der",
+   "pl": "die Affen; Genitiv: des Affen",
+   "forms": "",
+   "ipa": "[ˈafə]",
+   "ru": "обезьяна",
+   "pos": "noun"
+  },
+  {
+   "de": "der Bär",
+   "lemma": "Bär",
+   "art": "der",
+   "pl": "die Bären; Genitiv: des Bären",
+   "forms": "",
+   "ipa": "[bɛːɐ̯]",
+   "ru": "медведь",
+   "pos": "noun"
+  },
+  {
+   "de": "der Löwe",
+   "lemma": "Löwe",
+   "art": "der",
+   "pl": "die Löwen; Genitiv: des Löwen",
+   "forms": "",
+   "ipa": "[ˈløːvə]",
+   "ru": "лев",
+   "pos": "noun"
+  },
+  {
+   "de": "der Prinz",
+   "lemma": "Prinz",
+   "art": "der",
+   "pl": "die Prinzen; Genitiv: des Prinzen",
+   "forms": "",
+   "ipa": "[pʁɪnts]",
+   "ru": "принц",
+   "pos": "noun"
+  },
+  {
+   "de": "der Graf",
+   "lemma": "Graf",
+   "art": "der",
+   "pl": "die Grafen; Genitiv: des Grafen",
+   "forms": "",
+   "ipa": "[ɡʁaːf]",
+   "ru": "граф",
+   "pos": "noun"
+  },
+  {
+   "de": "der Planet",
+   "lemma": "Planet",
+   "art": "der",
+   "pl": "die Planeten; Genitiv: des Planeten",
+   "forms": "",
+   "ipa": "[plaˈneːt]",
+   "ru": "планета",
+   "pos": "noun"
+  },
+  {
+   "de": "der Soldat",
+   "lemma": "Soldat",
+   "art": "der",
+   "pl": "die Soldaten; Genitiv: des Soldaten",
+   "forms": "",
+   "ipa": "[zɔlˈdaːt]",
+   "ru": "солдат",
+   "pos": "noun"
+  },
+  {
+   "de": "der Präsident",
+   "lemma": "Präsident",
+   "art": "der",
+   "pl": "die Präsidenten; Genitiv: des Präsidenten",
+   "forms": "",
+   "ipa": "[pʁɛziˈdɛnt]",
+   "ru": "президент",
+   "pos": "noun"
+  },
+  {
+   "de": "der Philosoph",
+   "lemma": "Philosoph",
+   "art": "der",
+   "pl": "die Philosophen; Genitiv: des Philosophen",
+   "forms": "",
+   "ipa": "[filoˈzoːf]",
+   "ru": "философ",
+   "pos": "noun"
+  },
+  {
+   "de": "der Biologe",
+   "lemma": "Biologe",
+   "art": "der",
+   "pl": "die Biologen; Genitiv: des Biologen",
+   "forms": "",
+   "ipa": "[bioˈloːɡə]",
+   "ru": "биолог",
+   "pos": "noun"
+  },
+  {
+   "de": "der Automat",
+   "lemma": "Automat",
+   "art": "der",
+   "pl": "die Automaten; Genitiv: des Automaten",
+   "forms": "",
+   "ipa": "[aʊ̯toˈmaːt]",
+   "ru": "автомат",
+   "pos": "noun"
+  },
+  {
+   "de": "der Franzose",
+   "lemma": "Franzose",
+   "art": "der",
+   "pl": "die Franzosen; Genitiv: des Franzosen",
+   "forms": "",
+   "ipa": "[fʁanˈtsoːzə]",
+   "ru": "француз",
+   "pos": "noun"
+  },
+  {
+   "de": "der Russe",
+   "lemma": "Russe",
+   "art": "der",
+   "pl": "die Russen; Genitiv: des Russen",
+   "forms": "",
+   "ipa": "[ˈʁʊsə]",
+   "ru": "русский",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fotograf",
+   "lemma": "Fotograf",
+   "art": "der",
+   "pl": "die Fotografen; Genitiv: des Fotografen",
+   "forms": "",
+   "ipa": "[fotoˈɡʁaːf]",
+   "ru": "фотограф",
+   "pos": "noun"
+  },
+  {
+   "de": "der Praktikant",
+   "lemma": "Praktikant",
+   "art": "der",
+   "pl": "die Praktikanten; Genitiv: des Praktikanten",
+   "forms": "",
+   "ipa": "[pʁaktiˈkant]",
+   "ru": "практикант",
+   "pos": "noun"
+  },
+  {
+   "de": "der Engländer",
+   "lemma": "Engländer",
+   "art": "der",
+   "pl": "die Engländer",
+   "forms": "",
+   "ipa": "[ˈɛŋlɛndɐ]",
+   "ru": "англичанин",
+   "pos": "noun"
+  },
+  {
+   "de": "der Apparat",
+   "lemma": "Apparat",
+   "art": "der",
+   "pl": "die Apparate",
+   "forms": "",
+   "ipa": "[apaˈʁaːt]",
+   "ru": "аппарат",
+   "pos": "noun"
+  },
+  {
+   "de": "der Dialekt",
+   "lemma": "Dialekt",
+   "art": "der",
+   "pl": "die Dialekte",
+   "forms": "",
+   "ipa": "[diaˈlɛkt]",
+   "ru": "диалект",
+   "pos": "noun"
+  },
+  {
+   "de": "der Kontinent",
+   "lemma": "Kontinent",
+   "art": "der",
+   "pl": "die Kontinente",
+   "forms": "",
+   "ipa": "[kɔntiˈnɛnt]",
+   "ru": "континент",
+   "pos": "noun"
+  },
+  {
+   "de": "der Gedanke",
+   "lemma": "Gedanke",
+   "art": "der",
+   "pl": "die Gedanken; Genitiv: des Gedankens",
+   "forms": "",
+   "ipa": "[ɡəˈdaŋkə]",
+   "ru": "мысль",
+   "pos": "noun"
+  },
+  {
+   "de": "der Glaube",
+   "lemma": "Glaube",
+   "art": "der",
+   "pl": "без множественного; Genitiv: des Glaubens",
+   "forms": "",
+   "ipa": "[ˈɡlaʊ̯bə]",
+   "ru": "вера",
+   "pos": "noun"
+  },
+  {
+   "de": "der Wille",
+   "lemma": "Wille",
+   "art": "der",
+   "pl": "без множественного; Genitiv: des Willens",
+   "forms": "",
+   "ipa": "[ˈvɪlə]",
+   "ru": "воля",
+   "pos": "noun"
+  },
+  {
+   "de": "das Herz",
+   "lemma": "Herz",
+   "art": "das",
+   "pl": "die Herzen; Genitiv: des Herzens",
+   "forms": "",
+   "ipa": "[hɛʁts]",
+   "ru": "сердце",
+   "pos": "noun"
+  },
+  {
+   "de": "die Akte",
+   "lemma": "Akte",
+   "art": "die",
+   "pl": "die Akten",
+   "forms": "",
+   "ipa": "[ˈaktə]",
+   "ru": "дело, папка с документами",
+   "pos": "noun"
+  },
+  {
+   "de": "der Akt",
+   "lemma": "Akt",
+   "art": "der",
+   "pl": "die Akte",
+   "forms": "",
+   "ipa": "[akt]",
+   "ru": "действие (пьесы); акт",
+   "pos": "noun"
+  },
+  {
+   "de": "das Protokoll",
+   "lemma": "Protokoll",
+   "art": "das",
+   "pl": "die Protokolle",
+   "forms": "",
+   "ipa": "[pʁotoˈkɔl]",
+   "ru": "протокол",
+   "pos": "noun"
+  },
+  {
+   "de": "anstatt",
+   "lemma": "anstatt",
+   "art": "",
+   "pl": "",
+   "forms": "+ Genitiv",
+   "ipa": "[anˈʃtat]",
+   "ru": "вместо",
+   "pos": "adv"
+  },
+  {
+   "de": "die Aufenthaltserlaubnis",
+   "lemma": "Aufenthaltserlaubnis",
+   "art": "die",
+   "pl": "die Aufenthaltserlaubnisse",
+   "forms": "",
+   "ipa": "[ˈaʊ̯fʔɛnthaltsʔɛɐ̯ˌlaʊ̯pnɪs]",
+   "ru": "разрешение на пребывание",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ausländerbehörde",
+   "lemma": "Ausländerbehörde",
+   "art": "die",
+   "pl": "die Ausländerbehörden",
+   "forms": "",
+   "ipa": "[ˈaʊ̯slɛndɐbəˌhøːɐ̯də]",
+   "ru": "ведомство по делам иностранцев",
+   "pos": "noun"
+  },
+  {
+   "de": "der Beamte",
+   "lemma": "Beamte",
+   "art": "der",
+   "pl": "die Beamten; ein Beamter",
+   "forms": "",
+   "ipa": "[bəˈʔamtə]",
+   "ru": "чиновник, служащий",
+   "pos": "noun"
+  },
+  {
+   "de": "der/die Erwachsene",
+   "lemma": "der/die Erwachsene",
+   "art": "",
+   "pl": "",
+   "forms": "die Erwachsenen; ein Erwachsener, eine Erwachsene",
+   "ipa": "[ɛɐ̯ˈvaksənə]",
+   "ru": "взрослый",
+   "pos": "phrase"
+  },
+  {
+   "de": "der/die Verwandte",
+   "lemma": "der/die Verwandte",
+   "art": "",
+   "pl": "",
+   "forms": "die Verwandten; ein Verwandter, eine Verwandte",
+   "ipa": "[fɛɐ̯ˈvantə]",
+   "ru": "родственник, родственница",
+   "pos": "phrase"
+  },
+  {
+   "de": "der Brief",
+   "lemma": "Brief",
+   "art": "der",
+   "pl": "die Briefe",
+   "forms": "",
+   "ipa": "[bʁiːf]",
+   "ru": "письмо",
+   "pos": "noun"
+  },
+  {
+   "de": "der Briefumschlag",
+   "lemma": "Briefumschlag",
+   "art": "der",
+   "pl": "die Briefumschläge",
+   "forms": "",
+   "ipa": "[ˈbʁiːfʔʊmˌʃlaːk]",
+   "ru": "конверт",
+   "pos": "noun"
+  },
+  {
+   "de": "die Dame",
+   "lemma": "Dame",
+   "art": "die",
+   "pl": "die Damen; Sehr geehrte Damen und Herren = уважаемые дамы и господа",
+   "forms": "",
+   "ipa": "[ˈdaːmə]",
+   "ru": "дама",
+   "pos": "noun"
+  },
+  {
+   "de": "gültig",
+   "lemma": "gültig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɡʏltɪç]",
+   "ru": "действительный (о документе)",
+   "pos": "adj"
+  },
+  {
+   "de": "die Geschäftsstelle",
+   "lemma": "Geschäftsstelle",
+   "art": "die",
+   "pl": "die Geschäftsstellen",
+   "forms": "",
+   "ipa": "[ɡəˈʃɛftsˌʃtɛlə]",
+   "ru": "офис, канцелярия организации",
+   "pos": "noun"
+  },
+  {
+   "de": "das Sekretariat",
+   "lemma": "Sekretariat",
+   "art": "das",
+   "pl": "die Sekretariate",
+   "forms": "",
+   "ipa": "[zekʁetaˈʁi̯aːt]",
+   "ru": "секретариат",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kanzlei",
+   "lemma": "Kanzlei",
+   "art": "die",
+   "pl": "die Kanzleien",
+   "forms": "",
+   "ipa": "[kantsˈlaɪ̯]",
+   "ru": "адвокатская контора",
+   "pos": "noun"
+  },
+  {
+   "de": "die Schreibwaren",
+   "lemma": "Schreibwaren",
+   "art": "die",
+   "pl": "",
+   "forms": "только множественное число",
+   "ipa": "[ˈʃʁaɪ̯pˌvaːʁən]",
+   "ru": "канцтовары",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kopie",
+   "lemma": "Kopie",
+   "art": "die",
+   "pl": "die Kopien",
+   "forms": "",
+   "ipa": "[koˈpiː]",
+   "ru": "копия",
+   "pos": "noun"
+  },
+  {
+   "de": "der Lauf",
+   "lemma": "Lauf",
+   "art": "der",
+   "pl": "die Läufe; im Laufe + Genitiv = в течение",
+   "forms": "",
+   "ipa": "[laʊ̯f]",
+   "ru": "бег, ход",
+   "pos": "noun"
+  },
+  {
+   "de": "die Nachfrage",
+   "lemma": "Nachfrage",
+   "art": "die",
+   "pl": "die Nachfragen",
+   "forms": "",
+   "ipa": "[ˈnaːxˌfʁaːɡə]",
+   "ru": "спрос",
+   "pos": "noun"
+  },
+  {
+   "de": "der Personenstand",
+   "lemma": "Personenstand",
+   "art": "der",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[pɛʁˈzoːnənˌʃtant]",
+   "ru": "гражданское состояние",
+   "pos": "noun"
+  },
+  {
+   "de": "der Tourismus",
+   "lemma": "Tourismus",
+   "art": "der",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[tuˈʁɪsmʊs]",
+   "ru": "туризм",
+   "pos": "noun"
+  },
+  {
+   "de": "der Umbau",
+   "lemma": "Umbau",
+   "art": "der",
+   "pl": "die Umbauten",
+   "forms": "",
+   "ipa": "[ˈʊmˌbaʊ̯]",
+   "ru": "перестройка, реконструкция",
+   "pos": "noun"
+  }
+ ]
+}

@@ -1,0 +1,705 @@
+{
+ "l": 18,
+ "words": [
+  {
+   "de": "weil",
+   "lemma": "weil",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[vaɪ̯l]",
+   "ru": "потому что",
+   "pos": "adv"
+  },
+  {
+   "de": "dass",
+   "lemma": "dass",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[das]",
+   "ru": "что (союз)",
+   "pos": "adv"
+  },
+  {
+   "de": "wenn",
+   "lemma": "wenn",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[vɛn]",
+   "ru": "если, когда",
+   "pos": "adv"
+  },
+  {
+   "de": "als",
+   "lemma": "als",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[als]",
+   "ru": "когда (в прошлом)",
+   "pos": "adv"
+  },
+  {
+   "de": "deshalb",
+   "lemma": "deshalb",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈdɛsˌhalp]",
+   "ru": "поэтому",
+   "pos": "adv"
+  },
+  {
+   "de": "außerdem",
+   "lemma": "außerdem",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sɐdeːm]",
+   "ru": "кроме того",
+   "pos": "adv"
+  },
+  {
+   "de": "sonst",
+   "lemma": "sonst",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[zɔnst]",
+   "ru": "иначе",
+   "pos": "adv"
+  },
+  {
+   "de": "ob",
+   "lemma": "ob",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɔp]",
+   "ru": "ли",
+   "pos": "adv"
+  },
+  {
+   "de": "obwohl",
+   "lemma": "obwohl",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɔpˈvoːl]",
+   "ru": "хотя",
+   "pos": "adv"
+  },
+  {
+   "de": "trotzdem",
+   "lemma": "trotzdem",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈtʁɔtsdeːm]",
+   "ru": "всё же",
+   "pos": "adv"
+  },
+  {
+   "de": "die Bewerbung",
+   "lemma": "Bewerbung",
+   "art": "die",
+   "pl": "die Bewerbungen",
+   "forms": "",
+   "ipa": "[bəˈvɛʁbʊŋ]",
+   "ru": "отклик, заявка",
+   "pos": "noun"
+  },
+  {
+   "de": "(sich) bewerben (um + Akk, bei + Dat)",
+   "lemma": "(sich) bewerben (um + Akk, bei + Dat)",
+   "art": "",
+   "pl": "",
+   "forms": "bewirbt sich, hat sich beworben",
+   "ipa": "[bəˈvɛʁbən]",
+   "ru": "подавать заявку",
+   "pos": "phrase"
+  },
+  {
+   "de": "die Kenntnisse",
+   "lemma": "Kenntnisse",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно во множественном числе",
+   "ipa": "[ˈkɛntnɪsə]",
+   "ru": "знания",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gehalt",
+   "lemma": "Gehalt",
+   "art": "das",
+   "pl": "die Gehälter",
+   "forms": "",
+   "ipa": "[ɡəˈhalt]",
+   "ru": "зарплата",
+   "pos": "noun"
+  },
+  {
+   "de": "der Vertrag",
+   "lemma": "Vertrag",
+   "art": "der",
+   "pl": "die Verträge",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈtʁaːk]",
+   "ru": "договор",
+   "pos": "noun"
+  },
+  {
+   "de": "kündigen",
+   "lemma": "kündigen",
+   "art": "",
+   "pl": "",
+   "forms": "hat gekündigt",
+   "ipa": "[ˈkʏndɪɡən]",
+   "ru": "увольняться, расторгать",
+   "pos": "verb"
+  },
+  {
+   "de": "das Zeugnis",
+   "lemma": "Zeugnis",
+   "art": "das",
+   "pl": "die Zeugnisse",
+   "forms": "",
+   "ipa": "[ˈtsɔʏ̯knɪs]",
+   "ru": "аттестат, отзыв",
+   "pos": "noun"
+  },
+  {
+   "de": "die Universität",
+   "lemma": "Universität",
+   "art": "die",
+   "pl": "die Universitäten",
+   "forms": "",
+   "ipa": "[univɛʁziˈtɛːt]",
+   "ru": "университет",
+   "pos": "noun"
+  },
+  {
+   "de": "das Fach",
+   "lemma": "Fach",
+   "art": "das",
+   "pl": "die Fächer",
+   "forms": "",
+   "ipa": "[fax]",
+   "ru": "предмет",
+   "pos": "noun"
+  },
+  {
+   "de": "die Note",
+   "lemma": "Note",
+   "art": "die",
+   "pl": "die Noten",
+   "forms": "",
+   "ipa": "[ˈnoːtə]",
+   "ru": "оценка, нота",
+   "pos": "noun"
+  },
+  {
+   "de": "das Team",
+   "lemma": "Team",
+   "art": "das",
+   "pl": "die Teams",
+   "forms": "",
+   "ipa": "[tiːm]",
+   "ru": "команда",
+   "pos": "noun"
+  },
+  {
+   "de": "das Projekt",
+   "lemma": "Projekt",
+   "art": "das",
+   "pl": "die Projekte",
+   "forms": "",
+   "ipa": "[pʁoˈjɛkt]",
+   "ru": "проект",
+   "pos": "noun"
+  },
+  {
+   "de": "der Mitarbeiter",
+   "lemma": "Mitarbeiter",
+   "art": "der",
+   "pl": "die Mitarbeiter",
+   "forms": "",
+   "ipa": "[ˈmɪtˌʔaʁbaɪ̯tɐ]",
+   "ru": "сотрудник",
+   "pos": "noun"
+  },
+  {
+   "de": "die Mitarbeiterin",
+   "lemma": "Mitarbeiterin",
+   "art": "die",
+   "pl": "die Mitarbeiterinnen",
+   "forms": "",
+   "ipa": "[ˈmɪtˌʔaʁbaɪ̯təʁɪn]",
+   "ru": "сотрудница",
+   "pos": "noun"
+  },
+  {
+   "de": "die Chefin",
+   "lemma": "Chefin",
+   "art": "die",
+   "pl": "die Chefinnen",
+   "forms": "",
+   "ipa": "[ˈʃɛfɪn]",
+   "ru": "начальница",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kollegin",
+   "lemma": "Kollegin",
+   "art": "die",
+   "pl": "die Kolleginnen",
+   "forms": "",
+   "ipa": "[kɔˈleːɡɪn]",
+   "ru": "коллега (ж.)",
+   "pos": "noun"
+  },
+  {
+   "de": "das Interview",
+   "lemma": "Interview",
+   "art": "das",
+   "pl": "die Interviews",
+   "forms": "",
+   "ipa": "[ˈɪntɐvjuː]",
+   "ru": "интервью",
+   "pos": "noun"
+  },
+  {
+   "de": "schriftlich",
+   "lemma": "schriftlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃʁɪftlɪç]",
+   "ru": "письменно",
+   "pos": "adv"
+  },
+  {
+   "de": "die Meinung",
+   "lemma": "Meinung",
+   "art": "die",
+   "pl": "die Meinungen",
+   "forms": "",
+   "ipa": "[ˈmaɪ̯nʊŋ]",
+   "ru": "мнение",
+   "pos": "noun"
+  },
+  {
+   "de": "meinen",
+   "lemma": "meinen",
+   "art": "",
+   "pl": "",
+   "forms": "hat gemeint",
+   "ipa": "[ˈmaɪ̯nən]",
+   "ru": "считать",
+   "pos": "verb"
+  },
+  {
+   "de": "denken (an + Akk)",
+   "lemma": "denken (an + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "denkt, hat gedacht",
+   "ipa": "[ˈdɛŋkən]",
+   "ru": "думать",
+   "pos": "phrase"
+  },
+  {
+   "de": "begründen",
+   "lemma": "begründen",
+   "art": "",
+   "pl": "",
+   "forms": "hat begründet",
+   "ipa": "[bəˈɡʁʏndən]",
+   "ru": "обосновывать",
+   "pos": "verb"
+  },
+  {
+   "de": "damals",
+   "lemma": "damals",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈdaːmaːls]",
+   "ru": "тогда",
+   "pos": "adv"
+  },
+  {
+   "de": "das Ziel",
+   "lemma": "Ziel",
+   "art": "das",
+   "pl": "die Ziele",
+   "forms": "",
+   "ipa": "[tsiːl]",
+   "ru": "цель",
+   "pos": "noun"
+  },
+  {
+   "de": "der Kontakt",
+   "lemma": "Kontakt",
+   "art": "der",
+   "pl": "die Kontakte",
+   "forms": "",
+   "ipa": "[kɔnˈtakt]",
+   "ru": "контакт",
+   "pos": "noun"
+  },
+  {
+   "de": "organisieren",
+   "lemma": "organisieren",
+   "art": "",
+   "pl": "",
+   "forms": "hat organisiert",
+   "ipa": "[ɔʁɡaniˈziːʁən]",
+   "ru": "организовывать",
+   "pos": "verb"
+  },
+  {
+   "de": "schaffen",
+   "lemma": "schaffen",
+   "art": "",
+   "pl": "",
+   "forms": "hat geschafft",
+   "ipa": "[ˈʃafən]",
+   "ru": "справляться",
+   "pos": "verb"
+  },
+  {
+   "de": "klappen",
+   "lemma": "klappen",
+   "art": "",
+   "pl": "",
+   "forms": "hat geklappt",
+   "ipa": "[ˈklapən]",
+   "ru": "получаться",
+   "pos": "verb"
+  },
+  {
+   "de": "versuchen",
+   "lemma": "versuchen",
+   "art": "",
+   "pl": "",
+   "forms": "hat versucht",
+   "ipa": "[fɛɐ̯ˈzuːxən]",
+   "ru": "пытаться",
+   "pos": "verb"
+  },
+  {
+   "de": "die Situation",
+   "lemma": "Situation",
+   "art": "die",
+   "pl": "die Situationen",
+   "forms": "",
+   "ipa": "[zitu̯aˈtsi̯oːn]",
+   "ru": "ситуация",
+   "pos": "noun"
+  },
+  {
+   "de": "einverstanden",
+   "lemma": "einverstanden",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nfɛɐ̯ˌʃtandən]",
+   "ru": "согласен",
+   "pos": "adv"
+  },
+  {
+   "de": "recht haben",
+   "lemma": "recht haben",
+   "art": "",
+   "pl": "",
+   "forms": "hat recht, hat recht gehabt",
+   "ipa": "[ˈʁɛçt ˌhaːbən]",
+   "ru": "быть правым",
+   "pos": "phrase"
+  },
+  {
+   "de": "sicher",
+   "lemma": "sicher",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈzɪçɐ]",
+   "ru": "уверенный",
+   "pos": "adj"
+  },
+  {
+   "de": "wahrscheinlich",
+   "lemma": "wahrscheinlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[vaːɐ̯ˈʃaɪ̯nlɪç]",
+   "ru": "вероятно",
+   "pos": "adv"
+  },
+  {
+   "de": "eigentlich",
+   "lemma": "eigentlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈaɪ̯ɡəntlɪç]",
+   "ru": "вообще-то",
+   "pos": "adv"
+  },
+  {
+   "de": "schwierig",
+   "lemma": "schwierig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃviːʁɪç]",
+   "ru": "трудный",
+   "pos": "adj"
+  },
+  {
+   "de": "wechseln",
+   "lemma": "wechseln",
+   "art": "",
+   "pl": "",
+   "forms": "hat gewechselt",
+   "ipa": "[ˈvɛksəln]",
+   "ru": "менять",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) informieren (über + Akk)",
+   "lemma": "(sich) informieren (über + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "hat sich informiert",
+   "ipa": "[ɪnfɔʁˈmiːʁən]",
+   "ru": "узнавать",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) vorbereiten (auf + Akk)",
+   "lemma": "(sich) vorbereiten (auf + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "bereitet sich vor, hat sich vorbereitet",
+   "ipa": "[ˈfoːɐ̯bəˌʁaɪ̯tən]",
+   "ru": "готовиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "bestehen",
+   "lemma": "bestehen",
+   "art": "",
+   "pl": "",
+   "forms": "besteht, hat bestanden",
+   "ipa": "[bəˈʃteːən]",
+   "ru": "сдать (экзамен)",
+   "pos": "verb"
+  },
+  {
+   "de": "die Ahnung",
+   "lemma": "Ahnung",
+   "art": "die",
+   "pl": "die Ahnungen",
+   "forms": "",
+   "ipa": "[ˈaːnʊŋ]",
+   "ru": "представление",
+   "pos": "noun"
+  },
+  {
+   "de": "das Interesse",
+   "lemma": "Interesse",
+   "art": "das",
+   "pl": "die Interessen",
+   "forms": "",
+   "ipa": "[ɪntəˈʁɛsə]",
+   "ru": "интерес",
+   "pos": "noun"
+  },
+  {
+   "de": "die Stelle",
+   "lemma": "Stelle",
+   "art": "die",
+   "pl": "die Stellen; an deiner Stelle = на твоём месте",
+   "forms": "",
+   "ipa": "[ˈʃtɛlə]",
+   "ru": "место, должность",
+   "pos": "noun"
+  },
+  {
+   "de": "das Abitur",
+   "lemma": "Abitur",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[abiˈtuːɐ̯]",
+   "ru": "выпускные экзамены (в школе)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Akademie",
+   "lemma": "Akademie",
+   "art": "die",
+   "pl": "die Akademien",
+   "forms": "",
+   "ipa": "[akadeˈmiː]",
+   "ru": "академия",
+   "pos": "noun"
+  },
+  {
+   "de": "die Wissenschaft",
+   "lemma": "Wissenschaft",
+   "art": "die",
+   "pl": "die Wissenschaften",
+   "forms": "",
+   "ipa": "[ˈvɪsənʃaft]",
+   "ru": "наука",
+   "pos": "noun"
+  },
+  {
+   "de": "der Akademiker",
+   "lemma": "Akademiker",
+   "art": "der",
+   "pl": "die Akademiker",
+   "forms": "",
+   "ipa": "[akaˈdeːmikɐ]",
+   "ru": "человек с высшим образованием",
+   "pos": "noun"
+  },
+  {
+   "de": "der Arbeitgeber",
+   "lemma": "Arbeitgeber",
+   "art": "der",
+   "pl": "die Arbeitgeber",
+   "forms": "",
+   "ipa": "[ˈaʁbaɪ̯tˌɡeːbɐ]",
+   "ru": "работодатель",
+   "pos": "noun"
+  },
+  {
+   "de": "der Arbeitnehmer",
+   "lemma": "Arbeitnehmer",
+   "art": "der",
+   "pl": "die Arbeitnehmer",
+   "forms": "",
+   "ipa": "[ˈaʁbaɪ̯tˌneːmɐ]",
+   "ru": "работник (по найму)",
+   "pos": "noun"
+  },
+  {
+   "de": "der Azubi",
+   "lemma": "Azubi",
+   "art": "der",
+   "pl": "die Azubis",
+   "forms": "",
+   "ipa": "[aˈtsuːbi]",
+   "ru": "ученик на профобучении (разг.)",
+   "pos": "noun"
+  },
+  {
+   "de": "der Buchhalter",
+   "lemma": "Buchhalter",
+   "art": "der",
+   "pl": "die Buchhalter",
+   "forms": "",
+   "ipa": "[ˈbuːxˌhaltɐ]",
+   "ru": "бухгалтер",
+   "pos": "noun"
+  },
+  {
+   "de": "der Konditor",
+   "lemma": "Konditor",
+   "art": "der",
+   "pl": "die Konditoren",
+   "forms": "",
+   "ipa": "[kɔnˈdiːtoːɐ̯]",
+   "ru": "кондитер",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schlosser",
+   "lemma": "Schlosser",
+   "art": "der",
+   "pl": "die Schlosser",
+   "forms": "",
+   "ipa": "[ˈʃlɔsɐ]",
+   "ru": "слесарь",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schacht",
+   "lemma": "Schacht",
+   "art": "der",
+   "pl": "die Schächte",
+   "forms": "",
+   "ipa": "[ʃaxt]",
+   "ru": "шахта, шахтный ствол",
+   "pos": "noun"
+  },
+  {
+   "de": "die Zeche",
+   "lemma": "Zeche",
+   "art": "die",
+   "pl": "die Zechen",
+   "forms": "",
+   "ipa": "[ˈtsɛçə]",
+   "ru": "шахта; счёт (в кабаке)",
+   "pos": "noun"
+  },
+  {
+   "de": "darum",
+   "lemma": "darum",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[daˈʁʊm]",
+   "ru": "поэтому",
+   "pos": "adv"
+  },
+  {
+   "de": "das Design",
+   "lemma": "Design",
+   "art": "das",
+   "pl": "die Designs",
+   "forms": "",
+   "ipa": "[diˈzaɪ̯n]",
+   "ru": "дизайн",
+   "pos": "noun"
+  },
+  {
+   "de": "die Informatik",
+   "lemma": "Informatik",
+   "art": "die",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[ɪnfɔʁˈmaːtɪk]",
+   "ru": "информатика",
+   "pos": "noun"
+  },
+  {
+   "de": "der Lehrling",
+   "lemma": "Lehrling",
+   "art": "der",
+   "pl": "die Lehrlinge",
+   "forms": "",
+   "ipa": "[ˈleːɐ̯lɪŋ]",
+   "ru": "ученик (на производстве)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Stellenanzeige",
+   "lemma": "Stellenanzeige",
+   "art": "die",
+   "pl": "die Stellenanzeigen",
+   "forms": "",
+   "ipa": "[ˈʃtɛlənʔanˌtsaɪ̯ɡə]",
+   "ru": "объявление о вакансии",
+   "pos": "noun"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+"11.1": [
+ {"type":"choice","title":"Кто получает","sub":"Получатель в Dativ, вещь в Akkusativ","items":[
+  {"s":"Ich zeige ___ Verkäuferin die Kamera.","ru":"Я показываю продавщице фотоаппарат.","o":["der","die"],"a":"der","n":"Получатель в Dativ: <b>der Verkäuferin</b>."},
+  {"s":"Ich zeige der Verkäuferin ___ Kamera.","ru":"Я показываю продавщице фотоаппарат.","o":["die","der"],"a":"die","n":"Вещь в Akkusativ: <b>die Kamera</b>."},
+  {"s":"Ich helfe ___.","ru":"Я ему помогаю.","o":["ihm","ihn"],"a":"ihm","n":"helfen + Dativ: <b>ihm</b>."},
+  {"s":"Ich rufe ___ an.","ru":"Я звоню тебе.","o":["dich","dir"],"a":"dich","n":"anrufen + Akkusativ, хоть по-русски «тебе»."},
+  {"s":"Alina spricht mit ___ Verkäuferin.","ru":"Алина разговаривает с продавщицей.","o":["der","die"],"a":"der","n":"mit всегда берёт Dativ."},
+  {"s":"___ Verkäuferin zeige ich die Kamera.","ru":"Продавщице я показываю фотоаппарат.","o":["Der","Die"],"a":"Der","n":"В начале фразы падеж тот же — Dativ."}
+ ]}
+],
+"11.2": [
+ {"type":"type","title":"Артикль в Dativ","sub":"-m у мужского и среднего, -r у женского, -n у множественного","items":[
+  {"s":"Paul hilft ___ Kind.","ru":"Пауль помогает ребёнку.","a":["einem"],"hint":"ein","n":"das Kind → <b>einem Kind</b>."},
+  {"s":"Die Kamera gehört ___ Frau.","ru":"Фотоаппарат принадлежит женщине.","a":["der"],"hint":"die","n":"die Frau → <b>der Frau</b>."},
+  {"s":"Ich antworte ___ Freund.","ru":"Я отвечаю другу.","a":["dem"],"hint":"der","n":"der Freund → <b>dem Freund</b>."},
+  {"s":"Die Kamera gehört den ___.","ru":"Фотоаппарат принадлежит детям.","a":["Kindern"],"hint":"Kinder","n":"Во множественном -n и у существительного: <b>Kindern</b>."},
+  {"s":"Paul erzählt den ___ etwas.","ru":"Пауль что-то рассказывает друзьям.","a":["Freunden"],"hint":"Freunde","n":"<b>den Freunden</b>, без -n ошибка."},
+  {"s":"Ich schreibe den ___.","ru":"Я пишу женщинам.","a":["Frauen"],"hint":"Frauen","n":"Уже на -n, ещё одну не добавляем."},
+  {"s":"Das Buch gehört ___ Freundin.","ru":"Книга принадлежит подруге.","a":["einer"],"hint":"eine","n":"eine → <b>einer</b>."},
+  {"s":"Das Handy gehört ___ Kind hier.","ru":"Телефон не принадлежит ни одному ребёнку здесь.","a":["keinem"],"hint":"kein","n":"kein → <b>keinem</b>."}
+ ]}
+],
+"11.3": [
+ {"type":"type","title":"Кому: местоимения","sub":"mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen","items":[
+  {"s":"Gefällt es dir? Ja, es gefällt ___.","ru":"Тебе нравится? Да, мне нравится.","a":["mir"],"hint":"ich","n":"Спросили «тебе» — отвечаем <b>mir</b>."},
+  {"s":"Gefällt es euch? Ja, es gefällt ___.","ru":"Вам нравится? Да, нам нравится.","a":["uns"],"hint":"wir","n":"wir → <b>uns</b>."},
+  {"s":"Gefällt es Paul? Ja, es gefällt ___.","ru":"Паулю нравится? Да, ему нравится.","a":["ihm"],"hint":"er","n":"er → <b>ihm</b>."},
+  {"s":"Gefällt es Alina? Ja, es gefällt ___.","ru":"Алине нравится? Да, ей нравится.","a":["ihr"],"hint":"sie","n":"sie → <b>ihr</b>."},
+  {"s":"Gefällt es den Kindern? Ja, es gefällt ___.","ru":"Детям нравится? Да, им нравится.","a":["ihnen"],"hint":"sie (мн.)","n":"sie (они) → <b>ihnen</b>."},
+  {"s":"Frau Schmitz, gefällt es ___?","ru":"Фрау Шмитц, вам нравится?","a":["Ihnen"],"hint":"Sie","n":"Вежливое <b>Ihnen</b> с большой буквы."},
+  {"s":"___ gehört die Kamera?","ru":"Кому принадлежит фотоаппарат?","a":["Wem"],"hint":"кому?","n":"<b>wem</b> — кому."}
+ ]}
+],
+"11.4": [
+ {"type":"choice","title":"Dativ или Akkusativ","sub":"Тёплые жесты — Dativ, вторжения — Akkusativ","items":[
+  {"s":"Ich danke ___ für die Einladung.","ru":"Благодарю тебя за приглашение.","o":["dir","dich"],"a":"dir","n":"danken + Dativ."},
+  {"s":"Wir gratulieren ___ zur Hochzeit.","ru":"Мы поздравляем вас со свадьбой.","o":["euch","euer"],"a":"euch","n":"gratulieren + Dativ; euch совпадает с Akkusativ."},
+  {"s":"Ich höre ___ zu.","ru":"Я вас слушаю.","o":["Ihnen","Sie"],"a":"Ihnen","n":"zuhören + Dativ."},
+  {"s":"Ich störe ___ nicht.","ru":"Я тебе не мешаю.","o":["dich","dir"],"a":"dich","n":"stören + Akkusativ."},
+  {"s":"Paul fragt ___.","ru":"Пауль спрашивает меня.","o":["mich","mir"],"a":"mich","n":"fragen + Akkusativ."},
+  {"s":"Die Verkäuferin hilft ___.","ru":"Продавщица нам помогает.","o":["uns","unser"],"a":"uns","n":"helfen + Dativ: <b>uns</b>."},
+  {"s":"Glaubst du ___?","ru":"Ты ему веришь?","o":["ihm","ihn"],"a":"ihm","n":"Человеку верят в Dativ."},
+  {"s":"Wir besuchen ___.","ru":"Мы его навещаем.","o":["ihn","ihm"],"a":"ihn","n":"besuchen + Akkusativ."}
+ ]}
+],
+"11.5": [
+ {"type":"choice","title":"Нравится и подходит","sub":"Глагол согласуется с вещью","items":[
+  {"s":"Die Postkarten ___ Paul.","ru":"Открытки нравятся Паулю.","o":["gefallen","gefällt"],"a":"gefallen","n":"Открыток несколько → <b>gefallen</b>."},
+  {"s":"Mir ___ die Postkarte.","ru":"Мне нравится открытка.","o":["gefällt","gefalle"],"a":"gefällt","n":"Подлежащее — открытка, а не mir."},
+  {"s":"Die Schuhe passen ___.","ru":"Ботинки ему подходят.","o":["ihm","ihn"],"a":"ihm","n":"passen + Dativ."},
+  {"s":"___ ist kalt.","ru":"Ему холодно.","o":["Ihm","Er"],"a":"Ihm","n":"Er ist kalt — «он холодный человек»."},
+  {"s":"Mir ___ die Füße weh.","ru":"У меня болят ноги.","o":["tun","tut"],"a":"tun","n":"Ног две → <b>tun</b>."},
+  {"s":"Du ___ mir.","ru":"Мне тебя не хватает.","o":["fehlst","fehlt"],"a":"fehlst","n":"Подлежащее du → <b>fehlst</b>."},
+  {"s":"Es tut ___ leid.","ru":"Мне жаль.","o":["mir","mich"],"a":"mir","n":"Готовая фраза: <b>Es tut mir leid</b>."},
+  {"s":"Paul ___ die Band.","ru":"Пауль любит эту группу.","o":["mag","gefällt"],"a":"mag","n":"mögen: подлежащее Paul, группа в Akkusativ."}
+ ]}
+],
+"11.6": [
+ {"type":"build","title":"Короткие слова первыми","sub":"Местоимение раньше существительного; es ihr","items":[
+  {"ru":"Алина дарит подруге духи.","w":["Alina","schenkt","der","Freundin","das","Parfüm."],"ok":["Alina schenkt der Freundin das Parfüm."],"n":"Два существительных: получатель, затем вещь."},
+  {"ru":"Алина дарит ей духи.","w":["Alina","schenkt","ihr","das","Parfüm."],"ok":["Alina schenkt ihr das Parfüm."],"n":"Местоимение раньше."},
+  {"ru":"Алина дарит их подруге. (их = духи)","w":["Alina","schenkt","es","der","Freundin."],"ok":["Alina schenkt es der Freundin."],"n":"es раньше существительного."},
+  {"ru":"Алина дарит их ей.","w":["Alina","schenkt","es","ihr."],"ok":["Alina schenkt es ihr."],"n":"Два местоимения: сначала Akkusativ — <b>es ihr</b>."},
+  {"ru":"Я показываю тебе фотоаппарат.","w":["Ich","zeige","dir","die","Kamera."],"ok":["Ich zeige dir die Kamera."],"n":"dir раньше существительного."},
+  {"ru":"Пауль предлагает подруге кофе.","w":["Paul","bietet","der","Freundin","einen","Kaffee","an."],"ok":["Paul bietet der Freundin einen Kaffee an."],"n":"Приставка an в конце."},
+  {"ru":"Он предлагает его ей.","w":["Er","bietet","ihn","ihr","an."],"ok":["Er bietet ihn ihr an."],"n":"<b>ihn ihr</b>: Akkusativ, потом Dativ."}
+ ]}
+],
+"11.7": [
+ {"type":"type","title":"Предлоги с Dativ","sub":"aus, bei, mit, nach, seit, von, zu и слияния","items":[
+  {"s":"Jonas nimmt die Kamera aus ___ Tasche.","ru":"Йонас достаёт фотоаппарат из сумки.","a":["der"],"hint":"die Tasche","n":"aus + Dativ: <b>der Tasche</b>."},
+  {"s":"Alina kauft die Kamera bei ___ Verkäuferin.","ru":"Алина покупает у продавщицы.","a":["einer"],"hint":"eine","n":"bei + Dativ."},
+  {"s":"Wir gehen ___ Geburtstag.","ru":"Мы идём на день рождения.","a":["zum"],"hint":"zu + dem","n":"zu dem → <b>zum</b>."},
+  {"s":"Sie geht ___ Feier.","ru":"Она идёт на праздник.","a":["zur"],"hint":"zu + der","n":"zu der → <b>zur</b>."},
+  {"s":"Die Lampe ist ___ Flohmarkt.","ru":"Лампа с блошиного рынка.","a":["vom"],"hint":"von + dem","n":"von dem → <b>vom</b>."},
+  {"s":"Ich kaufe eine Kamera für ___.","ru":"Я покупаю фотоаппарат для тебя.","a":["dich"],"hint":"du","n":"für берёт Akkusativ: <b>für dich</b>."},
+  {"s":"Alle kommen außer ___.","ru":"Все придут, кроме меня.","a":["mir"],"hint":"ich","n":"außer + Dativ."},
+  {"s":"Wir sehen uns ___ Weihnachten.","ru":"Увидимся на Рождество.","a":["zu"],"hint":"zu / zum?","n":"Без артикля: <b>zu Weihnachten</b>."}
+ ]}
+]
+}

@@ -1,0 +1,657 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 18",
+ "sub": "Упражнения урока 18 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 18,
+  "s": "18.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 18.1",
+   "sub": "Вставьте aber или sondern. Перед выбором спросите себя: вторая часть заменяет отвергнутое или добавляется к нему?",
+   "items": [
+    {
+     "s": "Das Büro ist klein, ___ es ist ruhig.",
+     "ru": "",
+     "a": [
+      "aber"
+     ],
+     "hint": "",
+     "n": "Второй признак дополняет первый; исправления нет."
+    },
+    {
+     "s": "Ich arbeite nicht in Bonn, ___ in Köln.",
+     "ru": "",
+     "a": [
+      "sondern"
+     ],
+     "hint": "",
+     "n": "Кёльн заменяет отвергнутый Бонн."
+    },
+    {
+     "s": "Ich habe keine Erfahrung, ___ ich möchte lernen.",
+     "ru": "",
+     "a": [
+      "aber"
+     ],
+     "hint": "",
+     "n": "Желание учиться не заменяет отсутствие опыта; оба сообщения верны."
+    },
+    {
+     "s": "Das ist kein Vertrag, ___ eine Bewerbung.",
+     "ru": "",
+     "a": [
+      "sondern"
+     ],
+     "hint": "",
+     "n": "Заявка заменяет ошибочно названный договор."
+    },
+    {
+     "s": "Ich rufe nie am Morgen an, ___ immer am Abend.",
+     "ru": "",
+     "a": [
+      "sondern"
+     ],
+     "hint": "",
+     "n": "После отрицания утренних звонков называем действительное время."
+    },
+    {
+     "s": "Die Arbeit gefällt mir, ___ ich bin oft müde.",
+     "ru": "",
+     "a": [
+      "aber"
+     ],
+     "hint": "",
+     "n": "Работа может одновременно нравиться и утомлять."
+    },
+    {
+     "s": "Ich habe morgen nicht frei, ___ ich kann dich anrufen.",
+     "ru": "",
+     "a": [
+      "aber"
+     ],
+     "hint": "",
+     "n": "Звонок не отменяет работу; исправления нет."
+    },
+    {
+     "s": "Wir kaufen nicht den Drucker, ___ die Kamera.",
+     "ru": "",
+     "a": [
+      "sondern"
+     ],
+     "hint": "",
+     "n": "Камера заменяет отвергнутый принтер."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 18.2",
+   "sub": "Вставьте wenn, als или wann. Сохраните прописную букву в начале предложения.",
+   "items": [
+    {
+     "s": "___ findet das Gespräch statt?",
+     "ru": "",
+     "a": [
+      "Wann"
+     ],
+     "hint": "",
+     "n": "Прямой вопрос о времени встречи."
+    },
+    {
+     "s": "___ ich 2024 nach Leipzig umgezogen bin, hatte ich kein Fahrrad.",
+     "ru": "",
+     "a": [
+      "Als"
+     ],
+     "hint": "",
+     "n": "Один переезд в прошлом, не повторение."
+    },
+    {
+     "s": "___ du möchtest, können wir zusammen lernen.",
+     "ru": "",
+     "a": [
+      "Wenn"
+     ],
+     "hint": "",
+     "n": "Условие: возможность зависит от желания собеседника."
+    },
+    {
+     "s": "___ ich ein Kind war, hatte ich eine Katze.",
+     "ru": "",
+     "a": [
+      "Als"
+     ],
+     "hint": "",
+     "n": "Детство рассматриваем как один период прошлого."
+    },
+    {
+     "s": "___ ich zu Hause arbeite, mache ich immer um zwölf eine Pause.",
+     "ru": "",
+     "a": [
+      "Wenn"
+     ],
+     "hint": "",
+     "n": "Привычка в настоящем, а не вопрос о времени."
+    },
+    {
+     "s": "Ich weiß noch nicht, ___ der Kurs beginnt.",
+     "ru": "",
+     "a": [
+      "wann"
+     ],
+     "hint": "",
+     "n": "Косвенный вопрос: неизвестно время начала курса."
+    },
+    {
+     "s": "___ ich am Samstag in Hamburg bin, besuche ich dich.",
+     "ru": "",
+     "a": [
+      "Wenn"
+     ],
+     "hint": "",
+     "n": "Будущее событие, даже однократное, вводим через <b>wenn</b>."
+    },
+    {
+     "s": "___ Paul vorgestern die Tür aufgemacht hat, ist die Katze ins Zimmer gekommen.",
+     "ru": "",
+     "a": [
+      "Als"
+     ],
+     "hint": "",
+     "n": "Это один конкретный случай в прошлом."
+    },
+    {
+     "s": "Bis ___ brauchen Sie das Zeugnis?",
+     "ru": "",
+     "a": [
+      "wann"
+     ],
+     "hint": "",
+     "n": "Спрашиваем, к какому сроку нужен документ."
+    },
+    {
+     "s": "Immer ___ ich damals nach Hamburg gefahren bin, hatte ich viel Arbeit.",
+     "ru": "",
+     "a": [
+      "wenn"
+     ],
+     "hint": "",
+     "n": "Поездки повторялись; прошедшее время само по себе не означает <b>als</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 18.3",
+   "sub": "Соедините сообщения указанным словом и поставьте запятую. Сохраните слова и их порядок внутри каждой части; переставлять можно только глаголы. С weil и obwohl придаточное может стоять и первым, и вторым. Deshalb и trotzdem ставьте в начало второй части или сразу после её подлежащего и личного глагола.",
+   "items": [
+    {
+     "ru": "Ich nehme die Straßenbahn. Paul holt mich nicht ab. (weil)",
+     "w": [
+      "Ich",
+      "nehme",
+      "die",
+      "Straßenbahn,",
+      "weil",
+      "Paul",
+      "mich",
+      "nicht",
+      "abholt"
+     ],
+     "ok": [
+      "Ich nehme die Straßenbahn, weil Paul mich nicht abholt"
+     ],
+     "n": "Приставка соединяется с личным глаголом."
+    },
+    {
+     "ru": "Lea bleibt zu Hause. Sie muss sich ausruhen. (weil)",
+     "w": [
+      "Lea",
+      "bleibt",
+      "zu",
+      "Hause,",
+      "weil",
+      "sie",
+      "sich",
+      "ausruhen",
+      "muss"
+     ],
+     "ok": [
+      "Lea bleibt zu Hause, weil sie sich ausruhen muss"
+     ],
+     "n": "Модальный глагол стоит после инфинитива."
+    },
+    {
+     "ru": "Ich rufe dich an. Ich brauche Hilfe. (denn)",
+     "w": [
+      "Ich",
+      "rufe",
+      "dich",
+      "an,",
+      "denn",
+      "ich",
+      "brauche",
+      "Hilfe"
+     ],
+     "ok": [
+      "Ich rufe dich an, denn ich brauche Hilfe"
+     ],
+     "n": "Союз не занимает первую позицию; после <b>ich</b> стоит <b>brauche</b>."
+    },
+    {
+     "ru": "Der Drucker ist kaputt. Ich schreibe die Adresse mit der Hand. (deshalb)",
+     "w": [
+      "Der",
+      "Drucker",
+      "ist",
+      "kaputt,",
+      "deshalb",
+      "schreibe",
+      "ich",
+      "die",
+      "Adresse",
+      "mit",
+      "der",
+      "Hand"
+     ],
+     "ok": [
+      "Der Drucker ist kaputt, deshalb schreibe ich die Adresse mit der Hand",
+      "Der Drucker ist kaputt, ich schreibe deshalb die Adresse mit der Hand"
+     ],
+     "n": "Вторая часть называет следствие; после начального <b>deshalb</b> сразу стоит глагол."
+    },
+    {
+     "ru": "Paul hat heute frei. Er besucht seine Schwester. (deshalb)",
+     "w": [
+      "Paul",
+      "hat",
+      "heute",
+      "frei,",
+      "deshalb",
+      "besucht",
+      "er",
+      "seine",
+      "Schwester"
+     ],
+     "ok": [
+      "Paul hat heute frei, deshalb besucht er seine Schwester",
+      "Paul hat heute frei, er besucht deshalb seine Schwester"
+     ],
+     "n": "Выходной служит причиной визита; <b>deshalb</b> указывает на следствие."
+    },
+    {
+     "ru": "Die Aufgabe ist schwierig. Ich versuche es. (obwohl, первое сообщение станет придаточным)",
+     "w": [
+      "Obwohl",
+      "die",
+      "Aufgabe",
+      "schwierig",
+      "ist,",
+      "versuche",
+      "ich",
+      "es"
+     ],
+     "ok": [
+      "Obwohl die Aufgabe schwierig ist, versuche ich es"
+     ],
+     "n": "Трудность не останавливает попытку; дополнительное <b>aber</b> не нужно."
+    },
+    {
+     "ru": "Es regnet. Wir gehen spazieren. (trotzdem)",
+     "w": [
+      "Es",
+      "regnet,",
+      "trotzdem",
+      "gehen",
+      "wir",
+      "spazieren"
+     ],
+     "ok": [
+      "Es regnet, trotzdem gehen wir spazieren",
+      "Es regnet, wir gehen trotzdem spazieren"
+     ],
+     "n": "Прогулка происходит вопреки дождю; личный глагол остаётся вторым."
+    },
+    {
+     "ru": "Ich hoffe: Sie haben das Formular unterschrieben. (dass)",
+     "w": [
+      "Ich",
+      "hoffe,",
+      "dass",
+      "Sie",
+      "das",
+      "Formular",
+      "unterschrieben",
+      "haben"
+     ],
+     "ok": [
+      "Ich hoffe, dass Sie das Formular unterschrieben haben"
+     ],
+     "n": "В <b>Perfekt</b> вспомогательный <b>haben</b> стоит в придаточном после причастия."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 18.4",
+   "scene": "Sprachnachricht",
+   "cap": "Йонас просит об услуге",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Йонас оставил Алине сообщение про работу для друга.",
+   "audio": {
+    "id": "book-18-4",
+    "n": 2,
+    "dur": 41.64,
+    "t": [
+     [
+      0.8,
+      5.6
+     ],
+     [
+      5.6,
+      13.52
+     ],
+     [
+      13.52,
+      19.52
+     ],
+     [
+      19.52,
+      23.36
+     ],
+     [
+      23.36,
+      31.76
+     ],
+     [
+      31.76,
+      41.6
+     ]
+    ]
+   },
+   "speakers": {
+    "Jonas": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Jonas",
+     "de": "Hallo Alina, hier ist Jonas. Mein Freund hat eine Bewerbung an eine Firma in Köln geschickt.",
+     "ru": "Привет, Алина, это Йонас. Мой друг отправил резюме в одну фирму в Кёльне."
+    },
+    {
+     "who": "Jonas",
+     "de": "Du kennst die Chefin dort, du hast für die Firma schon ein Projekt gemacht. Die Firma möchte mit ihm arbeiten. Er wohnt aber in Bonn.",
+     "ru": "Ты знаешь там начальницу, ты уже делала проект для этой фирмы. Фирма хочет с ним работать. Но он живёт в Бонне."
+    },
+    {
+     "who": "Jonas",
+     "de": "Ich möchte wissen, ob er auch zu Hause arbeiten kann. Kannst du die Chefin fragen?",
+     "ru": "Я хочу узнать, может ли он работать и из дома. Можешь спросить начальницу?"
+    },
+    {
+     "who": "Jonas",
+     "de": "Wenn er zwei Tage in der Woche zu Hause arbeiten darf, nimmt er die Stelle.",
+     "ru": "Если ему разрешат два дня в неделю работать из дома, он согласится."
+    },
+    {
+     "who": "Jonas",
+     "de": "Als er im Juni in Köln war, hat er die Mitarbeiter kennengelernt. Er möchte dort arbeiten, weil ihm das Team gefällt.",
+     "ru": "Когда он был в Кёльне в июне, он познакомился с сотрудниками. Он хочет там работать, потому что ему нравится команда."
+    },
+    {
+     "who": "Jonas",
+     "de": "Obwohl er nach Köln fahren muss, findet er die Arbeit interessant. Er weiß noch nicht, wann er anfangen kann. Ruf mich bitte an. Danke!",
+     "ru": "Хотя ему придётся ездить в Кёльн, работа ему интересна. Он ещё не знает, когда сможет начать. Позвони мне, пожалуйста. Спасибо!"
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Что Йонас хочет узнать через Алину?",
+     "o": [
+      "может ли друг работать из дома",
+      "когда друг может начать",
+      "сколько платят"
+     ],
+     "a": "может ли друг работать из дома",
+     "n": "Ich möchte wissen, <b>ob</b> er auch zu Hause arbeiten kann. ob — «ли»: вопрос о возможности.",
+     "k": 2
+    },
+    {
+     "q": "При каком условии друг согласится?",
+     "o": [
+      "два дня в неделю дома",
+      "зарплата выше",
+      "работа только в Бонне"
+     ],
+     "a": "два дня в неделю дома",
+     "n": "<b>Wenn</b> er zwei Tage in der Woche zu Hause arbeiten darf. wenn вводит условие.",
+     "k": 3
+    },
+    {
+     "q": "Что было в июне?",
+     "o": [
+      "он познакомился с сотрудниками",
+      "он начал работать",
+      "он переехал в Кёльн"
+     ],
+     "a": "он познакомился с сотрудниками",
+     "n": "<b>Als</b> er im Juni in Köln war, hat er die Mitarbeiter kennengelernt. als — один случай в прошлом.",
+     "k": 4
+    },
+    {
+     "q": "Почему он хочет там работать?",
+     "o": [
+      "ему нравится команда",
+      "фирма близко",
+      "там лучше платят"
+     ],
+     "a": "ему нравится команда",
+     "n": "<b>weil</b> ihm das Team gefällt. weil — причина.",
+     "k": 4
+    },
+    {
+     "q": "Что не меняет его интереса?",
+     "o": [
+      "нужно ездить в Кёльн",
+      "мало денег",
+      "начальница строгая"
+     ],
+     "a": "нужно ездить в Кёльн",
+     "n": "<b>Obwohl</b> er nach Köln fahren muss. obwohl — несмотря на.",
+     "k": 5
+    },
+    {
+     "q": "Чего он ещё не знает?",
+     "o": [
+      "когда сможет начать",
+      "где фирма",
+      "кто начальница"
+     ],
+     "a": "когда сможет начать",
+     "n": "Er weiß noch nicht, <b>wann</b> er anfangen kann. wann — о времени.",
+     "k": 5
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 18.4",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 18.5",
+   "sub": "Переведите, используя слова в скобках и добавляя нужные служебные слова. Не заменяйте указанные глаголы синонимами. Придаточное можно ставить и перед главным, и после него. В пунктах 3 и 5 начните с Ich weiß nicht, в пунктах 6–7 с Ich weiß.",
+   "items": [
+    {
+     "ru": "Когда я был в Бонне, у меня был велосипед. (in Bonn sein, ein Fahrrad haben)",
+     "w": [
+      "Als",
+      "ich",
+      "in",
+      "Bonn",
+      "war,",
+      "hatte",
+      "ich",
+      "ein",
+      "Fahrrad"
+     ],
+     "ok": [
+      "Als ich in Bonn war, hatte ich ein Fahrrad"
+     ],
+     "n": "Один период прошлого вводим через <b>als</b>; с <b>sein</b> и <b>haben</b> привычнее короткие <b>war</b> и <b>hatte</b>."
+    },
+    {
+     "ru": "Когда вы завтра приедете, мы пойдём в кафе. (ihr; morgen ankommen, ins Café gehen)",
+     "w": [
+      "Wenn",
+      "ihr",
+      "morgen",
+      "ankommt,",
+      "gehen",
+      "wir",
+      "ins",
+      "Café"
+     ],
+     "ok": [
+      "Wenn ihr morgen ankommt, gehen wir ins Café"
+     ],
+     "n": "Будущее событие вводим через <b>wenn</b>; после придаточного сразу стоит <b>gehen</b>."
+    },
+    {
+     "ru": "Я не знаю, когда вы начнёте. (Sie; anfangen)",
+     "w": [
+      "Ich",
+      "weiß",
+      "nicht,",
+      "wann",
+      "Sie",
+      "anfangen"
+     ],
+     "ok": [
+      "Ich weiß nicht, wann Sie anfangen"
+     ],
+     "n": "Спрашиваем время начала; приставка в конечной личной форме не отделяется. Futur тоже верен, но здесь хватает Präsens."
+    },
+    {
+     "ru": "Если у тебя есть время, позвони мне. (Zeit haben, anrufen)",
+     "w": [
+      "Wenn",
+      "du",
+      "Zeit",
+      "hast,",
+      "ruf",
+      "mich",
+      "an"
+     ],
+     "ok": [
+      "Wenn du Zeit hast, ruf mich an"
+     ],
+     "n": "Условие вводим через <b>wenn</b>; у <b>rufen</b> допустимы обе повелительные формы, <b>ruf</b> и <b>rufe</b>."
+    },
+    {
+     "ru": "Я не знаю, подписала ли она договор. (den Vertrag unterschreiben, Perfekt)",
+     "w": [
+      "Ich",
+      "weiß",
+      "nicht,",
+      "ob",
+      "sie",
+      "den",
+      "Vertrag",
+      "unterschrieben",
+      "hat"
+     ],
+     "ok": [
+      "Ich weiß nicht, ob sie den Vertrag unterschrieben hat"
+     ],
+     "n": "Неизвестно, произошло ли действие; вспомогательный глагол завершает вопрос с <b>ob</b>."
+    },
+    {
+     "ru": "Я знаю, что Пауль учится в университете. (Paul, studieren, обязательно с союзом)",
+     "w": [
+      "Ich",
+      "weiß,",
+      "dass",
+      "Paul",
+      "studiert"
+     ],
+     "ok": [
+      "Ich weiß, dass Paul studiert"
+     ],
+     "n": "После <b>dass</b> передаём целый известный факт."
+    },
+    {
+     "ru": "Я знаю, что Пауль изучает. (Paul, studieren; смысл: какой предмет)",
+     "w": [
+      "Ich",
+      "weiß,",
+      "was",
+      "Paul",
+      "studiert"
+     ],
+     "ok": [
+      "Ich weiß, was Paul studiert"
+     ],
+     "n": "<b>Was</b> заменяет название предмета; это образец для различения двух «что»."
+    },
+    {
+     "ru": "Это не мой компьютер, а твой. (Das ist, mein Computer, deiner)",
+     "w": [
+      "Das",
+      "ist",
+      "nicht",
+      "mein",
+      "Computer,",
+      "sondern",
+      "deiner"
+     ],
+     "ok": [
+      "Das ist nicht mein Computer, sondern deiner"
+     ],
+     "n": "Исправляем принадлежность; <b>deiner</b> заменяет существительное мужского рода."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 18.6",
+   "sub": "Подготовьте письменные ответы для собеседования, 80–100 слов. Можно придумать кандидата. Вопросы: Warum möchten Sie bei uns arbeiten? (Почему вы хотите у нас работать?) Welche Erfahrung haben Sie? (Какой у вас опыт?) Wann und unter welchen Bedingungen können Sie anfangen? (Когда и при каких условиях вы можете начать?) Слово die Bedingungen здесь означает «условия».",
+   "items": [
+    {
+     "q": "Ответьте связным текстом, затем перечитайте его: есть ли в нём хотя бы два weil и по одному dass и wenn? Есть ли als в рассказе о прошлом? Нашлось ли место для obwohl или trotzdem, и стоит ли хотя бы одно придаточное первым?",
+     "hint": "",
+     "ph": "Ответ…",
+     "ex": [
+      "Образец: Ich möchte bei Ihnen arbeiten, weil Ihre Projekte interessant sind. Außerdem glaube ich, dass meine Erfahrung für Sie wichtig ist. Als ich an der Universität war, habe ich zwei Jahre in einem Büro gearbeitet. Die Arbeit war oft stressig, trotzdem hat sie mir gefallen. Jetzt habe ich eine Stelle in Bonn, aber mein Vertrag läuft nur bis Mai. Wenn alles klappt, kann ich im Juni anfangen. Ich möchte zwei Tage in der Woche zu Hause arbeiten, weil ich ein Kind habe. Ist das möglich?"
+     ],
+     "check": [
+      "Проверьте ответы на три вопроса; два <b>weil</b>, по одному <b>dass</b>, <b>wenn</b>, <b>als</b>, а также <b>trotzdem</b>. После начальных придаточных стоят <b>habe</b> и <b>kann</b>; внутри придаточных личные глаголы последние. Образец: 84 слова. Другие правильные формулировки допустимы."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

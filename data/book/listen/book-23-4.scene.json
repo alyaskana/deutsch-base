@@ -1,0 +1,123 @@
+{
+ "id": "book-23-4",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Nachricht eins.",
+   "ru": "Сообщение первое."
+  },
+  {
+   "who": "Kunde",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Guten Tag. Könnten Sie mir die Unterlagen schicken? Eine E-Mail wäre ideal. Wenn ich heute Zeit habe, überprüfe ich sie. Vielen Dank.",
+   "ru": "Добрый день. Не могли бы вы прислать мне документы? Электронное письмо было бы идеально. Если сегодня будет время, я их проверю. Большое спасибо.",
+   "tag": "[Anrufbeantworter]"
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Nachricht zwei.",
+   "ru": "Сообщение второе."
+  },
+  {
+   "who": "Lea",
+   "voice": "7eVMgwCnXydb3CikjV7a",
+   "de": "Hallo Alina, hier ist Lea. Du arbeitest viel und bist krank. Du solltest dich ausruhen. An deiner Stelle würde ich jetzt nach Hause gehen. Die Konferenz kann warten.",
+   "ru": "Привет, Алина, это Леа. Ты много работаешь и болеешь. Тебе стоит отдохнуть. На твоём месте я бы сейчас пошла домой. Конференция подождёт."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Nachricht drei.",
+   "ru": "Сообщение третье."
+  },
+  {
+   "who": "Kundin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Guten Tag. Ich bin vorgestern nicht zum Termin gekommen. Ich hatte keine Zeit. Wenn ich vorgestern Zeit gehabt hätte, wäre ich gekommen.",
+   "ru": "Добрый день. Позавчера я не пришла на встречу. У меня не было времени. Если бы позавчера у меня было время, я бы пришла."
+  },
+  {
+   "who": "Kundin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Könnten Sie unseren nächsten Termin auf Freitag verschieben? Vielen Dank.",
+   "ru": "Не могли бы вы перенести нашу следующую встречу на пятницу? Большое спасибо."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 23.4",
+  "scene": "Anrufbeantworter",
+  "cap": "Три сообщения в студию",
+  "sub": "Три сообщения пришли в студию. Отвечайте только по записи.",
+  "speakers": {
+   "Kunde": "Австрия",
+   "Lea": "Германия",
+   "Kundin": "Берлин",
+   "Sprecher": "Германия"
+  },
+  "qs": [
+   [
+    "Сообщение 1: зачем звонит человек?",
+    [
+     "просит об услуге",
+     "даёт совет",
+     "высказывает мечту"
+    ],
+    "<b>Könnten Sie</b> mir die Unterlagen schicken?",
+    "Könnten Sie — вежливая просьба."
+   ],
+   [
+    "Сообщение 1: что просят сделать студию?",
+    [
+     "отправить документы по почте",
+     "позвонить врачу",
+     "отменить встречу"
+    ],
+    "Eine <b>E-Mail</b> wäre ideal",
+    "Документы письмом."
+   ],
+   [
+    "Сообщение 1: он точно проверит документы сегодня?",
+    [
+     "зависит от свободного времени",
+     "да, уже проверил",
+     "нет, не будет"
+    ],
+    "<b>Wenn</b> ich heute Zeit habe, überprüfe ich sie",
+    "Реальное условие, ещё не выполнено."
+   ],
+   [
+    "Сообщение 2: что делает Леа?",
+    [
+     "советует",
+     "просит распечатать файл",
+     "мечтает об отпуске"
+    ],
+    "Du <b>solltest</b> dich ausruhen. <b>An deiner Stelle würde</b> ich…",
+    "solltest, an deiner Stelle — совет."
+   ],
+   [
+    "Сообщение 3: была ли клиентка на встрече позавчера?",
+    [
+     "нет",
+     "да",
+     "ещё не решила"
+    ],
+    "Ich bin vorgestern <b>nicht</b> zum Termin gekommen",
+    "Не пришла; wäre gekommen — нереальный вариант."
+   ],
+   [
+    "Сообщение 3: о чём просят?",
+    [
+     "перенести встречу на пятницу",
+     "купить принтер",
+     "принести чай"
+    ],
+    "unseren nächsten Termin auf Freitag <b>verschieben</b>",
+    "verschieben — переносить."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 18",
+ "sub": "Пять заданий в конце урока 18: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 18,
+  "s": "18.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 18.C: впиши",
+   "sub": "Закройте объяснения и выполните пять заданий.",
+   "items": [
+    {
+     "s": "Wir treffen uns nicht im Büro, ___ im Café.",
+     "ru": "Вставьте aber или sondern",
+     "a": [
+      "sondern"
+     ],
+     "hint": "",
+     "n": "Кафе заменяет отвергнутый офис."
+    },
+    {
+     "s": "Ich freue mich, weil Lea bald ___.",
+     "ru": "Поставьте zurückkommen в нужной форме",
+     "a": [
+      "zurückkommt"
+     ],
+     "hint": "",
+     "n": "Приставка и глагол соединяются в конце придаточного."
+    },
+    {
+     "s": "Вставьте wenn, als или wann: ___ ich am Montag die Rechnung bezahlt habe, hatte ich nur noch fünf Euro.",
+     "ru": "",
+     "a": [
+      "Als"
+     ],
+     "hint": "",
+     "n": "Это один конкретный случай в прошлом."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  },
+  {
+   "type": "build",
+   "title": "Проверь себя 18.C: переведи",
+   "sub": "Закройте объяснения и выполните пять заданий.",
+   "items": [
+    {
+     "ru": "Начните с условия: Wir haben viel Zeit. Wir besuchen das Museum. Используйте wenn; сохраните остальные слова.",
+     "w": [
+      "Wenn",
+      "wir",
+      "viel",
+      "Zeit",
+      "haben,",
+      "besuchen",
+      "wir",
+      "das",
+      "Museum"
+     ],
+     "ok": [
+      "Wenn wir viel Zeit haben, besuchen wir das Museum"
+     ],
+     "n": "Всё условие занимает первую позицию, поэтому сразу после запятой стоит <b>besuchen</b>."
+    },
+    {
+     "ru": "Переведите: «Я не знаю, смогу ли я прийти». Начните с Ich weiß nicht; используйте kommen и können.",
+     "w": [
+      "Ich",
+      "weiß",
+      "nicht,",
+      "ob",
+      "ich",
+      "kommen",
+      "kann"
+     ],
+     "ok": [
+      "Ich weiß nicht, ob ich kommen kann"
+     ],
+     "n": "Для «ли» нужен <b>ob</b>, модальный глагол ставим после инфинитива."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  }
+ ]
+}

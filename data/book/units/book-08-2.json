@@ -1,7 +1,7 @@
 {
  "title": "Место nicht: в конце, но перед последним вагоном",
  "topic": "Книга · 8.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -189,5 +189,110 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Место nicht",
+   "sub": "В конце, но перед «служебным вагоном»",
+   "items": [
+    {
+     "ru": "Я не понимаю счёт.",
+     "w": [
+      "Ich",
+      "verstehe",
+      "die",
+      "Rechnung",
+      "nicht."
+     ],
+     "ok": [
+      "Ich verstehe die Rechnung nicht."
+     ],
+     "n": "Служебного вагона нет — <b>nicht</b> в конце."
+    },
+    {
+     "ru": "Завтра мы не работаем. (Начни с morgen.)",
+     "w": [
+      "Morgen",
+      "arbeiten",
+      "wir",
+      "nicht."
+     ],
+     "ok": [
+      "Morgen arbeiten wir nicht."
+     ],
+     "n": "Глагол второй, отрицание его не сдвигает."
+    },
+    {
+     "ru": "Вода не дорогая.",
+     "w": [
+      "Das",
+      "Wasser",
+      "ist",
+      "nicht",
+      "teuer."
+     ],
+     "ok": [
+      "Das Wasser ist nicht teuer."
+     ],
+     "n": "Качество — служебный вагон: <b>nicht teuer</b>."
+    },
+    {
+     "ru": "Мы не остаёмся здесь.",
+     "w": [
+      "Wir",
+      "bleiben",
+      "nicht",
+      "hier."
+     ],
+     "ok": [
+      "Wir bleiben nicht hier."
+     ],
+     "n": "Место при bleiben — вагон: <b>nicht hier</b>."
+    },
+    {
+     "ru": "Пауль не едет в Гамбург.",
+     "w": [
+      "Paul",
+      "fährt",
+      "nicht",
+      "nach",
+      "Hamburg."
+     ],
+     "ok": [
+      "Paul fährt nicht nach Hamburg."
+     ],
+     "n": "Направление целиком после <b>nicht</b>."
+    },
+    {
+     "ru": "Я не люблю готовить.",
+     "w": [
+      "Ich",
+      "koche",
+      "nicht",
+      "gern."
+     ],
+     "ok": [
+      "Ich koche nicht gern."
+     ],
+     "n": "<b>nicht gern</b>."
+    },
+    {
+     "ru": "Я не знаю этого официанта.",
+     "w": [
+      "Ich",
+      "kenne",
+      "den",
+      "Kellner",
+      "nicht."
+     ],
+     "ok": [
+      "Ich kenne den Kellner nicht."
+     ],
+     "n": "Не <s>Ich nicht kenne</s>: глагол второй, nicht в конце."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,0 +1,729 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 23",
+ "sub": "Упражнения урока 23 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 23,
+  "s": "23.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 23.1",
+   "sub": "Вставьте Konjunktiv II указанного глагола. В пунктах 11–12 используйте würde с инфинитивом.",
+   "items": [
+    {
+     "s": "Mit einem freien Nachmittag ___ du sicher zufriedener.",
+     "ru": "",
+     "a": [
+      "wärst",
+      "wärest"
+     ],
+     "hint": "sein",
+     "n": "У <b>du</b> допустимы обе формы: короткая и полная."
+    },
+    {
+     "s": "Ohne die Konferenz ___ ihr mehr Zeit.",
+     "ru": "",
+     "a": [
+      "hättet"
+     ],
+     "hint": "haben",
+     "n": "Окончание для <b>ihr</b> здесь <b>-et</b>."
+    },
+    {
+     "s": "Ohne den Verkehr ___ wir pünktlich im Büro.",
+     "ru": "",
+     "a": [
+      "wären"
+     ],
+     "hint": "sein",
+     "n": "У <b>wir</b> форма оканчивается на <b>-en</b>."
+    },
+    {
+     "s": "Mit dem neuen Vertrag ___ sie mehr Geld.",
+     "ru": "",
+     "a": [
+      "hätte"
+     ],
+     "hint": "haben; она",
+     "n": "Для <b>sie</b> в единственном числе форма совпадает с <b>ich</b>."
+    },
+    {
+     "s": "Mit deiner Hilfe ___ ich die Aufgabe erledigen.",
+     "ru": "",
+     "a": [
+      "könnte"
+     ],
+     "hint": "können",
+     "n": "Воображаемая возможность: <b>könnte</b>, с умлаутом."
+    },
+    {
+     "s": "Ohne Fahrrad ___ er zu Fuß gehen.",
+     "ru": "",
+     "a": [
+      "müsste"
+     ],
+     "hint": "müssen",
+     "n": "Необходимость при другом условии выражает <b>müsste</b>."
+    },
+    {
+     "s": "___ ich Ihnen einen Vorschlag machen?",
+     "ru": "",
+     "a": [
+      "Dürfte"
+     ],
+     "hint": "dürfen",
+     "n": "Говорящий вежливо просит разрешения высказаться."
+    },
+    {
+     "s": "Mein Rat: Er ___ die Unterlagen überprüfen.",
+     "ru": "",
+     "a": [
+      "sollte"
+     ],
+     "hint": "sollen",
+     "n": "Совет в третьем лице: <b>sollte</b>, без умлаута."
+    },
+    {
+     "s": "Ohne deinen Anruf ___ ich nichts von der Konferenz.",
+     "ru": "",
+     "a": [
+      "wüsste"
+     ],
+     "hint": "wissen",
+     "n": "Речь о нынешнем знании при воображаемом условии."
+    },
+    {
+     "s": "Mit einem zweiten Drucker ___ es weniger Probleme.",
+     "ru": "",
+     "a": [
+      "gäbe"
+     ],
+     "hint": "geben",
+     "n": "Оборот <b>es gibt</b> в воображаемой ситуации становится <b>es gäbe</b>."
+    },
+    {
+     "s": "Ich ___ die Fotos gern selbst ….",
+     "ru": "",
+     "a": [
+      "würde"
+     ],
+     "hint": "kopieren",
+     "n": "Изменяется <b>würde</b>; действие стоит в инфинитиве в конце."
+    },
+    {
+     "s": "Ich würde die Fotos gern selbst ___.",
+     "ru": "",
+     "a": [
+      "kopieren"
+     ],
+     "hint": "kopieren",
+     "n": "Изменяется <b>würde</b>; действие стоит в инфинитиве в конце."
+    },
+    {
+     "s": "Wir ___ gern weniger Papier ….",
+     "ru": "",
+     "a": [
+      "würden"
+     ],
+     "hint": "verbrauchen",
+     "n": "Подлежащее <b>wir</b> выбирает форму <b>würden</b>."
+    },
+    {
+     "s": "Wir würden gern weniger Papier ___.",
+     "ru": "",
+     "a": [
+      "verbrauchen"
+     ],
+     "hint": "verbrauchen",
+     "n": "Подлежащее <b>wir</b> выбирает форму <b>würden</b>."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 23.2",
+   "sub": "Сделайте просьбы нейтрально вежливыми, сохранив действие и обращение. Можно добавить bitte; другие правильные вежливые начала, кроме приведённых в ключе, тоже принимаются. Русское вежливое «не» не переносите.",
+   "items": [
+    {
+     "ru": "Schick mir das Foto. (du)",
+     "w": [
+      "Könntest",
+      "du",
+      "mir",
+      "das",
+      "Foto",
+      "schicken?"
+     ],
+     "ok": [
+      "Könntest du mir das Foto schicken?"
+     ],
+     "n": "Действие уходит в конец как инфинитив."
+    },
+    {
+     "ru": "Kopiere bitte die Rechnung. (du)",
+     "w": [
+      "Könntest",
+      "du",
+      "bitte",
+      "die",
+      "Rechnung",
+      "kopieren?"
+     ],
+     "ok": [
+      "Könntest du bitte die Rechnung kopieren?",
+      "Könntest du die Rechnung bitte kopieren?"
+     ],
+     "n": "<b>Bitte</b> можно поставить и перед <b>kopieren</b>."
+    },
+    {
+     "ru": "Bring mir einen Tee. (du)",
+     "w": [
+      "Könntest",
+      "du",
+      "mir",
+      "einen",
+      "Tee",
+      "bringen?"
+     ],
+     "ok": [
+      "Könntest du mir einen Tee bringen?"
+     ],
+     "n": "После этих начал нужен инфинитив без <b>zu</b>."
+    },
+    {
+     "ru": "Erkläre mir die Aufgabe. (du)",
+     "w": [
+      "Könntest",
+      "du",
+      "mir",
+      "die",
+      "Aufgabe",
+      "erklären?"
+     ],
+     "ok": [
+      "Könntest du mir die Aufgabe erklären?"
+     ],
+     "n": "Адресат остаётся на <b>du</b>."
+    },
+    {
+     "ru": "Wiederholen Sie bitte die Frage. (Sie)",
+     "w": [
+      "Könnten",
+      "Sie",
+      "bitte",
+      "die",
+      "Frage",
+      "wiederholen?"
+     ],
+     "ok": [
+      "Könnten Sie bitte die Frage wiederholen?",
+      "Könnten Sie die Frage bitte wiederholen?"
+     ],
+     "n": "Вежливое обращение даёт окончание <b>-en</b>."
+    },
+    {
+     "ru": "Zeigen Sie mir das Formular. (Sie)",
+     "w": [
+      "Könnten",
+      "Sie",
+      "mir",
+      "das",
+      "Formular",
+      "zeigen?"
+     ],
+     "ok": [
+      "Könnten Sie mir das Formular zeigen?"
+     ],
+     "n": "Сохраняем оба дополнения: кому и что показать."
+    },
+    {
+     "ru": "Geben Sie mir noch fünf Minuten. (Sie)",
+     "w": [
+      "Könnten",
+      "Sie",
+      "mir",
+      "noch",
+      "fünf",
+      "Minuten",
+      "geben?"
+     ],
+     "ok": [
+      "Könnten Sie mir noch fünf Minuten geben?"
+     ],
+     "n": "Просим время для себя, а не спрашиваем, есть ли время у собеседника."
+    },
+    {
+     "ru": "Rufen Sie mich morgen an. (Sie)",
+     "w": [
+      "Könnten",
+      "Sie",
+      "mich",
+      "morgen",
+      "anrufen?"
+     ],
+     "ok": [
+      "Könnten Sie mich morgen anrufen?"
+     ],
+     "n": "В инфинитиве <b>anrufen</b> приставка не отделяется."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 23.3",
+   "sub": "Представьте противоположное условие и измените результат: 1–4 о настоящем, 5–8 о прошлом. Сохраните действующих лиц и основные слова. Принимаются оба порядка частей и правильные перестановки внутри них.",
+   "items": [
+    {
+     "ru": "Ich habe keinen Drucker, deshalb kopiere ich die Fotos im Büro.",
+     "w": [
+      "Wenn",
+      "ich",
+      "einen",
+      "Drucker",
+      "hätte,",
+      "würde",
+      "ich",
+      "die",
+      "Fotos",
+      "nicht",
+      "im",
+      "Büro",
+      "kopieren"
+     ],
+     "ok": [
+      "Wenn ich einen Drucker hätte, würde ich die Fotos nicht im Büro kopieren"
+     ],
+     "n": "Воображаем наличие принтера; <b>nicht im Büro</b> отрицает место копирования, <b>zu Hause</b> тоже подходит."
+    },
+    {
+     "ru": "Lea ist krank, deshalb kommt sie nicht mit.",
+     "w": [
+      "Wenn",
+      "Lea",
+      "nicht",
+      "krank",
+      "wäre,",
+      "würde",
+      "sie",
+      "mitkommen"
+     ],
+     "ok": [
+      "Wenn Lea nicht krank wäre, würde sie mitkommen"
+     ],
+     "n": "Допустимы и <b>würde mitkommen</b>, и собственная форма <b>käme mit</b>."
+    },
+    {
+     "ru": "Paul arbeitet heute, deshalb bleibt er nicht zu Hause.",
+     "w": [
+      "Wenn",
+      "Paul",
+      "heute",
+      "nicht",
+      "arbeiten",
+      "würde,",
+      "würde",
+      "er",
+      "zu",
+      "Hause",
+      "bleiben"
+     ],
+     "ok": [
+      "Wenn Paul heute nicht arbeiten würde, würde er zu Hause bleiben"
+     ],
+     "n": "<b>Würde</b> допустимо после <b>wenn</b>; <b>arbeitete</b> совпадает с <b>Präteritum</b>, но здесь передаёт условие. Вместо <b>würde bleiben</b> допустимо <b>bliebe</b>."
+    },
+    {
+     "ru": "Ich kann nicht kommen, deshalb sage ich den Termin ab.",
+     "w": [
+      "Wenn",
+      "ich",
+      "kommen",
+      "könnte,",
+      "würde",
+      "ich",
+      "den",
+      "Termin",
+      "nicht",
+      "absagen"
+     ],
+     "ok": [
+      "Wenn ich kommen könnte, würde ich den Termin nicht absagen"
+     ],
+     "n": "В условии меняется возможность, поэтому используем <b>könnte</b>."
+    },
+    {
+     "ru": "Ich habe die Adresse nicht überprüft, deshalb habe ich das Haus nicht gefunden.",
+     "w": [
+      "Wenn",
+      "ich",
+      "die",
+      "Adresse",
+      "überprüft",
+      "hätte,",
+      "hätte",
+      "ich",
+      "das",
+      "Haus",
+      "gefunden"
+     ],
+     "ok": [
+      "Wenn ich die Adresse überprüft hätte, hätte ich das Haus gefunden"
+     ],
+     "n": "Оба глагола образуют <b>Perfekt</b> с <b>haben</b>, поэтому в обеих частях <b>hätte</b>."
+    },
+    {
+     "ru": "Jonas hat die Einladung nicht gelesen, deshalb ist er nicht gekommen.",
+     "w": [
+      "Wenn",
+      "Jonas",
+      "die",
+      "Einladung",
+      "gelesen",
+      "hätte,",
+      "wäre",
+      "er",
+      "gekommen"
+     ],
+     "ok": [
+      "Wenn Jonas die Einladung gelesen hätte, wäre er gekommen"
+     ],
+     "n": "<b>Lesen</b> выбирает <b>haben</b>, а <b>kommen</b> выбирает <b>sein</b>; здесь соответственно <b>hätte</b> и <b>wäre</b>."
+    },
+    {
+     "ru": "Wir sind spät aufgestanden, deshalb haben wir den Zug verpasst.",
+     "w": [
+      "Wenn",
+      "wir",
+      "rechtzeitig",
+      "aufgestanden",
+      "wären,",
+      "hätten",
+      "wir",
+      "den",
+      "Zug",
+      "nicht",
+      "verpasst"
+     ],
+     "ok": [
+      "Wenn wir rechtzeitig aufgestanden wären, hätten wir den Zug nicht verpasst"
+     ],
+     "n": "<b>Aufstehen</b> выбирает <b>sein</b>; вместо <b>rechtzeitig</b> подходят <b>früh</b>, <b>früher</b> и <b>nicht spät</b>."
+    },
+    {
+     "ru": "Sie hat den Vertrag nicht gelesen, deshalb hat sie nichts von der Ausnahme gewusst.",
+     "w": [
+      "Wenn",
+      "sie",
+      "den",
+      "Vertrag",
+      "gelesen",
+      "hätte,",
+      "hätte",
+      "sie",
+      "von",
+      "der",
+      "Ausnahme",
+      "gewusst"
+     ],
+     "ok": [
+      "Wenn sie den Vertrag gelesen hätte, hätte sie von der Ausnahme gewusst"
+     ],
+     "n": "Оба действия в несбывшемся прошлом, и оба <b>Perfekt</b> строятся с <b>haben</b>; отрицание <b>nichts</b> уходит, потому что теперь она знала бы об исключении."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 23.4",
+   "scene": "Anrufbeantworter",
+   "cap": "Три сообщения в студию",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Три сообщения пришли в студию. Отвечайте только по записи.",
+   "audio": {
+    "id": "book-23-4",
+    "n": 3,
+    "dur": 46.68,
+    "t": [
+     [
+      0.8,
+      1.76
+     ],
+     [
+      1.76,
+      14.96
+     ],
+     [
+      14.96,
+      15.84
+     ],
+     [
+      15.84,
+      29.6
+     ],
+     [
+      29.6,
+      30.56
+     ],
+     [
+      30.56,
+      40.96
+     ],
+     [
+      40.96,
+      46.64
+     ]
+    ]
+   },
+   "speakers": {
+    "Kunde": "Австрия",
+    "Lea": "Германия",
+    "Kundin": "Берлин",
+    "Sprecher": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Sprecher",
+     "de": "Nachricht eins.",
+     "ru": "Сообщение первое."
+    },
+    {
+     "who": "Kunde",
+     "de": "Guten Tag. Könnten Sie mir die Unterlagen schicken? Eine E-Mail wäre ideal. Wenn ich heute Zeit habe, überprüfe ich sie. Vielen Dank.",
+     "ru": "Добрый день. Не могли бы вы прислать мне документы? Электронное письмо было бы идеально. Если сегодня будет время, я их проверю. Большое спасибо."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Nachricht zwei.",
+     "ru": "Сообщение второе."
+    },
+    {
+     "who": "Lea",
+     "de": "Hallo Alina, hier ist Lea. Du arbeitest viel und bist krank. Du solltest dich ausruhen. An deiner Stelle würde ich jetzt nach Hause gehen. Die Konferenz kann warten.",
+     "ru": "Привет, Алина, это Леа. Ты много работаешь и болеешь. Тебе стоит отдохнуть. На твоём месте я бы сейчас пошла домой. Конференция подождёт."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Nachricht drei.",
+     "ru": "Сообщение третье."
+    },
+    {
+     "who": "Kundin",
+     "de": "Guten Tag. Ich bin vorgestern nicht zum Termin gekommen. Ich hatte keine Zeit. Wenn ich vorgestern Zeit gehabt hätte, wäre ich gekommen.",
+     "ru": "Добрый день. Позавчера я не пришла на встречу. У меня не было времени. Если бы позавчера у меня было время, я бы пришла."
+    },
+    {
+     "who": "Kundin",
+     "de": "Könnten Sie unseren nächsten Termin auf Freitag verschieben? Vielen Dank.",
+     "ru": "Не могли бы вы перенести нашу следующую встречу на пятницу? Большое спасибо."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Сообщение 1: зачем звонит человек?",
+     "o": [
+      "просит об услуге",
+      "даёт совет",
+      "высказывает мечту"
+     ],
+     "a": "просит об услуге",
+     "n": "<b>Könnten Sie</b> mir die Unterlagen schicken?. Könnten Sie — вежливая просьба.",
+     "k": 1
+    },
+    {
+     "q": "Сообщение 1: что просят сделать студию?",
+     "o": [
+      "отправить документы по почте",
+      "позвонить врачу",
+      "отменить встречу"
+     ],
+     "a": "отправить документы по почте",
+     "n": "Eine <b>E-Mail</b> wäre ideal. Документы письмом.",
+     "k": 1
+    },
+    {
+     "q": "Сообщение 1: он точно проверит документы сегодня?",
+     "o": [
+      "зависит от свободного времени",
+      "да, уже проверил",
+      "нет, не будет"
+     ],
+     "a": "зависит от свободного времени",
+     "n": "<b>Wenn</b> ich heute Zeit habe, überprüfe ich sie. Реальное условие, ещё не выполнено.",
+     "k": 1
+    },
+    {
+     "q": "Сообщение 2: что делает Леа?",
+     "o": [
+      "советует",
+      "просит распечатать файл",
+      "мечтает об отпуске"
+     ],
+     "a": "советует",
+     "n": "Du <b>solltest</b> dich ausruhen. <b>An deiner Stelle würde</b> ich…. solltest, an deiner Stelle — совет.",
+     "k": 3
+    },
+    {
+     "q": "Сообщение 3: была ли клиентка на встрече позавчера?",
+     "o": [
+      "нет",
+      "да",
+      "ещё не решила"
+     ],
+     "a": "нет",
+     "n": "Ich bin vorgestern <b>nicht</b> zum Termin gekommen. Не пришла; wäre gekommen — нереальный вариант.",
+     "k": 5
+    },
+    {
+     "q": "Сообщение 3: о чём просят?",
+     "o": [
+      "перенести встречу на пятницу",
+      "купить принтер",
+      "принести чай"
+     ],
+     "a": "перенести встречу на пятницу",
+     "n": "unseren nächsten Termin auf Freitag <b>verschieben</b>. verschieben — переносить.",
+     "k": 6
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 23.4",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 23.5",
+   "sub": "Выберите форму или толкование по ситуации. Правильный ответ один.",
+   "items": [
+    {
+     "s": "Wenn ich morgen frei ___, fahre ich nach Bonn.",
+     "ru": "Реальный план на завтра",
+     "o": [
+      "hätte",
+      "habe",
+      "gehabt hätte"
+     ],
+     "a": "habe",
+     "n": "Условие реально; <b>Präsens</b> может говорить о завтрашнем дне."
+    },
+    {
+     "s": "Wenn wir Papier ___, würden wir die Unterlagen ausdrucken.",
+     "ru": "Сейчас бумаги нет. Представьте обратное",
+     "o": [
+      "hätten",
+      "haben",
+      "hatten"
+     ],
+     "a": "hätten",
+     "n": "Нереальное условие настоящего выражает <b>hätten</b>."
+    },
+    {
+     "s": "Wenn Paul vorgestern den Schlüssel ___, wäre er in die Wohnung gekommen.",
+     "ru": "Позавчера Пауль забыл ключ. Представьте иной исход",
+     "o": [
+      "hat",
+      "hätte",
+      "gehabt hätte"
+     ],
+     "a": "gehabt hätte",
+     "n": "Для упущенной возможности в прошлом нужны <b>Partizip II</b> и <b>hätte</b>."
+    },
+    {
+     "s": "Ich möchte, dass du morgen ___.",
+     "ru": "Обычная просьба о завтрашнем действии",
+     "o": [
+      "mitgekommen wärst",
+      "mitkommst",
+      "mitkamst"
+     ],
+     "a": "mitkommst",
+     "n": "Русскому «чтобы ты пришёл вместе с нами» здесь соответствует <b>Präsens</b>."
+    },
+    {
+     "s": "Ich will, dass ihr hier ___.",
+     "ru": "Человек хочет, чтобы коллеги сейчас подождали",
+     "o": [
+      "gewartet hättet",
+      "gewartet habt",
+      "wartet"
+     ],
+     "a": "wartet",
+     "n": "Ожидаемое действие ещё впереди; подходит <b>Indikativ</b> настоящего времени."
+    },
+    {
+     "s": "Damals sollte ich die Rechnung kopieren. Das war meine Aufgabe. Что означает sollte? — ___",
+     "ru": "",
+     "o": [
+      "Тогда мне поручили это сделать.",
+      "Мне советуют сделать это сейчас.",
+      "Мне хотелось бы скопировать её завтра."
+     ],
+     "a": "Тогда мне поручили это сделать.",
+     "n": "Следующее предложение поясняет прошлое поручение."
+    },
+    {
+     "s": "Du bist krank. Du solltest heute nicht arbeiten. Что означает solltest? — ___",
+     "ru": "",
+     "o": [
+      "Вчера тебе поручили работу.",
+      "Тебе советуют сегодня не работать.",
+      "Тебе запрещают работать по закону."
+     ],
+     "a": "Тебе советуют сегодня не работать.",
+     "n": "Контекст даёт нынешний совет, а не прошлое поручение или официальный запрет."
+    },
+    {
+     "s": "Вы впервые просите незнакомого человека повторить вопрос. Какой вариант нейтрально вежливый? — ___",
+     "ru": "",
+     "o": [
+      "Würden Sie bitte die Frage wiederholen?",
+      "Könnten Sie nicht endlich die Frage wiederholen?",
+      "Wiederholen Sie sofort die Frage!"
+     ],
+     "a": "Würden Sie bitte die Frage wiederholen?",
+     "n": "<b>Bitte</b> и <b>Konjunktiv II</b> подходят для первой просьбы; остальные варианты выражают нетерпение."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 23.6",
+   "sub": "Напишите коллеге на du письмо: 70–90 слов. Он болен и перегружен работой. В ключе пример.",
+   "items": [
+    {
+     "q": "Напишите коллеге на du письмо: 70–90 слов. Он болен и перегружен работой. В ключе пример.",
+     "hint": "Дайте не меньше двух советов разными способами. Добавьте нереальное условие о настоящем, сожаление с hättest … sollen, вежливую просьбу или предложение помощи и желание с würde gern или hätte gern.",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Hallo Jonas, du arbeitest viel und bist krank. Du solltest jetzt nach Hause gehen. An deiner Stelle würde ich den Termin morgen absagen. Wenn ich jetzt im Büro wäre, könnte ich dich vertreten. Du hättest mir schon am Wochenende schreiben sollen. Könntest du mir bitte die Unterlagen schicken? Ich würde gern die Präsentation für dich vorbereiten. Heute Nachmittag habe ich Zeit. Dann kannst du dich erholen. Wir telefonieren morgen. Erhol dich gut! Alina"
+     ],
+     "check": [
+      "Проверка: два разных совета; обе части нереального условия; hättest с двумя инфинитивами; вежливая просьба; желание с würde gern."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}
