@@ -321,5 +321,23 @@
     "js": [
       "showBookLesson(1)"
     ]
+  },
+  {
+    "id": "41-book-lesson-22",
+    "js": [
+      "showBookLesson(22)"
+    ]
+  },
+  {
+    "id": "42-book-lesson-3",
+    "js": [
+      "showBookLesson(3)"
+    ]
+  },
+  {
+    "id": "43-vocab-book",
+    "js": [
+      "showVocab()"
+    ]
   }
 ]
