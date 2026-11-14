@@ -43,6 +43,11 @@ const lessons = docs.filter(d => !d.id.startsWith('_') && Array.isArray(d.data.s
 let problems = 0;
 const bad = m => { problems++; console.log('✗ ' + m); };
 
+// Задания «впиши» и «выбери» показывают ответ в пропуске ___. Без пропуска страница падала
+// (Cannot set properties of null, ноябрь 2026: tp-wl, book-16-P, book-22-5, book-28-C). Проверка без браузера.
+for (const l of lessons) for (const st of l.data.stages) if (st.type === 'type' || st.type === 'choice')
+  (st.items || []).forEach((it, i) => { if (typeof it.s === 'string' && !it.s.includes('___')) bad(`${l.id}: ${st.type} №${i + 1} без пропуска ___ («${it.s.slice(0, 40)}»)`); });
+
 // Мок window.claude: база с уроками, пользователь «me», sample считает запросы.
 const MOCK = `(() => {
   const docs = ${JSON.stringify(docs)};

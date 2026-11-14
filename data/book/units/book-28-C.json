@@ -25,12 +25,12 @@
      "n": "<b>Zu</b> ставим после отделяемого <b>auf-</b>."
     },
     {
-     "s": "kommen или zu kommen.",
-     "ru": "Die Teilnehmer können ___ . Выберите",
+     "s": "Die Teilnehmer können ___.",
+     "ru": "Участники могут прийти. kommen или zu kommen?",
      "a": [
       "kommen"
      ],
-     "hint": "",
+     "hint": "kommen",
      "n": "После модального глагола частицы нет."
     },
     {
