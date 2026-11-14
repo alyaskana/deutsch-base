@@ -116,7 +116,7 @@ async function playLesson(l) {
   const { page, errs } = await open();
   if (l.tp) {
     // «К тесту»: раздел запускается с экрана подготовки, не из коллекции уроков
-    const ok = await page.evaluate(k => { if (typeof tpStart !== 'function' || !tpActive()) return false; showTest(); tpStart(k); return view === 'run' || !!document.querySelector('.stagecard,.task'); }, l.tp);
+    const ok = await page.evaluate(k => { if (typeof tpStart !== 'function' || !tpActive()) return false; if (k.endsWith('-old')) { k = k.slice(0, -4); TPD = { ...TPD, words: TPD.words.map(({ ex, exru, ...w }) => w) }; } showTest(); tpStart(k); return view === 'run' || !!document.querySelector('.stagecard,.task'); }, l.tp);
     if (!ok) { console.log(`· ${l.id}: раздела нет на странице, пропуск`); await page.close(); return; }
   } else
   await page.evaluate(id => { const l = S.lessons.find(x => x.id === id) || findLesson(id); showIntro(l); startRun(); }, l.id);
@@ -146,7 +146,7 @@ async function playLesson(l) {
   console.log(`${done ? '✓' : '·'} ${l.id} (${Math.round((Date.now() - t0) / 1000)} с)`);
   await page.close();
 }
-{ const q = [...lessons, ...(only ? [] : ['wl0', 'wl5', 'modal', 'pres', 'praet', 'formen', 'mock'].map(k => ({ id: 'tp-' + k, tp: k })))]; await Promise.all(Array.from({ length: 4 }, async () => { while (q.length) await playLesson(q.shift()); })); }
+{ const tpOnly = process.env.TP; const q = tpOnly ? tpOnly.split(',').map(k => ({ id: 'tp-' + k.replace(/-old$/, ''), tp: k, label: 'tp-' + k })) : [...lessons, ...(only ? [] : ['wl0', 'wl1', 'wl2', 'wl3', 'wl4', 'wl5', 'wl0-old', 'modal', 'pres', 'praet', 'formen', 'mock'].map(k => ({ id: 'tp-' + k.replace(/-old$/, ''), tp: k, label: 'tp-' + k })))]; await Promise.all(Array.from({ length: 4 }, async () => { while (q.length) await playLesson(q.shift()); })); }
 
 for (const [t, v] of Object.entries(perType)) {
   if (v.sound < v.answers) bad(`тип «${t}»: ${v.answers - v.sound} из ${v.answers} ответов без звука (${[...v.lessons].slice(0, 3).join(', ')})`);
