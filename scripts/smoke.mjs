@@ -430,6 +430,31 @@ if (!only) {
   await page.close();
 }
 
+// 7в. Плитки «Слов» на узком телефоне. 14.11.2026 у Алины картинка плитки «Книга» наехала на подпись:
+// текст плитки (название, подпись, счёт) не должен пересекаться с её картинкой и выходить за плитку при 375 и 390 px (iPhone mini и обычный).
+{
+  const { page, errs } = await open();
+  let hit = 0;
+  for (const width of [375, 390]) {
+    await page.setViewportSize({ width, height: 844 });
+    const r = await page.evaluate(() => { try { VV = 'home'; showVocab(); } catch (e) { return { err: String(e.message) }; }
+      const cross = (a, b) => a.left < b.right - 1 && b.left < a.right - 1 && a.top < b.bottom - 1 && b.top < a.bottom - 1;
+      const out = [];
+      document.querySelectorAll('.vtop').forEach(t => { const img = t.querySelector(':scope>svg'); const box = t.getBoundingClientRect();
+        const w = document.createTreeWalker(t, NodeFilter.SHOW_TEXT); let n;
+        while ((n = w.nextNode())) { if (!n.textContent.trim() || n.parentElement.closest('[hidden]')) continue; const rg = document.createRange(); rg.selectNodeContents(n);
+          for (const q of rg.getClientRects()) {
+            if (img && cross(q, img.getBoundingClientRect())) out.push(`${t.dataset.v}: «${n.textContent.trim().slice(0, 20)}» под картинкой`);
+            if (q.bottom > box.bottom + 1 || q.right > box.right + 1) out.push(`${t.dataset.v}: «${n.textContent.trim().slice(0, 20)}» вылезает из плитки`); } } });
+      return { out }; });
+    if (r.err) { bad(`плитки слов ${width} px: ошибка ${r.err}`); hit++; continue; }
+    for (const m of [...new Set(r.out)].slice(0, 5)) { bad(`плитки слов ${width} px: ${m}`); hit++; }
+  }
+  for (const e of [...new Set(errs)]) bad(`плитки слов: ошибка JS: ${e}`);
+  console.log(`  ${hit ? '✗' : '✓'} плитки слов на узком экране`);
+  await page.close();
+}
+
 // 8. Порядок слов. 13.11.2026 Алина собрала «ich habe im Supermarkt Proviant eingekauft», а засчитали ошибку:
 // повтор принимал один порядок, и заглавная «Im» на плашке подсказывала начало. Плюс кнопка «Оспорить».
 {
