@@ -93,6 +93,14 @@ const bookTopics = [];
 const vdir = join(root, "data/book/vocab");
 const rowKey = (r) => fold((r[1] ? r[1] + " " : "") + r[0]);
 const byKey = new Map(d.map((r) => [rowKey(r), r]));
+// Темы-плитки для новых книжных слов (data/book/vocab-topics.json): одно слово лежит и в папке урока, и в своих темах.
+const vtPath = join(root, "data/book/vocab-topics.json");
+const vt = existsSync(vtPath) ? JSON.parse(readFileSync(vtPath, "utf8")) : {};
+const themeOf = (k, pos) => {
+  let t = (vt[k] || "").split(/\s+/).filter((x) => T[x]).map((x) => T[x]).join("");
+  if (pos === "verb" && !t.includes(T.verbs)) t += T.verbs;
+  return t || T.other;
+};
 for (const f of (existsSync(vdir) ? readdirSync(vdir) : []).filter((x) => /^\d+\.json$/.test(x)).sort()) {
   const { l, words: bw } = JSON.parse(readFileSync(join(vdir, f), "utf8"));
   const tk = String.fromCodePoint(0x100 + l);
@@ -110,7 +118,7 @@ for (const f of (existsSync(vdir) ? readdirSync(vdir) : []).filter((x) => /^\d+\
     }
     const pl = /^die \S+$/.test(w.pl || "") && w.pl !== w.de ? w.pl.slice(4) : "";
     const fm = w.art ? "" : w.pos === "verb" && w.forms ? "er " + w.forms.replace(", ", " · ") : w.forms || "";
-    const row = trim([w.lemma, w.art, pl, w.ru, w.pos || "", tk + (w.pos === "verb" ? T.verbs : ""), "", "", fm, "b", lvl]);
+    const row = trim([w.lemma, w.art, pl, w.ru, w.pos || "", themeOf(k, w.pos) + tk, "", "", fm, "b", lvl]);
     d.push(row);
     byKey.set(k, row);
   }

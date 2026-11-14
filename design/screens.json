@@ -337,7 +337,14 @@
   {
     "id": "43-vocab-book",
     "js": [
-      "showVocab()"
+      "VV='book';showVocab()"
+    ]
+  },
+  {
+    "id": "44-word-folders",
+    "js": [
+      "VV='home';showVocab()",
+      "showWord(dictAll().all.find(e=>e.lemma==='Abendessen'))"
     ]
   },
   {
