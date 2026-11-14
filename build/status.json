@@ -20,8 +20,8 @@
       "planned": 8
     },
     "words": {
-      "stuck": 9,
-      "learning": 280,
+      "stuck": 11,
+      "learning": 278,
       "solid": 0,
       "new": 835
     }
@@ -463,14 +463,14 @@
       "level": "A1",
       "covered_with_tutor": true,
       "status": "stuck",
-      "reason": "4 ошибок/затруднений за 21 дн.",
+      "reason": "5 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 2,
-        "error": 5,
+        "error": 6,
         "struggle": 4,
         "flagged": 1
       },
-      "last_date": "2026-11-10",
+      "last_date": "2026-11-13",
       "last_result": "error"
     },
     {
@@ -9264,14 +9264,15 @@
       "id": "w-kajuete",
       "lemma": "die Kajüte",
       "ru": "каюта",
-      "status": "learning",
+      "status": "stuck",
+      "reason": "2 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 0,
-        "error": 1,
+        "error": 2,
         "struggle": 0,
         "flagged": 0
       },
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-13",
       "last_result": "error"
     },
     {
@@ -9349,14 +9350,15 @@
       "id": "w-muschel",
       "lemma": "die Muschel",
       "ru": "ракушка",
-      "status": "learning",
+      "status": "stuck",
+      "reason": "2 ошибок/затруднений за 21 дн.",
       "counts": {
         "correct": 0,
-        "error": 1,
+        "error": 2,
         "struggle": 0,
         "flagged": 0
       },
-      "last_date": "2026-10-31",
+      "last_date": "2026-11-13",
       "last_result": "error"
     },
     {
