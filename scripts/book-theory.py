@@ -61,7 +61,8 @@ def convert(oebps, lesson, sec):
     pat = re.compile(r'<h3[^>]*>.*?</h3>|<p[^>]*>.*?</p>|<div class="table-wrap">.*?</div>|<div class="examples">.*?</div>|<figure.*?</figure>|<aside.*?</aside>', re.S)
     for m in pat.finditer(body):
         e = m.group(0)
-        if e.startswith('<h3'): theory.append({'k': 'h', 'x': inline(e)})
+        if e.startswith('<h3'):
+            if inline(e): theory.append({'k': 'h', 'x': inline(e)})
         elif e.startswith('<p'): 
             x = inline(e)
             if x: theory.append({'k': 'p', 'x': x})

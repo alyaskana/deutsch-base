@@ -1,7 +1,7 @@
 {
  "title": "Без zu: знакомые глаголы держатся вместе",
  "topic": "Книга · 28.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -141,5 +141,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "С zu или без",
+   "sub": "Модальные, werden, lassen, gehen/kommen — без zu",
+   "items": [
+    {
+     "s": "Wir können ___.",
+     "ru": "Мы можем подождать.",
+     "o": [
+      "warten",
+      "zu warten"
+     ],
+     "a": "warten",
+     "n": "После модального — без zu."
+    },
+    {
+     "s": "Sie wird ___.",
+     "ru": "Она позвонит.",
+     "o": [
+      "anrufen",
+      "anzurufen"
+     ],
+     "a": "anrufen",
+     "n": "werden — без zu."
+    },
+    {
+     "s": "Ich komme dich ___.",
+     "ru": "Я приду за тобой.",
+     "o": [
+      "abholen",
+      "abzuholen"
+     ],
+     "a": "abholen",
+     "n": "kommen + инфинитив без zu."
+    },
+    {
+     "s": "Wir fahren ___.",
+     "ru": "Мы едем за покупками.",
+     "o": [
+      "einkaufen",
+      "einzukaufen"
+     ],
+     "a": "einkaufen",
+     "n": "<b>einkaufen fahren</b>."
+    },
+    {
+     "s": "Ich versuche, ___.",
+     "ru": "Я пытаюсь понять.",
+     "o": [
+      "zu verstehen",
+      "verstehen"
+     ],
+     "a": "zu verstehen",
+     "n": "versuchen — с zu."
+    },
+    {
+     "s": "Ich helfe dir, die schwere Kiste ___.",
+     "ru": "Я помогу тебе нести тяжёлый ящик.",
+     "o": [
+      "zu tragen",
+      "tragen"
+     ],
+     "a": "zu tragen",
+     "n": "С распространением — с zu."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "was: описываем «всё», а не конкретную вещь",
  "topic": "Книга · 26.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -123,5 +123,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Was после alles, nichts, das Beste",
+   "sub": "Или после целого предложения",
+   "items": [
+    {
+     "s": "Ich habe alles, ___ für die Bewerbung wichtig ist.",
+     "ru": "У меня есть всё, что важно для заявки.",
+     "o": [
+      "was",
+      "das"
+     ],
+     "a": "was",
+     "n": "После alles — <b>was</b>."
+    },
+    {
+     "s": "Das ist das Beste, ___ wir anbieten können.",
+     "ru": "Это лучшее, что мы можем предложить.",
+     "o": [
+      "was",
+      "das"
+     ],
+     "a": "was",
+     "n": "После превосходной — <b>was</b>."
+    },
+    {
+     "s": "Die Firma zahlt pünktlich, ___ mich freut.",
+     "ru": "Фирма платит вовремя, и это меня радует.",
+     "o": [
+      "was",
+      "das"
+     ],
+     "a": "was",
+     "n": "О целом предложении — <b>was</b>."
+    },
+    {
+     "s": "Das Haus, ___ an der Ecke steht, ist alt.",
+     "ru": "Дом, что стоит на углу, старый.",
+     "o": [
+      "das",
+      "was"
+     ],
+     "a": "das",
+     "n": "Конкретная вещь — <b>das</b>."
+    },
+    {
+     "s": "Die Miete steigt, ___ sich Paul ärgert.",
+     "ru": "Аренда растёт, и Пауль из-за этого злится.",
+     "o": [
+      "worüber",
+      "über was"
+     ],
+     "a": "worüber",
+     "n": "<b>wo(r)</b> + предлог."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

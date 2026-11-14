@@ -1,7 +1,7 @@
 {
  "title": "Таблица: три формы длиннее привычных",
  "topic": "Книга · 26.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -99,5 +99,60 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Длинные формы",
+   "sub": "dessen, deren, denen",
+   "items": [
+    {
+     "s": "Das sind die Nachbarn, bei ___ ich heute esse.",
+     "ru": "Это соседи, у которых я сегодня ужинаю.",
+     "a": [
+      "denen"
+     ],
+     "hint": "Dat мн.",
+     "n": "Dativ мн. — <b>denen</b>."
+    },
+    {
+     "s": "die Bewohner, ___ Paul hilft",
+     "ru": "жильцы, которым Пауль помогает",
+     "a": [
+      "denen"
+     ],
+     "hint": "helfen + Dat",
+     "n": "<b>denen</b>."
+    },
+    {
+     "s": "der Hof, ___ ich fotografiere",
+     "ru": "двор, который я фотографирую",
+     "a": [
+      "den"
+     ],
+     "hint": "Akk м.р.",
+     "n": "<b>den</b>."
+    },
+    {
+     "s": "die Zimmer, ___ frei sind",
+     "ru": "комнаты, которые свободны",
+     "a": [
+      "die"
+     ],
+     "hint": "Nom мн.",
+     "n": "<b>die</b>."
+    },
+    {
+     "s": "das Kind, ___ ich ein Buch gebe",
+     "ru": "ребёнок, которому я даю книгу",
+     "a": [
+      "dem"
+     ],
+     "hint": "Dat ср.р.",
+     "n": "<b>dem</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "«Который»: русский здесь на нашей стороне",
  "topic": "Книга · 26.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -68,5 +68,70 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Который: падеж по роли",
+   "sub": "Род от слова, падеж от придаточного",
+   "items": [
+    {
+     "s": "der Hof, ___ Paul gefällt",
+     "ru": "двор, который нравится Паулю",
+     "o": [
+      "der",
+      "den",
+      "dem"
+     ],
+     "a": "der",
+     "n": "Подлежащее — <b>der</b>."
+    },
+    {
+     "s": "das Haus, in ___ ich wohne",
+     "ru": "дом, в котором я живу",
+     "o": [
+      "dem",
+      "das",
+      "den"
+     ],
+     "a": "dem",
+     "n": "in + Dat — <b>dem</b>."
+    },
+    {
+     "s": "die Nachbarin, mit ___ ich spreche",
+     "ru": "соседка, с которой я говорю",
+     "o": [
+      "der",
+      "die",
+      "den"
+     ],
+     "a": "der",
+     "n": "mit + Dat, жен. — <b>der</b>."
+    },
+    {
+     "s": "der Nachbar, ___ ich danke",
+     "ru": "сосед, которого я благодарю",
+     "o": [
+      "dem",
+      "den",
+      "der"
+     ],
+     "a": "dem",
+     "n": "danken + Dat — <b>dem</b>."
+    },
+    {
+     "s": "die Wohnung, ___ ich suche",
+     "ru": "квартира, которую я ищу",
+     "o": [
+      "die",
+      "der",
+      "den"
+     ],
+     "a": "die",
+     "n": "Akk жен. — <b>die</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

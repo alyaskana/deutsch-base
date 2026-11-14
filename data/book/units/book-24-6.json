@@ -1,7 +1,7 @@
 {
  "title": "Имена: куда поставить s и когда взять von",
  "topic": "Книга · 24.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -77,5 +77,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Имена и von",
+   "sub": "Alinas Büro, Jonas’ Computer, von + Dativ",
+   "items": [
+    {
+     "s": "Das ist ___ Büro.",
+     "ru": "Это офис Алины.",
+     "o": [
+      "Alinas",
+      "Alina’s"
+     ],
+     "a": "Alinas",
+     "n": "Без апострофа: <b>Alinas</b>."
+    },
+    {
+     "s": "Am Samstag grillen wir in ___ Garten.",
+     "ru": "В субботу жарим гриль в саду Сабины.",
+     "o": [
+      "Sabines",
+      "Sabine’s"
+     ],
+     "a": "Sabines",
+     "n": "<b>Sabines Garten</b>."
+    },
+    {
+     "s": "Das ist ___ Computer.",
+     "ru": "Это компьютер Йонаса.",
+     "o": [
+      "Jonas’",
+      "Jonass"
+     ],
+     "a": "Jonas’",
+     "n": "Имя на s — только апостроф."
+    },
+    {
+     "s": "Das ist der Computer von ___.",
+     "ru": "Это компьютер Йонаса. (разговорно)",
+     "o": [
+      "Jonas",
+      "Jonas’"
+     ],
+     "a": "Jonas",
+     "n": "<b>von Jonas</b>."
+    },
+    {
+     "s": "Sie ist eine Kollegin von ___.",
+     "ru": "Она моя коллега.",
+     "o": [
+      "mir",
+      "mich"
+     ],
+     "a": "mir",
+     "n": "von + Dativ."
+    },
+    {
+     "s": "Das ist einer ___ Kollegen.",
+     "ru": "Это один из моих коллег.",
+     "o": [
+      "meiner",
+      "meinen"
+     ],
+     "a": "meiner",
+     "n": "Genitiv мн.: <b>einer meiner Kollegen</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

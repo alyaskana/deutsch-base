@@ -1,7 +1,7 @@
 {
  "title": "Смешанные глаголы: оба признака в одном слове",
  "topic": "Книга · 21.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -222,5 +222,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Смешанные и модальные",
+   "sub": "kannte, dachte, musste; два инфинитива",
+   "items": [
+    {
+     "s": "Ich ___ ihn gut.",
+     "ru": "Я хорошо его знал.",
+     "o": [
+      "kannte",
+      "kennte"
+     ],
+     "a": "kannte",
+     "n": "kennen → <b>kannte</b>."
+    },
+    {
+     "s": "Er ___ an dich.",
+     "ru": "Он думал о тебе.",
+     "o": [
+      "dachte",
+      "denkte"
+     ],
+     "a": "dachte",
+     "n": "denken → <b>dachte</b>."
+    },
+    {
+     "s": "Wir ___ das Projekt ändern.",
+     "ru": "Нам пришлось изменить проект.",
+     "o": [
+      "mussten",
+      "müssten"
+     ],
+     "a": "mussten",
+     "n": "Без умлаута: <b>mussten</b>."
+    },
+    {
+     "s": "Es ___ kalt.",
+     "ru": "Стало холодно.",
+     "o": [
+      "wurde",
+      "werdete"
+     ],
+     "a": "wurde",
+     "n": "werden → <b>wurde</b>."
+    },
+    {
+     "s": "Paul hat am Sonntag arbeiten ___.",
+     "ru": "Паулю пришлось работать в воскресенье.",
+     "o": [
+      "müssen",
+      "gemusst"
+     ],
+     "a": "müssen",
+     "n": "Два инфинитива: <b>arbeiten müssen</b>."
+    },
+    {
+     "s": "Ich habe gestern nicht kommen ___.",
+     "ru": "Вчера я не смог прийти.",
+     "o": [
+      "können",
+      "gekonnt"
+     ],
+     "a": "können",
+     "n": "<b>kommen können</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "Если бы: меняются обе половины",
  "topic": "Книга · 23.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -105,5 +105,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Если бы",
+   "sub": "Konjunktiv II в обеих частях",
+   "items": [
+    {
+     "s": "Wenn ich Zeit ___, würde ich kommen.",
+     "ru": "Если бы было время, я бы пришёл.",
+     "o": [
+      "hätte",
+      "habe"
+     ],
+     "a": "hätte",
+     "n": "Воображаемое условие — <b>hätte</b>."
+    },
+    {
+     "s": "Wenn ich Zeit habe, ___ ich.",
+     "ru": "Если будет время, приду.",
+     "o": [
+      "komme",
+      "würde"
+     ],
+     "a": "komme",
+     "n": "Реальное — Präsens."
+    },
+    {
+     "s": "Wenn Lea hier ___, könnte sie uns vertreten.",
+     "ru": "Если бы Леа была здесь, она могла бы нас заменить.",
+     "o": [
+      "wäre",
+      "ist"
+     ],
+     "a": "wäre",
+     "n": "<b>wäre</b>."
+    },
+    {
+     "s": "Lea ___ uns vertreten, wenn sie hier wäre.",
+     "ru": "Леа могла бы нас заменить, если бы была здесь.",
+     "o": [
+      "könnte",
+      "kann"
+     ],
+     "a": "könnte",
+     "n": "<b>könnte</b>."
+    },
+    {
+     "s": "Wenn ich reich ___, würde ich reisen.",
+     "ru": "Если бы я был богат, я бы путешествовал.",
+     "o": [
+      "wäre",
+      "bin"
+     ],
+     "a": "wäre",
+     "n": "<b>wäre</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "Окончания: где нужны обе части",
  "topic": "Книга · 24.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -101,5 +101,60 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Окончание -s / -es",
+   "sub": "У мужского и среднего — и у артикля, и у существительного",
+   "items": [
+    {
+     "s": "Das Zimmer meines ___ ist klein.",
+     "ru": "Комната моего брата маленькая.",
+     "a": [
+      "Bruders"
+     ],
+     "hint": "der Bruder",
+     "n": "<b>meines Bruders</b>."
+    },
+    {
+     "s": "Die Tür des ___ ist offen.",
+     "ru": "Дверь дома открыта.",
+     "a": [
+      "Hauses"
+     ],
+     "hint": "das Haus",
+     "n": "Односложное — часто <b>-es</b>."
+    },
+    {
+     "s": "Der Name eines ___ fehlt.",
+     "ru": "Не хватает имени одного ребёнка.",
+     "a": [
+      "Kindes"
+     ],
+     "hint": "das Kind",
+     "n": "<b>eines Kindes</b>."
+    },
+    {
+     "s": "Die Mitte ___ Woche.",
+     "ru": "Середина недели.",
+     "a": [
+      "der"
+     ],
+     "hint": "die Woche",
+     "n": "Женский — без окончания у существительного."
+    },
+    {
+     "s": "Das Ende des ___.",
+     "ru": "Конец фильма.",
+     "a": [
+      "Films"
+     ],
+     "hint": "der Film",
+     "n": "<b>des Films</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

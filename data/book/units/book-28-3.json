@@ -1,7 +1,7 @@
 {
  "title": "Место zu: приставка подсказывает разрез",
  "topic": "Книга · 28.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -129,5 +129,69 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Где zu",
+   "sub": "Внутри отделяемых: anzurufen",
+   "items": [
+    {
+     "s": "Ich habe vor, Tee ___.",
+     "ru": "Я собираюсь принести чай.",
+     "a": [
+      "mitzubringen"
+     ],
+     "hint": "mitbringen",
+     "n": "<b>mitzubringen</b>."
+    },
+    {
+     "s": "Vergiss nicht, Lea ___.",
+     "ru": "Не забудь позвонить Лее.",
+     "a": [
+      "anzurufen"
+     ],
+     "hint": "anrufen",
+     "n": "<b>anzurufen</b>."
+    },
+    {
+     "s": "Wir hoffen, die Anleitung ___.",
+     "ru": "Надеемся понять инструкцию.",
+     "a": [
+      "zu verstehen"
+     ],
+     "hint": "verstehen",
+     "n": "ver- неотделяемая: <b>zu verstehen</b>."
+    },
+    {
+     "s": "Ich verspreche, den Kurs nicht ___.",
+     "ru": "Я обещаю не пропускать курс.",
+     "a": [
+      "zu versäumen"
+     ],
+     "hint": "versäumen",
+     "n": "nicht перед zu."
+    },
+    {
+     "s": "Ich bin froh, die Prüfung bestanden ___.",
+     "ru": "Я рада, что сдала экзамен.",
+     "a": [
+      "zu haben"
+     ],
+     "hint": "haben",
+     "n": "Прошлое: <b>bestanden zu haben</b>."
+    },
+    {
+     "s": "Es ist Zeit, ___.",
+     "ru": "Пора вставать.",
+     "a": [
+      "aufzustehen"
+     ],
+     "hint": "aufstehen",
+     "n": "<b>aufzustehen</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

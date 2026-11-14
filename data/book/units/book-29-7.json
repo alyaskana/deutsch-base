@@ -1,7 +1,7 @@
 {
  "title": "Von, durch и man: кого оставим в предложении",
  "topic": "Книга · 29.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -119,5 +119,55 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Von, durch, man",
+   "sub": "Кто или что вызвало действие",
+   "items": [
+    {
+     "s": "Die Rechnung wird ___ der Hausverwaltung überprüft.",
+     "ru": "Счёт проверяет управляющая компания.",
+     "o": [
+      "von",
+      "durch"
+     ],
+     "a": "von",
+     "n": "Деятель — <b>von</b>."
+    },
+    {
+     "s": "Die Wand wurde ___ Wasser beschädigt.",
+     "ru": "Стену повредила вода.",
+     "o": [
+      "durch",
+      "von"
+     ],
+     "a": "durch",
+     "n": "Причина, средство — <b>durch</b>."
+    },
+    {
+     "s": "___ repariert den Aufzug.",
+     "ru": "Лифт ремонтируют.",
+     "o": [
+      "Man",
+      "Es"
+     ],
+     "a": "Man",
+     "n": "Актив с <b>man</b>."
+    },
+    {
+     "s": "Man repariert ___ Aufzug.",
+     "ru": "Лифт ремонтируют.",
+     "o": [
+      "den",
+      "der"
+     ],
+     "a": "den",
+     "n": "В активе снова Akkusativ."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

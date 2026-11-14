@@ -1,7 +1,7 @@
 {
  "title": "Werden: стать, потемнеть, занервничать",
  "topic": "Книга · 22.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -147,5 +147,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Werden — становиться",
+   "sub": "Профессия без артикля, wurde, ist geworden",
+   "items": [
+    {
+     "s": "Jonas ___ müde.",
+     "ru": "Йонас начинает уставать.",
+     "o": [
+      "wird",
+      "ist"
+     ],
+     "a": "wird",
+     "n": "Изменение — <b>wird</b>."
+    },
+    {
+     "s": "Sie wird ___.",
+     "ru": "Она станет инженером.",
+     "o": [
+      "Ingenieurin",
+      "eine Ingenieurin"
+     ],
+     "a": "Ingenieurin",
+     "n": "Профессия без артикля."
+    },
+    {
+     "s": "Sie wird ___ Ingenieurin.",
+     "ru": "Она станет хорошим инженером.",
+     "o": [
+      "eine gute",
+      "gute"
+     ],
+     "a": "eine gute",
+     "n": "С оценкой — артикль."
+    },
+    {
+     "s": "Das Gespräch ___ interessant.",
+     "ru": "Разговор стал интересным.",
+     "o": [
+      "wurde",
+      "wird"
+     ],
+     "a": "wurde",
+     "n": "Präteritum: <b>wurde</b>."
+    },
+    {
+     "s": "Das Gespräch ist interessant ___.",
+     "ru": "Разговор стал интересным. (Perfekt)",
+     "o": [
+      "geworden",
+      "gewordet"
+     ],
+     "a": "geworden",
+     "n": "<b>ist geworden</b>."
+    },
+    {
+     "s": "Ich ___ Designerin werden.",
+     "ru": "Я хочу стать дизайнером.",
+     "o": [
+      "will",
+      "werde"
+     ],
+     "a": "will",
+     "n": "Хочу — <b>will</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

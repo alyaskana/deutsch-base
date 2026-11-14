@@ -1,7 +1,7 @@
 {
  "title": "Инфинитив с zu: что именно вы собираетесь делать",
  "topic": "Книга · 28.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -139,5 +139,94 @@
    "<b>Brauchen nicht zu</b> снимает необходимость. Запятую проверяем по строению группы, а не по одному наличию <b>zu</b>."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Инфинитив с zu",
+   "sub": "После глагола, существительного, es ist …",
+   "items": [
+    {
+     "ru": "Я собираюсь сходить на лекцию.",
+     "w": [
+      "Ich",
+      "habe",
+      "vor,",
+      "einen",
+      "Vortrag",
+      "zu",
+      "besuchen."
+     ],
+     "ok": [
+      "Ich habe vor, einen Vortrag zu besuchen."
+     ],
+     "n": "<b>zu besuchen</b> в конце."
+    },
+    {
+     "ru": "Пытаюсь понять лекцию.",
+     "w": [
+      "Ich",
+      "versuche,",
+      "den",
+      "Vortrag",
+      "zu",
+      "verstehen."
+     ],
+     "ok": [
+      "Ich versuche, den Vortrag zu verstehen."
+     ],
+     "n": "Без zu нельзя."
+    },
+    {
+     "ru": "Встречу можно перенести.",
+     "w": [
+      "Es",
+      "ist",
+      "möglich,",
+      "den",
+      "Termin",
+      "zu",
+      "verschieben."
+     ],
+     "ok": [
+      "Es ist möglich, den Termin zu verschieben."
+     ],
+     "n": "<b>es ist möglich, … zu</b>."
+    },
+    {
+     "ru": "Я помню, что нужно оплатить сбор.",
+     "w": [
+      "Ich",
+      "denke",
+      "daran,",
+      "die",
+      "Gebühr",
+      "zu",
+      "bezahlen."
+     ],
+     "ok": [
+      "Ich denke daran, die Gebühr zu bezahlen."
+     ],
+     "n": "<b>daran, … zu</b>."
+    },
+    {
+     "ru": "У меня есть время прочитать текст.",
+     "w": [
+      "Ich",
+      "habe",
+      "Zeit,",
+      "den",
+      "Text",
+      "zu",
+      "lesen."
+     ],
+     "ok": [
+      "Ich habe Zeit, den Text zu lesen."
+     ],
+     "n": "После существительного."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

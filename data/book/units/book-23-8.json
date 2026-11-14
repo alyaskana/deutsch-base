@@ -1,7 +1,7 @@
 {
  "title": "Желания: не всякое «чтобы» просит Konjunktiv",
  "topic": "Книга · 23.8",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -98,5 +98,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Желания и «чтобы»",
+   "sub": "Wenn … nur! / möchte, dass + индикатив",
+   "items": [
+    {
+     "s": "Ich ___ gern mehr Ruhe.",
+     "ru": "Мне бы хотелось больше покоя.",
+     "o": [
+      "hätte",
+      "habe"
+     ],
+     "a": "hätte",
+     "n": "<b>hätte gern</b>."
+    },
+    {
+     "s": "Wenn ich nur mehr Geduld ___!",
+     "ru": "Если бы только у меня было больше терпения!",
+     "o": [
+      "hätte",
+      "habe"
+     ],
+     "a": "hätte",
+     "n": "Мечта — Konjunktiv II."
+    },
+    {
+     "s": "Ich möchte, dass du mir ___.",
+     "ru": "Я хочу, чтобы ты мне помог.",
+     "o": [
+      "hilfst",
+      "hülfest"
+     ],
+     "a": "hilfst",
+     "n": "После dass — обычная форма."
+    },
+    {
+     "s": "Ich will, dass ihr pünktlich ___.",
+     "ru": "Я хочу, чтобы вы пришли вовремя.",
+     "o": [
+      "kommt",
+      "kämet"
+     ],
+     "a": "kommt",
+     "n": "<b>kommt</b>."
+    },
+    {
+     "s": "Ich ___ gern weniger arbeiten.",
+     "ru": "Я бы хотел меньше работать.",
+     "o": [
+      "würde",
+      "werde"
+     ],
+     "a": "würde",
+     "n": "<b>würde gern</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,7 +1,7 @@
 {
  "title": "wo, wohin, woher: три отметки на карте",
  "topic": "Книга · 26.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -91,5 +91,45 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Wo, wohin, woher",
+   "sub": "Место, куда, откуда",
+   "items": [
+    {
+     "s": "Köln, ___ Paul wohnt",
+     "ru": "Кёльн, где живёт Пауль",
+     "o": [
+      "wo",
+      "wohin"
+     ],
+     "a": "wo",
+     "n": "Место — <b>wo</b>."
+    },
+    {
+     "s": "Köln, ___ Lea fährt",
+     "ru": "Кёльн, куда едет Леа",
+     "o": [
+      "wohin",
+      "wo"
+     ],
+     "a": "wohin",
+     "n": "Куда — <b>wohin</b>."
+    },
+    {
+     "s": "die Stadt, ___ Jonas kommt",
+     "ru": "город, откуда Йонас",
+     "o": [
+      "woher",
+      "wo"
+     ],
+     "a": "woher",
+     "n": "Откуда — <b>woher</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

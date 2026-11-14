@@ -1,7 +1,7 @@
 {
  "title": "Русский родительный: четыре места, где надо остановиться",
  "topic": "Книга · 24.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -86,5 +86,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Где Genitiv не нужен",
+   "sub": "Русское «нет», количество, число",
+   "items": [
+    {
+     "s": "Ich habe ___ Zeit.",
+     "ru": "У меня нет времени.",
+     "o": [
+      "keine",
+      "keiner"
+     ],
+     "a": "keine",
+     "n": "После haben — Akkusativ."
+    },
+    {
+     "s": "Ich trinke ein Glas ___.",
+     "ru": "Я пью стакан воды.",
+     "o": [
+      "Wasser",
+      "des Wassers"
+     ],
+     "a": "Wasser",
+     "n": "Количество — без Genitiv."
+    },
+    {
+     "s": "Ich kaufe fünf ___.",
+     "ru": "Я покупаю пять книг.",
+     "o": [
+      "Bücher",
+      "Bücher der"
+     ],
+     "a": "Bücher",
+     "n": "После числа — обычное множественное."
+    },
+    {
+     "s": "Ich habe ___ Kaffee.",
+     "ru": "У меня нет кофе.",
+     "o": [
+      "keinen",
+      "keines"
+     ],
+     "a": "keinen",
+     "n": "<b>keinen Kaffee</b> — Akkusativ."
+    },
+    {
+     "s": "Hier gibt es viel ___.",
+     "ru": "Здесь много воды.",
+     "o": [
+      "Wasser",
+      "Wassers"
+     ],
+     "a": "Wasser",
+     "n": "viel + существительное без окончания."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

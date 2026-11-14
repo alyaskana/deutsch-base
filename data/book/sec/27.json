@@ -1,0 +1,60 @@
+{
+"27.1": [
+ {"type":"build","title":"Косвенный вопрос","sub":"Вопросительное слово, глагол в конце","items":[
+  {"ru":"Я не знаю, где сейчас Пауль.","w":["Ich","weiß","nicht,","wo","Paul","jetzt","ist."],"ok":["Ich weiß nicht, wo Paul jetzt ist."],"n":"<b>ist</b> в конце."},
+  {"ru":"Интересно, с кем Йонас говорит по телефону.","w":["Ich","frage","mich,","mit","wem","Jonas","telefoniert."],"ok":["Ich frage mich, mit wem Jonas telefoniert."],"n":"Предлог + wem в начале части."},
+  {"ru":"Она узнаёт, когда придёт посылка.","w":["Sie","erkundigt","sich,","wann","das","Paket","ankommt."],"ok":["Sie erkundigt sich, wann das Paket ankommt."],"n":"Приставка срастается."},
+  {"ru":"Я не уверена, кому мне позвонить.","w":["Ich","bin","nicht","sicher,","wen","ich","anrufen","soll."],"ok":["Ich bin nicht sicher, wen ich anrufen soll."],"n":"anrufen + Akk → <b>wen</b>."},
+  {"ru":"Он хочет узнать, какой тариф нам подходит.","w":["Er","will","wissen,","welcher","Tarif","zu","uns","passt."],"ok":["Er will wissen, welcher Tarif zu uns passt."],"n":"<b>passt</b> в конце."}
+ ]}
+],
+"27.2": [
+ {"type":"choice","title":"Ob, dass, wenn","sub":"«Ли» — только ob","items":[
+  {"s":"Ich weiß nicht, ___ der Bildschirm funktioniert.","ru":"Я не знаю, работает ли экран.","o":["ob","dass","wenn"],"a":"ob","n":"«Ли» — <b>ob</b>."},
+  {"s":"Ich weiß, ___ Paul heute kocht.","ru":"Я знаю, что Пауль сегодня готовит.","o":["dass","ob","wenn"],"a":"dass","n":"Факт — <b>dass</b>."},
+  {"s":"___ Paul Zeit hat, hilft er.","ru":"Если у Пауля есть время, он помогает.","o":["Wenn","Ob","Dass"],"a":"Wenn","n":"Условие — <b>wenn</b>."},
+  {"s":"Es ist unklar, ___ der Termin passt.","ru":"Неясно, подходит ли это время.","o":["ob","dass","wenn"],"a":"ob","n":"<b>ob</b>."},
+  {"s":"Sie fragt, ___ die Hotline heute erreichbar ist.","ru":"Она спрашивает, в какое время сегодня работает горячая линия.","o":["wann","ob"],"a":"wann","n":"Время — <b>wann</b>."}
+ ]}
+],
+"27.3": [
+ {"type":"build","title":"Вежливое начало","sub":"Könnten Sie mir sagen…? / Ich wüsste gern…","items":[
+  {"ru":"Не могли бы вы сказать, сколько стоит тариф?","w":["Könnten","Sie","mir","sagen,","wie","viel","der","Tarif","kostet?"],"ok":["Könnten Sie mir sagen, wie viel der Tarif kostet?"],"n":"Вопрос по началу фразы."},
+  {"ru":"Хотелось бы узнать, сколько стоит тариф.","w":["Ich","wüsste","gern,","wie","viel","der","Tarif","kostet."],"ok":["Ich wüsste gern, wie viel der Tarif kostet."],"n":"Утверждение — точка."},
+  {"ru":"Вы не знаете, работает ли лифт?","w":["Wissen","Sie,","ob","der","Aufzug","funktioniert?"],"ok":["Wissen Sie, ob der Aufzug funktioniert?"],"n":"<b>ob</b> + глагол в конце."}
+ ]}
+],
+"27.4": [
+ {"type":"choice","title":"Парные союзы","sub":"sowohl … als auch, nicht nur … sondern auch, weder … noch, entweder … oder, zwar … aber","items":[
+  {"s":"Ich vergleiche sowohl Tarif A ___ Tarif B.","ru":"Сравниваю и тариф А, и тариф Б.","o":["als auch","noch"],"a":"als auch","n":"<b>sowohl … als auch</b>."},
+  {"s":"Ich finde weder den Stecker ___ die Quittung.","ru":"Не могу найти ни вилку, ни чек.","o":["noch","oder"],"a":"noch","n":"<b>weder … noch</b>, без nicht."},
+  {"s":"Der Tarif ist zwar teuer, ___ wir wählen ihn.","ru":"Тариф хоть и дорогой, но мы его выбираем.","o":["aber","sondern"],"a":"aber","n":"<b>zwar … aber</b>."},
+  {"s":"Entweder rufe ich an, ___ Paul schreibt.","ru":"Либо я позвоню, либо Пауль напишет.","o":["oder","noch"],"a":"oder","n":"<b>entweder … oder</b>."},
+  {"s":"Alina hat nicht nur angerufen, ___ sie hat auch geschrieben.","ru":"Алина не только позвонила, но и написала.","o":["sondern","aber"],"a":"sondern","n":"<b>nicht nur … sondern auch</b>."}
+ ]}
+],
+"27.5": [
+ {"type":"build","title":"Кто занял первое место","sub":"weder, entweder, zwar — порядок слов","items":[
+  {"ru":"Либо я позвоню, либо Пауль напишет.","w":["Entweder","rufe","ich","an,","oder","Paul","schreibt."],"ok":["Entweder rufe ich an, oder Paul schreibt."],"n":"entweder на первом месте → глагол вторым."},
+  {"ru":"Тариф хоть и выгодный, но не подходит.","w":["Der","Tarif","ist","zwar","günstig,","aber","er","passt","nicht."],"ok":["Der Tarif ist zwar günstig, aber er passt nicht."],"n":"<b>zwar</b> в середине."},
+  {"ru":"С одной стороны, нам нужна помощь, с другой — мы не хотим ждать.","w":["Einerseits","brauchen","wir","Hilfe,","andererseits","wollen","wir","nicht","warten."],"ok":["Einerseits brauchen wir Hilfe, andererseits wollen wir nicht warten."],"n":"После einerseits/andererseits — глагол."},
+  {"ru":"Роутер новый, но кабель сломан.","w":["Der","Router","ist","neu,","aber","das","Kabel","ist","kaputt."],"ok":["Der Router ist neu, aber das Kabel ist kaputt."],"n":"aber вне счёта."}
+ ]}
+],
+"27.6": [
+ {"type":"build","title":"Je … desto","sub":"После je глагол в конце, после desto — сразу","items":[
+  {"ru":"Чем дольше играет музыка, тем злее я становлюсь.","w":["Je","länger","die","Musik","spielt,","desto","saurer","werde","ich."],"ok":["Je länger die Musik spielt, desto saurer werde ich."],"n":"<b>desto saurer werde ich</b>."},
+  {"ru":"Чем меньше у нас времени, тем быстрее мы работаем.","w":["Je","weniger","Zeit","wir","haben,","desto","schneller","arbeiten","wir."],"ok":["Je weniger Zeit wir haben, desto schneller arbeiten wir."],"n":"Не <s>desto wir arbeiten</s>."},
+  {"ru":"Чем больше телефонов мы заряжаем, тем больше электричества нужно.","w":["Je","mehr","Handys","wir","aufladen,","umso","mehr","Strom","brauchen","wir."],"ok":["Je mehr Handys wir aufladen, umso mehr Strom brauchen wir."],"n":"<b>umso</b> = desto."}
+ ]}
+],
+"27.7": [
+ {"type":"choice","title":"Konjunktiv I","sub":"Чужие слова: sei, habe, werde, könne","items":[
+  {"s":"Der Anbieter sagt, das Kabel ___ kaputt.","ru":"По словам провайдера, кабель повреждён.","o":["sei","ist"],"a":"sei","n":"Чужая речь — <b>sei</b>."},
+  {"s":"Der Techniker sagt, er ___ einen neuen Router installiert.","ru":"Мастер говорит, что установил новый роутер.","o":["habe","hat"],"a":"habe","n":"<b>habe installiert</b>."},
+  {"s":"Alina sagt, sie ___ nach Hause gefahren.","ru":"Алина говорит, что поехала домой.","o":["sei","habe"],"a":"sei","n":"fahren → <b>sei gefahren</b>."},
+  {"s":"Die Firma sagt, sie ___ das Netz heute reparieren.","ru":"Фирма говорит, что может починить сеть сегодня.","o":["könne","kann"],"a":"könne","n":"<b>könne</b>."},
+  {"s":"Er sagt, er ___ morgen kommen.","ru":"Он говорит, что придёт завтра.","o":["werde","wird"],"a":"werde","n":"<b>werde</b>."}
+ ]}
+]
+}

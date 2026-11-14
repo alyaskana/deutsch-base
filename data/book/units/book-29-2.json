@@ -1,7 +1,7 @@
 {
  "title": "Werden: работу выдаёт соседнее слово",
  "topic": "Книга · 29.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -161,5 +161,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Времена пассива",
+   "sub": "wurde, ist … worden",
+   "items": [
+    {
+     "s": "Die Wand ___ repariert.",
+     "ru": "Стену отремонтировали. (Präteritum)",
+     "o": [
+      "wurde",
+      "wird"
+     ],
+     "a": "wurde",
+     "n": "<b>wurde repariert</b>."
+    },
+    {
+     "s": "Der Raum ist renoviert ___.",
+     "ru": "Помещение отремонтировали.",
+     "o": [
+      "worden",
+      "geworden"
+     ],
+     "a": "worden",
+     "n": "В пассиве — <b>worden</b>."
+    },
+    {
+     "s": "Der Raum ist heller ___.",
+     "ru": "Помещение стало светлее.",
+     "o": [
+      "geworden",
+      "worden"
+     ],
+     "a": "geworden",
+     "n": "«Стать» — <b>geworden</b>."
+    },
+    {
+     "s": "Die Wände ___ repariert.",
+     "ru": "Стены отремонтировали. (Präteritum)",
+     "o": [
+      "wurden",
+      "wurde"
+     ],
+     "a": "wurden",
+     "n": "Мн. — <b>wurden</b>."
+    },
+    {
+     "s": "Wir warten, weil die Wand repariert ___.",
+     "ru": "Мы ждём, потому что стену ремонтируют.",
+     "o": [
+      "wird",
+      "worden"
+     ],
+     "a": "wird",
+     "n": "В придаточном — в конце."
+    },
+    {
+     "s": "Das Kind ___ ruhig.",
+     "ru": "Ребёнок успокаивается.",
+     "o": [
+      "wird",
+      "ist geworden"
+     ],
+     "a": "wird",
+     "n": "werden + прилагательное — становиться."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

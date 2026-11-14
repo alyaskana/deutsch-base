@@ -1,7 +1,7 @@
 {
  "title": "Косвенный вопрос: куда ушёл глагол",
  "topic": "Книга · 27.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -113,5 +113,97 @@
    "Формы <b>sei</b>, <b>habe</b>, <b>solle</b> в новости отмечают чужие слова. Сами по себе они не означают недоверия."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Косвенный вопрос",
+   "sub": "Вопросительное слово, глагол в конце",
+   "items": [
+    {
+     "ru": "Я не знаю, где сейчас Пауль.",
+     "w": [
+      "Ich",
+      "weiß",
+      "nicht,",
+      "wo",
+      "Paul",
+      "jetzt",
+      "ist."
+     ],
+     "ok": [
+      "Ich weiß nicht, wo Paul jetzt ist."
+     ],
+     "n": "<b>ist</b> в конце."
+    },
+    {
+     "ru": "Интересно, с кем Йонас говорит по телефону.",
+     "w": [
+      "Ich",
+      "frage",
+      "mich,",
+      "mit",
+      "wem",
+      "Jonas",
+      "telefoniert."
+     ],
+     "ok": [
+      "Ich frage mich, mit wem Jonas telefoniert."
+     ],
+     "n": "Предлог + wem в начале части."
+    },
+    {
+     "ru": "Она узнаёт, когда придёт посылка.",
+     "w": [
+      "Sie",
+      "erkundigt",
+      "sich,",
+      "wann",
+      "das",
+      "Paket",
+      "ankommt."
+     ],
+     "ok": [
+      "Sie erkundigt sich, wann das Paket ankommt."
+     ],
+     "n": "Приставка срастается."
+    },
+    {
+     "ru": "Я не уверена, кому мне позвонить.",
+     "w": [
+      "Ich",
+      "bin",
+      "nicht",
+      "sicher,",
+      "wen",
+      "ich",
+      "anrufen",
+      "soll."
+     ],
+     "ok": [
+      "Ich bin nicht sicher, wen ich anrufen soll."
+     ],
+     "n": "anrufen + Akk → <b>wen</b>."
+    },
+    {
+     "ru": "Он хочет узнать, какой тариф нам подходит.",
+     "w": [
+      "Er",
+      "will",
+      "wissen,",
+      "welcher",
+      "Tarif",
+      "zu",
+      "uns",
+      "passt."
+     ],
+     "ok": [
+      "Er will wissen, welcher Tarif zu uns passt."
+     ],
+     "n": "<b>passt</b> в конце."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

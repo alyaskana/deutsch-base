@@ -1,7 +1,7 @@
 {
  "title": "Lassen и услуги: у кого ножницы",
  "topic": "Книга · 30.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -96,5 +96,57 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "lassen и услуги",
+   "sub": "кто-то делает это для меня",
+   "items": [
+    {
+     "ru": "Я крашу волосы (в салоне).",
+     "w": [
+      "Ich",
+      "lasse",
+      "mir",
+      "die",
+      "Haare",
+      "färben"
+     ],
+     "ok": [
+      "Ich lasse mir die Haare färben"
+     ],
+     "n": "<b>lasse mir … färben</b>."
+    },
+    {
+     "ru": "Я отдаю принтер в ремонт.",
+     "w": [
+      "Ich",
+      "lasse",
+      "den",
+      "Drucker",
+      "reparieren"
+     ],
+     "ok": [
+      "Ich lasse den Drucker reparieren"
+     ],
+     "n": "<b>lasse … reparieren</b>."
+    },
+    {
+     "ru": "Я консультируюсь (у специалиста).",
+     "w": [
+      "Ich",
+      "lasse",
+      "mich",
+      "beraten"
+     ],
+     "ok": [
+      "Ich lasse mich beraten"
+     ],
+     "n": "<b>lasse mich beraten</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

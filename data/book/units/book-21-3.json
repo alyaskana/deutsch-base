@@ -1,7 +1,7 @@
 {
  "title": "Сильные глаголы: ищем знакомую гласную",
  "topic": "Книга · 21.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -134,5 +134,78 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Сильные глаголы",
+   "sub": "Меняется гласная, у ich и er нет окончания",
+   "items": [
+    {
+     "s": "Sie ___ in Bonn.",
+     "ru": "Она осталась в Бонне.",
+     "a": [
+      "blieb"
+     ],
+     "hint": "bleiben",
+     "n": "ei → ie: <b>blieb</b>."
+    },
+    {
+     "s": "Wir ___ nach Wien.",
+     "ru": "Мы полетели в Вену.",
+     "a": [
+      "flogen"
+     ],
+     "hint": "fliegen",
+     "n": "ie → o: <b>flogen</b>."
+    },
+    {
+     "s": "Er ___ den Schlüssel.",
+     "ru": "Он нашёл ключ.",
+     "a": [
+      "fand"
+     ],
+     "hint": "finden",
+     "n": "i → a: <b>fand</b>."
+    },
+    {
+     "s": "Lea ___ die E-Mail.",
+     "ru": "Леа прочитала письмо.",
+     "a": [
+      "las"
+     ],
+     "hint": "lesen",
+     "n": "<b>las</b>."
+    },
+    {
+     "s": "Ich ___ spät nach Hause.",
+     "ru": "Я пришёл домой поздно.",
+     "a": [
+      "kam"
+     ],
+     "hint": "kommen",
+     "n": "<b>kam</b>."
+    },
+    {
+     "s": "Ihr ___ Tee.",
+     "ru": "Вы пили чай.",
+     "a": [
+      "trankt"
+     ],
+     "hint": "trinken",
+     "n": "ihr → <b>trankt</b>."
+    },
+    {
+     "s": "Sie ___ einen Brief.",
+     "ru": "Она написала письмо.",
+     "a": [
+      "schrieb"
+     ],
+     "hint": "schreiben",
+     "n": "<b>schrieb</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

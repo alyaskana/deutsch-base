@@ -1,7 +1,7 @@
 {
  "title": "Предположение: телефон звонит уже сейчас",
  "topic": "Книга · 22.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -90,5 +90,61 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Предположение",
+   "sub": "werden + wohl о настоящем",
+   "items": [
+    {
+     "ru": "Это, наверное, Йонас.",
+     "w": [
+      "Das",
+      "wird",
+      "wohl",
+      "Jonas",
+      "sein."
+     ],
+     "ok": [
+      "Das wird wohl Jonas sein."
+     ],
+     "n": "<b>wird wohl … sein</b>."
+    },
+    {
+     "ru": "Пауль, наверное, ещё в ванной.",
+     "w": [
+      "Paul",
+      "wird",
+      "wohl",
+      "noch",
+      "im",
+      "Bad",
+      "sein."
+     ],
+     "ok": [
+      "Paul wird wohl noch im Bad sein."
+     ],
+     "n": "Предположение о сейчас."
+    },
+    {
+     "ru": "Гости, наверное, стоят в пробке.",
+     "w": [
+      "Die",
+      "Gäste",
+      "werden",
+      "wohl",
+      "im",
+      "Stau",
+      "stehen."
+     ],
+     "ok": [
+      "Die Gäste werden wohl im Stau stehen."
+     ],
+     "n": "<b>werden wohl … stehen</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

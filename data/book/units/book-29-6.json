@@ -1,7 +1,7 @@
 {
  "title": "Процесс и результат: у двери магазина",
  "topic": "Книга · 29.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -102,5 +102,55 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Процесс или результат",
+   "sub": "wird geschlossen / ist geschlossen",
+   "items": [
+    {
+     "s": "Um 18:00: Die Tür ___ geschlossen.",
+     "ru": "Дверь закрывают.",
+     "o": [
+      "wird",
+      "ist"
+     ],
+     "a": "wird",
+     "n": "Действие — <b>wird</b>."
+    },
+    {
+     "s": "Um 18:05: Die Tür ___ geschlossen.",
+     "ru": "Дверь закрыта.",
+     "o": [
+      "ist",
+      "wird"
+     ],
+     "a": "ist",
+     "n": "Результат — <b>ist</b>."
+    },
+    {
+     "s": "Die Garage ___ geöffnet.",
+     "ru": "Гараж был открыт.",
+     "o": [
+      "war",
+      "wurde"
+     ],
+     "a": "war",
+     "n": "Состояние — <b>war</b>."
+    },
+    {
+     "s": "Die Tür ___ schon abgeschlossen.",
+     "ru": "Дверь уже заперта.",
+     "o": [
+      "ist",
+      "wird"
+     ],
+     "a": "ist",
+     "n": "<b>ist</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

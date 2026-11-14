@@ -1,7 +1,7 @@
 {
  "title": "dessen и deren: чья именно квартира",
  "topic": "Книга · 26.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -106,5 +106,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Dessen и deren",
+   "sub": "Смотрим назад, на владельца",
+   "items": [
+    {
+     "s": "Ruf den Vermieter an, ___ Nummer hier steht.",
+     "ru": "Позвони хозяину, чей номер здесь указан.",
+     "o": [
+      "dessen",
+      "deren"
+     ],
+     "a": "dessen",
+     "n": "Владелец м.р. — <b>dessen</b>."
+    },
+    {
+     "s": "Das ist die Firma, ___ Büro unten ist.",
+     "ru": "Это фирма, чей офис внизу.",
+     "o": [
+      "deren",
+      "dessen"
+     ],
+     "a": "deren",
+     "n": "Владелец ж.р. — <b>deren</b>."
+    },
+    {
+     "s": "Ich kenne den Mann, dessen ___ Wohnung zentral liegt.",
+     "ru": "Я знаю мужчину, чья новая квартира в центре.",
+     "o": [
+      "neue",
+      "die neue"
+     ],
+     "a": "neue",
+     "n": "После dessen артикль не ставим."
+    },
+    {
+     "s": "Das ist die Firma, mit deren ___ Computer ich arbeite.",
+     "ru": "Это фирма, на новом компьютере которой я работаю.",
+     "o": [
+      "neuem",
+      "neuen"
+     ],
+     "a": "neuem",
+     "n": "Без артикля: <b>neuem</b>."
+    },
+    {
+     "s": "Das sind die Nachbarn, ___ Kinder laut sind.",
+     "ru": "Это соседи, чьи дети шумные.",
+     "o": [
+      "deren",
+      "dessen"
+     ],
+     "a": "deren",
+     "n": "Мн. — <b>deren</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

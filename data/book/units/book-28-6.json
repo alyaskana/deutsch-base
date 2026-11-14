@@ -1,7 +1,7 @@
 {
  "title": "Ohne и statt: чего при этом не было",
  "topic": "Книга · 28.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -113,5 +113,83 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Ohne и statt",
+   "sub": "ohne … zu, statt … zu, ohne dass",
+   "items": [
+    {
+     "ru": "Мы работаем, не отдыхая.",
+     "w": [
+      "Wir",
+      "arbeiten,",
+      "ohne",
+      "uns",
+      "auszuruhen."
+     ],
+     "ok": [
+      "Wir arbeiten, ohne uns auszuruhen."
+     ],
+     "n": "<b>ohne … zu</b>."
+    },
+    {
+     "ru": "Леа спрашивает Йонаса, вместо того чтобы искать в интернете.",
+     "w": [
+      "Lea",
+      "fragt",
+      "Jonas,",
+      "statt",
+      "im",
+      "Internet",
+      "zu",
+      "suchen."
+     ],
+     "ok": [
+      "Lea fragt Jonas, statt im Internet zu suchen."
+     ],
+     "n": "<b>statt … zu</b>."
+    },
+    {
+     "ru": "Он подписал, не проверив анкету.",
+     "w": [
+      "Er",
+      "hat",
+      "unterschrieben,",
+      "ohne",
+      "das",
+      "Formular",
+      "zu",
+      "überprüfen."
+     ],
+     "ok": [
+      "Er hat unterschrieben, ohne das Formular zu überprüfen."
+     ],
+     "n": "<b>ohne … zu überprüfen</b>."
+    },
+    {
+     "ru": "Йонас перешёл в другую группу, а преподавательница не знала.",
+     "w": [
+      "Jonas",
+      "hat",
+      "den",
+      "Kurs",
+      "gewechselt,",
+      "ohne",
+      "dass",
+      "die",
+      "Lehrerin",
+      "es",
+      "wusste."
+     ],
+     "ok": [
+      "Jonas hat den Kurs gewechselt, ohne dass die Lehrerin es wusste."
+     ],
+     "n": "Другой человек — <b>ohne dass</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

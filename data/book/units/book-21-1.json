@@ -1,7 +1,7 @@
 {
  "title": "Два прошедших времени: история та же",
  "topic": "Книга · 21.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -93,5 +93,55 @@
    "<b>Seit</b> с продолжающимся состоянием ведёт к Präsens. <b>Bis</b> обозначает конечную границу и часто переводится русским «пока не»."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Perfekt или Präteritum",
+   "sub": "Разговор — Perfekt, повествование — Präteritum",
+   "items": [
+    {
+     "s": "За столом: Das Geschäft ___ gut gelaufen.",
+     "ru": "Дела шли хорошо.",
+     "o": [
+      "ist",
+      "war"
+     ],
+     "a": "ist",
+     "n": "В разговоре — Perfekt: <b>ist gelaufen</b>."
+    },
+    {
+     "s": "В журнале: Das Geschäft ___ gut.",
+     "ru": "Дела шли хорошо.",
+     "o": [
+      "lief",
+      "läuft"
+     ],
+     "a": "lief",
+     "n": "Повествование — Präteritum: <b>lief</b>."
+    },
+    {
+     "s": "Sie ___ den Roman in drei Monaten.",
+     "ru": "Она написала роман за три месяца.",
+     "o": [
+      "schrieb",
+      "schreibt"
+     ],
+     "a": "schrieb",
+     "n": "<b>schrieb</b> — завершённость даёт «за три месяца»."
+    },
+    {
+     "s": "Ich habe den ganzen Abend ___.",
+     "ru": "Я весь вечер читал.",
+     "o": [
+      "gelesen",
+      "las"
+     ],
+     "a": "gelesen",
+     "n": "Perfekt: habe … gelesen."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

@@ -1,0 +1,72 @@
+{
+"23.1": [
+ {"type":"choice","title":"Немецкое «бы»","sub":"Меняется сам глагол","items":[
+  {"s":"Ich ___ gern zu Hause.","ru":"Я бы хотел сейчас быть дома.","o":["wäre","bin"],"a":"wäre","n":"«Был бы» — <b>wäre</b>."},
+  {"s":"Ich ___ im Büro.","ru":"Я в офисе.","o":["bin","wäre"],"a":"bin","n":"Реальность — <b>bin</b>."},
+  {"s":"Ich ___ gern einen Hund.","ru":"Мне бы хотелось собаку.","o":["hätte","habe"],"a":"hätte","n":"<b>hätte gern</b>."}
+ ]}
+],
+"23.2": [
+ {"type":"type","title":"Hätte, wäre, würde","sub":"Для действия — würde + инфинитив","items":[
+  {"s":"Ich ___ gern einen freien Nachmittag.","ru":"Мне бы хотелось свободную вторую половину дня.","a":["hätte"],"hint":"haben","n":"<b>hätte</b>."},
+  {"s":"Ich ___ gern rechtzeitig fertig.","ru":"Я бы хотел закончить вовремя.","a":["wäre"],"hint":"sein","n":"<b>wäre</b>."},
+  {"s":"Ich ___ einen Drucker kaufen.","ru":"Я бы купил принтер.","a":["würde"],"hint":"werden","n":"<b>würde … kaufen</b>."},
+  {"s":"Du ___ mehr Zeit.","ru":"У тебя было бы больше времени.","a":["hättest"],"hint":"haben","n":"du → <b>hättest</b>."},
+  {"s":"Wir ___ gern in Wien.","ru":"Мы бы хотели быть в Вене.","a":["wären"],"hint":"sein","n":"<b>wären</b>."},
+  {"s":"Paul weiß, dass ich gern weniger arbeiten ___.","ru":"Пауль знает, что я бы охотно работала меньше.","a":["würde"],"hint":"werden","n":"В придаточном — в конце."}
+ ]}
+],
+"23.3": [
+ {"type":"type","title":"Könnte, müsste, dürfte, wüsste","sub":"Präteritum + умлаут","items":[
+  {"s":"Ohne Internet ___ ich im Büro arbeiten.","ru":"Без интернета мне пришлось бы работать в офисе.","a":["müsste"],"hint":"müssen","n":"<b>müsste</b>."},
+  {"s":"___ ich hier warten?","ru":"Можно мне здесь подождать?","a":["Dürfte"],"hint":"dürfen","n":"<b>Dürfte</b>."},
+  {"s":"Ich ___ gern, wann die Konferenz beginnt.","ru":"Я бы хотел знать, когда начинается конференция.","a":["wüsste"],"hint":"wissen","n":"<b>wüsste gern</b>."},
+  {"s":"Du ___ mir helfen.","ru":"Ты мог бы мне помочь.","a":["könntest"],"hint":"können","n":"<b>könntest</b>."},
+  {"s":"Wir ___ das morgen machen.","ru":"Мы могли бы сделать это завтра.","a":["könnten"],"hint":"können","n":"<b>könnten</b>."}
+ ]}
+],
+"23.4": [
+ {"type":"choice","title":"Вежливая просьба","sub":"Könnten / Würden / Hätten","items":[
+  {"s":"___ du die Zahlen überprüfen?","ru":"Ты мог бы проверить цифры?","o":["Könntest","Kannst nicht"],"a":"Könntest","n":"Мягко — <b>Könntest du</b>."},
+  {"s":"___ Sie bitte hier unterschreiben?","ru":"Подпишите, пожалуйста, вот здесь.","o":["Würden","Werden"],"a":"Würden","n":"<b>Würden Sie</b>."},
+  {"s":"___ du kurz Zeit?","ru":"У тебя найдётся минутка?","o":["Hättest","Hast nicht"],"a":"Hättest","n":"<b>Hättest du</b>."},
+  {"s":"___ Sie die Tür öffnen?","ru":"Вы не могли бы открыть дверь?","o":["Könnten","Könnten nicht"],"a":"Könnten","n":"Без nicht — иначе звучит упрёком."}
+ ]}
+],
+"23.5": [
+ {"type":"build","title":"Совет","sub":"An deiner Stelle würde ich…, du solltest…","items":[
+  {"ru":"На твоём месте я бы позвонил клиенту.","w":["An","deiner","Stelle","würde","ich","den","Kunden","anrufen."],"ok":["An deiner Stelle würde ich den Kunden anrufen."],"n":"<b>würde ich … anrufen</b>."},
+  {"ru":"Ты мог бы спросить коллегу.","w":["Du","könntest","den","Kollegen","fragen."],"ok":["Du könntest den Kollegen fragen."],"n":"<b>könntest … fragen</b>."},
+  {"ru":"Тебе стоит сейчас пойти домой.","w":["Du","solltest","jetzt","nach","Hause","gehen."],"ok":["Du solltest jetzt nach Hause gehen."],"n":"Совет — <b>solltest</b>."},
+  {"ru":"Было бы лучше, если бы ты отдохнул.","w":["Es","wäre","besser,","wenn","du","dich","ausruhen","würdest."],"ok":["Es wäre besser, wenn du dich ausruhen würdest."],"n":"<b>würdest</b> в конце."}
+ ]}
+],
+"23.6": [
+ {"type":"choice","title":"Если бы","sub":"Konjunktiv II в обеих частях","items":[
+  {"s":"Wenn ich Zeit ___, würde ich kommen.","ru":"Если бы было время, я бы пришёл.","o":["hätte","habe"],"a":"hätte","n":"Воображаемое условие — <b>hätte</b>."},
+  {"s":"Wenn ich Zeit habe, ___ ich.","ru":"Если будет время, приду.","o":["komme","würde"],"a":"komme","n":"Реальное — Präsens."},
+  {"s":"Wenn Lea hier ___, könnte sie uns vertreten.","ru":"Если бы Леа была здесь, она могла бы нас заменить.","o":["wäre","ist"],"a":"wäre","n":"<b>wäre</b>."},
+  {"s":"Lea ___ uns vertreten, wenn sie hier wäre.","ru":"Леа могла бы нас заменить, если бы была здесь.","o":["könnte","kann"],"a":"könnte","n":"<b>könnte</b>."},
+  {"s":"Wenn ich reich ___, würde ich reisen.","ru":"Если бы я был богат, я бы путешествовал.","o":["wäre","bin"],"a":"wäre","n":"<b>wäre</b>."}
+ ]}
+],
+"23.7": [
+ {"type":"choice","title":"Если бы тогда","sub":"hätte/wäre + Partizip II; hätte … sollen","items":[
+  {"s":"Wenn ich das damals gewusst ___, wäre ich ruhiger gewesen.","ru":"Если бы я тогда это знал, я был бы спокойнее.","o":["hätte","wüsste"],"a":"hätte","n":"Прошлое — <b>gewusst hätte</b>."},
+  {"s":"Ich ___ zu Hause geblieben.","ru":"Я бы остался дома.","o":["wäre","hätte"],"a":"wäre","n":"bleiben → <b>wäre geblieben</b>."},
+  {"s":"Ich ___ die E-Mail gelesen.","ru":"Я бы прочитал письмо.","o":["hätte","wäre"],"a":"hätte","n":"<b>hätte gelesen</b>."},
+  {"s":"Ich hätte früher anrufen ___.","ru":"Мне надо было позвонить раньше.","o":["sollen","gesollt"],"a":"sollen","n":"Два инфинитива: <b>anrufen sollen</b>."},
+  {"s":"Du hättest mir rechtzeitig schreiben ___.","ru":"Ты мог бы написать мне вовремя.","o":["können","gekonnt"],"a":"können","n":"<b>schreiben können</b>."},
+  {"s":"Du hättest ___ sollen.","ru":"Тебе надо было позвонить.","o":["anrufen","angerufen"],"a":"anrufen","n":"Инфинитив, не причастие."}
+ ]}
+],
+"23.8": [
+ {"type":"choice","title":"Желания и «чтобы»","sub":"Wenn … nur! / möchte, dass + индикатив","items":[
+  {"s":"Ich ___ gern mehr Ruhe.","ru":"Мне бы хотелось больше покоя.","o":["hätte","habe"],"a":"hätte","n":"<b>hätte gern</b>."},
+  {"s":"Wenn ich nur mehr Geduld ___!","ru":"Если бы только у меня было больше терпения!","o":["hätte","habe"],"a":"hätte","n":"Мечта — Konjunktiv II."},
+  {"s":"Ich möchte, dass du mir ___.","ru":"Я хочу, чтобы ты мне помог.","o":["hilfst","hülfest"],"a":"hilfst","n":"После dass — обычная форма."},
+  {"s":"Ich will, dass ihr pünktlich ___.","ru":"Я хочу, чтобы вы пришли вовремя.","o":["kommt","kämet"],"a":"kommt","n":"<b>kommt</b>."},
+  {"s":"Ich ___ gern weniger arbeiten.","ru":"Я бы хотел меньше работать.","o":["würde","werde"],"a":"würde","n":"<b>würde gern</b>."}
+ ]}
+]
+}

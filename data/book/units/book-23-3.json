@@ -1,7 +1,7 @@
 {
  "title": "Könnte и другие: точки со смыслом",
  "topic": "Книга · 23.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -124,5 +124,60 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "Könnte, müsste, dürfte, wüsste",
+   "sub": "Präteritum + умлаут",
+   "items": [
+    {
+     "s": "Ohne Internet ___ ich im Büro arbeiten.",
+     "ru": "Без интернета мне пришлось бы работать в офисе.",
+     "a": [
+      "müsste"
+     ],
+     "hint": "müssen",
+     "n": "<b>müsste</b>."
+    },
+    {
+     "s": "___ ich hier warten?",
+     "ru": "Можно мне здесь подождать?",
+     "a": [
+      "Dürfte"
+     ],
+     "hint": "dürfen",
+     "n": "<b>Dürfte</b>."
+    },
+    {
+     "s": "Ich ___ gern, wann die Konferenz beginnt.",
+     "ru": "Я бы хотел знать, когда начинается конференция.",
+     "a": [
+      "wüsste"
+     ],
+     "hint": "wissen",
+     "n": "<b>wüsste gern</b>."
+    },
+    {
+     "s": "Du ___ mir helfen.",
+     "ru": "Ты мог бы мне помочь.",
+     "a": [
+      "könntest"
+     ],
+     "hint": "können",
+     "n": "<b>könntest</b>."
+    },
+    {
+     "s": "Wir ___ das morgen machen.",
+     "ru": "Мы могли бы сделать это завтра.",
+     "a": [
+      "könnten"
+     ],
+     "hint": "können",
+     "n": "<b>könnten</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

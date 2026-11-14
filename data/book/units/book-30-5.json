@@ -1,7 +1,7 @@
 {
  "title": "Lassen: дать сделать и оставить как есть",
  "topic": "Книга · 30.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -139,5 +139,60 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "type",
+   "title": "lassen: разрешить, оставить",
+   "sub": "lasse, lässt, lasst",
+   "items": [
+    {
+     "s": "___ mich den Text lesen!",
+     "ru": "Дай мне прочитать текст!",
+     "a": [
+      "Lass"
+     ],
+     "hint": "lassen, du",
+     "n": "Императив — <b>Lass</b>."
+    },
+    {
+     "s": "Ich ___ das Licht an.",
+     "ru": "Я оставляю свет включённым.",
+     "a": [
+      "lasse"
+     ],
+     "hint": "lassen",
+     "n": "<b>lasse</b>."
+    },
+    {
+     "s": "Er ___ seine Kinder lange spielen.",
+     "ru": "Он разрешает детям долго играть.",
+     "a": [
+      "lässt"
+     ],
+     "hint": "lassen",
+     "n": "er <b>lässt</b> — с умлаутом."
+    },
+    {
+     "s": "Ihr ___ den Hund nicht ins Bett.",
+     "ru": "Вы не пускаете собаку в кровать.",
+     "a": [
+      "lasst"
+     ],
+     "hint": "lassen",
+     "n": "ihr <b>lasst</b>."
+    },
+    {
+     "s": "Du ___ den Schlüssel immer im Auto.",
+     "ru": "Ты всегда оставляешь ключ в машине.",
+     "a": [
+      "lässt"
+     ],
+     "hint": "lassen",
+     "n": "du <b>lässt</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

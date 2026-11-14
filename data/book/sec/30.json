@@ -1,0 +1,64 @@
+{
+"30.1": [
+ {"type":"build","title":"Рамка предложения","sub":"глагол на втором месте, вторая часть в конце","items":[
+  {"ru":"Я вчера позвонил подруге.","w":["Ich","habe","gestern","meine","Freundin","angerufen"],"ok":["Ich habe gestern meine Freundin angerufen","Gestern habe ich meine Freundin angerufen"],"n":"<b>habe … angerufen</b> — рамка."},
+  {"ru":"Мы хотим завтра поехать в Вену.","w":["Wir","wollen","morgen","nach","Wien","fahren"],"ok":["Wir wollen morgen nach Wien fahren","Morgen wollen wir nach Wien fahren"],"n":"<b>wollen … fahren</b>."},
+  {"ru":"Поезд прибывает в восемь.","w":["Der","Zug","kommt","um","acht","an"],"ok":["Der Zug kommt um acht an","Um acht kommt der Zug an"],"n":"Приставка <b>an</b> уходит в конец."}
+ ]}
+],
+"30.2": [
+ {"type":"choice","title":"Порядок местоимений","sub":"существительные: Dativ → Akkusativ; местоимения: Akkusativ → Dativ","items":[
+  {"s":"Ich gebe ___ das Buch.","ru":"Я даю коллеге книгу.","o":["der Kollegin","es"],"a":"der Kollegin","n":"Два существительных: сначала <b>Dativ</b>."},
+  {"s":"Ich gebe es ___.","ru":"Я даю её (книгу) коллеге.","o":["der Kollegin","ihr es"],"a":"der Kollegin","n":"Местоимение <b>es</b> стоит раньше существительного."},
+  {"s":"Ich gebe ___ ihm.","ru":"Я даю это ему.","o":["es","ihm es"],"a":"es","n":"Два местоимения: <b>es ihm</b>."},
+  {"s":"Sie zeigt ___ die Fotos.","ru":"Она показывает ему фотографии.","o":["ihm","sie"],"a":"ihm","n":"Местоимение раньше существительного: <b>ihm die Fotos</b>."}
+ ]}
+],
+"30.3": [
+ {"type":"build","title":"TeKaMoLo","sub":"когда — почему — как — где","items":[
+  {"ru":"Мы во вторник из-за поломки поехали домой на такси.","w":["Wir","sind","am","Dienstag","wegen","einer","Panne","mit","dem","Taxi","nach","Hause","gefahren"],"ok":["Wir sind am Dienstag wegen einer Panne mit dem Taxi nach Hause gefahren"],"n":"Te — <b>am Dienstag</b>, Ka — <b>wegen einer Panne</b>, Mo — <b>mit dem Taxi</b>, Lo — <b>nach Hause</b>."},
+  {"ru":"Я сегодня из-за дождя иду на работу пешком.","w":["Ich","gehe","heute","wegen","des","Regens","zu","Fuß","zur","Arbeit"],"ok":["Ich gehe heute wegen des Regens zu Fuß zur Arbeit"],"n":"<b>heute</b> → <b>wegen des Regens</b> → <b>zu Fuß</b> → <b>zur Arbeit</b>."}
+ ]}
+],
+"30.4": [
+ {"type":"choice","title":"Где стоит nicht","sub":"всё предложение или одна часть","items":[
+  {"s":"Wir sind wegen des Nebels ___ auf den Hügel gestiegen.","ru":"Из-за тумана мы не поднялись на холм.","o":["nicht","kein"],"a":"nicht","n":"Отрицаем всё действие: <b>nicht</b> перед местом и концом рамки."},
+  {"s":"Wir sind ___ wegen des Nebels zu Hause geblieben, sondern weil wir müde waren.","ru":"Мы остались дома не из-за тумана, а потому что устали.","o":["nicht","kein"],"a":"nicht","n":"Отрицаем одну часть: <b>nicht</b> прямо перед ней, дальше <b>sondern</b>."},
+  {"s":"Ich komme heute ___.","ru":"Я сегодня не приду.","o":["nicht","kein"],"a":"nicht","n":"<b>nicht</b> в конце."},
+  {"s":"Er arbeitet nicht am Montag, ___ am Dienstag.","ru":"Он работает не в понедельник, а во вторник.","o":["sondern","aber"],"a":"sondern","n":"После отрицания — <b>sondern</b>."}
+ ]}
+],
+"30.5": [
+ {"type":"type","title":"lassen: разрешить, оставить","sub":"lasse, lässt, lasst","items":[
+  {"s":"___ mich den Text lesen!","ru":"Дай мне прочитать текст!","a":["Lass"],"hint":"lassen, du","n":"Императив — <b>Lass</b>."},
+  {"s":"Ich ___ das Licht an.","ru":"Я оставляю свет включённым.","a":["lasse"],"hint":"lassen","n":"<b>lasse</b>."},
+  {"s":"Er ___ seine Kinder lange spielen.","ru":"Он разрешает детям долго играть.","a":["lässt"],"hint":"lassen","n":"er <b>lässt</b> — с умлаутом."},
+  {"s":"Ihr ___ den Hund nicht ins Bett.","ru":"Вы не пускаете собаку в кровать.","a":["lasst"],"hint":"lassen","n":"ihr <b>lasst</b>."},
+  {"s":"Du ___ den Schlüssel immer im Auto.","ru":"Ты всегда оставляешь ключ в машине.","a":["lässt"],"hint":"lassen","n":"du <b>lässt</b>."}
+ ]}
+],
+"30.6": [
+ {"type":"build","title":"lassen и услуги","sub":"кто-то делает это для меня","items":[
+  {"ru":"Я крашу волосы (в салоне).","w":["Ich","lasse","mir","die","Haare","färben"],"ok":["Ich lasse mir die Haare färben"],"n":"<b>lasse mir … färben</b>."},
+  {"ru":"Я отдаю принтер в ремонт.","w":["Ich","lasse","den","Drucker","reparieren"],"ok":["Ich lasse den Drucker reparieren"],"n":"<b>lasse … reparieren</b>."},
+  {"ru":"Я консультируюсь (у специалиста).","w":["Ich","lasse","mich","beraten"],"ok":["Ich lasse mich beraten"],"n":"<b>lasse mich beraten</b>."}
+ ]}
+],
+"30.7": [
+ {"type":"choice","title":"sich lassen и родственники","sub":"«можно», Lass dir Zeit, verlassen","items":[
+  {"s":"Der Koffer lässt ___ leicht öffnen.","ru":"Чемодан легко открывается.","o":["sich","ihn"],"a":"sich","n":"<b>lässt sich</b> = можно."},
+  {"s":"Diese Fehler lassen sich nicht ___.","ru":"Эти ошибки невозможно исправить.","o":["korrigieren","korrigiert"],"a":"korrigieren","n":"Инфинитив в конце: <b>korrigieren</b>."},
+  {"s":"Lass ___ Zeit!","ru":"Не торопись!","o":["dir","dich"],"a":"dir","n":"<b>Lass dir Zeit</b>."},
+  {"s":"Er ___ um acht das Haus.","ru":"Он выходит из дома в восемь.","o":["verlässt","entlässt"],"a":"verlässt","n":"<b>verlassen</b> — покидать."},
+  {"s":"Die Firma ___ zehn Mitarbeiter.","ru":"Фирма увольняет десять сотрудников.","o":["entlässt","verlässt"],"a":"entlässt","n":"<b>entlassen</b> — увольнять."}
+ ]}
+],
+"30.8": [
+ {"type":"choice","title":"lassen в Perfekt","sub":"gelassen или lassen","items":[
+  {"s":"Ich habe meine Uhr im Büro ___.","ru":"Я оставил часы в офисе.","o":["gelassen","lassen"],"a":"gelassen","n":"Один глагол — <b>gelassen</b>."},
+  {"s":"Ich habe meine Uhr reparieren ___.","ru":"Я отдал часы в ремонт.","o":["lassen","gelassen"],"a":"lassen","n":"С инфинитивом — <b>lassen</b>."},
+  {"s":"Sie hat sich die Haare schneiden ___.","ru":"Она подстриглась (в салоне).","o":["lassen","gelassen"],"a":"lassen","n":"<b>schneiden lassen</b>."},
+  {"s":"Wir haben den Hund zu Hause ___.","ru":"Мы оставили собаку дома.","o":["gelassen","lassen"],"a":"gelassen","n":"<b>gelassen</b>."}
+ ]}
+]
+}

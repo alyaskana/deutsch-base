@@ -1,7 +1,7 @@
 {
  "title": "Падеж: компас без обещания чудес",
  "topic": "Книга · 25.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -115,5 +115,65 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Падеж после предлога",
+   "sub": "auf/über — обычно Akk; von/mit/zu — Dat",
+   "items": [
+    {
+     "s": "Paul wartet auf ___ Bus.",
+     "ru": "Пауль ждёт автобус.",
+     "o": [
+      "den",
+      "dem"
+     ],
+     "a": "den",
+     "n": "auf + Akk."
+    },
+    {
+     "s": "Ich habe Angst vor ___ Termin.",
+     "ru": "Я боюсь приёма.",
+     "o": [
+      "dem",
+      "den"
+     ],
+     "a": "dem",
+     "n": "Angst vor + Dat."
+    },
+    {
+     "s": "Ich denke oft an ___ Kurs.",
+     "ru": "Я часто вспоминаю этот курс.",
+     "o": [
+      "diesen",
+      "diesem"
+     ],
+     "a": "diesen",
+     "n": "denken an + Akk."
+    },
+    {
+     "s": "Ich nehme an ___ Kurs teil.",
+     "ru": "Я участвую в этом курсе.",
+     "o": [
+      "diesem",
+      "diesen"
+     ],
+     "a": "diesem",
+     "n": "teilnehmen an + Dat."
+    },
+    {
+     "s": "Ich frage nach ___ Weg.",
+     "ru": "Я спрашиваю дорогу.",
+     "o": [
+      "dem",
+      "den"
+     ],
+     "a": "dem",
+     "n": "nach + Dat."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

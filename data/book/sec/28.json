@@ -1,0 +1,73 @@
+{
+"28.1": [
+ {"type":"build","title":"Инфинитив с zu","sub":"После глагола, существительного, es ist …","items":[
+  {"ru":"Я собираюсь сходить на лекцию.","w":["Ich","habe","vor,","einen","Vortrag","zu","besuchen."],"ok":["Ich habe vor, einen Vortrag zu besuchen."],"n":"<b>zu besuchen</b> в конце."},
+  {"ru":"Пытаюсь понять лекцию.","w":["Ich","versuche,","den","Vortrag","zu","verstehen."],"ok":["Ich versuche, den Vortrag zu verstehen."],"n":"Без zu нельзя."},
+  {"ru":"Встречу можно перенести.","w":["Es","ist","möglich,","den","Termin","zu","verschieben."],"ok":["Es ist möglich, den Termin zu verschieben."],"n":"<b>es ist möglich, … zu</b>."},
+  {"ru":"Я помню, что нужно оплатить сбор.","w":["Ich","denke","daran,","die","Gebühr","zu","bezahlen."],"ok":["Ich denke daran, die Gebühr zu bezahlen."],"n":"<b>daran, … zu</b>."},
+  {"ru":"У меня есть время прочитать текст.","w":["Ich","habe","Zeit,","den","Text","zu","lesen."],"ok":["Ich habe Zeit, den Text zu lesen."],"n":"После существительного."}
+ ]}
+],
+"28.2": [
+ {"type":"choice","title":"С zu или без","sub":"Модальные, werden, lassen, gehen/kommen — без zu","items":[
+  {"s":"Wir können ___.","ru":"Мы можем подождать.","o":["warten","zu warten"],"a":"warten","n":"После модального — без zu."},
+  {"s":"Sie wird ___.","ru":"Она позвонит.","o":["anrufen","anzurufen"],"a":"anrufen","n":"werden — без zu."},
+  {"s":"Ich komme dich ___.","ru":"Я приду за тобой.","o":["abholen","abzuholen"],"a":"abholen","n":"kommen + инфинитив без zu."},
+  {"s":"Wir fahren ___.","ru":"Мы едем за покупками.","o":["einkaufen","einzukaufen"],"a":"einkaufen","n":"<b>einkaufen fahren</b>."},
+  {"s":"Ich versuche, ___.","ru":"Я пытаюсь понять.","o":["zu verstehen","verstehen"],"a":"zu verstehen","n":"versuchen — с zu."},
+  {"s":"Ich helfe dir, die schwere Kiste ___.","ru":"Я помогу тебе нести тяжёлый ящик.","o":["zu tragen","tragen"],"a":"zu tragen","n":"С распространением — с zu."}
+ ]}
+],
+"28.3": [
+ {"type":"type","title":"Где zu","sub":"Внутри отделяемых: anzurufen","items":[
+  {"s":"Ich habe vor, Tee ___.","ru":"Я собираюсь принести чай.","a":["mitzubringen"],"hint":"mitbringen","n":"<b>mitzubringen</b>."},
+  {"s":"Vergiss nicht, Lea ___.","ru":"Не забудь позвонить Лее.","a":["anzurufen"],"hint":"anrufen","n":"<b>anzurufen</b>."},
+  {"s":"Wir hoffen, die Anleitung ___.","ru":"Надеемся понять инструкцию.","a":["zu verstehen"],"hint":"verstehen","n":"ver- неотделяемая: <b>zu verstehen</b>."},
+  {"s":"Ich verspreche, den Kurs nicht ___.","ru":"Я обещаю не пропускать курс.","a":["zu versäumen"],"hint":"versäumen","n":"nicht перед zu."},
+  {"s":"Ich bin froh, die Prüfung bestanden ___.","ru":"Я рада, что сдала экзамен.","a":["zu haben"],"hint":"haben","n":"Прошлое: <b>bestanden zu haben</b>."},
+  {"s":"Es ist Zeit, ___.","ru":"Пора вставать.","a":["aufzustehen"],"hint":"aufstehen","n":"<b>aufzustehen</b>."}
+ ]}
+],
+"28.4": [
+ {"type":"type","title":"Кто записывается","sub":"Местоимение по подлежащему действия","items":[
+  {"s":"Ich habe vergessen, ___ anzumelden.","ru":"Я забыла записаться.","a":["mich"],"hint":"ich","n":"Не sich: <b>mich</b>."},
+  {"s":"Ich bitte dich, ___ anzumelden.","ru":"Я прошу тебя записаться.","a":["dich"],"hint":"du","n":"Записывается ты → <b>dich</b>."},
+  {"s":"Ich verspreche dir, ___ anzumelden.","ru":"Я обещаю тебе записаться.","a":["mich"],"hint":"ich","n":"Записываюсь я → <b>mich</b>."},
+  {"s":"Die Lehrerin rät uns, ___ besser vorzubereiten.","ru":"Преподавательница советует нам лучше подготовиться.","a":["uns"],"hint":"wir","n":"<b>uns</b>."},
+  {"s":"Er hat vergessen, ___ anzumelden.","ru":"Он забыл записаться.","a":["sich"],"hint":"er","n":"<b>sich</b>."}
+ ]}
+],
+"28.5": [
+ {"type":"choice","title":"Um … zu или damit","sub":"Тот же человек или другой","items":[
+  {"s":"Ich schreibe Paul, ___ Hilfe zu bekommen.","ru":"Я пишу Паулю, чтобы получить помощь.","o":["um","damit"],"a":"um","n":"Тот же человек — <b>um … zu</b>."},
+  {"s":"Ich schreibe Paul, ___ er Hilfe bekommt.","ru":"Я пишу Паулю, чтобы он получил помощь.","o":["damit","um"],"a":"damit","n":"Другой — <b>damit</b>."},
+  {"s":"Ich bin zu nervös, um ruhig zu ___.","ru":"Я слишком волнуюсь, чтобы говорить спокойно.","o":["sprechen","spreche"],"a":"sprechen","n":"<b>zu … um … zu</b>."},
+  {"s":"Ich bin ruhig ___, um das Gespräch zu führen.","ru":"Я достаточно спокойна, чтобы вести разговор.","o":["genug","zu"],"a":"genug","n":"<b>genug, um … zu</b>."},
+  {"s":"Ich möchte, ___ ihr antwortet.","ru":"Я хочу, чтобы вы ответили.","o":["dass","damit"],"a":"dass","n":"Желание, не цель — <b>dass</b>."}
+ ]}
+],
+"28.6": [
+ {"type":"build","title":"Ohne и statt","sub":"ohne … zu, statt … zu, ohne dass","items":[
+  {"ru":"Мы работаем, не отдыхая.","w":["Wir","arbeiten,","ohne","uns","auszuruhen."],"ok":["Wir arbeiten, ohne uns auszuruhen."],"n":"<b>ohne … zu</b>."},
+  {"ru":"Леа спрашивает Йонаса, вместо того чтобы искать в интернете.","w":["Lea","fragt","Jonas,","statt","im","Internet","zu","suchen."],"ok":["Lea fragt Jonas, statt im Internet zu suchen."],"n":"<b>statt … zu</b>."},
+  {"ru":"Он подписал, не проверив анкету.","w":["Er","hat","unterschrieben,","ohne","das","Formular","zu","überprüfen."],"ok":["Er hat unterschrieben, ohne das Formular zu überprüfen."],"n":"<b>ohne … zu überprüfen</b>."},
+  {"ru":"Йонас перешёл в другую группу, а преподавательница не знала.","w":["Jonas","hat","den","Kurs","gewechselt,","ohne","dass","die","Lehrerin","es","wusste."],"ok":["Jonas hat den Kurs gewechselt, ohne dass die Lehrerin es wusste."],"n":"Другой человек — <b>ohne dass</b>."}
+ ]}
+],
+"28.7": [
+ {"type":"choice","title":"Brauchen, haben/sein zu","sub":"nicht brauchen zu — не нужно","items":[
+  {"s":"Sie brauchen das Diplom nicht ___.","ru":"Диплом вам приносить не нужно.","o":["mitzubringen","mitbringen"],"a":"mitzubringen","n":"<b>nicht brauchen … zu</b>."},
+  {"s":"Du ___ morgen kommen.","ru":"Тебе нужно завтра прийти.","o":["musst","brauchst"],"a":"musst","n":"Положительная обязанность — <b>müssen</b>."},
+  {"s":"Du brauchst keinen Test zu ___.","ru":"Никакого теста проходить не нужно.","o":["machen","gemacht"],"a":"machen","n":"<b>zu machen</b>."},
+  {"s":"Die Gebühr ist bis Donnerstag zu ___.","ru":"Сбор нужно оплатить до четверга.","o":["bezahlen","bezahlt"],"a":"bezahlen","n":"<b>ist … zu bezahlen</b>."},
+  {"s":"Die Anleitung ist leicht zu ___.","ru":"Инструкцию легко понять.","o":["verstehen","verstanden"],"a":"verstehen","n":"<b>leicht zu verstehen</b>."},
+  {"s":"Der Kurs scheint interessant zu ___.","ru":"Кажется, курс интересный.","o":["sein","ist"],"a":"sein","n":"<b>scheint … zu sein</b>."}
+ ]}
+],
+"28.8": [
+ {"type":"build","title":"Запятые","sub":"Границы инфинитивной группы","items":[
+  {"ru":"Наша преподавательница собирается снова вести занятия в сентябре.","w":["Unsere","Lehrerin","hat","die","Absicht,","im","September","wieder","zu","unterrichten."],"ok":["Unsere Lehrerin hat die Absicht, im September wieder zu unterrichten."],"n":"Запятая перед группой."},
+  {"ru":"Для меня важно каждый день говорить по-немецки.","w":["Jeden","Tag","Deutsch","zu","sprechen,","ist","für","mich","wichtig."],"ok":["Jeden Tag Deutsch zu sprechen, ist für mich wichtig."],"n":"Группа в начале — запятая после неё."}
+ ]}
+]
+}

@@ -1,7 +1,7 @@
 {
  "title": "Русские сочетания: переводим мысль",
  "topic": "Книга · 25.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -141,5 +141,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Переводим мысль",
+   "sub": "Русский предлог не подсказка",
+   "items": [
+    {
+     "s": "Sie wartet ___ ihre Schwester.",
+     "ru": "Она ждёт сестру.",
+     "o": [
+      "auf",
+      "—"
+     ],
+     "a": "auf",
+     "n": "«Ждать кого» — <b>warten auf</b>."
+    },
+    {
+     "s": "Lea antwortet ___ meine Frage.",
+     "ru": "Леа отвечает на мой вопрос.",
+     "o": [
+      "auf",
+      "an"
+     ],
+     "a": "auf",
+     "n": "<b>antworten auf</b>."
+    },
+    {
+     "s": "Lea ___ meine Frage.",
+     "ru": "Леа отвечает на мой вопрос.",
+     "o": [
+      "beantwortet",
+      "antwortet"
+     ],
+     "a": "beantwortet",
+     "n": "beantworten — без предлога."
+    },
+    {
+     "s": "Ich vermisse ___.",
+     "ru": "Я скучаю по тебе.",
+     "o": [
+      "dich",
+      "nach dir"
+     ],
+     "a": "dich",
+     "n": "<b>vermissen</b> + Akk."
+    },
+    {
+     "s": "Ich stimme ___ zu.",
+     "ru": "Я согласна с тобой.",
+     "o": [
+      "dir",
+      "mit dir"
+     ],
+     "a": "dir",
+     "n": "<b>zustimmen</b> + Dat."
+    },
+    {
+     "s": "Er hat Angst ___ Hunden.",
+     "ru": "Он боится собак.",
+     "o": [
+      "vor",
+      "von"
+     ],
+     "a": "vor",
+     "n": "<b>Angst vor</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

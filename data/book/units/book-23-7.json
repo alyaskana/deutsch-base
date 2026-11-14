@@ -1,7 +1,7 @@
 {
  "title": "Если бы тогда: прошлое уже не исправить",
  "topic": "Книга · 23.7",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -159,5 +159,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Если бы тогда",
+   "sub": "hätte/wäre + Partizip II; hätte … sollen",
+   "items": [
+    {
+     "s": "Wenn ich das damals gewusst ___, wäre ich ruhiger gewesen.",
+     "ru": "Если бы я тогда это знал, я был бы спокойнее.",
+     "o": [
+      "hätte",
+      "wüsste"
+     ],
+     "a": "hätte",
+     "n": "Прошлое — <b>gewusst hätte</b>."
+    },
+    {
+     "s": "Ich ___ zu Hause geblieben.",
+     "ru": "Я бы остался дома.",
+     "o": [
+      "wäre",
+      "hätte"
+     ],
+     "a": "wäre",
+     "n": "bleiben → <b>wäre geblieben</b>."
+    },
+    {
+     "s": "Ich ___ die E-Mail gelesen.",
+     "ru": "Я бы прочитал письмо.",
+     "o": [
+      "hätte",
+      "wäre"
+     ],
+     "a": "hätte",
+     "n": "<b>hätte gelesen</b>."
+    },
+    {
+     "s": "Ich hätte früher anrufen ___.",
+     "ru": "Мне надо было позвонить раньше.",
+     "o": [
+      "sollen",
+      "gesollt"
+     ],
+     "a": "sollen",
+     "n": "Два инфинитива: <b>anrufen sollen</b>."
+    },
+    {
+     "s": "Du hättest mir rechtzeitig schreiben ___.",
+     "ru": "Ты мог бы написать мне вовремя.",
+     "o": [
+      "können",
+      "gekonnt"
+     ],
+     "a": "können",
+     "n": "<b>schreiben können</b>."
+    },
+    {
+     "s": "Du hättest ___ sollen.",
+     "ru": "Тебе надо было позвонить.",
+     "o": [
+      "anrufen",
+      "angerufen"
+     ],
+     "a": "anrufen",
+     "n": "Инфинитив, не причастие."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

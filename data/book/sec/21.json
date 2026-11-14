@@ -1,0 +1,68 @@
+{
+"21.1": [
+ {"type":"choice","title":"Perfekt или Präteritum","sub":"Разговор — Perfekt, повествование — Präteritum","items":[
+  {"s":"За столом: Das Geschäft ___ gut gelaufen.","ru":"Дела шли хорошо.","o":["ist","war"],"a":"ist","n":"В разговоре — Perfekt: <b>ist gelaufen</b>."},
+  {"s":"В журнале: Das Geschäft ___ gut.","ru":"Дела шли хорошо.","o":["lief","läuft"],"a":"lief","n":"Повествование — Präteritum: <b>lief</b>."},
+  {"s":"Sie ___ den Roman in drei Monaten.","ru":"Она написала роман за три месяца.","o":["schrieb","schreibt"],"a":"schrieb","n":"<b>schrieb</b> — завершённость даёт «за три месяца»."},
+  {"s":"Ich habe den ganzen Abend ___.","ru":"Я весь вечер читал.","o":["gelesen","las"],"a":"gelesen","n":"Perfekt: habe … gelesen."}
+ ]}
+],
+"21.2": [
+ {"type":"type","title":"Слабые глаголы: -te","sub":"После t и d — -ete","items":[
+  {"s":"Ich ___ die Bühne.","ru":"Я фотографировал сцену.","a":["fotografierte"],"hint":"fotografieren","n":"<b>fotografierte</b>."},
+  {"s":"Wir ___ zusammen.","ru":"Мы учились вместе.","a":["lernten"],"hint":"lernen","n":"wir → <b>lernten</b>."},
+  {"s":"Er ___ viel.","ru":"Он много работал.","a":["arbeitete"],"hint":"arbeiten","n":"Основа на t → <b>arbeitete</b>."},
+  {"s":"Du ___ Kaffee.","ru":"Ты варил кофе.","a":["kochtest"],"hint":"kochen","n":"du → <b>kochtest</b>."},
+  {"s":"Paul ___ am Freitag ein.","ru":"Пауль делал покупки в пятницу.","a":["kaufte"],"hint":"einkaufen","n":"Приставка в конце."},
+  {"s":"Ich weiß, dass Paul am Freitag ___.","ru":"Я знаю, что Пауль делал покупки в пятницу.","a":["einkaufte"],"hint":"einkaufen","n":"В придаточном слитно: <b>einkaufte</b>."}
+ ]}
+],
+"21.3": [
+ {"type":"type","title":"Сильные глаголы","sub":"Меняется гласная, у ich и er нет окончания","items":[
+  {"s":"Sie ___ in Bonn.","ru":"Она осталась в Бонне.","a":["blieb"],"hint":"bleiben","n":"ei → ie: <b>blieb</b>."},
+  {"s":"Wir ___ nach Wien.","ru":"Мы полетели в Вену.","a":["flogen"],"hint":"fliegen","n":"ie → o: <b>flogen</b>."},
+  {"s":"Er ___ den Schlüssel.","ru":"Он нашёл ключ.","a":["fand"],"hint":"finden","n":"i → a: <b>fand</b>."},
+  {"s":"Lea ___ die E-Mail.","ru":"Леа прочитала письмо.","a":["las"],"hint":"lesen","n":"<b>las</b>."},
+  {"s":"Ich ___ spät nach Hause.","ru":"Я пришёл домой поздно.","a":["kam"],"hint":"kommen","n":"<b>kam</b>."},
+  {"s":"Ihr ___ Tee.","ru":"Вы пили чай.","a":["trankt"],"hint":"trinken","n":"ihr → <b>trankt</b>."},
+  {"s":"Sie ___ einen Brief.","ru":"Она написала письмо.","a":["schrieb"],"hint":"schreiben","n":"<b>schrieb</b>."}
+ ]}
+],
+"21.4": [
+ {"type":"choice","title":"Смешанные и модальные","sub":"kannte, dachte, musste; два инфинитива","items":[
+  {"s":"Ich ___ ihn gut.","ru":"Я хорошо его знал.","o":["kannte","kennte"],"a":"kannte","n":"kennen → <b>kannte</b>."},
+  {"s":"Er ___ an dich.","ru":"Он думал о тебе.","o":["dachte","denkte"],"a":"dachte","n":"denken → <b>dachte</b>."},
+  {"s":"Wir ___ das Projekt ändern.","ru":"Нам пришлось изменить проект.","o":["mussten","müssten"],"a":"mussten","n":"Без умлаута: <b>mussten</b>."},
+  {"s":"Es ___ kalt.","ru":"Стало холодно.","o":["wurde","werdete"],"a":"wurde","n":"werden → <b>wurde</b>."},
+  {"s":"Paul hat am Sonntag arbeiten ___.","ru":"Паулю пришлось работать в воскресенье.","o":["müssen","gemusst"],"a":"müssen","n":"Два инфинитива: <b>arbeiten müssen</b>."},
+  {"s":"Ich habe gestern nicht kommen ___.","ru":"Вчера я не смог прийти.","o":["können","gekonnt"],"a":"können","n":"<b>kommen können</b>."}
+ ]}
+],
+"21.5": [
+ {"type":"type","title":"Plusquamperfekt","sub":"hatte/war + Partizip II — раньше другого прошлого","items":[
+  {"s":"Frau Schmitz ___ ihr Geschäft längst verkauft.","ru":"Фрау Шмитц к тому времени давно продала своё дело.","a":["hatte"],"hint":"haben","n":"<b>hatte verkauft</b>."},
+  {"s":"Paul kam nach Hause. Alina ___ schon gegangen.","ru":"Пауль пришёл домой. Алина уже ушла.","a":["war"],"hint":"sein","n":"gehen → <b>war gegangen</b>."},
+  {"s":"Er war schon nach Leipzig ___.","ru":"Он уже переехал в Лейпциг.","a":["umgezogen"],"hint":"umziehen","n":"<b>umgezogen</b>."},
+  {"s":"Was ___ passiert?","ru":"Что случилось (до этого)?","a":["war"],"hint":"sein","n":"<b>war passiert</b>."},
+  {"s":"Wir hatten vorher lange ___.","ru":"До этого мы долго работали.","a":["gearbeitet"],"hint":"arbeiten","n":"<b>hatten gearbeitet</b>."}
+ ]}
+],
+"21.6": [
+ {"type":"choice","title":"Nachdem, bevor, nach","sub":"Что случилось первым","items":[
+  {"s":"Nachdem Lea das Foto gemacht ___, schickte sie es Paul.","ru":"После того как Леа сделала фото, она отправила его Паулю.","o":["hatte","hat"],"a":"hatte","n":"С nachdem о прошлом — Plusquamperfekt."},
+  {"s":"Nachdem ich gegessen habe, ___ ich weiter.","ru":"После того как поем, продолжу работать.","o":["arbeite","arbeitete"],"a":"arbeite","n":"Perfekt + Präsens."},
+  {"s":"___ Jonas die Wohnung mietete, sprach er mit der Vermieterin.","ru":"Прежде чем снять квартиру, Йонас поговорил с хозяйкой.","o":["Bevor","Nachdem"],"a":"Bevor","n":"<b>bevor</b> — прежде чем."},
+  {"s":"___ dem Studium ging sie nach Berlin.","ru":"После учёбы она уехала в Берлин.","o":["Nach","Nachdem"],"a":"Nach","n":"Без глагола — предлог <b>nach</b>."},
+  {"s":"___ dem Essen wasche ich die Hände.","ru":"Перед едой я мою руки.","o":["Vor","Bevor"],"a":"Vor","n":"Предлог <b>vor</b> + Dativ."}
+ ]}
+],
+"21.7": [
+ {"type":"choice","title":"Als, während, seit, bis","sub":"Границы времени","items":[
+  {"s":"___ Paul ein Kind war, wohnte er in Köln.","ru":"Когда Пауль был ребёнком, он жил в Кёльне.","o":["Als","Wenn"],"a":"Als","n":"Один период в прошлом — <b>als</b>."},
+  {"s":"___ Alina erzählte, kochte Paul.","ru":"Пока Алина рассказывала, Пауль готовил.","o":["Während","Bis"],"a":"Während","n":"Одновременно — <b>während</b>."},
+  {"s":"___ Paul hier wohnt, kocht er öfter.","ru":"С тех пор как Пауль здесь живёт, он чаще готовит.","o":["Seit","Als"],"a":"Seit","n":"Отсчёт идёт — <b>seit</b>."},
+  {"s":"Lea wartete, ___ das Geschäft öffnete.","ru":"Леа ждала, пока магазин не открылся.","o":["bis","während"],"a":"bis","n":"До события — <b>bis</b>."},
+  {"s":"Seit ich in Köln ___, bin ich glücklich.","ru":"С тех пор как живу в Кёльне, я счастлива.","o":["wohne","wohnte"],"a":"wohne","n":"Продолжается — Präsens."}
+ ]}
+]
+}

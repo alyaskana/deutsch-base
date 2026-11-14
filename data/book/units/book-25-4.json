@@ -1,7 +1,7 @@
 {
  "title": "Разные предлоги: меняется взгляд на событие",
  "topic": "Книга · 25.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -174,5 +174,85 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Разные предлоги — разный смысл",
+   "sub": "auf/über, denken an/nachdenken über, sorgen für/sich sorgen um",
+   "items": [
+    {
+     "s": "Ich freue mich ___ das Konzert.",
+     "ru": "Я с радостью жду концерта.",
+     "o": [
+      "auf",
+      "über"
+     ],
+     "a": "auf",
+     "n": "Будущее — <b>auf</b>."
+    },
+    {
+     "s": "Ich freue mich ___ das Geschenk.",
+     "ru": "Я рада подарку.",
+     "o": [
+      "über",
+      "auf"
+     ],
+     "a": "über",
+     "n": "Уже есть — <b>über</b>."
+    },
+    {
+     "s": "Ich denke ___ das Angebot nach.",
+     "ru": "Я обдумываю предложение.",
+     "o": [
+      "über",
+      "an"
+     ],
+     "a": "über",
+     "n": "<b>nachdenken über</b>."
+    },
+    {
+     "s": "Er sorgt ___ seine Mutter.",
+     "ru": "Он заботится о своей маме.",
+     "o": [
+      "für",
+      "um"
+     ],
+     "a": "für",
+     "n": "<b>sorgen für</b>."
+    },
+    {
+     "s": "Er sorgt sich ___ seine Mutter.",
+     "ru": "Он беспокоится за маму.",
+     "o": [
+      "um",
+      "für"
+     ],
+     "a": "um",
+     "n": "<b>sich sorgen um</b>."
+    },
+    {
+     "s": "Der Roman handelt ___ einer Familie.",
+     "ru": "Роман рассказывает об одной семье.",
+     "o": [
+      "von",
+      "um"
+     ],
+     "a": "von",
+     "n": "<b>handeln von</b>."
+    },
+    {
+     "s": "Es geht ___ eine Familie.",
+     "ru": "Речь идёт об одной семье.",
+     "o": [
+      "um",
+      "von"
+     ],
+     "a": "um",
+     "n": "<b>es geht um</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

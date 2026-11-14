@@ -1,7 +1,7 @@
 {
  "title": "Futur I: когда план становится обещанием",
  "topic": "Книга · 22.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -190,5 +190,88 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Futur I",
+   "sub": "werden вторым, инфинитив в конце",
+   "items": [
+    {
+     "ru": "Я обязательно позвоню тебе после курса.",
+     "w": [
+      "Ich",
+      "werde",
+      "dich",
+      "nach",
+      "dem",
+      "Kurs",
+      "anrufen."
+     ],
+     "ok": [
+      "Ich werde dich nach dem Kurs anrufen."
+     ],
+     "n": "<b>werde … anrufen</b>."
+    },
+    {
+     "ru": "Цены вырастут.",
+     "w": [
+      "Die",
+      "Preise",
+      "werden",
+      "steigen."
+     ],
+     "ok": [
+      "Die Preise werden steigen."
+     ],
+     "n": "Прогноз — Futur."
+    },
+    {
+     "ru": "После еды мы уберёмся.",
+     "w": [
+      "Nach",
+      "dem",
+      "Essen",
+      "werden",
+      "wir",
+      "aufräumen."
+     ],
+     "ok": [
+      "Nach dem Essen werden wir aufräumen."
+     ],
+     "n": "werden вторым."
+    },
+    {
+     "ru": "Ты будешь больше читать.",
+     "w": [
+      "Du",
+      "wirst",
+      "mehr",
+      "lesen."
+     ],
+     "ok": [
+      "Du wirst mehr lesen."
+     ],
+     "n": "du → <b>wirst</b>."
+    },
+    {
+     "ru": "Думаю, Леа скоро вернётся.",
+     "w": [
+      "Ich",
+      "glaube,",
+      "dass",
+      "Lea",
+      "bald",
+      "zurückkommen",
+      "wird."
+     ],
+     "ok": [
+      "Ich glaube, dass Lea bald zurückkommen wird."
+     ],
+     "n": "В придаточном <b>wird</b> последним."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }
