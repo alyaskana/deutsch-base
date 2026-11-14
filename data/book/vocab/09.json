@@ -1,0 +1,525 @@
+{
+ "l": 9,
+ "words": [
+  {
+   "de": "können",
+   "lemma": "können",
+   "art": "",
+   "pl": "",
+   "forms": "kann, hat gekonnt",
+   "ipa": "[ˈkœnən]",
+   "ru": "мочь, уметь",
+   "pos": "verb"
+  },
+  {
+   "de": "dürfen",
+   "lemma": "dürfen",
+   "art": "",
+   "pl": "",
+   "forms": "darf, hat gedurft",
+   "ipa": "[ˈdʏʁfən]",
+   "ru": "иметь право, можно",
+   "pos": "verb"
+  },
+  {
+   "de": "müssen",
+   "lemma": "müssen",
+   "art": "",
+   "pl": "",
+   "forms": "muss, hat gemusst",
+   "ipa": "[ˈmʏsən]",
+   "ru": "быть должным, надо",
+   "pos": "verb"
+  },
+  {
+   "de": "sollen",
+   "lemma": "sollen",
+   "art": "",
+   "pl": "",
+   "forms": "soll, hat gesollt",
+   "ipa": "[ˈzɔlən]",
+   "ru": "должен (велено)",
+   "pos": "verb"
+  },
+  {
+   "de": "wollen",
+   "lemma": "wollen",
+   "art": "",
+   "pl": "",
+   "forms": "will, hat gewollt",
+   "ipa": "[ˈvɔlən]",
+   "ru": "хотеть",
+   "pos": "verb"
+  },
+  {
+   "de": "mögen",
+   "lemma": "mögen",
+   "art": "",
+   "pl": "",
+   "forms": "mag, hat gemocht",
+   "ipa": "[ˈmøːɡən]",
+   "ru": "любить, нравиться",
+   "pos": "verb"
+  },
+  {
+   "de": "möchten",
+   "lemma": "möchten",
+   "art": "",
+   "pl": "",
+   "forms": "möchte; о прошлом желании: wollte",
+   "ipa": "[ˈmœçtən]",
+   "ru": "хотел бы",
+   "pos": "adv"
+  },
+  {
+   "de": "die Firma",
+   "lemma": "Firma",
+   "art": "die",
+   "pl": "die Firmen",
+   "forms": "",
+   "ipa": "[ˈfɪʁma]",
+   "ru": "фирма",
+   "pos": "noun"
+  },
+  {
+   "de": "der Arbeitsplatz",
+   "lemma": "Arbeitsplatz",
+   "art": "der",
+   "pl": "die Arbeitsplätze",
+   "forms": "",
+   "ipa": "[ˈaʁbaɪ̯tsˌplats]",
+   "ru": "рабочее место",
+   "pos": "noun"
+  },
+  {
+   "de": "der Chef",
+   "lemma": "Chef",
+   "art": "der",
+   "pl": "die Chefs; die Chefin, die Chefinnen",
+   "forms": "",
+   "ipa": "[ʃɛf]",
+   "ru": "начальник",
+   "pos": "noun"
+  },
+  {
+   "de": "der Kollege",
+   "lemma": "Kollege",
+   "art": "der",
+   "pl": "die Kollegen; Akkusativ: den Kollegen; die Kollegin, die Kolleginnen",
+   "forms": "",
+   "ipa": "[kɔˈleːɡə]",
+   "ru": "коллега",
+   "pos": "noun"
+  },
+  {
+   "de": "das Büro",
+   "lemma": "Büro",
+   "art": "das",
+   "pl": "die Büros",
+   "forms": "",
+   "ipa": "[byˈʁoː]",
+   "ru": "офис",
+   "pos": "noun"
+  },
+  {
+   "de": "der Drucker",
+   "lemma": "Drucker",
+   "art": "der",
+   "pl": "die Drucker",
+   "forms": "",
+   "ipa": "[ˈdʁʊkɐ]",
+   "ru": "принтер",
+   "pos": "noun"
+  },
+  {
+   "de": "drucken",
+   "lemma": "drucken",
+   "art": "",
+   "pl": "",
+   "forms": "druckt, hat gedruckt",
+   "ipa": "[ˈdʁʊkən]",
+   "ru": "печатать",
+   "pos": "verb"
+  },
+  {
+   "de": "drücken",
+   "lemma": "drücken",
+   "art": "",
+   "pl": "",
+   "forms": "drückt, hat gedrückt",
+   "ipa": "[ˈdʁʏkən]",
+   "ru": "нажимать",
+   "pos": "verb"
+  },
+  {
+   "de": "das Papier",
+   "lemma": "Papier",
+   "art": "das",
+   "pl": "die Papiere",
+   "forms": "",
+   "ipa": "[paˈpiːɐ̯]",
+   "ru": "бумага",
+   "pos": "noun"
+  },
+  {
+   "de": "schicken",
+   "lemma": "schicken",
+   "art": "",
+   "pl": "",
+   "forms": "schickt, hat geschickt",
+   "ipa": "[ˈʃɪkən]",
+   "ru": "посылать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Pause",
+   "lemma": "Pause",
+   "art": "die",
+   "pl": "die Pausen",
+   "forms": "",
+   "ipa": "[ˈpaʊ̯zə]",
+   "ru": "перерыв",
+   "pos": "noun"
+  },
+  {
+   "de": "die Aufgabe",
+   "lemma": "Aufgabe",
+   "art": "die",
+   "pl": "die Aufgaben",
+   "forms": "",
+   "ipa": "[ˈaʊ̯fˌɡaːbə]",
+   "ru": "задание",
+   "pos": "noun"
+  },
+  {
+   "de": "das Problem",
+   "lemma": "Problem",
+   "art": "das",
+   "pl": "die Probleme",
+   "forms": "",
+   "ipa": "[pʁoˈbleːm]",
+   "ru": "проблема",
+   "pos": "noun"
+  },
+  {
+   "de": "die Hilfe",
+   "lemma": "Hilfe",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈhɪlfə]",
+   "ru": "помощь",
+   "pos": "noun"
+  },
+  {
+   "de": "benutzen",
+   "lemma": "benutzen",
+   "art": "",
+   "pl": "",
+   "forms": "benutzt, hat benutzt",
+   "ipa": "[bəˈnʊtsən]",
+   "ru": "пользоваться",
+   "pos": "verb"
+  },
+  {
+   "de": "das Internet",
+   "lemma": "Internet",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈɪntɐnɛt]",
+   "ru": "интернет",
+   "pos": "noun"
+  },
+  {
+   "de": "die Maschine",
+   "lemma": "Maschine",
+   "art": "die",
+   "pl": "die Maschinen",
+   "forms": "",
+   "ipa": "[maˈʃiːnə]",
+   "ru": "машина, аппарат",
+   "pos": "noun"
+  },
+  {
+   "de": "reparieren",
+   "lemma": "reparieren",
+   "art": "",
+   "pl": "",
+   "forms": "repariert, hat repariert",
+   "ipa": "[ʁepaˈʁiːʁən]",
+   "ru": "ремонтировать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Eingang",
+   "lemma": "Eingang",
+   "art": "der",
+   "pl": "die Eingänge",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nˌɡaŋ]",
+   "ru": "вход",
+   "pos": "noun"
+  },
+  {
+   "de": "der Ausgang",
+   "lemma": "Ausgang",
+   "art": "der",
+   "pl": "die Ausgänge",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sˌɡaŋ]",
+   "ru": "выход",
+   "pos": "noun"
+  },
+  {
+   "de": "die Frage",
+   "lemma": "Frage",
+   "art": "die",
+   "pl": "die Fragen",
+   "forms": "",
+   "ipa": "[ˈfʁaːɡə]",
+   "ru": "вопрос",
+   "pos": "noun"
+  },
+  {
+   "de": "erlauben",
+   "lemma": "erlauben",
+   "art": "",
+   "pl": "",
+   "forms": "erlaubt, hat erlaubt",
+   "ipa": "[ɛɐ̯ˈlaʊ̯bən]",
+   "ru": "разрешать",
+   "pos": "verb"
+  },
+  {
+   "de": "verboten",
+   "lemma": "verboten",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈboːtən]",
+   "ru": "запрещено",
+   "pos": "adv"
+  },
+  {
+   "de": "rauchen",
+   "lemma": "rauchen",
+   "art": "",
+   "pl": "",
+   "forms": "raucht, hat geraucht",
+   "ipa": "[ˈʁaʊ̯xən]",
+   "ru": "курить",
+   "pos": "verb"
+  },
+  {
+   "de": "die Zigarette",
+   "lemma": "Zigarette",
+   "art": "die",
+   "pl": "die Zigaretten",
+   "forms": "",
+   "ipa": "[tsiɡaˈʁɛtə]",
+   "ru": "сигарета",
+   "pos": "noun"
+  },
+  {
+   "de": "möglich",
+   "lemma": "möglich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈmøːklɪç]",
+   "ru": "возможный",
+   "pos": "adj"
+  },
+  {
+   "de": "wichtig",
+   "lemma": "wichtig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈvɪçtɪç]",
+   "ru": "важный",
+   "pos": "adj"
+  },
+  {
+   "de": "leise",
+   "lemma": "leise",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈlaɪ̯zə]",
+   "ru": "тихо",
+   "pos": "adv"
+  },
+  {
+   "de": "fertig",
+   "lemma": "fertig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfɛʁtɪç]",
+   "ru": "готовый",
+   "pos": "adj"
+  },
+  {
+   "de": "schnell",
+   "lemma": "schnell",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃnɛl]",
+   "ru": "быстро",
+   "pos": "adv"
+  },
+  {
+   "de": "müde",
+   "lemma": "müde",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈmyːdə]",
+   "ru": "усталый",
+   "pos": "adj"
+  },
+  {
+   "de": "eilig",
+   "lemma": "eilig",
+   "art": "",
+   "pl": "",
+   "forms": "es eilig haben: спешить",
+   "ipa": "[ˈaɪ̯lɪç]",
+   "ru": "срочный, спешный",
+   "pos": "adj"
+  },
+  {
+   "de": "der Test",
+   "lemma": "Test",
+   "art": "der",
+   "pl": "die Tests",
+   "forms": "",
+   "ipa": "[tɛst]",
+   "ru": "тест",
+   "pos": "noun"
+  },
+  {
+   "de": "die Information",
+   "lemma": "Information",
+   "art": "die",
+   "pl": "die Informationen",
+   "forms": "",
+   "ipa": "[ɪnfɔʁmaˈtsi̯oːn]",
+   "ru": "информация",
+   "pos": "noun"
+  },
+  {
+   "de": "die Auskunft",
+   "lemma": "Auskunft",
+   "art": "die",
+   "pl": "die Auskünfte",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sˌkʊnft]",
+   "ru": "справка, сведения",
+   "pos": "noun"
+  },
+  {
+   "de": "bitten",
+   "lemma": "bitten",
+   "art": "",
+   "pl": "",
+   "forms": "bittet, hat gebeten",
+   "ipa": "[ˈbɪtən]",
+   "ru": "просить",
+   "pos": "verb"
+  },
+  {
+   "de": "das Gespräch",
+   "lemma": "Gespräch",
+   "art": "das",
+   "pl": "die Gespräche",
+   "forms": "",
+   "ipa": "[ɡəˈʃpʁɛːç]",
+   "ru": "разговор",
+   "pos": "noun"
+  },
+  {
+   "de": "die Gleitzeit",
+   "lemma": "Gleitzeit",
+   "art": "die",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[ˈɡlaɪ̯tˌtsaɪ̯t]",
+   "ru": "гибкий график",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kernzeit",
+   "lemma": "Kernzeit",
+   "art": "die",
+   "pl": "die Kernzeiten",
+   "forms": "",
+   "ipa": "[ˈkɛʁnˌtsaɪ̯t]",
+   "ru": "обязательное время присутствия",
+   "pos": "noun"
+  },
+  {
+   "de": "das Kabinett",
+   "lemma": "Kabinett",
+   "art": "das",
+   "pl": "die Kabinette",
+   "forms": "",
+   "ipa": "[kabiˈnɛt]",
+   "ru": "кабинет министров; комнатка",
+   "pos": "noun"
+  },
+  {
+   "de": "los",
+   "lemma": "los",
+   "art": "",
+   "pl": "",
+   "forms": "Ich muss los . = Мне пора.",
+   "ipa": "[loːs]",
+   "ru": "прочь, вперёд",
+   "pos": "adv"
+  },
+  {
+   "de": "die Mahlzeit",
+   "lemma": "Mahlzeit",
+   "art": "die",
+   "pl": "die Mahlzeiten; Mahlzeit ! = приветствие в обед",
+   "forms": "",
+   "ipa": "[ˈmaːlˌtsaɪ̯t]",
+   "ru": "еда, приём пищи",
+   "pos": "noun"
+  },
+  {
+   "de": "die Schiene",
+   "lemma": "Schiene",
+   "art": "die",
+   "pl": "die Schienen",
+   "forms": "",
+   "ipa": "[ˈʃiːnə]",
+   "ru": "рельс, направляющая",
+   "pos": "noun"
+  },
+  {
+   "de": "sagen",
+   "lemma": "sagen",
+   "art": "",
+   "pl": "",
+   "forms": "sagt, hat gesagt",
+   "ipa": "[ˈzaːɡən]",
+   "ru": "говорить, сказать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Schrift",
+   "lemma": "Schrift",
+   "art": "die",
+   "pl": "die Schriften",
+   "forms": "",
+   "ipa": "[ʃʁɪft]",
+   "ru": "шрифт; почерк, письменность",
+   "pos": "noun"
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "id": "book-09-4",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Herr Krüger",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Guten Tag, Frau Kozyreva. Hier ist Herr Krüger.",
+   "ru": "Добрый день, госпожа Козырева. Это господин Крюгер.",
+   "tag": "[Anrufbeantworter]"
+  },
+  {
+   "who": "Herr Krüger",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Am Montag müssen Sie den Ausweis hier haben. Sie dürfen den Drucker benutzen.",
+   "ru": "В понедельник у вас здесь должно быть удостоверение. Вы можете пользоваться принтером."
+  },
+  {
+   "who": "Herr Krüger",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Sie dürfen hier keine Fotos machen. Das Papier müssen Sie nicht bezahlen.",
+   "ru": "Здесь нельзя фотографировать. За бумагу платить не нужно."
+  },
+  {
+   "who": "Herr Krüger",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Am Freitag sollen Sie zwei E-Mails lesen.",
+   "ru": "В пятницу вам нужно прочитать два электронных письма."
+  },
+  {
+   "who": "Herr Krüger",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Ich möchte noch etwas wissen: Wann können Sie am Donnerstag kommen? Danke. Auf Wiederhören!",
+   "ru": "Хочу ещё кое-что узнать: когда вы можете прийти в четверг? Спасибо. До свидания!"
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 09.4",
+  "scene": "Nachricht",
+  "cap": "Господин Крюгер о первой рабочей неделе",
+  "sub": "Послушайте сообщение господина Крюгера о первой рабочей неделе Алины.",
+  "speakers": {
+   "Herr Krüger": "Германия"
+  },
+  "qs": [
+   [
+    "Alina muss ___ hier haben.",
+    [
+     "den Ausweis",
+     "den Drucker",
+     "das Papier"
+    ],
+    "müssen Sie <b>den Ausweis</b> hier haben",
+    "В записи названо удостоверение."
+   ],
+   [
+    "Sie darf ___ benutzen.",
+    [
+     "den Drucker",
+     "das Telefon",
+     "den Computer"
+    ],
+    "Sie dürfen <b>den Drucker</b> benutzen",
+    "Господин Крюгер разрешает пользоваться принтером."
+   ],
+   [
+    "Sie ___ hier ___ Fotos machen.",
+    [
+     "darf … keine",
+     "muss … keine",
+     "darf … nicht"
+    ],
+    "Sie <b>dürfen</b> hier <b>keine</b> Fotos machen",
+    "Фотографировать запрещено: <b>dürfen</b> с отрицанием. Существительное без артикля отрицаем через <b>keine</b>."
+   ],
+   [
+    "Sie ___ das Papier ___ bezahlen.",
+    [
+     "muss … nicht",
+     "darf … nicht",
+     "muss … kein"
+    ],
+    "Das Papier <b>müssen</b> Sie <b>nicht</b> bezahlen",
+    "Бумагу оплачивать не нужно; это не запрет."
+   ],
+   [
+    "Sie soll am Freitag ___ lesen.",
+    [
+     "zwei E-Mails",
+     "zwei Briefe",
+     "den Vertrag"
+    ],
+    "sollen Sie <b>zwei E-Mails</b> lesen",
+    "По поручению нужно прочитать два электронных письма."
+   ],
+   [
+    "Wann ___ Sie am Donnerstag ___?",
+    [
+     "können … kommen",
+     "müssen … kommen",
+     "wollen … kommen"
+    ],
+    "Wann <b>können</b> Sie am Donnerstag <b>kommen</b>",
+    "Он спрашивает, когда Алина может прийти в четверг."
+   ]
+  ],
+  "gloss": {
+   "ausweis": "удостоверение (der Ausweis)",
+   "drucker": "принтер (der Drucker)",
+   "benutzen": "пользоваться",
+   "bezahlen": "оплачивать",
+   "wiederhören": "Auf Wiederhören — до свидания (по телефону)"
+  }
+ }
+}

@@ -23,6 +23,29 @@ def inline(s):
     s = html.unescape(re.sub(r'\s+', ' ', s)).strip()
     return s.replace('</b> <b>', ' ').replace('</b><b>', '')
 
+IMG_LIMIT = 70_000
+
+def shrink(path, limit=None):
+    """рисунок как есть, если маленький; иначе JPEG шириной до 900 px (документ базы ≤ 256 КБ)"""
+    limit = limit or IMG_LIMIT
+    raw = path.read_bytes()
+    mime = 'image/png' if path.suffix == '.png' else 'image/jpeg'
+    if len(raw) <= limit:
+        return mime, raw
+    import io
+    from PIL import Image
+    im = Image.open(io.BytesIO(raw))
+    if im.mode in ('RGBA', 'LA', 'P'):
+        bg = Image.new('RGB', im.size, 'white'); im = im.convert('RGBA'); bg.paste(im, mask=im.split()[-1]); im = bg
+    im.thumbnail((900, 900))
+    if limit < 40_000:
+        im.thumbnail((640, 640))
+    for q in (80, 70, 60, 50, 40):
+        b = io.BytesIO(); im.convert('RGB').save(b, 'JPEG', quality=q, optimize=True)
+        if b.tell() <= limit:
+            break
+    return 'image/jpeg', b.getvalue()
+
 def table(t):
     rows = []
     for tr in re.findall(r'<tr[^>]*>(.*?)</tr>', t, re.S):
@@ -48,8 +71,8 @@ def convert(oebps, lesson, sec):
         elif e.startswith('<figure'):
             src = re.search(r'src="\.\./images/([^"]+)"', e).group(1)
             alt = html.unescape(re.search(r'alt="([^"]*)"', e).group(1))
-            mime = 'image/png' if src.endswith('png') else 'image/jpeg'
-            data = base64.b64encode((Path(oebps) / 'images' / src).read_bytes()).decode()
+            mime, raw = shrink(Path(oebps) / 'images' / src)
+            data = base64.b64encode(raw).decode()
             theory.append({'k': 'img', 'src': f'data:{mime};base64,{data}', 'alt': alt})
         else:
             c = re.search(r'class="box box-([a-z]+)"', e).group(1)

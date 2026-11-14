@@ -1,0 +1,198 @@
+{
+ "id": "book-10-1",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "aufstehen. Ich stehe um sieben Uhr auf.",
+   "ru": "aufstehen — Я встаю в семь часов."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "verstehen. Ich verstehe die Frage.",
+   "ru": "verstehen — Я понимаю вопрос."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "anrufen. Paul ruft seine Mutter an.",
+   "ru": "anrufen — Пауль звонит маме."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "fernsehen. Jonas sieht am Abend fern.",
+   "ru": "fernsehen — Йонас вечером смотрит телевизор."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "einkaufen. Wir kaufen am Samstag ein.",
+   "ru": "einkaufen — Мы закупаемся в субботу."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "erklären. Die Lehrerin erklärt die Regel.",
+   "ru": "erklären — Учительница объясняет правило."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "umziehen. Alina zieht nach Köln um.",
+   "ru": "umziehen — Алина переезжает в Кёльн."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "übernachten. Wir übernachten im Hotel.",
+   "ru": "übernachten — Мы ночуем в гостинице."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "unterschreiben. Sie unterschreibt den Vertrag.",
+   "ru": "unterschreiben — Она подписывает договор."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "frühstücken. Ich frühstücke um acht.",
+   "ru": "frühstücken — Я завтракаю в восемь."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "mitnehmen. Paul nimmt den Schirm mit.",
+   "ru": "mitnehmen — Пауль берёт с собой зонт."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "wiederholen. Bitte wiederholen Sie den Satz.",
+   "ru": "wiederholen — Пожалуйста, повторите предложение."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 10.1",
+  "scene": "Betonung",
+  "cap": "Инфинитив и предложение с ним",
+  "sub": "Послушайте каждый инфинитив и предложение с ним. Где главное ударение: на приставке или на основе? Если приставки нет, отмечайте «на основе».",
+  "speakers": {
+   "Sprecher": "Германия"
+  },
+  "qs": [
+   [
+    "aufstehen",
+    [
+     "на приставке",
+     "на основе"
+    ],
+    "<b>aufstehen</b>",
+    "Ударное <b>auf</b> отделяется: в записи оно стоит в конце фразы."
+   ],
+   [
+    "verstehen",
+    [
+     "на основе",
+     "на приставке"
+    ],
+    "<b>verstehen</b>",
+    "Ударение на <b>ste</b>; <b>ver-</b> не отделяется."
+   ],
+   [
+    "anrufen",
+    [
+     "на приставке",
+     "на основе"
+    ],
+    "<b>anrufen</b>",
+    "Ударное <b>an</b> отделяется от личной формы."
+   ],
+   [
+    "fernsehen",
+    [
+     "на приставке",
+     "на основе"
+    ],
+    "<b>fernsehen</b>",
+    "Ударное <b>fern</b> оказывается в конце; основа меняется на <b>sieht</b>."
+   ],
+   [
+    "einkaufen",
+    [
+     "на приставке",
+     "на основе"
+    ],
+    "<b>einkaufen</b>",
+    "Главное ударение на <b>ein</b>, которое отделяется."
+   ],
+   [
+    "erklären",
+    [
+     "на основе",
+     "на приставке"
+    ],
+    "<b>erklären</b>",
+    "Ударен слог <b>klä</b>; безударное <b>er-</b> остаётся с основой."
+   ],
+   [
+    "umziehen",
+    [
+     "на приставке",
+     "на основе"
+    ],
+    "<b>umziehen</b>",
+    "В значении «переезжать» ударно <b>um</b>; приставка отделяется."
+   ],
+   [
+    "übernachten",
+    [
+     "на основе",
+     "на приставке"
+    ],
+    "<b>übernachten</b>",
+    "Главное ударение на <b>nach</b>; глагол не делится."
+   ],
+   [
+    "unterschreiben",
+    [
+     "на основе",
+     "на приставке"
+    ],
+    "<b>unterschreiben</b>",
+    "Главное ударение на <b>schrei</b>; <b>unter-</b> не отделяется."
+   ],
+   [
+    "frühstücken",
+    [
+     "на основе",
+     "на приставке"
+    ],
+    "<b>frühstücken</b>",
+    "Ударно начало <b>früh</b>, но отделяемой приставки здесь нет: это часть основы."
+   ],
+   [
+    "mitnehmen",
+    [
+     "на приставке",
+     "на основе"
+    ],
+    "<b>mitnehmen</b>",
+    "Ударно <b>mit</b>; после разделения слышим изменённую основу <b>nimmt</b>."
+   ],
+   [
+    "wiederholen",
+    [
+     "на основе",
+     "на приставке"
+    ],
+    "<b>wiederholen</b>",
+    "В значении «повторять» ударен слог <b>ho</b>, глагол остаётся целым."
+   ]
+  ],
+  "gloss": {}
+ }
+}

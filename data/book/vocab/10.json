@@ -1,0 +1,615 @@
+{
+ "l": 10,
+ "words": [
+  {
+   "de": "aufstehen",
+   "lemma": "aufstehen",
+   "art": "",
+   "pl": "",
+   "forms": "steht auf, ist aufgestanden",
+   "ipa": "[ˈaʊ̯fˌʃteːən]",
+   "ru": "вставать",
+   "pos": "verb"
+  },
+  {
+   "de": "anfangen",
+   "lemma": "anfangen",
+   "art": "",
+   "pl": "",
+   "forms": "fängt an, hat angefangen",
+   "ipa": "[ˈanˌfaŋən]",
+   "ru": "начинать(ся)",
+   "pos": "verb"
+  },
+  {
+   "de": "aufhören",
+   "lemma": "aufhören",
+   "art": "",
+   "pl": "",
+   "forms": "hört auf, hat aufgehört",
+   "ipa": "[ˈaʊ̯fˌhøːʁən]",
+   "ru": "заканчивать(ся), переставать",
+   "pos": "verb"
+  },
+  {
+   "de": "einkaufen",
+   "lemma": "einkaufen",
+   "art": "",
+   "pl": "",
+   "forms": "kauft ein, hat eingekauft",
+   "ipa": "[ˈaɪ̯nˌkaʊ̯fən]",
+   "ru": "делать покупки",
+   "pos": "verb"
+  },
+  {
+   "de": "fernsehen",
+   "lemma": "fernsehen",
+   "art": "",
+   "pl": "",
+   "forms": "sieht fern, hat ferngesehen",
+   "ipa": "[ˈfɛʁnˌzeːən]",
+   "ru": "смотреть телевизор",
+   "pos": "verb"
+  },
+  {
+   "de": "anrufen",
+   "lemma": "anrufen",
+   "art": "",
+   "pl": "",
+   "forms": "ruft an, hat angerufen",
+   "ipa": "[ˈanˌʁuːfən]",
+   "ru": "звонить",
+   "pos": "verb"
+  },
+  {
+   "de": "abholen",
+   "lemma": "abholen",
+   "art": "",
+   "pl": "",
+   "forms": "holt ab, hat abgeholt",
+   "ipa": "[ˈapˌhoːlən]",
+   "ru": "забирать, встречать",
+   "pos": "verb"
+  },
+  {
+   "de": "mitbringen",
+   "lemma": "mitbringen",
+   "art": "",
+   "pl": "",
+   "forms": "bringt mit, hat mitgebracht",
+   "ipa": "[ˈmɪtˌbʁɪŋən]",
+   "ru": "приносить с собой",
+   "pos": "verb"
+  },
+  {
+   "de": "mitkommen",
+   "lemma": "mitkommen",
+   "art": "",
+   "pl": "",
+   "forms": "kommt mit, ist mitgekommen",
+   "ipa": "[ˈmɪtˌkɔmən]",
+   "ru": "идти вместе",
+   "pos": "verb"
+  },
+  {
+   "de": "mitnehmen",
+   "lemma": "mitnehmen",
+   "art": "",
+   "pl": "",
+   "forms": "nimmt mit, hat mitgenommen",
+   "ipa": "[ˈmɪtˌneːmən]",
+   "ru": "брать с собой",
+   "pos": "verb"
+  },
+  {
+   "de": "einladen",
+   "lemma": "einladen",
+   "art": "",
+   "pl": "",
+   "forms": "lädt ein, hat eingeladen",
+   "ipa": "[ˈaɪ̯nˌlaːdən]",
+   "ru": "приглашать",
+   "pos": "verb"
+  },
+  {
+   "de": "anmachen",
+   "lemma": "anmachen",
+   "art": "",
+   "pl": "",
+   "forms": "macht an, hat angemacht",
+   "ipa": "[ˈanˌmaxən]",
+   "ru": "включать",
+   "pos": "verb"
+  },
+  {
+   "de": "ausmachen",
+   "lemma": "ausmachen",
+   "art": "",
+   "pl": "",
+   "forms": "macht aus, hat ausgemacht",
+   "ipa": "[ˈaʊ̯sˌmaxən]",
+   "ru": "выключать",
+   "pos": "verb"
+  },
+  {
+   "de": "einsteigen",
+   "lemma": "einsteigen",
+   "art": "",
+   "pl": "",
+   "forms": "steigt ein, ist eingestiegen",
+   "ipa": "[ˈaɪ̯nˌʃtaɪ̯ɡən]",
+   "ru": "садиться в транспорт",
+   "pos": "verb"
+  },
+  {
+   "de": "aussteigen",
+   "lemma": "aussteigen",
+   "art": "",
+   "pl": "",
+   "forms": "steigt aus, ist ausgestiegen",
+   "ipa": "[ˈaʊ̯sˌʃtaɪ̯ɡən]",
+   "ru": "выходить из транспорта",
+   "pos": "verb"
+  },
+  {
+   "de": "abfahren",
+   "lemma": "abfahren",
+   "art": "",
+   "pl": "",
+   "forms": "fährt ab, ist abgefahren",
+   "ipa": "[ˈapˌfaːʁən]",
+   "ru": "отправляться",
+   "pos": "verb"
+  },
+  {
+   "de": "ankommen",
+   "lemma": "ankommen",
+   "art": "",
+   "pl": "",
+   "forms": "kommt an, ist angekommen",
+   "ipa": "[ˈanˌkɔmən]",
+   "ru": "прибывать",
+   "pos": "verb"
+  },
+  {
+   "de": "zurückkommen",
+   "lemma": "zurückkommen",
+   "art": "",
+   "pl": "",
+   "forms": "kommt zurück, ist zurückgekommen",
+   "ipa": "[tsuˈʁʏkˌkɔmən]",
+   "ru": "возвращаться",
+   "pos": "verb"
+  },
+  {
+   "de": "abgeben",
+   "lemma": "abgeben",
+   "art": "",
+   "pl": "",
+   "forms": "gibt ab, hat abgegeben",
+   "ipa": "[ˈapˌɡeːbən]",
+   "ru": "сдавать, отдавать",
+   "pos": "verb"
+  },
+  {
+   "de": "ausfüllen",
+   "lemma": "ausfüllen",
+   "art": "",
+   "pl": "",
+   "forms": "füllt aus, hat ausgefüllt",
+   "ipa": "[ˈaʊ̯sˌfʏlən]",
+   "ru": "заполнять",
+   "pos": "verb"
+  },
+  {
+   "de": "aussehen",
+   "lemma": "aussehen",
+   "art": "",
+   "pl": "",
+   "forms": "sieht aus, hat ausgesehen",
+   "ipa": "[ˈaʊ̯sˌzeːən]",
+   "ru": "выглядеть",
+   "pos": "verb"
+  },
+  {
+   "de": "anziehen",
+   "lemma": "anziehen",
+   "art": "",
+   "pl": "",
+   "forms": "zieht an, hat angezogen",
+   "ipa": "[ˈanˌtsiːən]",
+   "ru": "надевать",
+   "pos": "verb"
+  },
+  {
+   "de": "umziehen",
+   "lemma": "umziehen",
+   "art": "",
+   "pl": "",
+   "forms": "zieht um, ist umgezogen",
+   "ipa": "[ˈʊmˌtsiːən]",
+   "ru": "переезжать",
+   "pos": "verb"
+  },
+  {
+   "de": "kennenlernen",
+   "lemma": "kennenlernen",
+   "art": "",
+   "pl": "",
+   "forms": "lernt kennen, hat kennengelernt; также kennen lernen",
+   "ipa": "[ˈkɛnənˌlɛʁnən]",
+   "ru": "знакомиться",
+   "pos": "verb"
+  },
+  {
+   "de": "vorstellen",
+   "lemma": "vorstellen",
+   "art": "",
+   "pl": "",
+   "forms": "stellt vor, hat vorgestellt",
+   "ipa": "[ˈfoːɐ̯ˌʃtɛlən]",
+   "ru": "представлять, знакомить",
+   "pos": "verb"
+  },
+  {
+   "de": "an sein",
+   "lemma": "an sein",
+   "art": "",
+   "pl": "",
+   "forms": "ist an",
+   "ipa": "[ˈan zaɪ̯n]",
+   "ru": "быть включённым",
+   "pos": "phrase"
+  },
+  {
+   "de": "aus sein",
+   "lemma": "aus sein",
+   "art": "",
+   "pl": "",
+   "forms": "ist aus",
+   "ipa": "[ˈaʊ̯s zaɪ̯n]",
+   "ru": "быть выключенным",
+   "pos": "phrase"
+  },
+  {
+   "de": "auf sein",
+   "lemma": "auf sein",
+   "art": "",
+   "pl": "",
+   "forms": "ist auf",
+   "ipa": "[ˈaʊ̯f zaɪ̯n]",
+   "ru": "быть открытым",
+   "pos": "phrase"
+  },
+  {
+   "de": "zu sein",
+   "lemma": "zu sein",
+   "art": "",
+   "pl": "",
+   "forms": "ist zu",
+   "ipa": "[ˈtsuː zaɪ̯n]",
+   "ru": "быть закрытым",
+   "pos": "phrase"
+  },
+  {
+   "de": "beginnen",
+   "lemma": "beginnen",
+   "art": "",
+   "pl": "",
+   "forms": "beginnt, hat begonnen",
+   "ipa": "[bəˈɡɪnən]",
+   "ru": "начинать(ся)",
+   "pos": "verb"
+  },
+  {
+   "de": "bedeuten",
+   "lemma": "bedeuten",
+   "art": "",
+   "pl": "",
+   "forms": "bedeutet, hat bedeutet",
+   "ipa": "[bəˈdɔʏ̯tən]",
+   "ru": "означать",
+   "pos": "verb"
+  },
+  {
+   "de": "erklären",
+   "lemma": "erklären",
+   "art": "",
+   "pl": "",
+   "forms": "erklärt, hat erklärt",
+   "ipa": "[ɛɐ̯ˈklɛːʁən]",
+   "ru": "объяснять",
+   "pos": "verb"
+  },
+  {
+   "de": "erzählen",
+   "lemma": "erzählen",
+   "art": "",
+   "pl": "",
+   "forms": "erzählt, hat erzählt",
+   "ipa": "[ɛɐ̯ˈtsɛːlən]",
+   "ru": "рассказывать",
+   "pos": "verb"
+  },
+  {
+   "de": "unterschreiben",
+   "lemma": "unterschreiben",
+   "art": "",
+   "pl": "",
+   "forms": "unterschreibt, hat unterschrieben",
+   "ipa": "[ˌʊntɐˈʃʁaɪ̯bən]",
+   "ru": "подписывать",
+   "pos": "verb"
+  },
+  {
+   "de": "verdienen",
+   "lemma": "verdienen",
+   "art": "",
+   "pl": "",
+   "forms": "verdient, hat verdient",
+   "ipa": "[fɛɐ̯ˈdiːnən]",
+   "ru": "зарабатывать",
+   "pos": "verb"
+  },
+  {
+   "de": "frühstücken",
+   "lemma": "frühstücken",
+   "art": "",
+   "pl": "",
+   "forms": "frühstückt, hat gefrühstückt",
+   "ipa": "[ˈfʁyːˌʃtʏkən]",
+   "ru": "завтракать",
+   "pos": "verb"
+  },
+  {
+   "de": "das Frühstück",
+   "lemma": "Frühstück",
+   "art": "das",
+   "pl": "",
+   "forms": "здесь без множественного",
+   "ipa": "[ˈfʁyːˌʃtʏk]",
+   "ru": "завтрак",
+   "pos": "noun"
+  },
+  {
+   "de": "der Feierabend",
+   "lemma": "Feierabend",
+   "art": "der",
+   "pl": "die Feierabende",
+   "forms": "",
+   "ipa": "[ˈfaɪ̯ɐˌʔaːbənt]",
+   "ru": "конец рабочего дня",
+   "pos": "noun"
+  },
+  {
+   "de": "die Haltestelle",
+   "lemma": "Haltestelle",
+   "art": "die",
+   "pl": "die Haltestellen",
+   "forms": "",
+   "ipa": "[ˈhaltəˌʃtɛlə]",
+   "ru": "остановка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Straßenbahn",
+   "lemma": "Straßenbahn",
+   "art": "die",
+   "pl": "die Straßenbahnen",
+   "forms": "",
+   "ipa": "[ˈʃtʁaːsənˌbaːn]",
+   "ru": "трамвай",
+   "pos": "noun"
+  },
+  {
+   "de": "die Abfahrt",
+   "lemma": "Abfahrt",
+   "art": "die",
+   "pl": "die Abfahrten",
+   "forms": "",
+   "ipa": "[ˈapˌfaːɐ̯t]",
+   "ru": "отправление",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ankunft",
+   "lemma": "Ankunft",
+   "art": "die",
+   "pl": "die Ankünfte",
+   "forms": "",
+   "ipa": "[ˈanˌkʊnft]",
+   "ru": "прибытие",
+   "pos": "noun"
+  },
+  {
+   "de": "die Hausordnung",
+   "lemma": "Hausordnung",
+   "art": "die",
+   "pl": "die Hausordnungen",
+   "forms": "",
+   "ipa": "[ˈhaʊ̯sˌʔɔʁdnʊŋ]",
+   "ru": "правила дома",
+   "pos": "noun"
+  },
+  {
+   "de": "der Nachbar",
+   "lemma": "Nachbar",
+   "art": "der",
+   "pl": "die Nachbarn; Akkusativ: den Nachbarn",
+   "forms": "",
+   "ipa": "[ˈnaxbaːɐ̯]",
+   "ru": "сосед",
+   "pos": "noun"
+  },
+  {
+   "de": "die Nachbarin",
+   "lemma": "Nachbarin",
+   "art": "die",
+   "pl": "die Nachbarinnen",
+   "forms": "",
+   "ipa": "[ˈnaxbaːʁɪn]",
+   "ru": "соседка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ordnung",
+   "lemma": "Ordnung",
+   "art": "die",
+   "pl": "",
+   "forms": "здесь без множественного",
+   "ipa": "[ˈɔʁdnʊŋ]",
+   "ru": "порядок",
+   "pos": "noun"
+  },
+  {
+   "de": "die Vorsicht",
+   "lemma": "Vorsicht",
+   "art": "die",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[ˈfoːɐ̯ˌzɪçt]",
+   "ru": "осторожность",
+   "pos": "noun"
+  },
+  {
+   "de": "die Achtung",
+   "lemma": "Achtung",
+   "art": "die",
+   "pl": "",
+   "forms": "здесь без множественного",
+   "ipa": "[ˈaxtʊŋ]",
+   "ru": "внимание",
+   "pos": "noun"
+  },
+  {
+   "de": "das Feuer",
+   "lemma": "Feuer",
+   "art": "das",
+   "pl": "",
+   "forms": "здесь без множественного",
+   "ipa": "[ˈfɔʏ̯ɐ]",
+   "ru": "огонь, пожар",
+   "pos": "noun"
+  },
+  {
+   "de": "man",
+   "lemma": "man",
+   "art": "",
+   "pl": "",
+   "forms": "только подлежащее",
+   "ipa": "[man]",
+   "ru": "обобщённое лицо",
+   "pos": "adv"
+  },
+  {
+   "de": "die Einladung",
+   "lemma": "Einladung",
+   "art": "die",
+   "pl": "die Einladungen",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nˌlaːdʊŋ]",
+   "ru": "приглашение",
+   "pos": "noun"
+  },
+  {
+   "de": "duschen",
+   "lemma": "duschen",
+   "art": "",
+   "pl": "",
+   "forms": "duscht, hat geduscht",
+   "ipa": "[ˈdʊʃən]",
+   "ru": "принимать душ",
+   "pos": "verb"
+  },
+  {
+   "de": "der Absatz",
+   "lemma": "Absatz",
+   "art": "der",
+   "pl": "die Absätze",
+   "forms": "",
+   "ipa": "[ˈapzats]",
+   "ru": "абзац; каблук",
+   "pos": "noun"
+  },
+  {
+   "de": "der Anschlag",
+   "lemma": "Anschlag",
+   "art": "der",
+   "pl": "die Anschläge",
+   "forms": "",
+   "ipa": "[ˈanʃlaːk]",
+   "ru": "объявление (на стене)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Tonne",
+   "lemma": "Tonne",
+   "art": "die",
+   "pl": "die Tonnen",
+   "forms": "",
+   "ipa": "[ˈtɔnə]",
+   "ru": "тонна; большой бак",
+   "pos": "noun"
+  },
+  {
+   "de": "die Mülltonne",
+   "lemma": "Mülltonne",
+   "art": "die",
+   "pl": "die Mülltonnen",
+   "forms": "",
+   "ipa": "[ˈmʏlˌtɔnə]",
+   "ru": "мусорный бак",
+   "pos": "noun"
+  },
+  {
+   "de": "die Biotonne",
+   "lemma": "Biotonne",
+   "art": "die",
+   "pl": "die Biotonnen",
+   "forms": "",
+   "ipa": "[ˈbiːoˌtɔnə]",
+   "ru": "бак для биоотходов",
+   "pos": "noun"
+  },
+  {
+   "de": "das Licht",
+   "lemma": "Licht",
+   "art": "das",
+   "pl": "die Lichter",
+   "forms": "",
+   "ipa": "[lɪçt]",
+   "ru": "свет",
+   "pos": "noun"
+  },
+  {
+   "de": "das Parterre",
+   "lemma": "Parterre",
+   "art": "das",
+   "pl": "die Parterres",
+   "forms": "",
+   "ipa": "[paʁˈtɛʁ]",
+   "ru": "первый (наземный) этаж",
+   "pos": "noun"
+  },
+  {
+   "de": "der Wächter",
+   "lemma": "Wächter",
+   "art": "der",
+   "pl": "die Wächter",
+   "forms": "",
+   "ipa": "[ˈvɛçtɐ]",
+   "ru": "сторож",
+   "pos": "noun"
+  },
+  {
+   "de": "schließen",
+   "lemma": "schließen",
+   "art": "",
+   "pl": "",
+   "forms": "schließt, hat geschlossen",
+   "ipa": "[ˈʃliːsən]",
+   "ru": "закрывать",
+   "pos": "verb"
+  }
+ ]
+}

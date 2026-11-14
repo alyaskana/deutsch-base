@@ -50,7 +50,9 @@ def item_stage(li, n, ans, expl, rubric):
         letter = plain(a).strip()[:1]
         idx = 'abcd'.index(letter)
         ru, s = (q.split(': ', 1) + [''])[:2] if ': ' in q else ('', q)
-        return 'choice', {'s': plain(s or q), 'ru': plain(ru), 'o': o, 'a': o[idx], 'n': e}
+        cs = plain(s or q)
+        if '___' not in cs: cs += ' — ___'  # без пропуска: ответ встаёт после утверждения
+        return 'choice', {'s': cs, 'ru': plain(ru), 'o': o, 'a': o[idx], 'n': e}
     t = txt(body)
     if '___' in t:
         hint = ''
@@ -81,9 +83,19 @@ def item_stage(li, n, ans, expl, rubric):
     # перевод: собрать из слов ответа
     v = variants(a)
     if not v or not v[0]: return None, None
+    if re.search(r'[а-яё]', v[0], re.I):  # ответ по-русски или рассуждение — не собрать из слов
+        return 'write', {'q': plain(t), 'hint': '', 'ph': 'Ответ…', 'ex': [plain(a)], 'check': [e] if e else []}
     toks = v[0].split()
     same = [x for x in v if sorted(x.split()) == sorted(toks)]
     return 'build', {'ru': plain(t), 'w': toks, 'ok': same, 'n': e}
+
+def pic(oebps, name, limit=60_000):
+    """рисунок упражнения как data: (через book-theory.shrink)"""
+    import base64, importlib.util
+    sp = importlib.util.spec_from_file_location('bt', Path(__file__).resolve().parent / 'book-theory.py')
+    bt = importlib.util.module_from_spec(sp); sp.loader.exec_module(bt)
+    mime, raw = bt.shrink(Path(oebps) / 'images' / name, limit)
+    return f'data:{mime};base64,' + base64.b64encode(raw).decode()
 
 COL = ['violet', 'sun', 'blue', 'teal', 'coral', 'pink']; SH = ['circle', 'penta', 'cloud', 'flower', 'square', 'diamond']
 TITLES = {'choice': 'Выбери', 'type': 'Впиши', 'build': 'Переведи', 'write': 'Напиши'}
@@ -99,20 +111,31 @@ def build(oebps, lesson):
         if 'class="audio"' in body: skipped.append(head); continue
         ans, expl = key_for(k, lesson, ex)
         lis = re.findall(r'<li value="(\d+)">(.*?)</li>', body, re.S)
-        if len(lis) == 1 and ('Напишите' in rubric or 'записк' in rubric):
+        prev = s.rfind('</section>', 0, m.start())
+        around = s[prev if prev > 0 else max(0, m.start() - 3000): m.end()]
+        panels = {cap: src for src, cap in re.findall(r'<figure class="panel"><img src="\.\./images/([^"]+)"[^>]*/><figcaption>(\d+)</figcaption>', around)}
+        figs = re.findall(r'<figure class="fig (?:fig-half|fig-full)"><img src="\.\./images/([^"]+)"', around)
+        stpic = pic(oebps, figs[-1]) if figs else None
+        if len(lis) == 1 and re.search(r'[Нн]апишите|записк|сообщени', rubric):
             before = s[max(0, m.start() - 1500): m.start()]
             fig = re.findall(r'<figure class="fig fig-pic"><img[^>]*alt="([^"]*)"', before)
             if fig: rubric = rubric + ' Что на рисунке: ' + html.unescape(fig[-1]).replace('Опора для письменного задания. ', '')
+            caps = re.findall(r'<figure class="panel"><img[^>]*/><figcaption>([^<]+)</figcaption>', around)
+            if caps and not panels: rubric = rubric + ' Рисунки в книге: ' + '; '.join(html.unescape(c) for c in caps) + '.'
             sample = re.sub(r'^Образец:\s*', '', plain(ans.get(1, '')))
             stage = {'type': 'write', 'title': head, 'sub': plain(rubric), 'items': [{'q': plain(rubric), 'hint': plain(txt(lis[0][1])), 'ph': 'Напиши по-немецки…', 'ex': [sample] if sample else [], 'check': [plain(expl.get(1, ''))]}]}
+            if stpic: stage['items'][0]['pic'] = stpic
             practice.append(stage); continue
         groups = {}
         for n, li in lis:
             kind, it = item_stage(li, int(n), ans, expl, rubric)
+            for x in (it if kind == 'type*' else [it] if kind else []):
+                if n in panels: x['pic'] = pic(oebps, panels[n], 30_000)
             if kind == 'type*': groups.setdefault('type', []).extend(it)
             elif kind: groups.setdefault(kind, []).append(it)
         for kind, items in groups.items():
             st = {'type': kind, 'title': head if len(groups) == 1 else f'{head}: {TITLES[kind].lower()}', 'sub': plain(rubric), 'items': items}
+            if stpic: st['pic'] = stpic
             (check if '.C' in head or 'Проверь' in head else practice).append(st)
     for i, st in enumerate(practice + check):
         st['color'], st['shape'] = COL[i % 6], SH[i % 6]

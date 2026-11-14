@@ -1,0 +1,515 @@
+{
+ "l": 7,
+ "words": [
+  {
+   "de": "der Ausflug",
+   "lemma": "Ausflug",
+   "art": "der",
+   "pl": "die Ausflüge",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sˌfluːk]",
+   "ru": "поездка, вылазка",
+   "pos": "noun"
+  },
+  {
+   "de": "schwimmen",
+   "lemma": "schwimmen",
+   "art": "",
+   "pl": "",
+   "forms": "schwimmt, ist / hat geschwommen",
+   "ipa": "[ˈʃvɪmən]",
+   "ru": "плавать",
+   "pos": "verb"
+  },
+  {
+   "de": "der See",
+   "lemma": "See",
+   "art": "der",
+   "pl": "die Seen",
+   "forms": "",
+   "ipa": "[zeː]",
+   "ru": "озеро",
+   "pos": "noun"
+  },
+  {
+   "de": "das Meer",
+   "lemma": "Meer",
+   "art": "das",
+   "pl": "die Meere",
+   "forms": "",
+   "ipa": "[meːɐ̯]",
+   "ru": "море",
+   "pos": "noun"
+  },
+  {
+   "de": "das Dorf",
+   "lemma": "Dorf",
+   "art": "das",
+   "pl": "die Dörfer",
+   "forms": "",
+   "ipa": "[dɔʁf]",
+   "ru": "деревня",
+   "pos": "noun"
+  },
+  {
+   "de": "grillen",
+   "lemma": "grillen",
+   "art": "",
+   "pl": "",
+   "forms": "grillt",
+   "ipa": "[ˈɡʁɪlən]",
+   "ru": "жарить на гриле",
+   "pos": "verb"
+  },
+  {
+   "de": "das Wetter",
+   "lemma": "Wetter",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈvɛtɐ]",
+   "ru": "погода",
+   "pos": "noun"
+  },
+  {
+   "de": "die Sonne",
+   "lemma": "Sonne",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈzɔnə]",
+   "ru": "солнце",
+   "pos": "noun"
+  },
+  {
+   "de": "scheinen",
+   "lemma": "scheinen",
+   "art": "",
+   "pl": "",
+   "forms": "scheint, hat geschienen",
+   "ipa": "[ˈʃaɪ̯nən]",
+   "ru": "светить",
+   "pos": "verb"
+  },
+  {
+   "de": "regnen",
+   "lemma": "regnen",
+   "art": "",
+   "pl": "",
+   "forms": "es regnet",
+   "ipa": "[ˈʁeːɡnən]",
+   "ru": "идёт дождь",
+   "pos": "adv"
+  },
+  {
+   "de": "der Regen",
+   "lemma": "Regen",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈʁeːɡən]",
+   "ru": "дождь",
+   "pos": "noun"
+  },
+  {
+   "de": "der Wind",
+   "lemma": "Wind",
+   "art": "der",
+   "pl": "die Winde",
+   "forms": "",
+   "ipa": "[vɪnt]",
+   "ru": "ветер",
+   "pos": "noun"
+  },
+  {
+   "de": "der Grad",
+   "lemma": "Grad",
+   "art": "der",
+   "pl": "die Grade; после числа: zwanzig Grad",
+   "forms": "",
+   "ipa": "[ɡʁaːt]",
+   "ru": "градус",
+   "pos": "noun"
+  },
+  {
+   "de": "der Zug",
+   "lemma": "Zug",
+   "art": "der",
+   "pl": "die Züge",
+   "forms": "",
+   "ipa": "[tsuːk]",
+   "ru": "поезд",
+   "pos": "noun"
+  },
+  {
+   "de": "der Bahnhof",
+   "lemma": "Bahnhof",
+   "art": "der",
+   "pl": "die Bahnhöfe",
+   "forms": "",
+   "ipa": "[ˈbaːnˌhoːf]",
+   "ru": "вокзал",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gleis",
+   "lemma": "Gleis",
+   "art": "das",
+   "pl": "die Gleise",
+   "forms": "",
+   "ipa": "[ɡlaɪ̯s]",
+   "ru": "путь (железнодорожный)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Fahrkarte",
+   "lemma": "Fahrkarte",
+   "art": "die",
+   "pl": "die Fahrkarten",
+   "forms": "",
+   "ipa": "[ˈfaːɐ̯ˌkaʁtə]",
+   "ru": "билет",
+   "pos": "noun"
+  },
+  {
+   "de": "das Hotel",
+   "lemma": "Hotel",
+   "art": "das",
+   "pl": "die Hotels",
+   "forms": "",
+   "ipa": "[hoˈtɛl]",
+   "ru": "гостиница",
+   "pos": "noun"
+  },
+  {
+   "de": "das Einzelzimmer",
+   "lemma": "Einzelzimmer",
+   "art": "das",
+   "pl": "die Einzelzimmer",
+   "forms": "",
+   "ipa": "[ˈaɪ̯ntsəlˌtsɪmɐ]",
+   "ru": "одноместный номер",
+   "pos": "noun"
+  },
+  {
+   "de": "das Doppelzimmer",
+   "lemma": "Doppelzimmer",
+   "art": "das",
+   "pl": "die Doppelzimmer",
+   "forms": "",
+   "ipa": "[ˈdɔpəlˌtsɪmɐ]",
+   "ru": "двухместный номер",
+   "pos": "noun"
+  },
+  {
+   "de": "übernachten",
+   "lemma": "übernachten",
+   "art": "",
+   "pl": "",
+   "forms": "übernachtet, hat übernachtet",
+   "ipa": "[ˌyːbɐˈnaxtən]",
+   "ru": "ночевать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Plan",
+   "lemma": "Plan",
+   "art": "der",
+   "pl": "die Pläne",
+   "forms": "",
+   "ipa": "[plaːn]",
+   "ru": "план",
+   "pos": "noun"
+  },
+  {
+   "de": "feiern",
+   "lemma": "feiern",
+   "art": "",
+   "pl": "",
+   "forms": "feiert",
+   "ipa": "[ˈfaɪ̯ɐn]",
+   "ru": "праздновать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Party",
+   "lemma": "Party",
+   "art": "die",
+   "pl": "die Partys",
+   "forms": "",
+   "ipa": "[ˈpaːɐ̯ti]",
+   "ru": "вечеринка",
+   "pos": "noun"
+  },
+  {
+   "de": "besichtigen",
+   "lemma": "besichtigen",
+   "art": "",
+   "pl": "",
+   "forms": "besichtigt, hat besichtigt",
+   "ipa": "[bəˈzɪçtɪɡən]",
+   "ru": "осматривать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Sehenswürdigkeit",
+   "lemma": "Sehenswürdigkeit",
+   "art": "die",
+   "pl": "die Sehenswürdigkeiten",
+   "forms": "",
+   "ipa": "[ˈzeːənsˌvʏʁdɪçkaɪ̯t]",
+   "ru": "достопримечательность",
+   "pos": "noun"
+  },
+  {
+   "de": "die Führung",
+   "lemma": "Führung",
+   "art": "die",
+   "pl": "die Führungen",
+   "forms": "",
+   "ipa": "[ˈfyːʁʊŋ]",
+   "ru": "экскурсия с гидом",
+   "pos": "noun"
+  },
+  {
+   "de": "der Eintritt",
+   "lemma": "Eintritt",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈaɪ̯nˌtʁɪt]",
+   "ru": "вход, входная плата",
+   "pos": "noun"
+  },
+  {
+   "de": "das Telefon",
+   "lemma": "Telefon",
+   "art": "das",
+   "pl": "die Telefone",
+   "forms": "",
+   "ipa": "[ˈteːləfoːn, teləˈfoːn]",
+   "ru": "телефон",
+   "pos": "noun"
+  },
+  {
+   "de": "telefonieren",
+   "lemma": "telefonieren",
+   "art": "",
+   "pl": "",
+   "forms": "telefoniert, hat telefoniert",
+   "ipa": "[teləfoˈniːʁən]",
+   "ru": "говорить по телефону",
+   "pos": "verb"
+  },
+  {
+   "de": "der Anruf",
+   "lemma": "Anruf",
+   "art": "der",
+   "pl": "die Anrufe",
+   "forms": "",
+   "ipa": "[ˈanˌʁuːf]",
+   "ru": "звонок",
+   "pos": "noun"
+  },
+  {
+   "de": "das Wiederhören",
+   "lemma": "Wiederhören",
+   "art": "das",
+   "pl": "–; только в Auf Wiederhören !",
+   "forms": "",
+   "ipa": "[ˈviːdɐˌhøːʁən]",
+   "ru": "до свидания (по телефону)",
+   "pos": "noun"
+  },
+  {
+   "de": "wohin",
+   "lemma": "wohin",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[voˈhɪn]",
+   "ru": "куда",
+   "pos": "adv"
+  },
+  {
+   "de": "warum",
+   "lemma": "warum",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[vaˈʁʊm]",
+   "ru": "почему",
+   "pos": "adv"
+  },
+  {
+   "de": "was für ein",
+   "lemma": "was für ein",
+   "art": "",
+   "pl": "",
+   "forms": "Akkusativ: was für einen / eine / ein; Plural: was für",
+   "ipa": "[ˌvas fyːɐ̯ ˈaɪ̯n]",
+   "ru": "что за, какой",
+   "pos": "phrase"
+  },
+  {
+   "de": "lange",
+   "lemma": "lange",
+   "art": "",
+   "pl": "",
+   "forms": "wie lange ?",
+   "ipa": "[ˈlaŋə]",
+   "ru": "долго",
+   "pos": "adv"
+  },
+  {
+   "de": "doch",
+   "lemma": "doch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[dɔx]",
+   "ru": "да (возражая)",
+   "pos": "adv"
+  },
+  {
+   "de": "denn",
+   "lemma": "denn",
+   "art": "",
+   "pl": "",
+   "forms": "частица в вопросах",
+   "ipa": "[dɛn]",
+   "ru": "же, а",
+   "pos": "adv"
+  },
+  {
+   "de": "vielleicht",
+   "lemma": "vielleicht",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fiˈlaɪ̯çt]",
+   "ru": "может быть",
+   "pos": "adv"
+  },
+  {
+   "de": "bald",
+   "lemma": "bald",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[balt]",
+   "ru": "скоро",
+   "pos": "adv"
+  },
+  {
+   "de": "dann",
+   "lemma": "dann",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[dan]",
+   "ru": "потом, затем",
+   "pos": "adv"
+  },
+  {
+   "de": "bleiben",
+   "lemma": "bleiben",
+   "art": "",
+   "pl": "",
+   "forms": "bleibt, ist geblieben",
+   "ipa": "[ˈblaɪ̯bən]",
+   "ru": "оставаться",
+   "pos": "verb"
+  },
+  {
+   "de": "draußen",
+   "lemma": "draußen",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈdʁaʊ̯sən]",
+   "ru": "на улице, снаружи",
+   "pos": "adv"
+  },
+  {
+   "de": "glauben",
+   "lemma": "glauben",
+   "art": "",
+   "pl": "",
+   "forms": "glaubt",
+   "ipa": "[ˈɡlaʊ̯bən]",
+   "ru": "думать, верить",
+   "pos": "verb"
+  },
+  {
+   "de": "der Satz",
+   "lemma": "Satz",
+   "art": "der",
+   "pl": "die Sätze",
+   "forms": "",
+   "ipa": "[zats]",
+   "ru": "предложение (фраза)",
+   "pos": "noun"
+  },
+  {
+   "de": "der Bahnsteig",
+   "lemma": "Bahnsteig",
+   "art": "der",
+   "pl": "die Bahnsteige",
+   "forms": "",
+   "ipa": "[ˈbaːnʃtaɪ̯k]",
+   "ru": "платформа (на вокзале)",
+   "pos": "noun"
+  },
+  {
+   "de": "der Esel",
+   "lemma": "Esel",
+   "art": "der",
+   "pl": "die Esel",
+   "forms": "",
+   "ipa": "[ˈeːzəl]",
+   "ru": "осёл",
+   "pos": "noun"
+  },
+  {
+   "de": "die Exkursion",
+   "lemma": "Exkursion",
+   "art": "die",
+   "pl": "die Exkursionen",
+   "forms": "",
+   "ipa": "[ɛkskʊʁˈzi̯oːn]",
+   "ru": "учебная поездка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Kegel",
+   "lemma": "Kegel",
+   "art": "der",
+   "pl": "die Kegel",
+   "forms": "",
+   "ipa": "[ˈkeːɡəl]",
+   "ru": "кегля",
+   "pos": "noun"
+  },
+  {
+   "de": "ne",
+   "lemma": "ne",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[nə]",
+   "ru": "да? не так ли? (разг.)",
+   "pos": "adv"
+  },
+  {
+   "de": "nennen",
+   "lemma": "nennen",
+   "art": "",
+   "pl": "",
+   "forms": "nennt, hat genannt",
+   "ipa": "[ˈnɛnən]",
+   "ru": "называть",
+   "pos": "verb"
+  }
+ ]
+}

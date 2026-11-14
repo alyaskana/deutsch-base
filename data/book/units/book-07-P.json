@@ -1,0 +1,718 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 7",
+ "sub": "Упражнения урока 7 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 7,
+  "s": "7.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "build",
+   "title": "Упражнение 07.1",
+   "sub": "Составьте утверждения. Начальный блок указан после скобок; его менять нельзя. Используйте все блоки ровно один раз.",
+   "items": [
+    {
+     "ru": "[ich / übernachte / am Freitag / hier]. Начните с am Freitag.",
+     "w": [
+      "Am",
+      "Freitag",
+      "übernachte",
+      "ich",
+      "hier"
+     ],
+     "ok": [
+      "Am Freitag übernachte ich hier"
+     ],
+     "n": "Время занимает первое место, затем идут глагол и подлежащее."
+    },
+    {
+     "ru": "[den Eintritt / morgen / wir / bezahlen]. Начните с morgen.",
+     "w": [
+      "Morgen",
+      "bezahlen",
+      "wir",
+      "den",
+      "Eintritt"
+     ],
+     "ok": [
+      "Morgen bezahlen wir den Eintritt"
+     ],
+     "n": "После времени ставим личную форму <b>bezahlen</b>, затем <b>wir</b>."
+    },
+    {
+     "ru": "[kommt / Alina / am Sonntag um elf]. Начните с am Sonntag um elf.",
+     "w": [
+      "Am",
+      "Sonntag",
+      "um",
+      "elf",
+      "kommt",
+      "Alina"
+     ],
+     "ok": [
+      "Am Sonntag um elf kommt Alina"
+     ],
+     "n": "День и час вместе занимают первое место, глагол идёт после всего блока."
+    },
+    {
+     "ru": "[wir / bleiben / in Köln]. Начните с in Köln.",
+     "w": [
+      "In",
+      "Köln",
+      "bleiben",
+      "wir"
+     ],
+     "ok": [
+      "In Köln bleiben wir"
+     ],
+     "n": "Название места занимает один блок, хотя в нём два слова."
+    },
+    {
+     "ru": "[draußen / die Kinder / spielen]. Начните с draußen.",
+     "w": [
+      "Draußen",
+      "spielen",
+      "die",
+      "Kinder"
+     ],
+     "ok": [
+      "Draußen spielen die Kinder"
+     ],
+     "n": "После места идут глагол и подлежащее во множественном числе."
+    },
+    {
+     "ru": "[ich / die Fahrkarte / brauche]. Начните с die Fahrkarte.",
+     "w": [
+      "Die",
+      "Fahrkarte",
+      "brauche",
+      "ich"
+     ],
+     "ok": [
+      "Die Fahrkarte brauche ich"
+     ],
+     "n": "Билет остаётся дополнением, даже когда назван первым."
+    },
+    {
+     "ru": "[nehmen / den Fisch / wir]. Начните с den Fisch.",
+     "w": [
+      "Den",
+      "Fisch",
+      "nehmen",
+      "wir"
+     ],
+     "ok": [
+      "Den Fisch nehmen wir"
+     ],
+     "n": "Винительный <b>den Fisch</b> сохраняется при переносе в начало."
+    },
+    {
+     "ru": "[feiern / Paul und ich / heute]. Начните с Paul und ich.",
+     "w": [
+      "Paul",
+      "und",
+      "ich",
+      "feiern",
+      "heute"
+     ],
+     "ok": [
+      "Paul und ich feiern heute"
+     ],
+     "n": "Два участника составляют одно подлежащее; глагол во множественном числе."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 07.2",
+   "sub": "Посмотрите, что стоит перед глаголом. Вариант a: один блок, фраза верна. Вариант b: время и подлежащее, глагол оказался третьим. Вариант c: время и место, два блока сразу. Исправлять фразы не нужно.",
+   "items": [
+    {
+     "s": "Heute ich telefoniere. — ___",
+     "ru": "",
+     "o": [
+      "один блок перед глаголом",
+      "время и подлежащее перед глаголом",
+      "время и место перед глаголом"
+     ],
+     "a": "время и подлежащее перед глаголом",
+     "n": "<b>Heute</b> заняло первое место; нужно <b>Heute telefoniere ich.</b>"
+    },
+    {
+     "s": "Paul und ich kochen. — ___",
+     "ru": "",
+     "o": [
+      "один блок перед глаголом",
+      "время и подлежащее перед глаголом",
+      "время и место перед глаголом"
+     ],
+     "a": "один блок перед глаголом",
+     "n": "<b>Paul und ich</b> целиком отвечает на вопрос «кто?»."
+    },
+    {
+     "s": "Am Sonntag in Bonn schwimmen wir. — ___",
+     "ru": "",
+     "o": [
+      "один блок перед глаголом",
+      "время и подлежащее перед глаголом",
+      "время и место перед глаголом"
+     ],
+     "a": "время и место перед глаголом",
+     "n": "Время и место — два блока; верно <b>Am Sonntag schwimmen wir in Bonn.</b> или <b>In Bonn schwimmen wir am Sonntag.</b>"
+    },
+    {
+     "s": "Heute hier lernen wir. — ___",
+     "ru": "",
+     "o": [
+      "один блок перед глаголом",
+      "время и подлежащее перед глаголом",
+      "время и место перед глаголом"
+     ],
+     "a": "время и место перед глаголом",
+     "n": "Перед глаголом оставляем один блок: <b>Heute lernen wir hier.</b> или <b>Hier lernen wir heute.</b>"
+    },
+    {
+     "s": "Heute es regnet. — ___",
+     "ru": "",
+     "o": [
+      "один блок перед глаголом",
+      "время и подлежащее перед глаголом",
+      "время и место перед глаголом"
+     ],
+     "a": "время и подлежащее перед глаголом",
+     "n": "Личная форма должна следовать за временем: <b>Heute regnet es.</b>"
+    },
+    {
+     "s": "Am Freitag um acht telefoniere ich. — ___",
+     "ru": "",
+     "o": [
+      "один блок перед глаголом",
+      "время и подлежащее перед глаголом",
+      "время и место перед глаголом"
+     ],
+     "a": "один блок перед глаголом",
+     "n": "День и уточняющий час образуют единый блок времени."
+    },
+    {
+     "s": "Den Zug um zehn nimmst du. — ___",
+     "ru": "",
+     "o": [
+      "один блок перед глаголом",
+      "время и подлежащее перед глаголом",
+      "время и место перед глаголом"
+     ],
+     "a": "один блок перед глаголом",
+     "n": "<b>Um zehn</b> уточняет поезд внутри одного дополнения."
+    },
+    {
+     "s": "Am Abend draußen essen wir. — ___",
+     "ru": "",
+     "o": [
+      "один блок перед глаголом",
+      "время и подлежащее перед глаголом",
+      "время и место перед глаголом"
+     ],
+     "a": "время и место перед глаголом",
+     "n": "Верно <b>Am Abend essen wir draußen.</b> или <b>Draußen essen wir am Abend.</b>: второй блок уходит за глагол."
+    },
+    {
+     "s": "Am Dienstag ich arbeite. — ___",
+     "ru": "",
+     "o": [
+      "один блок перед глаголом",
+      "время и подлежащее перед глаголом",
+      "время и место перед глаголом"
+     ],
+     "a": "время и подлежащее перед глаголом",
+     "n": "Время уже заняло начало: <b>Am Dienstag arbeite ich.</b>"
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 07.3",
+   "sub": "В пунктах 1–5 задайте обычный вопрос «да/нет». В пунктах 6–10 спросите о выделенном жирным блоке. Сохраняйте лицо и остальные слова; подлежащее ставьте сразу после глагола.",
+   "items": [
+    {
+     "ru": "Du brauchst ein Doppelzimmer.",
+     "w": [
+      "Brauchst",
+      "du",
+      "ein",
+      "Doppelzimmer?"
+     ],
+     "ok": [
+      "Brauchst du ein Doppelzimmer?"
+     ],
+     "n": "Личная форма <b>brauchst</b> начинает вопрос, <b>du</b> идёт следом."
+    },
+    {
+     "ru": "Ihr kennt das Dorf.",
+     "w": [
+      "Kennt",
+      "ihr",
+      "das",
+      "Dorf?"
+     ],
+     "ok": [
+      "Kennt ihr das Dorf?"
+     ],
+     "n": "Место меняется, окончание для <b>ihr</b> остаётся."
+    },
+    {
+     "ru": "Am Donnerstag telefoniert Alina.",
+     "w": [
+      "Telefoniert",
+      "Alina",
+      "am",
+      "Donnerstag?"
+     ],
+     "ok": [
+      "Telefoniert Alina am Donnerstag?"
+     ],
+     "n": "Время уходит за подлежащее, глагол начинает вопрос."
+    },
+    {
+     "ru": "Morgen besichtigen wir das Hotel.",
+     "w": [
+      "Besichtigen",
+      "wir",
+      "morgen",
+      "das",
+      "Hotel?"
+     ],
+     "ok": [
+      "Besichtigen wir morgen das Hotel?"
+     ],
+     "n": "Глагол и подлежащее идут первыми; время допустимо и после дополнения."
+    },
+    {
+     "ru": "Sie haben einen Plan. (Sie)",
+     "w": [
+      "Haben",
+      "Sie",
+      "einen",
+      "Plan?"
+     ],
+     "ok": [
+      "Haben Sie einen Plan?"
+     ],
+     "n": "Вежливое <b>Sie</b> сохраняет заглавную букву после глагола."
+    },
+    {
+     "ru": "Paul telefoniert mit Jonas.",
+     "w": [
+      "Mit",
+      "wem",
+      "telefoniert",
+      "Paul?"
+     ],
+     "ok": [
+      "Mit wem telefoniert Paul?"
+     ],
+     "n": "Весь блок <b>mit wem</b> остаётся перед глаголом."
+    },
+    {
+     "ru": "Die Fahrkarte ist für Alina.",
+     "w": [
+      "Für",
+      "wen",
+      "ist",
+      "die",
+      "Fahrkarte?"
+     ],
+     "ok": [
+      "Für wen ist die Fahrkarte?"
+     ],
+     "n": "Предлог <b>für</b> стоит рядом с винительным <b>wen</b>."
+    },
+    {
+     "ru": "Der Zug kommt um vierzehn Uhr.",
+     "w": [
+      "Um",
+      "wie",
+      "viel",
+      "Uhr",
+      "kommt",
+      "der",
+      "Zug?"
+     ],
+     "ok": [
+      "Um wie viel Uhr kommt der Zug?"
+     ],
+     "n": "Можно спросить о часе точно или взять более общее <b>wann</b>."
+    },
+    {
+     "ru": "Du brauchst einen Computer. Используйте was für.",
+     "w": [
+      "Was",
+      "für",
+      "einen",
+      "Computer",
+      "brauchst",
+      "du?"
+     ],
+     "ok": [
+      "Was für einen Computer brauchst du?"
+     ],
+     "n": "Компьютер служит прямым дополнением при <b>brauchen</b>, поэтому <b>einen</b>; второй, разорванный вариант разговорный."
+    },
+    {
+     "ru": "Ihr fahrt nach Hamburg.",
+     "w": [
+      "Wohin",
+      "fahrt",
+      "ihr?"
+     ],
+     "ok": [
+      "Wohin fahrt ihr?"
+     ],
+     "n": "Спрашиваем направление; второй вариант разговорный."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 07.4",
+   "scene": "Am Telefon",
+   "cap": "Йонас зовёт Алину на экскурсию",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Через неделю Йонас звонит Алине: в воскресенье в старом городе Кёльна будет экскурсия.",
+   "audio": {
+    "id": "book-07-4",
+    "n": 2,
+    "dur": 37.15,
+    "t": [
+     [
+      0.8,
+      6.56
+     ],
+     [
+      6.56,
+      9.6
+     ],
+     [
+      9.6,
+      11.04
+     ],
+     [
+      11.04,
+      14.08
+     ],
+     [
+      14.08,
+      17.44
+     ],
+     [
+      17.44,
+      20.8
+     ],
+     [
+      20.8,
+      22.4
+     ],
+     [
+      22.4,
+      25.6
+     ],
+     [
+      25.6,
+      26.56
+     ],
+     [
+      26.56,
+      29.12
+     ],
+     [
+      29.12,
+      31.12
+     ],
+     [
+      31.12,
+      35.2
+     ],
+     [
+      35.2,
+      37.12
+     ]
+    ]
+   },
+   "speakers": {
+    "Jonas": "Германия",
+    "Alina": "Швейцария"
+   },
+   "lines": [
+    {
+     "who": "Jonas",
+     "de": "Hallo, Alina! Hier ist Jonas. Am Sonntag gibt es eine Führung. Kommst du?",
+     "ru": "Привет, Алина! Это Йонас. В воскресенье будет экскурсия. Придёшь?"
+    },
+    {
+     "who": "Alina",
+     "de": "Am Sonntag? Hm…",
+     "ru": "В воскресенье? Хм…"
+    },
+    {
+     "who": "Jonas",
+     "de": "Hast du am Sonntag keine Zeit?",
+     "ru": "У тебя в воскресенье нет времени?"
+    },
+    {
+     "who": "Alina",
+     "de": "Doch, ich habe Zeit! Wann ist die Führung?",
+     "ru": "Есть, у меня есть время! Когда экскурсия?"
+    },
+    {
+     "who": "Jonas",
+     "de": "Um zwölf. Ich treffe dich um halb zwölf, ne?",
+     "ru": "В двенадцать. Встречу тебя в половине двенадцатого, ладно?"
+    },
+    {
+     "who": "Alina",
+     "de": "Gut. Mit wem gehen wir?",
+     "ru": "Хорошо. С кем мы идём?"
+    },
+    {
+     "who": "Jonas",
+     "de": "Mit Paul.",
+     "ru": "С Паулем."
+    },
+    {
+     "who": "Alina",
+     "de": "Super! Wie viel kostet der Eintritt?",
+     "ru": "Супер! Сколько стоит вход?"
+    },
+    {
+     "who": "Jonas",
+     "de": "Acht Euro.",
+     "ru": "Восемь евро."
+    },
+    {
+     "who": "Alina",
+     "de": "Und wie ist das Wetter am Sonntag?",
+     "ru": "А какая погода в воскресенье?"
+    },
+    {
+     "who": "Jonas",
+     "de": "Am Sonntag scheint die Sonne.",
+     "ru": "В воскресенье светит солнце."
+    },
+    {
+     "who": "Alina",
+     "de": "Schön! Dann komme ich. Tschüss, Jonas!",
+     "ru": "Здорово! Тогда приду. Пока, Йонас!"
+    },
+    {
+     "who": "Jonas",
+     "de": "Tschüss!",
+     "ru": "Пока!"
+    }
+   ],
+   "gloss": {
+    "führung": "экскурсия с гидом (die Führung)",
+    "treffe": "встречу (treffen)",
+    "eintritt": "вход, плата за вход (der Eintritt)",
+    "scheint": "светит (scheinen)",
+    "ne": "разг. да? ладно?"
+   },
+   "items": [
+    {
+     "q": "Что Йонас предлагает на воскресенье?",
+     "o": [
+      "eine Führung",
+      "ein Konzert",
+      "ein Picknick"
+     ],
+     "a": "eine Führung",
+     "n": "Am Sonntag gibt es <b>eine Führung</b>. Это экскурсия с гидом.",
+     "k": 0
+    },
+    {
+     "q": "Во сколько Йонас встретит Алину?",
+     "o": [
+      "11:30",
+      "12:30",
+      "12:00"
+     ],
+     "a": "11:30",
+     "n": "Ich treffe dich um <b>halb zwölf</b>. <b>Halb zwölf</b> означает 11:30, а не 12:30. Сама экскурсия начинается в двенадцать.",
+     "k": 4
+    },
+    {
+     "q": "С кем ещё они идут?",
+     "o": [
+      "Paul",
+      "Lea",
+      "Frau Schmitz"
+     ],
+     "a": "Paul",
+     "n": "<b>Mit Paul</b>. На вопрос <b>Mit wem gehen wir?</b> Йонас отвечает <b>Mit Paul</b>.",
+     "k": 6
+    },
+    {
+     "q": "Сколько евро стоит вход?",
+     "o": [
+      "8",
+      "18",
+      "80"
+     ],
+     "a": "8",
+     "n": "<b>Acht Euro</b>. В записи звучит <b>acht Euro</b>.",
+     "k": 8
+    },
+    {
+     "q": "Какая погода будет в воскресенье?",
+     "o": [
+      "die Sonne",
+      "der Regen",
+      "der Wind"
+     ],
+     "a": "die Sonne",
+     "n": "scheint <b>die Sonne</b>. <b>Am Sonntag scheint die Sonne.</b>",
+     "k": 10
+    },
+    {
+     "q": "Как Алина отвечает на отрицательный вопрос Йонаса?",
+     "o": [
+      "Doch",
+      "Ja",
+      "Nein"
+     ],
+     "a": "Doch",
+     "n": "<b>Doch</b>, ich habe Zeit. Время у неё есть: <b>Doch, ich habe Zeit!</b> опровергает отрицание.",
+     "k": 3
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 07.4",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 07.5",
+   "sub": "Вставьте Ja, Nein или Doch. Положительный ответ обозначайте Ja, подтверждение отрицания Nein, возражение отрицанию Doch. Продолжение реплики показывает, что происходит на самом деле.",
+   "items": [
+    {
+     "s": "Hast du kein Einzelzimmer? — ___, ich habe ein Einzelzimmer.",
+     "ru": "",
+     "a": [
+      "Doch"
+     ],
+     "hint": "",
+     "n": "Номер есть: ответ опровергает отрицание."
+    },
+    {
+     "s": "Kauft ihr den Kuchen? — ___, wir kaufen den Kuchen.",
+     "ru": "",
+     "a": [
+      "Ja"
+     ],
+     "hint": "",
+     "n": "Вопрос без отрицания, ответ утвердительный."
+    },
+    {
+     "s": "Schwimmst du nicht? — ___, ich schwimme nicht.",
+     "ru": "",
+     "a": [
+      "Nein"
+     ],
+     "hint": "",
+     "n": "Ответ подтверждает, что человек не плавает."
+    },
+    {
+     "s": "Du kennst das Hotel nicht. — ___, ich kenne das Hotel nicht.",
+     "ru": "",
+     "a": [
+      "Nein"
+     ],
+     "hint": "",
+     "n": "Отрицательное утверждение подтверждено."
+    },
+    {
+     "s": "Haben Sie Zeit? — ___, ich habe Zeit.",
+     "ru": "",
+     "a": [
+      "Ja"
+     ],
+     "hint": "",
+     "n": "Вопрос без отрицания, ответ утвердительный."
+    },
+    {
+     "s": "Du hast keinen Plan. — ___, ich habe einen Plan.",
+     "ru": "",
+     "a": [
+      "Doch"
+     ],
+     "hint": "",
+     "n": "Говорящий возражает отрицательному утверждению."
+    },
+    {
+     "s": "Kommt Alina nicht? — ___, sie kommt.",
+     "ru": "",
+     "a": [
+      "Doch"
+     ],
+     "hint": "",
+     "n": "Алина придёт, поэтому отрицательное предположение неверно."
+    },
+    {
+     "s": "Bleibst du hier? — ___, ich bleibe hier.",
+     "ru": "",
+     "a": [
+      "Ja"
+     ],
+     "hint": "",
+     "n": "Подтверждается вопрос без отрицания."
+    },
+    {
+     "s": "Habt ihr kein Telefon? — ___, wir haben kein Telefon.",
+     "ru": "",
+     "a": [
+      "Nein"
+     ],
+     "hint": "",
+     "n": "Телефона нет: ответ сохраняет отрицание."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 07.6",
+   "sub": "Используйте календарь как повод для сообщения другу на «ты». Выберите день и напишите ровно шесть предложений; детали можно добавить свои. Рисунки в книге: Суббота · Бонн; Воскресенье · Кёльн; Пауль; второй участник.",
+   "items": [
+    {
+     "q": "Используйте календарь как повод для сообщения другу на «ты». Выберите день и напишите ровно шесть предложений; детали можно добавить свои. Рисунки в книге: Суббота · Бонн; Воскресенье · Кёльн; Пауль; второй участник.",
+     "hint": "Предложите план в трёх утверждениях и начните каждое не с подлежащего; в одном используйте подлежащее «имя + и я». Добавьте вопрос «да/нет», вопрос с предлогом впереди и отрицательный вопрос, на который друг мог бы возразить словом doch.",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Am Samstag fahren Paul und ich nach Bonn. Dort scheint die Sonne. Am Nachmittag wandern wir. Kommst du? Oder hast du am Samstag keine Zeit? Und mit wem kommst du?"
+     ],
+     "check": [
+      "Шесть предложений; первые три начинаются со времени или места. В первом общее подлежащее Paul und ich. Четвёртое — вопрос «да/нет», пятое — отрицательный вопрос, на который друг может ответить Doch!, шестое ставит mit wem впереди (und и oder стоят до счёта). Другие планы верны, если выполнены эти условия."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}
