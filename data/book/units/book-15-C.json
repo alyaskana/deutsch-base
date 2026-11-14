@@ -1,0 +1,105 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 15",
+ "sub": "Пять заданий в конце урока 15: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 15,
+  "s": "15.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 15.C",
+   "sub": "Ответьте без таблиц; формы в каждом пункте записывайте по порядку.",
+   "items": [
+    {
+     "s": "Die Kinder gehen in ___ Schule. Jetzt sind die Kinder in … Schule.",
+     "ru": "Вставьте определённые артикли",
+     "a": [
+      "die"
+     ],
+     "hint": "",
+     "n": "Сначала школа служит целью с <b>Akkusativ</b>, потом местом с <b>Dativ</b>."
+    },
+    {
+     "s": "Die Kinder gehen in die Schule. Jetzt sind die Kinder in ___ Schule.",
+     "ru": "Вставьте определённые артикли",
+     "a": [
+      "der"
+     ],
+     "hint": "",
+     "n": "Сначала школа служит целью с <b>Akkusativ</b>, потом местом с <b>Dativ</b>."
+    },
+    {
+     "s": "Lea ist um zehn ___ Büro angekommen.",
+     "ru": "Вставьте предлог in вместе с артиклем",
+     "a": [
+      "im",
+      "in dem"
+     ],
+     "hint": "",
+     "n": "С <b>ankommen in</b> нужен <b>Dativ</b>, хотя по-русски говорим «пришла в офис»."
+    },
+    {
+     "s": "Paul ___ die Flasche neben den Teller. Jetzt … die Flasche neben dem Teller.",
+     "ru": "Выберите stellen или stehen в нужной форме",
+     "a": [
+      "stellt"
+     ],
+     "hint": "",
+     "n": "Сначала Пауль ставит бутылку, затем бутылка стоит; меняются глагол и падеж места."
+    },
+    {
+     "s": "Paul stellt die Flasche neben den Teller. Jetzt ___ die Flasche neben dem Teller.",
+     "ru": "Выберите stellen или stehen в нужной форме",
+     "a": [
+      "steht"
+     ],
+     "hint": "",
+     "n": "Сначала Пауль ставит бутылку, затем бутылка стоит; меняются глагол и падеж места."
+    },
+    {
+     "s": "Die Zeitung ___ auf dem Boden. Das Regal … neben der Tür.",
+     "ru": "Выберите steht или liegt",
+     "a": [
+      "liegt"
+     ],
+     "hint": "",
+     "n": "Газета лежит плашмя; стеллаж стоит в обычном вертикальном положении."
+    },
+    {
+     "s": "Die Zeitung liegt auf dem Boden. Das Regal ___ neben der Tür.",
+     "ru": "Выберите steht или liegt",
+     "a": [
+      "steht"
+     ],
+     "hint": "",
+     "n": "Газета лежит плашмя; стеллаж стоит в обычном вертикальном положении."
+    },
+    {
+     "s": "Die Möbel sind ___. Wir tragen die Kiste ….",
+     "ru": "Выберите oben или nach oben",
+     "a": [
+      "oben"
+     ],
+     "hint": "",
+     "n": "Сначала называем «наверху», затем направление «наверх»."
+    },
+    {
+     "s": "Die Möbel sind oben. Wir tragen die Kiste ___.",
+     "ru": "Выберите oben или nach oben",
+     "a": [
+      "nach oben"
+     ],
+     "hint": "",
+     "n": "Сначала называем «наверху», затем направление «наверх»."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  }
+ ]
+}

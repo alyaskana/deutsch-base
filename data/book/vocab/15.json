@@ -1,0 +1,605 @@
+{
+ "l": 15,
+ "words": [
+  {
+   "de": "der Umzug",
+   "lemma": "Umzug",
+   "art": "der",
+   "pl": "die Umzüge",
+   "forms": "",
+   "ipa": "[ˈʊmˌtsuːk]",
+   "ru": "переезд",
+   "pos": "noun"
+  },
+  {
+   "de": "einziehen",
+   "lemma": "einziehen",
+   "art": "",
+   "pl": "",
+   "forms": "zieht ein, ist eingezogen",
+   "ipa": "[ˈaɪ̯nˌtsiːən]",
+   "ru": "въезжать",
+   "pos": "verb"
+  },
+  {
+   "de": "ausziehen",
+   "lemma": "ausziehen",
+   "art": "",
+   "pl": "",
+   "forms": "zieht aus, ist ausgezogen",
+   "ipa": "[ˈaʊ̯sˌtsiːən]",
+   "ru": "съезжать",
+   "pos": "verb"
+  },
+  {
+   "de": "das Wohnzimmer",
+   "lemma": "Wohnzimmer",
+   "art": "das",
+   "pl": "die Wohnzimmer",
+   "forms": "",
+   "ipa": "[ˈvoːnˌtsɪmɐ]",
+   "ru": "гостиная",
+   "pos": "noun"
+  },
+  {
+   "de": "das Schlafzimmer",
+   "lemma": "Schlafzimmer",
+   "art": "das",
+   "pl": "die Schlafzimmer",
+   "forms": "",
+   "ipa": "[ˈʃlaːfˌtsɪmɐ]",
+   "ru": "спальня",
+   "pos": "noun"
+  },
+  {
+   "de": "der Keller",
+   "lemma": "Keller",
+   "art": "der",
+   "pl": "die Keller",
+   "forms": "",
+   "ipa": "[ˈkɛlɐ]",
+   "ru": "подвал",
+   "pos": "noun"
+  },
+  {
+   "de": "das Erdgeschoss",
+   "lemma": "Erdgeschoss",
+   "art": "das",
+   "pl": "die Erdgeschosse",
+   "forms": "",
+   "ipa": "[ˈeːɐ̯tɡəˌʃɔs]",
+   "ru": "первый этаж",
+   "pos": "noun"
+  },
+  {
+   "de": "das Stockwerk",
+   "lemma": "Stockwerk",
+   "art": "das",
+   "pl": "die Stockwerke",
+   "forms": "",
+   "ipa": "[ˈʃtɔkˌvɛʁk]",
+   "ru": "этаж",
+   "pos": "noun"
+  },
+  {
+   "de": "die Heizung",
+   "lemma": "Heizung",
+   "art": "die",
+   "pl": "die Heizungen",
+   "forms": "",
+   "ipa": "[ˈhaɪ̯tsʊŋ]",
+   "ru": "отопление, батарея",
+   "pos": "noun"
+  },
+  {
+   "de": "die Wand",
+   "lemma": "Wand",
+   "art": "die",
+   "pl": "die Wände",
+   "forms": "",
+   "ipa": "[vant]",
+   "ru": "стена в комнате",
+   "pos": "noun"
+  },
+  {
+   "de": "der Boden",
+   "lemma": "Boden",
+   "art": "der",
+   "pl": "die Böden",
+   "forms": "",
+   "ipa": "[ˈboːdən]",
+   "ru": "пол",
+   "pos": "noun"
+  },
+  {
+   "de": "das Regal",
+   "lemma": "Regal",
+   "art": "das",
+   "pl": "die Regale",
+   "forms": "",
+   "ipa": "[ʁeˈɡaːl]",
+   "ru": "стеллаж, полка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Spiegel",
+   "lemma": "Spiegel",
+   "art": "der",
+   "pl": "die Spiegel",
+   "forms": "",
+   "ipa": "[ˈʃpiːɡəl]",
+   "ru": "зеркало",
+   "pos": "noun"
+  },
+  {
+   "de": "der Teppich",
+   "lemma": "Teppich",
+   "art": "der",
+   "pl": "die Teppiche",
+   "forms": "",
+   "ipa": "[ˈtɛpɪç]",
+   "ru": "ковёр",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kiste",
+   "lemma": "Kiste",
+   "art": "die",
+   "pl": "die Kisten",
+   "forms": "",
+   "ipa": "[ˈkɪstə]",
+   "ru": "ящик, коробка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Poster",
+   "lemma": "Poster",
+   "art": "das",
+   "pl": "die Poster",
+   "forms": "",
+   "ipa": "[ˈpoːstɐ]",
+   "ru": "постер",
+   "pos": "noun"
+  },
+  {
+   "de": "das Geschirr",
+   "lemma": "Geschirr",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ɡəˈʃɪʁ]",
+   "ru": "посуда",
+   "pos": "noun"
+  },
+  {
+   "de": "der Teller",
+   "lemma": "Teller",
+   "art": "der",
+   "pl": "die Teller",
+   "forms": "",
+   "ipa": "[ˈtɛlɐ]",
+   "ru": "тарелка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Tasse",
+   "lemma": "Tasse",
+   "art": "die",
+   "pl": "die Tassen",
+   "forms": "",
+   "ipa": "[ˈtasə]",
+   "ru": "чашка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Topf",
+   "lemma": "Topf",
+   "art": "der",
+   "pl": "die Töpfe",
+   "forms": "",
+   "ipa": "[tɔpf]",
+   "ru": "кастрюля",
+   "pos": "noun"
+  },
+  {
+   "de": "das Messer",
+   "lemma": "Messer",
+   "art": "das",
+   "pl": "die Messer",
+   "forms": "",
+   "ipa": "[ˈmɛsɐ]",
+   "ru": "нож",
+   "pos": "noun"
+  },
+  {
+   "de": "die Gabel",
+   "lemma": "Gabel",
+   "art": "die",
+   "pl": "die Gabeln",
+   "forms": "",
+   "ipa": "[ˈɡaːbəl]",
+   "ru": "вилка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Löffel",
+   "lemma": "Löffel",
+   "art": "der",
+   "pl": "die Löffel",
+   "forms": "",
+   "ipa": "[ˈlœfəl]",
+   "ru": "ложка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Handtuch",
+   "lemma": "Handtuch",
+   "art": "das",
+   "pl": "die Handtücher",
+   "forms": "",
+   "ipa": "[ˈhantˌtuːx]",
+   "ru": "полотенце",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fernseher",
+   "lemma": "Fernseher",
+   "art": "der",
+   "pl": "die Fernseher",
+   "forms": "",
+   "ipa": "[ˈfɛʁnˌzeːɐ]",
+   "ru": "телевизор",
+   "pos": "noun"
+  },
+  {
+   "de": "stehen",
+   "lemma": "stehen",
+   "art": "",
+   "pl": "",
+   "forms": "steht, hat gestanden",
+   "ipa": "[ˈʃteːən]",
+   "ru": "стоять",
+   "pos": "verb"
+  },
+  {
+   "de": "liegen",
+   "lemma": "liegen",
+   "art": "",
+   "pl": "",
+   "forms": "liegt, hat gelegen",
+   "ipa": "[ˈliːɡən]",
+   "ru": "лежать",
+   "pos": "verb"
+  },
+  {
+   "de": "stellen",
+   "lemma": "stellen",
+   "art": "",
+   "pl": "",
+   "forms": "stellt, hat gestellt",
+   "ipa": "[ˈʃtɛlən]",
+   "ru": "ставить",
+   "pos": "verb"
+  },
+  {
+   "de": "legen",
+   "lemma": "legen",
+   "art": "",
+   "pl": "",
+   "forms": "legt, hat gelegt",
+   "ipa": "[ˈleːɡən]",
+   "ru": "класть",
+   "pos": "verb"
+  },
+  {
+   "de": "hängen",
+   "lemma": "hängen",
+   "art": "",
+   "pl": "",
+   "forms": "hängt, hat gehangen / hat gehängt",
+   "ipa": "[ˈhɛŋən]",
+   "ru": "висеть / вешать",
+   "pos": "verb"
+  },
+  {
+   "de": "setzen",
+   "lemma": "setzen",
+   "art": "",
+   "pl": "",
+   "forms": "setzt, hat gesetzt",
+   "ipa": "[ˈzɛtsən]",
+   "ru": "сажать, усаживать",
+   "pos": "verb"
+  },
+  {
+   "de": "stecken",
+   "lemma": "stecken",
+   "art": "",
+   "pl": "",
+   "forms": "steckt, hat gesteckt",
+   "ipa": "[ˈʃtɛkən]",
+   "ru": "вставлять, находиться внутри",
+   "pos": "verb"
+  },
+  {
+   "de": "tragen",
+   "lemma": "tragen",
+   "art": "",
+   "pl": "",
+   "forms": "trägt, hat getragen",
+   "ipa": "[ˈtʁaːɡən]",
+   "ru": "нести, носить",
+   "pos": "verb"
+  },
+  {
+   "de": "aufräumen",
+   "lemma": "aufräumen",
+   "art": "",
+   "pl": "",
+   "forms": "räumt auf, hat aufgeräumt",
+   "ipa": "[ˈaʊ̯fˌʁɔʏ̯mən]",
+   "ru": "убирать, наводить порядок",
+   "pos": "verb"
+  },
+  {
+   "de": "putzen",
+   "lemma": "putzen",
+   "art": "",
+   "pl": "",
+   "forms": "putzt, hat geputzt",
+   "ipa": "[ˈpʊtsən]",
+   "ru": "мыть, чистить",
+   "pos": "verb"
+  },
+  {
+   "de": "renovieren",
+   "lemma": "renovieren",
+   "art": "",
+   "pl": "",
+   "forms": "renoviert, hat renoviert",
+   "ipa": "[ʁenoˈviːʁən]",
+   "ru": "делать ремонт",
+   "pos": "verb"
+  },
+  {
+   "de": "hinter",
+   "lemma": "hinter",
+   "art": "",
+   "pl": "",
+   "forms": "с Dativ или Akkusativ",
+   "ipa": "[ˈhɪntɐ]",
+   "ru": "за, позади",
+   "pos": "prep"
+  },
+  {
+   "de": "neben",
+   "lemma": "neben",
+   "art": "",
+   "pl": "",
+   "forms": "с Dativ или Akkusativ",
+   "ipa": "[ˈneːbən]",
+   "ru": "рядом с",
+   "pos": "prep"
+  },
+  {
+   "de": "drinnen",
+   "lemma": "drinnen",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈdʁɪnən]",
+   "ru": "внутри",
+   "pos": "adv"
+  },
+  {
+   "de": "nebenan",
+   "lemma": "nebenan",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[neːbənˈʔan]",
+   "ru": "по соседству",
+   "pos": "adv"
+  },
+  {
+   "de": "leer",
+   "lemma": "leer",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[leːɐ̯]",
+   "ru": "пустой",
+   "pos": "adj"
+  },
+  {
+   "de": "voll",
+   "lemma": "voll",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fɔl]",
+   "ru": "полный",
+   "pos": "adj"
+  },
+  {
+   "de": "eng",
+   "lemma": "eng",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɛŋ]",
+   "ru": "тесный, узкий",
+   "pos": "adj"
+  },
+  {
+   "de": "bequem",
+   "lemma": "bequem",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bəˈkveːm]",
+   "ru": "удобный",
+   "pos": "adj"
+  },
+  {
+   "de": "sauber",
+   "lemma": "sauber",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈzaʊ̯bɐ]",
+   "ru": "чистый",
+   "pos": "adj"
+  },
+  {
+   "de": "schmutzig",
+   "lemma": "schmutzig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃmʊtsɪç]",
+   "ru": "грязный",
+   "pos": "adj"
+  },
+  {
+   "de": "der Müll",
+   "lemma": "Müll",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[mʏl]",
+   "ru": "мусор",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ruhe",
+   "lemma": "Ruhe",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈʁuːə]",
+   "ru": "тишина, покой",
+   "pos": "noun"
+  },
+  {
+   "de": "rein",
+   "lemma": "rein",
+   "art": "",
+   "pl": "",
+   "forms": "разговорное; herein или hinein",
+   "ipa": "[ʁaɪ̯n]",
+   "ru": "внутрь",
+   "pos": "adv"
+  },
+  {
+   "de": "raus",
+   "lemma": "raus",
+   "art": "",
+   "pl": "",
+   "forms": "разговорное; heraus или hinaus",
+   "ipa": "[ʁaʊ̯s]",
+   "ru": "наружу",
+   "pos": "adv"
+  },
+  {
+   "de": "dahin",
+   "lemma": "dahin",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[daˈhɪn]",
+   "ru": "туда",
+   "pos": "adv"
+  },
+  {
+   "de": "dorthin",
+   "lemma": "dorthin",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[dɔʁtˈhɪn]",
+   "ru": "туда",
+   "pos": "adv"
+  },
+  {
+   "de": "hierher",
+   "lemma": "hierher",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈhiːɐ̯heːɐ̯]",
+   "ru": "сюда",
+   "pos": "adv"
+  },
+  {
+   "de": "hinten",
+   "lemma": "hinten",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈhɪntən]",
+   "ru": "сзади",
+   "pos": "adv"
+  },
+  {
+   "de": "herum",
+   "lemma": "herum",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[hɛˈʁʊm]",
+   "ru": "вокруг, туда-сюда",
+   "pos": "adv"
+  },
+  {
+   "de": "der Flughafen",
+   "lemma": "Flughafen",
+   "art": "der",
+   "pl": "die Flughäfen",
+   "forms": "",
+   "ipa": "[ˈfluːkˌhaːfən]",
+   "ru": "аэропорт",
+   "pos": "noun"
+  },
+  {
+   "de": "der Hauptbahnhof",
+   "lemma": "Hauptbahnhof",
+   "art": "der",
+   "pl": "die Hauptbahnhöfe",
+   "forms": "",
+   "ipa": "[ˈhaʊ̯ptbaːnˌhoːf]",
+   "ru": "главный вокзал",
+   "pos": "noun"
+  },
+  {
+   "de": "der Karton",
+   "lemma": "Karton",
+   "art": "der",
+   "pl": "die Kartons",
+   "forms": "",
+   "ipa": "[kaʁˈtɔŋ]",
+   "ru": "картон; коробка",
+   "pos": "noun"
+  },
+  {
+   "de": "landen",
+   "lemma": "landen",
+   "art": "",
+   "pl": "",
+   "forms": "landet, ist gelandet",
+   "ipa": "[ˈlandən]",
+   "ru": "приземляться",
+   "pos": "verb"
+  },
+  {
+   "de": "der Stöpsel",
+   "lemma": "Stöpsel",
+   "art": "der",
+   "pl": "die Stöpsel",
+   "forms": "",
+   "ipa": "[ˈʃtœpsəl]",
+   "ru": "пробка, затычка",
+   "pos": "noun"
+  }
+ ]
+}
