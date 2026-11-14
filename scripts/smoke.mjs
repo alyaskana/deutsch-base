@@ -517,7 +517,7 @@ if (!only) {
     // ответ пришёл — «Думаю» сменяется ответом (в v126 параметр sayRun затенил глобальный view, и экран не перерисовывался)
     showSay(); S.sample = { json: async () => ({ kind: 'word', de: 'der Hund', ru: 'собака', ex: '' }) };
     sayRun('собака'); await wait(200);
-    if (!/Hund/.test(document.querySelector('.slog')?.textContent || '')) out.push('ответ не появляется на экране, висит «Думаю»');
+    if (!/Hund/.test(document.querySelector('#ashlog, .slog')?.textContent || '')) out.push('ответ не появляется на экране, висит «Думаю»');
     // v127: вопросы о языке тоже в истории, формы глагола под словом, разговор остаётся после перезагрузки
     if (typeof sayLogSeed === 'function') {
       let calls = 0;
@@ -525,7 +525,7 @@ if (!only) {
         ? { kind: 'q', lead: 'kennen — люди, wissen — факты', items: [{ de: 'kennen', ru: 'знать', note: '', ex: [['Ich **kenne** ihn.', 'Я его знаю.']] }], check: '', tasks: [] }
         : { kind: 'word', de: 'gehen', ru: 'идти', f: 'ging · ist gegangen', ex: '' }; } };
       sayRun('прошедшее от gehen'); await wait(200);
-      if (!/ging · ist gegangen/.test(document.querySelector('.slog')?.textContent || '')) out.push('у глагола не показаны прошедшие формы');
+      if (!/ging · ist gegangen/.test(document.querySelector('#ashlog, .slog')?.textContent || '')) out.push('у глагола не показаны прошедшие формы');
       sayRun('разница kennen и wissen'); await wait(200);
       if (!S.progress.ask.some(x => x.kind === 'q' && x.a)) out.push('вопрос о языке не сохранился в истории');
       if (askRepeats().some(x => x.kind === 'q')) out.push('вопрос о языке попал в повторы недели');
@@ -534,6 +534,20 @@ if (!only) {
       const c0 = calls; sayRun('разница kennen и wissen', true); await wait(150);
       if (calls !== c0) out.push('прошлый вопрос из истории спрашивается заново вместо сохранённого ответа');
     }
+    // v143: помощник в шторке — кнопка на главной, новый разговор, закрытие (Алина, 2026-11-14)
+    if (typeof openSay === 'function') {
+      closeSay(); showHome(); await wait(100);
+      const fab = document.getElementById('fab');
+      if (!fab || fab.hidden) out.push('нет кнопки помощника на главной');
+      if (document.getElementById('hq')) out.push('на главной осталось старое поле «Как сказать»');
+      fab && fab.click(); await wait(100);
+      if (!document.querySelector('.ash')) out.push('шторка помощника не открылась');
+      document.getElementById('ashnew')?.click(); await wait(50);
+      if (SAYLOG.length && !document.querySelector('#ashlog .sfirst')) out.push('«Новый» не начинает новый разговор');
+      document.getElementById('ashx')?.click(); await wait(50);
+      if (document.querySelector('.ash') || document.querySelector('.asv')) out.push('шторка не закрывается');
+      if (fab && fab.hidden) out.push('кнопка помощника не вернулась после закрытия');
+    } else out.push('нет openSay');
     return out;
   }).catch(e => ['ошибка теста: ' + e]);
   r.forEach(x => bad('«Как сказать»: ' + x));
