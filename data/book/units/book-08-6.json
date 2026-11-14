@@ -1,7 +1,7 @@
 {
  "title": "Короткие ответы: согласиться или возразить",
  "topic": "Книга · 8.6",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -99,5 +99,69 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Я тоже / а я да",
+   "sub": "Сохраните смысл чужой реплики",
+   "items": [
+    {
+     "s": "Ich trinke keinen Wein. — ___.",
+     "ru": "Я тоже не пью.",
+     "o": [
+      "Ich auch nicht",
+      "Ich auch",
+      "Nein"
+     ],
+     "a": "Ich auch nicht",
+     "n": "Поддерживаем отрицание: <b>Ich auch nicht</b>."
+    },
+    {
+     "s": "Ich trinke keinen Wein. — ___.",
+     "ru": "А я пью.",
+     "o": [
+      "Ich schon",
+      "Doch",
+      "Ich auch"
+     ],
+     "a": "Ich schon",
+     "n": "Противопоставляем свой случай: <b>Ich schon</b>."
+    },
+    {
+     "s": "Ich nehme Tee. — ___.",
+     "ru": "Я тоже.",
+     "o": [
+      "Ich auch",
+      "Ich auch nicht",
+      "Ich schon"
+     ],
+     "a": "Ich auch",
+     "n": "Реплика положительная — отрицание не нужно."
+    },
+    {
+     "s": "Trinkst du keinen Kaffee? — ___.",
+     "ru": "Пью.",
+     "o": [
+      "Doch",
+      "Ich schon",
+      "Ja"
+     ],
+     "a": "Doch",
+     "n": "Возражаем на отрицательный вопрос о себе: <b>Doch</b>."
+    },
+    {
+     "s": "Ich esse auch ___ Fisch.",
+     "ru": "Я тоже не ем рыбу.",
+     "o": [
+      "keinen",
+      "kein"
+     ],
+     "a": "keinen",
+     "n": "der Fisch в Akkusativ: <b>auch keinen Fisch</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

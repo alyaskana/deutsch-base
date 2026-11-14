@@ -1,0 +1,102 @@
+{
+ "id": "book-24-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Herr Brandt",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Guten Tag, Frau Kozyreva, hier spricht Brandt von der Ausländerbehörde. Vielen Dank für Ihren Brief und die Kopie Ihres Passes.",
+   "ru": "Добрый день, госпожа Козырева, говорит Брандт из ведомства по делам иностранцев. Спасибо за ваше письмо и копию паспорта.",
+   "tag": "[Anrufbeantworter]"
+  },
+  {
+   "who": "Herr Brandt",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Es fehlen aber noch zwei Dinge: eine Kopie Ihres Zeugnisses und im Formular das Datum Ihrer Unterschrift.",
+   "ru": "Но не хватает ещё двух вещей: копии вашего свидетельства и даты вашей подписи в анкете."
+  },
+  {
+   "who": "Herr Brandt",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Bitte schicken Sie beides innerhalb von drei Wochen. Ab Montag bin ich wegen eines Kurses zwei Wochen nicht im Büro.",
+   "ru": "Пожалуйста, пришлите и то и другое в течение трёх недель. С понедельника я из-за курса две недели не в офисе."
+  },
+  {
+   "who": "Herr Brandt",
+   "voice": "sbJf8opzqSGRyRJzCVjD",
+   "de": "Rufen Sie dann bitte meinen Kollegen an. Oben auf dem Brief schreiben Sie bitte: Herrn Albers. A, L, B, E, R, S. Vielen Dank und auf Wiederhören!",
+   "ru": "Тогда позвоните, пожалуйста, моему коллеге. Сверху на письме напишите: господину Альберсу. A, L, B, E, R, S. Спасибо и до свидания!"
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 24.5",
+  "scene": "Ausländerbehörde",
+  "cap": "Сообщение господина Брандта",
+  "sub": "Голосовое сообщение господина Брандта из Ausländerbehörde.",
+  "speakers": {
+   "Herr Brandt": "Саксония"
+  },
+  "qs": [
+   [
+    "Ещё нужна копия: eine Kopie ___.",
+    [
+     "Ihres Zeugnisses",
+     "Ihres Passes",
+     "Ihrem Zeugnis"
+    ],
+    "eine Kopie <b>Ihres Zeugnisses</b>",
+    "Паспорт уже есть; Genitiv: Zeugnis → Zeugnisses."
+   ],
+   [
+    "В анкете не хватает: das Datum ___.",
+    [
+     "Ihrer Unterschrift",
+     "Ihre Unterschrift",
+     "Ihres Unterschrifts"
+    ],
+    "das Datum <b>Ihrer Unterschrift</b>",
+    "Женский род в Genitiv: <b>Ihrer</b>."
+   ],
+   [
+    "Срок: innerhalb von ___.",
+    [
+     "drei Wochen",
+     "zwei Wochen",
+     "drei Tagen"
+    ],
+    "<b>innerhalb von drei Wochen</b>",
+    "Без артикля — von + Dativ."
+   ],
+   [
+    "Ab Montag ist er wegen ___ nicht im Büro.",
+    [
+     "eines Kurses",
+     "einem Kurs",
+     "eines Kurs"
+    ],
+    "<b>wegen eines Kurses</b>",
+    "wegen + Genitiv."
+   ],
+   [
+    "Rufen Sie dann bitte ___ an.",
+    [
+     "meinen Kollegen",
+     "meinem Kollegen",
+     "meinen Kollege"
+    ],
+    "Rufen Sie dann bitte <b>meinen Kollegen</b> an",
+    "anrufen + Akkusativ; слабое Kollege → -n."
+   ],
+   [
+    "Адресная строка: ___ Albers.",
+    [
+     "Herrn",
+     "Herr",
+     "Herren"
+    ],
+    "<b>Herrn</b> Albers",
+    "На письме мужчине — <b>Herrn</b>."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,222 @@
+{
+ "title": "Покупки в коротких репликах: слово исчезло, окончание осталось",
+ "topic": "Книга · 19.7",
+ "sub": "Теория по книге и короткие задания по разделу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 19,
+  "s": "19.7",
+  "th": [
+   {
+    "k": "p",
+    "x": "Вернёмся к ответу Алины: <b>Einen langen, dunklen</b> (длинное, тёмное). Уже названное <b>Mantel</b> можно пропустить, а окончания прилагательных остаются на месте."
+   },
+   {
+    "k": "p",
+    "x": "Так же выбирают платье: <b>Welches Kleid?</b> (какое платье?). Ответ: <b>Das blaue, bitte</b> (синее, пожалуйста). Существительное понятно из разговора, поэтому <b>blaue</b> пишем со строчной."
+   },
+   {
+    "k": "p",
+    "x": "После <b>ein</b> получится <b>Ich nehme ein blaues.</b> (Я возьму синее.) Здесь подразумевается платье. Без окончания <b>-es</b> ответ потеряет правильную форму."
+   },
+   {
+    "k": "p",
+    "x": "Если перед существительным стоят два прилагательных, окончание получает каждое. В <b>einen langen, dunklen Mantel</b> (длинное тёмное пальто) оба имеют <b>-en</b>. В <b>warme, bequeme Stiefel</b> (тёплые удобные сапоги) оба имеют <b>-e</b>."
+   },
+   {
+    "k": "p",
+    "x": "Хоть два прилагательных, хоть три: клетка таблицы у них одна, и окончание тоже одно. Но не считайте любую цепочку слов перечислением: <b>eine sehr warme Jacke</b> (очень тёплая куртка). Слово <b>sehr</b> усиливает признак и не склоняется."
+   },
+   {
+    "k": "h",
+    "x": "Основа: куда делась буква <b>e</b>"
+   },
+   {
+    "k": "p",
+    "x": "У <b>dunkel</b> (тёмный) перед окончанием исчезает <b>e</b> из последнего слога: <b>dunkle</b>, <b>dunklen</b>. Поэтому ответ Алины содержит <b>dunklen</b>, а не <s>*dunkelen</s>."
+   },
+   {
+    "k": "p",
+    "x": "Так ведут себя прилагательные на безударное <b>-el</b>. У <b>teuer</b> (дорогой) и <b>sauer</b> (кислый) обычно тоже убирают <b>e</b>: <b>ein teurer Rock</b> (дорогая юбка), <b>saure Milch</b> (кислое молоко)."
+   },
+   {
+    "k": "p",
+    "x": "Полная форма <b>teuere</b> тоже встречается, но реже. У других прилагательных на <b>-er</b> буква остаётся: <b>sauber</b> (чистый) даёт <b>ein sauberer Tisch</b> (чистый стол)."
+   },
+   {
+    "k": "p",
+    "x": "У <b>hoch</b> (высокий) основа меняется на <b>hoh-</b>: <b>hohe Stiefel</b> (высокие сапоги). Окончание выбираем как обычно, меняется только часть перед ним."
+   },
+   {
+    "k": "h",
+    "x": "Слова, которым окончание не добавляют"
+   },
+   {
+    "k": "p",
+    "x": "Значит, перед существительным окончание бывает всегда? У изменяемых прилагательных да. Но есть слова, которые остаются в одной форме: <b>lila</b> (лиловый), <b>rosa</b> (розовый), <b>prima</b>, <b>super</b>, <b>klasse</b> (отличный)."
+   },
+   {
+    "k": "p",
+    "x": "Сравните <b>eine rosa Bluse</b> (розовая блузка) и <b>eine rote Bluse</b> (красная блузка). Место одинаковое, но <b>rosa</b> не получает окончания. Слова оценки <b>prima</b>, <b>super</b>, <b>klasse</b> характерны для разговорной речи."
+   },
+   {
+    "k": "p",
+    "x": "Не меняются и слова от названий городов на <b>-er</b>. Они пишутся с заглавной: <b>die Kölner Straßenbahn</b> (кёльнский трамвай), <b>im Berliner Büro</b> (в берлинском офисе). Их конечное <b>-er</b> уже часть слова."
+   },
+   {
+    "k": "box",
+    "c": "trap",
+    "t": "Ловушка для русскоговорящих",
+    "x": [
+     "У русских «брюк», «очков» и «ножниц» нет обычной формы единственного числа. В немецком есть <b>die Hose</b>, <b>die Brille</b>, <b>die Schere</b>. Одни очки: <b>eine neue Brille</b>; несколько пар очков: <b>neue Brillen</b>.",
+     "У <b>die Jeans</b> возможны единственное и множественное число. Про одни джинсы удобно сказать <b>eine neue Jeans</b>. Вариант <b>neue Jeans</b> без контекста не сообщает однозначно число пар."
+    ]
+   },
+   {
+    "k": "img",
+    "src": "data:image/png;base64,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",
+    "alt": "Две строки: «брюки», рисунок одних брюк, eine Hose; «очки», рисунок одних очков, eine Brille. Слева русское множественное число, справа немецкое единственное."
+   },
+   {
+    "k": "h",
+    "x": "Для узнавания: ещё несколько слов"
+   },
+   {
+    "k": "p",
+    "x": "Эти слова встретятся в текстах, а в заданиях урока их нет."
+   },
+   {
+    "k": "p",
+    "x": "После <b>jener</b> (тот) и <b>mancher</b> (некоторый) окончания те же, что после <b>dieser</b>. С <b>beide</b> (оба) встречаются <b>beide neuen</b> и <b>beide neue</b>; первый вариант распространённее."
+   },
+   {
+    "k": "p",
+    "x": "Без артикля <b>solcher</b> (такой) сам склоняется как <b>dieser</b>: <b>solche Fragen</b> (такие вопросы). В разговоре чаще говорят <b>so ein</b>: <b>so eine Frage</b> (такой вопрос). А после <b>sämtliche</b> (все без исключения) прилагательное обычно получает <b>-en</b>, как после <b>alle</b>: <b>sämtliche neuen Mäntel</b> (все новые пальто, до одного)."
+   },
+   {
+    "k": "p",
+    "x": "После <b>etwas</b>, <b>viel</b>, <b>wenig</b> с названием вещества окончание сильное: <b>mit viel frischem Obst</b> (с большим количеством свежих фруктов). У <b>Obst</b> средний род, <b>mit</b> даёт <b>Dativ</b>, отсюда <b>-em</b>."
+   },
+   {
+    "k": "p",
+    "x": "Цвета <b>orange</b> (оранжевый) и <b>beige</b> (бежевый) по норме не меняются, но в разговоре их часто склоняют: <b>ein oranges Kleid</b>. Надёжный выход даёт <b>orangefarben</b>: <b>ein orangefarbenes Kleid</b> (оранжевое платье)."
+   },
+   {
+    "k": "p",
+    "x": "Остался случай, когда прилагательное само становится названием человека или чего-то неизвестного."
+   }
+  ],
+  "extra": [
+   {
+    "k": "box",
+    "c": "en",
+    "t": "Если вы знаете английский",
+    "x": [
+     "В английском прилагательные не меняются по роду, числу и падежу. Выбор <i>a</i> или <i>the</i> помогает заметить различие между немецкими <b>ein</b> и <b>der</b>, но немецкое окончание проверяйте отдельно.",
+     "Английскому <i>the blue one</i> при выборе платья соответствует <b>das blaue</b> (синее). Дополнительное слово со значением «один» не нужно: <s>*das blaue eine</s> здесь неверно."
+    ]
+   },
+   {
+    "k": "box",
+    "c": "dach",
+    "t": "Австрия и Швейцария",
+    "x": [
+     "Та же городская форма встречается в <b>im Wiener Kaffeehaus</b> (в венской кофейне), <b>die Grazer Altstadt</b> (старый город Граца). Для Цюриха в Швейцарии говорят <b>Zürcher</b>, без <b>i</b>: <b>am Zürcher Bahnhof</b> (на цюрихском вокзале).",
+     "В Австрии вязаную зимнюю шапку называют <b>die Haube</b>, футболку в разговоре <b>das Leiberl</b>. Слово <b>das Gilet</b> в Австрии и Швейцарии означает жилет. Пиджак и в Германии называют <b>das Sakko</b>, но в Австрии ударение падает на последний слог.",
+     "Карман брюк в этих странах могут назвать <b>der Hosensack</b>, в Австрии пакет называют <b>das Sackerl</b>. Швейцарское <b>der Jupe</b> означает юбку, а <b>die Finken</b> означает домашние тапочки. Именно слово <b>Jupe</b> произнесла Леа."
+    ]
+   },
+   {
+    "k": "box",
+    "c": "false",
+    "t": "Ложные друзья",
+    "x": [
+     "Услышав <b>der Rock</b>, русскоговорящий вспоминает рок-музыку. В отделе одежды это юбка, множественное число <b>die Röcke</b>. Музыкальный рок по-немецки тоже <b>der Rock</b>, но в этом значении множественного числа нет.",
+     "<b>Das Kostüm</b> может означать женский костюм с юбкой или карнавальный костюм. Мужской костюм называется <b>der Anzug</b>.",
+     "<b>Der Mantel</b> в нашем разговоре значит «пальто». Русскую «мантию» не переводите по созвучию: для судейской или академической одежды нужны, например, <b>die Robe</b> или <b>der Talar</b>."
+    ]
+   },
+   {
+    "k": "box",
+    "c": "loan",
+    "t": "Немецкий в русском",
+    "x": [
+     "Русские «бакенбарды» восходят к <b>Backenbart</b>, «бюстгальтер» к <b>Büstenhalter</b>, а «штиблеты» к <b>Stiefeletten</b>.",
+     "<b>Stiefeletten</b> называют короткие сапожки; слово связано с <b>Stiefel</b> (сапог). Сегодня русские «штиблеты» могут обозначать другую обувь."
+    ]
+   }
+  ]
+ },
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Короткие реплики",
+   "sub": "Слово пропало, окончание осталось",
+   "items": [
+    {
+     "s": "Welches Kleid? — Das ___, bitte.",
+     "ru": "Какое платье? — Синее, пожалуйста.",
+     "o": [
+      "blaue",
+      "blau"
+     ],
+     "a": "blaue",
+     "n": "Окончание остаётся: <b>das blaue</b>."
+    },
+    {
+     "s": "Ich nehme ein ___.",
+     "ru": "Я возьму синее. (платье)",
+     "o": [
+      "blaues",
+      "blaue"
+     ],
+     "a": "blaues",
+     "n": "<b>ein blaues</b>."
+    },
+    {
+     "s": "Einen langen, ___ Mantel.",
+     "ru": "Длинное тёмное пальто.",
+     "o": [
+      "dunklen",
+      "dunkelen"
+     ],
+     "a": "dunklen",
+     "n": "У dunkel пропадает e: <b>dunklen</b>."
+    },
+    {
+     "s": "Das ist ein ___ Rock.",
+     "ru": "Это дорогая юбка.",
+     "o": [
+      "teurer",
+      "teuerer"
+     ],
+     "a": "teurer",
+     "n": "Обычно <b>teurer</b>."
+    },
+    {
+     "s": "Sie trägt ___ Stiefel.",
+     "ru": "На ней высокие сапоги.",
+     "o": [
+      "hohe",
+      "hoche"
+     ],
+     "a": "hohe",
+     "n": "hoch → <b>hoh-</b>."
+    },
+    {
+     "s": "Sie trägt eine ___ Bluse.",
+     "ru": "На ней розовая блузка.",
+     "o": [
+      "rosa",
+      "rosae"
+     ],
+     "a": "rosa",
+     "n": "rosa не изменяется."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
+}

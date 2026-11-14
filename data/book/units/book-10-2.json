@@ -1,7 +1,7 @@
 {
  "title": "Ударение: приставку сначала слушаем",
  "topic": "Книга · 10.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -81,5 +81,95 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Отделяется или нет",
+   "sub": "Ударная приставка уходит, безударная остаётся",
+   "items": [
+    {
+     "s": "Alina ___ das Wort.",
+     "ru": "Алина понимает слово.",
+     "o": [
+      "versteht",
+      "steht ver"
+     ],
+     "a": "versteht",
+     "n": "<b>ver-</b> безударная, глагол целый."
+    },
+    {
+     "s": "Alina ___.",
+     "ru": "Алина сейчас встаёт.",
+     "o": [
+      "steht jetzt auf",
+      "aufsteht jetzt"
+     ],
+     "a": "steht jetzt auf",
+     "n": "<b>auf-</b> ударная и уходит в конец."
+    },
+    {
+     "s": "Jonas ___ die Aufgabe.",
+     "ru": "Йонас объясняет задание.",
+     "o": [
+      "erklärt",
+      "klärt er"
+     ],
+     "a": "erklärt",
+     "n": "<b>er-</b> неотделяемая."
+    },
+    {
+     "s": "Ich ___ jetzt.",
+     "ru": "Я сейчас плачу.",
+     "o": [
+      "bezahle",
+      "zahle be"
+     ],
+     "a": "bezahle",
+     "n": "<b>be-</b> неотделяемая."
+    },
+    {
+     "s": "Frau Schmitz ___.",
+     "ru": "Фрау Шмитц смотрит телевизор.",
+     "o": [
+      "sieht fern",
+      "fernsieht"
+     ],
+     "a": "sieht fern",
+     "n": "<b>fern-</b> тоже уходит в конец."
+    },
+    {
+     "s": "Die Verkäuferin ___ Brot.",
+     "ru": "Продавщица продаёт хлеб.",
+     "o": [
+      "verkauft",
+      "kauft ver"
+     ],
+     "a": "verkauft",
+     "n": "<b>ver-</b> остаётся с основой."
+    },
+    {
+     "s": "Wir ___ Ihnen den Fisch.",
+     "ru": "Мы рекомендуем вам рыбу.",
+     "o": [
+      "empfehlen",
+      "fehlen emp"
+     ],
+     "a": "empfehlen",
+     "n": "<b>emp-</b> неотделяемая."
+    },
+    {
+     "s": "Das Konzert ___.",
+     "ru": "Концерт начинается в восемь.",
+     "o": [
+      "fängt um acht an",
+      "anfängt um acht"
+     ],
+     "a": "fängt um acht an",
+     "n": "anfangen → <b>fängt … an</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

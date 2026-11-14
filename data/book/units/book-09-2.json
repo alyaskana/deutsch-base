@@ -1,7 +1,7 @@
 {
  "title": "Рамка: действие ждёт в конце",
  "topic": "Книга · 9.2",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -157,5 +157,111 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Рамка",
+   "sub": "Модальный второй, инфинитив в конце",
+   "items": [
+    {
+     "ru": "Алина может вечером поговорить по телефону.",
+     "w": [
+      "Alina",
+      "kann",
+      "am",
+      "Abend",
+      "telefonieren."
+     ],
+     "ok": [
+      "Alina kann am Abend telefonieren."
+     ],
+     "n": "Не <s>kann telefonieren am Abend</s>: инфинитив в конце."
+    },
+    {
+     "ru": "Завтра Пауль хочет поплавать. (Начни с morgen.)",
+     "w": [
+      "Morgen",
+      "will",
+      "Paul",
+      "schwimmen."
+     ],
+     "ok": [
+      "Morgen will Paul schwimmen."
+     ],
+     "n": "После блока времени — модальный, потом подлежащее."
+    },
+    {
+     "ru": "Пауль хочет завтра поплавать?",
+     "w": [
+      "Will",
+      "Paul",
+      "morgen",
+      "schwimmen?"
+     ],
+     "ok": [
+      "Will Paul morgen schwimmen?"
+     ],
+     "n": "Модальный впереди, инфинитив на месте."
+    },
+    {
+     "ru": "Когда Пауль хочет поплавать?",
+     "w": [
+      "Wann",
+      "will",
+      "Paul",
+      "schwimmen?"
+     ],
+     "ok": [
+      "Wann will Paul schwimmen?"
+     ],
+     "n": "wann первое, модальный второй."
+    },
+    {
+     "ru": "Йонас не может сегодня починить машину.",
+     "w": [
+      "Jonas",
+      "kann",
+      "die",
+      "Maschine",
+      "heute",
+      "nicht",
+      "reparieren."
+     ],
+     "ok": [
+      "Jonas kann die Maschine heute nicht reparieren."
+     ],
+     "n": "<b>nicht</b> прямо перед конечным инфинитивом."
+    },
+    {
+     "ru": "Здесь тебе нельзя курить.",
+     "w": [
+      "Du",
+      "darfst",
+      "hier",
+      "nicht",
+      "rauchen."
+     ],
+     "ok": [
+      "Du darfst hier nicht rauchen."
+     ],
+     "n": "hier перед nicht; <s>nicht hier</s> значило бы «не здесь, а там»."
+    },
+    {
+     "ru": "Мне нужно сегодня работать.",
+     "w": [
+      "Ich",
+      "muss",
+      "heute",
+      "arbeiten."
+     ],
+     "ok": [
+      "Ich muss heute arbeiten."
+     ],
+     "n": "Не <s>Ich muss arbeiten heute</s>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

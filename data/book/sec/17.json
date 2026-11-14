@@ -1,0 +1,69 @@
+{
+"17.1": [
+ {"type":"choice","title":"Кому говорим","sub":"du, ihr, Sie","items":[
+  {"s":"Paul, ___ das Fenster.","ru":"Пауль, открой окно.","o":["öffne","öffnet","öffnen Sie"],"a":"öffne","n":"Одному на ты — <b>öffne</b>."},
+  {"s":"Paul und Lea, ___ das Fenster.","ru":"Пауль и Леа, откройте окно.","o":["öffnet","öffne","öffnen Sie"],"a":"öffnet","n":"Нескольким на ты — <b>öffnet</b>."},
+  {"s":"Herr Dr. Eder, ___ bitte das Fenster.","ru":"Доктор Эдер, откройте, пожалуйста, окно.","o":["öffnen Sie","öffnet","öffne"],"a":"öffnen Sie","n":"Вежливо — <b>öffnen Sie</b>."},
+  {"s":"Kinder, ___ zusammen.","ru":"Дети, ешьте вместе.","o":["esst","iss","essen Sie"],"a":"esst","n":"ihr → <b>esst</b>."},
+  {"s":"Frau Schmitz, ___ bitte.","ru":"Фрау Шмитц, подойдите, пожалуйста.","o":["kommen Sie","komm","kommt"],"a":"kommen Sie","n":"Вежливо — <b>Kommen Sie</b>."}
+ ]}
+],
+"17.2": [
+ {"type":"type","title":"Просьба на ты","sub":"i остаётся, умлаут уходит, du не нужно","items":[
+  {"s":"___ mir das Buch.","ru":"Дай мне книгу.","a":["Gib"],"hint":"geben","n":"du gibst → <b>gib</b>."},
+  {"s":"___ den Text.","ru":"Прочитай текст.","a":["Lies"],"hint":"lesen","n":"du liest → <b>lies</b>."},
+  {"s":"___ den Bus.","ru":"Поезжай на автобусе.","a":["Nimm"],"hint":"nehmen","n":"<b>nimm</b>."},
+  {"s":"___ langsam.","ru":"Езжай медленно.","a":["Fahr"],"hint":"fahren","n":"Умлаут уходит: <b>fahr</b>."},
+  {"s":"___ vor der Tür.","ru":"Подожди у двери.","a":["Warte"],"hint":"warten","n":"После t нужно -e: <b>warte</b>."},
+  {"s":"___ die Heizung an.","ru":"Включи отопление.","a":["Mach"],"hint":"anmachen","n":"Приставка в конце: <b>Mach … an</b>."},
+  {"s":"Beeil ___.","ru":"Поторопись.","a":["dich"],"hint":"sich beeilen","n":"<b>Beeil dich</b>."},
+  {"s":"___ mir!","ru":"Помоги мне!","a":["Hilf"],"hint":"helfen","n":"<b>hilf</b>."}
+ ]}
+],
+"17.3": [
+ {"type":"type","title":"Ihr и Sie","sub":"Форма как в настоящем времени","items":[
+  {"s":"___ die Teller.","ru":"Возьмите тарелки. (вы, друзья)","a":["Nehmt"],"hint":"nehmen","n":"ihr nehmt → <b>Nehmt</b>."},
+  {"s":"Beeilt ___.","ru":"Поторопитесь. (вы, друзья)","a":["euch"],"hint":"ihr","n":"<b>euch</b>."},
+  {"s":"Machen Sie bitte die Tür ___.","ru":"Закройте, пожалуйста, дверь.","a":["zu"],"hint":"zumachen","n":"Приставка в конце."},
+  {"s":"Ziehen Sie ___ bitte an.","ru":"Одевайтесь, пожалуйста.","a":["sich"],"hint":"Sie","n":"<b>sich</b>."},
+  {"s":"___ bitte leise.","ru":"Не шумите, пожалуйста. (вы, друзья)","a":["Seid"],"hint":"sein","n":"ihr → <b>seid</b>."},
+  {"s":"___ Sie bitte leise.","ru":"Не шумите, пожалуйста. (вежливо)","a":["Seien"],"hint":"sein","n":"<b>Seien Sie</b>."},
+  {"s":"___ bitte leise.","ru":"Не шуми, пожалуйста.","a":["Sei"],"hint":"sein","n":"du → <b>sei</b>."}
+ ]}
+],
+"17.4": [
+ {"type":"choice","title":"Давай","sub":"Lass uns … или глагол + wir","items":[
+  {"s":"___ uns zusammen essen.","ru":"Давай поедим вместе.","o":["Lass","Gib"],"a":"Lass","n":"«Давай» — <b>Lass uns</b>."},
+  {"s":"___ uns zusammen essen.","ru":"Давайте поедим вместе. (друзьям)","o":["Lasst","Lass"],"a":"Lasst","n":"Нескольким — <b>Lasst uns</b>."},
+  {"s":"___ wir!","ru":"Давай приготовим!","o":["Kochen","Koch"],"a":"Kochen","n":"<b>Kochen wir</b>."},
+  {"s":"Lass ___ kochen.","ru":"Дай я приготовлю.","o":["mich","uns"],"a":"mich","n":"Просьба разрешить — <b>mich</b>."},
+  {"s":"Lassen Sie ___ zusammen essen.","ru":"Давайте поедим вместе. (вежливо)","o":["uns","sich"],"a":"uns","n":"<b>Lassen Sie uns</b>."}
+ ]}
+],
+"17.5": [
+ {"type":"build","title":"Частицы в просьбе","sub":"После глагола и коротких местоимений","items":[
+  {"ru":"Попробуй, пожалуйста, суп.","w":["Probier","bitte","die","Suppe."],"ok":["Probier bitte die Suppe.","Probier die Suppe bitte."],"n":"<b>bitte</b> после глагола."},
+  {"ru":"Попробуй-ка суп.","w":["Probier","mal","die","Suppe."],"ok":["Probier mal die Suppe."],"n":"<b>mal</b> смягчает."},
+  {"ru":"Покажи-ка мне рецепт.","w":["Zeig","mir","doch","mal","das","Rezept."],"ok":["Zeig mir doch mal das Rezept."],"n":"Сначала mir, потом doch mal."},
+  {"ru":"Да приходи же!","w":["Komm","doch!"],"ok":["Komm doch!"],"n":"<b>doch</b> — уговариваем."},
+  {"ru":"Будь осторожен! (смотри у меня)","w":["Sei","ja","vorsichtig!"],"ok":["Sei ja vorsichtig!"],"n":"<b>ja</b> здесь не «да», а предупреждение."}
+ ]}
+],
+"17.6": [
+ {"type":"choice","title":"Вежливый вопрос","sub":"Können / Könnten Sie …?","items":[
+  {"s":"___ Sie mir das Rezept zeigen?","ru":"Можете показать мне рецепт?","o":["Können","Zeigen"],"a":"Können","n":"Просьба вопросом: <b>Können Sie</b>."},
+  {"s":"Können Sie mir das Rezept ___?","ru":"Можете показать мне рецепт?","o":["zeigen","zeigt"],"a":"zeigen","n":"Инфинитив в конце."},
+  {"s":"___ Sie mir bitte das Rezept.","ru":"Покажите мне, пожалуйста, рецепт.","o":["Zeigen","Können"],"a":"Zeigen","n":"Прямая вежливая просьба."},
+  {"s":"___ du mir helfen?","ru":"Можешь мне помочь?","o":["Kannst","Hilf"],"a":"Kannst","n":"<b>Kannst du</b> …?"}
+ ]}
+],
+"17.7": [
+ {"type":"build","title":"Инструкции и запреты","sub":"Инфинитив в рецепте; nicht и kein","items":[
+  {"ru":"Сварить картофель. (рецепт)","w":["Die","Kartoffeln","kochen."],"ok":["Die Kartoffeln kochen."],"n":"В рецепте — инфинитив в конце."},
+  {"ru":"Не звони мне сегодня.","w":["Ruf","mich","heute","nicht","an."],"ok":["Ruf mich heute nicht an."],"n":"<b>nicht an</b> в конце."},
+  {"ru":"Не нервничай.","w":["Sei","nicht","nervös."],"ok":["Sei nicht nervös."],"n":"<b>Sei nicht</b> …"},
+  {"ru":"Не клади сахар.","w":["Nimm","keinen","Zucker."],"ok":["Nimm keinen Zucker."],"n":"Без артикля → <b>kein</b>."},
+  {"ru":"Не фотографируй здесь.","w":["Mach","hier","keine","Fotos."],"ok":["Mach hier keine Fotos."],"n":"<b>keine Fotos</b>."}
+ ]}
+]
+}

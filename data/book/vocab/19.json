@@ -1,0 +1,665 @@
+{
+ "l": 19,
+ "words": [
+  {
+   "de": "der Anzug",
+   "lemma": "Anzug",
+   "art": "der",
+   "pl": "die Anzüge",
+   "forms": "",
+   "ipa": "[ˈanˌtsuːk]",
+   "ru": "мужской костюм",
+   "pos": "noun"
+  },
+  {
+   "de": "die Bluse",
+   "lemma": "Bluse",
+   "art": "die",
+   "pl": "die Blusen",
+   "forms": "",
+   "ipa": "[ˈbluːzə]",
+   "ru": "блузка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Hemd",
+   "lemma": "Hemd",
+   "art": "das",
+   "pl": "die Hemden",
+   "forms": "",
+   "ipa": "[hɛmt]",
+   "ru": "рубашка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Hose",
+   "lemma": "Hose",
+   "art": "die",
+   "pl": "die Hosen",
+   "forms": "",
+   "ipa": "[ˈhoːzə]",
+   "ru": "брюки",
+   "pos": "noun"
+  },
+  {
+   "de": "die Jeans",
+   "lemma": "Jeans",
+   "art": "die",
+   "pl": "die Jeans; ед. и мн. ч.",
+   "forms": "",
+   "ipa": "[dʒiːns]",
+   "ru": "джинсы",
+   "pos": "noun"
+  },
+  {
+   "de": "das Kleid",
+   "lemma": "Kleid",
+   "art": "das",
+   "pl": "die Kleider",
+   "forms": "",
+   "ipa": "[klaɪ̯t]",
+   "ru": "платье",
+   "pos": "noun"
+  },
+  {
+   "de": "der Mantel",
+   "lemma": "Mantel",
+   "art": "der",
+   "pl": "die Mäntel",
+   "forms": "",
+   "ipa": "[ˈmantəl]",
+   "ru": "пальто",
+   "pos": "noun"
+  },
+  {
+   "de": "die Mütze",
+   "lemma": "Mütze",
+   "art": "die",
+   "pl": "die Mützen",
+   "forms": "",
+   "ipa": "[ˈmʏtsə]",
+   "ru": "шапка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Pullover",
+   "lemma": "Pullover",
+   "art": "der",
+   "pl": "die Pullover",
+   "forms": "",
+   "ipa": "[pʊˈloːvɐ]",
+   "ru": "свитер",
+   "pos": "noun"
+  },
+  {
+   "de": "der Rock",
+   "lemma": "Rock",
+   "art": "der",
+   "pl": "die Röcke",
+   "forms": "",
+   "ipa": "[ʁɔk]",
+   "ru": "юбка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Stiefel",
+   "lemma": "Stiefel",
+   "art": "der",
+   "pl": "die Stiefel",
+   "forms": "",
+   "ipa": "[ˈʃtiːfəl]",
+   "ru": "сапог",
+   "pos": "noun"
+  },
+  {
+   "de": "das T-Shirt",
+   "lemma": "T-Shirt",
+   "art": "das",
+   "pl": "die T-Shirts",
+   "forms": "",
+   "ipa": "[ˈtiːʃœʁt]",
+   "ru": "футболка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Größe",
+   "lemma": "Größe",
+   "art": "die",
+   "pl": "die Größen",
+   "forms": "",
+   "ipa": "[ˈɡʁøːsə]",
+   "ru": "размер",
+   "pos": "noun"
+  },
+  {
+   "de": "die Mode",
+   "lemma": "Mode",
+   "art": "die",
+   "pl": "die Moden",
+   "forms": "",
+   "ipa": "[ˈmoːdə]",
+   "ru": "мода",
+   "pos": "noun"
+  },
+  {
+   "de": "die Qualität",
+   "lemma": "Qualität",
+   "art": "die",
+   "pl": "die Qualitäten",
+   "forms": "",
+   "ipa": "[kvaliˈtɛːt]",
+   "ru": "качество",
+   "pos": "noun"
+  },
+  {
+   "de": "beraten",
+   "lemma": "beraten",
+   "art": "",
+   "pl": "",
+   "forms": "berät, hat beraten",
+   "ipa": "[bəˈʁaːtən]",
+   "ru": "консультировать",
+   "pos": "verb"
+  },
+  {
+   "de": "beschreiben",
+   "lemma": "beschreiben",
+   "art": "",
+   "pl": "",
+   "forms": "beschreibt, hat beschrieben",
+   "ipa": "[bəˈʃʁaɪ̯bən]",
+   "ru": "описывать",
+   "pos": "verb"
+  },
+  {
+   "de": "ausgeben",
+   "lemma": "ausgeben",
+   "art": "",
+   "pl": "",
+   "forms": "gibt aus, hat ausgegeben",
+   "ipa": "[ˈaʊ̯sˌɡeːbən]",
+   "ru": "тратить",
+   "pos": "verb"
+  },
+  {
+   "de": "umtauschen",
+   "lemma": "umtauschen",
+   "art": "",
+   "pl": "",
+   "forms": "tauscht um, hat umgetauscht",
+   "ipa": "[ˈʊmˌtaʊ̯ʃən]",
+   "ru": "обменять",
+   "pos": "verb"
+  },
+  {
+   "de": "wählen",
+   "lemma": "wählen",
+   "art": "",
+   "pl": "",
+   "forms": "wählt, hat gewählt",
+   "ipa": "[ˈvɛːlən]",
+   "ru": "выбирать",
+   "pos": "verb"
+  },
+  {
+   "de": "weich",
+   "lemma": "weich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[vaɪ̯ç]",
+   "ru": "мягкий",
+   "pos": "adj"
+  },
+  {
+   "de": "stark",
+   "lemma": "stark",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃtaʁk]",
+   "ru": "сильный, крепкий",
+   "pos": "adj"
+  },
+  {
+   "de": "sportlich",
+   "lemma": "sportlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃpɔʁtlɪç]",
+   "ru": "спортивный",
+   "pos": "adj"
+  },
+  {
+   "de": "echt",
+   "lemma": "echt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɛçt]",
+   "ru": "настоящий",
+   "pos": "adj"
+  },
+  {
+   "de": "rund",
+   "lemma": "rund",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʁʊnt]",
+   "ru": "круглый",
+   "pos": "adj"
+  },
+  {
+   "de": "dunkel",
+   "lemma": "dunkel",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈdʊŋkəl]",
+   "ru": "тёмный",
+   "pos": "adj"
+  },
+  {
+   "de": "das Angebot",
+   "lemma": "Angebot",
+   "art": "das",
+   "pl": "die Angebote",
+   "forms": "",
+   "ipa": "[ˈanɡəˌboːt]",
+   "ru": "предложение, акция",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kundin",
+   "lemma": "Kundin",
+   "art": "die",
+   "pl": "die Kundinnen",
+   "forms": "",
+   "ipa": "[ˈkʊndɪn]",
+   "ru": "покупательница",
+   "pos": "noun"
+  },
+  {
+   "de": "die Wäsche",
+   "lemma": "Wäsche",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈvɛʃə]",
+   "ru": "бельё, стирка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schirm",
+   "lemma": "Schirm",
+   "art": "der",
+   "pl": "die Schirme",
+   "forms": "",
+   "ipa": "[ʃɪʁm]",
+   "ru": "зонт",
+   "pos": "noun"
+  },
+  {
+   "de": "nächste",
+   "lemma": "nächste",
+   "art": "",
+   "pl": "",
+   "forms": "der, die, das nächste",
+   "ipa": "[ˈnɛːçstə]",
+   "ru": "следующий",
+   "pos": "adj"
+  },
+  {
+   "de": "aktiv",
+   "lemma": "aktiv",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[akˈtiːf]",
+   "ru": "активный",
+   "pos": "adj"
+  },
+  {
+   "de": "dumm",
+   "lemma": "dumm",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[dʊm]",
+   "ru": "глупый",
+   "pos": "adj"
+  },
+  {
+   "de": "schwach",
+   "lemma": "schwach",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃvax]",
+   "ru": "слабый",
+   "pos": "adj"
+  },
+  {
+   "de": "toll",
+   "lemma": "toll",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[tɔl]",
+   "ru": "классный, отличный",
+   "pos": "adj"
+  },
+  {
+   "de": "die Jacke",
+   "lemma": "Jacke",
+   "art": "die",
+   "pl": "die Jacken",
+   "forms": "",
+   "ipa": "[ˈjakə]",
+   "ru": "куртка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schuh",
+   "lemma": "Schuh",
+   "art": "der",
+   "pl": "die Schuhe",
+   "forms": "",
+   "ipa": "[ʃuː]",
+   "ru": "туфля, ботинок",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kleidung",
+   "lemma": "Kleidung",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈklaɪ̯dʊŋ]",
+   "ru": "одежда",
+   "pos": "noun"
+  },
+  {
+   "de": "lang",
+   "lemma": "lang",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[laŋ]",
+   "ru": "длинный",
+   "pos": "adj"
+  },
+  {
+   "de": "kurz",
+   "lemma": "kurz",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[kʊʁts]",
+   "ru": "короткий",
+   "pos": "adj"
+  },
+  {
+   "de": "der Job",
+   "lemma": "Job",
+   "art": "der",
+   "pl": "die Jobs",
+   "forms": "",
+   "ipa": "[dʒɔp]",
+   "ru": "работа",
+   "pos": "noun"
+  },
+  {
+   "de": "beige",
+   "lemma": "beige",
+   "art": "",
+   "pl": "",
+   "forms": "не склоняется",
+   "ipa": "[beːʃ]",
+   "ru": "бежевый",
+   "pos": "adj"
+  },
+  {
+   "de": "orange",
+   "lemma": "orange",
+   "art": "",
+   "pl": "",
+   "forms": "не склоняется",
+   "ipa": "[oˈʁãːʒə]",
+   "ru": "оранжевый",
+   "pos": "adj"
+  },
+  {
+   "de": "orangefarben",
+   "lemma": "orangefarben",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[oˈʁãːʒəˌfaʁbən]",
+   "ru": "оранжевый",
+   "pos": "adj"
+  },
+  {
+   "de": "lila",
+   "lemma": "lila",
+   "art": "",
+   "pl": "",
+   "forms": "не склоняется",
+   "ipa": "[ˈliːla]",
+   "ru": "лиловый",
+   "pos": "adj"
+  },
+  {
+   "de": "rosa",
+   "lemma": "rosa",
+   "art": "",
+   "pl": "",
+   "forms": "не склоняется",
+   "ipa": "[ˈʁoːza]",
+   "ru": "розовый",
+   "pos": "adj"
+  },
+  {
+   "de": "prima",
+   "lemma": "prima",
+   "art": "",
+   "pl": "",
+   "forms": "не склоняется",
+   "ipa": "[ˈpʁiːma]",
+   "ru": "отличный (разг.)",
+   "pos": "adj"
+  },
+  {
+   "de": "der/die Bekannte",
+   "lemma": "der/die Bekannte",
+   "art": "",
+   "pl": "",
+   "forms": "die Bekannten; ein Bekannter, eine Bekannte",
+   "ipa": "[bəˈkantə]",
+   "ru": "знакомый, знакомая",
+   "pos": "phrase"
+  },
+  {
+   "de": "der/die Jugendliche",
+   "lemma": "der/die Jugendliche",
+   "art": "",
+   "pl": "",
+   "forms": "die Jugendlichen; ein Jugendlicher, eine Jugendliche",
+   "ipa": "[ˈjuːɡəntlɪçə]",
+   "ru": "подросток",
+   "pos": "phrase"
+  },
+  {
+   "de": "nichts Besonderes",
+   "lemma": "nichts Besonderes",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[nɪçts bəˈzɔndəʁəs]",
+   "ru": "ничего особенного",
+   "pos": "phrase"
+  },
+  {
+   "de": "der Büstenhalter",
+   "lemma": "Büstenhalter",
+   "art": "der",
+   "pl": "die Büstenhalter",
+   "forms": "",
+   "ipa": "[ˈbʏstənˌhaltɐ]",
+   "ru": "бюстгальтер",
+   "pos": "noun"
+  },
+  {
+   "de": "die Stiefelette",
+   "lemma": "Stiefelette",
+   "art": "die",
+   "pl": "die Stiefeletten",
+   "forms": "",
+   "ipa": "[ʃtiːfəˈlɛtə]",
+   "ru": "ботильон",
+   "pos": "noun"
+  },
+  {
+   "de": "die Durchsage",
+   "lemma": "Durchsage",
+   "art": "die",
+   "pl": "die Durchsagen",
+   "forms": "",
+   "ipa": "[ˈdʊʁçˌzaːɡə]",
+   "ru": "объявление (по громкой связи)",
+   "pos": "noun"
+  },
+  {
+   "de": "das Sakko",
+   "lemma": "Sakko",
+   "art": "das",
+   "pl": "die Sakkos",
+   "forms": "",
+   "ipa": "[ˈzako]",
+   "ru": "пиджак",
+   "pos": "noun"
+  },
+  {
+   "de": "herzlich",
+   "lemma": "herzlich",
+   "art": "",
+   "pl": "",
+   "forms": "Herzlichen Glückwunsch ! = поздравляю",
+   "ipa": "[ˈhɛʁtslɪç]",
+   "ru": "сердечный",
+   "pos": "adj"
+  },
+  {
+   "de": "der Glückwunsch",
+   "lemma": "Glückwunsch",
+   "art": "der",
+   "pl": "die Glückwünsche",
+   "forms": "",
+   "ipa": "[ˈɡlʏkˌvʏnʃ]",
+   "ru": "поздравление",
+   "pos": "noun"
+  },
+  {
+   "de": "hoch",
+   "lemma": "hoch",
+   "art": "",
+   "pl": "",
+   "forms": "höher, am höchsten; hohe Stiefel",
+   "ipa": "[hoːx]",
+   "ru": "высокий",
+   "pos": "adj"
+  },
+  {
+   "de": "das Kostüm",
+   "lemma": "Kostüm",
+   "art": "das",
+   "pl": "die Kostüme",
+   "forms": "",
+   "ipa": "[kɔsˈtyːm]",
+   "ru": "женский костюм; карнавальный костюм",
+   "pos": "noun"
+  },
+  {
+   "de": "mancher",
+   "lemma": "mancher",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈmançɐ]",
+   "ru": "некоторый",
+   "pos": "adj"
+  },
+  {
+   "de": "solcher",
+   "lemma": "solcher",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈzɔlçɐ]",
+   "ru": "такой",
+   "pos": "adj"
+  },
+  {
+   "de": "sämtliche",
+   "lemma": "sämtliche",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈzɛmtlɪçə]",
+   "ru": "все без исключения",
+   "pos": "adv"
+  },
+  {
+   "de": "das Prozent",
+   "lemma": "Prozent",
+   "art": "das",
+   "pl": "die Prozente (после чисел: Prozent)",
+   "forms": "",
+   "ipa": "[pʁoˈtsɛnt]",
+   "ru": "процент",
+   "pos": "noun"
+  },
+  {
+   "de": "die Robe",
+   "lemma": "Robe",
+   "art": "die",
+   "pl": "die Roben",
+   "forms": "",
+   "ipa": "[ˈʁoːbə]",
+   "ru": "мантия (судьи); вечернее платье",
+   "pos": "noun"
+  },
+  {
+   "de": "der Talar",
+   "lemma": "Talar",
+   "art": "der",
+   "pl": "die Talare",
+   "forms": "",
+   "ipa": "[taˈlaːɐ̯]",
+   "ru": "мантия",
+   "pos": "noun"
+  },
+  {
+   "de": "die Schere",
+   "lemma": "Schere",
+   "art": "die",
+   "pl": "die Scheren",
+   "forms": "",
+   "ipa": "[ˈʃeːʁə]",
+   "ru": "ножницы",
+   "pos": "noun"
+  },
+  {
+   "de": "wenig",
+   "lemma": "wenig",
+   "art": "",
+   "pl": "",
+   "forms": "weniger, am wenigsten",
+   "ipa": "[ˈveːnɪç]",
+   "ru": "мало",
+   "pos": "adv"
+  }
+ ]
+}

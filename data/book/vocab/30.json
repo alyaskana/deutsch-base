@@ -1,0 +1,595 @@
+{
+ "l": 30,
+ "words": [
+  {
+   "de": "die Rundfahrt",
+   "lemma": "Rundfahrt",
+   "art": "die",
+   "pl": "die Rundfahrten",
+   "forms": "",
+   "ipa": "[ˈʁʊntfaːɐ̯t]",
+   "ru": "обзорная поездка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Strecke",
+   "lemma": "Strecke",
+   "art": "die",
+   "pl": "die Strecken",
+   "forms": "",
+   "ipa": "[ˈʃtʁɛkə]",
+   "ru": "участок пути",
+   "pos": "noun"
+  },
+  {
+   "de": "der Stau",
+   "lemma": "Stau",
+   "art": "der",
+   "pl": "die Staus",
+   "forms": "",
+   "ipa": "[ʃtaʊ̯]",
+   "ru": "пробка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Umleitung",
+   "lemma": "Umleitung",
+   "art": "die",
+   "pl": "die Umleitungen",
+   "forms": "",
+   "ipa": "[ˈʊmlaɪ̯tʊŋ]",
+   "ru": "объезд",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kurve",
+   "lemma": "Kurve",
+   "art": "die",
+   "pl": "die Kurven",
+   "forms": "",
+   "ipa": "[ˈkʊʁvə]",
+   "ru": "поворот дороги",
+   "pos": "noun"
+  },
+  {
+   "de": "abbiegen",
+   "lemma": "abbiegen",
+   "art": "",
+   "pl": "",
+   "forms": "biegt ab, bog ab, ist abgebogen",
+   "ipa": "[ˈapbiːɡən]",
+   "ru": "сворачивать",
+   "pos": "verb"
+  },
+  {
+   "de": "überqueren",
+   "lemma": "überqueren",
+   "art": "",
+   "pl": "",
+   "forms": "überquerte, hat überquert",
+   "ipa": "[yːbɐˈkveːʁən]",
+   "ru": "пересекать",
+   "pos": "verb"
+  },
+  {
+   "de": "unterwegs",
+   "lemma": "unterwegs",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʊntɐˈveːks]",
+   "ru": "в пути",
+   "pos": "adv"
+  },
+  {
+   "de": "entlang",
+   "lemma": "entlang",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɛntˈlaŋ]",
+   "ru": "вдоль",
+   "pos": "adv"
+  },
+  {
+   "de": "das Ufer",
+   "lemma": "Ufer",
+   "art": "das",
+   "pl": "die Ufer",
+   "forms": "",
+   "ipa": "[ˈuːfɐ]",
+   "ru": "берег",
+   "pos": "noun"
+  },
+  {
+   "de": "der Hügel",
+   "lemma": "Hügel",
+   "art": "der",
+   "pl": "die Hügel",
+   "forms": "",
+   "ipa": "[ˈhyːɡəl]",
+   "ru": "холм",
+   "pos": "noun"
+  },
+  {
+   "de": "(sich) verlaufen",
+   "lemma": "(sich) verlaufen",
+   "art": "",
+   "pl": "",
+   "forms": "verläuft sich, verlief sich, hat sich verlaufen",
+   "ipa": "[fɛɐ̯ˈlaʊ̯fən]",
+   "ru": "заблудиться пешком",
+   "pos": "phrase"
+  },
+  {
+   "de": "das Gebirge",
+   "lemma": "Gebirge",
+   "art": "das",
+   "pl": "die Gebirge",
+   "forms": "",
+   "ipa": "[ɡəˈbɪʁɡə]",
+   "ru": "горы",
+   "pos": "noun"
+  },
+  {
+   "de": "das Tal",
+   "lemma": "Tal",
+   "art": "das",
+   "pl": "die Täler",
+   "forms": "",
+   "ipa": "[taːl]",
+   "ru": "долина",
+   "pos": "noun"
+  },
+  {
+   "de": "lassen",
+   "lemma": "lassen",
+   "art": "",
+   "pl": "",
+   "forms": "lässt, ließ, hat gelassen; с инфинитивом: hat … lassen",
+   "ipa": "[ˈlasən]",
+   "ru": "оставлять; поручать (сделать)",
+   "pos": "verb"
+  },
+  {
+   "de": "entlassen",
+   "lemma": "entlassen",
+   "art": "",
+   "pl": "",
+   "forms": "entlässt, entließ, hat entlassen",
+   "ipa": "[ɛntˈlasən]",
+   "ru": "увольнять, выписывать",
+   "pos": "verb"
+  },
+  {
+   "de": "unterlassen",
+   "lemma": "unterlassen",
+   "art": "",
+   "pl": "",
+   "forms": "unterlässt, unterließ, hat unterlassen",
+   "ipa": "[ʊntɐˈlasən]",
+   "ru": "воздерживаться от",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) etwas gefallen lassen",
+   "lemma": "(sich) etwas gefallen lassen",
+   "art": "",
+   "pl": "",
+   "forms": "lässt sich etwas gefallen, ließ sich etwas gefallen, hat sich etwas gefallen lassen",
+   "ipa": "[zɪç ɛtvas ɡəˈfalən ˌlasən]",
+   "ru": "терпеть, мириться",
+   "pos": "phrase"
+  },
+  {
+   "de": "der Friseur",
+   "lemma": "Friseur",
+   "art": "der",
+   "pl": "die Friseure",
+   "forms": "",
+   "ipa": "[fʁiˈzøːɐ̯]",
+   "ru": "парикмахер",
+   "pos": "noun"
+  },
+  {
+   "de": "die Friseurin",
+   "lemma": "Friseurin",
+   "art": "die",
+   "pl": "die Friseurinnen",
+   "forms": "",
+   "ipa": "[fʁiˈzøːʁɪn]",
+   "ru": "парикмахер-женщина",
+   "pos": "noun"
+  },
+  {
+   "de": "der Salon",
+   "lemma": "Salon",
+   "art": "der",
+   "pl": "die Salons",
+   "forms": "",
+   "ipa": "[zaˈlɔ̃ː]",
+   "ru": "салон",
+   "pos": "noun"
+  },
+  {
+   "de": "der Bart",
+   "lemma": "Bart",
+   "art": "der",
+   "pl": "die Bärte",
+   "forms": "",
+   "ipa": "[baːɐ̯t]",
+   "ru": "борода",
+   "pos": "noun"
+  },
+  {
+   "de": "rasieren",
+   "lemma": "rasieren",
+   "art": "",
+   "pl": "",
+   "forms": "rasierte, hat rasiert",
+   "ipa": "[ʁaˈziːʁən]",
+   "ru": "брить",
+   "pos": "verb"
+  },
+  {
+   "de": "nähen",
+   "lemma": "nähen",
+   "art": "",
+   "pl": "",
+   "forms": "nähte, hat genäht",
+   "ipa": "[ˈnɛːən]",
+   "ru": "шить",
+   "pos": "verb"
+  },
+  {
+   "de": "kürzen",
+   "lemma": "kürzen",
+   "art": "",
+   "pl": "",
+   "forms": "kürzte, hat gekürzt",
+   "ipa": "[ˈkʏʁtsən]",
+   "ru": "укорачивать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Mechaniker",
+   "lemma": "Mechaniker",
+   "art": "der",
+   "pl": "die Mechaniker",
+   "forms": "",
+   "ipa": "[meˈçaːnɪkɐ]",
+   "ru": "механик",
+   "pos": "noun"
+  },
+  {
+   "de": "die Mechanikerin",
+   "lemma": "Mechanikerin",
+   "art": "die",
+   "pl": "die Mechanikerinnen",
+   "forms": "",
+   "ipa": "[meˈçaːnɪkəʁɪn]",
+   "ru": "механик-женщина",
+   "pos": "noun"
+  },
+  {
+   "de": "die Panne",
+   "lemma": "Panne",
+   "art": "die",
+   "pl": "die Pannen",
+   "forms": "",
+   "ipa": "[ˈpanə]",
+   "ru": "поломка",
+   "pos": "noun"
+  },
+  {
+   "de": "neulich",
+   "lemma": "neulich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈnɔʏ̯lɪç]",
+   "ru": "на днях",
+   "pos": "adv"
+  },
+  {
+   "de": "vorhin",
+   "lemma": "vorhin",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[foːɐ̯ˈhɪn]",
+   "ru": "только что",
+   "pos": "adv"
+  },
+  {
+   "de": "heimlich",
+   "lemma": "heimlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈhaɪ̯mlɪç]",
+   "ru": "тайком",
+   "pos": "adv"
+  },
+  {
+   "de": "gründlich",
+   "lemma": "gründlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɡʁʏntlɪç]",
+   "ru": "основательно",
+   "pos": "adv"
+  },
+  {
+   "de": "ständig",
+   "lemma": "ständig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃtɛndɪç]",
+   "ru": "постоянно",
+   "pos": "adv"
+  },
+  {
+   "de": "häufig",
+   "lemma": "häufig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈhɔʏ̯fɪç]",
+   "ru": "часто",
+   "pos": "adv"
+  },
+  {
+   "de": "kaum",
+   "lemma": "kaum",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[kaʊ̯m]",
+   "ru": "едва, почти не",
+   "pos": "adv"
+  },
+  {
+   "de": "beinahe",
+   "lemma": "beinahe",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈbaɪ̯naːə]",
+   "ru": "чуть не, почти",
+   "pos": "adv"
+  },
+  {
+   "de": "ziemlich",
+   "lemma": "ziemlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈtsiːmlɪç]",
+   "ru": "довольно",
+   "pos": "adv"
+  },
+  {
+   "de": "völlig",
+   "lemma": "völlig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfœlɪç]",
+   "ru": "совершенно",
+   "pos": "adv"
+  },
+  {
+   "de": "übrigens",
+   "lemma": "übrigens",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈyːbʁɪɡəns]",
+   "ru": "кстати",
+   "pos": "adv"
+  },
+  {
+   "de": "nämlich",
+   "lemma": "nämlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈnɛːmlɪç]",
+   "ru": "ведь",
+   "pos": "adv"
+  },
+  {
+   "de": "deswegen",
+   "lemma": "deswegen",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈdɛsveːɡən]",
+   "ru": "поэтому",
+   "pos": "adv"
+  },
+  {
+   "de": "daher",
+   "lemma": "daher",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[daˈheːɐ̯]",
+   "ru": "поэтому, оттуда",
+   "pos": "adv"
+  },
+  {
+   "de": "offen",
+   "lemma": "offen",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɔfən]",
+   "ru": "открытый",
+   "pos": "adj"
+  },
+  {
+   "de": "grüßen",
+   "lemma": "grüßen",
+   "art": "",
+   "pl": "",
+   "forms": "grüßt, grüßte, hat gegrüßt",
+   "ipa": "[ˈɡʁyːsən]",
+   "ru": "приветствовать; передавать привет",
+   "pos": "verb"
+  },
+  {
+   "de": "das Badezimmer",
+   "lemma": "Badezimmer",
+   "art": "das",
+   "pl": "die Badezimmer",
+   "forms": "",
+   "ipa": "[ˈbaːdəˌtsɪmɐ]",
+   "ru": "ванная комната",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fahrschein",
+   "lemma": "Fahrschein",
+   "art": "der",
+   "pl": "die Fahrscheine",
+   "forms": "",
+   "ipa": "[ˈfaːɐ̯ˌʃaɪ̯n]",
+   "ru": "проездной билет",
+   "pos": "noun"
+  },
+  {
+   "de": "hereinlassen",
+   "lemma": "hereinlassen",
+   "art": "",
+   "pl": "",
+   "forms": "lässt herein, ließ herein, hat hereingelassen",
+   "ipa": "[hɛˈʁaɪ̯nˌlasən]",
+   "ru": "впускать",
+   "pos": "verb"
+  },
+  {
+   "de": "loslassen",
+   "lemma": "loslassen",
+   "art": "",
+   "pl": "",
+   "forms": "lässt los, ließ los, hat losgelassen",
+   "ipa": "[ˈloːsˌlasən]",
+   "ru": "отпускать",
+   "pos": "verb"
+  },
+  {
+   "de": "weglassen",
+   "lemma": "weglassen",
+   "art": "",
+   "pl": "",
+   "forms": "lässt weg, ließ weg, hat weggelassen",
+   "ipa": "[ˈvɛkˌlasən]",
+   "ru": "пропускать, не включать",
+   "pos": "verb"
+  },
+  {
+   "de": "zulassen",
+   "lemma": "zulassen",
+   "art": "",
+   "pl": "",
+   "forms": "lässt zu, ließ zu, hat zugelassen",
+   "ipa": "[ˈtsuːˌlasən]",
+   "ru": "допускать",
+   "pos": "verb"
+  },
+  {
+   "de": "überlassen",
+   "lemma": "überlassen",
+   "art": "",
+   "pl": "",
+   "forms": "überlässt, überließ, hat überlassen",
+   "ipa": "[ˌyːbɐˈlasən]",
+   "ru": "предоставлять",
+   "pos": "verb"
+  },
+  {
+   "de": "der Imbiss",
+   "lemma": "Imbiss",
+   "art": "der",
+   "pl": "die Imbisse",
+   "forms": "",
+   "ipa": "[ˈɪmbɪs]",
+   "ru": "закуска; закусочная",
+   "pos": "noun"
+  },
+  {
+   "de": "das Ladekabel",
+   "lemma": "Ladekabel",
+   "art": "das",
+   "pl": "die Ladekabel",
+   "forms": "",
+   "ipa": "[ˈlaːdəˌkaːbəl]",
+   "ru": "зарядный кабель",
+   "pos": "noun"
+  },
+  {
+   "de": "der Pony",
+   "lemma": "Pony",
+   "art": "der",
+   "pl": "die Ponys",
+   "forms": "",
+   "ipa": "[ˈpɔni]",
+   "ru": "чёлка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Portier",
+   "lemma": "Portier",
+   "art": "der",
+   "pl": "die Portiers",
+   "forms": "",
+   "ipa": "[pɔʁˈti̯eː]",
+   "ru": "швейцар, портье",
+   "pos": "noun"
+  },
+  {
+   "de": "die Reservierung",
+   "lemma": "Reservierung",
+   "art": "die",
+   "pl": "die Reservierungen",
+   "forms": "",
+   "ipa": "[ʁezɛʁˈviːʁʊŋ]",
+   "ru": "бронирование",
+   "pos": "noun"
+  },
+  {
+   "de": "färben",
+   "lemma": "färben",
+   "art": "",
+   "pl": "",
+   "forms": "färbt, färbte, hat gefärbt",
+   "ipa": "[ˈfɛʁbən]",
+   "ru": "красить (волосы, ткань)",
+   "pos": "verb"
+  },
+  {
+   "de": "die Vignette",
+   "lemma": "Vignette",
+   "art": "die",
+   "pl": "die Vignetten",
+   "forms": "",
+   "ipa": "[vɪnˈjɛtə]",
+   "ru": "виньетка (дорожный сбор)",
+   "pos": "noun"
+  },
+  {
+   "de": "zurückfahren",
+   "lemma": "zurückfahren",
+   "art": "",
+   "pl": "",
+   "forms": "fährt zurück, fuhr zurück, ist zurückgefahren",
+   "ipa": "[tsuˈʁʏkˌfaːʁən]",
+   "ru": "ехать обратно",
+   "pos": "verb"
+  }
+ ]
+}

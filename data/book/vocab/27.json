@@ -1,0 +1,535 @@
+{
+ "l": 27,
+ "words": [
+  {
+   "de": "die Anleitung",
+   "lemma": "Anleitung",
+   "art": "die",
+   "pl": "die Anleitungen",
+   "forms": "",
+   "ipa": "[ˈanlaɪ̯tʊŋ]",
+   "ru": "инструкция",
+   "pos": "noun"
+  },
+  {
+   "de": "der Bildschirm",
+   "lemma": "Bildschirm",
+   "art": "der",
+   "pl": "die Bildschirme",
+   "forms": "",
+   "ipa": "[ˈbɪltʃɪʁm]",
+   "ru": "экран",
+   "pos": "noun"
+  },
+  {
+   "de": "die Taste",
+   "lemma": "Taste",
+   "art": "die",
+   "pl": "die Tasten",
+   "forms": "",
+   "ipa": "[ˈtastə]",
+   "ru": "клавиша, кнопка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Kabel",
+   "lemma": "Kabel",
+   "art": "das",
+   "pl": "die Kabel",
+   "forms": "",
+   "ipa": "[ˈkaːbəl]",
+   "ru": "кабель, провод",
+   "pos": "noun"
+  },
+  {
+   "de": "der Stecker",
+   "lemma": "Stecker",
+   "art": "der",
+   "pl": "die Stecker",
+   "forms": "",
+   "ipa": "[ˈʃtɛkɐ]",
+   "ru": "штекер, вилка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Steckdose",
+   "lemma": "Steckdose",
+   "art": "die",
+   "pl": "die Steckdosen",
+   "forms": "",
+   "ipa": "[ˈʃtɛkdoːzə]",
+   "ru": "розетка",
+   "pos": "noun"
+  },
+  {
+   "de": "anschließen",
+   "lemma": "anschließen",
+   "art": "",
+   "pl": "",
+   "forms": "schließt an, schloss an, hat angeschlossen",
+   "ipa": "[ˈanʃliːsən]",
+   "ru": "подключать",
+   "pos": "verb"
+  },
+  {
+   "de": "einschalten",
+   "lemma": "einschalten",
+   "art": "",
+   "pl": "",
+   "forms": "schaltet ein, schaltete ein, hat eingeschaltet",
+   "ipa": "[ˈaɪ̯nʃaltən]",
+   "ru": "включать",
+   "pos": "verb"
+  },
+  {
+   "de": "installieren",
+   "lemma": "installieren",
+   "art": "",
+   "pl": "",
+   "forms": "installierte, hat installiert",
+   "ipa": "[ɪnstaˈliːʁən]",
+   "ru": "устанавливать",
+   "pos": "verb"
+  },
+  {
+   "de": "funktionieren",
+   "lemma": "funktionieren",
+   "art": "",
+   "pl": "",
+   "forms": "funktionierte, hat funktioniert",
+   "ipa": "[fʊŋktsi̯oˈniːʁən]",
+   "ru": "работать (о технике)",
+   "pos": "verb"
+  },
+  {
+   "de": "ausfallen",
+   "lemma": "ausfallen",
+   "art": "",
+   "pl": "",
+   "forms": "fällt aus, fiel aus, ist ausgefallen",
+   "ipa": "[ˈaʊ̯sfalən]",
+   "ru": "отменяться, отказывать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Daten",
+   "lemma": "Daten",
+   "art": "die",
+   "pl": "",
+   "forms": "только множественное число",
+   "ipa": "[ˈdaːtən]",
+   "ru": "данные",
+   "pos": "noun"
+  },
+  {
+   "de": "das Netz",
+   "lemma": "Netz",
+   "art": "das",
+   "pl": "die Netze",
+   "forms": "",
+   "ipa": "[nɛts]",
+   "ru": "сеть",
+   "pos": "noun"
+  },
+  {
+   "de": "löschen",
+   "lemma": "löschen",
+   "art": "",
+   "pl": "",
+   "forms": "löschte, hat gelöscht",
+   "ipa": "[ˈlœʃən]",
+   "ru": "удалять",
+   "pos": "verb"
+  },
+  {
+   "de": "aufladen",
+   "lemma": "aufladen",
+   "art": "",
+   "pl": "",
+   "forms": "lädt auf, lud auf, hat aufgeladen",
+   "ipa": "[ˈaʊ̯flaːdən]",
+   "ru": "заряжать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Anbieter",
+   "lemma": "Anbieter",
+   "art": "der",
+   "pl": "die Anbieter",
+   "forms": "",
+   "ipa": "[ˈanbiːtɐ]",
+   "ru": "провайдер, поставщик",
+   "pos": "noun"
+  },
+  {
+   "de": "der Tarif",
+   "lemma": "Tarif",
+   "art": "der",
+   "pl": "die Tarife",
+   "forms": "",
+   "ipa": "[taˈʁiːf]",
+   "ru": "тариф",
+   "pos": "noun"
+  },
+  {
+   "de": "die Störung",
+   "lemma": "Störung",
+   "art": "die",
+   "pl": "die Störungen",
+   "forms": "",
+   "ipa": "[ˈʃtøːʁʊŋ]",
+   "ru": "сбой, помеха",
+   "pos": "noun"
+  },
+  {
+   "de": "der Router",
+   "lemma": "Router",
+   "art": "der",
+   "pl": "die Router",
+   "forms": "",
+   "ipa": "[ˈʁuːtɐ]",
+   "ru": "роутер",
+   "pos": "noun"
+  },
+  {
+   "de": "der Techniker",
+   "lemma": "Techniker",
+   "art": "der",
+   "pl": "die Techniker",
+   "forms": "",
+   "ipa": "[ˈtɛçnɪkɐ]",
+   "ru": "техник, мастер",
+   "pos": "noun"
+  },
+  {
+   "de": "die Technikerin",
+   "lemma": "Technikerin",
+   "art": "die",
+   "pl": "die Technikerinnen",
+   "forms": "",
+   "ipa": "[ˈtɛçnɪkəʁɪn]",
+   "ru": "техник, мастер",
+   "pos": "noun"
+  },
+  {
+   "de": "die Hotline",
+   "lemma": "Hotline",
+   "art": "die",
+   "pl": "die Hotlines",
+   "forms": "",
+   "ipa": "[ˈhɔtlaɪ̯n]",
+   "ru": "горячая линия",
+   "pos": "noun"
+  },
+  {
+   "de": "erreichbar",
+   "lemma": "erreichbar",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɛɐ̯ˈʁaɪ̯çbaːɐ̯]",
+   "ru": "на связи, доступный",
+   "pos": "adv"
+  },
+  {
+   "de": "abonnieren",
+   "lemma": "abonnieren",
+   "art": "",
+   "pl": "",
+   "forms": "abonnierte, hat abonniert",
+   "ipa": "[abɔˈniːʁən]",
+   "ru": "подписываться",
+   "pos": "verb"
+  },
+  {
+   "de": "der Rabatt",
+   "lemma": "Rabatt",
+   "art": "der",
+   "pl": "die Rabatte",
+   "forms": "",
+   "ipa": "[ʁaˈbat]",
+   "ru": "скидка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Quittung",
+   "lemma": "Quittung",
+   "art": "die",
+   "pl": "die Quittungen",
+   "forms": "",
+   "ipa": "[ˈkvɪtʊŋ]",
+   "ru": "квитанция, чек",
+   "pos": "noun"
+  },
+  {
+   "de": "klären",
+   "lemma": "klären",
+   "art": "",
+   "pl": "",
+   "forms": "klärte, hat geklärt",
+   "ipa": "[ˈklɛːʁən]",
+   "ru": "выяснять",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) irren",
+   "lemma": "(sich) irren",
+   "art": "",
+   "pl": "",
+   "forms": "irrte sich, hat sich geirrt",
+   "ipa": "[ˈɪʁən]",
+   "ru": "ошибаться",
+   "pos": "phrase"
+  },
+  {
+   "de": "verwechseln",
+   "lemma": "verwechseln",
+   "art": "",
+   "pl": "",
+   "forms": "verwechselte, hat verwechselt",
+   "ipa": "[fɛɐ̯ˈvɛksəln]",
+   "ru": "путать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Vorteil",
+   "lemma": "Vorteil",
+   "art": "der",
+   "pl": "die Vorteile",
+   "forms": "",
+   "ipa": "[ˈfɔʁtaɪ̯l]",
+   "ru": "преимущество",
+   "pos": "noun"
+  },
+  {
+   "de": "der Nachteil",
+   "lemma": "Nachteil",
+   "art": "der",
+   "pl": "die Nachteile",
+   "forms": "",
+   "ipa": "[ˈnaːxtaɪ̯l]",
+   "ru": "недостаток",
+   "pos": "noun"
+  },
+  {
+   "de": "einerseits … andererseits",
+   "lemma": "einerseits … andererseits",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nɐzaɪ̯ts … ˈandəʁɐzaɪ̯ts]",
+   "ru": "с одной стороны… с другой",
+   "pos": "phrase"
+  },
+  {
+   "de": "allerdings",
+   "lemma": "allerdings",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈalɐˈdɪŋs]",
+   "ru": "правда, впрочем",
+   "pos": "adv"
+  },
+  {
+   "de": "jedoch",
+   "lemma": "jedoch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[jeˈdɔx]",
+   "ru": "однако",
+   "pos": "adv"
+  },
+  {
+   "de": "entweder … oder",
+   "lemma": "entweder … oder",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɛntˈveːdɐ … ˈoːdɐ]",
+   "ru": "либо… либо",
+   "pos": "phrase"
+  },
+  {
+   "de": "weder … noch",
+   "lemma": "weder … noch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈveːdɐ … nɔx]",
+   "ru": "ни… ни",
+   "pos": "phrase"
+  },
+  {
+   "de": "sowohl … als auch",
+   "lemma": "sowohl … als auch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[zoˈvoːl … als aʊ̯x]",
+   "ru": "как… так и",
+   "pos": "phrase"
+  },
+  {
+   "de": "zwar … aber",
+   "lemma": "zwar … aber",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[tsvaːɐ̯ … ˈaːbɐ]",
+   "ru": "хотя и… но",
+   "pos": "phrase"
+  },
+  {
+   "de": "teils … teils",
+   "lemma": "teils … teils",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[taɪ̯ls … taɪ̯ls]",
+   "ru": "частью… частью",
+   "pos": "phrase"
+  },
+  {
+   "de": "je … desto/umso",
+   "lemma": "je … desto/umso",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[jeː … ˈdɛsto/ˈʊmzo]",
+   "ru": "чем… тем",
+   "pos": "phrase"
+  },
+  {
+   "de": "überlegen",
+   "lemma": "überlegen",
+   "art": "",
+   "pl": "",
+   "forms": "überlegte, hat überlegt",
+   "ipa": "[yːbɐˈleːɡən]",
+   "ru": "обдумывать",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) lohnen",
+   "lemma": "(sich) lohnen",
+   "art": "",
+   "pl": "",
+   "forms": "lohnte sich, hat sich gelohnt",
+   "ipa": "[ˈloːnən]",
+   "ru": "окупаться",
+   "pos": "phrase"
+  },
+  {
+   "de": "behaupten",
+   "lemma": "behaupten",
+   "art": "",
+   "pl": "",
+   "forms": "behauptete, hat behauptet",
+   "ipa": "[bəˈhaʊ̯ptən]",
+   "ru": "утверждать",
+   "pos": "verb"
+  },
+  {
+   "de": "das Abonnement",
+   "lemma": "Abonnement",
+   "art": "das",
+   "pl": "die Abonnements",
+   "forms": "",
+   "ipa": "[abɔnəˈmãː]",
+   "ru": "абонемент, подписка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Abo",
+   "lemma": "Abo",
+   "art": "das",
+   "pl": "die Abos",
+   "forms": "",
+   "ipa": "[ˈabo]",
+   "ru": "подписка (разг.)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Meldung",
+   "lemma": "Meldung",
+   "art": "die",
+   "pl": "die Meldungen",
+   "forms": "",
+   "ipa": "[ˈmɛldʊŋ]",
+   "ru": "сообщение, новость",
+   "pos": "noun"
+  },
+  {
+   "de": "das Radio",
+   "lemma": "Radio",
+   "art": "das",
+   "pl": "die Radios",
+   "forms": "",
+   "ipa": "[ˈʁaːdi̯o]",
+   "ru": "радио",
+   "pos": "noun"
+  },
+  {
+   "de": "die Reklamation",
+   "lemma": "Reklamation",
+   "art": "die",
+   "pl": "die Reklamationen",
+   "forms": "",
+   "ipa": "[ʁeklamaˈtsi̯oːn]",
+   "ru": "претензия (по поводу покупки)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Reklame",
+   "lemma": "Reklame",
+   "art": "die",
+   "pl": "die Reklamen",
+   "forms": "",
+   "ipa": "[ʁeˈklaːmə]",
+   "ru": "реклама (устар.)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Werbung",
+   "lemma": "Werbung",
+   "art": "die",
+   "pl": "die Werbungen",
+   "forms": "",
+   "ipa": "[ˈvɛʁbʊŋ]",
+   "ru": "реклама",
+   "pos": "noun"
+  },
+  {
+   "de": "die Schnur",
+   "lemma": "Schnur",
+   "art": "die",
+   "pl": "die Schnüre",
+   "forms": "",
+   "ipa": "[ʃnuːɐ̯]",
+   "ru": "шнур, бечёвка",
+   "pos": "noun"
+  },
+  {
+   "de": "unklar",
+   "lemma": "unklar",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʊnklaːɐ̯]",
+   "ru": "неясный, неясно",
+   "pos": "adj"
+  },
+  {
+   "de": "die Leitung",
+   "lemma": "Leitung",
+   "art": "die",
+   "pl": "die Leitungen",
+   "forms": "",
+   "ipa": "[ˈlaɪ̯tʊŋ]",
+   "ru": "(телефонная) линия; руководство",
+   "pos": "noun"
+  }
+ ]
+}

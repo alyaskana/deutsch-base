@@ -1,0 +1,575 @@
+{
+ "l": 28,
+ "words": [
+  {
+   "de": "das Zertifikat",
+   "lemma": "Zertifikat",
+   "art": "das",
+   "pl": "die Zertifikate",
+   "forms": "",
+   "ipa": "[tsɛʁtifiˈkaːt]",
+   "ru": "сертификат",
+   "pos": "noun"
+  },
+  {
+   "de": "das Diplom",
+   "lemma": "Diplom",
+   "art": "das",
+   "pl": "die Diplome",
+   "forms": "",
+   "ipa": "[diˈploːm]",
+   "ru": "диплом",
+   "pos": "noun"
+  },
+  {
+   "de": "das Semester",
+   "lemma": "Semester",
+   "art": "das",
+   "pl": "die Semester",
+   "forms": "",
+   "ipa": "[zeˈmɛstɐ]",
+   "ru": "семестр",
+   "pos": "noun"
+  },
+  {
+   "de": "das Seminar",
+   "lemma": "Seminar",
+   "art": "das",
+   "pl": "die Seminare",
+   "forms": "",
+   "ipa": "[zemiˈnaːɐ̯]",
+   "ru": "семинар",
+   "pos": "noun"
+  },
+  {
+   "de": "das Referat",
+   "lemma": "Referat",
+   "art": "das",
+   "pl": "die Referate",
+   "forms": "",
+   "ipa": "[ʁefeˈʁaːt]",
+   "ru": "доклад",
+   "pos": "noun"
+  },
+  {
+   "de": "der Vortrag",
+   "lemma": "Vortrag",
+   "art": "der",
+   "pl": "die Vorträge",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯ˌtʁaːk]",
+   "ru": "доклад, лекция",
+   "pos": "noun"
+  },
+  {
+   "de": "die Fortbildung",
+   "lemma": "Fortbildung",
+   "art": "die",
+   "pl": "die Fortbildungen",
+   "forms": "",
+   "ipa": "[ˈfɔʁtˌbɪldʊŋ]",
+   "ru": "повышение квалификации",
+   "pos": "noun"
+  },
+  {
+   "de": "die Nachhilfe",
+   "lemma": "Nachhilfe",
+   "art": "die",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈnaːxˌhɪlfə]",
+   "ru": "репетиторство",
+   "pos": "noun"
+  },
+  {
+   "de": "(sich) anstrengen",
+   "lemma": "(sich) anstrengen",
+   "art": "",
+   "pl": "",
+   "forms": "strengt sich an, strengte sich an, hat sich angestrengt",
+   "ipa": "[ˈanˌʃtʁɛŋən]",
+   "ru": "стараться изо всех сил",
+   "pos": "phrase"
+  },
+  {
+   "de": "korrigieren",
+   "lemma": "korrigieren",
+   "art": "",
+   "pl": "",
+   "forms": "korrigierte, hat korrigiert",
+   "ipa": "[kɔʁiˈɡiːʁən]",
+   "ru": "исправлять",
+   "pos": "verb"
+  },
+  {
+   "de": "der Mut",
+   "lemma": "Mut",
+   "art": "der",
+   "pl": "",
+   "forms": "",
+   "ipa": "[muːt]",
+   "ru": "смелость",
+   "pos": "noun"
+  },
+  {
+   "de": "versäumen",
+   "lemma": "versäumen",
+   "art": "",
+   "pl": "",
+   "forms": "versäumte, hat versäumt",
+   "ipa": "[fɛɐ̯ˈzɔʏ̯mən]",
+   "ru": "пропустить, упустить",
+   "pos": "verb"
+  },
+  {
+   "de": "nachschlagen",
+   "lemma": "nachschlagen",
+   "art": "",
+   "pl": "",
+   "forms": "schlägt nach, schlug nach, hat nachgeschlagen",
+   "ipa": "[ˈnaːxˌʃlaːɡən]",
+   "ru": "посмотреть в словаре",
+   "pos": "verb"
+  },
+  {
+   "de": "das Talent",
+   "lemma": "Talent",
+   "art": "das",
+   "pl": "die Talente",
+   "forms": "",
+   "ipa": "[taˈlɛnt]",
+   "ru": "талант",
+   "pos": "noun"
+  },
+  {
+   "de": "das Kapitel",
+   "lemma": "Kapitel",
+   "art": "das",
+   "pl": "die Kapitel",
+   "forms": "",
+   "ipa": "[kaˈpɪtəl]",
+   "ru": "глава",
+   "pos": "noun"
+  },
+  {
+   "de": "nötig",
+   "lemma": "nötig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈnøːtɪç]",
+   "ru": "нужный",
+   "pos": "adj"
+  },
+  {
+   "de": "anwesend",
+   "lemma": "anwesend",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈanˌveːzənt]",
+   "ru": "присутствующий",
+   "pos": "adj"
+  },
+  {
+   "de": "abwesend",
+   "lemma": "abwesend",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈapˌveːzənt]",
+   "ru": "отсутствующий",
+   "pos": "adj"
+  },
+  {
+   "de": "die Methode",
+   "lemma": "Methode",
+   "art": "die",
+   "pl": "die Methoden",
+   "forms": "",
+   "ipa": "[meˈtoːdə]",
+   "ru": "метод",
+   "pos": "noun"
+  },
+  {
+   "de": "das Institut",
+   "lemma": "Institut",
+   "art": "das",
+   "pl": "die Institute",
+   "forms": "",
+   "ipa": "[ɪnstiˈtuːt]",
+   "ru": "институт",
+   "pos": "noun"
+  },
+  {
+   "de": "unterrichten",
+   "lemma": "unterrichten",
+   "art": "",
+   "pl": "",
+   "forms": "unterrichtete, hat unterrichtet",
+   "ipa": "[ʊntɐˈʁɪçtən]",
+   "ru": "преподавать",
+   "pos": "verb"
+  },
+  {
+   "de": "fördern",
+   "lemma": "fördern",
+   "art": "",
+   "pl": "",
+   "forms": "förderte, hat gefördert",
+   "ipa": "[ˈfœʁdɐn]",
+   "ru": "поддерживать, развивать",
+   "pos": "verb"
+  },
+  {
+   "de": "unterstützen",
+   "lemma": "unterstützen",
+   "art": "",
+   "pl": "",
+   "forms": "unterstützte, hat unterstützt",
+   "ipa": "[ʊntɐˈʃtʏtsən]",
+   "ru": "поддерживать",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) verbessern",
+   "lemma": "(sich) verbessern",
+   "art": "",
+   "pl": "",
+   "forms": "verbesserte sich, hat sich verbessert",
+   "ipa": "[fɛɐ̯ˈbɛsɐn]",
+   "ru": "улучшаться",
+   "pos": "phrase"
+  },
+  {
+   "de": "ausreichen",
+   "lemma": "ausreichen",
+   "art": "",
+   "pl": "",
+   "forms": "reicht aus, reichte aus, hat ausgereicht",
+   "ipa": "[ˈaʊ̯sˌʁaɪ̯çən]",
+   "ru": "хватать",
+   "pos": "verb"
+  },
+  {
+   "de": "genügen",
+   "lemma": "genügen",
+   "art": "",
+   "pl": "",
+   "forms": "genügte, hat genügt",
+   "ipa": "[ɡəˈnyːɡən]",
+   "ru": "быть достаточным",
+   "pos": "verb"
+  },
+  {
+   "de": "ausgezeichnet",
+   "lemma": "ausgezeichnet",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sɡətsaɪ̯çnət]",
+   "ru": "отличный",
+   "pos": "adj"
+  },
+  {
+   "de": "befriedigend",
+   "lemma": "befriedigend",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bəˈfʁiːdɪɡənt]",
+   "ru": "удовлетворительно",
+   "pos": "adv"
+  },
+  {
+   "de": "(sich) weigern",
+   "lemma": "(sich) weigern",
+   "art": "",
+   "pl": "",
+   "forms": "weigerte sich, hat sich geweigert",
+   "ipa": "[ˈvaɪ̯ɡɐn]",
+   "ru": "отказываться",
+   "pos": "phrase"
+  },
+  {
+   "de": "versprechen",
+   "lemma": "versprechen",
+   "art": "",
+   "pl": "",
+   "forms": "verspricht, versprach, hat versprochen",
+   "ipa": "[fɛɐ̯ˈʃpʁɛçən]",
+   "ru": "обещать",
+   "pos": "verb"
+  },
+  {
+   "de": "auffordern",
+   "lemma": "auffordern",
+   "art": "",
+   "pl": "",
+   "forms": "fordert auf, forderte auf, hat aufgefordert",
+   "ipa": "[ˈaʊ̯fˌfɔʁdɐn]",
+   "ru": "призывать",
+   "pos": "verb"
+  },
+  {
+   "de": "zwingen",
+   "lemma": "zwingen",
+   "art": "",
+   "pl": "",
+   "forms": "zwingt, zwang, hat gezwungen",
+   "ipa": "[ˈtsvɪŋən]",
+   "ru": "заставлять",
+   "pos": "verb"
+  },
+  {
+   "de": "der Zweck",
+   "lemma": "Zweck",
+   "art": "der",
+   "pl": "die Zwecke",
+   "forms": "",
+   "ipa": "[tsvɛk]",
+   "ru": "цель, назначение",
+   "pos": "noun"
+  },
+  {
+   "de": "das Niveau",
+   "lemma": "Niveau",
+   "art": "das",
+   "pl": "die Niveaus",
+   "forms": "",
+   "ipa": "[niˈvoː]",
+   "ru": "уровень",
+   "pos": "noun"
+  },
+  {
+   "de": "der Einstufungstest",
+   "lemma": "Einstufungstest",
+   "art": "der",
+   "pl": "die Einstufungstests",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nʃtuːfʊŋsˌtɛst]",
+   "ru": "тест на уровень",
+   "pos": "noun"
+  },
+  {
+   "de": "der Teilnehmer",
+   "lemma": "Teilnehmer",
+   "art": "der",
+   "pl": "die Teilnehmer",
+   "forms": "",
+   "ipa": "[ˈtaɪ̯lˌneːmɐ]",
+   "ru": "участник",
+   "pos": "noun"
+  },
+  {
+   "de": "die Teilnehmerin",
+   "lemma": "Teilnehmerin",
+   "art": "die",
+   "pl": "die Teilnehmerinnen",
+   "forms": "",
+   "ipa": "[ˈtaɪ̯lˌneːməʁɪn]",
+   "ru": "участница",
+   "pos": "noun"
+  },
+  {
+   "de": "der Abendkurs",
+   "lemma": "Abendkurs",
+   "art": "der",
+   "pl": "die Abendkurse",
+   "forms": "",
+   "ipa": "[ˈaːbəntˌkʊʁs]",
+   "ru": "вечерние курсы",
+   "pos": "noun"
+  },
+  {
+   "de": "der Abiturient",
+   "lemma": "Abiturient",
+   "art": "der",
+   "pl": "die Abiturienten; Genitiv: des Abiturienten",
+   "forms": "",
+   "ipa": "[abituˈʁi̯ɛnt]",
+   "ru": "выпускник школы",
+   "pos": "noun"
+  },
+  {
+   "de": "ausreichend",
+   "lemma": "ausreichend",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sˌʁaɪ̯çənt]",
+   "ru": "достаточный; «достаточно» (оценка 4)",
+   "pos": "adv"
+  },
+  {
+   "de": "der Berater",
+   "lemma": "Berater",
+   "art": "der",
+   "pl": "die Berater",
+   "forms": "",
+   "ipa": "[bəˈʁaːtɐ]",
+   "ru": "консультант",
+   "pos": "noun"
+  },
+  {
+   "de": "der Dozent",
+   "lemma": "Dozent",
+   "art": "der",
+   "pl": "die Dozenten; Genitiv: des Dozenten",
+   "forms": "",
+   "ipa": "[doˈtsɛnt]",
+   "ru": "преподаватель (вуза, курсов)",
+   "pos": "noun"
+  },
+  {
+   "de": "führen",
+   "lemma": "führen",
+   "art": "",
+   "pl": "",
+   "forms": "führt, führte, hat geführt",
+   "ipa": "[ˈfyːʁən]",
+   "ru": "вести",
+   "pos": "verb"
+  },
+  {
+   "de": "die Lektion",
+   "lemma": "Lektion",
+   "art": "die",
+   "pl": "die Lektionen",
+   "forms": "",
+   "ipa": "[lɛkˈtsi̯oːn]",
+   "ru": "урок (раздел учебника)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Vorlesung",
+   "lemma": "Vorlesung",
+   "art": "die",
+   "pl": "die Vorlesungen",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯ˌleːzʊŋ]",
+   "ru": "лекция",
+   "pos": "noun"
+  },
+  {
+   "de": "die Nachricht",
+   "lemma": "Nachricht",
+   "art": "die",
+   "pl": "die Nachrichten (также: новости)",
+   "forms": "",
+   "ipa": "[ˈnaːxˌʁɪçt]",
+   "ru": "сообщение",
+   "pos": "noun"
+  },
+  {
+   "de": "planen",
+   "lemma": "planen",
+   "art": "",
+   "pl": "",
+   "forms": "plant, plante, hat geplant",
+   "ipa": "[ˈplaːnən]",
+   "ru": "планировать",
+   "pos": "verb"
+  },
+  {
+   "de": "spüren",
+   "lemma": "spüren",
+   "art": "",
+   "pl": "",
+   "forms": "spürt, spürte, hat gespürt",
+   "ipa": "[ˈʃpyːʁən]",
+   "ru": "чувствовать, ощущать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Studienbewerber",
+   "lemma": "Studienbewerber",
+   "art": "der",
+   "pl": "die Studienbewerber",
+   "forms": "",
+   "ipa": "[ˈʃtuːdi̯ənbəˌvɛʁbɐ]",
+   "ru": "поступающий в вуз",
+   "pos": "noun"
+  },
+  {
+   "de": "das Studio",
+   "lemma": "Studio",
+   "art": "das",
+   "pl": "die Studios",
+   "forms": "",
+   "ipa": "[ˈʃtuːdi̯o]",
+   "ru": "студия",
+   "pos": "noun"
+  },
+  {
+   "de": "der Text",
+   "lemma": "Text",
+   "art": "der",
+   "pl": "die Texte",
+   "forms": "",
+   "ipa": "[tɛkst]",
+   "ru": "текст",
+   "pos": "noun"
+  },
+  {
+   "de": "die Volkshochschule",
+   "lemma": "Volkshochschule",
+   "art": "die",
+   "pl": "die Volkshochschulen",
+   "forms": "",
+   "ipa": "[ˈfɔlkshoːxˌʃuːlə]",
+   "ru": "народный университет (курсы для взрослых)",
+   "pos": "noun"
+  },
+  {
+   "de": "der Zirkel",
+   "lemma": "Zirkel",
+   "art": "der",
+   "pl": "die Zirkel",
+   "forms": "",
+   "ipa": "[ˈtsɪʁkəl]",
+   "ru": "циркуль; кружок",
+   "pos": "noun"
+  },
+  {
+   "de": "die Zusammenfassung",
+   "lemma": "Zusammenfassung",
+   "art": "die",
+   "pl": "die Zusammenfassungen",
+   "forms": "",
+   "ipa": "[tsuˈzamənˌfasʊŋ]",
+   "ru": "краткое изложение",
+   "pos": "noun"
+  },
+  {
+   "de": "um … zu",
+   "lemma": "um … zu",
+   "art": "",
+   "pl": "",
+   "forms": "+ Infinitiv",
+   "ipa": "[ʊm … tsuː]",
+   "ru": "чтобы (с тем же подлежащим)",
+   "pos": "phrase"
+  },
+  {
+   "de": "damit",
+   "lemma": "damit",
+   "art": "",
+   "pl": "",
+   "forms": "союз, глагол в конце",
+   "ipa": "[daˈmɪt]",
+   "ru": "чтобы (с новым подлежащим)",
+   "pos": "adv"
+  },
+  {
+   "de": "erst",
+   "lemma": "erst",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[eːɐ̯st]",
+   "ru": "только (не раньше); сначала",
+   "pos": "adv"
+  }
+ ]
+}

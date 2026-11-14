@@ -1,0 +1,108 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 29",
+ "sub": "Пять заданий в конце урока 29: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 29,
+  "s": "29.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "build",
+   "title": "Проверь себя 29.C: переведи",
+   "sub": "Соберите фразы без таблицы. Где задано начало, сохраните его.",
+   "items": [
+    {
+     "ru": "Поставьте фразу из объявления в Perfekt; начните с подлежащего: Der Eingang wird gereinigt.",
+     "w": [
+      "Der",
+      "Eingang",
+      "ist",
+      "gereinigt",
+      "worden"
+     ],
+     "ok": [
+      "Der Eingang ist gereinigt worden"
+     ],
+     "n": "Вспомогательный <b>sein</b> и конечное <b>worden</b> образуют пассивный Perfekt."
+    },
+    {
+     "ru": "Передайте пассивом план, начиная с Das Dach: Die Eigentümerin will das Dach reparieren.",
+     "w": [
+      "Das",
+      "Dach",
+      "soll",
+      "repariert",
+      "werden"
+     ],
+     "ok": [
+      "Das Dach soll repariert werden"
+     ],
+     "n": "План принадлежит хозяйке, поэтому <b>soll</b>."
+    },
+    {
+     "ru": "«Нам ничего не сказали о лифте». Постройте пассив с sagen и über, начиная с Uns.",
+     "w": [
+      "Uns",
+      "wurde",
+      "nichts",
+      "über",
+      "den",
+      "Aufzug",
+      "gesagt"
+     ],
+     "ok": [
+      "Uns wurde nichts über den Aufzug gesagt"
+     ],
+     "n": "Получатели остаются в Dativ; <b>nichts</b> — подлежащее, поэтому глагол в единственном числе."
+    },
+    {
+     "ru": "Перескажите с man, начните с него: Der alte Drucker wird ersetzt.",
+     "w": [
+      "Man",
+      "ersetzt",
+      "den",
+      "alten",
+      "Drucker"
+     ],
+     "ok": [
+      "Man ersetzt den alten Drucker"
+     ],
+     "n": "Актив возвращает Akkusativ: <b>den alten Drucker</b>."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  },
+  {
+   "type": "type",
+   "title": "Проверь себя 29.C: впиши",
+   "sub": "Соберите фразы без таблицы. Где задано начало, сохраните его.",
+   "items": [
+    {
+     "s": "дверь сейчас запирают; дверь уже заперта. Заполните обе формы: Die Tür ___ abgeschlossen. Die Tür … schon abgeschlossen.",
+     "ru": "Возьмите abschließen",
+     "a": [
+      "wird"
+     ],
+     "hint": "",
+     "n": "Первое предложение описывает действие, второе — состояние."
+    },
+    {
+     "s": "дверь сейчас запирают; дверь уже заперта. Заполните обе формы: Die Tür wird abgeschlossen. Die Tür ___ schon abgeschlossen.",
+     "ru": "Возьмите abschließen",
+     "a": [
+      "ist"
+     ],
+     "hint": "",
+     "n": "Первое предложение описывает действие, второе — состояние."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  }
+ ]
+}

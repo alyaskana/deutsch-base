@@ -1,0 +1,745 @@
+{
+ "l": 22,
+ "words": [
+  {
+   "de": "die Hitze",
+   "lemma": "Hitze",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈhɪtsə]",
+   "ru": "жара",
+   "pos": "noun"
+  },
+  {
+   "de": "der Nebel",
+   "lemma": "Nebel",
+   "art": "der",
+   "pl": "die Nebel",
+   "forms": "",
+   "ipa": "[ˈneːbəl]",
+   "ru": "туман",
+   "pos": "noun"
+  },
+  {
+   "de": "das Klima",
+   "lemma": "Klima",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈkliːma]",
+   "ru": "климат",
+   "pos": "noun"
+  },
+  {
+   "de": "die Temperatur",
+   "lemma": "Temperatur",
+   "art": "die",
+   "pl": "die Temperaturen",
+   "forms": "",
+   "ipa": "[tɛmpəʁaˈtuːɐ̯]",
+   "ru": "температура",
+   "pos": "noun"
+  },
+  {
+   "de": "der Sturm",
+   "lemma": "Sturm",
+   "art": "der",
+   "pl": "die Stürme",
+   "forms": "",
+   "ipa": "[ʃtʊʁm]",
+   "ru": "буря, шторм",
+   "pos": "noun"
+  },
+  {
+   "de": "feucht",
+   "lemma": "feucht",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fɔʏ̯çt]",
+   "ru": "влажный",
+   "pos": "adj"
+  },
+  {
+   "de": "mild",
+   "lemma": "mild",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[mɪlt]",
+   "ru": "мягкий (о погоде)",
+   "pos": "adj"
+  },
+  {
+   "de": "frieren",
+   "lemma": "frieren",
+   "art": "",
+   "pl": "",
+   "forms": "friert, fror, hat / ist gefroren",
+   "ipa": "[ˈfʁiːʁən]",
+   "ru": "мёрзнуть, замерзать",
+   "pos": "verb"
+  },
+  {
+   "de": "blitzen",
+   "lemma": "blitzen",
+   "art": "",
+   "pl": "",
+   "forms": "es blitzt, blitzte, hat geblitzt",
+   "ipa": "[ˈblɪtsən]",
+   "ru": "сверкать (о молнии)",
+   "pos": "verb"
+  },
+  {
+   "de": "donnern",
+   "lemma": "donnern",
+   "art": "",
+   "pl": "",
+   "forms": "es donnert, donnerte, hat gedonnert",
+   "ipa": "[ˈdɔnɐn]",
+   "ru": "греметь (о громе)",
+   "pos": "verb"
+  },
+  {
+   "de": "hageln",
+   "lemma": "hageln",
+   "art": "",
+   "pl": "",
+   "forms": "es hagelt, hagelte, hat gehagelt",
+   "ipa": "[ˈhaːɡəln]",
+   "ru": "идти (о граде)",
+   "pos": "verb"
+  },
+  {
+   "de": "die Umwelt",
+   "lemma": "Umwelt",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈʊmvɛlt]",
+   "ru": "окружающая среда",
+   "pos": "noun"
+  },
+  {
+   "de": "die Energie",
+   "lemma": "Energie",
+   "art": "die",
+   "pl": "die Energien",
+   "forms": "",
+   "ipa": "[enɛʁˈɡiː]",
+   "ru": "энергия",
+   "pos": "noun"
+  },
+  {
+   "de": "der Strom",
+   "lemma": "Strom",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ʃtʁoːm]",
+   "ru": "электричество, ток",
+   "pos": "noun"
+  },
+  {
+   "de": "die Erde",
+   "lemma": "Erde",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈeːɐ̯də]",
+   "ru": "земля, Земля",
+   "pos": "noun"
+  },
+  {
+   "de": "die Luft",
+   "lemma": "Luft",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[lʊft]",
+   "ru": "воздух",
+   "pos": "noun"
+  },
+  {
+   "de": "verbrauchen",
+   "lemma": "verbrauchen",
+   "art": "",
+   "pl": "",
+   "forms": "verbrauchte, hat verbraucht",
+   "ipa": "[fɛɐ̯ˈbʁaʊ̯xən]",
+   "ru": "потреблять",
+   "pos": "verb"
+  },
+  {
+   "de": "der Herbst",
+   "lemma": "Herbst",
+   "art": "der",
+   "pl": "die Herbste",
+   "forms": "",
+   "ipa": "[hɛʁpst]",
+   "ru": "осень",
+   "pos": "noun"
+  },
+  {
+   "de": "die Zukunft",
+   "lemma": "Zukunft",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈtsuːkʊnft]",
+   "ru": "будущее",
+   "pos": "noun"
+  },
+  {
+   "de": "zukünftig",
+   "lemma": "zukünftig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈtsuːkʏnftɪç]",
+   "ru": "будущий, впредь",
+   "pos": "adj"
+  },
+  {
+   "de": "voraussichtlich",
+   "lemma": "voraussichtlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[foˈʁaʊ̯szɪçtlɪç]",
+   "ru": "предположительно",
+   "pos": "adv"
+  },
+  {
+   "de": "vorhaben",
+   "lemma": "vorhaben",
+   "art": "",
+   "pl": "",
+   "forms": "hat vor, hatte vor, hat vorgehabt",
+   "ipa": "[ˈfoːɐ̯haːbən]",
+   "ru": "собираться, планировать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Absicht",
+   "lemma": "Absicht",
+   "art": "die",
+   "pl": "die Absichten",
+   "forms": "",
+   "ipa": "[ˈapzɪçt]",
+   "ru": "намерение",
+   "pos": "noun"
+  },
+  {
+   "de": "die Chance",
+   "lemma": "Chance",
+   "art": "die",
+   "pl": "die Chancen",
+   "forms": "",
+   "ipa": "[ˈʃãːsə]",
+   "ru": "шанс",
+   "pos": "noun"
+  },
+  {
+   "de": "die Aussicht",
+   "lemma": "Aussicht",
+   "art": "die",
+   "pl": "die Aussichten",
+   "forms": "",
+   "ipa": "[ˈaʊ̯szɪçt]",
+   "ru": "вид, перспектива",
+   "pos": "noun"
+  },
+  {
+   "de": "die Voraussetzung",
+   "lemma": "Voraussetzung",
+   "art": "die",
+   "pl": "die Voraussetzungen",
+   "forms": "",
+   "ipa": "[foˈʁaʊ̯szɛtsʊŋ]",
+   "ru": "предпосылка, условие",
+   "pos": "noun"
+  },
+  {
+   "de": "die Qualifikation",
+   "lemma": "Qualifikation",
+   "art": "die",
+   "pl": "die Qualifikationen",
+   "forms": "",
+   "ipa": "[kvalifikaˈtsi̯oːn]",
+   "ru": "квалификация",
+   "pos": "noun"
+  },
+  {
+   "de": "der Betrieb",
+   "lemma": "Betrieb",
+   "art": "der",
+   "pl": "die Betriebe",
+   "forms": "",
+   "ipa": "[bəˈtʁiːp]",
+   "ru": "предприятие",
+   "pos": "noun"
+  },
+  {
+   "de": "die Abteilung",
+   "lemma": "Abteilung",
+   "art": "die",
+   "pl": "die Abteilungen",
+   "forms": "",
+   "ipa": "[apˈtaɪ̯lʊŋ]",
+   "ru": "отдел",
+   "pos": "noun"
+  },
+  {
+   "de": "der Lohn",
+   "lemma": "Lohn",
+   "art": "der",
+   "pl": "die Löhne",
+   "forms": "",
+   "ipa": "[loːn]",
+   "ru": "зарплата",
+   "pos": "noun"
+  },
+  {
+   "de": "das Einkommen",
+   "lemma": "Einkommen",
+   "art": "das",
+   "pl": "die Einkommen",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nkɔmən]",
+   "ru": "доход",
+   "pos": "noun"
+  },
+  {
+   "de": "die Überstunde",
+   "lemma": "Überstunde",
+   "art": "die",
+   "pl": "die Überstunden",
+   "forms": "",
+   "ipa": "[ˈyːbɐʃtʊndə]",
+   "ru": "сверхурочный час",
+   "pos": "noun"
+  },
+  {
+   "de": "die Wirtschaft",
+   "lemma": "Wirtschaft",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈvɪʁtʃaft]",
+   "ru": "экономика",
+   "pos": "noun"
+  },
+  {
+   "de": "die Industrie",
+   "lemma": "Industrie",
+   "art": "die",
+   "pl": "die Industrien",
+   "forms": "",
+   "ipa": "[ɪndʊsˈtʁiː]",
+   "ru": "промышленность",
+   "pos": "noun"
+  },
+  {
+   "de": "die Technik",
+   "lemma": "Technik",
+   "art": "die",
+   "pl": "die Techniken",
+   "forms": "",
+   "ipa": "[ˈtɛçnɪk]",
+   "ru": "техника, технология",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fortschritt",
+   "lemma": "Fortschritt",
+   "art": "der",
+   "pl": "die Fortschritte",
+   "forms": "",
+   "ipa": "[ˈfɔʁtʃʁɪt]",
+   "ru": "прогресс",
+   "pos": "noun"
+  },
+  {
+   "de": "die Forschung",
+   "lemma": "Forschung",
+   "art": "die",
+   "pl": "die Forschungen",
+   "forms": "",
+   "ipa": "[ˈfɔʁʃʊŋ]",
+   "ru": "исследования, наука",
+   "pos": "noun"
+  },
+  {
+   "de": "die Studie",
+   "lemma": "Studie",
+   "art": "die",
+   "pl": "die Studien",
+   "forms": "",
+   "ipa": "[ˈʃtuːdi̯ə]",
+   "ru": "исследование (работа)",
+   "pos": "noun"
+  },
+  {
+   "de": "das Risiko",
+   "lemma": "Risiko",
+   "art": "das",
+   "pl": "die Risiken",
+   "forms": "",
+   "ipa": "[ˈʁiːziko]",
+   "ru": "риск",
+   "pos": "noun"
+  },
+  {
+   "de": "die Rente",
+   "lemma": "Rente",
+   "art": "die",
+   "pl": "die Renten",
+   "forms": "",
+   "ipa": "[ˈʁɛntə]",
+   "ru": "пенсия",
+   "pos": "noun"
+  },
+  {
+   "de": "der Ingenieur",
+   "lemma": "Ingenieur",
+   "art": "der",
+   "pl": "die Ingenieure",
+   "forms": "",
+   "ipa": "[ɪnʒeˈni̯øːɐ̯]",
+   "ru": "инженер",
+   "pos": "noun"
+  },
+  {
+   "de": "optimistisch",
+   "lemma": "optimistisch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɔptiˈmɪstɪʃ]",
+   "ru": "оптимистичный",
+   "pos": "adj"
+  },
+  {
+   "de": "(sich) verändern",
+   "lemma": "(sich) verändern",
+   "art": "",
+   "pl": "",
+   "forms": "veränderte sich, hat sich verändert",
+   "ipa": "[fɛɐ̯ˈʔɛndɐn]",
+   "ru": "меняться",
+   "pos": "phrase"
+  },
+  {
+   "de": "zunehmen",
+   "lemma": "zunehmen",
+   "art": "",
+   "pl": "",
+   "forms": "nimmt zu, nahm zu, hat zugenommen",
+   "ipa": "[ˈtsuːneːmən]",
+   "ru": "увеличиваться, поправляться",
+   "pos": "verb"
+  },
+  {
+   "de": "steigen",
+   "lemma": "steigen",
+   "art": "",
+   "pl": "",
+   "forms": "steigt, stieg, ist gestiegen",
+   "ipa": "[ˈʃtaɪ̯ɡən]",
+   "ru": "подниматься, расти",
+   "pos": "verb"
+  },
+  {
+   "de": "sinken",
+   "lemma": "sinken",
+   "art": "",
+   "pl": "",
+   "forms": "sinkt, sank, ist gesunken",
+   "ipa": "[ˈzɪŋkən]",
+   "ru": "снижаться",
+   "pos": "verb"
+  },
+  {
+   "de": "erhöhen",
+   "lemma": "erhöhen",
+   "art": "",
+   "pl": "",
+   "forms": "erhöhte, hat erhöht",
+   "ipa": "[ɛɐ̯ˈhøːən]",
+   "ru": "повышать",
+   "pos": "verb"
+  },
+  {
+   "de": "reduzieren",
+   "lemma": "reduzieren",
+   "art": "",
+   "pl": "",
+   "forms": "reduzierte, hat reduziert",
+   "ipa": "[ʁeduˈtsiːʁən]",
+   "ru": "сокращать",
+   "pos": "verb"
+  },
+  {
+   "de": "entwickeln",
+   "lemma": "entwickeln",
+   "art": "",
+   "pl": "",
+   "forms": "entwickelte, hat entwickelt",
+   "ipa": "[ɛntˈvɪkəln]",
+   "ru": "развивать, разрабатывать",
+   "pos": "verb"
+  },
+  {
+   "de": "beschließen",
+   "lemma": "beschließen",
+   "art": "",
+   "pl": "",
+   "forms": "beschließt, beschloss, hat beschlossen",
+   "ipa": "[bəˈʃliːsən]",
+   "ru": "решить, постановить",
+   "pos": "verb"
+  },
+  {
+   "de": "vermuten",
+   "lemma": "vermuten",
+   "art": "",
+   "pl": "",
+   "forms": "vermutete, hat vermutet",
+   "ipa": "[fɛɐ̯ˈmuːtən]",
+   "ru": "предполагать",
+   "pos": "verb"
+  },
+  {
+   "de": "wohl",
+   "lemma": "wohl",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[voːl]",
+   "ru": "наверное (частица)",
+   "pos": "adv"
+  },
+  {
+   "de": "eventuell",
+   "lemma": "eventuell",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[evɛntuˈɛl]",
+   "ru": "возможно",
+   "pos": "adv"
+  },
+  {
+   "de": "eher",
+   "lemma": "eher",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈeːɐ]",
+   "ru": "скорее",
+   "pos": "adv"
+  },
+  {
+   "de": "sobald",
+   "lemma": "sobald",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[zoˈbalt]",
+   "ru": "как только",
+   "pos": "adv"
+  },
+  {
+   "de": "die Prognose",
+   "lemma": "Prognose",
+   "art": "die",
+   "pl": "die Prognosen",
+   "forms": "",
+   "ipa": "[pʁoˈɡnoːzə]",
+   "ru": "прогноз",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ingenieurin",
+   "lemma": "Ingenieurin",
+   "art": "die",
+   "pl": "die Ingenieurinnen",
+   "forms": "",
+   "ipa": "[ɪnʒeˈni̯øːʁɪn]",
+   "ru": "инженер (о женщине)",
+   "pos": "noun"
+  },
+  {
+   "de": "werden",
+   "lemma": "werden",
+   "art": "",
+   "pl": "",
+   "forms": "wird, wurde, ist geworden",
+   "ipa": "[ˈveːɐ̯dən]",
+   "ru": "становиться; буду (будущее время)",
+   "pos": "verb"
+  },
+  {
+   "de": "die Art-Directorin",
+   "lemma": "Art-Directorin",
+   "art": "die",
+   "pl": "die Art-Directorinnen",
+   "forms": "",
+   "ipa": "[ˈaːɐ̯t daɪ̯ˌʁɛktəʁɪn]",
+   "ru": "арт-директор (о женщине)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ausschreibung",
+   "lemma": "Ausschreibung",
+   "art": "die",
+   "pl": "die Ausschreibungen",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sˌʃʁaɪ̯bʊŋ]",
+   "ru": "конкурс на заказ, тендер",
+   "pos": "noun"
+  },
+  {
+   "de": "der Besitz",
+   "lemma": "Besitz",
+   "art": "der",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[bəˈzɪts]",
+   "ru": "имущество, владение",
+   "pos": "noun"
+  },
+  {
+   "de": "bestimmt",
+   "lemma": "bestimmt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bəˈʃtɪmt]",
+   "ru": "наверняка, точно",
+   "pos": "adv"
+  },
+  {
+   "de": "demnächst",
+   "lemma": "demnächst",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[deːmˈnɛːçst]",
+   "ru": "вскоре",
+   "pos": "adv"
+  },
+  {
+   "de": "die Einkünfte",
+   "lemma": "Einkünfte",
+   "art": "die",
+   "pl": "",
+   "forms": "только множественное число",
+   "ipa": "[ˈaɪ̯nˌkʏnftə]",
+   "ru": "доходы",
+   "pos": "noun"
+  },
+  {
+   "de": "das Eis",
+   "lemma": "Eis",
+   "art": "das",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[aɪ̯s]",
+   "ru": "лёд; мороженое",
+   "pos": "noun"
+  },
+  {
+   "de": "gerade",
+   "lemma": "gerade",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəˈʁaːdə]",
+   "ru": "сейчас, как раз; прямой",
+   "pos": "adv"
+  },
+  {
+   "de": "der Kapitalertrag",
+   "lemma": "Kapitalertrag",
+   "art": "der",
+   "pl": "die Kapitalerträge",
+   "forms": "",
+   "ipa": "[kapiˈtaːlʔɛɐ̯ˌtʁaːk]",
+   "ru": "доход от капитала",
+   "pos": "noun"
+  },
+  {
+   "de": "der Konkurs",
+   "lemma": "Konkurs",
+   "art": "der",
+   "pl": "die Konkurse",
+   "forms": "",
+   "ipa": "[kɔnˈkʊʁs]",
+   "ru": "банкротство",
+   "pos": "noun"
+  },
+  {
+   "de": "minus",
+   "lemma": "minus",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈmiːnʊs]",
+   "ru": "минус",
+   "pos": "adv"
+  },
+  {
+   "de": "regelmäßig",
+   "lemma": "regelmäßig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʁeːɡəlˌmɛːsɪç]",
+   "ru": "регулярный, регулярно",
+   "pos": "adj"
+  },
+  {
+   "de": "verrückt",
+   "lemma": "verrückt",
+   "art": "",
+   "pl": "",
+   "forms": "verrückt werden = сходить с ума",
+   "ipa": "[fɛɐ̯ˈʁʏkt]",
+   "ru": "сумасшедший",
+   "pos": "adj"
+  },
+  {
+   "de": "der Wettbewerb",
+   "lemma": "Wettbewerb",
+   "art": "der",
+   "pl": "die Wettbewerbe",
+   "forms": "",
+   "ipa": "[ˈvɛtbəˌvɛʁp]",
+   "ru": "конкурс, соревнование",
+   "pos": "noun"
+  },
+  {
+   "de": "die Zeitnot",
+   "lemma": "Zeitnot",
+   "art": "die",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[ˈtsaɪ̯tˌnoːt]",
+   "ru": "нехватка времени",
+   "pos": "noun"
+  },
+  {
+   "de": "künftig",
+   "lemma": "künftig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈkʏnftɪç]",
+   "ru": "впредь, в будущем",
+   "pos": "adv"
+  }
+ ]
+}

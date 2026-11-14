@@ -1,0 +1,655 @@
+{
+ "l": 23,
+ "words": [
+  {
+   "de": "die Unterlagen",
+   "lemma": "Unterlagen",
+   "art": "die",
+   "pl": "",
+   "forms": "только множественное число",
+   "ipa": "[ˈʊntɐlaːɡən]",
+   "ru": "документы, бумаги",
+   "pos": "noun"
+  },
+  {
+   "de": "die Konferenz",
+   "lemma": "Konferenz",
+   "art": "die",
+   "pl": "die Konferenzen",
+   "forms": "",
+   "ipa": "[kɔnfeˈʁɛnts]",
+   "ru": "совещание, конференция",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kantine",
+   "lemma": "Kantine",
+   "art": "die",
+   "pl": "die Kantinen",
+   "forms": "",
+   "ipa": "[kanˈtiːnə]",
+   "ru": "столовая на работе",
+   "pos": "noun"
+  },
+  {
+   "de": "die Sekretärin",
+   "lemma": "Sekretärin",
+   "art": "die",
+   "pl": "die Sekretärinnen",
+   "forms": "",
+   "ipa": "[zekʁeˈtɛːʁɪn]",
+   "ru": "секретарь (женщина)",
+   "pos": "noun"
+  },
+  {
+   "de": "ausdrucken",
+   "lemma": "ausdrucken",
+   "art": "",
+   "pl": "",
+   "forms": "druckt aus, druckte aus, hat ausgedruckt",
+   "ipa": "[ˈaʊ̯sdʁʊkən]",
+   "ru": "распечатать",
+   "pos": "verb"
+  },
+  {
+   "de": "kopieren",
+   "lemma": "kopieren",
+   "art": "",
+   "pl": "",
+   "forms": "kopierte, hat kopiert",
+   "ipa": "[koˈpiːʁən]",
+   "ru": "копировать",
+   "pos": "verb"
+  },
+  {
+   "de": "erledigen",
+   "lemma": "erledigen",
+   "art": "",
+   "pl": "",
+   "forms": "erledigte, hat erledigt",
+   "ipa": "[ɛɐ̯ˈleːdɪɡən]",
+   "ru": "сделать, уладить",
+   "pos": "verb"
+  },
+  {
+   "de": "absagen",
+   "lemma": "absagen",
+   "art": "",
+   "pl": "",
+   "forms": "sagt ab, sagte ab, hat abgesagt",
+   "ipa": "[ˈapzaːɡən]",
+   "ru": "отменить, отказаться",
+   "pos": "verb"
+  },
+  {
+   "de": "zusagen",
+   "lemma": "zusagen",
+   "art": "",
+   "pl": "",
+   "forms": "sagt zu, sagte zu, hat zugesagt",
+   "ipa": "[ˈtsuːzaːɡən]",
+   "ru": "дать согласие",
+   "pos": "verb"
+  },
+  {
+   "de": "ausrichten",
+   "lemma": "ausrichten",
+   "art": "",
+   "pl": "",
+   "forms": "richtet aus, richtete aus, hat ausgerichtet",
+   "ipa": "[ˈaʊ̯sʁɪçtən]",
+   "ru": "передать сообщение",
+   "pos": "verb"
+  },
+  {
+   "de": "mitteilen",
+   "lemma": "mitteilen",
+   "art": "",
+   "pl": "",
+   "forms": "teilt mit, teilte mit, hat mitgeteilt",
+   "ipa": "[ˈmɪttaɪ̯lən]",
+   "ru": "сообщить",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) erkundigen",
+   "lemma": "(sich) erkundigen",
+   "art": "",
+   "pl": "",
+   "forms": "erkundigte sich, hat sich erkundigt",
+   "ipa": "[ɛɐ̯ˈkʊndɪɡən]",
+   "ru": "осведомиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "benötigen",
+   "lemma": "benötigen",
+   "art": "",
+   "pl": "",
+   "forms": "benötigte, hat benötigt",
+   "ipa": "[bəˈnøːtɪɡən]",
+   "ru": "нуждаться",
+   "pos": "verb"
+  },
+  {
+   "de": "besorgen",
+   "lemma": "besorgen",
+   "art": "",
+   "pl": "",
+   "forms": "besorgte, hat besorgt",
+   "ipa": "[bəˈzɔʁɡən]",
+   "ru": "достать, раздобыть",
+   "pos": "verb"
+  },
+  {
+   "de": "ergänzen",
+   "lemma": "ergänzen",
+   "art": "",
+   "pl": "",
+   "forms": "ergänzte, hat ergänzt",
+   "ipa": "[ɛɐ̯ˈɡɛntsən]",
+   "ru": "дополнить",
+   "pos": "verb"
+  },
+  {
+   "de": "überprüfen",
+   "lemma": "überprüfen",
+   "art": "",
+   "pl": "",
+   "forms": "überprüfte, hat überprüft",
+   "ipa": "[yːbɐˈpʁyːfən]",
+   "ru": "проверить",
+   "pos": "verb"
+  },
+  {
+   "de": "unterbrechen",
+   "lemma": "unterbrechen",
+   "art": "",
+   "pl": "",
+   "forms": "unterbricht, unterbrach, hat unterbrochen",
+   "ipa": "[ʊntɐˈbʁɛçən]",
+   "ru": "прервать",
+   "pos": "verb"
+  },
+  {
+   "de": "vertreten",
+   "lemma": "vertreten",
+   "art": "",
+   "pl": "",
+   "forms": "vertritt, vertrat, hat vertreten",
+   "ipa": "[fɛɐ̯ˈtʁeːtən]",
+   "ru": "замещать, представлять",
+   "pos": "verb"
+  },
+  {
+   "de": "vorschlagen",
+   "lemma": "vorschlagen",
+   "art": "",
+   "pl": "",
+   "forms": "schlägt vor, schlug vor, hat vorgeschlagen",
+   "ipa": "[ˈfoːɐ̯ʃlaːɡən]",
+   "ru": "предложить",
+   "pos": "verb"
+  },
+  {
+   "de": "die Ausnahme",
+   "lemma": "Ausnahme",
+   "art": "die",
+   "pl": "die Ausnahmen",
+   "forms": "",
+   "ipa": "[ˈaʊ̯snaːmə]",
+   "ru": "исключение",
+   "pos": "noun"
+  },
+  {
+   "de": "die Gelegenheit",
+   "lemma": "Gelegenheit",
+   "art": "die",
+   "pl": "die Gelegenheiten",
+   "forms": "",
+   "ipa": "[ɡəˈleːɡənhaɪ̯t]",
+   "ru": "удобный случай",
+   "pos": "noun"
+  },
+  {
+   "de": "die Geduld",
+   "lemma": "Geduld",
+   "art": "die",
+   "pl": "",
+   "forms": "без множественного числа",
+   "ipa": "[ɡəˈdʊlt]",
+   "ru": "терпение",
+   "pos": "noun"
+  },
+  {
+   "de": "die Mühe",
+   "lemma": "Mühe",
+   "art": "die",
+   "pl": "die Mühen",
+   "forms": "",
+   "ipa": "[ˈmyːə]",
+   "ru": "усилие, труд",
+   "pos": "noun"
+  },
+  {
+   "de": "(sich) bemühen",
+   "lemma": "(sich) bemühen",
+   "art": "",
+   "pl": "",
+   "forms": "bemühte sich, hat sich bemüht",
+   "ipa": "[bəˈmyːən]",
+   "ru": "стараться",
+   "pos": "phrase"
+  },
+  {
+   "de": "erleichtern",
+   "lemma": "erleichtern",
+   "art": "",
+   "pl": "",
+   "forms": "erleichterte, hat erleichtert",
+   "ipa": "[ɛɐ̯ˈlaɪ̯çtɐn]",
+   "ru": "облегчить",
+   "pos": "verb"
+  },
+  {
+   "de": "die Rücksicht",
+   "lemma": "Rücksicht",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈʁʏkzɪçt]",
+   "ru": "внимание к другим",
+   "pos": "noun"
+  },
+  {
+   "de": "höflich",
+   "lemma": "höflich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈhøːflɪç]",
+   "ru": "вежливый",
+   "pos": "adj"
+  },
+  {
+   "de": "peinlich",
+   "lemma": "peinlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈpaɪ̯nlɪç]",
+   "ru": "неловкий, стыдный",
+   "pos": "adj"
+  },
+  {
+   "de": "rechtzeitig",
+   "lemma": "rechtzeitig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʁɛçttsaɪ̯tɪç]",
+   "ru": "вовремя, заранее",
+   "pos": "adv"
+  },
+  {
+   "de": "falls",
+   "lemma": "falls",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fals]",
+   "ru": "в случае если",
+   "pos": "adv"
+  },
+  {
+   "de": "ideal",
+   "lemma": "ideal",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ideˈaːl]",
+   "ru": "идеальный",
+   "pos": "adj"
+  },
+  {
+   "de": "die Fantasie",
+   "lemma": "Fantasie",
+   "art": "die",
+   "pl": "die Fantasien",
+   "forms": "",
+   "ipa": "[fantaˈziː]",
+   "ru": "фантазия",
+   "pos": "noun"
+  },
+  {
+   "de": "das Wunder",
+   "lemma": "Wunder",
+   "art": "das",
+   "pl": "die Wunder",
+   "forms": "",
+   "ipa": "[ˈvʊndɐ]",
+   "ru": "чудо",
+   "pos": "noun"
+  },
+  {
+   "de": "vergeblich",
+   "lemma": "vergeblich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈɡeːplɪç]",
+   "ru": "напрасный",
+   "pos": "adj"
+  },
+  {
+   "de": "die Laune",
+   "lemma": "Laune",
+   "art": "die",
+   "pl": "die Launen",
+   "forms": "",
+   "ipa": "[ˈlaʊ̯nə]",
+   "ru": "настроение",
+   "pos": "noun"
+  },
+  {
+   "de": "der Bedarf",
+   "lemma": "Bedarf",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[bəˈdaʁf]",
+   "ru": "потребность",
+   "pos": "noun"
+  },
+  {
+   "de": "der Rat",
+   "lemma": "Rat",
+   "art": "der",
+   "pl": "обычно без множественного; несколько советов: die Ratschläge",
+   "forms": "",
+   "ipa": "[ʁaːt]",
+   "ru": "совет",
+   "pos": "noun"
+  },
+  {
+   "de": "(sich) erholen",
+   "lemma": "(sich) erholen",
+   "art": "",
+   "pl": "",
+   "forms": "erholte sich, hat sich erholt",
+   "ipa": "[ɛɐ̯ˈhoːlən]",
+   "ru": "отдохнуть, поправиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) erkälten",
+   "lemma": "(sich) erkälten",
+   "art": "",
+   "pl": "",
+   "forms": "erkältete sich, hat sich erkältet",
+   "ipa": "[ɛɐ̯ˈkɛltən]",
+   "ru": "простудиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "der Schnupfen",
+   "lemma": "Schnupfen",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈʃnʊpfən]",
+   "ru": "насморк",
+   "pos": "noun"
+  },
+  {
+   "de": "verschreiben",
+   "lemma": "verschreiben",
+   "art": "",
+   "pl": "",
+   "forms": "verschreibt, verschrieb, hat verschrieben",
+   "ipa": "[fɛɐ̯ˈʃʁaɪ̯bən]",
+   "ru": "выписать лекарство",
+   "pos": "verb"
+  },
+  {
+   "de": "die Salbe",
+   "lemma": "Salbe",
+   "art": "die",
+   "pl": "die Salben",
+   "forms": "",
+   "ipa": "[ˈzalbə]",
+   "ru": "мазь",
+   "pos": "noun"
+  },
+  {
+   "de": "die Therapie",
+   "lemma": "Therapie",
+   "art": "die",
+   "pl": "die Therapien",
+   "forms": "",
+   "ipa": "[teʁaˈpiː]",
+   "ru": "лечение, терапия",
+   "pos": "noun"
+  },
+  {
+   "de": "die Infektion",
+   "lemma": "Infektion",
+   "art": "die",
+   "pl": "die Infektionen",
+   "forms": "",
+   "ipa": "[ɪnfɛkˈtsi̯oːn]",
+   "ru": "инфекция",
+   "pos": "noun"
+  },
+  {
+   "de": "das Virus",
+   "lemma": "Virus",
+   "art": "das",
+   "pl": "die Viren",
+   "forms": "",
+   "ipa": "[ˈviːʁʊs]",
+   "ru": "вирус",
+   "pos": "noun"
+  },
+  {
+   "de": "schwitzen",
+   "lemma": "schwitzen",
+   "art": "",
+   "pl": "",
+   "forms": "schwitzte, hat geschwitzt",
+   "ipa": "[ˈʃvɪtsən]",
+   "ru": "потеть",
+   "pos": "verb"
+  },
+  {
+   "de": "atmen",
+   "lemma": "atmen",
+   "art": "",
+   "pl": "",
+   "forms": "atmete, hat geatmet",
+   "ipa": "[ˈaːtmən]",
+   "ru": "дышать",
+   "pos": "verb"
+  },
+  {
+   "de": "erschöpft",
+   "lemma": "erschöpft",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɛɐ̯ˈʃœpft]",
+   "ru": "измотанный",
+   "pos": "adj"
+  },
+  {
+   "de": "schaden",
+   "lemma": "schaden",
+   "art": "",
+   "pl": "",
+   "forms": "schadete, hat geschadet",
+   "ipa": "[ˈʃaːdən]",
+   "ru": "вредить",
+   "pos": "verb"
+  },
+  {
+   "de": "die Gewohnheit",
+   "lemma": "Gewohnheit",
+   "art": "die",
+   "pl": "die Gewohnheiten",
+   "forms": "",
+   "ipa": "[ɡəˈvoːnhaɪ̯t]",
+   "ru": "привычка",
+   "pos": "noun"
+  },
+  {
+   "de": "(sich) ernähren",
+   "lemma": "(sich) ernähren",
+   "art": "",
+   "pl": "",
+   "forms": "ernährte sich, hat sich ernährt",
+   "ipa": "[ɛɐ̯ˈnɛːʁən]",
+   "ru": "питаться",
+   "pos": "phrase"
+  },
+  {
+   "de": "die Diät",
+   "lemma": "Diät",
+   "art": "die",
+   "pl": "die Diäten",
+   "forms": "",
+   "ipa": "[diˈɛːt]",
+   "ru": "диета",
+   "pos": "noun"
+  },
+  {
+   "de": "das Vitamin",
+   "lemma": "Vitamin",
+   "art": "das",
+   "pl": "die Vitamine",
+   "forms": "",
+   "ipa": "[vitaˈmiːn]",
+   "ru": "витамин",
+   "pos": "noun"
+  },
+  {
+   "de": "abnehmen",
+   "lemma": "abnehmen",
+   "art": "",
+   "pl": "",
+   "forms": "nimmt ab, nahm ab, hat abgenommen",
+   "ipa": "[ˈapneːmən]",
+   "ru": "худеть, снимать трубку",
+   "pos": "verb"
+  },
+  {
+   "de": "früher",
+   "lemma": "früher",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfʁyːɐ]",
+   "ru": "раньше, прежде",
+   "pos": "adv"
+  },
+  {
+   "de": "das Attest",
+   "lemma": "Attest",
+   "art": "das",
+   "pl": "die Atteste",
+   "forms": "",
+   "ipa": "[aˈtɛst]",
+   "ru": "справка от врача",
+   "pos": "noun"
+  },
+  {
+   "de": "ärztlich",
+   "lemma": "ärztlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɛːɐ̯tstlɪç]",
+   "ru": "врачебный",
+   "pos": "adj"
+  },
+  {
+   "de": "der Kongress",
+   "lemma": "Kongress",
+   "art": "der",
+   "pl": "die Kongresse",
+   "forms": "",
+   "ipa": "[kɔnˈɡʁɛs]",
+   "ru": "конгресс",
+   "pos": "noun"
+  },
+  {
+   "de": "die Tagung",
+   "lemma": "Tagung",
+   "art": "die",
+   "pl": "die Tagungen",
+   "forms": "",
+   "ipa": "[ˈtaːɡʊŋ]",
+   "ru": "конференция, заседание",
+   "pos": "noun"
+  },
+  {
+   "de": "die Mappe",
+   "lemma": "Mappe",
+   "art": "die",
+   "pl": "die Mappen",
+   "forms": "",
+   "ipa": "[ˈmapə]",
+   "ru": "папка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Ordner",
+   "lemma": "Ordner",
+   "art": "der",
+   "pl": "die Ordner",
+   "forms": "",
+   "ipa": "[ˈɔʁdnɐ]",
+   "ru": "папка-регистратор",
+   "pos": "noun"
+  },
+  {
+   "de": "die Pappe",
+   "lemma": "Pappe",
+   "art": "die",
+   "pl": "die Pappen",
+   "forms": "",
+   "ipa": "[ˈpapə]",
+   "ru": "картон",
+   "pos": "noun"
+  },
+  {
+   "de": "die Präsentation",
+   "lemma": "Präsentation",
+   "art": "die",
+   "pl": "die Präsentationen",
+   "forms": "",
+   "ipa": "[pʁɛzɛntaˈtsi̯oːn]",
+   "ru": "презентация",
+   "pos": "noun"
+  },
+  {
+   "de": "die Spritze",
+   "lemma": "Spritze",
+   "art": "die",
+   "pl": "die Spritzen",
+   "forms": "",
+   "ipa": "[ˈʃpʁɪtsə]",
+   "ru": "шприц, укол",
+   "pos": "noun"
+  },
+  {
+   "de": "der Stift",
+   "lemma": "Stift",
+   "art": "der",
+   "pl": "die Stifte",
+   "forms": "",
+   "ipa": "[ʃtɪft]",
+   "ru": "ручка, карандаш",
+   "pos": "noun"
+  }
+ ]
+}

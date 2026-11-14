@@ -1,7 +1,7 @@
 {
  "title": "Вежливость: кто просит и кто помогает",
  "topic": "Книга · 9.5",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -121,5 +121,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Кто просит, кто помогает",
+   "sub": "Выберите начало по намерению",
+   "items": [
+    {
+     "s": "___ den Drucker benutzen?",
+     "ru": "Можно мне воспользоваться принтером?",
+     "o": [
+      "Darf ich",
+      "Können Sie"
+     ],
+     "a": "Darf ich",
+     "n": "Действую я — <b>Darf ich …?</b>"
+    },
+    {
+     "s": "___ bitte das Formular lesen?",
+     "ru": "Не могли бы вы прочитать бланк?",
+     "o": [
+      "Können Sie",
+      "Soll ich"
+     ],
+     "a": "Können Sie",
+     "n": "Действует собеседник — <b>Können Sie bitte …?</b>"
+    },
+    {
+     "s": "___ Papier holen?",
+     "ru": "Мне принести бумагу?",
+     "o": [
+      "Soll ich",
+      "Darf ich"
+     ],
+     "a": "Soll ich",
+     "n": "Предлагаю помощь — <b>Soll ich …?</b>"
+    },
+    {
+     "s": "___ Wasser?",
+     "ru": "Хотите воды?",
+     "o": [
+      "Möchten Sie",
+      "Wollen Sie"
+     ],
+     "a": "Möchten Sie",
+     "n": "Вежливо предложить — <b>Möchten Sie …?</b>"
+    },
+    {
+     "s": "___ das Fenster öffnen?",
+     "ru": "Можно открыть окно?",
+     "o": [
+      "Darf ich",
+      "Darf"
+     ],
+     "a": "Darf ich",
+     "n": "Подлежащее нужно: <s>Darf das Fenster öffnen?</s> — ошибка."
+    },
+    {
+     "s": "Soll ich ___?",
+     "ru": "Мне помочь?",
+     "o": [
+      "helfen",
+      "hilfe"
+     ],
+     "a": "helfen",
+     "n": "<b>Soll ich helfen?</b> — помогать буду я."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

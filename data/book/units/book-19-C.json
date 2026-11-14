@@ -1,0 +1,68 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 19",
+ "sub": "Пять заданий в конце урока 19: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 19,
+  "s": "19.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 19.C",
+   "sub": "Закройте таблицу. Впишите прилагательное целиком и объясните себе выбор формы.",
+   "items": [
+    {
+     "s": "Ich kaufe den ___ Rock.",
+     "ru": "",
+     "a": [
+      "blauen"
+     ],
+     "hint": "blau",
+     "n": "Мужской <b>Akkusativ</b> после <b>den</b>: слабое <b>-en</b>."
+    },
+    {
+     "s": "Ein ___ T-Shirt liegt hier.",
+     "ru": "",
+     "a": [
+      "gelbes"
+     ],
+     "hint": "gelb",
+     "n": "Средний <b>Nominativ</b> после <b>ein</b> без окончания: смешанное <b>-es</b>."
+    },
+    {
+     "s": "Ich wasche mich mit ___ Wasser.",
+     "ru": "",
+     "a": [
+      "warmem"
+     ],
+     "hint": "warm",
+     "n": "<b>Mit</b> даёт <b>Dativ</b>; <b>Wasser</b> среднего рода, артикля нет: сильное <b>-em</b>."
+    },
+    {
+     "s": "Die Hose ist zu ___ .",
+     "ru": "",
+     "a": [
+      "kurz"
+     ],
+     "hint": "kurz",
+     "n": "После <b>ist</b> прилагательное описывает состояние и не получает окончания."
+    },
+    {
+     "s": "Welchen Pullover nimmst du? Den ___ .",
+     "ru": "",
+     "a": [
+      "grünen"
+     ],
+     "hint": "grün",
+     "n": "<b>Pullover</b> пропущено, но мужской <b>Akkusativ</b> после <b>den</b> сохраняется: <b>-en</b>."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  }
+ ]
+}

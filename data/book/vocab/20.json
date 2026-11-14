@@ -1,0 +1,455 @@
+{
+ "l": 20,
+ "words": [
+  {
+   "de": "anders (als)",
+   "lemma": "anders (als)",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈandɐs]",
+   "ru": "иначе (чем)",
+   "pos": "phrase"
+  },
+  {
+   "de": "fast",
+   "lemma": "fast",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fast]",
+   "ru": "почти",
+   "pos": "adv"
+  },
+  {
+   "de": "sogar",
+   "lemma": "sogar",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[zoˈɡaːɐ̯]",
+   "ru": "даже",
+   "pos": "adv"
+  },
+  {
+   "de": "das Gegenteil",
+   "lemma": "Gegenteil",
+   "art": "das",
+   "pl": "die Gegenteile",
+   "forms": "",
+   "ipa": "[ˈɡeːɡənˌtaɪ̯l]",
+   "ru": "противоположность",
+   "pos": "noun"
+  },
+  {
+   "de": "vergleichen",
+   "lemma": "vergleichen",
+   "art": "",
+   "pl": "",
+   "forms": "vergleicht, hat verglichen",
+   "ipa": "[fɛɐ̯ˈɡlaɪ̯çən]",
+   "ru": "сравнивать",
+   "pos": "verb"
+  },
+  {
+   "de": "verschieden",
+   "lemma": "verschieden",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fɛɐ̯ˈʃiːdən]",
+   "ru": "разный",
+   "pos": "adj"
+  },
+  {
+   "de": "typisch",
+   "lemma": "typisch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈtyːpɪʃ]",
+   "ru": "типичный",
+   "pos": "adj"
+  },
+  {
+   "de": "gern",
+   "lemma": "gern",
+   "art": "",
+   "pl": "",
+   "forms": "lieber, am liebsten",
+   "ipa": "[ɡɛʁn]",
+   "ru": "охотно",
+   "pos": "adv"
+  },
+  {
+   "de": "eigen",
+   "lemma": "eigen",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈaɪ̯ɡən]",
+   "ru": "собственный",
+   "pos": "adj"
+  },
+  {
+   "de": "teilen",
+   "lemma": "teilen",
+   "art": "",
+   "pl": "",
+   "forms": "hat geteilt",
+   "ipa": "[ˈtaɪ̯lən]",
+   "ru": "делить",
+   "pos": "verb"
+  },
+  {
+   "de": "sparen",
+   "lemma": "sparen",
+   "art": "",
+   "pl": "",
+   "forms": "hat gespart",
+   "ipa": "[ˈʃpaːʁən]",
+   "ru": "экономить",
+   "pos": "verb"
+  },
+  {
+   "de": "modern",
+   "lemma": "modern",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[moˈdɛʁn]",
+   "ru": "современный",
+   "pos": "adj"
+  },
+  {
+   "de": "die Kultur",
+   "lemma": "Kultur",
+   "art": "die",
+   "pl": "die Kulturen",
+   "forms": "",
+   "ipa": "[kʊlˈtuːɐ̯]",
+   "ru": "культура",
+   "pos": "noun"
+  },
+  {
+   "de": "gefährlich",
+   "lemma": "gefährlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəˈfɛːɐ̯lɪç]",
+   "ru": "опасный",
+   "pos": "adj"
+  },
+  {
+   "de": "beliebt",
+   "lemma": "beliebt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bəˈliːpt]",
+   "ru": "популярный",
+   "pos": "adj"
+  },
+  {
+   "de": "interessant",
+   "lemma": "interessant",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɪntəʁɛˈsant]",
+   "ru": "интересный",
+   "pos": "adj"
+  },
+  {
+   "de": "kühl",
+   "lemma": "kühl",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[kyːl]",
+   "ru": "прохладный",
+   "pos": "adj"
+  },
+  {
+   "de": "trocken",
+   "lemma": "trocken",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈtʁɔkən]",
+   "ru": "сухой",
+   "pos": "adj"
+  },
+  {
+   "de": "der Schnee",
+   "lemma": "Schnee",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ʃneː]",
+   "ru": "снег",
+   "pos": "noun"
+  },
+  {
+   "de": "der Himmel",
+   "lemma": "Himmel",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ˈhɪməl]",
+   "ru": "небо",
+   "pos": "noun"
+  },
+  {
+   "de": "schneien",
+   "lemma": "schneien",
+   "art": "",
+   "pl": "",
+   "forms": "es schneit, hat geschneit",
+   "ipa": "[ˈʃnaɪ̯ən]",
+   "ru": "идти (о снеге)",
+   "pos": "verb"
+  },
+  {
+   "de": "neblig",
+   "lemma": "neblig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈneːblɪç]",
+   "ru": "туманный",
+   "pos": "adj"
+  },
+  {
+   "de": "tief",
+   "lemma": "tief",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[tiːf]",
+   "ru": "глубокий, низкий",
+   "pos": "adj"
+  },
+  {
+   "de": "die Garage",
+   "lemma": "Garage",
+   "art": "die",
+   "pl": "die Garagen",
+   "forms": "",
+   "ipa": "[ɡaˈʁaːʒə]",
+   "ru": "гараж",
+   "pos": "noun"
+  },
+  {
+   "de": "bauen",
+   "lemma": "bauen",
+   "art": "",
+   "pl": "",
+   "forms": "hat gebaut",
+   "ipa": "[ˈbaʊ̯ən]",
+   "ru": "строить",
+   "pos": "verb"
+  },
+  {
+   "de": "pro",
+   "lemma": "pro",
+   "art": "",
+   "pl": "",
+   "forms": "pro Monat, pro Person",
+   "ipa": "[pʁoː]",
+   "ru": "в, на (каждый)",
+   "pos": "adv"
+  },
+  {
+   "de": "außerhalb",
+   "lemma": "außerhalb",
+   "art": "",
+   "pl": "",
+   "forms": "außerhalb von + Dativ",
+   "ipa": "[ˈaʊ̯sɐhalp]",
+   "ru": "за пределами",
+   "pos": "prep"
+  },
+  {
+   "de": "die Kunst",
+   "lemma": "Kunst",
+   "art": "die",
+   "pl": "die Künste",
+   "forms": "",
+   "ipa": "[kʊnst]",
+   "ru": "искусство",
+   "pos": "noun"
+  },
+  {
+   "de": "das Theater",
+   "lemma": "Theater",
+   "art": "das",
+   "pl": "die Theater",
+   "forms": "",
+   "ipa": "[teˈaːtɐ]",
+   "ru": "театр",
+   "pos": "noun"
+  },
+  {
+   "de": "der Ski",
+   "lemma": "Ski",
+   "art": "der",
+   "pl": "die Ski, die Skier",
+   "forms": "",
+   "ipa": "[ʃiː]",
+   "ru": "лыжа",
+   "pos": "noun"
+  },
+  {
+   "de": "genau",
+   "lemma": "genau",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəˈnaʊ̯]",
+   "ru": "точно",
+   "pos": "adv"
+  },
+  {
+   "de": "ganz",
+   "lemma": "ganz",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡants]",
+   "ru": "совсем, целый",
+   "pos": "adv"
+  },
+  {
+   "de": "wenigstens",
+   "lemma": "wenigstens",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈveːnɪçstəns]",
+   "ru": "по крайней мере",
+   "pos": "adv"
+  },
+  {
+   "de": "super",
+   "lemma": "super",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈzuːpɐ]",
+   "ru": "супер, отлично",
+   "pos": "adv"
+  },
+  {
+   "de": "fantastisch",
+   "lemma": "fantastisch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fanˈtastɪʃ]",
+   "ru": "фантастический",
+   "pos": "adj"
+  },
+  {
+   "de": "arm",
+   "lemma": "arm",
+   "art": "",
+   "pl": "",
+   "forms": "ärmer, am ärmsten",
+   "ipa": "[aʁm]",
+   "ru": "бедный",
+   "pos": "adj"
+  },
+  {
+   "de": "hart",
+   "lemma": "hart",
+   "art": "",
+   "pl": "",
+   "forms": "härter, am härtesten",
+   "ipa": "[haʁt]",
+   "ru": "твёрдый, жёсткий",
+   "pos": "adj"
+  },
+  {
+   "de": "nah",
+   "lemma": "nah",
+   "art": "",
+   "pl": "",
+   "forms": "näher, am nächsten",
+   "ipa": "[naː]",
+   "ru": "близкий, близко",
+   "pos": "adj"
+  },
+  {
+   "de": "doppelt",
+   "lemma": "doppelt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈdɔpəlt]",
+   "ru": "вдвое, двойной",
+   "pos": "adv"
+  },
+  {
+   "de": "der Flügel",
+   "lemma": "Flügel",
+   "art": "der",
+   "pl": "die Flügel",
+   "forms": "",
+   "ipa": "[ˈflyːɡəl]",
+   "ru": "крыло; флигель",
+   "pos": "noun"
+  },
+  {
+   "de": "die Freude",
+   "lemma": "Freude",
+   "art": "die",
+   "pl": "die Freuden",
+   "forms": "",
+   "ipa": "[ˈfʁɔʏ̯də]",
+   "ru": "радость",
+   "pos": "noun"
+  },
+  {
+   "de": "das Geschoss",
+   "lemma": "Geschoss",
+   "art": "das",
+   "pl": "die Geschosse",
+   "forms": "",
+   "ipa": "[ɡəˈʃɔs]",
+   "ru": "этаж",
+   "pos": "noun"
+  },
+  {
+   "de": "genauso",
+   "lemma": "genauso",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəˈnaʊ̯zo]",
+   "ru": "так же",
+   "pos": "adv"
+  },
+  {
+   "de": "als",
+   "lemma": "als",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[als]",
+   "ru": "чем (при сравнении)",
+   "pos": "adv"
+  },
+  {
+   "de": "der Liebling",
+   "lemma": "Liebling",
+   "art": "der",
+   "pl": "die Lieblinge; Lieblings - = любимый (meine Lieblingsstadt)",
+   "forms": "",
+   "ipa": "[ˈliːplɪŋ]",
+   "ru": "любимец",
+   "pos": "noun"
+  }
+ ]
+}

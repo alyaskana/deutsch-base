@@ -1,0 +1,800 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 30",
+ "sub": "Упражнения урока 30 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 30,
+  "s": "30.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "build",
+   "title": "Упражнение 30.1",
+   "sub": "Соберите фразы без противопоставления. Начало перед скобками сохраните; спрягаемая форма выделена жирным. В пунктах 5–6 используйте базовый порядок двух дополнений-существительных из таблицы. В пунктах 7–8 поставьте безударное возвратное местоимение перед подлежащим-существительным.",
+   "items": [
+    {
+     "ru": "Ich [ihm / erkläre / es].",
+     "w": [
+      "Ich",
+      "erkläre",
+      "es",
+      "ihm"
+     ],
+     "ok": [
+      "Ich erkläre es ihm"
+     ],
+     "n": "У двух местоимений Akkusativ предшествует Dativ."
+    },
+    {
+     "ru": "Lea [ihr / sie / schickt]. Речь о фотографиях.",
+     "w": [
+      "Lea",
+      "schickt",
+      "sie",
+      "ihr"
+     ],
+     "ok": [
+      "Lea schickt sie ihr"
+     ],
+     "n": "«Их ей»: сначала фотографии, затем получатель."
+    },
+    {
+     "ru": "Ich [den Schlüssel / gebe / ihr].",
+     "w": [
+      "Ich",
+      "gebe",
+      "ihr",
+      "den",
+      "Schlüssel"
+     ],
+     "ok": [
+      "Ich gebe ihr den Schlüssel"
+     ],
+     "n": "Местоимение раньше существительного."
+    },
+    {
+     "ru": "Er [dem Kollegen / ihn / zeigt]. Речь о договоре (der Vertrag).",
+     "w": [
+      "Er",
+      "zeigt",
+      "ihn",
+      "dem",
+      "Kollegen"
+     ],
+     "ok": [
+      "Er zeigt ihn dem Kollegen"
+     ],
+     "n": "Akkusativ-местоимение раньше существительного."
+    },
+    {
+     "ru": "Jonas [den Schirm / leiht / dem Nachbarn].",
+     "w": [
+      "Jonas",
+      "leiht",
+      "dem",
+      "Nachbarn",
+      "den",
+      "Schirm"
+     ],
+     "ok": [
+      "Jonas leiht dem Nachbarn den Schirm"
+     ],
+     "n": "У двух существительных нейтральный порядок Dativ, Akkusativ."
+    },
+    {
+     "ru": "Alina [das Foto / der Freundin / schickt].",
+     "w": [
+      "Alina",
+      "schickt",
+      "der",
+      "Freundin",
+      "das",
+      "Foto"
+     ],
+     "ok": [
+      "Alina schickt der Freundin das Foto"
+     ],
+     "n": "Сначала получатель, затем отправляемая вещь."
+    },
+    {
+     "ru": "Am Morgen [der Kollege / beeilt / sich / hat].",
+     "w": [
+      "Am",
+      "Morgen",
+      "hat",
+      "sich",
+      "der",
+      "Kollege",
+      "beeilt"
+     ],
+     "ok": [
+      "Am Morgen hat sich der Kollege beeilt"
+     ],
+     "n": "Раннее <b>sich</b> перед существительным."
+    },
+    {
+     "ru": "Ich weiß, dass [beeilt / der Kollege / hat / sich].",
+     "w": [
+      "Ich",
+      "weiß,",
+      "dass",
+      "sich",
+      "der",
+      "Kollege",
+      "beeilt",
+      "hat"
+     ],
+     "ok": [
+      "Ich weiß, dass sich der Kollege beeilt hat"
+     ],
+     "n": "После <b>dass</b> раннее <b>sich</b>; глагольная группа замыкает придаточное."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 30.2",
+   "sub": "Расположите обстоятельства в нейтральном порядке. В пунктах 1–6 можно начать с подлежащего или одного обстоятельства; остальные обстоятельства расставьте в нейтральном порядке TeKaMoLo. В пунктах 7–8 начало уже дано.",
+   "items": [
+    {
+     "ru": "[nach Berlin / mit dem Zug / Paul / wegen des Staus / fährt / morgen]",
+     "w": [
+      "Paul",
+      "fährt",
+      "morgen",
+      "wegen",
+      "des",
+      "Staus",
+      "mit",
+      "dem",
+      "Zug",
+      "nach",
+      "Berlin"
+     ],
+     "ok": [
+      "Paul fährt morgen wegen des Staus mit dem Zug nach Berlin"
+     ],
+     "n": "Направление замыкает середину либо занимает начало."
+    },
+    {
+     "ru": "[vorsichtig / wir / auf den Berg / steigen / wegen des Schnees / heute]",
+     "w": [
+      "Wir",
+      "steigen",
+      "heute",
+      "wegen",
+      "des",
+      "Schnees",
+      "vorsichtig",
+      "auf",
+      "den",
+      "Berg"
+     ],
+     "ok": [
+      "Wir steigen heute wegen des Schnees vorsichtig auf den Berg"
+     ],
+     "n": "В середине порядок Te, Ka, Mo, Lo."
+    },
+    {
+     "ru": "[wegen des Sturms / Jonas / zum Bahnhof / am Montag / fährt / mit der U-Bahn]",
+     "w": [
+      "Jonas",
+      "fährt",
+      "am",
+      "Montag",
+      "wegen",
+      "des",
+      "Sturms",
+      "mit",
+      "der",
+      "U-Bahn",
+      "zum",
+      "Bahnhof"
+     ],
+     "ok": [
+      "Jonas fährt am Montag wegen des Sturms mit der U-Bahn zum Bahnhof"
+     ],
+     "n": "Вынесенное обстоятельство занимает одно первое место."
+    },
+    {
+     "ru": "[ins Tal / langsam / fahren / wegen des Windes / wir / am Abend]",
+     "w": [
+      "Wir",
+      "fahren",
+      "am",
+      "Abend",
+      "wegen",
+      "des",
+      "Windes",
+      "langsam",
+      "ins",
+      "Tal"
+     ],
+     "ok": [
+      "Wir fahren am Abend wegen des Windes langsam ins Tal"
+     ],
+     "n": "Оставшиеся обстоятельства сохраняют порядок TeKaMoLo."
+    },
+    {
+     "ru": "[in einem Hotel / heute / ich / übernachte / allein]",
+     "w": [
+      "Ich",
+      "übernachte",
+      "heute",
+      "allein",
+      "in",
+      "einem",
+      "Hotel"
+     ],
+     "ok": [
+      "Ich übernachte heute allein in einem Hotel"
+     ],
+     "n": "Время, способ, место ночлега."
+    },
+    {
+     "ru": "[allein / in Hamburg / wohnt / seit einem Jahr / der Mechaniker]",
+     "w": [
+      "Der",
+      "Mechaniker",
+      "wohnt",
+      "seit",
+      "einem",
+      "Jahr",
+      "allein",
+      "in",
+      "Hamburg"
+     ],
+     "ok": [
+      "Der Mechaniker wohnt seit einem Jahr allein in Hamburg"
+     ],
+     "n": "Время предшествует способу и месту проживания."
+    },
+    {
+     "ru": "Wegen des Regens [mit der Straßenbahn / fährt / Alina / heute / zum Kunden]",
+     "w": [
+      "Wegen",
+      "des",
+      "Regens",
+      "fährt",
+      "Alina",
+      "heute",
+      "mit",
+      "der",
+      "Straßenbahn",
+      "zum",
+      "Kunden"
+     ],
+     "ok": [
+      "Wegen des Regens fährt Alina heute mit der Straßenbahn zum Kunden"
+     ],
+     "n": "Причина уже в предполье; внутри остаются Te, Mo, Lo."
+    },
+    {
+     "ru": "Mit dem Fahrrad [morgen / nach Bonn / fahren / wegen des Staus / wir]",
+     "w": [
+      "Mit",
+      "dem",
+      "Fahrrad",
+      "fahren",
+      "wir",
+      "morgen",
+      "wegen",
+      "des",
+      "Staus",
+      "nach",
+      "Bonn"
+     ],
+     "ok": [
+      "Mit dem Fahrrad fahren wir morgen wegen des Staus nach Bonn"
+     ],
+     "n": "Способ уже вынесен; внутри остаются Te, Ka, Lo."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 30.3",
+   "sub": "Места для вставки отмечены значком ^ и номером. В единственный пропуск запишите номер позиции для nicht. Слова не переставляйте; смысл отрицания указан по-русски.",
+   "items": [
+    {
+     "s": "Сегодня Пауль не работает. Paul ^1 arbeitet ^2 heute ^3. Позиция: ___",
+     "ru": "",
+     "a": [
+      "3"
+     ],
+     "hint": "",
+     "n": "Общее отрицание после времени."
+    },
+    {
+     "s": "Из-за поломки поезд не отправляется. Der Zug ^1 fährt ^2 wegen einer Panne ^3 ab. Позиция: ___",
+     "ru": "",
+     "a": [
+      "3"
+     ],
+     "hint": "",
+     "n": "Причина уже названа, отрицание стоит перед приставкой."
+    },
+    {
+     "s": "Леа едет не на велосипеде. Lea ^1 fährt ^2 mit dem Fahrrad ^3. Позиция: ___",
+     "ru": "",
+     "a": [
+      "2"
+     ],
+     "hint": "",
+     "n": "Отрицается способ поездки; поездка могла состояться."
+    },
+    {
+     "s": "Завтра Йонас не едет в Гамбург. Jonas ^1 fährt morgen ^2 nach Hamburg ^3. Позиция: ___",
+     "ru": "",
+     "a": [
+      "2"
+     ],
+     "hint": "",
+     "n": "Nicht стоит перед направлением."
+    },
+    {
+     "s": "Вода сегодня не тёплая. Das Wasser ^1 ist heute ^2 warm ^3. Позиция: ___",
+     "ru": "",
+     "a": [
+      "2"
+     ],
+     "hint": "",
+     "n": "Отрицание перед признаком."
+    },
+    {
+     "s": "Пауль не идёт с нами. Paul ^1 kommt ^2 mit ^3. Позиция: ___",
+     "ru": "",
+     "a": [
+      "2"
+     ],
+     "hint": "",
+     "n": "Отрицание перед отделяемой приставкой."
+    },
+    {
+     "s": "Я не знаю этого механика. Ich ^1 kenne ^2 den Mechaniker ^3. Позиция: ___",
+     "ru": "",
+     "a": [
+      "3"
+     ],
+     "hint": "",
+     "n": "Общее отрицание после определённого дополнения."
+    },
+    {
+     "s": "К сожалению, Алина не придёт. Alina ^1 kommt ^2 leider ^3. Позиция: ___",
+     "ru": "",
+     "a": [
+      "3"
+     ],
+     "hint": "",
+     "n": "Leider относится ко всему сообщению и стоит перед nicht."
+    },
+    {
+     "s": "Едем не в четверг, а в пятницу. Wir ^1 fahren ^2 am Donnerstag, sondern am Freitag ^3. Позиция: ___",
+     "ru": "",
+     "a": [
+      "2"
+     ],
+     "hint": "",
+     "n": "Nicht стоит перед противопоставленным временем."
+    },
+    {
+     "s": "Показываю ему не договор, а счёт. Ich ^1 zeige ihm ^2 den Vertrag, sondern die Rechnung ^3. Позиция: ___",
+     "ru": "",
+     "a": [
+      "2"
+     ],
+     "hint": "",
+     "n": "Sondern показывает, что противопоставлены дополнения."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 30.4",
+   "scene": "Zehn Situationen",
+   "cap": "Десять фраз с lassen",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Десять ситуаций. Что значит lassen в каждой?",
+   "audio": {
+    "id": "book-30-4",
+    "n": 3,
+    "dur": 51.33,
+    "t": [
+     [
+      0.8,
+      4.64
+     ],
+     [
+      4.64,
+      8.4
+     ],
+     [
+      8.4,
+      16.8
+     ],
+     [
+      16.8,
+      21.28
+     ],
+     [
+      21.28,
+      26.08
+     ],
+     [
+      26.08,
+      28.64
+     ],
+     [
+      28.64,
+      31.84
+     ],
+     [
+      31.84,
+      34.8
+     ],
+     [
+      34.8,
+      37.12
+     ],
+     [
+      37.12,
+      41.2
+     ]
+    ]
+   },
+   "speakers": {
+    "Sprecherin": "Германия",
+    "Sprecher": "Саксония"
+   },
+   "lines": [
+    {
+     "who": "Sprecherin",
+     "de": "Die Kollegin lässt mich ihren Stuhl benutzen, weil sie ihn heute nicht braucht.",
+     "ru": "Коллега даёт мне воспользоваться своим стулом, потому что он ей сегодня не нужен."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Die Mutter lässt das Kind spielen, weil es heute keine Schule hat.",
+     "ru": "Мама позволяет ребёнку играть, потому что сегодня нет школы."
+    },
+    {
+     "who": "Sprecherin",
+     "de": "Ich habe meinen Chef gefragt, ob ich heute von zu Hause arbeiten darf. Er ist einverstanden und lässt mich heute von zu Hause arbeiten.",
+     "ru": "Я спросила шефа, можно ли мне сегодня работать из дома. Он согласен и разрешает."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Heute lasse ich meine Tasche im Büro und nehme nur mein Handy mit.",
+     "ru": "Сегодня я оставляю сумку в офисе и беру только телефон."
+    },
+    {
+     "who": "Sprecherin",
+     "de": "Ich lasse meinen Schirm heute zu Hause, denn es regnet nicht.",
+     "ru": "Сегодня я оставляю зонт дома: дождя нет."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Im Salon lasse ich mir den Bart rasieren.",
+     "ru": "В салоне мне бреют бороду."
+    },
+    {
+     "who": "Sprecherin",
+     "de": "Beim Arzt lasse ich mich gründlich untersuchen.",
+     "ru": "У врача я прохожу тщательное обследование."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Ich lasse mein Fahrrad vom Mechaniker reparieren.",
+     "ru": "Я отдаю велосипед в ремонт механику."
+    },
+    {
+     "who": "Sprecherin",
+     "de": "Dieser Fleck lässt sich leicht entfernen.",
+     "ru": "Это пятно легко выводится."
+    },
+    {
+     "who": "Sprecher",
+     "de": "Die Heizung lässt sich leider nicht ausmachen.",
+     "ru": "Отопление, к сожалению, не выключается."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Ситуация 1: lassen значит…",
+     "o": [
+      "разрешить",
+      "оставить",
+      "поручить",
+      "можно сделать"
+     ],
+     "a": "разрешить",
+     "n": "Die Kollegin <b>lässt</b> mich ihren Stuhl benutzen, weil sie ihn heute nicht braucht.. Коллега позволяет взять стул.",
+     "k": 0
+    },
+    {
+     "q": "Ситуация 2: lassen значит…",
+     "o": [
+      "разрешить",
+      "оставить",
+      "поручить",
+      "можно сделать"
+     ],
+     "a": "разрешить",
+     "n": "Die Mutter <b>lässt</b> das Kind spielen, weil es heute keine Schule hat.. Мать не возражает против игры.",
+     "k": 1
+    },
+    {
+     "q": "Ситуация 3: lassen значит…",
+     "o": [
+      "разрешить",
+      "оставить",
+      "поручить",
+      "можно сделать"
+     ],
+     "a": "разрешить",
+     "n": "Ich habe meinen Chef gefragt, ob ich heute von zu Hause arbeiten darf. Er ist einverstanden und <b>lässt</b> mich heute von zu Hause arbeiten.. Шеф разрешает работать из дома.",
+     "k": 2
+    },
+    {
+     "q": "Ситуация 4: lassen значит…",
+     "o": [
+      "оставить",
+      "разрешить",
+      "поручить",
+      "можно сделать"
+     ],
+     "a": "оставить",
+     "n": "Heute <b>lasse</b> ich meine Tasche im Büro und nehme nur mein Handy mit.. Сумку не берут с собой.",
+     "k": 3
+    },
+    {
+     "q": "Ситуация 5: lassen значит…",
+     "o": [
+      "оставить",
+      "разрешить",
+      "поручить",
+      "можно сделать"
+     ],
+     "a": "оставить",
+     "n": "Ich <b>lasse</b> meinen Schirm heute zu Hause, denn es regnet nicht.. Зонт остаётся дома.",
+     "k": 4
+    },
+    {
+     "q": "Ситуация 6: lassen значит…",
+     "o": [
+      "поручить",
+      "разрешить",
+      "оставить",
+      "можно сделать"
+     ],
+     "a": "поручить",
+     "n": "Im Salon <b>lasse</b> ich mir den Bart rasieren.. Услугу делает другой: mir den Bart rasieren.",
+     "k": 5
+    },
+    {
+     "q": "Ситуация 7: lassen значит…",
+     "o": [
+      "поручить",
+      "разрешить",
+      "оставить",
+      "можно сделать"
+     ],
+     "a": "поручить",
+     "n": "Beim Arzt <b>lasse</b> ich mich gründlich untersuchen.. Обследуют меня: Akkusativ mich.",
+     "k": 6
+    },
+    {
+     "q": "Ситуация 8: lassen значит…",
+     "o": [
+      "поручить",
+      "разрешить",
+      "оставить",
+      "можно сделать"
+     ],
+     "a": "поручить",
+     "n": "Ich <b>lasse</b> mein Fahrrad vom Mechaniker reparieren.. Велосипед чинит механик.",
+     "k": 7
+    },
+    {
+     "q": "Ситуация 9: lassen значит…",
+     "o": [
+      "можно сделать",
+      "разрешить",
+      "оставить",
+      "поручить"
+     ],
+     "a": "можно сделать",
+     "n": "Dieser Fleck <b>lässt</b> sich leicht entfernen.. sich lassen + инфинитив — можно сделать.",
+     "k": 8
+    },
+    {
+     "q": "Ситуация 10: lassen значит…",
+     "o": [
+      "можно сделать",
+      "разрешить",
+      "оставить",
+      "поручить"
+     ],
+     "a": "можно сделать",
+     "n": "Die Heizung <b>lässt</b> sich leider nicht ausmachen.. Отопление невозможно выключить.",
+     "k": 9
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 30.4",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 30.5",
+   "sub": "Переведите с lassen, где возможно; ключ принимает и указанные там другие способы. В пунктах 1–4 и 8 используйте прошлое, в 5–7 настоящее. В пунктах 3 и 8 начните с Ich; используйте mein для своей вещи, в пункте 3 bei meiner Freundin.",
+   "items": [
+    {
+     "ru": "В субботу я постриглась. Начните с Ich.",
+     "w": [
+      "Ich",
+      "habe",
+      "mir",
+      "am",
+      "Samstag",
+      "die",
+      "Haare",
+      "schneiden",
+      "lassen"
+     ],
+     "ok": [
+      "Ich habe mir am Samstag die Haare schneiden lassen"
+     ],
+     "n": "Получатель в Dativ; основной Perfekt с <b>lassen</b>."
+    },
+    {
+     "ru": "Мы сделали ремонт в ванной. Работали нанятые мастера; начните с Wir.",
+     "w": [
+      "Wir",
+      "haben",
+      "das",
+      "Bad",
+      "renovieren",
+      "lassen"
+     ],
+     "ok": [
+      "Wir haben das Bad renovieren lassen"
+     ],
+     "n": "<b>Lassen</b> явно передаёт поручение мастерам; <b>gelassen</b> встречается, но норма — <b>lassen</b>."
+    },
+    {
+     "ru": "Я забыла зарядку (das Ladekabel) у подруги.",
+     "w": [
+      "Ich",
+      "habe",
+      "mein",
+      "Ladekabel",
+      "bei",
+      "meiner",
+      "Freundin",
+      "liegen",
+      "lassen"
+     ],
+     "ok": [
+      "Ich habe mein Ladekabel bei meiner Freundin liegen lassen"
+     ],
+     "n": "С <b>liegen</b> допустимы оба варианта Perfekt; <b>vergessen</b> прямо называет забывчивость. Без инфинитива <b>lassen</b> тоже передаёт оставленную вещь; случайность понятна из контекста."
+    },
+    {
+     "ru": "Она разрешила мне взять её велосипед. Начните с Sie.",
+     "w": [
+      "Sie",
+      "hat",
+      "mich",
+      "ihr",
+      "Fahrrad",
+      "nehmen",
+      "lassen"
+     ],
+     "ok": [
+      "Sie hat mich ihr Fahrrad nehmen lassen"
+     ],
+     "n": "<b>Lassen</b> связывается с <b>mich</b>; <b>erlauben</b> с <b>mir</b> и инфинитивом с <b>zu</b>."
+    },
+    {
+     "ru": "Окно не открывается. Начните с Das Fenster.",
+     "w": [
+      "Das",
+      "Fenster",
+      "lässt",
+      "sich",
+      "nicht",
+      "öffnen"
+     ],
+     "ok": [
+      "Das Fenster lässt sich nicht öffnen"
+     ],
+     "n": "<b>Sich lassen</b> передаёт невозможность открыть окно."
+    },
+    {
+     "ru": "Давай пообедаем вместе. (du; используйте zusammen)",
+     "w": [
+      "Lass",
+      "uns",
+      "zusammen",
+      "zu",
+      "Mittag",
+      "essen"
+     ],
+     "ok": [
+      "Lass uns zusammen zu Mittag essen"
+     ],
+     "n": "Lass uns предлагает действие вместе с собеседником."
+    },
+    {
+     "ru": "Не торопись, я подожду. (du)",
+     "w": [
+      "Lass",
+      "dir",
+      "Zeit,",
+      "ich",
+      "warte"
+     ],
+     "ok": [
+      "Lass dir Zeit, ich warte"
+     ],
+     "n": "Готовое выражение <b>Lass dir Zeit</b> звучит как спокойное разрешение не спешить."
+    },
+    {
+     "ru": "Мне почистили пальто. Используйте reinigen lassen.",
+     "w": [
+      "Ich",
+      "habe",
+      "meinen",
+      "Mantel",
+      "reinigen",
+      "lassen"
+     ],
+     "ok": [
+      "Ich habe meinen Mantel reinigen lassen"
+     ],
+     "n": "Другой человек уже почистил пальто по моему заказу; речь не только о передаче вещи в чистку."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 30.6",
+   "sub": "Расскажите о поездке в 80–100 словах. Содержание может быть вымышленным; проверяйте прежде всего порядок слов.",
+   "items": [
+    {
+     "q": "Когда рассказ готов, перечитайте его. Есть ли в нём хотя бы три предложения с тремя обстоятельствами, и вынесено ли одно обстоятельство в начало? Стоит ли nicht среди обстоятельств? Встречаются ли два разных значения lassen и относительное придаточное или косвенный вопрос?",
+     "hint": "",
+     "ph": "Ответ…",
+     "ex": [
+      "Образец: Am Samstag bin ich allein mit dem Zug nach Bonn gefahren. Dort habe ich ein ziemlich kleines Café gefunden, das Paul mir empfohlen hatte. Ich bin am Nachmittag wegen des Regens nicht auf den Drachenfels gestiegen. Deswegen habe ich mir in einem Salon die Haare schneiden lassen. Am Abend habe ich allein in einem Hotel übernachtet. Den Rucksack habe ich im Zimmer gelassen und bin noch langsam am Rhein entlanggegangen. Dabei hätte ich mich beinahe verlaufen. Dann habe ich gefragt, wann am Sonntag der erste Zug fährt. Am Sonntag bin ich mit dem Zug nach Köln zurückgefahren."
+     ],
+     "check": [
+      "Проверка: 97 слов; три обстоятельства в первом, третьем, пятом и последнем предложениях; начало <b>Am Samstag</b>; Te–Ka–nicht–Lo в третьем; услуга и оставленная вещь; относительное придаточное и косвенный вопрос."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

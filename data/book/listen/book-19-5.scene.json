@@ -1,0 +1,110 @@
+{
+ "id": "book-19-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Ansage",
+   "voice": "K75lPKuh15SyVhQC1LrE",
+   "de": "Achtung, bitte. Ein Mädchen sucht seine Mutter. Es wartet an der Kasse.",
+   "ru": "Внимание, пожалуйста. Девочка ищет маму. Она ждёт у кассы.",
+   "tag": "[Durchsage im Kaufhaus]"
+  },
+  {
+   "who": "Ansage",
+   "voice": "K75lPKuh15SyVhQC1LrE",
+   "de": "Das Mädchen mit einer grünen Mütze trägt einen langen Mantel. Es hat lange blonde Haare. Die Mutter kann jetzt zur Kasse kommen.",
+   "ru": "Девочка в зелёной шапке, на ней длинное пальто. У неё длинные светлые волосы. Мама может подойти к кассе."
+  },
+  {
+   "who": "Kundin 1",
+   "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+   "de": "Meine Tochter kommt gleich. Sie hat kurze blonde Haare. Sie trägt ein langes Kleid und eine grüne Mütze. Dann gehen wir zusammen ins Café.",
+   "ru": "Моя дочь сейчас придёт. У неё короткие светлые волосы. На ней длинное платье и зелёная шапка. Потом мы вместе пойдём в кафе."
+  },
+  {
+   "who": "Kundin 2",
+   "voice": "x5q1BXyLc7tegNqnOvnx",
+   "de": "Meine Tochter kommt auch gleich. Sie hat lange blonde Haare und trägt einen langen Mantel.",
+   "ru": "Моя дочь тоже сейчас придёт. У неё длинные светлые волосы и длинное пальто."
+  },
+  {
+   "who": "Kundin 2",
+   "voice": "x5q1BXyLc7tegNqnOvnx",
+   "de": "Sie kommt mit grünen Mützen: eine für sie und eine für ihren Bruder.",
+   "ru": "Она придёт с зелёными шапками: одна для неё, одна для брата."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 19.5",
+  "scene": "Im Kaufhaus",
+  "cap": "Девочка у кассы",
+  "sub": "Объявление в магазине и две покупательницы. a — длинные волосы, пальто, две шапки в руке; b — короткие волосы, платье, шапка; c — длинные волосы, пальто, шапка на голове.",
+  "speakers": {
+   "Ansage": "Германия",
+   "Kundin 1": "Бавария",
+   "Kundin 2": "Австрия"
+  },
+  "qs": [
+   [
+    "Какую девочку описывают в объявлении?",
+    [
+     "c",
+     "a",
+     "b"
+    ],
+    "Das Mädchen <b>mit einer grünen Mütze</b> trägt einen langen Mantel",
+    "Одна шапка и длинное пальто — c."
+   ],
+   [
+    "Кого ждёт первая покупательница?",
+    [
+     "b",
+     "a",
+     "c"
+    ],
+    "Sie hat <b>kurze</b> blonde Haare. Sie trägt ein langes <b>Kleid</b>",
+    "Короткие волосы и платье — b."
+   ],
+   [
+    "Кого ждёт вторая покупательница?",
+    [
+     "a",
+     "b",
+     "c"
+    ],
+    "Sie kommt mit <b>grünen Mützen</b>",
+    "Две шапки в руке — a."
+   ],
+   [
+    "Сколько шапок у девочки из объявления?",
+    [
+     "одна",
+     "две",
+     "ни одной"
+    ],
+    "mit <b>einer</b> grünen Mütze",
+    "einer grünen Mütze — одна; grünen Mützen было бы множественным."
+   ],
+   [
+    "Дочь первой покупательницы носит ein langes ___.",
+    [
+     "Kleid",
+     "Mantel",
+     "Hemd"
+    ],
+    "ein langes <b>Kleid</b>",
+    "-es подтверждает средний род; пальто — einen langen Mantel."
+   ],
+   [
+    "Первая покупательница: Sie hat ___ Haare.",
+    [
+     "kurze blonde",
+     "lange blonde",
+     "kurzen blonden"
+    ],
+    "Sie hat <b>kurze blonde</b> Haare",
+    "Без артикля во множественном Akkusativ — окончание -e."
+   ]
+  ]
+ }
+}

@@ -1,7 +1,7 @@
 {
  "title": "Nie, nichts, niemand: одного слова достаточно",
  "topic": "Книга · 8.4",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -100,5 +100,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Одного отрицания достаточно",
+   "sub": "nie, nichts, niemand — без второго «не»",
+   "items": [
+    {
+     "s": "Ich trinke ___ Wein.",
+     "ru": "Я никогда не пью вино.",
+     "o": [
+      "nie",
+      "nicht nie"
+     ],
+     "a": "nie",
+     "n": "<b>nie</b> — «никогда», второе отрицание не нужно."
+    },
+    {
+     "s": "Ich bestelle ___.",
+     "ru": "Я ничего не заказываю.",
+     "o": [
+      "nichts",
+      "nicht nichts"
+     ],
+     "a": "nichts",
+     "n": "<b>nichts</b> заменяет предмет."
+    },
+    {
+     "s": "Hier wartet ___.",
+     "ru": "Здесь никто не ждёт.",
+     "o": [
+      "niemand",
+      "nicht jemand"
+     ],
+     "a": "niemand",
+     "n": "<b>niemand</b> заменяет человека."
+    },
+    {
+     "s": "Niemand nimmt ___.",
+     "ru": "Никто ничего не берёт.",
+     "o": [
+      "etwas",
+      "nichts"
+     ],
+     "a": "etwas",
+     "n": "Отрицание уже в <b>niemand</b>; рядом — <b>etwas</b>."
+    },
+    {
+     "s": "Lea fragt nie ___.",
+     "ru": "Леа никогда ничего не спрашивает.",
+     "o": [
+      "etwas",
+      "nichts"
+     ],
+     "a": "etwas",
+     "n": "<b>nie etwas</b>, а не <s>nie nichts</s>."
+    },
+    {
+     "s": "Ich esse nie ___ mit Tomaten.",
+     "ru": "Я никогда ничего не ем с помидорами.",
+     "o": [
+      "etwas",
+      "nichts"
+     ],
+     "a": "etwas",
+     "n": "Поправка Алины: <b>nie etwas</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

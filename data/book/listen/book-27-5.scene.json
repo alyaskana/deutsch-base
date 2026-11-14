@@ -1,0 +1,110 @@
+{
+ "id": "book-27-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Nachrichten",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "In Köln gibt es seit Donnerstag eine Störung im Netz. Unser Radio hat heute Morgen mit dem Anbieter gesprochen.",
+   "ru": "В Кёльне с четверга сбой в сети. Наше радио сегодня утром поговорило с провайдером.",
+   "tag": "[Nachrichtensprecher]"
+  },
+  {
+   "who": "Nachrichten",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Der Anbieter erklärt, das Problem sei ein Kabel. Ein Techniker habe den Fehler schon gefunden. Die Firma könne das Netz heute noch reparieren.",
+   "ru": "Провайдер объясняет, что проблема якобы в кабеле. Техник уже нашёл ошибку. Фирма может починить сеть ещё сегодня."
+  },
+  {
+   "who": "Nachrichten",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Man solle den Router einschalten. Außerdem solle man keine Daten löschen.",
+   "ru": "Роутер следует включить. Кроме того, не нужно удалять данные."
+  },
+  {
+   "who": "Hotline",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "Guten Tag! Hier ist die Hotline. Bitte sagen Sie uns, wann Ihr Internet ausgefallen ist.",
+   "ru": "Добрый день! Это горячая линия. Скажите, пожалуйста, когда у вас пропал интернет.",
+   "tag": "[Telefonansage]"
+  },
+  {
+   "who": "Hotline",
+   "voice": "lzvBSKYbNWDD0a6BaJSK",
+   "de": "Unser Mitarbeiter fragt Sie dann, ob Sie das Kabel schon überprüft haben. Vielen Dank für Ihre Geduld.",
+   "ru": "Наш сотрудник затем спросит, проверили ли вы уже кабель. Спасибо за терпение."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 27.5",
+  "scene": "Nachrichten",
+  "cap": "Сбой интернета в Кёльне",
+  "sub": "Новость по радио, затем горячая линия. Где факт редакции, а где слова компании?",
+  "speakers": {
+   "Nachrichten": "Германия",
+   "Hotline": "Германия"
+  },
+  "qs": [
+   [
+    "«Причина — кабель» —",
+    [
+     "так утверждает компания",
+     "редакция сообщает как факт",
+     "запись этого не подтверждает"
+    ],
+    "das Problem <b>sei</b> ein Kabel",
+    "sei — передаём чужие слова."
+   ],
+   [
+    "«Радио утром поговорило с провайдером» —",
+    [
+     "редакция сообщает как факт",
+     "так утверждает компания",
+     "запись этого не подтверждает"
+    ],
+    "Unser Radio <b>hat</b> heute Morgen mit dem Anbieter <b>gesprochen</b>",
+    "Обычный индикатив — факт редакции."
+   ],
+   [
+    "«Сеть починят сегодня» —",
+    [
+     "так утверждает компания",
+     "редакция сообщает как факт",
+     "запись этого не подтверждает"
+    ],
+    "Die Firma <b>könne</b> das Netz heute noch reparieren",
+    "könne — заявление фирмы."
+   ],
+   [
+    "Что просят сделать с роутером?",
+    [
+     "включить",
+     "продать",
+     "отнести в магазин"
+    ],
+    "Man solle den Router <b>einschalten</b>",
+    ""
+   ],
+   [
+    "Что просят делать с данными?",
+    [
+     "ничего не удалять",
+     "удалить всё",
+     "отправить Паулю"
+    ],
+    "Außerdem solle man <b>keine Daten löschen</b>",
+    ""
+   ],
+   [
+    "Что сотрудник спросит о кабеле?",
+    [
+     "проверили ли его",
+     "где его купили",
+     "сколько он стоил"
+    ],
+    "<b>ob</b> Sie das Kabel schon überprüft haben",
+    "ob — «ли»."
+   ]
+  ]
+ }
+}

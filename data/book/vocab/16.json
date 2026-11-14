@@ -1,0 +1,515 @@
+{
+ "l": 16,
+ "words": [
+  {
+   "de": "(sich) ärgern (über + Akk)",
+   "lemma": "(sich) ärgern (über + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "ärgert sich, hat sich geärgert",
+   "ipa": "[ˈɛʁɡɐn]",
+   "ru": "злиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) ausruhen",
+   "lemma": "(sich) ausruhen",
+   "art": "",
+   "pl": "",
+   "forms": "ruht sich aus, hat sich ausgeruht",
+   "ipa": "[ˈaʊ̯sˌʁuːən]",
+   "ru": "отдыхать",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) bedanken (für + Akk)",
+   "lemma": "(sich) bedanken (für + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "bedankt sich, hat sich bedankt",
+   "ipa": "[bəˈdaŋkən]",
+   "ru": "благодарить",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) beeilen",
+   "lemma": "(sich) beeilen",
+   "art": "",
+   "pl": "",
+   "forms": "beeilt sich, hat sich beeilt",
+   "ipa": "[bəˈʔaɪ̯lən]",
+   "ru": "спешить",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) beschweren (über + Akk)",
+   "lemma": "(sich) beschweren (über + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "beschwert sich, hat sich beschwert",
+   "ipa": "[bəˈʃveːʁən]",
+   "ru": "жаловаться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) entschuldigen (für + Akk)",
+   "lemma": "(sich) entschuldigen (für + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "entschuldigt sich, hat sich entschuldigt",
+   "ipa": "[ɛntˈʃʊldɪɡən]",
+   "ru": "извиняться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) erinnern (an + Akk)",
+   "lemma": "(sich) erinnern (an + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "erinnert sich, hat sich erinnert",
+   "ipa": "[ɛɐ̯ˈʔɪnɐn]",
+   "ru": "помнить, вспоминать",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) fühlen",
+   "lemma": "(sich) fühlen",
+   "art": "",
+   "pl": "",
+   "forms": "fühlt sich, hat sich gefühlt",
+   "ipa": "[ˈfyːlən]",
+   "ru": "чувствовать себя",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) interessieren (für + Akk)",
+   "lemma": "(sich) interessieren (für + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "interessiert sich, hat sich interessiert",
+   "ipa": "[ɪntəʁɛˈsiːʁən]",
+   "ru": "интересоваться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) setzen",
+   "lemma": "(sich) setzen",
+   "art": "",
+   "pl": "",
+   "forms": "setzt sich, hat sich gesetzt",
+   "ipa": "[ˈzɛtsən]",
+   "ru": "садиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) streiten",
+   "lemma": "(sich) streiten",
+   "art": "",
+   "pl": "",
+   "forms": "streitet sich, hat sich gestritten",
+   "ipa": "[ˈʃtʁaɪ̯tən]",
+   "ru": "ссориться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) unterhalten (mit + Dat)",
+   "lemma": "(sich) unterhalten (mit + Dat)",
+   "art": "",
+   "pl": "",
+   "forms": "unterhält sich, hat sich unterhalten",
+   "ipa": "[ʊntɐˈhaltən]",
+   "ru": "разговаривать",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) verletzen",
+   "lemma": "(sich) verletzen",
+   "art": "",
+   "pl": "",
+   "forms": "verletzt sich, hat sich verletzt",
+   "ipa": "[fɛɐ̯ˈlɛtsən]",
+   "ru": "пораниться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) verlieben (in + Akk)",
+   "lemma": "(sich) verlieben (in + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "verliebt sich, hat sich verliebt",
+   "ipa": "[fɛɐ̯ˈliːbən]",
+   "ru": "влюбиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) (Dat) etwas merken",
+   "lemma": "(sich) (Dat) etwas merken",
+   "art": "",
+   "pl": "",
+   "forms": "merkt sich, hat sich gemerkt",
+   "ipa": "[ˈmɛʁkən]",
+   "ru": "запоминать",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) (Dat) etwas ansehen",
+   "lemma": "(sich) (Dat) etwas ansehen",
+   "art": "",
+   "pl": "",
+   "forms": "sieht sich an, hat sich angesehen",
+   "ipa": "[ˈanˌzeːən]",
+   "ru": "посмотреть",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) (Dat) etwas wünschen",
+   "lemma": "(sich) (Dat) etwas wünschen",
+   "art": "",
+   "pl": "",
+   "forms": "wünscht sich, hat sich gewünscht",
+   "ipa": "[ˈvʏnʃən]",
+   "ru": "хотеть, желать",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) ändern",
+   "lemma": "(sich) ändern",
+   "art": "",
+   "pl": "",
+   "forms": "ändert sich, hat sich geändert",
+   "ipa": "[ˈɛndɐn]",
+   "ru": "меняться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) umziehen",
+   "lemma": "(sich) umziehen",
+   "art": "",
+   "pl": "",
+   "forms": "zieht sich um, hat sich umgezogen",
+   "ipa": "[ˈʊmˌtsiːən]",
+   "ru": "переодеваться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) freuen (über, auf + Akk)",
+   "lemma": "(sich) freuen (über, auf + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "freut sich, hat sich gefreut",
+   "ipa": "[ˈfʁɔʏ̯ən]",
+   "ru": "радоваться чему-то, предвкушать",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) waschen",
+   "lemma": "(sich) waschen",
+   "art": "",
+   "pl": "",
+   "forms": "wäscht sich, hat sich gewaschen",
+   "ipa": "[ˈvaʃən]",
+   "ru": "умываться, мыться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) anziehen",
+   "lemma": "(sich) anziehen",
+   "art": "",
+   "pl": "",
+   "forms": "zieht sich an, hat sich angezogen",
+   "ipa": "[ˈanˌtsiːən]",
+   "ru": "одеваться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) treffen (mit + Dat)",
+   "lemma": "(sich) treffen (mit + Dat)",
+   "art": "",
+   "pl": "",
+   "forms": "trifft sich, hat sich getroffen",
+   "ipa": "[ˈtʁɛfən]",
+   "ru": "встречаться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) vorstellen",
+   "lemma": "(sich) vorstellen",
+   "art": "",
+   "pl": "",
+   "forms": "stellt sich vor, hat sich vorgestellt",
+   "ipa": "[ˈfoːɐ̯ˌʃtɛlən]",
+   "ru": "представиться, (Dat) вообразить",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) kümmern (um + Akk)",
+   "lemma": "(sich) kümmern (um + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "kümmert sich, hat sich gekümmert",
+   "ipa": "[ˈkʏmɐn]",
+   "ru": "заботиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) anmelden (für + Akk)",
+   "lemma": "(sich) anmelden (für + Akk)",
+   "art": "",
+   "pl": "",
+   "forms": "meldet sich an, hat sich angemeldet",
+   "ipa": "[ˈanˌmɛldən]",
+   "ru": "записываться",
+   "pos": "phrase"
+  },
+  {
+   "de": "wecken",
+   "lemma": "wecken",
+   "art": "",
+   "pl": "",
+   "forms": "weckt, hat geweckt",
+   "ipa": "[ˈvɛkən]",
+   "ru": "будить",
+   "pos": "verb"
+  },
+  {
+   "de": "stattfinden",
+   "lemma": "stattfinden",
+   "art": "",
+   "pl": "",
+   "forms": "findet statt, hat stattgefunden",
+   "ipa": "[ˈʃtatˌfɪndən]",
+   "ru": "состояться",
+   "pos": "verb"
+  },
+  {
+   "de": "hoffen",
+   "lemma": "hoffen",
+   "art": "",
+   "pl": "",
+   "forms": "hofft, hat gehofft",
+   "ipa": "[ˈhɔfən]",
+   "ru": "надеяться",
+   "pos": "verb"
+  },
+  {
+   "de": "träumen",
+   "lemma": "träumen",
+   "art": "",
+   "pl": "",
+   "forms": "träumt, hat geträumt",
+   "ipa": "[ˈtʁɔʏ̯mən]",
+   "ru": "мечтать, видеть сон",
+   "pos": "verb"
+  },
+  {
+   "de": "die Angst",
+   "lemma": "Angst",
+   "art": "die",
+   "pl": "die Ängste",
+   "forms": "",
+   "ipa": "[aŋst]",
+   "ru": "страх",
+   "pos": "noun"
+  },
+  {
+   "de": "die Seife",
+   "lemma": "Seife",
+   "art": "die",
+   "pl": "die Seifen",
+   "forms": "",
+   "ipa": "[ˈzaɪ̯fə]",
+   "ru": "мыло",
+   "pos": "noun"
+  },
+  {
+   "de": "der Stress",
+   "lemma": "Stress",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ʃtʁɛs]",
+   "ru": "стресс",
+   "pos": "noun"
+  },
+  {
+   "de": "der Traum",
+   "lemma": "Traum",
+   "art": "der",
+   "pl": "die Träume",
+   "forms": "",
+   "ipa": "[tʁaʊ̯m]",
+   "ru": "сон, мечта",
+   "pos": "noun"
+  },
+  {
+   "de": "der Zahn",
+   "lemma": "Zahn",
+   "art": "der",
+   "pl": "die Zähne",
+   "forms": "",
+   "ipa": "[tsaːn]",
+   "ru": "зуб",
+   "pos": "noun"
+  },
+  {
+   "de": "furchtbar",
+   "lemma": "furchtbar",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfʊʁçtbaːɐ̯]",
+   "ru": "ужасный",
+   "pos": "adj"
+  },
+  {
+   "de": "nervös",
+   "lemma": "nervös",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[nɛʁˈvøːs]",
+   "ru": "взволнованный",
+   "pos": "adj"
+  },
+  {
+   "de": "sauer",
+   "lemma": "sauer",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈzaʊ̯ɐ]",
+   "ru": "кислый, злой (разг.)",
+   "pos": "adj"
+  },
+  {
+   "de": "stressig",
+   "lemma": "stressig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃtʁɛsɪç]",
+   "ru": "напряжённый",
+   "pos": "adj"
+  },
+  {
+   "de": "hoffentlich",
+   "lemma": "hoffentlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈhɔfəntlɪç]",
+   "ru": "надеюсь",
+   "pos": "adv"
+  },
+  {
+   "de": "selbst",
+   "lemma": "selbst",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[zɛlpst]",
+   "ru": "сам",
+   "pos": "adv"
+  },
+  {
+   "de": "fertig sein",
+   "lemma": "fertig sein",
+   "art": "",
+   "pl": "",
+   "forms": "ist fertig, ist fertig gewesen",
+   "ipa": "[ˈfɛʁtɪç zaɪ̯n]",
+   "ru": "быть готовым",
+   "pos": "phrase"
+  },
+  {
+   "de": "verabredet sein",
+   "lemma": "verabredet sein",
+   "art": "",
+   "pl": "",
+   "forms": "ist verabredet, ist verabredet gewesen",
+   "ipa": "[fɛɐ̯ˈʔapʁeːdət zaɪ̯n]",
+   "ru": "иметь договорённость встретиться",
+   "pos": "phrase"
+  },
+  {
+   "de": "das Taxi",
+   "lemma": "Taxi",
+   "art": "das",
+   "pl": "die Taxis",
+   "forms": "",
+   "ipa": "[ˈtaksi]",
+   "ru": "такси",
+   "pos": "noun"
+  },
+  {
+   "de": "einander",
+   "lemma": "einander",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[aɪ̯ˈnandɐ]",
+   "ru": "друг друга",
+   "pos": "adv"
+  },
+  {
+   "de": "der Föhn",
+   "lemma": "Föhn",
+   "art": "der",
+   "pl": "die Föhne",
+   "forms": "",
+   "ipa": "[føːn]",
+   "ru": "фен; тёплый альпийский ветер",
+   "pos": "noun"
+  },
+  {
+   "de": "genug",
+   "lemma": "genug",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəˈnuːk]",
+   "ru": "достаточно",
+   "pos": "adv"
+  },
+  {
+   "de": "lachen",
+   "lemma": "lachen",
+   "art": "",
+   "pl": "",
+   "forms": "lacht, hat gelacht",
+   "ipa": "[ˈlaxən]",
+   "ru": "смеяться",
+   "pos": "verb"
+  },
+  {
+   "de": "der Lippenstift",
+   "lemma": "Lippenstift",
+   "art": "der",
+   "pl": "die Lippenstifte",
+   "forms": "",
+   "ipa": "[ˈlɪpənˌʃtɪft]",
+   "ru": "губная помада",
+   "pos": "noun"
+  },
+  {
+   "de": "die Pomade",
+   "lemma": "Pomade",
+   "art": "die",
+   "pl": "die Pomaden",
+   "forms": "",
+   "ipa": "[poˈmaːdə]",
+   "ru": "помада для волос",
+   "pos": "noun"
+  },
+  {
+   "de": "reizbar",
+   "lemma": "reizbar",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʁaɪ̯tsbaːɐ̯]",
+   "ru": "раздражительный",
+   "pos": "adj"
+  }
+ ]
+}

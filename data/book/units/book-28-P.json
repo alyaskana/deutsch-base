@@ -1,0 +1,728 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 28",
+ "sub": "Упражнения урока 28 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 28,
+  "s": "28.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 28.1",
+   "sub": "Вставьте zu или поставьте знак «—», если частица не нужна.",
+   "items": [
+    {
+     "s": "Die Teilnehmer müssen heute ___ arbeiten.",
+     "ru": "",
+     "a": [
+      "—"
+     ],
+     "hint": "",
+     "n": "После модального <b>müssen</b> частицы нет."
+    },
+    {
+     "s": "Ich möchte heute das Referat ___ schreiben.",
+     "ru": "",
+     "a": [
+      "—"
+     ],
+     "hint": "",
+     "n": "После <b>möchte</b> частица не нужна."
+    },
+    {
+     "s": "Jonas wird die Rechnung ___ bezahlen.",
+     "ru": "",
+     "a": [
+      "—"
+     ],
+     "hint": "",
+     "n": "После <b>werden</b> частица не нужна."
+    },
+    {
+     "s": "Wir hören die Kinder im Hof ___ spielen.",
+     "ru": "",
+     "a": [
+      "—"
+     ],
+     "hint": "",
+     "n": "После <b>hören</b> частица не нужна."
+    },
+    {
+     "s": "Paul geht heute Abend ___ tanzen.",
+     "ru": "",
+     "a": [
+      "—"
+     ],
+     "hint": "",
+     "n": "После <b>gehen</b> занятие называем без <b>zu</b>."
+    },
+    {
+     "s": "Die Lehrerin versucht, die Frage ___ erklären.",
+     "ru": "",
+     "a": [
+      "zu"
+     ],
+     "hint": "",
+     "n": "После <b>versuchen</b> нужна частица."
+    },
+    {
+     "s": "Ich habe vergessen, das Buch ___ holen.",
+     "ru": "",
+     "a": [
+      "zu"
+     ],
+     "hint": "",
+     "n": "После <b>vergessen</b> нужна частица."
+    },
+    {
+     "s": "Wir haben vor, eine E-Mail ___ schreiben.",
+     "ru": "",
+     "a": [
+      "zu"
+     ],
+     "hint": "",
+     "n": "После <b>vorhaben</b> нужна частица."
+    },
+    {
+     "s": "Hast du Lust, heute ___ kochen?",
+     "ru": "",
+     "a": [
+      "zu"
+     ],
+     "hint": "",
+     "n": "Инфинитивная группа поясняет существительное <b>Lust</b>."
+    },
+    {
+     "s": "Paul hilft mir ___ kochen.",
+     "ru": "",
+     "a": [
+      "zu",
+      "—"
+     ],
+     "hint": "",
+     "n": "У <b>helfen</b> с коротким инфинитивом без своих слов правильны оба варианта."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 28.2",
+   "sub": "Переделайте вторую фразу в инфинитивную группу. Начинайте с указанной основной части и сохраняйте порядок остальных слов. Запишите всё предложение и не забудьте запятую.",
+   "items": [
+    {
+     "ru": "Ich habe versucht. + Ich melde Paul für den Kurs an.",
+     "w": [
+      "Ich",
+      "habe",
+      "versucht,",
+      "Paul",
+      "für",
+      "den",
+      "Kurs",
+      "anzumelden"
+     ],
+     "ok": [
+      "Ich habe versucht, Paul für den Kurs anzumelden"
+     ],
+     "n": "<b>Zu</b> стоит внутри отделяемого глагола. Группа развёрнутая, поэтому ставим запятую."
+    },
+    {
+     "ru": "Ich verspreche dir. + Ich bringe das Zertifikat mit.",
+     "w": [
+      "Ich",
+      "verspreche",
+      "dir,",
+      "das",
+      "Zertifikat",
+      "mitzubringen"
+     ],
+     "ok": [
+      "Ich verspreche dir, das Zertifikat mitzubringen"
+     ],
+     "n": "<b>Mit-</b> отделяется: <b>mitzubringen</b>."
+    },
+    {
+     "ru": "Die Lehrerin hat mir geraten. + Ich fülle den Antrag aus.",
+     "w": [
+      "Die",
+      "Lehrerin",
+      "hat",
+      "mir",
+      "geraten,",
+      "den",
+      "Antrag",
+      "auszufüllen"
+     ],
+     "ok": [
+      "Die Lehrerin hat mir geraten, den Antrag auszufüllen"
+     ],
+     "n": "Заявление заполняю я; <b>zu</b> стоит после <b>aus-</b>."
+    },
+    {
+     "ru": "Wir haben vergessen. + Wir bezahlen die Rechnung.",
+     "w": [
+      "Wir",
+      "haben",
+      "vergessen,",
+      "die",
+      "Rechnung",
+      "zu",
+      "bezahlen"
+     ],
+     "ok": [
+      "Wir haben vergessen, die Rechnung zu bezahlen"
+     ],
+     "n": "<b>Be-</b> не отделяется: <b>zu</b> пишем отдельно."
+    },
+    {
+     "ru": "Ich versuche. + Ich verstehe die Methode.",
+     "w": [
+      "Ich",
+      "versuche,",
+      "die",
+      "Methode",
+      "zu",
+      "verstehen"
+     ],
+     "ok": [
+      "Ich versuche, die Methode zu verstehen"
+     ],
+     "n": "<b>Ver-</b> не отделяется: <b>zu verstehen</b> пишем раздельно."
+    },
+    {
+     "ru": "Jonas hat versprochen. + Jonas korrigiert die Fehler.",
+     "w": [
+      "Jonas",
+      "hat",
+      "versprochen,",
+      "die",
+      "Fehler",
+      "zu",
+      "korrigieren"
+     ],
+     "ok": [
+      "Jonas hat versprochen, die Fehler zu korrigieren"
+     ],
+     "n": "Глагол на <b>-ieren</b> без <b>ge-</b>, поэтому <b>zu</b> стоит отдельно перед ним."
+    },
+    {
+     "ru": "Ich versuche. + Ich bereite mich auf das Gespräch vor.",
+     "w": [
+      "Ich",
+      "versuche,",
+      "mich",
+      "auf",
+      "das",
+      "Gespräch",
+      "vorzubereiten"
+     ],
+     "ok": [
+      "Ich versuche, mich auf das Gespräch vorzubereiten"
+     ],
+     "n": "Готовлюсь я: <b>mich</b>; частица после <b>vor-</b>."
+    },
+    {
+     "ru": "Wir haben versprochen. + Wir strengen uns an.",
+     "w": [
+      "Wir",
+      "haben",
+      "versprochen,",
+      "uns",
+      "anzustrengen"
+     ],
+     "ok": [
+      "Wir haben versprochen, uns anzustrengen"
+     ],
+     "n": "Сохраняем <b>uns</b>, а <b>zu</b> ставим после <b>an-</b>."
+    },
+    {
+     "ru": "Ich habe dir geraten. + Du ruhst dich aus.",
+     "w": [
+      "Ich",
+      "habe",
+      "dir",
+      "geraten,",
+      "dich",
+      "auszuruhen"
+     ],
+     "ok": [
+      "Ich habe dir geraten, dich auszuruhen"
+     ],
+     "n": "Отдыхаешь ты, поэтому <b>dich</b>."
+    },
+    {
+     "ru": "Ich verspreche. + Ich vergesse den Termin nicht.",
+     "w": [
+      "Ich",
+      "verspreche,",
+      "den",
+      "Termin",
+      "nicht",
+      "zu",
+      "vergessen"
+     ],
+     "ok": [
+      "Ich verspreche, den Termin nicht zu vergessen"
+     ],
+     "n": "Отрицаем забывание: <b>nicht</b> перед <b>zu vergessen</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 28.3",
+   "sub": "Соедините предложения, сохранив первое в начале и порядок слов внутри групп. В 1–7 второе действие выражает цель: уберите wollen и sollen, остальные глаголы сохраните. В 8 используйте zu …, um … zu, без второго nicht.",
+   "items": [
+    {
+     "ru": "Ich mache den Kurs. + Ich will besser schreiben.",
+     "w": [
+      "Ich",
+      "mache",
+      "den",
+      "Kurs,",
+      "um",
+      "besser",
+      "zu",
+      "schreiben"
+     ],
+     "ok": [
+      "Ich mache den Kurs, um besser zu schreiben"
+     ],
+     "n": "Исполнитель один; <b>damit</b> тоже допустимо."
+    },
+    {
+     "ru": "Alina lernt jeden Abend. + Sie will im Kurs mehr verstehen.",
+     "w": [
+      "Alina",
+      "lernt",
+      "jeden",
+      "Abend,",
+      "um",
+      "im",
+      "Kurs",
+      "mehr",
+      "zu",
+      "verstehen"
+     ],
+     "ok": [
+      "Alina lernt jeden Abend, um im Kurs mehr zu verstehen"
+     ],
+     "n": "Учится и понимает Алина: исполнитель общий."
+    },
+    {
+     "ru": "Paul geht in die Bibliothek. + Er will dort lernen.",
+     "w": [
+      "Paul",
+      "geht",
+      "in",
+      "die",
+      "Bibliothek,",
+      "um",
+      "dort",
+      "zu",
+      "lernen"
+     ],
+     "ok": [
+      "Paul geht in die Bibliothek, um dort zu lernen"
+     ],
+     "n": "<b>Er</b> обозначает Пауля: исполнитель общий."
+    },
+    {
+     "ru": "Lea ruft im Büro an. + Sie will den Termin klären.",
+     "w": [
+      "Lea",
+      "ruft",
+      "im",
+      "Büro",
+      "an,",
+      "um",
+      "den",
+      "Termin",
+      "zu",
+      "klären"
+     ],
+     "ok": [
+      "Lea ruft im Büro an, um den Termin zu klären"
+     ],
+     "n": "Звонит и выясняет Леа: исполнитель общий."
+    },
+    {
+     "ru": "Ich schicke dir die Anleitung. + Du sollst das Programm installieren können.",
+     "w": [
+      "Ich",
+      "schicke",
+      "dir",
+      "die",
+      "Anleitung,",
+      "damit",
+      "du",
+      "das",
+      "Programm",
+      "installieren",
+      "kannst"
+     ],
+     "ok": [
+      "Ich schicke dir die Anleitung, damit du das Programm installieren kannst"
+     ],
+     "n": "Разные исполнители: <b>damit</b>; <b>kannst</b> в конце."
+    },
+    {
+     "ru": "Jonas öffnet die Tür. + Die Teilnehmer sollen ins Zimmer kommen können.",
+     "w": [
+      "Jonas",
+      "öffnet",
+      "die",
+      "Tür,",
+      "damit",
+      "die",
+      "Teilnehmer",
+      "ins",
+      "Zimmer",
+      "kommen",
+      "können"
+     ],
+     "ok": [
+      "Jonas öffnet die Tür, damit die Teilnehmer ins Zimmer kommen können"
+     ],
+     "n": "Подлежащее цели: <b>die Teilnehmer</b>, другие люди."
+    },
+    {
+     "ru": "Die Lehrerin spricht langsam. + Wir sollen sie verstehen können.",
+     "w": [
+      "Die",
+      "Lehrerin",
+      "spricht",
+      "langsam,",
+      "damit",
+      "wir",
+      "sie",
+      "verstehen",
+      "können"
+     ],
+     "ok": [
+      "Die Lehrerin spricht langsam, damit wir sie verstehen können"
+     ],
+     "n": "Говорит преподавательница, понимаем мы: нужен <b>damit</b>."
+    },
+    {
+     "ru": "Paul ist sehr müde. + Er kann heute nicht lernen.",
+     "w": [
+      "Paul",
+      "ist",
+      "zu",
+      "müde,",
+      "um",
+      "heute",
+      "zu",
+      "lernen"
+     ],
+     "ok": [
+      "Paul ist zu müde, um heute zu lernen"
+     ],
+     "n": "<b>Zu müde</b> уже называет помеху; <b>nicht</b> не добавляем. Можно сохранить <b>können</b>."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 28.4",
+   "sub": "Переведите: в 1–5 используйте ohne … zu или statt … zu, в 6–8 часть с dass. Скобки задают лексику; существительное используйте с определённым артиклем. Начинайте с подлежащего, сохраняйте порядок частей. Для прошлого допустимы Perfekt и Präteritum.",
+   "items": [
+    {
+     "ru": "Она ушла, не попрощавшись. (gehen, sich verabschieden)",
+     "w": [
+      "Sie",
+      "ist",
+      "gegangen,",
+      "ohne",
+      "sich",
+      "zu",
+      "verabschieden"
+     ],
+     "ok": [
+      "Sie ist gegangen, ohne sich zu verabschieden"
+     ],
+     "n": "Исполнитель один: после <b>ohne</b> используем инфинитив."
+    },
+    {
+     "ru": "Мы подписали договор, не прочитав его. (unterschreiben, Vertrag, lesen)",
+     "w": [
+      "Wir",
+      "haben",
+      "den",
+      "Vertrag",
+      "unterschrieben,",
+      "ohne",
+      "ihn",
+      "zu",
+      "lesen"
+     ],
+     "ok": [
+      "Wir haben den Vertrag unterschrieben, ohne ihn zu lesen"
+     ],
+     "n": "<b>Ihn</b> заменяет <b>der Vertrag</b> в <b>Akkusativ</b>."
+    },
+    {
+     "ru": "Он ответил, не подумав. (antworten, nachdenken)",
+     "w": [
+      "Er",
+      "hat",
+      "geantwortet,",
+      "ohne",
+      "nachzudenken"
+     ],
+     "ok": [
+      "Er hat geantwortet, ohne nachzudenken"
+     ],
+     "n": "<b>Nach-</b> отделяется: вставляем <b>zu</b> после приставки."
+    },
+    {
+     "ru": "Я звоню, вместо того чтобы писать. (anrufen, schreiben)",
+     "w": [
+      "Ich",
+      "rufe",
+      "an,",
+      "statt",
+      "zu",
+      "schreiben"
+     ],
+     "ok": [
+      "Ich rufe an, statt zu schreiben"
+     ],
+     "n": "Обе формы союза допустимы."
+    },
+    {
+     "ru": "Ты отдыхаешь, вместо того чтобы работать. (du; sich ausruhen, arbeiten)",
+     "w": [
+      "Du",
+      "ruhst",
+      "dich",
+      "aus,",
+      "statt",
+      "zu",
+      "arbeiten"
+     ],
+     "ok": [
+      "Du ruhst dich aus, statt zu arbeiten"
+     ],
+     "n": "Для <b>du</b> берём <b>dich</b>; союзы взаимозаменяемы."
+    },
+    {
+     "ru": "Пауль ушёл, а я об этом не знал. (gehen, es wissen; использовать ohne dass)",
+     "w": [
+      "Paul",
+      "ist",
+      "gegangen,",
+      "ohne",
+      "dass",
+      "ich",
+      "es",
+      "wusste"
+     ],
+     "ok": [
+      "Paul ist gegangen, ohne dass ich es wusste"
+     ],
+     "n": "Исполнители разные; <b>ohne dass</b> уже передаёт отрицание."
+    },
+    {
+     "ru": "Она заплатила, а мы об этом не знали. (bezahlen, es wissen; использовать ohne dass)",
+     "w": [
+      "Sie",
+      "hat",
+      "bezahlt,",
+      "ohne",
+      "dass",
+      "wir",
+      "es",
+      "wussten"
+     ],
+     "ok": [
+      "Sie hat bezahlt, ohne dass wir es wussten"
+     ],
+     "n": "Платила она, не знали мы: разные исполнители."
+    },
+    {
+     "ru": "Я убираю кухню, вместо того чтобы её убирал ты. (du; die Küche aufräumen; использовать statt dass)",
+     "w": [
+      "Ich",
+      "räume",
+      "die",
+      "Küche",
+      "auf,",
+      "statt",
+      "dass",
+      "du",
+      "sie",
+      "aufräumst"
+     ],
+     "ok": [
+      "Ich räume die Küche auf, statt dass du sie aufräumst"
+     ],
+     "n": "Разные исполнители; <b>aufräumst</b> в конце, приставка снова вместе с глаголом."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 28.5",
+   "scene": "Kursbüro",
+   "cap": "Сообщение учебного центра",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Сообщение учебного центра для участников вечернего курса.",
+   "audio": {
+    "id": "book-28-5",
+    "n": 2,
+    "dur": 34.69,
+    "t": [
+     [
+      0.8,
+      6.64
+     ],
+     [
+      6.64,
+      15.8
+     ],
+     [
+      15.8,
+      24.16
+     ],
+     [
+      24.16,
+      34.64
+     ]
+    ]
+   },
+   "speakers": {
+    "Kursbüro": "Бавария"
+   },
+   "lines": [
+    {
+     "who": "Kursbüro",
+     "de": "Guten Tag, hier ist das Kursbüro des Instituts. Diese Nachricht ist für alle Teilnehmer des Abendkurses.",
+     "ru": "Добрый день, это учебная часть института. Это сообщение для всех участников вечернего курса."
+    },
+    {
+     "who": "Kursbüro",
+     "de": "Sie brauchen am Montag nicht ins Büro zu kommen. Sie brauchen nur das Formular zu unterschreiben und uns zu schicken. Das Formular ist bis Mittwoch zu unterschreiben.",
+     "ru": "В понедельник приходить в офис не нужно. Нужно только подписать бланк и прислать нам. Бланк нужно подписать до среды."
+    },
+    {
+     "who": "Kursbüro",
+     "de": "Die Gebühr haben Sie bis Freitag zu bezahlen. Bringen Sie am ersten Kurstag Ihren Ausweis mit. Sie brauchen kein Zeugnis mitzubringen.",
+     "ru": "Сбор нужно оплатить до пятницы. В первый день курса принесите удостоверение. Свидетельство приносить не нужно."
+    },
+    {
+     "who": "Kursbüro",
+     "de": "Mit einem Zertifikat brauchen Sie keinen Einstufungstest zu machen. Das Zertifikat reicht aus. Wenn Sie Fragen haben, rufen Sie uns bitte an. Auf Wiederhören!",
+     "ru": "С сертификатом тест на уровень проходить не нужно. Сертификата достаточно. Если есть вопросы, позвоните нам. До свидания!"
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Am Montag brauchen die Teilnehmer nicht ins Büro zu kommen.",
+     "o": [
+      "richtig",
+      "falsch"
+     ],
+     "a": "richtig",
+     "n": "Sie <b>brauchen</b> am Montag <b>nicht</b> ins Büro <b>zu</b> kommen. nicht brauchen zu — не нужно.",
+     "k": 1
+    },
+    {
+     "q": "Den Ausweis brauchen sie nicht mitzubringen.",
+     "o": [
+      "falsch",
+      "richtig"
+     ],
+     "a": "falsch",
+     "n": "<b>Bringen Sie</b> am ersten Kurstag Ihren Ausweis <b>mit</b>. Удостоверение нужно.",
+     "k": 2
+    },
+    {
+     "q": "Das Formular ist bis Dienstag zu unterschreiben.",
+     "o": [
+      "falsch",
+      "richtig"
+     ],
+     "a": "falsch",
+     "n": "Das Formular ist <b>bis Mittwoch</b> zu unterschreiben. До среды.",
+     "k": 1
+    },
+    {
+     "q": "Die Gebühr ist bis Freitag zu bezahlen.",
+     "o": [
+      "richtig",
+      "falsch"
+     ],
+     "a": "richtig",
+     "n": "Die Gebühr <b>haben</b> Sie bis Freitag <b>zu bezahlen</b>. haben zu — нужно.",
+     "k": 2
+    },
+    {
+     "q": "Mit einem Zertifikat ist kein Einstufungstest nötig.",
+     "o": [
+      "richtig",
+      "falsch"
+     ],
+     "a": "richtig",
+     "n": "brauchen Sie <b>keinen Einstufungstest zu machen</b>. ",
+     "k": 3
+    },
+    {
+     "q": "Какой документ не нужно приносить?",
+     "o": [
+      "das Zeugnis",
+      "den Ausweis",
+      "das Formular"
+     ],
+     "a": "das Zeugnis",
+     "n": "Sie brauchen <b>kein Zeugnis</b> mitzubringen. ",
+     "k": 2
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 28.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 28.6",
+   "sub": "Напишите письмо в учебный центр: 70–90 слов. Формулы приветствия и прощания включайте в подсчёт; используйте Sie.",
+   "items": [
+    {
+     "q": "Напишите письмо в учебный центр: 70–90 слов. Формулы приветствия и прощания включайте в подсчёт; используйте Sie.",
+     "hint": "Объясните свою цель через um … zu и план через vorhaben или planen с zu. Задайте вопрос с ob. Добавьте ohne … zu или statt … zu и вопрос с brauchen nicht zu.",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Sehr geehrte Damen und Herren, ich habe vor, im September einen Kurs zu machen. Ich lerne Deutsch, um mit meinen Kollegen sicherer zu sprechen. Können Sie mir schreiben, ob Sie einen Kurs am Abend haben? Ich möchte mich anmelden, ohne vorher ins Büro zu kommen. Brauche ich mit meinem Zertifikat keinen Einstufungstest zu machen? Mein Zertifikat ist ein Jahr alt. Ich arbeite bis fünf Uhr und habe danach Zeit. Vielen Dank für Ihre Hilfe. Mit freundlichen Grüßen [Ihr Name]"
+     ],
+     "check": [
+      "Проверьте пять конструкций и объём. У um … zu исполнитель общий; перед группами с vorhaben, um, ohne и перед ob стоят запятые. Между brauchen и его инфинитивом запятой нет."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

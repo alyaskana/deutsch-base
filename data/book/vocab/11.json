@@ -1,0 +1,725 @@
+{
+ "l": 11,
+ "words": [
+  {
+   "de": "schenken",
+   "lemma": "schenken",
+   "art": "",
+   "pl": "",
+   "forms": "schenkt, hat geschenkt",
+   "ipa": "[ˈʃɛŋkən]",
+   "ru": "дарить",
+   "pos": "verb"
+  },
+  {
+   "de": "leihen",
+   "lemma": "leihen",
+   "art": "",
+   "pl": "",
+   "forms": "leiht, hat geliehen",
+   "ipa": "[ˈlaɪ̯ən]",
+   "ru": "одалживать",
+   "pos": "verb"
+  },
+  {
+   "de": "zeigen",
+   "lemma": "zeigen",
+   "art": "",
+   "pl": "",
+   "forms": "zeigt, hat gezeigt",
+   "ipa": "[ˈtsaɪ̯ɡən]",
+   "ru": "показывать",
+   "pos": "verb"
+  },
+  {
+   "de": "wünschen",
+   "lemma": "wünschen",
+   "art": "",
+   "pl": "",
+   "forms": "wünscht, hat gewünscht",
+   "ipa": "[ˈvʏnʃən]",
+   "ru": "желать",
+   "pos": "verb"
+  },
+  {
+   "de": "raten",
+   "lemma": "raten",
+   "art": "",
+   "pl": "",
+   "forms": "rät, hat geraten",
+   "ipa": "[ˈʁaːtən]",
+   "ru": "советовать, угадывать",
+   "pos": "verb"
+  },
+  {
+   "de": "zuhören",
+   "lemma": "zuhören",
+   "art": "",
+   "pl": "",
+   "forms": "hört zu, hat zugehört",
+   "ipa": "[ˈtsuːˌhøːʁən]",
+   "ru": "слушать внимательно",
+   "pos": "verb"
+  },
+  {
+   "de": "passen",
+   "lemma": "passen",
+   "art": "",
+   "pl": "",
+   "forms": "passt, hat gepasst",
+   "ipa": "[ˈpasən]",
+   "ru": "подходить",
+   "pos": "verb"
+  },
+  {
+   "de": "leidtun",
+   "lemma": "leidtun",
+   "art": "",
+   "pl": "",
+   "forms": "tut leid, hat leidgetan",
+   "ipa": "[ˈlaɪ̯tˌtuːn]",
+   "ru": "быть жаль",
+   "pos": "verb"
+  },
+  {
+   "de": "gefallen",
+   "lemma": "gefallen",
+   "art": "",
+   "pl": "",
+   "forms": "gefällt, hat gefallen",
+   "ipa": "[ɡəˈfalən]",
+   "ru": "нравиться",
+   "pos": "verb"
+  },
+  {
+   "de": "gehören",
+   "lemma": "gehören",
+   "art": "",
+   "pl": "",
+   "forms": "gehört, hat gehört",
+   "ipa": "[ɡəˈhøːʁən]",
+   "ru": "принадлежать",
+   "pos": "verb"
+  },
+  {
+   "de": "danken",
+   "lemma": "danken",
+   "art": "",
+   "pl": "",
+   "forms": "dankt, hat gedankt",
+   "ipa": "[ˈdaŋkən]",
+   "ru": "благодарить",
+   "pos": "verb"
+  },
+  {
+   "de": "stören",
+   "lemma": "stören",
+   "art": "",
+   "pl": "",
+   "forms": "stört, hat gestört",
+   "ipa": "[ˈʃtøːʁən]",
+   "ru": "мешать",
+   "pos": "verb"
+  },
+  {
+   "de": "einpacken",
+   "lemma": "einpacken",
+   "art": "",
+   "pl": "",
+   "forms": "packt ein, hat eingepackt",
+   "ipa": "[ˈaɪ̯nˌpakən]",
+   "ru": "упаковывать",
+   "pos": "verb"
+  },
+  {
+   "de": "auspacken",
+   "lemma": "auspacken",
+   "art": "",
+   "pl": "",
+   "forms": "packt aus, hat ausgepackt",
+   "ipa": "[ˈaʊ̯sˌpakən]",
+   "ru": "распаковывать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Feier",
+   "lemma": "Feier",
+   "art": "die",
+   "pl": "die Feiern",
+   "forms": "",
+   "ipa": "[ˈfaɪ̯ɐ]",
+   "ru": "праздник, вечеринка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Fest",
+   "lemma": "Fest",
+   "art": "das",
+   "pl": "die Feste",
+   "forms": "",
+   "ipa": "[fɛst]",
+   "ru": "праздник",
+   "pos": "noun"
+  },
+  {
+   "de": "die Torte",
+   "lemma": "Torte",
+   "art": "die",
+   "pl": "die Torten",
+   "forms": "",
+   "ipa": "[ˈtɔʁtə]",
+   "ru": "торт",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kette",
+   "lemma": "Kette",
+   "art": "die",
+   "pl": "die Ketten",
+   "forms": "",
+   "ipa": "[ˈkɛtə]",
+   "ru": "цепочка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Ring",
+   "lemma": "Ring",
+   "art": "der",
+   "pl": "die Ringe",
+   "forms": "",
+   "ipa": "[ʁɪŋ]",
+   "ru": "кольцо",
+   "pos": "noun"
+  },
+  {
+   "de": "das Parfüm",
+   "lemma": "Parfüm",
+   "art": "das",
+   "pl": "die Parfüms, die Parfüme",
+   "forms": "",
+   "ipa": "[paʁˈfyːm]",
+   "ru": "духи",
+   "pos": "noun"
+  },
+  {
+   "de": "die Rose",
+   "lemma": "Rose",
+   "art": "die",
+   "pl": "die Rosen",
+   "forms": "",
+   "ipa": "[ˈʁoːzə]",
+   "ru": "роза",
+   "pos": "noun"
+  },
+  {
+   "de": "die Pflanze",
+   "lemma": "Pflanze",
+   "art": "die",
+   "pl": "die Pflanzen",
+   "forms": "",
+   "ipa": "[ˈpflantsə]",
+   "ru": "растение",
+   "pos": "noun"
+  },
+  {
+   "de": "die Schokolade",
+   "lemma": "Schokolade",
+   "art": "die",
+   "pl": "die Schokoladen",
+   "forms": "",
+   "ipa": "[ʃokoˈlaːdə]",
+   "ru": "шоколад",
+   "pos": "noun"
+  },
+  {
+   "de": "die Süßigkeiten",
+   "lemma": "Süßigkeiten",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно во множественном числе",
+   "ipa": "[ˈzyːsɪçkaɪ̯tən]",
+   "ru": "сладости",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kosmetik",
+   "lemma": "Kosmetik",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[kɔsˈmeːtɪk]",
+   "ru": "косметика",
+   "pos": "noun"
+  },
+  {
+   "de": "die Creme",
+   "lemma": "Creme",
+   "art": "die",
+   "pl": "die Cremes",
+   "forms": "",
+   "ipa": "[kʁeːm]",
+   "ru": "крем",
+   "pos": "noun"
+  },
+  {
+   "de": "der Wunsch",
+   "lemma": "Wunsch",
+   "art": "der",
+   "pl": "die Wünsche",
+   "forms": "",
+   "ipa": "[vʊnʃ]",
+   "ru": "желание",
+   "pos": "noun"
+  },
+  {
+   "de": "der Dank",
+   "lemma": "Dank",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[daŋk]",
+   "ru": "благодарность",
+   "pos": "noun"
+  },
+  {
+   "de": "die Idee",
+   "lemma": "Idee",
+   "art": "die",
+   "pl": "die Ideen",
+   "forms": "",
+   "ipa": "[iˈdeː]",
+   "ru": "идея",
+   "pos": "noun"
+  },
+  {
+   "de": "der Tipp",
+   "lemma": "Tipp",
+   "art": "der",
+   "pl": "die Tipps",
+   "forms": "",
+   "ipa": "[tɪp]",
+   "ru": "совет, подсказка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Vorschlag",
+   "lemma": "Vorschlag",
+   "art": "der",
+   "pl": "die Vorschläge",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯ˌʃlaːk]",
+   "ru": "предложение",
+   "pos": "noun"
+  },
+  {
+   "de": "die Überraschung",
+   "lemma": "Überraschung",
+   "art": "die",
+   "pl": "die Überraschungen",
+   "forms": "",
+   "ipa": "[yːbɐˈʁaʃʊŋ]",
+   "ru": "сюрприз",
+   "pos": "noun"
+  },
+  {
+   "de": "der Gutschein",
+   "lemma": "Gutschein",
+   "art": "der",
+   "pl": "die Gutscheine",
+   "forms": "",
+   "ipa": "[ˈɡuːtˌʃaɪ̯n]",
+   "ru": "подарочный сертификат",
+   "pos": "noun"
+  },
+  {
+   "de": "das Paket",
+   "lemma": "Paket",
+   "art": "das",
+   "pl": "die Pakete",
+   "forms": "",
+   "ipa": "[paˈkeːt]",
+   "ru": "посылка",
+   "pos": "noun"
+  },
+  {
+   "de": "die Postkarte",
+   "lemma": "Postkarte",
+   "art": "die",
+   "pl": "die Postkarten",
+   "forms": "",
+   "ipa": "[ˈpɔstˌkaʁtə]",
+   "ru": "открытка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Flohmarkt",
+   "lemma": "Flohmarkt",
+   "art": "der",
+   "pl": "die Flohmärkte",
+   "forms": "",
+   "ipa": "[ˈfloːˌmaʁkt]",
+   "ru": "блошиный рынок",
+   "pos": "noun"
+  },
+  {
+   "de": "das Ding",
+   "lemma": "Ding",
+   "art": "das",
+   "pl": "die Dinge",
+   "forms": "",
+   "ipa": "[dɪŋ]",
+   "ru": "вещь",
+   "pos": "noun"
+  },
+  {
+   "de": "die Sache",
+   "lemma": "Sache",
+   "art": "die",
+   "pl": "die Sachen",
+   "forms": "",
+   "ipa": "[ˈzaxə]",
+   "ru": "вещь, дело",
+   "pos": "noun"
+  },
+  {
+   "de": "das Konzert",
+   "lemma": "Konzert",
+   "art": "das",
+   "pl": "die Konzerte",
+   "forms": "",
+   "ipa": "[kɔnˈtsɛʁt]",
+   "ru": "концерт",
+   "pos": "noun"
+  },
+  {
+   "de": "die Band",
+   "lemma": "Band",
+   "art": "die",
+   "pl": "die Bands",
+   "forms": "",
+   "ipa": "[bɛnt]",
+   "ru": "музыкальная группа",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fan",
+   "lemma": "Fan",
+   "art": "der",
+   "pl": "die Fans",
+   "forms": "",
+   "ipa": "[fɛn]",
+   "ru": "поклонник",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kamera",
+   "lemma": "Kamera",
+   "art": "die",
+   "pl": "die Kameras",
+   "forms": "",
+   "ipa": "[ˈkaməʁa]",
+   "ru": "фотоаппарат, видеокамера",
+   "pos": "noun"
+  },
+  {
+   "de": "der Krimi",
+   "lemma": "Krimi",
+   "art": "der",
+   "pl": "die Krimis",
+   "forms": "",
+   "ipa": "[ˈkʁɪmi]",
+   "ru": "детектив",
+   "pos": "noun"
+  },
+  {
+   "de": "bunt",
+   "lemma": "bunt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bʊnt]",
+   "ru": "пёстрый",
+   "pos": "adj"
+  },
+  {
+   "de": "hässlich",
+   "lemma": "hässlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈhɛslɪç]",
+   "ru": "некрасивый",
+   "pos": "adj"
+  },
+  {
+   "de": "praktisch",
+   "lemma": "praktisch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈpʁaktɪʃ]",
+   "ru": "практичный",
+   "pos": "adj"
+  },
+  {
+   "de": "nützlich",
+   "lemma": "nützlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈnʏtslɪç]",
+   "ru": "полезный",
+   "pos": "adj"
+  },
+  {
+   "de": "preiswert",
+   "lemma": "preiswert",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈpʁaɪ̯sˌveːɐ̯t]",
+   "ru": "недорогой",
+   "pos": "adj"
+  },
+  {
+   "de": "kostenlos",
+   "lemma": "kostenlos",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈkɔstənˌloːs]",
+   "ru": "бесплатный",
+   "pos": "adj"
+  },
+  {
+   "de": "witzig",
+   "lemma": "witzig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈvɪtsɪç]",
+   "ru": "остроумный",
+   "pos": "adj"
+  },
+  {
+   "de": "egal",
+   "lemma": "egal",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[eˈɡaːl]",
+   "ru": "всё равно",
+   "pos": "adv"
+  },
+  {
+   "de": "kalt",
+   "lemma": "kalt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[kalt]",
+   "ru": "холодный",
+   "pos": "adj"
+  },
+  {
+   "de": "warm",
+   "lemma": "warm",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[vaʁm]",
+   "ru": "тёплый",
+   "pos": "adj"
+  },
+  {
+   "de": "langweilig",
+   "lemma": "langweilig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈlaŋvaɪ̯lɪç]",
+   "ru": "скучный",
+   "pos": "adj"
+  },
+  {
+   "de": "schade",
+   "lemma": "schade",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃaːdə]",
+   "ru": "жаль",
+   "pos": "adv"
+  },
+  {
+   "de": "außer",
+   "lemma": "außer",
+   "art": "",
+   "pl": "",
+   "forms": "с Dativ в значении «кроме»",
+   "ipa": "[ˈaʊ̯sɐ]",
+   "ru": "кроме",
+   "pos": "prep"
+  },
+  {
+   "de": "besonders",
+   "lemma": "besonders",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bəˈzɔndɐs]",
+   "ru": "особенно",
+   "pos": "adv"
+  },
+  {
+   "de": "die Lust",
+   "lemma": "Lust",
+   "art": "die",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[lʊst]",
+   "ru": "желание, охота",
+   "pos": "noun"
+  },
+  {
+   "de": "der Spaß",
+   "lemma": "Spaß",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[ʃpaːs]",
+   "ru": "удовольствие",
+   "pos": "noun"
+  },
+  {
+   "de": "Weihnachten",
+   "lemma": "Weihnachten",
+   "art": "",
+   "pl": "",
+   "forms": "обычно без артикля",
+   "ipa": "[ˈvaɪ̯naxtən]",
+   "ru": "Рождество",
+   "pos": "adv"
+  },
+  {
+   "de": "das Geschenk",
+   "lemma": "Geschenk",
+   "art": "das",
+   "pl": "die Geschenke",
+   "forms": "",
+   "ipa": "[ɡəˈʃɛŋk]",
+   "ru": "подарок",
+   "pos": "noun"
+  },
+  {
+   "de": "gratulieren",
+   "lemma": "gratulieren",
+   "art": "",
+   "pl": "",
+   "forms": "gratuliert, hat gratuliert",
+   "ipa": "[ɡʁatuˈliːʁən]",
+   "ru": "поздравлять",
+   "pos": "verb"
+  },
+  {
+   "de": "besuchen",
+   "lemma": "besuchen",
+   "art": "",
+   "pl": "",
+   "forms": "besucht, hat besucht",
+   "ipa": "[bəˈzuːxən]",
+   "ru": "навещать, посещать",
+   "pos": "verb"
+  },
+  {
+   "de": "bringen",
+   "lemma": "bringen",
+   "art": "",
+   "pl": "",
+   "forms": "bringt, hat gebracht",
+   "ipa": "[ˈbʁɪŋən]",
+   "ru": "приносить",
+   "pos": "verb"
+  },
+  {
+   "de": "anbieten",
+   "lemma": "anbieten",
+   "art": "",
+   "pl": "",
+   "forms": "bietet an, hat angeboten",
+   "ipa": "[ˈanˌbiːtən]",
+   "ru": "предлагать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Arbeit",
+   "lemma": "Arbeit",
+   "art": "die",
+   "pl": "die Arbeiten",
+   "forms": "",
+   "ipa": "[ˈaʁbaɪ̯t]",
+   "ru": "работа",
+   "pos": "noun"
+  },
+  {
+   "de": "die Gepäckaufbewahrung",
+   "lemma": "Gepäckaufbewahrung",
+   "art": "die",
+   "pl": "die Gepäckaufbewahrungen",
+   "forms": "",
+   "ipa": "[ɡəˈpɛkʔaʊ̯fbəˌvaːʁʊŋ]",
+   "ru": "камера хранения",
+   "pos": "noun"
+  },
+  {
+   "de": "die Hochzeit",
+   "lemma": "Hochzeit",
+   "art": "die",
+   "pl": "die Hochzeiten",
+   "forms": "",
+   "ipa": "[ˈhɔxˌtsaɪ̯t]",
+   "ru": "свадьба",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schlauch",
+   "lemma": "Schlauch",
+   "art": "der",
+   "pl": "die Schläuche",
+   "forms": "",
+   "ipa": "[ʃlaʊ̯x]",
+   "ru": "шланг; велосипедная камера",
+   "pos": "noun"
+  },
+  {
+   "de": "das Stativ",
+   "lemma": "Stativ",
+   "art": "das",
+   "pl": "die Stative",
+   "forms": "",
+   "ipa": "[ʃtaˈtiːf]",
+   "ru": "штатив",
+   "pos": "noun"
+  },
+  {
+   "de": "der Strauß",
+   "lemma": "Strauß",
+   "art": "der",
+   "pl": "die Sträuße (букеты); die Strauße (страусы)",
+   "forms": "",
+   "ipa": "[ʃtʁaʊ̯s]",
+   "ru": "букет; страус",
+   "pos": "noun"
+  },
+  {
+   "de": "die Zelle",
+   "lemma": "Zelle",
+   "art": "die",
+   "pl": "die Zellen",
+   "forms": "",
+   "ipa": "[ˈtsɛlə]",
+   "ru": "камера (тюремная), клетка",
+   "pos": "noun"
+  }
+ ]
+}

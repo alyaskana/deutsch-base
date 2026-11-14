@@ -1,0 +1,735 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 24",
+ "sub": "Упражнения урока 24 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 24,
+  "s": "24.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 24.1",
+   "sub": "Поставьте слова из скобок в Genitiv. В первый пропуск впишите артикль или притяжательное слово, во второй существительное целиком.",
+   "items": [
+    {
+     "s": "Bitte überprüfen Sie die Nummer ___ ….",
+     "ru": "",
+     "a": [
+      "des"
+     ],
+     "hint": "der Drucker",
+     "n": "Мужской род; после безударного <b>-er</b> добавляем <b>-s</b>."
+    },
+    {
+     "s": "Bitte überprüfen Sie die Nummer des ___.",
+     "ru": "",
+     "a": [
+      "Druckers"
+     ],
+     "hint": "der Drucker",
+     "n": "Мужской род; после безударного <b>-er</b> добавляем <b>-s</b>."
+    },
+    {
+     "s": "Hier fehlt die Unterschrift ___ ….",
+     "ru": "",
+     "a": [
+      "meines"
+     ],
+     "hint": "mein Vater",
+     "n": "Притяжательное слово получает <b>-es</b>, существительное <b>-s</b>."
+    },
+    {
+     "s": "Hier fehlt die Unterschrift meines ___.",
+     "ru": "",
+     "a": [
+      "Vaters"
+     ],
+     "hint": "mein Vater",
+     "n": "Притяжательное слово получает <b>-es</b>, существительное <b>-s</b>."
+    },
+    {
+     "s": "Das ist die Adresse ___ ….",
+     "ru": "",
+     "a": [
+      "des"
+     ],
+     "hint": "das Amt",
+     "n": "Средний род; у <b>Amt</b> стандартны оба окончания."
+    },
+    {
+     "s": "Das ist die Adresse des ___.",
+     "ru": "",
+     "a": [
+      "Amts"
+     ],
+     "hint": "das Amt",
+     "n": "Средний род; у <b>Amt</b> стандартны оба окончания."
+    },
+    {
+     "s": "Bitte geben Sie die Nummer ___ … an.",
+     "ru": "",
+     "a": [
+      "des"
+     ],
+     "hint": "das Haus",
+     "n": "После конечного <b>s</b> нужно <b>-es</b>."
+    },
+    {
+     "s": "Bitte geben Sie die Nummer des ___ an.",
+     "ru": "",
+     "a": [
+      "Hauses"
+     ],
+     "hint": "das Haus",
+     "n": "После конечного <b>s</b> нужно <b>-es</b>."
+    },
+    {
+     "s": "Die Vorschriften ___ … sind klar.",
+     "ru": "",
+     "a": [
+      "des"
+     ],
+     "hint": "das Gesetz",
+     "n": "После конечного <b>tz</b> нужно <b>-es</b>."
+    },
+    {
+     "s": "Die Vorschriften des ___ sind klar.",
+     "ru": "",
+     "a": [
+      "Gesetzes"
+     ],
+     "hint": "das Gesetz",
+     "n": "После конечного <b>tz</b> нужно <b>-es</b>."
+    },
+    {
+     "s": "Das Datum ___ … fehlt.",
+     "ru": "",
+     "a": [
+      "des"
+     ],
+     "hint": "das Zeugnis",
+     "n": "У среднего рода на <b>-nis</b> перед <b>-es</b> удваивается <b>s</b>."
+    },
+    {
+     "s": "Das Datum des ___ fehlt.",
+     "ru": "",
+     "a": [
+      "Zeugnisses"
+     ],
+     "hint": "das Zeugnis",
+     "n": "У среднего рода на <b>-nis</b> перед <b>-es</b> удваивается <b>s</b>."
+    },
+    {
+     "s": "Hier ist der Stempel ___ ….",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "die Behörde",
+     "n": "Женский род: меняется только артикль."
+    },
+    {
+     "s": "Hier ist der Stempel der ___.",
+     "ru": "",
+     "a": [
+      "Behörde"
+     ],
+     "hint": "die Behörde",
+     "n": "Женский род: меняется только артикль."
+    },
+    {
+     "s": "Bitte bezahlen Sie innerhalb ___ … von zwei Wochen.",
+     "ru": "",
+     "a": [
+      "einer"
+     ],
+     "hint": "eine Frist",
+     "n": "После <b>innerhalb</b> здесь Genitiv женского рода."
+    },
+    {
+     "s": "Bitte bezahlen Sie innerhalb einer ___ von zwei Wochen.",
+     "ru": "",
+     "a": [
+      "Frist"
+     ],
+     "hint": "eine Frist",
+     "n": "После <b>innerhalb</b> здесь Genitiv женского рода."
+    },
+    {
+     "s": "Bitte geben Sie die Namen ___ … an.",
+     "ru": "",
+     "a": [
+      "der"
+     ],
+     "hint": "die Kinder",
+     "n": "Genitiv множественного числа: <b>der</b>, без дополнительного <b>-n</b>."
+    },
+    {
+     "s": "Bitte geben Sie die Namen der ___ an.",
+     "ru": "",
+     "a": [
+      "Kinder"
+     ],
+     "hint": "die Kinder",
+     "n": "Genitiv множественного числа: <b>der</b>, без дополнительного <b>-n</b>."
+    },
+    {
+     "s": "Das ist die Adresse ___ ….",
+     "ru": "",
+     "a": [
+      "meiner"
+     ],
+     "hint": "meine Eltern",
+     "n": "Во множественном числе притяжательное слово заканчивается на <b>-er</b>."
+    },
+    {
+     "s": "Das ist die Adresse meiner ___.",
+     "ru": "",
+     "a": [
+      "Eltern"
+     ],
+     "hint": "meine Eltern",
+     "n": "Во множественном числе притяжательное слово заканчивается на <b>-er</b>."
+    },
+    {
+     "s": "Hier fehlt die Unterschrift ___ ….",
+     "ru": "",
+     "a": [
+      "des"
+     ],
+     "hint": "der Kunde",
+     "n": "Слабое существительное получает <b>-n</b>, без <b>-s</b>."
+    },
+    {
+     "s": "Hier fehlt die Unterschrift des ___.",
+     "ru": "",
+     "a": [
+      "Kunden"
+     ],
+     "hint": "der Kunde",
+     "n": "Слабое существительное получает <b>-n</b>, без <b>-s</b>."
+    },
+    {
+     "s": "Der erste Buchstabe ___ … fehlt.",
+     "ru": "",
+     "a": [
+      "des"
+     ],
+     "hint": "der Name",
+     "n": "Особая группа: в Genitiv у <b>Name</b> окончание <b>-ns</b>."
+    },
+    {
+     "s": "Der erste Buchstabe des ___ fehlt.",
+     "ru": "",
+     "a": [
+      "Namens"
+     ],
+     "hint": "der Name",
+     "n": "Особая группа: в Genitiv у <b>Name</b> окончание <b>-ns</b>."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 24.2",
+   "sub": "Впишите прилагательное целиком в нужной форме. Все сочетания взяты из письменной речи.",
+   "items": [
+    {
+     "s": "wegen des ___ Betrags",
+     "ru": "",
+     "a": [
+      "hohen"
+     ],
+     "hint": "hoch",
+     "n": "После <b>des</b> нужно <b>-en</b>; у <b>hoch</b> основа перед окончанием <b>hoh-</b>."
+    },
+    {
+     "s": "die Nummer eines ___ Formulars",
+     "ru": "",
+     "a": [
+      "neuen"
+     ],
+     "hint": "neu",
+     "n": "После <b>eines</b> в Genitiv прилагательное получает <b>-en</b>."
+    },
+    {
+     "s": "innerhalb einer ___ Frist",
+     "ru": "",
+     "a": [
+      "kurzen"
+     ],
+     "hint": "kurz",
+     "n": "Женский род тоже получает <b>-en</b> после артикля."
+    },
+    {
+     "s": "die Fragen meiner ___ Kollegen",
+     "ru": "",
+     "a": [
+      "jungen"
+     ],
+     "hint": "jung",
+     "n": "После притяжательного слова нужно <b>-en</b>."
+    },
+    {
+     "s": "wegen ___ Wetters",
+     "ru": "",
+     "a": [
+      "kalten"
+     ],
+     "hint": "kalt",
+     "n": "Средний род без артикля: <b>-en</b>."
+    },
+    {
+     "s": "trotz ___ Windes",
+     "ru": "",
+     "a": [
+      "starken"
+     ],
+     "hint": "stark",
+     "n": "Без артикля, мужской род: существительное несёт <b>-es</b>, прилагательное получает <b>-en</b>."
+    },
+    {
+     "s": "wegen ___ Interesses",
+     "ru": "",
+     "a": [
+      "großen"
+     ],
+     "hint": "groß",
+     "n": "Средний род без артикля: <b>-en</b>."
+    },
+    {
+     "s": "wegen ___ Hitze",
+     "ru": "",
+     "a": [
+      "starker"
+     ],
+     "hint": "stark",
+     "n": "Женский род без артикля получает <b>-er</b>."
+    },
+    {
+     "s": "während ___ Pausen",
+     "ru": "",
+     "a": [
+      "kurzer"
+     ],
+     "hint": "kurz",
+     "n": "Genitiv множественного числа без артикля: <b>-er</b>."
+    },
+    {
+     "s": "trotz ___ Probleme",
+     "ru": "",
+     "a": [
+      "großer"
+     ],
+     "hint": "groß",
+     "n": "Без артикля во множественном числе нужно <b>-er</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 24.3",
+   "sub": "В пунктах 1–3 и 9 замените von на Genitiv, сохраняя порядок слов. В пунктах 4–5 поставьте имя впереди либо используйте von. В пунктах 6–8 соедините части через von, без новых слов. Пишите только сочетание.",
+   "items": [
+    {
+     "ru": "die Idee von einer Kollegin",
+     "w": [
+      "die",
+      "Idee",
+      "einer",
+      "Kollegin"
+     ],
+     "ok": [
+      "die Idee einer Kollegin"
+     ],
+     "n": "В Genitiv женского рода остаётся <b>einer</b>."
+    },
+    {
+     "ru": "das Ende von diesem Vertrag",
+     "w": [
+      "das",
+      "Ende",
+      "dieses",
+      "Vertrags"
+     ],
+     "ok": [
+      "das Ende dieses Vertrags"
+     ],
+     "n": "Genitiv слова <b>dieser</b>; допустимы <b>-s</b> и <b>-es</b>."
+    },
+    {
+     "ru": "die Wohnung von unseren Freunden",
+     "w": [
+      "die",
+      "Wohnung",
+      "unserer",
+      "Freunde"
+     ],
+     "ok": [
+      "die Wohnung unserer Freunde"
+     ],
+     "n": "Genitiv множественного числа без дополнительного Dativ <b>-n</b>."
+    },
+    {
+     "ru": "Paul + das Zimmer",
+     "w": [
+      "Pauls",
+      "Zimmer"
+     ],
+     "ok": [
+      "Pauls Zimmer"
+     ],
+     "n": "К имени добавляем <b>-s</b> без апострофа."
+    },
+    {
+     "ru": "Jonas + das Fahrrad",
+     "w": [
+      "Jonas’",
+      "Fahrrad"
+     ],
+     "ok": [
+      "Jonas’ Fahrrad"
+     ],
+     "n": "После конечного звука <b>s</b> нужен апостроф."
+    },
+    {
+     "ru": "der Preis + Äpfel",
+     "w": [
+      "der",
+      "Preis",
+      "von",
+      "Äpfeln"
+     ],
+     "ok": [
+      "der Preis von Äpfeln"
+     ],
+     "n": "После <b>von</b> нужен Dativ множественного числа с <b>-n</b>."
+    },
+    {
+     "ru": "ein Freund + ich",
+     "w": [
+      "ein",
+      "Freund",
+      "von",
+      "mir"
+     ],
+     "ok": [
+      "ein Freund von mir"
+     ],
+     "n": "Личное местоимение после <b>von</b> стоит в Dativ."
+    },
+    {
+     "ru": "die Qualität + Wasser",
+     "w": [
+      "die",
+      "Qualität",
+      "von",
+      "Wasser"
+     ],
+     "ok": [
+      "die Qualität von Wasser"
+     ],
+     "n": "Без артикля или прилагательного используем <b>von</b>."
+    },
+    {
+     "ru": "einer von den besten Fotografen der Stadt",
+     "w": [
+      "einer",
+      "der",
+      "besten",
+      "Fotografen",
+      "der",
+      "Stadt"
+     ],
+     "ok": [
+      "einer der besten Fotografen der Stadt"
+     ],
+     "n": "«Один из»: <b>einer</b> + Genitiv множественного числа; на письме это обычный вариант."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 24.4",
+   "sub": "Вставьте форму слова из скобок. Артикль уже дан; он не входит в пропуск.",
+   "items": [
+    {
+     "s": "Wir treffen den ___ vor dem Büro.",
+     "ru": "",
+     "a": [
+      "Kollegen"
+     ],
+     "hint": "Kollege",
+     "n": "Akkusativ слабого существительного: добавляем <b>-n</b>."
+    },
+    {
+     "s": "Paul hilft dem ___ mit dem Computer.",
+     "ru": "",
+     "a": [
+      "Nachbarn",
+      "Nachbar"
+     ],
+     "hint": "Nachbar",
+     "n": "<b>Helfen</b> сочетается с Dativ; у <b>Nachbar</b> допустимы слабая форма <b>Nachbarn</b> и обычная <b>Nachbar</b>; слабая встречается чаще."
+    },
+    {
+     "s": "Die Unterlagen sind für ___ Krüger.",
+     "ru": "",
+     "a": [
+      "Herrn"
+     ],
+     "hint": "Herr",
+     "n": "После <b>für</b> Akkusativ; единственное число <b>Herrn</b>."
+    },
+    {
+     "s": "Die Unterschrift des ___ fehlt.",
+     "ru": "",
+     "a": [
+      "Zeugen"
+     ],
+     "hint": "Zeuge",
+     "n": "Genitiv слабого существительного на <b>-e</b>: добавляем <b>-n</b>."
+    },
+    {
+     "s": "Alina spricht mit dem ___.",
+     "ru": "",
+     "a": [
+      "Journalisten"
+     ],
+     "hint": "Journalist",
+     "n": "После <b>mit</b> Dativ; слабое существительное получает <b>-en</b>."
+    },
+    {
+     "s": "Die Ärztin untersucht den ___.",
+     "ru": "",
+     "a": [
+      "Patienten"
+     ],
+     "hint": "Patient",
+     "n": "Akkusativ слабого существительного: добавляем <b>-en</b>."
+    },
+    {
+     "s": "Das ist das Büro des ___.",
+     "ru": "",
+     "a": [
+      "Professors"
+     ],
+     "hint": "Professor",
+     "n": "Обычное склонение, несмотря на множественное число <b>Professoren</b>."
+    },
+    {
+     "s": "Ich antworte dem ___.",
+     "ru": "",
+     "a": [
+      "Direktor"
+     ],
+     "hint": "Direktor",
+     "n": "Dativ обычного существительного, без <b>-en</b>."
+    },
+    {
+     "s": "Die Studentin fragt den ___.",
+     "ru": "",
+     "a": [
+      "Lehrer"
+     ],
+     "hint": "Lehrer",
+     "n": "Akkusativ обычного существительного, без изменения."
+    },
+    {
+     "s": "Vor der Behörde wartet ein ___.",
+     "ru": "",
+     "a": [
+      "Beamter"
+     ],
+     "hint": "der Beamte",
+     "n": "После <b>ein</b> прилагательное как существительное получает <b>-er</b>."
+    },
+    {
+     "s": "Die Ärztin spricht mit einem ___.",
+     "ru": "",
+     "a": [
+      "Angehörigen"
+     ],
+     "hint": "der Angehörige",
+     "n": "После <b>einem</b> у прилагательного как существительного <b>-en</b>."
+    },
+    {
+     "s": "Ein ___ zeigt Lea den Weg.",
+     "ru": "",
+     "a": [
+      "Deutscher"
+     ],
+     "hint": "der Deutsche",
+     "n": "Подлежащее после <b>ein</b>: окончание <b>-er</b>."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 24.5",
+   "scene": "Ausländerbehörde",
+   "cap": "Сообщение господина Брандта",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Голосовое сообщение господина Брандта из Ausländerbehörde.",
+   "audio": {
+    "id": "book-24-5",
+    "n": 2,
+    "dur": 33.65,
+    "t": [
+     [
+      0.8,
+      8.0
+     ],
+     [
+      8.0,
+      15.2
+     ],
+     [
+      15.2,
+      21.6
+     ],
+     [
+      21.6,
+      33.6
+     ]
+    ]
+   },
+   "speakers": {
+    "Herr Brandt": "Саксония"
+   },
+   "lines": [
+    {
+     "who": "Herr Brandt",
+     "de": "Guten Tag, Frau Kozyreva, hier spricht Brandt von der Ausländerbehörde. Vielen Dank für Ihren Brief und die Kopie Ihres Passes.",
+     "ru": "Добрый день, госпожа Козырева, говорит Брандт из ведомства по делам иностранцев. Спасибо за ваше письмо и копию паспорта."
+    },
+    {
+     "who": "Herr Brandt",
+     "de": "Es fehlen aber noch zwei Dinge: eine Kopie Ihres Zeugnisses und im Formular das Datum Ihrer Unterschrift.",
+     "ru": "Но не хватает ещё двух вещей: копии вашего свидетельства и даты вашей подписи в анкете."
+    },
+    {
+     "who": "Herr Brandt",
+     "de": "Bitte schicken Sie beides innerhalb von drei Wochen. Ab Montag bin ich wegen eines Kurses zwei Wochen nicht im Büro.",
+     "ru": "Пожалуйста, пришлите и то и другое в течение трёх недель. С понедельника я из-за курса две недели не в офисе."
+    },
+    {
+     "who": "Herr Brandt",
+     "de": "Rufen Sie dann bitte meinen Kollegen an. Oben auf dem Brief schreiben Sie bitte: Herrn Albers. A, L, B, E, R, S. Vielen Dank und auf Wiederhören!",
+     "ru": "Тогда позвоните, пожалуйста, моему коллеге. Сверху на письме напишите: господину Альберсу. A, L, B, E, R, S. Спасибо и до свидания!"
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Ещё нужна копия: eine Kopie ___.",
+     "o": [
+      "Ihres Zeugnisses",
+      "Ihres Passes",
+      "Ihrem Zeugnis"
+     ],
+     "a": "Ihres Zeugnisses",
+     "n": "eine Kopie <b>Ihres Zeugnisses</b>. Паспорт уже есть; Genitiv: Zeugnis → Zeugnisses.",
+     "k": 1
+    },
+    {
+     "q": "В анкете не хватает: das Datum ___.",
+     "o": [
+      "Ihrer Unterschrift",
+      "Ihre Unterschrift",
+      "Ihres Unterschrifts"
+     ],
+     "a": "Ihrer Unterschrift",
+     "n": "das Datum <b>Ihrer Unterschrift</b>. Женский род в Genitiv: <b>Ihrer</b>.",
+     "k": 1
+    },
+    {
+     "q": "Срок: innerhalb von ___.",
+     "o": [
+      "drei Wochen",
+      "zwei Wochen",
+      "drei Tagen"
+     ],
+     "a": "drei Wochen",
+     "n": "<b>innerhalb von drei Wochen</b>. Без артикля — von + Dativ.",
+     "k": 2
+    },
+    {
+     "q": "Ab Montag ist er wegen ___ nicht im Büro.",
+     "o": [
+      "eines Kurses",
+      "einem Kurs",
+      "eines Kurs"
+     ],
+     "a": "eines Kurses",
+     "n": "<b>wegen eines Kurses</b>. wegen + Genitiv.",
+     "k": 2
+    },
+    {
+     "q": "Rufen Sie dann bitte ___ an.",
+     "o": [
+      "meinen Kollegen",
+      "meinem Kollegen",
+      "meinen Kollege"
+     ],
+     "a": "meinen Kollegen",
+     "n": "Rufen Sie dann bitte <b>meinen Kollegen</b> an. anrufen + Akkusativ; слабое Kollege → -n.",
+     "k": 3
+    },
+    {
+     "q": "Адресная строка: ___ Albers.",
+     "o": [
+      "Herrn",
+      "Herr",
+      "Herren"
+     ],
+     "a": "Herrn",
+     "n": "<b>Herrn</b> Albers. На письме мужчине — <b>Herrn</b>.",
+     "k": 3
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 24.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 24.6",
+   "sub": "Напишите официальное письмо в ведомство (бумажное, как у Алины), 60–80 слов. Вы не успеваете прислать документы в срок и просите продлить его. Получателя, ситуацию и причину придумайте. Адресная строка, обращение и подпись входят в объём.",
+   "items": [
+    {
+     "q": "Напишите официальное письмо в ведомство (бумажное, как у Алины), 60–80 слов. Вы не успеваете прислать документы в срок и просите продлить его. Получателя, ситуацию и причину придумайте. Адресная строка, обращение и подпись входят в объём.",
+     "hint": "Добавьте адресную строку (Herrn или Frau + фамилия), обращение и прощание. Потом перечитайте письмо: есть ли в нём два предлога с Genitiv? Есть ли два определения в Genitiv, и стоит ли в одном из них прилагательное? Нашлось ли место для слабого существительного?",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Frau Sabine Weber / Sehr geehrte Frau Weber, / ich habe Ihren Brief bekommen. Leider kann ich die Unterlagen nicht innerhalb der Frist schicken. Wegen einer Reise meines Chefs fehlt noch seine Unterschrift auf meinem neuen Vertrag. Trotz der Hilfe eines Kollegen geht es nicht schneller. Könnten Sie die Frist bitte um zwei Wochen verlängern? Die Kopie meines neuen Passes schicke ich Ihnen heute. / Mit freundlichen Grüßen / Maria Neumann"
+     ],
+     "check": [
+      "Проверьте: 60–80 слов; адресная строка с Herrn или Frau; обращение Sehr geehrte Frau …, или Sehr geehrter Herr …, с запятой; после запятой строчная буква; минимум два предлога с Genitiv (в модели innerhalb der Frist, wegen einer Reise, trotz der Hilfe); два определения в Genitiv, одно с прилагательным (meines Chefs, meines neuen Passes); слабое существительное (eines Kollegen); после Mit freundlichen Grüßen нет запятой. Косые черты обозначают переносы строк."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

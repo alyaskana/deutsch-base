@@ -1,0 +1,670 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 21",
+ "sub": "Упражнения урока 21 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 21,
+  "s": "21.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 21.1",
+   "sub": "Вставьте Präteritum. В каждом пункте речь идёт о другом человеке.",
+   "items": [
+    {
+     "s": "Meine Tante ___ ein Abenteuer.",
+     "ru": "",
+     "a": [
+      "erlebte"
+     ],
+     "hint": "erleben",
+     "n": "Слабый глагол: основа и <b>-te</b>."
+    },
+    {
+     "s": "Mein Onkel ___ eine Firma.",
+     "ru": "",
+     "a": [
+      "gründete"
+     ],
+     "hint": "gründen",
+     "n": "После основы на <b>d</b> добавляем <b>-ete</b>."
+    },
+    {
+     "s": "Meine Schwester ___ ein Café.",
+     "ru": "",
+     "a": [
+      "eröffnete"
+     ],
+     "hint": "eröffnen",
+     "n": "После группы <b>ffn</b> перед <b>-te</b> появляется <b>e</b>."
+    },
+    {
+     "s": "Der Lehrer ___ das Dorf.",
+     "ru": "",
+     "a": [
+      "verließ"
+     ],
+     "hint": "verlassen",
+     "n": "Сильный глагол меняет основу; <b>-te</b> не добавляем."
+    },
+    {
+     "s": "Die Ärztin ___ über die Grenze.",
+     "ru": "",
+     "a": [
+      "floh"
+     ],
+     "hint": "fliehen",
+     "n": "У <b>fliehen</b> прошедшая основа <b>floh-</b>."
+    },
+    {
+     "s": "Meinem Bruder ___ der Kuchen.",
+     "ru": "",
+     "a": [
+      "gelang"
+     ],
+     "hint": "gelingen",
+     "n": "Подлежащее здесь <b>der Kuchen</b>, единственное число; брата называем в Dativ."
+    },
+    {
+     "s": "Der Verkäufer ___ plötzlich.",
+     "ru": "",
+     "a": [
+      "verschwand"
+     ],
+     "hint": "verschwinden",
+     "n": "Гласная меняется, окончания в третьем лице нет."
+    },
+    {
+     "s": "Ich ___ meine Jugend in Hamburg.",
+     "ru": "",
+     "a": [
+      "verbrachte"
+     ],
+     "hint": "verbringen",
+     "n": "Смешанный глагол меняет основу и добавляет <b>-te</b>."
+    },
+    {
+     "s": "Bei der Vermieterin ___ ein Feuer im Garten.",
+     "ru": "",
+     "a": [
+      "brannte"
+     ],
+     "hint": "brennen",
+     "n": "Смешанная форма: меняется гласная и появляется <b>-te</b>."
+    },
+    {
+     "s": "Der Student ___ zum Bahnhof.",
+     "ru": "",
+     "a": [
+      "rannte"
+     ],
+     "hint": "rennen",
+     "n": "Меняется гласная, при этом сохраняется <b>-te</b>."
+    },
+    {
+     "s": "Meine Cousine ___ in Leipzig ….",
+     "ru": "",
+     "a": [
+      "wuchs"
+     ],
+     "hint": "aufwachsen",
+     "n": "В главном предложении приставка отделяется."
+    },
+    {
+     "s": "Meine Cousine wuchs in Leipzig ___.",
+     "ru": "",
+     "a": [
+      "auf"
+     ],
+     "hint": "aufwachsen",
+     "n": "В главном предложении приставка отделяется."
+    },
+    {
+     "s": "Die Designerin erzählte, dass sie in Bonn ___.",
+     "ru": "",
+     "a": [
+      "aufwuchs"
+     ],
+     "hint": "aufwachsen",
+     "n": "В придаточном приставка соединяется с глаголом в конце."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 21.2",
+   "sub": "Перепишите для журнала в Präteritum. Сохраняйте все остальные слова; если время уже подходит, оставьте предложение. Допустимые перестановки тоже принимаются. В 9–10 — наоборот: перепишите в Perfekt с двумя инфинитивами; так тоже говорят за столом.",
+   "items": [
+    {
+     "ru": "Die Ärztin ist nach Hamburg geflohen.",
+     "w": [
+      "Die",
+      "Ärztin",
+      "floh",
+      "nach",
+      "Hamburg"
+     ],
+     "ok": [
+      "Die Ärztin floh nach Hamburg"
+     ],
+     "n": "<b>Ist geflohen</b> заменяем формой <b>floh</b>."
+    },
+    {
+     "ru": "Eine neue Idee ist entstanden.",
+     "w": [
+      "Eine",
+      "neue",
+      "Idee",
+      "entstand"
+     ],
+     "ok": [
+      "Eine neue Idee entstand"
+     ],
+     "n": "<b>Ist entstanden</b> превращается в <b>entstand</b>."
+    },
+    {
+     "ru": "Der Meister hat die Maschine angemacht.",
+     "w": [
+      "Der",
+      "Meister",
+      "machte",
+      "die",
+      "Maschine",
+      "an"
+     ],
+     "ok": [
+      "Der Meister machte die Maschine an"
+     ],
+     "n": "В Präteritum приставка остаётся в конце главного предложения."
+    },
+    {
+     "ru": "Die Lehrerin hat das Kind abgeholt.",
+     "w": [
+      "Die",
+      "Lehrerin",
+      "holte",
+      "das",
+      "Kind",
+      "ab"
+     ],
+     "ok": [
+      "Die Lehrerin holte das Kind ab"
+     ],
+     "n": "У слабого <b>abholen</b> добавляем <b>-te</b> к основе."
+    },
+    {
+     "ru": "Der Junge war müde.",
+     "w": [
+      "Der",
+      "Junge",
+      "war",
+      "müde"
+     ],
+     "ok": [
+      "Der Junge war müde"
+     ],
+     "n": "<b>War</b> уже стоит в Präteritum."
+    },
+    {
+     "ru": "Die Mutter hatte Zeit.",
+     "w": [
+      "Die",
+      "Mutter",
+      "hatte",
+      "Zeit"
+     ],
+     "ok": [
+      "Die Mutter hatte Zeit"
+     ],
+     "n": "<b>Hatte</b> менять не нужно."
+    },
+    {
+     "ru": "Die Studentin hat viel lernen müssen.",
+     "w": [
+      "Die",
+      "Studentin",
+      "musste",
+      "viel",
+      "lernen"
+     ],
+     "ok": [
+      "Die Studentin musste viel lernen"
+     ],
+     "n": "Разговорное <b>hat … lernen müssen</b> в журнале становится одним <b>musste</b>."
+    },
+    {
+     "ru": "Der Vater hat gut kochen können.",
+     "w": [
+      "Der",
+      "Vater",
+      "konnte",
+      "gut",
+      "kochen"
+     ],
+     "ok": [
+      "Der Vater konnte gut kochen"
+     ],
+     "n": "Два инфинитива в Perfekt дают одно <b>konnte</b>."
+    },
+    {
+     "ru": "Wir mussten den Termin ändern.",
+     "w": [
+      "Wir",
+      "haben",
+      "den",
+      "Termin",
+      "ändern",
+      "müssen"
+     ],
+     "ok": [
+      "Wir haben den Termin ändern müssen"
+     ],
+     "n": "Со вторым глаголом в конце два инфинитива; помощник всегда <b>haben</b>."
+    },
+    {
+     "ru": "Sie wollte nicht mitkommen.",
+     "w": [
+      "Sie",
+      "hat",
+      "nicht",
+      "mitkommen",
+      "wollen"
+     ],
+     "ok": [
+      "Sie hat nicht mitkommen wollen"
+     ],
+     "n": "Отделяемый <b>mitkommen</b> остаётся целым инфинитивом перед <b>wollen</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "choice",
+   "title": "Упражнение 21.3",
+   "sub": "Выберите союз под указанный смысл. Смысловая подсказка обязательна: вне контекста некоторые союзы могут заменять друг друга.",
+   "items": [
+    {
+     "s": "___ Jonas die E-Mail las, war er im Büro.",
+     "ru": "Один конкретный момент в прошлом",
+     "o": [
+      "Wenn",
+      "Als",
+      "Seit"
+     ],
+     "a": "Als",
+     "n": "Одно событие в прошлом вводит <b>als</b>."
+    },
+    {
+     "s": "Immer ___ Paul frei hatte, besuchte er seine Schwester.",
+     "ru": "Каждый раз в прошлом",
+     "o": [
+      "wenn",
+      "als",
+      "bevor"
+     ],
+     "a": "wenn",
+     "n": "Повторение с <b>immer</b> обозначаем через <b>wenn</b>."
+    },
+    {
+     "s": "___ er seine Ausbildung gemacht hatte, gründete er eine Firma.",
+     "ru": "Речь о прошлом, сначала закончил учёбу",
+     "o": [
+      "Bevor",
+      "Während",
+      "Nachdem"
+     ],
+     "a": "Nachdem",
+     "n": "Plusquamperfekt обозначает завершённое раннее действие."
+    },
+    {
+     "s": "___ sie zum Interview kam, bereitete sie sich vor.",
+     "ru": "Сначала подготовилась, затем пришла на интервью; обе формы в Präteritum",
+     "o": [
+      "Bevor",
+      "Nachdem",
+      "Seitdem"
+     ],
+     "a": "Bevor",
+     "n": "Подготовка предшествовала приходу; <b>bevor</b> допускает обычное прошедшее в обеих частях."
+    },
+    {
+     "s": "___ Herr Krüger hier arbeitet, fährt er mit dem Fahrrad ins Büro.",
+     "ru": "Состояние началось раньше и продолжается",
+     "o": [
+      "Bis",
+      "Nachdem",
+      "Seit"
+     ],
+     "a": "Seit",
+     "n": "Оба продолжающихся действия стоят в Präsens."
+    },
+    {
+     "s": "___ wir umgezogen sind, kaufen wir hier ein.",
+     "ru": "После переезда привычка сохраняется до сих пор",
+     "o": [
+      "Während",
+      "Seitdem",
+      "Bevor"
+     ],
+     "a": "Seitdem",
+     "n": "Завершённый переезд стоит в Perfekt, нынешняя привычка в Präsens."
+    },
+    {
+     "s": "___ Alina schrieb, telefonierte Jonas.",
+     "ru": "Важна именно одновременность двух процессов",
+     "o": [
+      "Während",
+      "Als",
+      "Nachdem"
+     ],
+     "a": "Während",
+     "n": "<b>Während</b> прямо называет одновременность; <b>als</b> только привязал бы событие ко времени."
+    },
+    {
+     "s": "___ sie achtzehn wurde, lebte sie in Bonn.",
+     "ru": "Один короткий момент достижения возраста",
+     "o": [
+      "Während",
+      "Seitdem",
+      "Als"
+     ],
+     "a": "Als",
+     "n": "Здесь один момент в прошлом, а не два параллельных процесса."
+    },
+    {
+     "s": "Alina wartete, ___ Paul kam.",
+     "ru": "Ожидание продолжалось до прихода Пауля",
+     "o": [
+      "bevor",
+      "bis",
+      "nachdem"
+     ],
+     "a": "bis",
+     "n": "<b>Bis</b> указывает, какое событие закончило ожидание."
+    },
+    {
+     "s": "___ Lea nach Berlin fuhr, kaufte sie eine Fahrkarte.",
+     "ru": "Покупка произошла перед поездкой, ожидания нет",
+     "o": [
+      "Bis",
+      "Nachdem",
+      "Bevor"
+     ],
+     "a": "Bevor",
+     "n": "Билет купили раньше поездки; <b>bevor</b> вводит более позднее событие."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 21.4",
+   "sub": "Соедините предложения союзом nachdem вместо dann, остальные слова сохраните. В пунктах 1, 3 и 5 начните с nachdem, в остальных подходят оба порядка. В пунктах 1–3 ставьте имя в ту часть, которая идёт первой, а местоимение в следующую.",
+   "items": [
+    {
+     "ru": "Рассказ о прошлом: Die Kollegin las den Vertrag. Dann unterschrieb sie ihn.",
+     "w": [
+      "Nachdem",
+      "die",
+      "Kollegin",
+      "den",
+      "Vertrag",
+      "gelesen",
+      "hatte,",
+      "unterschrieb",
+      "sie",
+      "ihn"
+     ],
+     "ok": [
+      "Nachdem die Kollegin den Vertrag gelesen hatte, unterschrieb sie ihn"
+     ],
+     "n": "Чтение раньше подписи: <b>gelesen hatte</b>; после придаточного сразу <b>unterschrieb</b>."
+    },
+    {
+     "ru": "Рассказ о прошлом: Paul kam an. Dann rief er Alina an.",
+     "w": [
+      "Nachdem",
+      "Paul",
+      "angekommen",
+      "war,",
+      "rief",
+      "er",
+      "Alina",
+      "an"
+     ],
+     "ok": [
+      "Nachdem Paul angekommen war, rief er Alina an"
+     ],
+     "n": "У <b>ankommen</b> помощник <b>sein</b>, поэтому <b>angekommen war</b>."
+    },
+    {
+     "ru": "Рассказ о прошлом: Lea fand die Adresse. Dann schrieb sie der Firma.",
+     "w": [
+      "Nachdem",
+      "Lea",
+      "die",
+      "Adresse",
+      "gefunden",
+      "hatte,",
+      "schrieb",
+      "sie",
+      "der",
+      "Firma"
+     ],
+     "ok": [
+      "Nachdem Lea die Adresse gefunden hatte, schrieb sie der Firma"
+     ],
+     "n": "Поиск завершился раньше письма; у <b>finden</b> помощник <b>haben</b>."
+    },
+    {
+     "ru": "План: Ich kaufe das Gemüse. Dann koche ich.",
+     "w": [
+      "Nachdem",
+      "ich",
+      "das",
+      "Gemüse",
+      "gekauft",
+      "habe,",
+      "koche",
+      "ich"
+     ],
+     "ok": [
+      "Nachdem ich das Gemüse gekauft habe, koche ich"
+     ],
+     "n": "Покупка завершится раньше готовки: Perfekt перед Präsens."
+    },
+    {
+     "ru": "План: Wir kommen zurück. Dann packen wir aus.",
+     "w": [
+      "Nachdem",
+      "wir",
+      "zurückgekommen",
+      "sind,",
+      "packen",
+      "wir",
+      "aus"
+     ],
+     "ok": [
+      "Nachdem wir zurückgekommen sind, packen wir aus"
+     ],
+     "n": "Раннее действие в Perfekt с <b>sein</b>; основное действие в Präsens."
+    },
+    {
+     "ru": "Привычка: Ich dusche. Dann frühstücke ich.",
+     "w": [
+      "Nachdem",
+      "ich",
+      "geduscht",
+      "habe,",
+      "frühstücke",
+      "ich"
+     ],
+     "ok": [
+      "Nachdem ich geduscht habe, frühstücke ich"
+     ],
+     "n": "Сначала заканчиваю душ, потом завтракаю; основная привычка в Präsens."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 21.5",
+   "scene": "Radioporträt",
+   "cap": "Изобретатель из Лейпцига",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Радиопортрет вымышленного изобретателя. Что было раньше?",
+   "audio": {
+    "id": "book-21-5",
+    "n": 2,
+    "dur": 35.08,
+    "t": [
+     [
+      0.8,
+      9.12
+     ],
+     [
+      9.12,
+      18.08
+     ],
+     [
+      18.08,
+      28.08
+     ],
+     [
+      28.08,
+      35.04
+     ]
+    ]
+   },
+   "speakers": {
+    "Radio": "Германия"
+   },
+   "lines": [
+    {
+     "who": "Radio",
+     "de": "Heute im Porträt: ein Mann mit einer guten Idee. Er erfand eine kleine Maschine für die Küche. Die Maschine schneidet Gemüse.",
+     "ru": "Сегодня в портрете: человек с хорошей идеей. Он изобрёл маленькую машину для кухни. Машина режет овощи."
+    },
+    {
+     "who": "Radio",
+     "de": "Er hatte seine Ausbildung gemacht, bevor er eine Arbeit fand. Später eröffnete er eine Werkstatt. Er war schon nach Leipzig umgezogen.",
+     "ru": "Он закончил обучение до того, как нашёл работу. Позже он открыл мастерскую. Он уже переехал в Лейпциг."
+    },
+    {
+     "who": "Radio",
+     "de": "Bevor er die Werkstatt eröffnete, kaufte er einen Computer. Er zeigte seine Erfindung auf einer Ausstellung. Er hatte die Maschine in seiner Werkstatt gebaut.",
+     "ru": "Перед тем как открыть мастерскую, он купил компьютер. Он показал изобретение на выставке. Машину он построил в своей мастерской."
+    },
+    {
+     "who": "Radio",
+     "de": "Seitdem er in Leipzig wohnt, arbeitet er mit seiner Tochter. Sie macht die Fotos und schreibt die E-Mails.",
+     "ru": "С тех пор как он живёт в Лейпциге, он работает с дочерью. Она делает фото и пишет письма."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Что произошло раньше?",
+     "o": [
+      "он закончил обучение",
+      "он нашёл работу"
+     ],
+     "a": "он закончил обучение",
+     "n": "Er <b>hatte</b> seine Ausbildung <b>gemacht</b>, bevor er eine Arbeit fand. Plusquamperfekt — более раннее событие.",
+     "k": 1
+    },
+    {
+     "q": "Что произошло раньше?",
+     "o": [
+      "он переехал в Лейпциг",
+      "он открыл мастерскую"
+     ],
+     "a": "он переехал в Лейпциг",
+     "n": "Er <b>war</b> schon nach Leipzig <b>umgezogen</b>. war … umgezogen — раньше открытия.",
+     "k": 1
+    },
+    {
+     "q": "Что произошло раньше?",
+     "o": [
+      "он построил машину",
+      "он показал изобретение"
+     ],
+     "a": "он построил машину",
+     "n": "Er <b>hatte</b> die Maschine in seiner Werkstatt <b>gebaut</b>. hatte … gebaut — до показа.",
+     "k": 2
+    },
+    {
+     "q": "Перед открытием мастерской он купил компьютер?",
+     "o": [
+      "верно",
+      "неверно"
+     ],
+     "a": "верно",
+     "n": "<b>Bevor</b> er die Werkstatt eröffnete, <b>kaufte</b> er einen Computer. Сначала покупка.",
+     "k": 2
+    },
+    {
+     "q": "В Лейпциге он работает один?",
+     "o": [
+      "неверно",
+      "верно"
+     ],
+     "a": "неверно",
+     "n": "arbeitet er <b>mit seiner Tochter</b>. Вместе с дочерью.",
+     "k": 3
+    },
+    {
+     "q": "Как он скажет знакомому «я изобрёл машину»?",
+     "o": [
+      "Ich habe eine kleine Maschine erfunden.",
+      "Ich erfand eine kleine Maschine.",
+      "Ich hatte eine kleine Maschine erfunden."
+     ],
+     "a": "Ich habe eine kleine Maschine erfunden.",
+     "n": "Er <b>erfand</b> eine kleine Maschine. В разговоре обычно Perfekt; Präteritum звучит повествовательно.",
+     "k": 0
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 21.5",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 21.6",
+   "sub": "Напишите 80–100 слов о знакомом или вымышленном человеке для журнальной колонки.",
+   "items": [
+    {
+     "q": "Напишите 80–100 слов о знакомом или вымышленном человеке для журнальной колонки.",
+     "hint": "Перечитайте колонку: набралось ли в ней восемь форм Präteritum, из них три сильные и одна смешанная? Есть ли два придаточных с nachdem? Стоит ли Plusquamperfekt ещё где-то вне такого придаточного? Нашлось ли место для одного als и одного seit с Präsens?",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Meine Tante wuchs in Hamburg auf. Als sie jung war, las sie viel und schrieb Geschichten. Ihre Ferien verbrachte sie oft in Köln, weil sie dort als Kind eine Freundin gefunden hatte. Nachdem sie ihre Ausbildung gemacht hatte, arbeitete sie zunächst in einem Büro. Sie fand die Arbeit langweilig. Nachdem sie viel Geld gespart hatte, eröffnete sie schließlich ein kleines Café. Ihre Freundin aus Köln half ihr. Bald kamen viele Leute. Inzwischen ist das Café sehr beliebt. Seit meine Tante dort arbeitet, erzählt sie den Gästen jeden Tag Geschichten. Die Leute hören gern zu."
+     ],
+     "check": [
+      "В модели 94 слова. Präteritum: wuchs … auf, war, las, schrieb, verbrachte, arbeitete, fand, eröffnete, half, kamen; сильные среди них wuchs … auf, las, schrieb, fand, half, kamen, смешанная verbrachte. Два nachdem с Plusquamperfekt; отдельное Plusquamperfekt gefunden hatte в придаточном с weil; als; seit с Präsens в обеих частях. Другие тексты с этими признаками тоже подходят."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

@@ -1,0 +1,715 @@
+{
+ "l": 13,
+ "words": [
+  {
+   "de": "die Reise",
+   "lemma": "Reise",
+   "art": "die",
+   "pl": "die Reisen",
+   "forms": "",
+   "ipa": "[ˈʁaɪ̯zə]",
+   "ru": "поездка",
+   "pos": "noun"
+  },
+  {
+   "de": "verreisen",
+   "lemma": "verreisen",
+   "art": "",
+   "pl": "",
+   "forms": "verreist, ist verreist",
+   "ipa": "[fɛɐ̯ˈʁaɪ̯zən]",
+   "ru": "уезжать в поездку",
+   "pos": "verb"
+  },
+  {
+   "de": "der Reiseführer",
+   "lemma": "Reiseführer",
+   "art": "der",
+   "pl": "die Reiseführer",
+   "forms": "",
+   "ipa": "[ˈʁaɪ̯zəˌfyːʁɐ]",
+   "ru": "путеводитель, гид",
+   "pos": "noun"
+  },
+  {
+   "de": "der Flug",
+   "lemma": "Flug",
+   "art": "der",
+   "pl": "die Flüge",
+   "forms": "",
+   "ipa": "[fluːk]",
+   "ru": "рейс, полёт",
+   "pos": "noun"
+  },
+  {
+   "de": "der Rucksack",
+   "lemma": "Rucksack",
+   "art": "der",
+   "pl": "die Rucksäcke",
+   "forms": "",
+   "ipa": "[ˈʁʊkˌzak]",
+   "ru": "рюкзак",
+   "pos": "noun"
+  },
+  {
+   "de": "packen",
+   "lemma": "packen",
+   "art": "",
+   "pl": "",
+   "forms": "packt, hat gepackt",
+   "ipa": "[ˈpakən]",
+   "ru": "собирать вещи",
+   "pos": "verb"
+  },
+  {
+   "de": "die Unterkunft",
+   "lemma": "Unterkunft",
+   "art": "die",
+   "pl": "die Unterkünfte",
+   "forms": "",
+   "ipa": "[ˈʊntɐˌkʊnft]",
+   "ru": "жильё в поездке",
+   "pos": "noun"
+  },
+  {
+   "de": "die Jugendherberge",
+   "lemma": "Jugendherberge",
+   "art": "die",
+   "pl": "die Jugendherbergen",
+   "forms": "",
+   "ipa": "[ˈjuːɡəntˌhɛʁbɛʁɡə]",
+   "ru": "молодёжный хостел",
+   "pos": "noun"
+  },
+  {
+   "de": "das Zelt",
+   "lemma": "Zelt",
+   "art": "das",
+   "pl": "die Zelte",
+   "forms": "",
+   "ipa": "[tsɛlt]",
+   "ru": "палатка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Strand",
+   "lemma": "Strand",
+   "art": "der",
+   "pl": "die Strände",
+   "forms": "",
+   "ipa": "[ʃtʁant]",
+   "ru": "пляж",
+   "pos": "noun"
+  },
+  {
+   "de": "die Insel",
+   "lemma": "Insel",
+   "art": "die",
+   "pl": "die Inseln",
+   "forms": "",
+   "ipa": "[ˈɪnzəl]",
+   "ru": "остров",
+   "pos": "noun"
+  },
+  {
+   "de": "der Berg",
+   "lemma": "Berg",
+   "art": "der",
+   "pl": "die Berge",
+   "forms": "",
+   "ipa": "[bɛʁk]",
+   "ru": "гора",
+   "pos": "noun"
+  },
+  {
+   "de": "der Fluss",
+   "lemma": "Fluss",
+   "art": "der",
+   "pl": "die Flüsse",
+   "forms": "",
+   "ipa": "[flʊs]",
+   "ru": "река",
+   "pos": "noun"
+  },
+  {
+   "de": "der Wald",
+   "lemma": "Wald",
+   "art": "der",
+   "pl": "die Wälder",
+   "forms": "",
+   "ipa": "[valt]",
+   "ru": "лес",
+   "pos": "noun"
+  },
+  {
+   "de": "die Landschaft",
+   "lemma": "Landschaft",
+   "art": "die",
+   "pl": "die Landschaften",
+   "forms": "",
+   "ipa": "[ˈlantʃaft]",
+   "ru": "пейзаж, местность",
+   "pos": "noun"
+  },
+  {
+   "de": "die Natur",
+   "lemma": "Natur",
+   "art": "die",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[naˈtuːɐ̯]",
+   "ru": "природа",
+   "pos": "noun"
+  },
+  {
+   "de": "das Schloss",
+   "lemma": "Schloss",
+   "art": "das",
+   "pl": "die Schlösser",
+   "forms": "",
+   "ipa": "[ʃlɔs]",
+   "ru": "замок, дворец",
+   "pos": "noun"
+  },
+  {
+   "de": "das Museum",
+   "lemma": "Museum",
+   "art": "das",
+   "pl": "die Museen",
+   "forms": "",
+   "ipa": "[muˈzeːʊm]",
+   "ru": "музей",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ausstellung",
+   "lemma": "Ausstellung",
+   "art": "die",
+   "pl": "die Ausstellungen",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sˌʃtɛlʊŋ]",
+   "ru": "выставка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Rundgang",
+   "lemma": "Rundgang",
+   "art": "der",
+   "pl": "die Rundgänge",
+   "forms": "",
+   "ipa": "[ˈʁʊntˌɡaŋ]",
+   "ru": "обход, экскурсия",
+   "pos": "noun"
+  },
+  {
+   "de": "der Tourist",
+   "lemma": "Tourist",
+   "art": "der",
+   "pl": "die Touristen",
+   "forms": "",
+   "ipa": "[tuˈʁɪst]",
+   "ru": "турист",
+   "pos": "noun"
+  },
+  {
+   "de": "das Schiff",
+   "lemma": "Schiff",
+   "art": "das",
+   "pl": "die Schiffe",
+   "forms": "",
+   "ipa": "[ʃɪf]",
+   "ru": "корабль, теплоход",
+   "pos": "noun"
+  },
+  {
+   "de": "sonnig",
+   "lemma": "sonnig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈzɔnɪç]",
+   "ru": "солнечный",
+   "pos": "adj"
+  },
+  {
+   "de": "bewölkt",
+   "lemma": "bewölkt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bəˈvœlkt]",
+   "ru": "облачный",
+   "pos": "adj"
+  },
+  {
+   "de": "die Wolke",
+   "lemma": "Wolke",
+   "art": "die",
+   "pl": "die Wolken",
+   "forms": "",
+   "ipa": "[ˈvɔlkə]",
+   "ru": "облако",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gewitter",
+   "lemma": "Gewitter",
+   "art": "das",
+   "pl": "die Gewitter",
+   "forms": "",
+   "ipa": "[ɡəˈvɪtɐ]",
+   "ru": "гроза",
+   "pos": "noun"
+  },
+  {
+   "de": "windig",
+   "lemma": "windig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈvɪndɪç]",
+   "ru": "ветреный",
+   "pos": "adj"
+  },
+  {
+   "de": "heiß",
+   "lemma": "heiß",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[haɪ̯s]",
+   "ru": "жаркий, горячий",
+   "pos": "adj"
+  },
+  {
+   "de": "nass",
+   "lemma": "nass",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[nas]",
+   "ru": "мокрый",
+   "pos": "adj"
+  },
+  {
+   "de": "spazieren gehen",
+   "lemma": "spazieren gehen",
+   "art": "",
+   "pl": "",
+   "forms": "geht spazieren, ist spazieren gegangen",
+   "ipa": "[ʃpaˈtsiːʁən ˈɡeːən]",
+   "ru": "гулять",
+   "pos": "phrase"
+  },
+  {
+   "de": "der Spaziergang",
+   "lemma": "Spaziergang",
+   "art": "der",
+   "pl": "die Spaziergänge",
+   "forms": "",
+   "ipa": "[ʃpaˈtsiːɐ̯ˌɡaŋ]",
+   "ru": "прогулка",
+   "pos": "noun"
+  },
+  {
+   "de": "joggen",
+   "lemma": "joggen",
+   "art": "",
+   "pl": "",
+   "forms": "joggt, ist / hat gejoggt",
+   "ipa": "[ˈdʒɔɡən]",
+   "ru": "бегать трусцой",
+   "pos": "verb"
+  },
+  {
+   "de": "reiten",
+   "lemma": "reiten",
+   "art": "",
+   "pl": "",
+   "forms": "reitet, ist / hat geritten",
+   "ipa": "[ˈʁaɪ̯tən]",
+   "ru": "ездить верхом",
+   "pos": "verb"
+  },
+  {
+   "de": "surfen",
+   "lemma": "surfen",
+   "art": "",
+   "pl": "",
+   "forms": "surft, ist / hat gesurft",
+   "ipa": "[ˈsœːɐ̯fən]",
+   "ru": "заниматься сёрфингом, сидеть в интернете",
+   "pos": "verb"
+  },
+  {
+   "de": "das Schwimmbad",
+   "lemma": "Schwimmbad",
+   "art": "das",
+   "pl": "die Schwimmbäder",
+   "forms": "",
+   "ipa": "[ˈʃvɪmˌbaːt]",
+   "ru": "бассейн",
+   "pos": "noun"
+  },
+  {
+   "de": "ausgehen",
+   "lemma": "ausgehen",
+   "art": "",
+   "pl": "",
+   "forms": "geht aus, ist ausgegangen",
+   "ipa": "[ˈaʊ̯sˌɡeːən]",
+   "ru": "выходить развлечься",
+   "pos": "verb"
+  },
+  {
+   "de": "passieren",
+   "lemma": "passieren",
+   "art": "",
+   "pl": "",
+   "forms": "passiert, ist passiert",
+   "ipa": "[paˈsiːʁən]",
+   "ru": "случаться",
+   "pos": "verb"
+  },
+  {
+   "de": "verlieren",
+   "lemma": "verlieren",
+   "art": "",
+   "pl": "",
+   "forms": "verliert, hat verloren",
+   "ipa": "[fɛɐ̯ˈliːʁən]",
+   "ru": "терять",
+   "pos": "verb"
+  },
+  {
+   "de": "vergessen",
+   "lemma": "vergessen",
+   "art": "",
+   "pl": "",
+   "forms": "vergisst, hat vergessen",
+   "ipa": "[fɛɐ̯ˈɡɛsən]",
+   "ru": "забывать",
+   "pos": "verb"
+  },
+  {
+   "de": "fallen",
+   "lemma": "fallen",
+   "art": "",
+   "pl": "",
+   "forms": "fällt, ist gefallen",
+   "ipa": "[ˈfalən]",
+   "ru": "падать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Unfall",
+   "lemma": "Unfall",
+   "art": "der",
+   "pl": "die Unfälle",
+   "forms": "",
+   "ipa": "[ˈʊnfal]",
+   "ru": "несчастный случай, авария",
+   "pos": "noun"
+  },
+  {
+   "de": "die Geldbörse",
+   "lemma": "Geldbörse",
+   "art": "die",
+   "pl": "die Geldbörsen",
+   "forms": "",
+   "ipa": "[ˈɡɛltˌbœʁzə]",
+   "ru": "кошелёк",
+   "pos": "noun"
+  },
+  {
+   "de": "das Fundbüro",
+   "lemma": "Fundbüro",
+   "art": "das",
+   "pl": "die Fundbüros",
+   "forms": "",
+   "ipa": "[ˈfʊntbyˌʁoː]",
+   "ru": "бюро находок",
+   "pos": "noun"
+  },
+  {
+   "de": "die Erfahrung",
+   "lemma": "Erfahrung",
+   "art": "die",
+   "pl": "die Erfahrungen",
+   "forms": "",
+   "ipa": "[ɛɐ̯ˈfaːʁʊŋ]",
+   "ru": "опыт",
+   "pos": "noun"
+  },
+  {
+   "de": "spannend",
+   "lemma": "spannend",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃpanənt]",
+   "ru": "увлекательный",
+   "pos": "adj"
+  },
+  {
+   "de": "aufregend",
+   "lemma": "aufregend",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈaʊ̯fˌʁeːɡənt]",
+   "ru": "волнующий",
+   "pos": "adj"
+  },
+  {
+   "de": "schrecklich",
+   "lemma": "schrecklich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈʃʁɛklɪç]",
+   "ru": "ужасный",
+   "pos": "adj"
+  },
+  {
+   "de": "plötzlich",
+   "lemma": "plötzlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈplœtslɪç]",
+   "ru": "вдруг",
+   "pos": "adv"
+  },
+  {
+   "de": "endlich",
+   "lemma": "endlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɛntlɪç]",
+   "ru": "наконец",
+   "pos": "adv"
+  },
+  {
+   "de": "zuerst",
+   "lemma": "zuerst",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[tsuˈʔeːɐ̯st]",
+   "ru": "сначала",
+   "pos": "adv"
+  },
+  {
+   "de": "zuletzt",
+   "lemma": "zuletzt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[tsuˈlɛtst]",
+   "ru": "напоследок",
+   "pos": "adv"
+  },
+  {
+   "de": "danach",
+   "lemma": "danach",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[daˈnaːx]",
+   "ru": "после этого",
+   "pos": "adv"
+  },
+  {
+   "de": "vorgestern",
+   "lemma": "vorgestern",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯ɡɛstɐn]",
+   "ru": "позавчера",
+   "pos": "adv"
+  },
+  {
+   "de": "fotografieren",
+   "lemma": "fotografieren",
+   "art": "",
+   "pl": "",
+   "forms": "fotografiert, hat fotografiert",
+   "ipa": "[fotoɡʁaˈfiːʁən]",
+   "ru": "фотографировать",
+   "pos": "verb"
+  },
+  {
+   "de": "die Ferien",
+   "lemma": "Ferien",
+   "art": "die",
+   "pl": "",
+   "forms": "только множественное число",
+   "ipa": "[ˈfeːʁi̯ən]",
+   "ru": "каникулы",
+   "pos": "noun"
+  },
+  {
+   "de": "die Aprikose",
+   "lemma": "Aprikose",
+   "art": "die",
+   "pl": "die Aprikosen",
+   "forms": "",
+   "ipa": "[apʁiˈkoːzə]",
+   "ru": "абрикос",
+   "pos": "noun"
+  },
+  {
+   "de": "gestern",
+   "lemma": "gestern",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɡɛstɐn]",
+   "ru": "вчера",
+   "pos": "adv"
+  },
+  {
+   "de": "die Altstadt",
+   "lemma": "Altstadt",
+   "art": "die",
+   "pl": "die Altstädte",
+   "forms": "",
+   "ipa": "[ˈaltˌʃtat]",
+   "ru": "старый город",
+   "pos": "noun"
+  },
+  {
+   "de": "aufwachen",
+   "lemma": "aufwachen",
+   "art": "",
+   "pl": "",
+   "forms": "wacht auf, ist aufgewacht",
+   "ipa": "[ˈaʊ̯fˌvaxən]",
+   "ru": "просыпаться",
+   "pos": "verb"
+  },
+  {
+   "de": "der Badeort",
+   "lemma": "Badeort",
+   "art": "der",
+   "pl": "die Badeorte",
+   "forms": "",
+   "ipa": "[ˈbaːdəˌʔɔʁt]",
+   "ru": "пляжный курорт",
+   "pos": "noun"
+  },
+  {
+   "de": "einschlafen",
+   "lemma": "einschlafen",
+   "art": "",
+   "pl": "",
+   "forms": "schläft ein, ist eingeschlafen",
+   "ipa": "[ˈaɪ̯nˌʃlaːfən]",
+   "ru": "засыпать",
+   "pos": "verb"
+  },
+  {
+   "de": "filmen",
+   "lemma": "filmen",
+   "art": "",
+   "pl": "",
+   "forms": "filmt, hat gefilmt",
+   "ipa": "[ˈfɪlmən]",
+   "ru": "снимать видео",
+   "pos": "verb"
+  },
+  {
+   "de": "fliegen",
+   "lemma": "fliegen",
+   "art": "",
+   "pl": "",
+   "forms": "fliegt, ist geflogen",
+   "ipa": "[ˈfliːɡən]",
+   "ru": "лететь, летать на самолёте",
+   "pos": "verb"
+  },
+  {
+   "de": "die Kur",
+   "lemma": "Kur",
+   "art": "die",
+   "pl": "die Kuren",
+   "forms": "",
+   "ipa": "[kuːɐ̯]",
+   "ru": "курс лечения",
+   "pos": "noun"
+  },
+  {
+   "de": "der Kurort",
+   "lemma": "Kurort",
+   "art": "der",
+   "pl": "die Kurorte",
+   "forms": "",
+   "ipa": "[ˈkuːɐ̯ˌʔɔʁt]",
+   "ru": "лечебный курорт",
+   "pos": "noun"
+  },
+  {
+   "de": "missverstehen",
+   "lemma": "missverstehen",
+   "art": "",
+   "pl": "",
+   "forms": "missversteht, hat missverstanden",
+   "ipa": "[ˈmɪsfɛɐ̯ˌʃteːən]",
+   "ru": "неправильно понимать",
+   "pos": "verb"
+  },
+  {
+   "de": "rechnen",
+   "lemma": "rechnen",
+   "art": "",
+   "pl": "",
+   "forms": "rechnet, hat gerechnet",
+   "ipa": "[ˈʁɛçnən]",
+   "ru": "считать",
+   "pos": "verb"
+  },
+  {
+   "de": "reservieren",
+   "lemma": "reservieren",
+   "art": "",
+   "pl": "",
+   "forms": "reserviert, hat reserviert",
+   "ipa": "[ʁezɛʁˈviːʁən]",
+   "ru": "бронировать",
+   "pos": "verb"
+  },
+  {
+   "de": "sterben",
+   "lemma": "sterben",
+   "art": "",
+   "pl": "",
+   "forms": "stirbt, ist gestorben",
+   "ipa": "[ˈʃtɛʁbən]",
+   "ru": "умирать",
+   "pos": "verb"
+  },
+  {
+   "de": "übersetzen",
+   "lemma": "übersetzen",
+   "art": "",
+   "pl": "",
+   "forms": "übersetzt, hat übersetzt",
+   "ipa": "[ˌyːbɐˈzɛtsən]",
+   "ru": "переводить (текст)",
+   "pos": "verb"
+  },
+  {
+   "de": "reden",
+   "lemma": "reden",
+   "art": "",
+   "pl": "",
+   "forms": "redet, hat geredet",
+   "ipa": "[ˈʁeːdən]",
+   "ru": "говорить, разговаривать",
+   "pos": "verb"
+  }
+ ]
+}

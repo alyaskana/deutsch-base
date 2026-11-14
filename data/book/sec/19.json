@@ -1,0 +1,82 @@
+{
+"19.1": [
+ {"type":"choice","title":"Описываем или называем","sub":"После sein без окончания, перед существительным — с окончанием","items":[
+  {"s":"Der Mantel ist ___.","ru":"Пальто тёплое.","o":["warm","warmer"],"a":"warm","n":"После sein — без окончания."},
+  {"s":"Ein ___ Mantel liegt hier.","ru":"Здесь лежит тёплое пальто.","o":["warmer","warm"],"a":"warmer","n":"Перед существительным — окончание."},
+  {"s":"Die Jacke ist ___.","ru":"Куртка тёплая.","o":["warm","warme"],"a":"warm","n":"<s>warme</s> здесь лишнее."},
+  {"s":"Das Kleid ist ___.","ru":"Платье новое.","o":["neu","neues"],"a":"neu","n":"<b>neu</b>."},
+  {"s":"Das ist ein ___ Kleid.","ru":"Это новое платье.","o":["neues","neu"],"a":"neues","n":"<b>ein neues Kleid</b>."}
+ ]}
+],
+"19.2": [
+ {"type":"choice","title":"Кто несёт флажок","sub":"Артикль показал род — прилагательное отдыхает","items":[
+  {"s":"Der ___ Kaffee schmeckt Paul.","ru":"Этот крепкий кофе Паулю нравится.","o":["starke","starker"],"a":"starke","n":"der уже показал род → <b>starke</b>."},
+  {"s":"___ Kaffee schmeckt Paul.","ru":"Паулю нравится крепкий кофе.","o":["Starker","Starke"],"a":"Starker","n":"Артикля нет → флажок у прилагательного: <b>-er</b>."},
+  {"s":"Das ___ Brot ist lecker.","ru":"Этот свежий хлеб вкусный.","o":["frische","frisches"],"a":"frische","n":"das показал род → <b>-e</b>."},
+  {"s":"___ Brot ist lecker.","ru":"Свежий хлеб вкусный.","o":["Frisches","Frische"],"a":"Frisches","n":"Без артикля → <b>-es</b>."}
+ ]}
+],
+"19.3": [
+ {"type":"type","title":"После der: -e или -en","sub":"Пять клеток с -e, остальные -en","items":[
+  {"s":"Der ___ Mantel gefällt Lea.","ru":"Лее нравится длинное пальто.","a":["lange"],"hint":"lang","n":"Nominativ мужского → <b>-e</b>."},
+  {"s":"Lea kauft den ___ Mantel.","ru":"Леа покупает длинное пальто.","a":["langen"],"hint":"lang","n":"Akkusativ мужского → <b>-en</b>."},
+  {"s":"Ich nehme die ___ Jacke.","ru":"Я беру новую куртку.","a":["neue"],"hint":"neu","n":"die … <b>-e</b>."},
+  {"s":"Das ___ Kleid ist schön.","ru":"Новое платье красивое.","a":["neue"],"hint":"neu","n":"das … <b>-e</b>."},
+  {"s":"Die ___ Schuhe sind teuer.","ru":"Новые туфли дорогие.","a":["neuen"],"hint":"neu","n":"Множественное → <b>-en</b>."},
+  {"s":"Ich spreche mit dem ___ Verkäufer.","ru":"Я говорю с молодым продавцом.","a":["jungen"],"hint":"jung","n":"Dativ → <b>-en</b>."},
+  {"s":"Alle ___ Sachen sind im Schrank.","ru":"Все тёплые вещи в шкафу.","a":["warmen"],"hint":"warm","n":"После alle → <b>-en</b>."},
+  {"s":"Dieser ___ Pullover ist weich.","ru":"Этот серый свитер мягкий.","a":["graue"],"hint":"grau","n":"dieser как der → <b>-e</b>."}
+ ]}
+],
+"19.4": [
+ {"type":"type","title":"После ein","sub":"ein -er, ein -es, einen -en","items":[
+  {"s":"Ein ___ Pullover liegt hier.","ru":"Здесь лежит мягкий свитер.","a":["weicher"],"hint":"weich","n":"ein не показал род → <b>-er</b>."},
+  {"s":"Ein ___ Hemd liegt hier.","ru":"Здесь лежит мягкая рубашка.","a":["weiches"],"hint":"weich","n":"das Hemd → <b>-es</b>."},
+  {"s":"Ich kaufe ein ___ Hemd.","ru":"Я покупаю мягкую рубашку.","a":["weiches"],"hint":"weich","n":"Akkusativ среднего тоже <b>-es</b>."},
+  {"s":"Ich kaufe einen ___ Mantel.","ru":"Я покупаю новое пальто.","a":["neuen"],"hint":"neu","n":"einen → <b>-en</b>."},
+  {"s":"Mein ___ Schirm ist kaputt.","ru":"Мой старый зонт сломан.","a":["alter"],"hint":"alt","n":"mein как ein → <b>-er</b>."},
+  {"s":"Ich komme mit meinem ___ Schirm.","ru":"Я приду со своим старым зонтом.","a":["alten"],"hint":"alt","n":"Dativ → <b>-en</b>."},
+  {"s":"Sie trägt einen ___ Rock.","ru":"На ней короткая юбка.","a":["kurzen"],"hint":"kurz","n":"der Rock мужского рода → <b>einen kurzen</b>."},
+  {"s":"Das ist eine ___ Jacke.","ru":"Это красивая куртка.","a":["schöne"],"hint":"schön","n":"<b>eine schöne</b>."}
+ ]}
+],
+"19.5": [
+ {"type":"type","title":"Без артикля","sub":"Прилагательное берёт окончание артикля","items":[
+  {"s":"Im Kühlschrank steht ___ Milch.","ru":"В холодильнике стоит холодное молоко.","a":["kalte"],"hint":"kalt","n":"die → <b>-e</b>."},
+  {"s":"Ich trinke Kaffee mit ___ Milch.","ru":"Я пью кофе с холодным молоком.","a":["kalter"],"hint":"kalt","n":"der (Dativ жен.) → <b>-er</b>."},
+  {"s":"Ich trinke gern ___ Wasser.","ru":"Я люблю холодную воду.","a":["kaltes"],"hint":"kalt","n":"das → <b>-es</b>."},
+  {"s":"Sie hat ___ Haare.","ru":"У неё длинные волосы.","a":["lange"],"hint":"lang","n":"Множественное без артикля → <b>-e</b>."},
+  {"s":"Ich brauche ein Paar ___ Stiefel.","ru":"Мне нужна пара тёплых сапог.","a":["warme"],"hint":"warm","n":"<b>warme Stiefel</b>."},
+  {"s":"Ich esse gern ___ Brot.","ru":"Я люблю свежий хлеб.","a":["frisches"],"hint":"frisch","n":"<b>-es</b>."}
+ ]}
+],
+"19.6": [
+ {"type":"choice","title":"Найдите свою строку","sub":"Какой артикль, какой род, какой падеж","items":[
+  {"s":"Ich suche ___ Mantel.","ru":"Я ищу тёплое пальто.","o":["einen warmen","einen warmer","ein warmer"],"a":"einen warmen","n":"Akkusativ мужского после ein → <b>-en</b>."},
+  {"s":"___ Kleid gefällt mir.","ru":"Мне нравится это синее платье.","o":["Das blaue","Das blaues","Das blauen"],"a":"Das blaue","n":"После das → <b>-e</b>."},
+  {"s":"Ich trinke Tee mit ___ Zucker.","ru":"Я пью чай с белым сахаром.","o":["weißem","weißen","weißer"],"a":"weißem","n":"Без артикля, Dativ мужского → <b>-em</b>."},
+  {"s":"Wir haben ___ Schuhe gekauft.","ru":"Мы купили новые туфли.","o":["neue","neuen","neuer"],"a":"neue","n":"Без артикля мн. → <b>-e</b>."},
+  {"s":"Er wohnt in ___ Haus.","ru":"Он живёт в большом доме.","o":["einem großen","einem großem","ein großes"],"a":"einem großen","n":"Dativ → <b>-en</b>."},
+  {"s":"Ich mag ___ Farbe.","ru":"Мне нравится этот красный цвет.","o":["die rote","die roten","die roter"],"a":"die rote","n":"<b>die rote</b>."}
+ ]}
+],
+"19.7": [
+ {"type":"choice","title":"Короткие реплики","sub":"Слово пропало, окончание осталось","items":[
+  {"s":"Welches Kleid? — Das ___, bitte.","ru":"Какое платье? — Синее, пожалуйста.","o":["blaue","blau"],"a":"blaue","n":"Окончание остаётся: <b>das blaue</b>."},
+  {"s":"Ich nehme ein ___.","ru":"Я возьму синее. (платье)","o":["blaues","blaue"],"a":"blaues","n":"<b>ein blaues</b>."},
+  {"s":"Einen langen, ___ Mantel.","ru":"Длинное тёмное пальто.","o":["dunklen","dunkelen"],"a":"dunklen","n":"У dunkel пропадает e: <b>dunklen</b>."},
+  {"s":"Das ist ein ___ Rock.","ru":"Это дорогая юбка.","o":["teurer","teuerer"],"a":"teurer","n":"Обычно <b>teurer</b>."},
+  {"s":"Sie trägt ___ Stiefel.","ru":"На ней высокие сапоги.","o":["hohe","hoche"],"a":"hohe","n":"hoch → <b>hoh-</b>."},
+  {"s":"Sie trägt eine ___ Bluse.","ru":"На ней розовая блузка.","o":["rosa","rosae"],"a":"rosa","n":"rosa не изменяется."}
+ ]}
+],
+"19.8": [
+ {"type":"choice","title":"Прилагательное-существительное","sub":"Bekannte, Bekannter, etwas Neues","items":[
+  {"s":"Das ist der ___ von Lea.","ru":"Это тот самый знакомый Леи.","o":["Bekannte","Bekannter"],"a":"Bekannte","n":"После der → <b>-e</b>."},
+  {"s":"Das ist ein ___ von Lea.","ru":"Это один знакомый Леи.","o":["Bekannter","Bekannte"],"a":"Bekannter","n":"После ein → <b>-er</b>."},
+  {"s":"Die ___ kommen heute.","ru":"Эти знакомые придут сегодня.","o":["Bekannten","Bekannte"],"a":"Bekannten","n":"После die мн. → <b>-en</b>."},
+  {"s":"Ich habe etwas ___ gekauft.","ru":"Я купила что-то новое.","o":["Neues","neue"],"a":"Neues","n":"<b>etwas Neues</b>, с большой буквы."},
+  {"s":"Das ist nichts ___.","ru":"Это ничего особенного.","o":["Besonderes","besondere"],"a":"Besonderes","n":"<b>nichts Besonderes</b>."}
+ ]}
+]
+}

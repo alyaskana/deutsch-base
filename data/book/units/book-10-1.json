@@ -1,7 +1,7 @@
 {
  "title": "Отделяемый глагол: начало сказали, конец оставили",
  "topic": "Книга · 10.1",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -251,5 +251,200 @@
    "С <b>man</b> берём единственное число: <b>man spricht</b>, <b>man darf</b>. Для запрета нужен <b>darf nicht</b>, для необязательного действия <b>muss nicht</b>."
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "build",
+   "title": "Приставка уходит в конец",
+   "sub": "Личная форма второй, приставка последней",
+   "items": [
+    {
+     "ru": "Пауль встаёт в половине девятого.",
+     "w": [
+      "Paul",
+      "steht",
+      "um",
+      "halb",
+      "neun",
+      "auf."
+     ],
+     "ok": [
+      "Paul steht um halb neun auf."
+     ],
+     "n": "<b>steht</b> на втором месте, <b>auf</b> в конце."
+    },
+    {
+     "ru": "Сегодня я принесу пирог. (Начни с ich.)",
+     "w": [
+      "Ich",
+      "bringe",
+      "heute",
+      "Kuchen",
+      "mit."
+     ],
+     "ok": [
+      "Ich bringe heute Kuchen mit."
+     ],
+     "n": "mitbringen → <b>bringe … mit</b>."
+    },
+    {
+     "ru": "Поезд отправляется в семь.",
+     "w": [
+      "Der",
+      "Zug",
+      "fährt",
+      "um",
+      "sieben",
+      "ab."
+     ],
+     "ok": [
+      "Der Zug fährt um sieben ab."
+     ],
+     "n": "Изменение гласной остаётся: <b>fährt … ab</b>."
+    },
+    {
+     "ru": "Леа берёт с собой ключ.",
+     "w": [
+      "Lea",
+      "nimmt",
+      "den",
+      "Schlüssel",
+      "mit."
+     ],
+     "ok": [
+      "Lea nimmt den Schlüssel mit."
+     ],
+     "n": "nehmen → nimmt, и с mit тоже <b>nimmt</b>."
+    },
+    {
+     "ru": "Когда ты принесёшь пирог?",
+     "w": [
+      "Wann",
+      "bringst",
+      "du",
+      "den",
+      "Kuchen",
+      "mit?"
+     ],
+     "ok": [
+      "Wann bringst du den Kuchen mit?"
+     ],
+     "n": "После wann личная форма вторая, приставка последняя."
+    },
+    {
+     "ru": "Ты принесёшь пирог сегодня?",
+     "w": [
+      "Bringst",
+      "du",
+      "den",
+      "Kuchen",
+      "heute",
+      "mit?"
+     ],
+     "ok": [
+      "Bringst du den Kuchen heute mit?"
+     ],
+     "n": "Вопрос без вопросительного слова: глагол первый."
+    },
+    {
+     "ru": "Пауль позвонит мне в пятницу.",
+     "w": [
+      "Paul",
+      "ruft",
+      "mich",
+      "am",
+      "Freitag",
+      "an."
+     ],
+     "ok": [
+      "Paul ruft mich am Freitag an."
+     ],
+     "n": "anrufen + Akkusativ: <b>mich</b>, а не mir."
+    },
+    {
+     "ru": "Сегодня мы делаем покупки. (Начни с heute.)",
+     "w": [
+      "Heute",
+      "kaufen",
+      "wir",
+      "ein."
+     ],
+     "ok": [
+      "Heute kaufen wir ein."
+     ],
+     "n": "einkaufen можно без товара."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  },
+  {
+   "type": "choice",
+   "title": "Действие или состояние",
+   "sub": "anmachen или an sein",
+   "items": [
+    {
+     "s": "Ich ___ das Licht an.",
+     "ru": "Я включаю свет.",
+     "o": [
+      "mache",
+      "bin"
+     ],
+     "a": "mache",
+     "n": "Действие: <b>anmachen</b>."
+    },
+    {
+     "s": "Das Licht ___ an.",
+     "ru": "Свет включён.",
+     "o": [
+      "ist",
+      "macht"
+     ],
+     "a": "ist",
+     "n": "Состояние: <b>an sein</b>."
+    },
+    {
+     "s": "Der Fernseher ist ___.",
+     "ru": "Телевизор выключен.",
+     "o": [
+      "aus",
+      "zu"
+     ],
+     "a": "aus",
+     "n": "Свет и техника: <b>an / aus</b>."
+    },
+    {
+     "s": "Die Tür ist ___.",
+     "ru": "Дверь закрыта.",
+     "o": [
+      "zu",
+      "aus"
+     ],
+     "a": "zu",
+     "n": "Дверь: <b>auf / zu</b> (разговорное)."
+    },
+    {
+     "s": "Paul ist ___.",
+     "ru": "Пауля нет, он ушёл.",
+     "o": [
+      "weg",
+      "aus"
+     ],
+     "a": "weg",
+     "n": "<b>weg sein</b> — отсутствовать."
+    },
+    {
+     "s": "Ich gehe ___.",
+     "ru": "Я иду за покупками.",
+     "o": [
+      "einkaufen",
+      "für Brot"
+     ],
+     "a": "einkaufen",
+     "n": "«Идти за продуктами» — <b>einkaufen gehen</b>."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  }
+ ]
 }

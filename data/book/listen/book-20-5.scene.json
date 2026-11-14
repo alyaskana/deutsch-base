@@ -1,0 +1,127 @@
+{
+ "id": "book-20-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Hallo, Lena! Du hast heute zwei Wohnungen besichtigt, oder?",
+   "ru": "Привет, Лена! Ты сегодня смотрела две квартиры, да?",
+   "tag": "[am Telefon]"
+  },
+  {
+   "who": "Lena",
+   "voice": "uvysWDLbKpA4XvpD3GI6",
+   "de": "Ja. Ich schicke dir gleich die Fotos: A und B. Wohnung B ist billiger als Wohnung A.",
+   "ru": "Да. Сейчас пришлю фото: A и B. Квартира B дешевле квартиры A."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Und der Weg zur U-Bahn?",
+   "ru": "А дорога до метро?"
+  },
+  {
+   "who": "Lena",
+   "voice": "uvysWDLbKpA4XvpD3GI6",
+   "de": "Wohnung A ist näher an der U-Bahn. Sie hat auch das größte Zimmer.",
+   "ru": "Квартира A ближе к метро. И в ней самая большая комната."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Sind beide Wohnungen hell?",
+   "ru": "Обе квартиры светлые?"
+  },
+  {
+   "who": "Lena",
+   "voice": "uvysWDLbKpA4XvpD3GI6",
+   "de": "B ist nicht so hell wie A. Aber in B ist es ruhiger. Ich möchte lieber in B wohnen.",
+   "ru": "B не такая светлая, как A. Но в B тише. Я бы лучше жила в B."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Ist das große Zimmer in A nicht wichtig?",
+   "ru": "А большая комната в A не важна?"
+  },
+  {
+   "who": "Lena",
+   "voice": "uvysWDLbKpA4XvpD3GI6",
+   "de": "Doch. Aber Ruhe ist mir am wichtigsten. Ich arbeite auch oft zu Hause.",
+   "ru": "Важна. Но тишина для меня важнее всего. Я ещё и часто работаю дома."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Dann passt B besser. Ruf die Vermieterin an!",
+   "ru": "Тогда B подходит лучше. Звони хозяйке!"
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 20.5",
+  "scene": "Am Telefon",
+  "cap": "Две квартиры в Кёльне",
+  "sub": "Лена, сестра Пауля, посмотрела две квартиры, A и B, и звонит брату.",
+  "speakers": {
+   "Paul": "Бавария",
+   "Lena": "Германия"
+  },
+  "qs": [
+   [
+    "Какая квартира дешевле?",
+    [
+     "B",
+     "A"
+    ],
+    "Wohnung B ist <b>billiger als</b> Wohnung A",
+    "billiger als — дешевле, чем."
+   ],
+   [
+    "Какая ближе к метро?",
+    [
+     "A",
+     "B"
+    ],
+    "Wohnung A ist <b>näher</b> an der U-Bahn",
+    "nah → näher."
+   ],
+   [
+    "Где самая большая комната?",
+    [
+     "A",
+     "B"
+    ],
+    "Sie hat auch <b>das größte Zimmer</b>",
+    "groß → größer → das größte."
+   ],
+   [
+    "B такая же светлая, как A?",
+    [
+     "нет",
+     "да"
+    ],
+    "B ist <b>nicht so hell wie</b> A",
+    "nicht so … wie — не такая, как."
+   ],
+   [
+    "Где Лена предпочитает жить?",
+    [
+     "B",
+     "A"
+    ],
+    "Ich möchte <b>lieber</b> in B wohnen",
+    "gern → lieber."
+   ],
+   [
+    "Что для Лены важнее всего?",
+    [
+     "тишина",
+     "размер комнаты"
+    ],
+    "Ruhe ist mir <b>am wichtigsten</b>",
+    "am wichtigsten — важнее всего."
+   ]
+  ]
+ }
+}

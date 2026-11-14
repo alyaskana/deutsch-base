@@ -1,0 +1,64 @@
+{
+"9.1": [
+ {"type":"type","title":"Одинаковые рубашки","sub":"У ich и er одна форма, без -t","items":[
+  {"s":"Er ___ gut kochen.","ru":"Он хорошо умеет готовить.","a":["kann"],"hint":"können","n":"<b>er kann</b>, без <s>-t</s>."},
+  {"s":"Ich ___ hier parken.","ru":"Мне можно здесь парковаться.","a":["darf"],"hint":"dürfen","n":"<b>ich darf</b> — как у er."},
+  {"s":"Du ___ heute arbeiten.","ru":"Тебе нужно сегодня работать.","a":["musst"],"hint":"müssen","n":"У du окончание остаётся: <b>musst</b>."},
+  {"s":"Sie ___ Kaffee.","ru":"Она любит кофе.","a":["mag"],"hint":"mögen","n":"<b>sie mag</b>."},
+  {"s":"Wir ___ am Sonntag grillen.","ru":"Мы хотим в воскресенье пожарить гриль.","a":["wollen"],"hint":"wollen","n":"С wir форма как инфинитив."},
+  {"s":"Ihr ___ hier warten.","ru":"Вы можете здесь подождать.","a":["könnt"],"hint":"können","n":"У ihr знакомое -t и гласная инфинитива: <b>könnt</b>."},
+  {"s":"Er ___ einen Tee.","ru":"Он хотел бы чаю.","a":["möchte"],"hint":"möchte","n":"<b>er möchte</b>; <s>möchtet</s> — только для ihr."},
+  {"s":"Herr Krüger ___ das lesen.","ru":"Господину Крюгеру велено это прочитать.","a":["soll"],"hint":"sollen","n":"У sollen гласная не меняется: <b>soll</b>."}]}
+],
+"9.2": [
+ {"type":"build","title":"Рамка","sub":"Модальный второй, инфинитив в конце","items":[
+  {"ru":"Алина может вечером поговорить по телефону.","w":["Alina","kann","am","Abend","telefonieren."],"ok":["Alina kann am Abend telefonieren."],"n":"Не <s>kann telefonieren am Abend</s>: инфинитив в конце."},
+  {"ru":"Завтра Пауль хочет поплавать. (Начни с morgen.)","w":["Morgen","will","Paul","schwimmen."],"ok":["Morgen will Paul schwimmen."],"n":"После блока времени — модальный, потом подлежащее."},
+  {"ru":"Пауль хочет завтра поплавать?","w":["Will","Paul","morgen","schwimmen?"],"ok":["Will Paul morgen schwimmen?"],"n":"Модальный впереди, инфинитив на месте."},
+  {"ru":"Когда Пауль хочет поплавать?","w":["Wann","will","Paul","schwimmen?"],"ok":["Wann will Paul schwimmen?"],"n":"wann первое, модальный второй."},
+  {"ru":"Йонас не может сегодня починить машину.","w":["Jonas","kann","die","Maschine","heute","nicht","reparieren."],"ok":["Jonas kann die Maschine heute nicht reparieren."],"n":"<b>nicht</b> прямо перед конечным инфинитивом."},
+  {"ru":"Здесь тебе нельзя курить.","w":["Du","darfst","hier","nicht","rauchen."],"ok":["Du darfst hier nicht rauchen."],"n":"hier перед nicht; <s>nicht hier</s> значило бы «не здесь, а там»."},
+  {"ru":"Мне нужно сегодня работать.","w":["Ich","muss","heute","arbeiten."],"ok":["Ich muss heute arbeiten."],"n":"Не <s>Ich muss arbeiten heute</s>."}]}
+],
+"9.3": [
+ {"type":"choice","title":"Какой модальный?","sub":"Умение, разрешение, необходимость, поручение, намерение, вкус, просьба","items":[
+  {"s":"Jonas ___ die Maschine reparieren.","ru":"Йонас умеет чинить машину.","o":["kann","darf","soll"],"a":"kann","n":"Умение/возможность — <b>können</b>."},
+  {"s":"Alina ___ die Maschine benutzen.","ru":"Алине разрешено пользоваться машиной.","o":["darf","muss","will"],"a":"darf","n":"Разрешение — <b>dürfen</b>."},
+  {"s":"Herr Krüger ___ die Maschine reparieren. Der Chef sagt das.","ru":"Господину Крюгеру велено починить машину.","o":["soll","will","mag"],"a":"soll","n":"Можно назвать, кто велел: <b>sollen</b>."},
+  {"s":"Die Maschine ist kaputt. Herr Krüger ___ sie reparieren.","ru":"Машина сломана, её нужно починить.","o":["muss","mag","darf"],"a":"muss","n":"Необходимость — <b>müssen</b>."},
+  {"s":"Er ___ die Maschine reparieren. Das ist seine Idee.","ru":"Он хочет починить машину (сам решил).","o":["will","soll","darf"],"a":"will","n":"Своё намерение — <b>wollen</b>."},
+  {"s":"Jonas ___ Kaffee.","ru":"Йонас любит кофе.","o":["mag","möchte","will"],"a":"mag","n":"Вкус — <b>mögen</b>; это не заказ."},
+  {"s":"Ich ___ einen Kaffee, bitte.","ru":"Я хотела бы кофе, пожалуйста.","o":["möchte","mag","soll"],"a":"möchte","n":"Желание собеседнику — <b>möchte</b>."},
+  {"s":"Jonas kocht ___.","ru":"Йонас любит готовить.","o":["gern","mag"],"a":"gern","n":"Любимое действие — через <b>gern</b>."}]}
+],
+"9.4": [
+ {"type":"choice","title":"Не обязательно или нельзя?","sub":"Сначала замените «не должен» на «не обязательно» или «нельзя»","items":[
+  {"s":"Du ___ nicht bezahlen. Das ist gratis.","ru":"Тебе не нужно платить: это бесплатно.","o":["musst","darfst"],"a":"musst","n":"Нет необходимости — <b>nicht müssen</b>."},
+  {"s":"Du ___ hier nicht rauchen.","ru":"Здесь нельзя курить.","o":["darfst","musst"],"a":"darfst","n":"Запрет — <b>nicht dürfen</b>."},
+  {"s":"Du ___ die Maschine nicht benutzen. Sie ist kaputt.","ru":"Пользоваться запрещено: она сломана.","o":["darfst","musst"],"a":"darfst","n":"Запрет."},
+  {"s":"Du ___ die Maschine nicht benutzen. Da ist noch eine.","ru":"Пользоваться не обязательно: рядом есть другая.","o":["musst","darfst"],"a":"musst","n":"Выбор остаётся — <b>musst nicht</b>."},
+  {"s":"Sie ___ das Papier nicht bezahlen.","ru":"За бумагу платить не нужно.","o":["müssen","dürfen"],"a":"müssen","n":"Это не запрет: <b>müssen nicht</b>."}]}
+],
+"9.5": [
+ {"type":"choice","title":"Кто просит, кто помогает","sub":"Выберите начало по намерению","items":[
+  {"s":"___ den Drucker benutzen?","ru":"Можно мне воспользоваться принтером?","o":["Darf ich","Können Sie"],"a":"Darf ich","n":"Действую я — <b>Darf ich …?</b>"},
+  {"s":"___ bitte das Formular lesen?","ru":"Не могли бы вы прочитать бланк?","o":["Können Sie","Soll ich"],"a":"Können Sie","n":"Действует собеседник — <b>Können Sie bitte …?</b>"},
+  {"s":"___ Papier holen?","ru":"Мне принести бумагу?","o":["Soll ich","Darf ich"],"a":"Soll ich","n":"Предлагаю помощь — <b>Soll ich …?</b>"},
+  {"s":"___ Wasser?","ru":"Хотите воды?","o":["Möchten Sie","Wollen Sie"],"a":"Möchten Sie","n":"Вежливо предложить — <b>Möchten Sie …?</b>"},
+  {"s":"___ das Fenster öffnen?","ru":"Можно открыть окно?","o":["Darf ich","Darf"],"a":"Darf ich","n":"Подлежащее нужно: <s>Darf das Fenster öffnen?</s> — ошибка."},
+  {"s":"Soll ich ___?","ru":"Мне помочь?","o":["helfen","hilfe"],"a":"helfen","n":"<b>Soll ich helfen?</b> — помогать буду я."}]}
+],
+"9.6": [
+ {"type":"choice","title":"Тон","sub":"Ich möchte — незнакомым; wollen — свои планы","items":[
+  {"s":"Im Café, zum Kellner: ___ einen Kaffee.","ru":"Официанту: кофе, пожалуйста.","o":["Ich möchte","Ich will"],"a":"Ich möchte","n":"К незнакомому — <b>Ich möchte</b>, без настойчивости."},
+  {"s":"Mit Freunden: Wir ___ am Sonntag grillen.","ru":"С друзьями: мы хотим в воскресенье гриль.","o":["wollen","möchten"],"a":"wollen","n":"Свои планы — <b>wollen</b> звучит нейтрально (möchten тоже возможно)."},
+  {"s":"Ich möchte ___ Kaffee.","ru":"Я хотел(а) бы кофе.","o":["einen","ein"],"a":"einen","n":"Падеж как у заказа: <b>einen Kaffee</b>."}]}
+],
+"9.7": [
+ {"type":"choice","title":"Можно без инфинитива?","sub":"Только если второй глагол очевиден","items":[
+  {"s":"Ich kann ___.","ru":"Я знаю немецкий.","o":["Deutsch","Deutsch sprechen nicht"],"a":"Deutsch","n":"<b>Ich kann Deutsch</b> — sprechen очевиден."},
+  {"s":"Ich ___ Tee.","ru":"Я люблю чай (вкус, не заказ).","o":["mag","möchte"],"a":"mag","n":"<b>mögen</b> сам означает «любить»."},
+  {"s":"Ich ___ Tee.","ru":"Я хотел(а) бы чаю (заказ).","o":["möchte","mag"],"a":"möchte","n":"Для заказа — <b>möchte</b>."},
+  {"s":"Ich muss jetzt ___.","ru":"Мне пора идти.","o":["los","gehen los"],"a":"los","n":"Разговорное <b>Ich muss jetzt los</b> — целиком."}]}
+]
+}

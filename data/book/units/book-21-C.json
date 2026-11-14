@@ -1,0 +1,91 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 21",
+ "sub": "Пять заданий в конце урока 21: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 21,
+  "s": "21.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 21.C: впиши",
+   "sub": "Ответьте без таблиц. В последнем пункте меняйте только глагол, остальные слова сохраните.",
+   "items": [
+    {
+     "s": "Der Kaffee ___ zwei Euro.",
+     "ru": "Вставьте Präteritum",
+     "a": [
+      "kostete"
+     ],
+     "hint": "kosten",
+     "n": "Основа заканчивается на <b>t</b>, поэтому перед <b>-te</b> появляется <b>e</b>."
+    },
+    {
+     "s": "Lea ___ von Pauls Erfolg.",
+     "ru": "Вставьте Präteritum",
+     "a": [
+      "erfuhr"
+     ],
+     "hint": "erfahren",
+     "n": "У сильного <b>erfahren</b> меняется гласная."
+    },
+    {
+     "s": "Das Feuer ___ noch.",
+     "ru": "Вставьте Präteritum",
+     "a": [
+      "brannte"
+     ],
+     "hint": "brennen",
+     "n": "Смешанный глагол меняет гласную и добавляет <b>-te</b>."
+    },
+    {
+     "s": "Nachdem er die Rechnung ___ …, ging er nach Hause.",
+     "ru": "Рассказ о прошлом",
+     "a": [
+      "bezahlt"
+     ],
+     "hint": "bezahlen",
+     "n": "Раннее действие в Plusquamperfekt, помощник в конце придаточного."
+    },
+    {
+     "s": "Nachdem er die Rechnung bezahlt ___, ging er nach Hause.",
+     "ru": "Рассказ о прошлом",
+     "a": [
+      "hatte"
+     ],
+     "hint": "bezahlen",
+     "n": "Раннее действие в Plusquamperfekt, помощник в конце придаточного."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  },
+  {
+   "type": "build",
+   "title": "Проверь себя 21.C: переведи",
+   "sub": "Ответьте без таблиц. В последнем пункте меняйте только глагол, остальные слова сохраните.",
+   "items": [
+    {
+     "ru": "Превратите новость в сообщение другу, используя Perfekt: Der Zug kam pünktlich an.",
+     "w": [
+      "Der",
+      "Zug",
+      "ist",
+      "pünktlich",
+      "angekommen"
+     ],
+     "ok": [
+      "Der Zug ist pünktlich angekommen"
+     ],
+     "n": "Обычно начинаем с поезда или времени; вынос причастия тоже возможен, но сильнее выделяет прибытие."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  }
+ ]
+}

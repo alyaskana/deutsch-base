@@ -1,0 +1,116 @@
+{
+ "id": "book-14-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Ansage",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Achtung! Der Zug nach Hamburg hat fünfzehn Minuten Verspätung.",
+   "ru": "Внимание! Поезд на Гамбург опаздывает на пятнадцать минут.",
+   "tag": "[Bahnhofsdurchsage]"
+  },
+  {
+   "who": "Ansage",
+   "voice": "dFA3XRddYScy6ylAYTIO",
+   "de": "Er fährt heute von Gleis sieben ab, nicht von Gleis fünf.",
+   "ru": "Сегодня он отправляется с седьмого пути, а не с пятого."
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Hallo, Alina! Vom Bahnhof nimmst du die U-Bahn, Linie sechs, in Richtung Zentrum.",
+   "ru": "Привет, Алина! От вокзала едешь на метро, шестая линия, в сторону центра.",
+   "tag": "[am Telefon]"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "An der Station Rathaus steigst du um. Dann nimmst du die Linie zwei, bis zur Haltestelle Kirche.",
+   "ru": "На станции «Ратуша» пересаживаешься. Потом линия два до остановки «Церковь»."
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Gegenüber der Haltestelle ist die Bibliothek. Du gehst an der Bibliothek vorbei und dann nach rechts. Dort ist unser Hotel.",
+   "ru": "Напротив остановки библиотека. Проходишь мимо библиотеки и потом направо. Там наша гостиница."
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Ich komme um achtzehn Uhr zwanzig am Hotel an. Bis später!",
+   "ru": "Я буду у гостиницы в восемнадцать двадцать. До встречи!"
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 14.5",
+  "scene": "Am Bahnhof",
+  "cap": "Объявление и сообщение Йонаса",
+  "sub": "Объявление на вокзале, затем Йонас объясняет дорогу. Маршрут вымышленный.",
+  "speakers": {
+   "Ansage": "Германия",
+   "Jonas": "Германия"
+  },
+  "qs": [
+   [
+    "Поезд опаздывает на ___.",
+    [
+     "15 минут",
+     "50 минут",
+     "5 минут"
+    ],
+    "<b>fünfzehn Minuten</b> Verspätung",
+    "fünfzehn — 15, не fünfzig."
+   ],
+   [
+    "Он отправляется с пути ___.",
+    [
+     "7",
+     "5",
+     "6"
+    ],
+    "von <b>Gleis sieben</b> ab, nicht von Gleis fünf",
+    "Путь сменился с пятого на седьмой."
+   ],
+   [
+    "Сначала нужна линия метро ___.",
+    [
+     "6",
+     "2",
+     "7"
+    ],
+    "die U-Bahn, <b>Linie sechs</b>",
+    "Линия шесть, потом пересадка на вторую."
+   ],
+   [
+    "Пересадка ___.",
+    [
+     "на станции «Ратуша»",
+     "на остановке «Церковь»",
+     "у библиотеки"
+    ],
+    "<b>An der Station Rathaus</b> steigst du um",
+    "umsteigen — пересаживаться."
+   ],
+   [
+    "Напротив остановки ___.",
+    [
+     "библиотека",
+     "гостиница",
+     "ратуша"
+    ],
+    "<b>Gegenüber der Haltestelle</b> ist die Bibliothek",
+    "gegenüber + Dativ: напротив остановки."
+   ],
+   [
+    "Йонас будет у гостиницы в ___.",
+    [
+     "18:20",
+     "8:20",
+     "18:02"
+    ],
+    "um <b>achtzehn Uhr zwanzig</b>",
+    "achtzehn Uhr zwanzig — 18:20."
+   ]
+  ]
+ }
+}

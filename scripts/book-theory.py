@@ -75,7 +75,9 @@ def convert(oebps, lesson, sec):
             data = base64.b64encode(raw).decode()
             theory.append({'k': 'img', 'src': f'data:{mime};base64,{data}', 'alt': alt})
         else:
-            c = re.search(r'class="box box-([a-z]+)"', e).group(1)
+            mc = re.search(r'class="box box-([a-z]+)', e)
+            if not mc: continue  # goals / online — не теория
+            c = mc.group(1)
             t = inline(re.search(r'<p class="box-title">(.*?)</p>', e, re.S).group(1)) if 'box-title' in e else ''
             inner = re.sub(r'<p class="box-title">.*?</p>', '', e, flags=re.S)
             x = [inline(p) for p in re.findall(r'<p[^>]*>(.*?)</p>', inner, re.S)]

@@ -1,0 +1,109 @@
+{
+ "id": "book-17-4",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Praxis",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Guten Tag, Frau Kozyreva. Hier ist die Praxis Dr. Eder.",
+   "ru": "Добрый день, госпожа Козырева. Это практика доктора Эдер.",
+   "tag": "[Anrufbeantworter]"
+  },
+  {
+   "who": "Praxis",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Wir möchten Sie übermorgen noch einmal untersuchen. Kommen Sie bitte um Viertel vor acht.",
+   "ru": "Мы хотим послезавтра ещё раз вас осмотреть. Приходите, пожалуйста, без четверти восемь.",
+   "tag": "[deutlich]"
+  },
+  {
+   "who": "Praxis",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Essen Sie vorher nichts. Sie können nach dem Termin frühstücken.",
+   "ru": "Перед этим ничего не ешьте. Позавтракать можно после приёма."
+  },
+  {
+   "who": "Praxis",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Bringen Sie Ihre Medikamente mit. Rufen Sie uns bitte heute zurück.",
+   "ru": "Возьмите с собой ваши лекарства. Перезвоните нам, пожалуйста, сегодня."
+  },
+  {
+   "who": "Praxis",
+   "voice": "v3V1d2rk6528UrLKRuy8",
+   "de": "Melden Sie sich an der Anmeldung an. Seien Sie bitte pünktlich. Danke. Auf Wiederhören.",
+   "ru": "Отметьтесь в регистратуре. Приходите, пожалуйста, вовремя. Спасибо. До свидания."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 17.4",
+  "scene": "Anrufbeantworter",
+  "cap": "Сообщение из приёмной",
+  "sub": "Сообщение из приёмной о повторном осмотре до завтрака. die Anmeldung — регистратура, zurückrufen — перезвонить.",
+  "speakers": {
+   "Praxis": "Германия"
+  },
+  "qs": [
+   [
+    "Во сколько нужно прийти?",
+    [
+     "в 7:45",
+     "в 8:15",
+     "в 8:45"
+    ],
+    "um <b>Viertel vor acht</b>",
+    "Viertel vor acht — без четверти восемь."
+   ],
+   [
+    "Что нельзя делать до приёма?",
+    [
+     "есть",
+     "пить воду",
+     "принимать лекарства"
+    ],
+    "<b>Essen Sie vorher nichts</b>",
+    "Завтракать можно после приёма."
+   ],
+   [
+    "Что нужно принести?",
+    [
+     "свои лекарства",
+     "анализы",
+     "страховую карту"
+    ],
+    "<b>Bringen Sie</b> Ihre Medikamente <b>mit</b>",
+    "mitbringen: приставка в конце."
+   ],
+   [
+    "Когда перезвонить?",
+    [
+     "сегодня",
+     "завтра",
+     "послезавтра"
+    ],
+    "Rufen Sie uns bitte <b>heute</b> zurück",
+    "Послезавтра — сам осмотр."
+   ],
+   [
+    "Где отметиться по прибытии?",
+    [
+     "в регистратуре",
+     "у врача",
+     "в лаборатории"
+    ],
+    "<b>Melden Sie sich an der Anmeldung an</b>",
+    "sich anmelden: возвратное и с приставкой."
+   ],
+   [
+    "Какой просят быть?",
+    [
+     "пунктуальной",
+     "спокойной",
+     "терпеливой"
+    ],
+    "<b>Seien Sie</b> bitte <b>pünktlich</b>",
+    "Императив от sein: Seien Sie."
+   ]
+  ]
+ }
+}

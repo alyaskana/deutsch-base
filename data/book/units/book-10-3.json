@@ -1,7 +1,7 @@
 {
  "title": "Похожие начала: завтрак делить не будем",
  "topic": "Книга · 10.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -84,5 +84,75 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Похожие начала",
+   "sub": "Сначала проверяем целый глагол",
+   "items": [
+    {
+     "s": "Ich ___ um sieben.",
+     "ru": "Я завтракаю в семь.",
+     "o": [
+      "frühstücke",
+      "stücke früh"
+     ],
+     "a": "frühstücke",
+     "n": "frühstücken от das Frühstück, приставки нет."
+    },
+    {
+     "s": "Ich ___ jetzt.",
+     "ru": "Я сейчас отвечаю.",
+     "o": [
+      "antworte",
+      "worte an"
+     ],
+     "a": "antworte",
+     "n": "an здесь часть основы."
+    },
+    {
+     "s": "Wir ___.",
+     "ru": "Мы переезжаем в мае.",
+     "o": [
+      "ziehen im Mai um",
+      "umziehen im Mai"
+     ],
+     "a": "ziehen im Mai um",
+     "n": "umziehen: ударное <b>um</b>, отделяется."
+    },
+    {
+     "s": "Wir ___ hier.",
+     "ru": "Мы здесь ночуем.",
+     "o": [
+      "übernachten",
+      "nachten über"
+     ],
+     "a": "übernachten",
+     "n": "übernachten не делим."
+    },
+    {
+     "s": "Alina ___ hier.",
+     "ru": "Алина здесь подписывает.",
+     "o": [
+      "unterschreibt",
+      "schreibt unter"
+     ],
+     "a": "unterschreibt",
+     "n": "unterschreiben не делим."
+    },
+    {
+     "s": "Der Lehrer ___ das Wort.",
+     "ru": "Учитель повторяет слово.",
+     "o": [
+      "wiederholt",
+      "holt wieder"
+     ],
+     "a": "wiederholt",
+     "n": "wiederholen «повторять» не делим."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

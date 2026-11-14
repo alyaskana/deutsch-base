@@ -1,0 +1,114 @@
+{
+ "id": "book-18-4",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Hallo Alina, hier ist Jonas. Mein Freund hat eine Bewerbung an eine Firma in Köln geschickt.",
+   "ru": "Привет, Алина, это Йонас. Мой друг отправил резюме в одну фирму в Кёльне.",
+   "tag": "[Sprachnachricht]"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Du kennst die Chefin dort, du hast für die Firma schon ein Projekt gemacht. Die Firma möchte mit ihm arbeiten. Er wohnt aber in Bonn.",
+   "ru": "Ты знаешь там начальницу, ты уже делала проект для этой фирмы. Фирма хочет с ним работать. Но он живёт в Бонне."
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Ich möchte wissen, ob er auch zu Hause arbeiten kann. Kannst du die Chefin fragen?",
+   "ru": "Я хочу узнать, может ли он работать и из дома. Можешь спросить начальницу?"
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Wenn er zwei Tage in der Woche zu Hause arbeiten darf, nimmt er die Stelle.",
+   "ru": "Если ему разрешат два дня в неделю работать из дома, он согласится."
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Als er im Juni in Köln war, hat er die Mitarbeiter kennengelernt. Er möchte dort arbeiten, weil ihm das Team gefällt.",
+   "ru": "Когда он был в Кёльне в июне, он познакомился с сотрудниками. Он хочет там работать, потому что ему нравится команда."
+  },
+  {
+   "who": "Jonas",
+   "voice": "aTTiK3YzK3dXETpuDE2h",
+   "de": "Obwohl er nach Köln fahren muss, findet er die Arbeit interessant. Er weiß noch nicht, wann er anfangen kann. Ruf mich bitte an. Danke!",
+   "ru": "Хотя ему придётся ездить в Кёльн, работа ему интересна. Он ещё не знает, когда сможет начать. Позвони мне, пожалуйста. Спасибо!"
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 18.4",
+  "scene": "Sprachnachricht",
+  "cap": "Йонас просит об услуге",
+  "sub": "Йонас оставил Алине сообщение про работу для друга.",
+  "speakers": {
+   "Jonas": "Германия"
+  },
+  "qs": [
+   [
+    "Что Йонас хочет узнать через Алину?",
+    [
+     "может ли друг работать из дома",
+     "когда друг может начать",
+     "сколько платят"
+    ],
+    "Ich möchte wissen, <b>ob</b> er auch zu Hause arbeiten kann",
+    "ob — «ли»: вопрос о возможности."
+   ],
+   [
+    "При каком условии друг согласится?",
+    [
+     "два дня в неделю дома",
+     "зарплата выше",
+     "работа только в Бонне"
+    ],
+    "<b>Wenn</b> er zwei Tage in der Woche zu Hause arbeiten darf",
+    "wenn вводит условие."
+   ],
+   [
+    "Что было в июне?",
+    [
+     "он познакомился с сотрудниками",
+     "он начал работать",
+     "он переехал в Кёльн"
+    ],
+    "<b>Als</b> er im Juni in Köln war, hat er die Mitarbeiter kennengelernt",
+    "als — один случай в прошлом."
+   ],
+   [
+    "Почему он хочет там работать?",
+    [
+     "ему нравится команда",
+     "фирма близко",
+     "там лучше платят"
+    ],
+    "<b>weil</b> ihm das Team gefällt",
+    "weil — причина."
+   ],
+   [
+    "Что не меняет его интереса?",
+    [
+     "нужно ездить в Кёльн",
+     "мало денег",
+     "начальница строгая"
+    ],
+    "<b>Obwohl</b> er nach Köln fahren muss",
+    "obwohl — несмотря на."
+   ],
+   [
+    "Чего он ещё не знает?",
+    [
+     "когда сможет начать",
+     "где фирма",
+     "кто начальница"
+    ],
+    "Er weiß noch nicht, <b>wann</b> er anfangen kann",
+    "wann — о времени."
+   ]
+  ]
+ }
+}

@@ -1,0 +1,600 @@
+{
+ "title": "Практика урока",
+ "topic": "Книга · урок 16",
+ "sub": "Упражнения урока 16 из книги, ответы и объяснения по её ключу.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 16,
+  "s": "16.P",
+  "kind": "P"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Упражнение 16.1",
+   "sub": "Вставьте возвратное местоимение в Akkusativ; в пункте 4 речь о ней, в пункте 8 о нескольких людях.",
+   "items": [
+    {
+     "s": "Ich beschwere ___ nie.",
+     "ru": "",
+     "a": [
+      "mich"
+     ],
+     "hint": "",
+     "n": "Подлежащее <b>ich</b>, возвратная форма в Akkusativ <b>mich</b>."
+    },
+    {
+     "s": "Du bedankst ___ für die Hilfe.",
+     "ru": "",
+     "a": [
+      "dich"
+     ],
+     "hint": "",
+     "n": "Глагол <b>sich bedanken</b> сохраняет возвратное местоимение; для <b>du</b> это <b>dich</b>."
+    },
+    {
+     "s": "Er ruht ___ aus.",
+     "ru": "",
+     "a": [
+      "sich"
+     ],
+     "hint": "",
+     "n": "К <b>er</b> относится форма <b>sich</b>."
+    },
+    {
+     "s": "Sie verliebt ___ in Köln.",
+     "ru": "",
+     "a": [
+      "sich"
+     ],
+     "hint": "",
+     "n": "Форма <b>verliebt</b> показывает, что <b>sie</b> здесь «она»; выбираем <b>sich</b>."
+    },
+    {
+     "s": "Man beeilt ___ hier nicht.",
+     "ru": "",
+     "a": [
+      "sich"
+     ],
+     "hint": "",
+     "n": "При <b>man</b> возвратная форма тоже <b>sich</b>."
+    },
+    {
+     "s": "Wir beschweren ___ über die Heizung.",
+     "ru": "",
+     "a": [
+      "uns"
+     ],
+     "hint": "",
+     "n": "Подлежащее <b>wir</b> сочетается с <b>uns</b>."
+    },
+    {
+     "s": "Ihr bedankt ___ für den Kuchen.",
+     "ru": "",
+     "a": [
+      "euch"
+     ],
+     "hint": "",
+     "n": "Для <b>ihr</b> нужна форма <b>euch</b>."
+    },
+    {
+     "s": "Die Kollegen sind müde. Sie ruhen ___ aus.",
+     "ru": "",
+     "a": [
+      "sich"
+     ],
+     "hint": "",
+     "n": "Здесь <b>sie</b> означает «они», возвратная форма <b>sich</b>."
+    },
+    {
+     "s": "Sie beeilen ___, Frau Schmitz.",
+     "ru": "",
+     "a": [
+      "sich"
+     ],
+     "hint": "",
+     "n": "Вежливое <b>Sie</b> пишется с заглавной, но <b>sich</b> остаётся со строчной."
+    },
+    {
+     "s": "Jonas bedankt ___ für die Einladung.",
+     "ru": "",
+     "a": [
+      "sich"
+     ],
+     "hint": "",
+     "n": "Имя одного человека соответствует третьему лицу; ставим <b>sich</b>."
+    }
+   ],
+   "color": "violet",
+   "shape": "circle"
+  },
+  {
+   "type": "type",
+   "title": "Упражнение 16.2",
+   "sub": "Вставьте возвратное местоимение: mich, mir, dich или dir. Оно называет того же человека, что и подлежащее. В последнем пункте фраза после точки с запятой дана только для сравнения значений.",
+   "items": [
+    {
+     "s": "Du wäschst ___ die Hände.",
+     "ru": "",
+     "a": [
+      "dir"
+     ],
+     "hint": "",
+     "n": "<b>Die Hände</b> уже стоит в Akkusativ, владельца рук обозначает Dativ."
+    },
+    {
+     "s": "Ich ziehe ___ die Jacke an.",
+     "ru": "",
+     "a": [
+      "mir"
+     ],
+     "hint": "",
+     "n": "Куртка занимает место прямого дополнения, поэтому возвратная форма в Dativ."
+    },
+    {
+     "s": "Im Bad wäschst du ___.",
+     "ru": "",
+     "a": [
+      "dich"
+     ],
+     "hint": "",
+     "n": "Часть тела отдельно не названа: ты моешься целиком, поэтому Akkusativ."
+    },
+    {
+     "s": "Ich ziehe ___ an.",
+     "ru": "",
+     "a": [
+      "mich"
+     ],
+     "hint": "",
+     "n": "Здесь «одеваюсь», без отдельного предмета одежды; нужен Akkusativ."
+    },
+    {
+     "s": "Du merkst ___ die Nummer.",
+     "ru": "",
+     "a": [
+      "dir"
+     ],
+     "hint": "",
+     "n": "Запоминаешь номер: <b>die Nummer</b> в Akkusativ, возвратное местоимение в Dativ."
+    },
+    {
+     "s": "Ich wünsche ___ ein Fahrrad.",
+     "ru": "",
+     "a": [
+      "mir"
+     ],
+     "hint": "",
+     "n": "Желание относится к велосипеду; при <b>sich etwas wünschen</b> местоимение в Dativ."
+    },
+    {
+     "s": "Du hast ___ wehgetan.",
+     "ru": "",
+     "a": [
+      "dir"
+     ],
+     "hint": "",
+     "n": "<b>Wehtun</b> сочетается с Dativ и без отдельно названной части тела."
+    },
+    {
+     "s": "Ich stelle mir die Party vor.",
+     "ru": "Ich stelle ___ vor. (Я представляюсь); сравните",
+     "a": [
+      "mich"
+     ],
+     "hint": "Я представляю себе вечеринку.",
+     "n": "Представляюсь сам: Akkusativ. В готовой фразе о воображении <b>die Party</b> в Akkusativ, поэтому <b>mir</b>."
+    }
+   ],
+   "color": "sun",
+   "shape": "penta"
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 16.3",
+   "sub": "Соберите утвердительные предложения. В пунктах 2–3 попробуйте начать со слова времени, затем найдите другие допустимые варианты. Все карточки используйте по одному разу.",
+   "items": [
+    {
+     "ru": "[sich / er / beeilt]",
+     "w": [
+      "Er",
+      "beeilt",
+      "sich"
+     ],
+     "ok": [
+      "Er beeilt sich"
+     ],
+     "n": "Подлежащее в начале, возвратное местоимение сразу за глаголом."
+    },
+    {
+     "ru": "[uns / gleich / wir / bedanken]",
+     "w": [
+      "Gleich",
+      "bedanken",
+      "wir",
+      "uns"
+     ],
+     "ok": [
+      "Gleich bedanken wir uns"
+     ],
+     "n": "При начале с <b>gleich</b> местоимение-подлежащее <b>wir</b> стоит перед <b>uns</b>."
+    },
+    {
+     "ru": "[heute / Alina / beschwert / sich]",
+     "w": [
+      "Heute",
+      "beschwert",
+      "sich",
+      "Alina"
+     ],
+     "ok": [
+      "Heute beschwert sich Alina",
+      "Heute beschwert Alina sich"
+     ],
+     "n": "После начального обстоятельства допустимы оба порядка с именем: <b>sich Alina</b> и <b>Alina sich</b>."
+    },
+    {
+     "ru": "[sich / beeilen / muss / er]",
+     "w": [
+      "Er",
+      "muss",
+      "sich",
+      "beeilen"
+     ],
+     "ok": [
+      "Er muss sich beeilen"
+     ],
+     "n": "Нейтральный вариант начинается с <b>er</b>; вынесенный инфинитив или вся инфинитивная группа тоже возможны при выделении действия."
+    },
+    {
+     "ru": "[bedankt / habe / mich / ich]",
+     "w": [
+      "Ich",
+      "habe",
+      "mich",
+      "bedankt"
+     ],
+     "ok": [
+      "Ich habe mich bedankt"
+     ],
+     "n": "Нейтрально Partizip II стоит в конце; вынесенное вперёд причастие выделяет действие."
+    },
+    {
+     "ru": "[dich / du / um / ziehst]",
+     "w": [
+      "Du",
+      "ziehst",
+      "dich",
+      "um"
+     ],
+     "ok": [
+      "Du ziehst dich um"
+     ],
+     "n": "Обычно начинаем с <b>du</b>; вынесенное <b>dich</b> возможно при подчёркнутом противопоставлении «себя». Приставка остаётся в конце."
+    }
+   ],
+   "color": "blue",
+   "shape": "cloud"
+  },
+  {
+   "type": "listen",
+   "title": "Упражнение 16.4",
+   "scene": "Am Telefon",
+   "cap": "Ужасное утро Пауля",
+   "color": "blue",
+   "shape": "cloud",
+   "mins": 2,
+   "sub": "Пауль звонит Лее и рассказывает про утро.",
+   "audio": {
+    "id": "book-16-4",
+    "n": 3,
+    "dur": 49.71,
+    "t": [
+     [
+      0.8,
+      2.64
+     ],
+     [
+      2.64,
+      9.6
+     ],
+     [
+      9.6,
+      17.92
+     ],
+     [
+      17.92,
+      24.24
+     ],
+     [
+      24.24,
+      32.4
+     ],
+     [
+      32.4,
+      41.52
+     ],
+     [
+      41.52,
+      45.12
+     ],
+     [
+      45.12,
+      47.04
+     ],
+     [
+      47.04,
+      48.96
+     ]
+    ]
+   },
+   "speakers": {
+    "Lea": "Германия",
+    "Paul": "Бавария"
+   },
+   "lines": [
+    {
+     "who": "Lea",
+     "de": "Hallo, Paul! Wie geht es dir?",
+     "ru": "Привет, Пауль! Как дела?"
+    },
+    {
+     "who": "Paul",
+     "de": "Jetzt gut. Mein Morgen war furchtbar. Zuerst bin ich spät aufgestanden. Dann war ich im Bad.",
+     "ru": "Сейчас хорошо. Утро было ужасное. Сначала я поздно встал. Потом был в ванной."
+    },
+    {
+     "who": "Paul",
+     "de": "Ich habe mir die Haare gewaschen. Der Boden war nass, und ich bin gefallen. Ich habe mich verletzt. Meine Hand hat wehgetan.",
+     "ru": "Я мыл голову. Пол был мокрый, и я упал. Я поранился. Рука болела."
+    },
+    {
+     "who": "Paul",
+     "de": "Danach habe ich Alina gesehen. Wir haben uns in der Küche getroffen, und sie hat mir geholfen.",
+     "ru": "Потом я увидел Алину. Мы встретились на кухне, и она мне помогла."
+    },
+    {
+     "who": "Paul",
+     "de": "Mein Zug ist um neun gefahren. Ich habe auf die Uhr gesehen: halb neun! Morgens muss ich mich immer beeilen.",
+     "ru": "Мой поезд уходил в девять. Я посмотрел на часы: половина девятого! По утрам мне всегда приходится торопиться."
+    },
+    {
+     "who": "Paul",
+     "de": "Vor dem Haus habe ich einen Lehrer kennengelernt. Er hat ein Taxi bestellt, und wir sind zusammen zum Bahnhof gefahren.",
+     "ru": "Перед домом я познакомился с учителем. Он заказал такси, и мы вместе поехали на вокзал."
+    },
+    {
+     "who": "Paul",
+     "de": "Ich habe den Zug noch erreicht. Jetzt bin ich froh.",
+     "ru": "Я ещё успел на поезд. Теперь я рад."
+    },
+    {
+     "who": "Lea",
+     "de": "Und deine Hand?",
+     "ru": "А рука?"
+    },
+    {
+     "who": "Paul",
+     "de": "Sie tut nicht mehr weh.",
+     "ru": "Больше не болит."
+    }
+   ],
+   "gloss": {},
+   "items": [
+    {
+     "q": "Ich habe ___ die Haare gewaschen.",
+     "o": [
+      "mir",
+      "mich",
+      "sich"
+     ],
+     "a": "mir",
+     "n": "Ich habe <b>mir</b> die Haare gewaschen. Волосы — отдельное дополнение в Akkusativ, поэтому <b>mir</b>.",
+     "k": 2
+    },
+    {
+     "q": "Что произошло после падения?",
+     "o": [
+      "Пауль поранился",
+      "Пауль отдохнул",
+      "Пауль вызвал врача"
+     ],
+     "a": "Пауль поранился",
+     "n": "Ich habe <b>mich verletzt</b>. sich verletzen — пораниться.",
+     "k": 2
+    },
+    {
+     "q": "Wir haben ___ in der Küche getroffen.",
+     "o": [
+      "uns",
+      "euch",
+      "sich"
+     ],
+     "a": "uns",
+     "n": "Wir haben <b>uns</b> in der Küche getroffen. Встретились друг с другом: <b>uns</b>.",
+     "k": 3
+    },
+    {
+     "q": "Что Паулю приходится делать по утрам?",
+     "o": [
+      "торопиться",
+      "сесть",
+      "долго спать"
+     ],
+     "a": "торопиться",
+     "n": "Morgens muss ich <b>mich</b> immer <b>beeilen</b>. sich beeilen — торопиться.",
+     "k": 4
+    },
+    {
+     "q": "С кем он познакомился?",
+     "o": [
+      "с учителем",
+      "с Йонасом",
+      "с таксистом"
+     ],
+     "a": "с учителем",
+     "n": "habe ich <b>einen Lehrer kennengelernt</b>. kennenlernen без sich: человек в Akkusativ.",
+     "k": 5
+    },
+    {
+     "q": "Почему Пауль в конце доволен?",
+     "o": [
+      "он успел на поезд",
+      "он поехал домой",
+      "рука прошла сразу"
+     ],
+     "a": "он успел на поезд",
+     "n": "Ich habe den Zug <b>noch erreicht</b>. Он всё-таки успел.",
+     "k": 6
+    }
+   ]
+  },
+  {
+   "type": "script",
+   "title": "Текст записи 16.4",
+   "color": "blue",
+   "shape": "cloud",
+   "items": [],
+   "sub": "Послушай ещё раз и следи по тексту. Кнопка у реплики повторяет только её."
+  },
+  {
+   "type": "build",
+   "title": "Упражнение 16.5",
+   "sub": "Переведите фразы. Для пунктов 4–8 сохраняйте указанные глаголы.",
+   "items": [
+    {
+     "ru": "Я учусь в Кёльне.",
+     "w": [
+      "Ich",
+      "studiere",
+      "in",
+      "Köln"
+     ],
+     "ok": [
+      "Ich studiere in Köln"
+     ],
+     "n": "Оба глагола обходятся без <b>sich</b>; <b>studieren</b> уточняет учёбу в вузе."
+    },
+    {
+     "ru": "Я познакомилась с Леей.",
+     "w": [
+      "Ich",
+      "habe",
+      "Lea",
+      "kennengelernt"
+     ],
+     "ok": [
+      "Ich habe Lea kennengelernt"
+     ],
+     "n": "При знакомстве с человеком он стоит в Akkusativ; <b>mit</b> и <b>mich</b> не добавляем. Оба написания глагола допустимы."
+    },
+    {
+     "ru": "Курс начинается в девять.",
+     "w": [
+      "Der",
+      "Kurs",
+      "fängt",
+      "um",
+      "neun",
+      "an"
+     ],
+     "ok": [
+      "Der Kurs fängt um neun an"
+     ],
+     "n": "Русское «-ся» здесь не передаётся через <b>sich</b>: <b>anfangen</b> и <b>beginnen</b> обходятся без местоимения."
+    },
+    {
+     "ru": "Что случилось с Паулем? (passieren, в Perfekt)",
+     "w": [
+      "Was",
+      "ist",
+      "mit",
+      "Paul",
+      "passiert?"
+     ],
+     "ok": [
+      "Was ist mit Paul passiert?"
+     ],
+     "n": "У <b>passieren</b> Perfekt с <b>sein</b>, возвратного местоимения нет."
+    },
+    {
+     "ru": "Леа отдыхает дома. (sich ausruhen)",
+     "w": [
+      "Lea",
+      "ruht",
+      "sich",
+      "zu",
+      "Hause",
+      "aus"
+     ],
+     "ok": [
+      "Lea ruht sich zu Hause aus"
+     ],
+     "n": "<b>Sich</b> стоит сразу за глаголом, приставка <b>aus</b> в конце; после <b>zu Hause</b> возможны оба порядка с именем."
+    },
+    {
+     "ru": "Вы благодарите за помощь. (Sie; sich bedanken)",
+     "w": [
+      "Sie",
+      "bedanken",
+      "sich",
+      "für",
+      "die",
+      "Hilfe"
+     ],
+     "ok": [
+      "Sie bedanken sich für die Hilfe"
+     ],
+     "n": "Вежливое подлежащее <b>Sie</b> сочетается со строчным <b>sich</b>; после <b>für</b> Akkusativ."
+    },
+    {
+     "ru": "Вы разговариваете. (ihr; sich unterhalten)",
+     "w": [
+      "Ihr",
+      "unterhaltet",
+      "euch"
+     ],
+     "ok": [
+      "Ihr unterhaltet euch"
+     ],
+     "n": "К <b>ihr</b> нужна форма <b>euch</b>; здесь разговор друг с другом."
+    },
+    {
+     "ru": "Ты помнишь? (sich erinnern, без дополнения)",
+     "w": [
+      "Erinnerst",
+      "du",
+      "dich?"
+     ],
+     "ok": [
+      "Erinnerst du dich?"
+     ],
+     "n": "Дополнение здесь не нужно, а возвратное местоимение остаётся: для <b>du</b> это <b>dich</b>."
+    }
+   ],
+   "color": "teal",
+   "shape": "flower"
+  },
+  {
+   "type": "write",
+   "title": "Упражнение 16.6",
+   "sub": "Напишите другу сообщение на 70–90 слов о вечере перед важным событием: первым рабочим днём, праздником или свиданием. Расскажите, как вы собирались и что чувствовали.",
+   "items": [
+    {
+     "q": "Напишите другу сообщение на 70–90 слов о вечере перед важным событием: первым рабочим днём, праздником или свиданием. Расскажите, как вы собирались и что чувствовали.",
+     "hint": "Перечитайте сообщение: есть ли в нём хотя бы пять возвратных глаголов, а среди них Perfekt и сочетание с модальным глаголом? Есть ли возвратный Dativ при части тела или одежде? Названо ли ваше чувство или состояние через sich fühlen или sein? Если в тексте есть возвратный глагол с предлогом, взят ли он готовым сочетанием из урока?",
+     "ph": "Напиши по-немецки…",
+     "ex": [
+      "Hallo Anna! Morgen fange ich bei einer neuen Firma an. Heute Abend bin ich nervös. Ich habe mich geduscht und mir die Haare gewaschen. Dann habe ich mir die Jacke für morgen angesehen. Jetzt fühle ich mich müde. Ich möchte mich noch ausruhen. Mein Freund und ich haben uns lange unterhalten. Er hat mir einen Tee gemacht, und ich habe mich für den Tee bedankt. Meine Tasche steht schon neben der Tür. Morgen muss ich mich nicht beeilen: Mein Handy weckt mich um sechs. Hoffentlich schlafe ich gut. Bis bald!"
+     ],
+     "check": [
+      "90 слов. Проверьте: возвратных глаголов не меньше пяти; mir die Haare в Dativ; есть Perfekt с haben, модальный глагол с возвратным местоимением и состояние nervös или müde. Другой правильный текст по этим условиям тоже подходит."
+     ]
+    }
+   ],
+   "color": "coral",
+   "shape": "square"
+  }
+ ]
+}

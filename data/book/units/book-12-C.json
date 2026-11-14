@@ -1,0 +1,96 @@
+{
+ "title": "Проверь себя",
+ "topic": "Книга · урок 12",
+ "sub": "Пять заданий в конце урока 12: быстро понять, всё ли усвоено.",
+ "order": 0,
+ "createdAt": "2026-11-14",
+ "book": {
+  "l": 12,
+  "s": "12.C",
+  "kind": "C"
+ },
+ "stages": [
+  {
+   "type": "type",
+   "title": "Проверь себя 12.C",
+   "sub": "Закройте таблицы и заполните пропуски. В пятом пункте нужно одно самостоятельное местоимение.",
+   "items": [
+    {
+     "s": "Ich telefoniere mit mein___ Freunde….",
+     "ru": "",
+     "a": [
+      "en"
+     ],
+     "hint": "die Freunde",
+     "n": "После <b>mit</b> дательный множественного: <b>meinen Freunden</b>."
+    },
+    {
+     "s": "Ich telefoniere mit meinen Freunde___.",
+     "ru": "",
+     "a": [
+      "n"
+     ],
+     "hint": "die Freunde",
+     "n": "После <b>mit</b> дательный множественного: <b>meinen Freunden</b>."
+    },
+    {
+     "s": "Alina hilft ___ Onkel. Вставьте форму со значением «своему».",
+     "ru": "",
+     "a": [
+      "ihrem"
+     ],
+     "hint": "",
+     "n": "Алина выбирает <b>ihr-</b>; <b>helfen</b> и мужской род дают <b>-em</b>."
+    },
+    {
+     "s": "Ist das ___ Kamera? Ich kenne … Vater. Обращение к двум друзьям (ihr).",
+     "ru": "",
+     "a": [
+      "eure"
+     ],
+     "hint": "",
+     "n": "У камеры женский именительный <b>-e</b>, у отца мужской винительный <b>-en</b>; основа <b>eur-</b>."
+    },
+    {
+     "s": "Ist das eure Kamera? Ich kenne ___ Vater. Обращение к двум друзьям (ihr).",
+     "ru": "",
+     "a": [
+      "euren"
+     ],
+     "hint": "",
+     "n": "У камеры женский именительный <b>-e</b>, у отца мужской винительный <b>-en</b>; основа <b>eur-</b>."
+    },
+    {
+     "s": "Mit welch___ Enkelin spricht Frau Schmitz? Mit dies… Enkelin.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "",
+     "n": "Внучка женского рода; после <b>mit</b> дательный с окончанием <b>-er</b>."
+    },
+    {
+     "s": "Mit welcher Enkelin spricht Frau Schmitz? Mit dies___ Enkelin.",
+     "ru": "",
+     "a": [
+      "er"
+     ],
+     "hint": "",
+     "n": "Внучка женского рода; после <b>mit</b> дательный с окончанием <b>-er</b>."
+    },
+    {
+     "s": "Ist das dein Paket? Ja, das ist ___.",
+     "ru": "",
+     "a": [
+      "meins",
+      "meines"
+     ],
+     "hint": "",
+     "n": "Самостоятельная форма среднего рода; допустимы короткий и полный варианты."
+    }
+   ],
+   "color": "pink",
+   "shape": "diamond"
+  }
+ ]
+}

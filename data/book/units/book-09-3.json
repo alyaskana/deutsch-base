@@ -1,7 +1,7 @@
 {
  "title": "Семь значений: всё возле кофемашины",
  "topic": "Книга · 9.3",
- "sub": "",
+ "sub": "Теория по книге и короткие задания по разделу.",
  "order": 0,
  "createdAt": "2026-11-14",
  "book": {
@@ -126,5 +126,102 @@
    }
   ]
  },
- "stages": []
+ "stages": [
+  {
+   "type": "choice",
+   "title": "Какой модальный?",
+   "sub": "Умение, разрешение, необходимость, поручение, намерение, вкус, просьба",
+   "items": [
+    {
+     "s": "Jonas ___ die Maschine reparieren.",
+     "ru": "Йонас умеет чинить машину.",
+     "o": [
+      "kann",
+      "darf",
+      "soll"
+     ],
+     "a": "kann",
+     "n": "Умение/возможность — <b>können</b>."
+    },
+    {
+     "s": "Alina ___ die Maschine benutzen.",
+     "ru": "Алине разрешено пользоваться машиной.",
+     "o": [
+      "darf",
+      "muss",
+      "will"
+     ],
+     "a": "darf",
+     "n": "Разрешение — <b>dürfen</b>."
+    },
+    {
+     "s": "Herr Krüger ___ die Maschine reparieren. Der Chef sagt das.",
+     "ru": "Господину Крюгеру велено починить машину.",
+     "o": [
+      "soll",
+      "will",
+      "mag"
+     ],
+     "a": "soll",
+     "n": "Можно назвать, кто велел: <b>sollen</b>."
+    },
+    {
+     "s": "Die Maschine ist kaputt. Herr Krüger ___ sie reparieren.",
+     "ru": "Машина сломана, её нужно починить.",
+     "o": [
+      "muss",
+      "mag",
+      "darf"
+     ],
+     "a": "muss",
+     "n": "Необходимость — <b>müssen</b>."
+    },
+    {
+     "s": "Er ___ die Maschine reparieren. Das ist seine Idee.",
+     "ru": "Он хочет починить машину (сам решил).",
+     "o": [
+      "will",
+      "soll",
+      "darf"
+     ],
+     "a": "will",
+     "n": "Своё намерение — <b>wollen</b>."
+    },
+    {
+     "s": "Jonas ___ Kaffee.",
+     "ru": "Йонас любит кофе.",
+     "o": [
+      "mag",
+      "möchte",
+      "will"
+     ],
+     "a": "mag",
+     "n": "Вкус — <b>mögen</b>; это не заказ."
+    },
+    {
+     "s": "Ich ___ einen Kaffee, bitte.",
+     "ru": "Я хотела бы кофе, пожалуйста.",
+     "o": [
+      "möchte",
+      "mag",
+      "soll"
+     ],
+     "a": "möchte",
+     "n": "Желание собеседнику — <b>möchte</b>."
+    },
+    {
+     "s": "Jonas kocht ___.",
+     "ru": "Йонас любит готовить.",
+     "o": [
+      "gern",
+      "mag"
+     ],
+     "a": "gern",
+     "n": "Любимое действие — через <b>gern</b>."
+    }
+   ],
+   "color": "coral",
+   "shape": "circle"
+  }
+ ]
 }

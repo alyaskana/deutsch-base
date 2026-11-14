@@ -1,0 +1,114 @@
+{
+ "id": "book-13-5",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Hallo Alina! Am Samstag war ich in Bonn. Zuerst bin ich mit dem Zug angekommen.",
+   "ru": "Привет, Алина! В субботу я был в Бонне. Сначала я приехал на поезде.",
+   "tag": "[Sprachnachricht]"
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Vom Bahnhof bin ich zu Fuß gegangen. Dann habe ich Kaffee getrunken.",
+   "ru": "От вокзала я пошёл пешком. Потом выпил кофе."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Danach habe ich den Fluss fotografiert. Ich hatte kein Geld.",
+   "ru": "После этого я фотографировал реку. Денег у меня не было."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Meine Geldbörse habe ich nicht verloren. Ich habe sie zu Hause vergessen. Ein Freund aus Bonn hat den Kaffee bezahlt.",
+   "ru": "Кошелёк я не потерял. Я забыл его дома. Друг из Бонна заплатил за кофе."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Im Café habe ich am Fenster gesessen. Neben mir war ein Mann aus Österreich.",
+   "ru": "В кафе я сидел у окна. Рядом со мной был мужчина из Австрии."
+  },
+  {
+   "who": "Paul",
+   "voice": "eEmoQJhC4SAEQpCINUov",
+   "de": "Er hat erzählt: Ich bin vorgestern auch hier gesessen. In Österreich ist das normal. Bis morgen!",
+   "ru": "Он рассказал: «Я позавчера тоже здесь сидел». В Австрии это нормально. До завтра!"
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 13.5",
+  "scene": "Sprachnachricht",
+  "cap": "Суббота Пауля в Бонне",
+  "sub": "Пауль оставил Алине голосовое сообщение о субботе в Бонне.",
+  "speakers": {
+   "Paul": "Бавария"
+  },
+  "qs": [
+   [
+    "Что было первым?",
+    [
+     "Пауль приехал на поезде",
+     "Пауль выпил кофе",
+     "Пауль фотографировал реку"
+    ],
+    "<b>Zuerst</b> bin ich mit dem Zug angekommen",
+    "zuerst — сначала."
+   ],
+   [
+    "Что было после кофе?",
+    [
+     "Пауль фотографировал реку",
+     "Пауль приехал в Бонн",
+     "Пауль пошёл на вокзал"
+    ],
+    "<b>Danach</b> habe ich den Fluss fotografiert",
+    "danach — после этого."
+   ],
+   [
+    "Пауль потерял кошелёк?",
+    [
+     "нет, забыл дома",
+     "да, в кафе",
+     "да, на вокзале"
+    ],
+    "Ich habe sie zu Hause <b>vergessen</b>",
+    "nicht verloren, а vergessen — забыл."
+   ],
+   [
+    "Как Пауль добрался от вокзала?",
+    [
+     "пешком",
+     "на автобусе",
+     "на такси"
+    ],
+    "Vom Bahnhof bin ich <b>zu Fuß gegangen</b>",
+    "zu Fuß gehen — идти пешком, Perfekt с sein."
+   ],
+   [
+    "Кто заплатил за кофе?",
+    [
+     "друг из Бонна",
+     "мужчина из Австрии",
+     "сам Пауль"
+    ],
+    "Ein Freund aus Bonn <b>hat</b> den Kaffee <b>bezahlt</b>",
+    "Денег у Пауля не было."
+   ],
+   [
+    "Австриец: Ich ___ vorgestern auch hier gesessen.",
+    [
+     "bin",
+     "habe",
+     "war"
+    ],
+    "Ich <b>bin</b> vorgestern auch hier gesessen",
+    "В Австрии sitzen образует Perfekt с <b>sein</b>; Пауль говорит habe gesessen."
+   ]
+  ]
+ }
+}

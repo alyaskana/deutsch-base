@@ -1,0 +1,77 @@
+{
+"18.1": [
+ {"type":"build","title":"Соединяем или встраиваем","sub":"denn — порядок обычный, weil — глагол в конец","items":[
+  {"ru":"Я остаюсь здесь, ведь у меня есть время.","w":["Ich","bleibe","hier,","denn","ich","habe","Zeit."],"ok":["Ich bleibe hier, denn ich habe Zeit."],"n":"После denn обычный порядок."},
+  {"ru":"Я остаюсь здесь, потому что у меня есть время.","w":["Ich","bleibe","hier,","weil","ich","Zeit","habe."],"ok":["Ich bleibe hier, weil ich Zeit habe."],"n":"После weil глагол в конце."},
+  {"ru":"Я устала, и я иду домой.","w":["Ich","bin","müde,","und","ich","gehe","nach","Hause."],"ok":["Ich bin müde, und ich gehe nach Hause.","Ich bin müde und ich gehe nach Hause."],"n":"und не меняет порядок."},
+  {"ru":"Мы идём в кино или остаёмся дома?","w":["Gehen","wir","ins","Kino","oder","bleiben","wir","zu","Hause?"],"ok":["Gehen wir ins Kino oder bleiben wir zu Hause?"],"n":"oder соединяет два главных."},
+  {"ru":"Я знаю, что ты устала.","w":["Ich","weiß,","dass","du","müde","bist."],"ok":["Ich weiß, dass du müde bist."],"n":"dass — глагол в конце."}
+ ]}
+],
+"18.2": [
+ {"type":"choice","title":"Aber или sondern","sub":"Возражаем или исправляем","items":[
+  {"s":"Ich habe keinen Tee bestellt, ___ Kaffee.","ru":"Я заказал не чай, а кофе.","o":["sondern","aber"],"a":"sondern","n":"Исправляем после отрицания — <b>sondern</b>."},
+  {"s":"Der Kaffee ist gut, ___ er ist kalt.","ru":"Кофе хороший, но холодный.","o":["aber","sondern"],"a":"aber","n":"Оба верны — <b>aber</b>."},
+  {"s":"Das Büro ist nicht groß, ___ es ist hell.","ru":"Офис небольшой, но светлый.","o":["aber","sondern"],"a":"aber","n":"Не замена, а добавление — <b>aber</b>."},
+  {"s":"Paul wohnt nicht in Bonn, ___ in Köln.","ru":"Пауль живёт не в Бонне, а в Кёльне.","o":["sondern","aber"],"a":"sondern","n":"Замена — <b>sondern</b>."},
+  {"s":"Ich bin müde, ___ ich helfe dir.","ru":"Я устала, но помогу тебе.","o":["aber","sondern"],"a":"aber","n":"<b>aber</b>."},
+  {"s":"Das ist nicht mein Schlüssel, ___ deiner.","ru":"Это не мой ключ, а твой.","o":["sondern","aber"],"a":"sondern","n":"<b>sondern</b>."}
+ ]}
+],
+"18.3": [
+ {"type":"build","title":"Глагол в конце","sub":"Приставка срастается, помощник последним","items":[
+  {"ru":"…потому что я учу немецкий.","w":["weil","ich","Deutsch","lerne"],"ok":["weil ich Deutsch lerne"],"n":"<b>lerne</b> в конце."},
+  {"ru":"…потому что я звоню Паулю.","w":["weil","ich","Paul","anrufe"],"ok":["weil ich Paul anrufe"],"n":"Приставка снова слитно: <b>anrufe</b>."},
+  {"ru":"…потому что я должна работать.","w":["weil","ich","arbeiten","muss"],"ok":["weil ich arbeiten muss"],"n":"Модальный последним."},
+  {"ru":"У меня нет вопросов, потому что я прочитал договор.","w":["Ich","habe","keine","Fragen,","weil","ich","den","Vertrag","gelesen","habe."],"ok":["Ich habe keine Fragen, weil ich den Vertrag gelesen habe."],"n":"<b>gelesen habe</b>."},
+  {"ru":"…потому что у меня есть опыт.","w":["weil","ich","Erfahrung","habe"],"ok":["weil ich Erfahrung habe"],"n":"Не <s>weil ich habe</s>."}
+ ]}
+],
+"18.4": [
+ {"type":"build","title":"Придаточное первым","sub":"Глагол, запятая, глагол","items":[
+  {"ru":"Поскольку сегодня готовит Пауль, за покупками иду я.","w":["Weil","Paul","heute","kocht,","kaufe","ich","ein."],"ok":["Weil Paul heute kocht, kaufe ich ein."],"n":"<b>kocht, kaufe</b>."},
+  {"ru":"Если Йонас напишет, я сразу отвечу.","w":["Wenn","Jonas","schreibt,","antworte","ich","sofort."],"ok":["Wenn Jonas schreibt, antworte ich sofort."],"n":"<b>schreibt, antworte</b>."},
+  {"ru":"Если у меня будет время, я приду.","w":["Wenn","ich","Zeit","habe,","komme","ich."],"ok":["Wenn ich Zeit habe, komme ich."],"n":"Главное начинается с глагола."},
+  {"ru":"Так как идёт дождь, мы остаёмся дома.","w":["Weil","es","regnet,","bleiben","wir","zu","Hause."],"ok":["Weil es regnet, bleiben wir zu Hause."],"n":"<b>regnet, bleiben</b>."}
+ ]}
+],
+"18.5": [
+ {"type":"choice","title":"Причина и уступка","sub":"weil, denn, deshalb, obwohl, trotzdem","items":[
+  {"s":"Ich möchte hier arbeiten, ___ mir die Projekte gefallen.","ru":"Хочу здесь работать, потому что мне нравятся проекты.","o":["weil","denn"],"a":"weil","n":"Глагол в конце → <b>weil</b>."},
+  {"s":"Ich möchte hier arbeiten, ___ mir gefallen die Projekte.","ru":"Хочу здесь работать, ведь мне нравятся проекты.","o":["denn","weil"],"a":"denn","n":"Обычный порядок → <b>denn</b>."},
+  {"s":"Mir gefallen die Projekte, ___ möchte ich hier arbeiten.","ru":"Мне нравятся проекты, поэтому я хочу здесь работать.","o":["deshalb","weil"],"a":"deshalb","n":"<b>deshalb</b> + глагол сразу."},
+  {"s":"___ Jonas müde ist, hilft er uns.","ru":"Хотя Йонас устал, он нам помогает.","o":["Obwohl","Trotzdem"],"a":"Obwohl","n":"Придаточное — <b>obwohl</b>."},
+  {"s":"Jonas ist müde, ___ hilft er uns.","ru":"Йонас устал, но всё равно помогает.","o":["trotzdem","obwohl"],"a":"trotzdem","n":"<b>trotzdem</b> + глагол."},
+  {"s":"Obwohl Jonas müde ist, ___ uns.","ru":"Хотя Йонас устал, он нам помогает.","o":["hilft er","aber er hilft"],"a":"hilft er","n":"Без лишнего aber."}
+ ]}
+],
+"18.6": [
+ {"type":"choice","title":"Dass или was","sub":"Факт или неизвестная вещь","items":[
+  {"s":"Ich denke, ___ Paul liest.","ru":"Я думаю, что Пауль читает.","o":["dass","was"],"a":"dass","n":"Целый факт — <b>dass</b>."},
+  {"s":"Ich weiß, ___ er macht.","ru":"Я знаю, что он делает.","o":["was","dass"],"a":"was","n":"Что именно? — <b>was</b>."},
+  {"s":"Lea meint, ___ das klappt.","ru":"Леа считает, что это получится.","o":["dass","was"],"a":"dass","n":"<b>dass</b>."},
+  {"s":"Ich hoffe, dass ich die Stelle ___.","ru":"Надеюсь, что получу это место.","o":["bekomme","bekomme ich"],"a":"bekomme","n":"Глагол в конце."},
+  {"s":"Sag mir, ___ du brauchst.","ru":"Скажи мне, что тебе нужно.","o":["was","dass"],"a":"was","n":"Неизвестная вещь — <b>was</b>."},
+  {"s":"Ich glaube, ___ das Büro frei ist.","ru":"Думаю, что офис свободен.","o":["dass","was"],"a":"dass","n":"<b>dass</b>."}
+ ]}
+],
+"18.7": [
+ {"type":"build","title":"Ob — «ли»","sub":"Вопрос да/нет внутри предложения","items":[
+  {"ru":"Я не знаю, свободен ли офис.","w":["Ich","weiß","nicht,","ob","das","Büro","frei","ist."],"ok":["Ich weiß nicht, ob das Büro frei ist."],"n":"<b>ob</b>, глагол в конце."},
+  {"ru":"Я спрашиваю, можем ли мы здесь подождать.","w":["Ich","frage,","ob","wir","hier","warten","können."],"ok":["Ich frage, ob wir hier warten können."],"n":"Модальный последним."},
+  {"ru":"Я не знаю, придёт ли Пауль.","w":["Ich","weiß","nicht,","ob","Paul","kommt."],"ok":["Ich weiß nicht, ob Paul kommt."],"n":"Не wenn: «ли» — <b>ob</b>."},
+  {"ru":"Можете сказать, можно ли мне здесь подождать?","w":["Können","Sie","mir","sagen,","ob","ich","hier","warten","darf?"],"ok":["Können Sie mir sagen, ob ich hier warten darf?"],"n":"<b>ob ich … darf</b>."}
+ ]}
+],
+"18.8": [
+ {"type":"choice","title":"Wann, als, wenn","sub":"Спрашиваем, один раз в прошлом, будущее или повтор","items":[
+  {"s":"Sagen Sie mir bitte, ___ das Interview beginnt.","ru":"Скажите, когда начинается собеседование.","o":["wann","wenn","als"],"a":"wann","n":"Выясняем время — <b>wann</b>."},
+  {"s":"___ ich in Bonn war, habe ich das Museum besucht.","ru":"Когда я был в Бонне, я посетил музей.","o":["Als","Wenn","Wann"],"a":"Als","n":"Один случай в прошлом — <b>als</b>."},
+  {"s":"___ ich morgen ankomme, rufe ich dich an.","ru":"Когда я завтра приеду, позвоню тебе.","o":["Wenn","Als","Wann"],"a":"Wenn","n":"Будущее — <b>wenn</b>."},
+  {"s":"___ Paul Zeit hat, kocht er.","ru":"Если у Пауля есть время, он готовит.","o":["Wenn","Als","Wann"],"a":"Wenn","n":"Условие/повтор — <b>wenn</b>."},
+  {"s":"Immer ___ ich ein Interview hatte, war ich nervös.","ru":"Всякий раз, когда у меня было собеседование, я волновался.","o":["wenn","als","wann"],"a":"wenn","n":"Повтор в прошлом — <b>immer wenn</b>."},
+  {"s":"___ Paul zurückgekommen ist, hat er mich angerufen.","ru":"Когда Пауль вернулся, он мне позвонил.","o":["Als","Wenn","Wann"],"a":"Als","n":"Один раз — <b>als</b>."},
+  {"s":"Ich weiß nicht, ___ der Zug kommt.","ru":"Я не знаю, когда придёт поезд.","o":["wann","wenn","als"],"a":"wann","n":"Вопрос о времени — <b>wann</b>."}
+ ]}
+]
+}

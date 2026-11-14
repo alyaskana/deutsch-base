@@ -1,0 +1,715 @@
+{
+ "l": 25,
+ "words": [
+  {
+   "de": "achten",
+   "lemma": "achten",
+   "art": "",
+   "pl": "",
+   "forms": "achtete, hat geachtet; auf + Akk",
+   "ipa": "[ˈaxtən]",
+   "ru": "обращать внимание",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) aufregen",
+   "lemma": "(sich) aufregen",
+   "art": "",
+   "pl": "",
+   "forms": "regt sich auf, regte sich auf, hat sich aufgeregt; über + Akk",
+   "ipa": "[ˈaʊ̯fˌʁeːɡən]",
+   "ru": "возмущаться, нервничать",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) beschäftigen",
+   "lemma": "(sich) beschäftigen",
+   "art": "",
+   "pl": "",
+   "forms": "beschäftigte sich, hat sich beschäftigt; mit + Dat",
+   "ipa": "[bəˈʃɛftɪɡən]",
+   "ru": "заниматься",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) beteiligen",
+   "lemma": "(sich) beteiligen",
+   "art": "",
+   "pl": "",
+   "forms": "beteiligte sich, hat sich beteiligt; an + Dat",
+   "ipa": "[bəˈtaɪ̯lɪɡən]",
+   "ru": "участвовать",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) eignen",
+   "lemma": "(sich) eignen",
+   "art": "",
+   "pl": "",
+   "forms": "eignete sich, hat sich geeignet; für + Akk",
+   "ipa": "[ˈaɪ̯ɡnən]",
+   "ru": "подходить",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) einigen",
+   "lemma": "(sich) einigen",
+   "art": "",
+   "pl": "",
+   "forms": "einigte sich, hat sich geeinigt; auf / über + Akk",
+   "ipa": "[ˈaɪ̯nɪɡən]",
+   "ru": "договариваться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) fürchten",
+   "lemma": "(sich) fürchten",
+   "art": "",
+   "pl": "",
+   "forms": "fürchtete sich, hat sich gefürchtet; vor + Dat",
+   "ipa": "[ˈfʏʁçtən]",
+   "ru": "бояться",
+   "pos": "phrase"
+  },
+  {
+   "de": "(sich) gewöhnen",
+   "lemma": "(sich) gewöhnen",
+   "art": "",
+   "pl": "",
+   "forms": "gewöhnte sich, hat sich gewöhnt; an + Akk",
+   "ipa": "[ɡəˈvøːnən]",
+   "ru": "привыкать",
+   "pos": "phrase"
+  },
+  {
+   "de": "handeln",
+   "lemma": "handeln",
+   "art": "",
+   "pl": "",
+   "forms": "handelte, hat gehandelt; von + Dat",
+   "ipa": "[ˈhandəln]",
+   "ru": "рассказывать о",
+   "pos": "verb"
+  },
+  {
+   "de": "hinweisen",
+   "lemma": "hinweisen",
+   "art": "",
+   "pl": "",
+   "forms": "weist hin, wies hin, hat hingewiesen; auf + Akk",
+   "ipa": "[ˈhɪnˌvaɪ̯zən]",
+   "ru": "указывать",
+   "pos": "verb"
+  },
+  {
+   "de": "klagen",
+   "lemma": "klagen",
+   "art": "",
+   "pl": "",
+   "forms": "klagte, hat geklagt; über + Akk",
+   "ipa": "[ˈklaːɡən]",
+   "ru": "жаловаться",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) konzentrieren",
+   "lemma": "(sich) konzentrieren",
+   "art": "",
+   "pl": "",
+   "forms": "konzentrierte sich, hat sich konzentriert; auf + Akk",
+   "ipa": "[kɔntsɛnˈtʁiːʁən]",
+   "ru": "сосредоточиваться",
+   "pos": "phrase"
+  },
+  {
+   "de": "leiden",
+   "lemma": "leiden",
+   "art": "",
+   "pl": "",
+   "forms": "leidet, litt, hat gelitten; an / unter + Dat",
+   "ipa": "[ˈlaɪ̯dən]",
+   "ru": "страдать",
+   "pos": "verb"
+  },
+  {
+   "de": "nachdenken",
+   "lemma": "nachdenken",
+   "art": "",
+   "pl": "",
+   "forms": "denkt nach, dachte nach, hat nachgedacht; über + Akk",
+   "ipa": "[ˈnaːxˌdɛŋkən]",
+   "ru": "обдумывать",
+   "pos": "verb"
+  },
+  {
+   "de": "protestieren",
+   "lemma": "protestieren",
+   "art": "",
+   "pl": "",
+   "forms": "protestierte, hat protestiert; gegen + Akk",
+   "ipa": "[pʁotɛsˈtiːʁən]",
+   "ru": "протестовать",
+   "pos": "verb"
+  },
+  {
+   "de": "schützen",
+   "lemma": "schützen",
+   "art": "",
+   "pl": "",
+   "forms": "schützte, hat geschützt; vor + Dat",
+   "ipa": "[ˈʃʏtsən]",
+   "ru": "защищать",
+   "pos": "verb"
+  },
+  {
+   "de": "sorgen",
+   "lemma": "sorgen",
+   "art": "",
+   "pl": "",
+   "forms": "sorgte, hat gesorgt; für + Akk; sich sorgen um + Akk",
+   "ipa": "[ˈzɔʁɡən]",
+   "ru": "заботиться, беспокоиться",
+   "pos": "verb"
+  },
+  {
+   "de": "überreden",
+   "lemma": "überreden",
+   "art": "",
+   "pl": "",
+   "forms": "überredete, hat überredet; zu + Dat",
+   "ipa": "[yːbɐˈʁeːdən]",
+   "ru": "уговаривать",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) verabschieden",
+   "lemma": "(sich) verabschieden",
+   "art": "",
+   "pl": "",
+   "forms": "verabschiedete sich, hat sich verabschiedet; von + Dat",
+   "ipa": "[fɛɐ̯ˈʔapʃiːdən]",
+   "ru": "прощаться",
+   "pos": "phrase"
+  },
+  {
+   "de": "verzichten",
+   "lemma": "verzichten",
+   "art": "",
+   "pl": "",
+   "forms": "verzichtete, hat verzichtet; auf + Akk",
+   "ipa": "[fɛɐ̯ˈtsɪçtən]",
+   "ru": "отказываться",
+   "pos": "verb"
+  },
+  {
+   "de": "warnen",
+   "lemma": "warnen",
+   "art": "",
+   "pl": "",
+   "forms": "warnte, hat gewarnt; vor + Dat",
+   "ipa": "[ˈvaʁnən]",
+   "ru": "предупреждать",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) wundern",
+   "lemma": "(sich) wundern",
+   "art": "",
+   "pl": "",
+   "forms": "wunderte sich, hat sich gewundert; über + Akk",
+   "ipa": "[ˈvʊndɐn]",
+   "ru": "удивляться",
+   "pos": "phrase"
+  },
+  {
+   "de": "zweifeln",
+   "lemma": "zweifeln",
+   "art": "",
+   "pl": "",
+   "forms": "zweifelte, hat gezweifelt; an + Dat",
+   "ipa": "[ˈtsvaɪ̯fəln]",
+   "ru": "сомневаться",
+   "pos": "verb"
+  },
+  {
+   "de": "abhängen",
+   "lemma": "abhängen",
+   "art": "",
+   "pl": "",
+   "forms": "hängt ab, hing ab, hat abgehangen; von + Dat",
+   "ipa": "[ˈapˌhɛŋən]",
+   "ru": "зависеть",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) amüsieren",
+   "lemma": "(sich) amüsieren",
+   "art": "",
+   "pl": "",
+   "forms": "amüsierte sich, hat sich amüsiert; über + Akk",
+   "ipa": "[amyˈziːʁən]",
+   "ru": "веселиться, посмеиваться",
+   "pos": "phrase"
+  },
+  {
+   "de": "kämpfen",
+   "lemma": "kämpfen",
+   "art": "",
+   "pl": "",
+   "forms": "kämpfte, hat gekämpft; für / gegen / um + Akk",
+   "ipa": "[ˈkɛmpfən]",
+   "ru": "бороться",
+   "pos": "verb"
+  },
+  {
+   "de": "(sich) verlassen",
+   "lemma": "(sich) verlassen",
+   "art": "",
+   "pl": "",
+   "forms": "verlässt sich, verließ sich, hat sich verlassen; auf + Akk",
+   "ipa": "[fɛɐ̯ˈlasən]",
+   "ru": "полагаться",
+   "pos": "phrase"
+  },
+  {
+   "de": "überzeugen",
+   "lemma": "überzeugen",
+   "art": "",
+   "pl": "",
+   "forms": "überzeugte, hat überzeugt; von + Dat",
+   "ipa": "[yːbɐˈtsɔʏ̯ɡən]",
+   "ru": "убеждать",
+   "pos": "verb"
+  },
+  {
+   "de": "zustimmen",
+   "lemma": "zustimmen",
+   "art": "",
+   "pl": "",
+   "forms": "stimmt zu, stimmte zu, hat zugestimmt; Dat",
+   "ipa": "[ˈtsuːˌʃtɪmən]",
+   "ru": "соглашаться",
+   "pos": "verb"
+  },
+  {
+   "de": "vertrauen",
+   "lemma": "vertrauen",
+   "art": "",
+   "pl": "",
+   "forms": "vertraute, hat vertraut; Dat",
+   "ipa": "[fɛɐ̯ˈtʁaʊ̯ən]",
+   "ru": "доверять",
+   "pos": "verb"
+  },
+  {
+   "de": "vermissen",
+   "lemma": "vermissen",
+   "art": "",
+   "pl": "",
+   "forms": "vermisste, hat vermisst; Akk",
+   "ipa": "[fɛɐ̯ˈmɪsən]",
+   "ru": "скучать по",
+   "pos": "verb"
+  },
+  {
+   "de": "stolz",
+   "lemma": "stolz",
+   "art": "",
+   "pl": "",
+   "forms": "auf + Akk",
+   "ipa": "[ʃtɔlts]",
+   "ru": "гордый",
+   "pos": "adj"
+  },
+  {
+   "de": "begeistert",
+   "lemma": "begeistert",
+   "art": "",
+   "pl": "",
+   "forms": "von + Dat; über + Akk",
+   "ipa": "[bəˈɡaɪ̯stɐt]",
+   "ru": "в восторге",
+   "pos": "adv"
+  },
+  {
+   "de": "gespannt",
+   "lemma": "gespannt",
+   "art": "",
+   "pl": "",
+   "forms": "auf + Akk",
+   "ipa": "[ɡəˈʃpant]",
+   "ru": "ждущий с интересом",
+   "pos": "adj"
+  },
+  {
+   "de": "neugierig",
+   "lemma": "neugierig",
+   "art": "",
+   "pl": "",
+   "forms": "auf + Akk",
+   "ipa": "[ˈnɔʏ̯ɡiːʁɪç]",
+   "ru": "любопытный",
+   "pos": "adj"
+  },
+  {
+   "de": "verantwortlich",
+   "lemma": "verantwortlich",
+   "art": "",
+   "pl": "",
+   "forms": "für + Akk",
+   "ipa": "[fɛɐ̯ˈʔantvɔʁtlɪç]",
+   "ru": "ответственный",
+   "pos": "adj"
+  },
+  {
+   "de": "verwandt",
+   "lemma": "verwandt",
+   "art": "",
+   "pl": "",
+   "forms": "mit + Dat",
+   "ipa": "[fɛɐ̯ˈvant]",
+   "ru": "состоящий в родстве",
+   "pos": "adj"
+  },
+  {
+   "de": "bereit",
+   "lemma": "bereit",
+   "art": "",
+   "pl": "",
+   "forms": "zu + Dat",
+   "ipa": "[bəˈʁaɪ̯t]",
+   "ru": "готовый",
+   "pos": "adj"
+  },
+  {
+   "de": "der Zweifel",
+   "lemma": "Zweifel",
+   "art": "der",
+   "pl": "die Zweifel; an + Dat",
+   "forms": "",
+   "ipa": "[ˈtsvaɪ̯fəl]",
+   "ru": "сомнение",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gefühl",
+   "lemma": "Gefühl",
+   "art": "das",
+   "pl": "die Gefühle",
+   "forms": "",
+   "ipa": "[ɡəˈfyːl]",
+   "ru": "чувство",
+   "pos": "noun"
+  },
+  {
+   "de": "die Stimmung",
+   "lemma": "Stimmung",
+   "art": "die",
+   "pl": "die Stimmungen",
+   "forms": "",
+   "ipa": "[ˈʃtɪmʊŋ]",
+   "ru": "настроение, атмосфера",
+   "pos": "noun"
+  },
+  {
+   "de": "die Beziehung",
+   "lemma": "Beziehung",
+   "art": "die",
+   "pl": "die Beziehungen; zu + Dat",
+   "forms": "",
+   "ipa": "[bəˈtsiːʊŋ]",
+   "ru": "отношения, связь",
+   "pos": "noun"
+  },
+  {
+   "de": "der Konflikt",
+   "lemma": "Konflikt",
+   "art": "der",
+   "pl": "die Konflikte",
+   "forms": "",
+   "ipa": "[kɔnˈflɪkt]",
+   "ru": "конфликт",
+   "pos": "noun"
+  },
+  {
+   "de": "der Kompromiss",
+   "lemma": "Kompromiss",
+   "art": "der",
+   "pl": "die Kompromisse",
+   "forms": "",
+   "ipa": "[kɔmpʁoˈmɪs]",
+   "ru": "компромисс",
+   "pos": "noun"
+  },
+  {
+   "de": "der Eindruck",
+   "lemma": "Eindruck",
+   "art": "der",
+   "pl": "die Eindrücke",
+   "forms": "",
+   "ipa": "[ˈaɪ̯ndʁʊk]",
+   "ru": "впечатление",
+   "pos": "noun"
+  },
+  {
+   "de": "der Vorwurf",
+   "lemma": "Vorwurf",
+   "art": "der",
+   "pl": "die Vorwürfe",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯vʊʁf]",
+   "ru": "упрёк",
+   "pos": "noun"
+  },
+  {
+   "de": "der Respekt",
+   "lemma": "Respekt",
+   "art": "der",
+   "pl": "обычно без множественного; vor + Dat",
+   "forms": "",
+   "ipa": "[ʁeˈspɛkt]",
+   "ru": "уважение",
+   "pos": "noun"
+  },
+  {
+   "de": "das Mitglied",
+   "lemma": "Mitglied",
+   "art": "das",
+   "pl": "die Mitglieder",
+   "forms": "",
+   "ipa": "[ˈmɪtɡliːt]",
+   "ru": "член организации",
+   "pos": "noun"
+  },
+  {
+   "de": "der Humor",
+   "lemma": "Humor",
+   "art": "der",
+   "pl": "",
+   "forms": "без множественного",
+   "ipa": "[huˈmoːɐ̯]",
+   "ru": "юмор",
+   "pos": "noun"
+  },
+  {
+   "de": "die Sorge",
+   "lemma": "Sorge",
+   "art": "die",
+   "pl": "die Sorgen; um + Akk",
+   "forms": "",
+   "ipa": "[ˈzɔʁɡə]",
+   "ru": "тревога, забота",
+   "pos": "noun"
+  },
+  {
+   "de": "die Hoffnung",
+   "lemma": "Hoffnung",
+   "art": "die",
+   "pl": "die Hoffnungen; auf + Akk",
+   "forms": "",
+   "ipa": "[ˈhɔfnʊŋ]",
+   "ru": "надежда",
+   "pos": "noun"
+  },
+  {
+   "de": "der Einfluss",
+   "lemma": "Einfluss",
+   "art": "der",
+   "pl": "die Einflüsse; auf + Akk",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nflʊs]",
+   "ru": "влияние",
+   "pos": "noun"
+  },
+  {
+   "de": "worüber",
+   "lemma": "worüber",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[voˈʁyːbɐ]",
+   "ru": "о чём",
+   "pos": "adv"
+  },
+  {
+   "de": "worum",
+   "lemma": "worum",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[voˈʁʊm]",
+   "ru": "о чём речь",
+   "pos": "adv"
+  },
+  {
+   "de": "klettern",
+   "lemma": "klettern",
+   "art": "",
+   "pl": "",
+   "forms": "kletterte, ist geklettert",
+   "ipa": "[ˈklɛtɐn]",
+   "ru": "лазить",
+   "pos": "verb"
+  },
+  {
+   "de": "das Orchester",
+   "lemma": "Orchester",
+   "art": "das",
+   "pl": "die Orchester",
+   "forms": "",
+   "ipa": "[ɔʁˈkɛstɐ]",
+   "ru": "оркестр",
+   "pos": "noun"
+  },
+  {
+   "de": "tauchen",
+   "lemma": "tauchen",
+   "art": "",
+   "pl": "",
+   "forms": "tauchte, ist / hat getaucht",
+   "ipa": "[ˈtaʊ̯xən]",
+   "ru": "нырять",
+   "pos": "verb"
+  },
+  {
+   "de": "wieder",
+   "lemma": "wieder",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈviːdɐ]",
+   "ru": "снова",
+   "pos": "adv"
+  },
+  {
+   "de": "der Hund",
+   "lemma": "Hund",
+   "art": "der",
+   "pl": "die Hunde",
+   "forms": "",
+   "ipa": "[hʊnt]",
+   "ru": "собака",
+   "pos": "noun"
+  },
+  {
+   "de": "der Artist",
+   "lemma": "Artist",
+   "art": "der",
+   "pl": "die Artisten",
+   "forms": "",
+   "ipa": "[aʁˈtɪst]",
+   "ru": "артист цирка",
+   "pos": "noun"
+  },
+  {
+   "de": "beantworten",
+   "lemma": "beantworten",
+   "art": "",
+   "pl": "",
+   "forms": "beantwortet, beantwortete, hat beantwortet",
+   "ipa": "[bəˈʔantvɔʁtən]",
+   "ru": "отвечать на (вопрос, письмо)",
+   "pos": "verb"
+  },
+  {
+   "de": "beruhen",
+   "lemma": "beruhen",
+   "art": "",
+   "pl": "",
+   "forms": "beruhte, hat beruht; auf + Dat",
+   "ipa": "[bəˈʁuːən]",
+   "ru": "основываться на",
+   "pos": "verb"
+  },
+  {
+   "de": "der Interviewer",
+   "lemma": "Interviewer",
+   "art": "der",
+   "pl": "die Interviewer",
+   "forms": "",
+   "ipa": "[ɪntɐˈvjuːɐ]",
+   "ru": "интервьюер",
+   "pos": "noun"
+  },
+  {
+   "de": "der Künstler",
+   "lemma": "Künstler",
+   "art": "der",
+   "pl": "die Künstler",
+   "forms": "",
+   "ipa": "[ˈkʏnstlɐ]",
+   "ru": "художник, деятель искусства",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schauspieler",
+   "lemma": "Schauspieler",
+   "art": "der",
+   "pl": "die Schauspieler",
+   "forms": "",
+   "ipa": "[ˈʃaʊ̯ˌʃpiːlɐ]",
+   "ru": "актёр",
+   "pos": "noun"
+  },
+  {
+   "de": "die Staffelei",
+   "lemma": "Staffelei",
+   "art": "die",
+   "pl": "die Staffeleien",
+   "forms": "",
+   "ipa": "[ʃtafəˈlaɪ̯]",
+   "ru": "мольберт",
+   "pos": "noun"
+  },
+  {
+   "de": "die Probe",
+   "lemma": "Probe",
+   "art": "die",
+   "pl": "die Proben",
+   "forms": "",
+   "ipa": "[ˈpʁoːbə]",
+   "ru": "репетиция; проба",
+   "pos": "noun"
+  },
+  {
+   "de": "das Programm",
+   "lemma": "Programm",
+   "art": "das",
+   "pl": "die Programme",
+   "forms": "",
+   "ipa": "[pʁoˈɡʁam]",
+   "ru": "программа",
+   "pos": "noun"
+  },
+  {
+   "de": "die Prüfung",
+   "lemma": "Prüfung",
+   "art": "die",
+   "pl": "die Prüfungen",
+   "forms": "",
+   "ipa": "[ˈpʁyːfʊŋ]",
+   "ru": "экзамен",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schlager",
+   "lemma": "Schlager",
+   "art": "der",
+   "pl": "die Schlager",
+   "forms": "",
+   "ipa": "[ˈʃlaːɡɐ]",
+   "ru": "шлягер",
+   "pos": "noun"
+  },
+  {
+   "de": "teilnehmen",
+   "lemma": "teilnehmen",
+   "art": "",
+   "pl": "",
+   "forms": "nimmt teil, nahm teil, hat teilgenommen; an + Dat",
+   "ipa": "[ˈtaɪ̯lˌneːmən]",
+   "ru": "участвовать",
+   "pos": "verb"
+  }
+ ]
+}

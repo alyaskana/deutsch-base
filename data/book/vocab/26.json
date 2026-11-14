@@ -1,0 +1,485 @@
+{
+ "l": 26,
+ "words": [
+  {
+   "de": "die Annonce",
+   "lemma": "Annonce",
+   "art": "die",
+   "pl": "die Annoncen",
+   "forms": "",
+   "ipa": "[aˈnɔ̃ːsə]",
+   "ru": "объявление",
+   "pos": "noun"
+  },
+  {
+   "de": "das Inserat",
+   "lemma": "Inserat",
+   "art": "das",
+   "pl": "die Inserate",
+   "forms": "",
+   "ipa": "[ɪnzeˈʁaːt]",
+   "ru": "объявление",
+   "pos": "noun"
+  },
+  {
+   "de": "die Anzeige",
+   "lemma": "Anzeige",
+   "art": "die",
+   "pl": "die Anzeigen",
+   "forms": "",
+   "ipa": "[ˈanˌtsaɪ̯ɡə]",
+   "ru": "объявление",
+   "pos": "noun"
+  },
+  {
+   "de": "die Etage",
+   "lemma": "Etage",
+   "art": "die",
+   "pl": "die Etagen",
+   "forms": "",
+   "ipa": "[eˈtaːʒə]",
+   "ru": "этаж",
+   "pos": "noun"
+  },
+  {
+   "de": "das Treppenhaus",
+   "lemma": "Treppenhaus",
+   "art": "das",
+   "pl": "die Treppenhäuser",
+   "forms": "",
+   "ipa": "[ˈtʁɛpənˌhaʊ̯s]",
+   "ru": "лестничная клетка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Dach",
+   "lemma": "Dach",
+   "art": "das",
+   "pl": "die Dächer",
+   "forms": "",
+   "ipa": "[dax]",
+   "ru": "крыша",
+   "pos": "noun"
+  },
+  {
+   "de": "das Grundstück",
+   "lemma": "Grundstück",
+   "art": "das",
+   "pl": "die Grundstücke",
+   "forms": "",
+   "ipa": "[ˈɡʁʊntˌʃtʏk]",
+   "ru": "земельный участок",
+   "pos": "noun"
+  },
+  {
+   "de": "der Hof",
+   "lemma": "Hof",
+   "art": "der",
+   "pl": "die Höfe",
+   "forms": "",
+   "ipa": "[hoːf]",
+   "ru": "двор",
+   "pos": "noun"
+  },
+  {
+   "de": "die Terrasse",
+   "lemma": "Terrasse",
+   "art": "die",
+   "pl": "die Terrassen",
+   "forms": "",
+   "ipa": "[tɛˈʁasə]",
+   "ru": "терраса",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gebäude",
+   "lemma": "Gebäude",
+   "art": "das",
+   "pl": "die Gebäude",
+   "forms": "",
+   "ipa": "[ɡəˈbɔʏ̯də]",
+   "ru": "здание",
+   "pos": "noun"
+  },
+  {
+   "de": "der Vorort",
+   "lemma": "Vorort",
+   "art": "der",
+   "pl": "die Vororte",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯ˌʔɔʁt]",
+   "ru": "пригород",
+   "pos": "noun"
+  },
+  {
+   "de": "die Umgebung",
+   "lemma": "Umgebung",
+   "art": "die",
+   "pl": "die Umgebungen",
+   "forms": "",
+   "ipa": "[ʊmˈɡeːbʊŋ]",
+   "ru": "окрестности",
+   "pos": "noun"
+  },
+  {
+   "de": "die Gegend",
+   "lemma": "Gegend",
+   "art": "die",
+   "pl": "die Gegenden",
+   "forms": "",
+   "ipa": "[ˈɡeːɡənt]",
+   "ru": "местность, район",
+   "pos": "noun"
+  },
+  {
+   "de": "heizen",
+   "lemma": "heizen",
+   "art": "",
+   "pl": "",
+   "forms": "heizte, hat geheizt",
+   "ipa": "[ˈhaɪ̯tsən]",
+   "ru": "отапливать",
+   "pos": "verb"
+  },
+  {
+   "de": "einrichten",
+   "lemma": "einrichten",
+   "art": "",
+   "pl": "",
+   "forms": "richtet ein, richtete ein, hat eingerichtet",
+   "ipa": "[ˈaɪ̯nˌʁɪçtən]",
+   "ru": "обставлять",
+   "pos": "verb"
+  },
+  {
+   "de": "der Bewohner",
+   "lemma": "Bewohner",
+   "art": "der",
+   "pl": "die Bewohner",
+   "forms": "",
+   "ipa": "[bəˈvoːnɐ]",
+   "ru": "жилец, житель",
+   "pos": "noun"
+  },
+  {
+   "de": "die Bewohnerin",
+   "lemma": "Bewohnerin",
+   "art": "die",
+   "pl": "die Bewohnerinnen",
+   "forms": "",
+   "ipa": "[bəˈvoːnəʁɪn]",
+   "ru": "жительница",
+   "pos": "noun"
+  },
+  {
+   "de": "der Zustand",
+   "lemma": "Zustand",
+   "art": "der",
+   "pl": "die Zustände",
+   "forms": "",
+   "ipa": "[ˈtsuːʃtant]",
+   "ru": "состояние",
+   "pos": "noun"
+  },
+  {
+   "de": "gemütlich",
+   "lemma": "gemütlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɡəˈmyːtlɪç]",
+   "ru": "уютный",
+   "pos": "adj"
+  },
+  {
+   "de": "zentral",
+   "lemma": "zentral",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[tsɛnˈtʁaːl]",
+   "ru": "в центре, центральный",
+   "pos": "adv"
+  },
+  {
+   "de": "der Lärm",
+   "lemma": "Lärm",
+   "art": "der",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[lɛʁm]",
+   "ru": "шум",
+   "pos": "noun"
+  },
+  {
+   "de": "der Lift",
+   "lemma": "Lift",
+   "art": "der",
+   "pl": "die Lifte, die Lifts",
+   "forms": "",
+   "ipa": "[lɪft]",
+   "ru": "лифт",
+   "pos": "noun"
+  },
+  {
+   "de": "die Kaution",
+   "lemma": "Kaution",
+   "art": "die",
+   "pl": "die Kautionen",
+   "forms": "",
+   "ipa": "[kaʊ̯ˈtsi̯oːn]",
+   "ru": "залог",
+   "pos": "noun"
+  },
+  {
+   "de": "die Nebenkosten",
+   "lemma": "Nebenkosten",
+   "art": "die",
+   "pl": "",
+   "forms": "только множественное число",
+   "ipa": "[ˈneːbənˌkɔstən]",
+   "ru": "коммунальные платежи",
+   "pos": "noun"
+  },
+  {
+   "de": "die Aushilfe",
+   "lemma": "Aushilfe",
+   "art": "die",
+   "pl": "die Aushilfen",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sˌhɪlfə]",
+   "ru": "подработка, временный работник",
+   "pos": "noun"
+  },
+  {
+   "de": "die Fähigkeit",
+   "lemma": "Fähigkeit",
+   "art": "die",
+   "pl": "die Fähigkeiten",
+   "forms": "",
+   "ipa": "[ˈfɛːɪçkaɪ̯t]",
+   "ru": "умение",
+   "pos": "noun"
+  },
+  {
+   "de": "flexibel",
+   "lemma": "flexibel",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[flɛˈksiːbəl]",
+   "ru": "гибкий",
+   "pos": "adj"
+  },
+  {
+   "de": "zuverlässig",
+   "lemma": "zuverlässig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈtsuːfɛɐ̯ˌlɛsɪç]",
+   "ru": "надёжный",
+   "pos": "adj"
+  },
+  {
+   "de": "das Personal",
+   "lemma": "Personal",
+   "art": "das",
+   "pl": "",
+   "forms": "обычно без множественного",
+   "ipa": "[pɛʁzoˈnaːl]",
+   "ru": "персонал",
+   "pos": "noun"
+  },
+  {
+   "de": "das Vorstellungsgespräch",
+   "lemma": "Vorstellungsgespräch",
+   "art": "das",
+   "pl": "die Vorstellungsgespräche",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯ʃtɛlʊŋsɡəˌʃpʁɛːç]",
+   "ru": "собеседование",
+   "pos": "noun"
+  },
+  {
+   "de": "der Lebenslauf",
+   "lemma": "Lebenslauf",
+   "art": "der",
+   "pl": "die Lebensläufe",
+   "forms": "",
+   "ipa": "[ˈleːbənsˌlaʊ̯f]",
+   "ru": "резюме",
+   "pos": "noun"
+  },
+  {
+   "de": "die Bedingung",
+   "lemma": "Bedingung",
+   "art": "die",
+   "pl": "die Bedingungen",
+   "forms": "",
+   "ipa": "[bəˈdɪŋʊŋ]",
+   "ru": "условие",
+   "pos": "noun"
+  },
+  {
+   "de": "der Bereich",
+   "lemma": "Bereich",
+   "art": "der",
+   "pl": "die Bereiche",
+   "forms": "",
+   "ipa": "[bəˈʁaɪ̯ç]",
+   "ru": "сфера, область",
+   "pos": "noun"
+  },
+  {
+   "de": "betreuen",
+   "lemma": "betreuen",
+   "art": "",
+   "pl": "",
+   "forms": "betreute, hat betreut",
+   "ipa": "[bəˈtʁɔʏ̯ən]",
+   "ru": "опекать, вести",
+   "pos": "verb"
+  },
+  {
+   "de": "leiten",
+   "lemma": "leiten",
+   "art": "",
+   "pl": "",
+   "forms": "leitete, hat geleitet",
+   "ipa": "[ˈlaɪ̯tən]",
+   "ru": "руководить",
+   "pos": "verb"
+  },
+  {
+   "de": "einstellen",
+   "lemma": "einstellen",
+   "art": "",
+   "pl": "",
+   "forms": "stellt ein, stellte ein, hat eingestellt",
+   "ipa": "[ˈaɪ̯nˌʃtɛlən]",
+   "ru": "нанимать, настраивать",
+   "pos": "verb"
+  },
+  {
+   "de": "der Wert",
+   "lemma": "Wert",
+   "art": "der",
+   "pl": "die Werte",
+   "forms": "",
+   "ipa": "[veːɐ̯t]",
+   "ru": "ценность",
+   "pos": "noun"
+  },
+  {
+   "de": "bieten",
+   "lemma": "bieten",
+   "art": "",
+   "pl": "",
+   "forms": "bietet, bot, hat geboten",
+   "ipa": "[ˈbiːtən]",
+   "ru": "предлагать",
+   "pos": "verb"
+  },
+  {
+   "de": "übernehmen",
+   "lemma": "übernehmen",
+   "art": "",
+   "pl": "",
+   "forms": "übernimmt, übernahm, hat übernommen",
+   "ipa": "[yːbɐˈneːmən]",
+   "ru": "брать на себя",
+   "pos": "verb"
+  },
+  {
+   "de": "der Altbau",
+   "lemma": "Altbau",
+   "art": "der",
+   "pl": "die Altbauten",
+   "forms": "",
+   "ipa": "[ˈaltˌbaʊ̯]",
+   "ru": "дом старой постройки",
+   "pos": "noun"
+  },
+  {
+   "de": "einzig",
+   "lemma": "einzig",
+   "art": "",
+   "pl": "",
+   "forms": "das Einzige = единственное",
+   "ipa": "[ˈaɪ̯ntsɪç]",
+   "ru": "единственный",
+   "pos": "adj"
+  },
+  {
+   "de": "die Betriebskosten",
+   "lemma": "Betriebskosten",
+   "art": "die",
+   "pl": "",
+   "forms": "только множественное число",
+   "ipa": "[bəˈtʁiːpsˌkɔstən]",
+   "ru": "расходы на содержание дома",
+   "pos": "noun"
+  },
+  {
+   "de": "die Einbauküche",
+   "lemma": "Einbauküche",
+   "art": "die",
+   "pl": "die Einbauküchen",
+   "forms": "",
+   "ipa": "[ˈaɪ̯nbaʊ̯ˌkʏçə]",
+   "ru": "встроенная кухня",
+   "pos": "noun"
+  },
+  {
+   "de": "der Erker",
+   "lemma": "Erker",
+   "art": "der",
+   "pl": "die Erker",
+   "forms": "",
+   "ipa": "[ˈɛʁkɐ]",
+   "ru": "эркер",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gerät",
+   "lemma": "Gerät",
+   "art": "das",
+   "pl": "die Geräte",
+   "forms": "",
+   "ipa": "[ɡəˈʁɛːt]",
+   "ru": "прибор, устройство",
+   "pos": "noun"
+  },
+  {
+   "de": "die Provision",
+   "lemma": "Provision",
+   "art": "die",
+   "pl": "die Provisionen",
+   "forms": "",
+   "ipa": "[pʁoviˈzi̯oːn]",
+   "ru": "комиссионные",
+   "pos": "noun"
+  },
+  {
+   "de": "die Vorschau",
+   "lemma": "Vorschau",
+   "art": "die",
+   "pl": "die Vorschauen",
+   "forms": "",
+   "ipa": "[ˈfoːɐ̯ˌʃaʊ̯]",
+   "ru": "анонс, предварительный обзор",
+   "pos": "noun"
+  },
+  {
+   "de": "die Übung",
+   "lemma": "Übung",
+   "art": "die",
+   "pl": "die Übungen",
+   "forms": "",
+   "ipa": "[ˈyːbʊŋ]",
+   "ru": "упражнение; практическое занятие",
+   "pos": "noun"
+  }
+ ]
+}

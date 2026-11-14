@@ -1,0 +1,85 @@
+{
+"13.1": [
+ {"type":"choice","title":"Читала или прочитала","sub":"Perfekt не различает; результат называем словами","items":[
+  {"s":"Ich habe den Krimi endlich ___ gelesen.","ru":"Я наконец дочитала детектив.","o":["zu Ende","lange"],"a":"zu Ende","n":"Результат — словами: <b>zu Ende</b>."},
+  {"s":"Ich habe den ganzen Abend den Krimi ___.","ru":"Я весь вечер читала детектив.","o":["gelesen","lesen"],"a":"gelesen","n":"Один Perfekt для «читала» и «прочитала»."},
+  {"s":"Hast du das Buch ___ gelesen?","ru":"Ты уже прочитала книгу?","o":["schon","zu"],"a":"schon","n":"<b>schon</b> — уже."},
+  {"s":"Wir ___ gestern lange gearbeitet.","ru":"Мы вчера долго работали.","o":["haben","sind"],"a":"haben","n":"arbeiten → <b>haben</b>."},
+  {"s":"Paul hat den Brief ___.","ru":"Пауль написал письмо.","o":["geschrieben","schreiben"],"a":"geschrieben","n":"Partizip II: <b>geschrieben</b>."}
+ ]}
+],
+"13.2": [
+ {"type":"build","title":"Рамка Perfekt","sub":"Помощник вторым, причастие в конце","items":[
+  {"ru":"Йонас съездил в Майнц.","w":["Jonas","ist","nach","Mainz","gefahren."],"ok":["Jonas ist nach Mainz gefahren."],"n":"<b>ist … gefahren</b>."},
+  {"ru":"В воскресенье Йонас долго спал.","w":["Am","Sonntag","hat","Jonas","lange","geschlafen."],"ok":["Am Sonntag hat Jonas lange geschlafen."],"n":"hat на втором месте, geschlafen в конце."},
+  {"ru":"Мы долго спали.","w":["Wir","haben","lange","geschlafen."],"ok":["Wir haben lange geschlafen."],"n":"<b>haben … geschlafen</b>."},
+  {"ru":"Я работала.","w":["Ich","habe","gearbeitet."],"ok":["Ich habe gearbeitet."],"n":"Без habe нет личной формы."},
+  {"ru":"Вчера Алина купила хлеб.","w":["Gestern","hat","Alina","Brot","gekauft."],"ok":["Gestern hat Alina Brot gekauft."],"n":"Время в начале, hat второй."}
+ ]}
+],
+"13.3": [
+ {"type":"type","title":"Правильные причастия","sub":"ge- … -t, после t/d/чн — -et","items":[
+  {"s":"Alina hat den Rucksack ___.","ru":"Алина собрала рюкзак.","a":["gepackt"],"hint":"packen","n":"<b>gepackt</b>."},
+  {"s":"Paul hat Brot ___.","ru":"Пауль купил хлеб.","a":["gekauft"],"hint":"kaufen","n":"<b>gekauft</b>."},
+  {"s":"Wir haben viel ___.","ru":"Мы много работали.","a":["gearbeitet"],"hint":"arbeiten","n":"После t нужна e: <b>gearbeitet</b>."},
+  {"s":"Es hat ___.","ru":"Шёл дождь.","a":["geregnet"],"hint":"regnen","n":"<b>geregnet</b>."},
+  {"s":"Jonas hat das Fenster ___.","ru":"Йонас открыл окно.","a":["geöffnet"],"hint":"öffnen","n":"<b>geöffnet</b>."},
+  {"s":"Ich habe Deutsch ___.","ru":"Я учила немецкий.","a":["gelernt"],"hint":"lernen","n":"<b>gelernt</b>."},
+  {"s":"Wir haben in Köln ___.","ru":"Мы жили в Кёльне.","a":["gewohnt"],"hint":"wohnen","n":"<b>gewohnt</b>."}
+ ]}
+],
+"13.4": [
+ {"type":"type","title":"Сильные и смешанные","sub":"Формы запоминаем","items":[
+  {"s":"Ich habe Kaffee ___.","ru":"Я выпила кофе.","a":["getrunken"],"hint":"trinken","n":"<b>getrunken</b>."},
+  {"s":"Wir sind nach Wien ___.","ru":"Мы полетели в Вену.","a":["geflogen"],"hint":"fliegen","n":"<b>ist geflogen</b>."},
+  {"s":"Er hat mir ___.","ru":"Он мне помог.","a":["geholfen"],"hint":"helfen","n":"<b>geholfen</b>."},
+  {"s":"Sie ist zu Hause ___.","ru":"Она осталась дома.","a":["geblieben"],"hint":"bleiben","n":"bleiben → <b>ist geblieben</b>."},
+  {"s":"Jonas hat mir Wasser ___.","ru":"Йонас принёс мне воды.","a":["gebracht"],"hint":"bringen","n":"Смешанный: <b>gebracht</b>."},
+  {"s":"Ich habe das nicht ___.","ru":"Я этого не знала.","a":["gewusst"],"hint":"wissen","n":"<b>gewusst</b>."},
+  {"s":"Wir haben uns im Café ___.","ru":"Мы встретились в кафе.","a":["getroffen"],"hint":"treffen","n":"<b>getroffen</b>."},
+  {"s":"Ich bin nach Hause ___.","ru":"Я пошла домой.","a":["gegangen"],"hint":"gehen","n":"<b>ist gegangen</b>."}
+ ]}
+],
+"13.5": [
+ {"type":"type","title":"Куда попадает ge-","sub":"Внутрь отделяемых, нет у be-, ver-, -ieren","items":[
+  {"s":"Paul ist früh ___.","ru":"Пауль рано встал.","a":["aufgestanden"],"hint":"aufstehen","n":"ge- внутри: <b>aufgestanden</b>."},
+  {"s":"Er hat Obst ___.","ru":"Он купил фрукты.","a":["eingekauft"],"hint":"einkaufen","n":"<b>eingekauft</b>."},
+  {"s":"Alina hat die Stadt ___.","ru":"Алина осмотрела город.","a":["besichtigt"],"hint":"besichtigen","n":"be- — без ge-: <b>besichtigt</b>."},
+  {"s":"Jonas hat seine Karte ___.","ru":"Йонас потерял свою карту.","a":["verloren"],"hint":"verlieren","n":"<b>verloren</b>."},
+  {"s":"Ich habe den Fluss ___.","ru":"Я фотографировала реку.","a":["fotografiert"],"hint":"fotografieren","n":"-ieren без ge-: <b>fotografiert</b>."},
+  {"s":"Er hat mir alles ___.","ru":"Он мне всё объяснил.","a":["erklärt"],"hint":"erklären","n":"er- без ge-: <b>erklärt</b>."},
+  {"s":"Wir haben den Kuchen ___.","ru":"Мы принесли пирог.","a":["mitgebracht"],"hint":"mitbringen","n":"<b>mitgebracht</b>."}
+ ]}
+],
+"13.6": [
+ {"type":"choice","title":"Haben или sein","sub":"Движение и изменение состояния — sein","items":[
+  {"s":"Wir ___ nach Düsseldorf gefahren.","ru":"Мы ездили в Дюссельдорф.","o":["sind","haben"],"a":"sind","n":"Сами переместились → <b>sein</b>."},
+  {"s":"Ein Freund ___ uns nach Düsseldorf gefahren.","ru":"Друг отвёз нас в Дюссельдорф.","o":["hat","ist"],"a":"hat","n":"Отвёз кого-то → <b>haben</b>."},
+  {"s":"Die Tasche ___ gefallen.","ru":"Сумка упала.","o":["ist","hat"],"a":"ist","n":"fallen → <b>ist gefallen</b>."},
+  {"s":"Die Tasche ___ mir gefallen.","ru":"Сумка мне понравилась.","o":["hat","ist"],"a":"hat","n":"gefallen → <b>hat gefallen</b>."},
+  {"s":"Paul ___ zum Bahnhof gejoggt.","ru":"Пауль добежал трусцой до вокзала.","o":["ist","hat"],"a":"ist","n":"Движение к цели → <b>ist</b>."},
+  {"s":"Wir ___ geheiratet.","ru":"Мы поженились.","o":["haben","sind"],"a":"haben","n":"heiraten → <b>haben</b>."},
+  {"s":"Ich ___ lange geschlafen.","ru":"Я долго спала.","o":["habe","bin"],"a":"habe","n":"schlafen → <b>haben</b>."}
+ ]}
+],
+"13.7": [
+ {"type":"type","title":"War, hatte, musste, konnte","sub":"Короткие формы прошлого","items":[
+  {"s":"Ihr ___ müde.","ru":"Вы были уставшими.","a":["wart"],"hint":"sein","n":"ihr → <b>wart</b>."},
+  {"s":"Wir ___ Hunger.","ru":"Мы были голодны.","a":["hatten"],"hint":"haben","n":"<b>hatten</b>."},
+  {"s":"Es ___ ein Problem.","ru":"Возникла проблема.","a":["gab"],"hint":"es gibt","n":"<b>es gab</b>."},
+  {"s":"Ich ___ am Samstag arbeiten.","ru":"В субботу мне пришлось работать.","a":["musste"],"hint":"müssen","n":"<b>musste</b>, без умлаута."},
+  {"s":"Alina ___ die Geldbörse abholen.","ru":"Алина смогла забрать кошелёк.","a":["konnte"],"hint":"können","n":"<b>konnte</b>."},
+  {"s":"Du ___ gestern nicht da.","ru":"Тебя вчера не было.","a":["warst"],"hint":"sein","n":"du → <b>warst</b>."},
+  {"s":"Ich ___ warten.","ru":"Мне пришлось ждать.","a":["musste"],"hint":"müssen","n":"Подлежащее ich, не mir."}
+ ]}
+],
+"13.8": [
+ {"type":"build","title":"Вопрос и отрицание","sub":"Начало меняется, причастие в конце","items":[
+  {"ru":"Вчера Алина фотографировала.","w":["Gestern","hat","Alina","fotografiert."],"ok":["Gestern hat Alina fotografiert."],"n":"hat второй."},
+  {"ru":"Алина вчера фотографировала?","w":["Hat","Alina","gestern","fotografiert?"],"ok":["Hat Alina gestern fotografiert?"],"n":"Вопрос без вопросительного слова: hat первым."},
+  {"ru":"Что Алина вчера делала?","w":["Was","hat","Alina","gestern","gemacht?"],"ok":["Was hat Alina gestern gemacht?"],"n":"После was помощник вторым."},
+  {"ru":"Я не оплатил счёт.","w":["Ich","habe","die","Rechnung","nicht","bezahlt."],"ok":["Ich habe die Rechnung nicht bezahlt."],"n":"nicht перед причастием."},
+  {"ru":"Пауль не пошёл с нами.","w":["Paul","ist","nicht","mitgekommen."],"ok":["Paul ist nicht mitgekommen."],"n":"<b>nicht mitgekommen</b>."}
+ ]}
+]
+}

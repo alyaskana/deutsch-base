@@ -1,0 +1,230 @@
+{
+ "id": "book-11-4",
+ "bg": null,
+ "lines": [
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Gespräch eins.",
+   "ru": "Разговор первый."
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Guten Tag! Kann ich Ihnen helfen?",
+   "ru": "Добрый день! Чем могу помочь?"
+  },
+  {
+   "who": "Kundin",
+   "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+   "de": "Ja, ich suche ein Geschenk für die Lehrerin. Sie hat am Freitag Geburtstag.",
+   "ru": "Да, я ищу подарок для учительницы. У неё в пятницу день рождения."
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Gefallen ihr Rosen?",
+   "ru": "Ей нравятся розы?"
+  },
+  {
+   "who": "Kundin",
+   "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+   "de": "Nein, Rosen gefallen ihr nicht. Aber Pflanzen gefallen ihr sehr.",
+   "ru": "Нет, розы ей не нравятся. Но растения ей очень нравятся."
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Die Pflanze hier kostet acht Euro.",
+   "ru": "Вот это растение стоит восемь евро."
+  },
+  {
+   "who": "Kundin",
+   "voice": "Ah5UjbC5d1A2iCl9Lbe7",
+   "de": "Gut, die nehme ich.",
+   "ru": "Хорошо, его я возьму."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Gespräch zwei.",
+   "ru": "Разговор второй."
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Und was suchen Sie?",
+   "ru": "А что ищете вы?"
+  },
+  {
+   "who": "Kunde",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Ein Geschenk für die Chefin. Sie hat am Mittwoch Geburtstag.",
+   "ru": "Подарок для начальницы. У неё в среду день рождения."
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Hier ist ein Ring. Er ist sehr schön.",
+   "ru": "Вот кольцо. Оно очень красивое."
+  },
+  {
+   "who": "Kunde",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Ja, aber er ist zu klein. Der Ring passt ihr nicht.",
+   "ru": "Да, но оно слишком маленькое. Кольцо ей не подходит."
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Und die Kette?",
+   "ru": "А цепочка?"
+  },
+  {
+   "who": "Kunde",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Die Kette ist schön. Was kostet sie?",
+   "ru": "Цепочка красивая. Сколько она стоит?"
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Zwölf Euro.",
+   "ru": "Двенадцать евро."
+  },
+  {
+   "who": "Kunde",
+   "voice": "bVOjN7kZvgHpaTG6B3zK",
+   "de": "Gut, die nehme ich.",
+   "ru": "Хорошо, её я возьму."
+  },
+  {
+   "who": "Sprecher",
+   "voice": "X3GmkxFRIWulRy3Eaur7",
+   "de": "Gespräch drei.",
+   "ru": "Разговор третий."
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Kann ich Ihnen helfen?",
+   "ru": "Чем могу помочь?"
+  },
+  {
+   "who": "Kundin",
+   "voice": "rf6om1hG105SScFBBLVW",
+   "de": "Ich suche ein Geschenk für das Kind. Es hat am Samstag Geburtstag.",
+   "ru": "Я ищу подарок для ребёнка. У него в субботу день рождения."
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Wie alt ist es?",
+   "ru": "Сколько ему лет?"
+  },
+  {
+   "who": "Kundin",
+   "voice": "rf6om1hG105SScFBBLVW",
+   "de": "Sieben. Es fährt sehr gern Rad.",
+   "ru": "Семь. Он очень любит кататься на велосипеде."
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Hier ist ein Fahrrad für Kinder.",
+   "ru": "Вот детский велосипед."
+  },
+  {
+   "who": "Kundin",
+   "voice": "rf6om1hG105SScFBBLVW",
+   "de": "Oh ja, das Fahrrad gefällt ihm! Was kostet es?",
+   "ru": "О да, велосипед ему понравится! Сколько он стоит?"
+  },
+  {
+   "who": "Verkäuferin",
+   "voice": "CoFoB7a7PXA8RBsMHbua",
+   "de": "Neunzig Euro.",
+   "ru": "Девяносто евро."
+  },
+  {
+   "who": "Kundin",
+   "voice": "rf6om1hG105SScFBBLVW",
+   "de": "Gut, ich nehme es.",
+   "ru": "Хорошо, беру."
+  }
+ ],
+ "ex": {
+  "title": "Упражнение 11.4",
+  "scene": "Im Geschäft",
+  "cap": "Три подарка",
+  "sub": "Три разговора в магазине. Вопросы 1–2 к первому, 3–4 ко второму, 5–6 к третьему.",
+  "speakers": {
+   "Verkäuferin": "Берлин",
+   "Kundin": "Бавария / Швейцария",
+   "Kunde": "Австрия",
+   "Sprecher": "Германия"
+  },
+  "qs": [
+   [
+    "Разговор 1: Sie sucht ein Geschenk für ___.",
+    [
+     "die Lehrerin",
+     "der Lehrerin",
+     "den Lehrer"
+    ],
+    "ein Geschenk <b>für die Lehrerin</b>",
+    "После für нужен Akkusativ: <b>die Lehrerin</b>. Без für был бы Dativ: der Lehrerin."
+   ],
+   [
+    "Разговор 1: ___ gefallen ihr.",
+    [
+     "Pflanzen",
+     "Rosen",
+     "Ketten"
+    ],
+    "<b>Pflanzen</b> gefallen ihr sehr",
+    "Розы ей не нравятся, растения нравятся. Несколько растений → <b>gefallen</b>."
+   ],
+   [
+    "Разговор 2: Er sucht ein Geschenk für ___.",
+    [
+     "die Chefin",
+     "der Chefin",
+     "den Chef"
+    ],
+    "Ein Geschenk <b>für die Chefin</b>",
+    "für + Akkusativ: <b>die Chefin</b>."
+   ],
+   [
+    "Разговор 2: Was passt ihr nicht?",
+    [
+     "der Ring",
+     "die Kette",
+     "die Pflanze"
+    ],
+    "<b>Der Ring passt ihr nicht</b>",
+    "Кольцо слишком маленькое; цепочку он покупает."
+   ],
+   [
+    "Разговор 3: Das Geschenk ist für ___.",
+    [
+     "das Kind",
+     "dem Kind",
+     "den Kind"
+    ],
+    "ein Geschenk <b>für das Kind</b>",
+    "Средний род после für: <b>das Kind</b>. В Dativ было бы dem Kind."
+   ],
+   [
+    "Разговор 3: Das Fahrrad gefällt ___.",
+    [
+     "ihm",
+     "ihr",
+     "ihnen"
+    ],
+    "das Fahrrad gefällt <b>ihm</b>",
+    "das Kind среднего рода, в Dativ <b>ihm</b>."
+   ]
+  ]
+ }
+}

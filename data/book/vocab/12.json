@@ -1,0 +1,595 @@
+{
+ "l": 12,
+ "words": [
+  {
+   "de": "der Onkel",
+   "lemma": "Onkel",
+   "art": "der",
+   "pl": "die Onkel",
+   "forms": "",
+   "ipa": "[ˈɔŋkəl]",
+   "ru": "дядя",
+   "pos": "noun"
+  },
+  {
+   "de": "die Tante",
+   "lemma": "Tante",
+   "art": "die",
+   "pl": "die Tanten",
+   "forms": "",
+   "ipa": "[ˈtantə]",
+   "ru": "тётя",
+   "pos": "noun"
+  },
+  {
+   "de": "der Cousin",
+   "lemma": "Cousin",
+   "art": "der",
+   "pl": "die Cousins",
+   "forms": "",
+   "ipa": "[kuˈzɛ̃ː]",
+   "ru": "двоюродный брат",
+   "pos": "noun"
+  },
+  {
+   "de": "die Cousine",
+   "lemma": "Cousine",
+   "art": "die",
+   "pl": "die Cousinen",
+   "forms": "",
+   "ipa": "[kuˈziːnə]",
+   "ru": "двоюродная сестра",
+   "pos": "noun"
+  },
+  {
+   "de": "der Enkel",
+   "lemma": "Enkel",
+   "art": "der",
+   "pl": "die Enkel",
+   "forms": "",
+   "ipa": "[ˈɛŋkəl]",
+   "ru": "внук",
+   "pos": "noun"
+  },
+  {
+   "de": "die Enkelin",
+   "lemma": "Enkelin",
+   "art": "die",
+   "pl": "die Enkelinnen",
+   "forms": "",
+   "ipa": "[ˈɛŋkəlɪn]",
+   "ru": "внучка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Ehepartner",
+   "lemma": "Ehepartner",
+   "art": "der",
+   "pl": "die Ehepartner",
+   "forms": "",
+   "ipa": "[ˈeːəˌpaʁtnɐ]",
+   "ru": "супруг",
+   "pos": "noun"
+  },
+  {
+   "de": "das Paar",
+   "lemma": "Paar",
+   "art": "das",
+   "pl": "die Paare",
+   "forms": "",
+   "ipa": "[paːɐ̯]",
+   "ru": "пара",
+   "pos": "noun"
+  },
+  {
+   "de": "der Rentner",
+   "lemma": "Rentner",
+   "art": "der",
+   "pl": "die Rentner",
+   "forms": "",
+   "ipa": "[ˈʁɛntnɐ]",
+   "ru": "пенсионер",
+   "pos": "noun"
+  },
+  {
+   "de": "die Rentnerin",
+   "lemma": "Rentnerin",
+   "art": "die",
+   "pl": "die Rentnerinnen",
+   "forms": "",
+   "ipa": "[ˈʁɛntnəʁɪn]",
+   "ru": "пенсионерка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Schüler",
+   "lemma": "Schüler",
+   "art": "der",
+   "pl": "die Schüler",
+   "forms": "",
+   "ipa": "[ˈʃyːlɐ]",
+   "ru": "школьник",
+   "pos": "noun"
+  },
+  {
+   "de": "die Schülerin",
+   "lemma": "Schülerin",
+   "art": "die",
+   "pl": "die Schülerinnen",
+   "forms": "",
+   "ipa": "[ˈʃyːləʁɪn]",
+   "ru": "школьница",
+   "pos": "noun"
+  },
+  {
+   "de": "die Ausbildung",
+   "lemma": "Ausbildung",
+   "art": "die",
+   "pl": "die Ausbildungen",
+   "forms": "",
+   "ipa": "[ˈaʊ̯sbɪldʊŋ]",
+   "ru": "профобучение",
+   "pos": "noun"
+  },
+  {
+   "de": "der Mensch",
+   "lemma": "Mensch",
+   "art": "der",
+   "pl": "die Menschen",
+   "forms": "",
+   "ipa": "[mɛnʃ]",
+   "ru": "человек",
+   "pos": "noun"
+  },
+  {
+   "de": "die Person",
+   "lemma": "Person",
+   "art": "die",
+   "pl": "die Personen",
+   "forms": "",
+   "ipa": "[pɛʁˈzoːn]",
+   "ru": "человек, лицо",
+   "pos": "noun"
+  },
+  {
+   "de": "die Geschichte",
+   "lemma": "Geschichte",
+   "art": "die",
+   "pl": "die Geschichten",
+   "forms": "",
+   "ipa": "[ɡəˈʃɪçtə]",
+   "ru": "история",
+   "pos": "noun"
+  },
+  {
+   "de": "die Brille",
+   "lemma": "Brille",
+   "art": "die",
+   "pl": "die Brillen",
+   "forms": "",
+   "ipa": "[ˈbʁɪlə]",
+   "ru": "очки",
+   "pos": "noun"
+  },
+  {
+   "de": "das Gesicht",
+   "lemma": "Gesicht",
+   "art": "das",
+   "pl": "die Gesichter",
+   "forms": "",
+   "ipa": "[ɡəˈzɪçt]",
+   "ru": "лицо",
+   "pos": "noun"
+  },
+  {
+   "de": "blond",
+   "lemma": "blond",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[blɔnt]",
+   "ru": "светловолосый",
+   "pos": "adj"
+  },
+  {
+   "de": "dick",
+   "lemma": "dick",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[dɪk]",
+   "ru": "толстый",
+   "pos": "adj"
+  },
+  {
+   "de": "dünn",
+   "lemma": "dünn",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[dʏn]",
+   "ru": "худой, тонкий",
+   "pos": "adj"
+  },
+  {
+   "de": "sympathisch",
+   "lemma": "sympathisch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[zʏmˈpaːtɪʃ]",
+   "ru": "приятный, располагающий",
+   "pos": "adj"
+  },
+  {
+   "de": "nett",
+   "lemma": "nett",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[nɛt]",
+   "ru": "милый",
+   "pos": "adj"
+  },
+  {
+   "de": "freundlich",
+   "lemma": "freundlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈfʁɔʏ̯ntlɪç]",
+   "ru": "дружелюбный",
+   "pos": "adj"
+  },
+  {
+   "de": "komisch",
+   "lemma": "komisch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈkoːmɪʃ]",
+   "ru": "странный, смешной",
+   "pos": "adj"
+  },
+  {
+   "de": "klug",
+   "lemma": "klug",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[kluːk]",
+   "ru": "умный",
+   "pos": "adj"
+  },
+  {
+   "de": "intelligent",
+   "lemma": "intelligent",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ɪntɛliˈɡɛnt]",
+   "ru": "умный",
+   "pos": "adj"
+  },
+  {
+   "de": "fleißig",
+   "lemma": "fleißig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈflaɪ̯sɪç]",
+   "ru": "прилежный",
+   "pos": "adj"
+  },
+  {
+   "de": "faul",
+   "lemma": "faul",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[faʊ̯l]",
+   "ru": "ленивый",
+   "pos": "adj"
+  },
+  {
+   "de": "streng",
+   "lemma": "streng",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ʃtʁɛŋ]",
+   "ru": "строгий",
+   "pos": "adj"
+  },
+  {
+   "de": "lieb",
+   "lemma": "lieb",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[liːp]",
+   "ru": "добрый, милый",
+   "pos": "adj"
+  },
+  {
+   "de": "froh",
+   "lemma": "froh",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[fʁoː]",
+   "ru": "радостный",
+   "pos": "adj"
+  },
+  {
+   "de": "traurig",
+   "lemma": "traurig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈtʁaʊ̯ʁɪç]",
+   "ru": "грустный",
+   "pos": "adj"
+  },
+  {
+   "de": "berühmt",
+   "lemma": "berühmt",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[bəˈʁyːmt]",
+   "ru": "знаменитый",
+   "pos": "adj"
+  },
+  {
+   "de": "männlich",
+   "lemma": "männlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈmɛnlɪç]",
+   "ru": "мужской",
+   "pos": "adj"
+  },
+  {
+   "de": "ähnlich",
+   "lemma": "ähnlich",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɛːnlɪç]",
+   "ru": "похожий",
+   "pos": "adj"
+  },
+  {
+   "de": "der Unterschied",
+   "lemma": "Unterschied",
+   "art": "der",
+   "pl": "die Unterschiede",
+   "forms": "",
+   "ipa": "[ˈʊntɐʃiːt]",
+   "ru": "разница",
+   "pos": "noun"
+  },
+  {
+   "de": "das Tier",
+   "lemma": "Tier",
+   "art": "das",
+   "pl": "die Tiere",
+   "forms": "",
+   "ipa": "[tiːɐ̯]",
+   "ru": "животное",
+   "pos": "noun"
+  },
+  {
+   "de": "die Katze",
+   "lemma": "Katze",
+   "art": "die",
+   "pl": "die Katzen",
+   "forms": "",
+   "ipa": "[ˈkatsə]",
+   "ru": "кошка",
+   "pos": "noun"
+  },
+  {
+   "de": "das Pferd",
+   "lemma": "Pferd",
+   "art": "das",
+   "pl": "die Pferde",
+   "forms": "",
+   "ipa": "[pfeːɐ̯t]",
+   "ru": "лошадь",
+   "pos": "noun"
+  },
+  {
+   "de": "der Vogel",
+   "lemma": "Vogel",
+   "art": "der",
+   "pl": "die Vögel",
+   "forms": "",
+   "ipa": "[ˈfoːɡəl]",
+   "ru": "птица",
+   "pos": "noun"
+  },
+  {
+   "de": "der Babysitter",
+   "lemma": "Babysitter",
+   "art": "der",
+   "pl": "die Babysitter",
+   "forms": "",
+   "ipa": "[ˈbeːbiˌzɪtɐ]",
+   "ru": "няня",
+   "pos": "noun"
+  },
+  {
+   "de": "der Gruß",
+   "lemma": "Gruß",
+   "art": "der",
+   "pl": "die Grüße",
+   "forms": "",
+   "ipa": "[ɡʁuːs]",
+   "ru": "привет, поклон",
+   "pos": "noun"
+  },
+  {
+   "de": "das Fräulein",
+   "lemma": "Fräulein",
+   "art": "das",
+   "pl": "die Fräulein",
+   "forms": "",
+   "ipa": "[ˈfʁɔʏ̯laɪ̯n]",
+   "ru": "барышня (устар.)",
+   "pos": "noun"
+  },
+  {
+   "de": "die Großmutter",
+   "lemma": "Großmutter",
+   "art": "die",
+   "pl": "die Großmütter",
+   "forms": "",
+   "ipa": "[ˈɡʁoːsˌmʊtɐ]",
+   "ru": "бабушка",
+   "pos": "noun"
+  },
+  {
+   "de": "hübsch",
+   "lemma": "hübsch",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[hʏpʃ]",
+   "ru": "миловидный, красивый",
+   "pos": "adj"
+  },
+  {
+   "de": "irgendein",
+   "lemma": "irgendein",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɪʁɡəntˌʔaɪ̯n]",
+   "ru": "какой-то, какой-нибудь",
+   "pos": "adv"
+  },
+  {
+   "de": "irgendwann",
+   "lemma": "irgendwann",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɪʁɡəntˌvan]",
+   "ru": "когда-то, когда-нибудь",
+   "pos": "adv"
+  },
+  {
+   "de": "irgendwer",
+   "lemma": "irgendwer",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɪʁɡəntˌveːɐ̯]",
+   "ru": "кто-то, кто-нибудь",
+   "pos": "adv"
+  },
+  {
+   "de": "irgendwo",
+   "lemma": "irgendwo",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈɪʁɡəntˌvoː]",
+   "ru": "где-то, где-нибудь",
+   "pos": "adv"
+  },
+  {
+   "de": "jener",
+   "lemma": "jener",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈjeːnɐ]",
+   "ru": "тот (книжн.)",
+   "pos": "adv"
+  },
+  {
+   "de": "der Laptop",
+   "lemma": "Laptop",
+   "art": "der",
+   "pl": "die Laptops",
+   "forms": "",
+   "ipa": "[ˈlɛptɔp]",
+   "ru": "ноутбук",
+   "pos": "noun"
+  },
+  {
+   "de": "lustig",
+   "lemma": "lustig",
+   "art": "",
+   "pl": "",
+   "forms": "",
+   "ipa": "[ˈlʊstɪç]",
+   "ru": "весёлый, смешной",
+   "pos": "adj"
+  },
+  {
+   "de": "die Mama",
+   "lemma": "Mama",
+   "art": "die",
+   "pl": "die Mamas",
+   "forms": "",
+   "ipa": "[ˈmama]",
+   "ru": "мама",
+   "pos": "noun"
+  },
+  {
+   "de": "der Papa",
+   "lemma": "Papa",
+   "art": "der",
+   "pl": "die Papas",
+   "forms": "",
+   "ipa": "[ˈpapa]",
+   "ru": "папа",
+   "pos": "noun"
+  },
+  {
+   "de": "der Opa",
+   "lemma": "Opa",
+   "art": "der",
+   "pl": "die Opas",
+   "forms": "",
+   "ipa": "[ˈoːpa]",
+   "ru": "дедушка",
+   "pos": "noun"
+  },
+  {
+   "de": "der Nachname",
+   "lemma": "Nachname",
+   "art": "der",
+   "pl": "die Nachnamen",
+   "forms": "",
+   "ipa": "[ˈnaːxˌnaːmə]",
+   "ru": "фамилия",
+   "pos": "noun"
+  },
+  {
+   "de": "die Schleife",
+   "lemma": "Schleife",
+   "art": "die",
+   "pl": "die Schleifen",
+   "forms": "",
+   "ipa": "[ˈʃlaɪ̯fə]",
+   "ru": "бант, петля",
+   "pos": "noun"
+  },
+  {
+   "de": "die Schleppe",
+   "lemma": "Schleppe",
+   "art": "die",
+   "pl": "die Schleppen",
+   "forms": "",
+   "ipa": "[ˈʃlɛpə]",
+   "ru": "шлейф (платья)",
+   "pos": "noun"
+  }
+ ]
+}
